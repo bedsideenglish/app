@@ -1,0 +1,299 @@
+{
+  "id": "fm_015",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Rivera",
+  "age": 31,
+  "gender": "female",
+  "chief_complaint": "10 days of persistent productive cough following cold without high fever, tachypnea, or focal lung crackles",
+  "hpi_details": "31F presents with 10 days of persistent cough productive of clear to yellow sputum, beginning about 3 days after a typical upper respiratory cold with rhinorrhea and sore throat that has since resolved. Denies high fever, chills, night sweats, or chest pain. Reports mild wheeziness with forceful coughing but no significant shortness of breath at rest or with normal activity. No hemoptysis or unintentional weight loss.",
+  "ideas": "worried the cough is lingering too long and wonders if she needs antibiotics",
+  "concerns": "She is worried that the coughing fits will turn into severe pneumonia like her mother once had.",
+  "expectations": "She hopes to walk away with a prescription for antibiotics and a strong cough medicine so she can stop coughing during meetings.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Acute Viral Bronchitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Viral Bronchitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management for uncomplicated acute viral bronchitis emphasizes symptomatic supportive care and explicit avoidance of both chest radiography and antibiotics per Choosing Wisely guidelines, since the cough is viral in origin and can normally persist up to 3 weeks even without complication.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: 10 days of persistent productive cough following cold without high fever, tachypnea, or focal lung crackles",
+      "Key HPI features: 31F presents with 10 days of persistent cough productive of clear to yellow sputum, beginning about 3 days after a typical upper respiratory cold with rhinorrhea and sore throat that has since resolved. Denies high fever, chills, night sweats, or chest pain. Reports mild wheeziness with forceful coughing but no significant shortness of breath at rest or with normal activity. No hemoptysis or unintentional weight loss.",
+      "Objective/Exam findings: Vitals: Temp 37.1C, HR 78, RR 16, SpO2 99% on room air. Lung exam reveals scattered rhonchi that clear with coughing, without focal crackles, dullness to percussion, or increased tactile fremitus. No signs of respiratory distress or accessory muscle use. Oropharynx mildly erythematous without exudate; no cervical lymphadenopathy. No wheezing at rest.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Viral Bronchitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Community-acquired pneumonia (would have fever, focal findings) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: High fever, focal crackles, or significant breathlessness — would suggest pneumonia instead."
+    ],
+    "management_principles": [
+      "Diagnose clinically based on a cough of less than 3 weeks' duration following an upper respiratory infection, without the high fever, focal crackles, or tachypnea that would suggest pneumonia; chest X-ray is not indicated unless red flags are present.",
+      "STRICTLY AVOID empiric antibiotics: acute bronchitis is viral in the great majority of cases, and antibiotics do not shorten symptom duration or reduce complications, per Choosing Wisely and IDSA guidance.",
+      "Offer symptomatic relief: honey (for cough suppression in adults), over-the-counter dextromethorphan or guaifenesin as needed, and a trial of inhaled albuterol if bronchospasm/wheeze is present.",
+      "Counsel the patient that the cough may persist up to 3 weeks even with appropriate management, and provide safety-net instructions to return if fever develops, breathing worsens, or the cough persists beyond 3 weeks (which would warrant reassessment for an alternative diagnosis)."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "31F presenting with 10 days of persistent productive cough following a resolved upper respiratory cold, without high fever, tachypnea, or focal lung findings, consistent with Acute Viral Bronchitis.",
+    "objective": "Vitals: Temp 37.1C, HR 78, RR 16, SpO2 99% on room air. Lung exam reveals scattered rhonchi that clear with coughing, without focal crackles, dullness to percussion, or increased tactile fremitus. No signs of respiratory distress or accessory muscle use. Oropharynx mildly erythematous without exudate; no cervical lymphadenopathy. No wheezing at rest.",
+    "assessment": "Acute Viral Bronchitis, uncomplicated, without clinical evidence of pneumonia.",
+    "plan": "1. No chest X-ray indicated given the absence of red flags (no fever, tachypnea, or focal crackles). 2. Strictly avoid antibiotics, as this is a viral illness. 3. Symptomatic relief: honey for cough suppression, dextromethorphan or guaifenesin as needed, and a trial of inhaled albuterol given mild wheeziness with coughing. 4. Counsel that the cough may persist up to 3 weeks; advise rest, hydration, and smoking avoidance. 5. Safety-net counseling to return if fever develops, breathing worsens, or the cough persists beyond 3 weeks."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Bronchitis Viral Cough Management",
+    "Formulate prioritized differential diagnosis for 10 days of persistent productive cough following cold without high fever, tachypnea, or focal lung crackles",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Viral Bronchitis",
+    "one_liner": "A persistent cough following a cold, without high fever or focal lung findings — antibiotics and chest X-rays are deliberately avoided since the cause is viral and the cough can normally last up to 3 weeks.",
+    "differentials": [
+      "Community-acquired pneumonia (would have fever, focal findings)",
+      "Post-nasal drip cough",
+      "Asthma/reactive airway"
+    ],
+    "red_flags": [
+      "High fever, focal crackles, or significant breathlessness — would suggest pneumonia instead"
+    ],
+    "must_ask": [
+      {
+        "objective": "Preceding cold symptoms",
+        "say": "Did this cough start after a cold?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Cough character",
+        "say": "Is the cough productive, and what color is anything you cough up?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a high fever?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Breathlessness or wheeze",
+        "say": "Any shortness of breath or wheezing?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many days has this cough lasted?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 37.1
+    },
+    "history": [
+      {
+        "answer": "I have had this persistent chesty cough for the past 10 days, and it just will not go away.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It has been going on for exactly 10 days now.",
+        "topic": "Cough duration"
+      },
+      {
+        "answer": "It started about three days after a bad head cold with a runny nose and sore throat, but those cold symptoms went away.",
+        "topic": "Onset and cold symptoms"
+      },
+      {
+        "answer": "Yes, I am coughing up some phlegm that looks clear to slightly yellowish, maybe a teaspoon a few times a day, but with no bad smell.",
+        "topic": "Sputum production and color"
+      },
+      {
+        "answer": "It bothers me throughout the whole day, and lying down at night does not seem to make it much worse.",
+        "topic": "Timing and positional worsening"
+      },
+      {
+        "answer": "I cough in spells sometimes, but I do not make a whooping noise when breathing in, and I have never vomited from coughing.",
+        "topic": "Paroxysmal coughing and vomiting"
+      },
+      {
+        "answer": "Breathing in cold morning air or moving around quickly makes me cough more, but I do not notice problems with dust or pets.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "I feel a little wheezy or tight only when I cough really hard, but I am not short of breath sitting down or walking around.",
+        "topic": "Wheezing and shortness of breath"
+      },
+      {
+        "answer": "No, I have not had any high fever, shivering, or chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, there has never been any blood or pink streaks in my phlegm.",
+        "topic": "Blood in sputum"
+      },
+      {
+        "answer": "No, my weight has been completely steady and I have not had any drenching night sweats.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "I do not have any sharp chest pain when breathing, just some muscle soreness from coughing so much.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "I had a runny nose at the very start, but that cleared up a week ago and I do not feel mucus dripping down my throat anymore.",
+        "topic": "Runny nose and postnasal drip"
+      },
+      {
+        "answer": "No, I do not get heartburn, sour liquid backing up into my mouth, or throat clearing after meals.",
+        "topic": "Heartburn and acid reflux"
+      },
+      {
+        "answer": "No, I can lie flat without trouble and my legs and ankles have not swollen.",
+        "topic": "Orthopnea and leg swelling"
+      },
+      {
+        "answer": "No, I do not take any blood pressure pills or other regular medicines.",
+        "topic": "Blood pressure medications"
+      },
+      {
+        "answer": "No, I have never had tuberculosis and I have never been around anyone with it.",
+        "topic": "Tuberculosis exposure"
+      },
+      {
+        "answer": "A couple of my coworkers had a common cold two weeks ago, but no one is sick at home.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I work in an office and have not been around industrial fumes, chemical dust, mold, or pet birds.",
+        "topic": "Occupational and environmental exposures"
+      },
+      {
+        "answer": "No, I do not have asthma, eczema, or seasonal allergic rhinitis.",
+        "topic": "Allergic disease history"
+      },
+      {
+        "answer": "My mother ended up in the hospital with pneumonia after a cough like this, so I'm worried it's heading down that same path.",
+        "topic": "Patient thoughts and concerns"
+      },
+      {
+        "answer": "I do not have any chronic illnesses or medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription drugs, over-the-counter cold remedies, or herbal supplements right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medicines, foods, or materials.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a glass of wine socially once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office administrator and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of asthma, chronic lung problems, or cancer.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last period started two weeks ago, my cycles are regular every 28 days, we use condoms, and there is no chance I am pregnant.",
+        "topic": "Menstrual history and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, comfortable, and in no acute respiratory distress with no accessory muscle use.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 78 bpm, respiratory rate 16 breaths/min, temperature 37.1°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Oropharynx is mildly red without exudates or posterior pharyngeal drainage; nasal mucosa shows no swelling.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical or supraclavicular lymphadenopathy bilaterally.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric chest expansion with equal tactile fremitus bilaterally and no chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant to percussion across all lung fields without focal dullness.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Scattered coarse rhonchi that clear with coughing, with no focal crackles and no wheezing at rest.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal S1 and S2 with regular rate and rhythm; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No pedal edema and no digital clubbing noted.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

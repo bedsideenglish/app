@@ -1,0 +1,301 @@
+{
+  "id": "endo_034",
+  "system": "endo",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lopez",
+  "age": 44,
+  "gender": "female",
+  "chief_complaint": "abdominal obesity, moon face, purple striae, and muscle weakness",
+  "hpi_details": "A 44-year-old female presents to the clinic with abdominal obesity, moon face, purple striae, and muscle weakness. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks her rapid weight gain and rounded face are just early menopause combined with severe work stress.",
+  "concerns": "She is worried that her profound leg weakness means she will soon be unable to climb the stairs at work and keep her job.",
+  "expectations": "She hopes to get blood tests to check her hormones and find out why these purple stretch marks keep spreading.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Cushing Syndrome evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Cushing Syndrome is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Initial evaluation requires biochemical confirmation with accepted screening tests such as late-night salivary cortisol, 24-hour urinary free cortisol, or low-dose dexamethasone suppression; ACTH measurement and directed imaging follow only after hypercortisolism is confirmed.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: abdominal obesity, moon face, purple striae, and muscle weakness",
+      "Key HPI features: A 44-year-old female presents to the clinic with abdominal obesity, moon face, purple striae, and muscle weakness. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Cushing Syndrome.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Cushing Syndrome.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Simple obesity without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: severe hypertension, hypokalaemia, rapidly progressive new-onset diabetes, rapid onset of symptoms over weeks rather than months, signs of adrenal crisis (hypotension, severe weakness, or vomiting) if steroids are withdrawn abruptly."
+    ],
+    "management_principles": [
+      "Confirm hypercortisolism with appropriate screening tests, then measure ACTH and obtain directed pituitary or adrenal imaging only after biochemical confirmation",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Endocrine Society Clinical Practice Guideline: Treatment of Cushing's Syndrome",
+        "url": "https://academic.oup.com/jcem/article/100/8/2807/2836065"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of abdominal obesity, moon face, purple striae, and muscle weakness. HPI: excess cortisol production.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Cushing Syndrome.",
+    "assessment": "Condition highly suspicious for Cushing Syndrome.",
+    "plan": "Confirm hypercortisolism with appropriate screening tests, then measure ACTH and obtain directed pituitary or adrenal imaging only after biochemical confirmation."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Cushing Syndrome",
+    "Select appropriate diagnostic workup for Cushing Syndrome",
+    "Implement evidence-based management plan: Confirm hypercortisolism biochemically, then use ACTH-directed imaging to determine the source"
+  ],
+  "teaching": {
+    "diagnosis": "Cushing Syndrome",
+    "one_liner": "Excess cortisol causing abdominal obesity, moon face, purple striae, and muscle weakness.",
+    "differentials": [
+      "Simple obesity"
+    ],
+    "red_flags": [
+      "Severe hypertension, hypokalaemia, or rapidly progressive new-onset diabetes — suggests ectopic ACTH secretion (e.g., small cell lung cancer) rather than a pituitary adenoma",
+      "Rapid onset of symptoms over weeks rather than months — raises concern for an adrenal or ectopic malignancy",
+      "Signs of adrenal crisis (hypotension, severe weakness, vomiting) if steroids are withdrawn abruptly — a medical emergency"
+    ],
+    "must_ask": [
+      {
+        "objective": "Fat distribution",
+        "say": "Where is the weight gain concentrated?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Skin changes",
+        "say": "Any stretch marks?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Muscle weakness",
+        "say": "Is it hard to get up from sitting?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has this developed?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Steroid use",
+        "say": "Have you used steroid medications?",
+        "domains": [
+          "medications"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/90",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My belly has been getting really big and round, and my face looks swollen and puffy like a full moon.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about three to four months ago and has been creeping up on me slowly.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "Everything has been steadily getting worse over the past few weeks, especially the belly weight and facial puffiness.",
+        "topic": "Progression over time"
+      },
+      {
+        "answer": "The weight has collected right around my stomach and the back of my neck, while my arms and legs actually look thinner.",
+        "topic": "Fat distribution"
+      },
+      {
+        "answer": "My cheeks look puffy, round, and flushed red, so friends have been asking me why my face looks so swollen.",
+        "topic": "Facial appearance"
+      },
+      {
+        "answer": "My thighs and upper arms feel very weak, making it hard to climb stairs or get up from a low chair.",
+        "topic": "Muscle weakness"
+      },
+      {
+        "answer": "I noticed these wide, dark reddish-purple stretch marks across my belly and hips a few weeks ago.",
+        "topic": "Purple stretch marks"
+      },
+      {
+        "answer": "My skin feels paper-thin, and I get large black-and-blue bruises from the slightest bump.",
+        "topic": "Easy bruising and skin thinning"
+      },
+      {
+        "answer": "I feel completely exhausted and drained by midday, no matter how much rest I get.",
+        "topic": "Fatigue and energy levels"
+      },
+      {
+        "answer": "Nothing seems to make it better, and climbing stairs or standing up makes the muscle weakness much more obvious.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I have gained about eight kilograms over four months, even though I have not been eating any more than usual.",
+        "topic": "Diet and weight changes"
+      },
+      {
+        "answer": "No, I have never taken steroid pills, used steroid creams, or received steroid joint injections.",
+        "topic": "Steroid use"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I do not have headaches, blurry vision, or loss of side vision.",
+        "topic": "Headaches and vision changes"
+      },
+      {
+        "answer": "No, I have not had any severe dizziness, fainting spells, or intractable nausea and vomiting.",
+        "topic": "Dizziness and severe vomiting"
+      },
+      {
+        "answer": "No, I have never experienced anything like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I tried cutting down my calories and walking every evening, but I could not lose any weight and my legs just felt too weak.",
+        "topic": "Self-care and exercise efforts"
+      },
+      {
+        "answer": "I struggle to get up from my desk at work and feel very self-conscious about my changed facial appearance.",
+        "topic": "Impact on daily life and sleep"
+      },
+      {
+        "answer": "I thought maybe my body is going through early menopause or breaking down from all the stress at work.",
+        "topic": "Patient's thoughts on cause"
+      },
+      {
+        "answer": "I'm really worried that this weakness in my thighs will make it impossible for me to climb stairs at my office and do my job.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I'm hoping you can check my hormone levels with some blood tests and tell me why these purple marks keep spreading.",
+        "topic": "Expectations for today's visit"
+      },
+      {
+        "answer": "I have never been diagnosed with any chronic medical conditions like high blood pressure or diabetes in the past.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "No, I have never had any surgeries or hospital admissions.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or herbal supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "No, I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "My last period was about six weeks ago, and my periods have become very irregular and infrequent over the past few months.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "My husband uses condoms consistently, and there is no chance that I could be pregnant.",
+        "topic": "Contraception and pregnancy possibility"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes in my life.",
+        "topic": "Smoking"
+      },
+      {
+        "answer": "I only drink a glass of wine or beer once or twice a month at social dinners.",
+        "topic": "Alcohol"
+      },
+      {
+        "answer": "I work as an office accountant and live with my husband and teenage daughter.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has had endocrine problems, pituitary tumors, or adrenal disease.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 142/90 mmHg, heart rate is 76 beats per minute, respiratory rate is 16 breaths per minute, body temperature is 36.6 degrees Celsius, and oxygen saturation is 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Rounded moon facies with facial plethora, prominent central adiposity, and a prominent dorsocervical fat pad.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple wide violaceous striae across the lower abdomen and flanks, skin thinning, and several scattered ecchymoses on the forearms without active bleeding.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Distended, obese abdomen with prominent purple striae wider than one centimeter, without surgical scars.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Soft and non-tender throughout with excess subcutaneous adiposity; no palpable hepatosplenomegaly or abdominal mass.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral proximal muscle weakness in the hip flexors and shoulder abductors (grade 4/5), while distal motor strength is fully preserved (5/5).",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Visual fields are intact to confrontation testing with normal extraocular movements and no bitemporal visual field cuts.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Trace symmetric pitting edema over both lower shins without erythema or calf tenderness.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps, triceps, patellar, and Achilles deep tendon reflexes are 2+ bilaterally, and plantar responses are flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "id": "gs_005",
+  "system": "general_surgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. King",
+  "age": 61,
+  "gender": "male",
+  "chief_complaint": "severe colicky abdominal cramps, vomiting, abdominal distension, and inability to pass gas or stool",
+  "hpi_details": "61M with history of open colon surgery presenting with progressive abdominal distension, feculent vomiting, and high-pitched tinkling bowel sounds. CT shows dilated loops with air-fluid levels.",
+  "ideas": "He thinks he is suffering from severe constipation or a bad bout of food poisoning that backed up his bowels.",
+  "concerns": "He is terrified that the cancer or tumor from his previous colon surgery has come back.",
+  "expectations": "He hopes to receive a powerful laxative or an enema to flush out whatever is blocked in his bowels and relieve the pressure.",
+  "pmh": "History of open colon surgery; no other significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "available_results": [
+    {
+      "id": "ct_small_bowel_obstruction",
+      "test": "CT abdomen and pelvis with IV contrast",
+      "value": "Dilated small-bowel loops up to 4.2 cm with multiple air-fluid levels and a transition point adjacent to the prior operative site; no pneumatosis or free air",
+      "flag": "critical"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Small Bowel Obstruction due to Adhesions evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Small Bowel Obstruction due to Adhesions is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes bowel rest with nasogastric decompression and IV fluid resuscitation, with surgical intervention reserved for signs of strangulation or failure of nonoperative management, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe colicky abdominal cramps, vomiting, abdominal distension, and inability to pass gas or stool",
+      "Key HPI features: 61M with history of open colon surgery presenting with progressive abdominal distension, feculent vomiting, and high-pitched tinkling bowel sounds. CT shows dilated loops with air-fluid levels.",
+      "Objective/Exam findings: Abdomen distended and tympanic with high-pitched, tinkling bowel sounds. No peritoneal signs at rest. CT abdomen/pelvis shows dilated small bowel loops with air-fluid levels and a transition point, consistent with adhesive obstruction.",
+      "Relevant background/PMH: History of open colon surgery; no other significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Small Bowel Obstruction due to Adhesions.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Ileus (functional, no mechanical block) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever or peritoneal signs — suggests strangulation and bowel ischemia."
+    ],
+    "management_principles": [
+      "Keep patient NPO, place a nasogastric tube for decompression, and initiate IV fluid resuscitation with electrolyte correction",
+      "Perform serial abdominal exams and monitor for fever, tachycardia, or peritoneal signs suggesting strangulation",
+      "Obtain urgent General Surgery consultation; proceed to surgical exploration if there is evidence of strangulation, peritonitis, or failure of nonoperative management within 24-48 hours"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "SAGES & ACS Evidence-Based Surgical Practice Guidelines",
+        "url": "https://www.facs.org/quality-programs/about-quality/evidence-based-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Small Bowel Obstruction due to Adhesions: severe colicky abdominal cramps, vomiting, abdominal distension, and inability to pass gas or stool. 61M with history of open colon surgery presenting with progressive abdominal distension, feculent vomiting, and high-pitched tinkling bowel sounds. CT shows dilated loops with air-fluid levels.",
+    "objective": "Abdomen distended and tympanic with high-pitched, tinkling bowel sounds. No peritoneal signs at rest. CT abdomen/pelvis shows dilated small bowel loops with air-fluid levels and a transition point, consistent with adhesive obstruction.",
+    "assessment": "Small Bowel Obstruction due to Adhesions, uncomplicated (no current signs of strangulation).",
+    "plan": "1. NPO, nasogastric tube decompression, and IV fluid resuscitation with electrolyte correction. 2. Serial abdominal exams monitoring for signs of strangulation. 3. Urgent General Surgery consultation; proceed to surgery if strangulation, peritonitis, or failure of nonoperative management."
+  },
+  "learning_objectives": [
+    "Recognize the classic obstructive triad of colicky pain, distension, and inability to pass gas or stool",
+    "Link prior abdominal surgery to adhesions as the leading cause of small bowel obstruction",
+    "Identify signs suggesting strangulation that mandate urgent surgical intervention",
+    "Execute nonoperative management with NG decompression and fluid resuscitation"
+  ],
+  "teaching": {
+    "diagnosis": "Small Bowel Obstruction due to Adhesions",
+    "one_liner": "Scar tissue from prior abdominal surgery kinks or narrows the small bowel, causing colicky pain, distension, vomiting, and inability to pass gas or stool.",
+    "differentials": [
+      "Ileus (functional, no mechanical block)",
+      "Large bowel obstruction",
+      "Volvulus"
+    ],
+    "red_flags": [
+      "Fever or peritoneal signs — suggests strangulation and bowel ischemia"
+    ],
+    "must_ask": [
+      {
+        "objective": "Prior abdominal surgery",
+        "say": "Have you had abdominal surgery before, like a colon operation?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "surgery",
+          "colon",
+          "operation"
+        ]
+      },
+      {
+        "objective": "Character of the pain",
+        "say": "Does the pain come in waves, like cramping?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "cramp",
+          "colicky",
+          "waves"
+        ]
+      },
+      {
+        "objective": "Passing gas or stool",
+        "say": "Are you able to pass any gas or have a bowel movement?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "gas",
+          "stool",
+          "bowel movement"
+        ]
+      },
+      {
+        "objective": "Vomiting character",
+        "say": "What does the vomit look like — is it green, or does it smell foul?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "vomit",
+          "green",
+          "feculent"
+        ]
+      },
+      {
+        "objective": "Distension progression",
+        "say": "Has your belly been getting more swollen?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "distension",
+          "swollen",
+          "bloated"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 88,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My belly has been cramping horribly and swelling up, and I haven't been able to pass any gas or stool since yesterday.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The cramps started gradually two days ago. They have steadily gotten more frequent and much more intense.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "The pain is all over my stomach, especially right around my belly button. It hasn't shifted anywhere else.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "No, the pain stays in my belly and doesn't shoot into my back, shoulders, or groin.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It feels like severe squeezing cramps that come and go in painful waves every few minutes.",
+        "topic": "Character of the pain"
+      },
+      {
+        "answer": "When a wave hits, it gets up to an 8 out of 10. It has become significantly more painful since yesterday.",
+        "topic": "Pain severity and progression"
+      },
+      {
+        "answer": "Trying to sip water or eat anything triggers terrible cramps and vomiting right away. Nothing makes it feel better.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I had some mild bloating a couple of years after my bowel surgery, but never severe agony or vomiting like this.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I have vomited four or five times today. Lately it is brownish, watery, and smells foul like stool, but there is no blood.",
+        "topic": "Nausea and vomiting character"
+      },
+      {
+        "answer": "I haven't passed any gas or had a bowel movement since yesterday morning. Nothing is moving through at all.",
+        "topic": "Flatus and bowel movements"
+      },
+      {
+        "answer": "My belly has swollen up like a tight balloon over the past twenty-four hours.",
+        "topic": "Distension progression"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or sweating.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "My eyes and skin are not yellow. My urine is a bit dark because I can't keep fluids down, but no pale stools.",
+        "topic": "Jaundice and urine color"
+      },
+      {
+        "answer": "No burning or pain when I urinate, and no blood in my urine.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "I feel lightheaded when standing up because I've vomited so much, but I haven't passed out.",
+        "topic": "Dizziness or lightheadedness"
+      },
+      {
+        "answer": "No chest pain or pressure. It's just a bit hard to take a deep breath because my stomach is so swollen.",
+        "topic": "Chest pain and shortness of breath"
+      },
+      {
+        "answer": "I just had plain home-cooked rice and soup before this started, nothing greasy or unusual. I haven't had any alcohol.",
+        "topic": "Dietary triggers and alcohol"
+      },
+      {
+        "answer": "No, I haven't taken aspirin, ibuprofen, or any painkillers for this.",
+        "topic": "Pain relievers and aspirin"
+      },
+      {
+        "answer": "No, I've never had an irregular heartbeat, atrial fibrillation, or blood vessel clots.",
+        "topic": "Heart rhythm and vascular history"
+      },
+      {
+        "answer": "I had an open surgery on my large bowel about four years ago to take out a non-cancerous growth.",
+        "topic": "Prior abdominal surgery"
+      },
+      {
+        "answer": "I thought I just had terrible constipation or ate bad food that completely backed up my digestive system.",
+        "topic": "Thoughts on cause"
+      },
+      {
+        "answer": "I'm terrified that the bowel problem from my previous colon operation years ago has returned as cancer.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I was hoping you could give me a strong laxative or an enema to flush whatever is stuck out of my system and stop this vomiting.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I don't have high blood pressure, diabetes, or any other ongoing medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "Just that open colon surgery four years ago. I've had no other operations or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I don't take any regular prescription medications, over-the-counter pills, or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medicines, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional beer socially with friends, maybe once a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work full-time as an office manager and live with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No family history of colon cancer, bowel obstructions, or inflammatory bowel disease.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Patient appears acutely uncomfortable and visibly bloated, shifting frequently during cramp waves, with dry mucous membranes but alert and oriented.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 120/78 mmHg, pulse 88 beats per minute, respiratory rate 18 breaths per minute, temperature 36.8°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Distended, symmetric abdomen with a well-healed midline surgical scar and visible peristaltic ripples; no visible caput medusae or skin erythema.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "High-pitched, tinkling bowel sounds and occasional rushes heard throughout all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse hyperresonance and tympany on percussion across the entire abdomen; no shifting dullness or fluid wave.",
+        "maneuver": "abdominal_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse mild tenderness on light and deep palpation without localized rigidity or involuntary guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness elicited in any quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Negative Murphy's sign with no focal right upper quadrant tenderness or inspiratory arrest.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness at McBurney's point, and negative psoas, obturator, and Rovsing signs.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable inguinal, femoral, or incisional hernias with gentle palpation and coughing.",
+        "maneuver": "hernia_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on gentle percussion bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Empty rectal vault with no palpable masses, strictures, or impacted stool, and no blood on the examining glove.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

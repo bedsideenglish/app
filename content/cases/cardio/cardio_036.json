@@ -1,0 +1,357 @@
+{
+  "id": "cardio_036",
+  "system": "cardio",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Torres",
+  "age": 66,
+  "gender": "male",
+  "chief_complaint": "cramping leg pain in calves when walking 1 block, relieved by rest",
+  "hpi_details": "66-year-old male who smokes 1 pack per day complains of a reproducible, crampy, aching pain in his bilateral calves that begins every time he walks approximately one block (100 meters). The pain forces him to stop, and it completely resolves within 3-5 minutes of resting. Denies rest pain at night.",
+  "ideas": "He thinks the calf cramps are just poor circulation from getting older or a pinched nerve in his lower back.",
+  "concerns": "He is worried that the pain will get so bad he will develop gangrene and lose his foot, like an old coworker who smoked.",
+  "expectations": "He hopes to be prescribed some pills or compression socks to ease the cramps so he can walk to the grocery store without stopping.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Smokes 1 pack per day; social drinker",
+  "available_results": [
+    {
+      "id": "abi_bilateral_claudication",
+      "test": "Ankle-brachial index",
+      "value": "Right 0.62; left 0.60",
+      "unit": "",
+      "reference_range": "1.00-1.40",
+      "flag": "abnormal",
+      "collected_at": "Before today's encounter"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Peripheral Arterial Disease evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Peripheral Arterial Disease is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Peripheral Arterial Disease: Check Ankle-Brachial Index (ABI), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: cramping leg pain in calves when walking 1 block, relieved by rest",
+      "Key HPI features: 66-year-old male who smokes 1 pack per day with reproducible bilateral calf pain after walking one block that resolves within 3-5 minutes of rest and no rest pain.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Peripheral Arterial Disease.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Peripheral Arterial Disease.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Spinal stenosis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Rest pain, night pain, or a non-healing foot ulcer."
+    ],
+    "management_principles": [
+      "Plan for Peripheral Arterial Disease: Check Ankle-Brachial Index (ABI)",
+      "Prescribe Aspirin, high-dose statin, Cilostazol",
+      "Consult specialist if symptoms worsen"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2024 ACC/AHA/AACVPR/... Guideline for the Management of Lower Extremity Peripheral Artery Disease",
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001251"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "66M heavy smoker presenting with classic bilateral calf intermittent claudication.",
+    "objective": "Vitals: BP 145/90. Exam: Diminished dorsalis pedis and posterior tibial pulses bilaterally. Capillary refill >3 seconds in toes. No ulcers or gangrene. Ankle-Brachial Index (ABI) is 0.6 (diagnostic of PAD).",
+    "assessment": "Peripheral Arterial Disease (PAD) with intermittent claudication.",
+    "plan": "Start high-intensity statin (Atorvastatin 80mg) and antiplatelet therapy (Clopidogrel 75mg or Aspirin 81mg). Strongly advise smoking cessation. Refer for a supervised graded exercise/walking program to build collateral circulation. Cilostazol can be considered for symptom relief."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Peripheral Arterial Disease",
+    "Select appropriate diagnostic workup for Peripheral Arterial Disease",
+    "Implement evidence-based management plan: Check Ankle-Brachial Index (ABI). Prescribe Aspirin, high-dose statin, Cilostazol"
+  ],
+  "teaching": {
+    "diagnosis": "Peripheral Arterial Disease",
+    "one_liner": "Atherosclerosis in the leg arteries. Cramping calf pain at a fixed walking distance, relieved by standing still.",
+    "differentials": [
+      "Spinal stenosis",
+      "Osteoarthritis",
+      "Venous claudication"
+    ],
+    "red_flags": [
+      "Rest pain, night pain, or a non-healing foot ulcer"
+    ],
+    "must_ask": [
+      {
+        "objective": "Claudication distance and reproducibility",
+        "say": "How many blocks can you walk before it starts, and is it always the same?",
+        "domains": [
+          "severity",
+          "aggravating"
+        ],
+        "keywords": [
+          "block",
+          "distance",
+          "walk"
+        ]
+      },
+      {
+        "objective": "Relief with standing still",
+        "say": "Does it settle if you just stand still, without sitting down?",
+        "domains": [
+          "relieving"
+        ],
+        "keywords": [
+          "stand",
+          "still",
+          "rest",
+          "sit"
+        ]
+      },
+      {
+        "objective": "Rest and night pain",
+        "say": "Do you get the pain at night or when you're resting?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "night",
+          "rest",
+          "bed",
+          "hanging"
+        ]
+      },
+      {
+        "objective": "Foot ulcers and skin changes",
+        "say": "Have you noticed any sores or colour changes in your feet?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "ulcer",
+          "sore",
+          "colour",
+          "cold",
+          "hair",
+          "skin"
+        ]
+      },
+      {
+        "objective": "Smoking",
+        "say": "Do you smoke, and how many years have you smoked?",
+        "domains": [
+          "smoking"
+        ],
+        "keywords": [
+          "smoke",
+          "cigarette",
+          "pack"
+        ]
+      },
+      {
+        "objective": "Diabetes and cardiovascular disease",
+        "say": "Do you have diabetes, or any history of heart problems?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "sugar",
+          "heart",
+          "stroke"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "145/90",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Whenever I walk about one block, both of my calves cramp up and ache so badly that I have to stop.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about three or four months ago, and lately it happens almost every single time I walk any distance.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The pain is right in the back of both of my calves. It stays there and does not radiate down from my lower back or buttocks.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "It feels like a tight, cramping muscle ache, and the pain reaches about a 6 out of 10 if I try to push through it.",
+        "topic": "Nature and severity"
+      },
+      {
+        "answer": "It is very predictable; it starts whenever I walk about one block, which is around 100 meters.",
+        "topic": "Walking distance and reproducibility"
+      },
+      {
+        "answer": "When I stop and stand still for about three to five minutes, the pain completely fades away.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "I just have to stop walking; standing still relieves it, and bending forward or sitting down makes no difference.",
+        "topic": "Effect of posture"
+      },
+      {
+        "answer": "No, my legs never hurt when I am sitting on the sofa or lying in bed at night.",
+        "topic": "Rest and night pain"
+      },
+      {
+        "answer": "My feet feel somewhat cold from time to time, but I have not noticed them turning blue, pale, or purple.",
+        "topic": "Skin temperature and color changes"
+      },
+      {
+        "answer": "No, I check my feet regularly and I do not have any open sores, cuts, or non-healing ulcers.",
+        "topic": "Foot ulcers and skin breakdown"
+      },
+      {
+        "answer": "No numbness, tingling, or weakness in my legs or feet; they just cramp up when I walk.",
+        "topic": "Numbness and weakness"
+      },
+      {
+        "answer": "No, neither of my legs or ankles swell up.",
+        "topic": "Leg swelling"
+      },
+      {
+        "answer": "No, I do not have any back pain or stiffness.",
+        "topic": "Back pain"
+      },
+      {
+        "answer": "No fever, chills, fatigue, or unexplained weight loss.",
+        "topic": "Fever and general symptoms"
+      },
+      {
+        "answer": "No chest pain, pressure, or shortness of breath when I walk.",
+        "topic": "Chest pain and shortness of breath"
+      },
+      {
+        "answer": "I have never had trouble like this in my legs before, and this is the first time I am seeing a doctor for it.",
+        "topic": "Previous episodes and evaluations"
+      },
+      {
+        "answer": "I tried massaging my calves and taking acetaminophen a few times, but it didn't stop the cramps from coming back when I walked.",
+        "topic": "Treatments tried"
+      },
+      {
+        "answer": "Walking uphill or trying to walk faster brings on the calf cramping much sooner.",
+        "topic": "Triggers and walking pace"
+      },
+      {
+        "answer": "It makes running simple errands or walking to the local grocery store very frustrating because I have to stop and wait at every corner.",
+        "topic": "Impact on daily activities"
+      },
+      {
+        "answer": "I thought maybe it's just poor circulation from getting older, or maybe a pinched nerve in my lower back acting up.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified this might turn into gangrene and I'll end up losing a foot like an old buddy from work did.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can prescribe some circulation pills or compression stockings so I can walk to the store without having to stop every block.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have had an unremarkable medical history with no known high blood pressure, diabetes, high cholesterol, or heart problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been hospitalized.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I do not have any known allergies to medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have smoked one pack of cigarettes per day for about forty years.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I have a couple of beers socially on weekends, but nothing heavy.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am a retired postal worker living at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had heart trouble in his sixties, but no one in my family had poor leg circulation or amputations.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 145/90 mmHg, heart rate is 72 beats per minute, respiratory rate is 14 breaths per minute, and oxygen saturation is 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished male sitting comfortably in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are symmetrically diminished bilaterally; femoral pulses are palpable and equal.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral feet and toes are mildly cool to the touch with capillary refill greater than 3 seconds; no ulcerations, fissures, or gangrenous changes noted.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are soft and non-tender without localized swelling, warmth, or palpable cords bilaterally.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema observed in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Normal lumbar spinal alignment without tenderness to palpation, and negative straight leg raise bilaterally.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Motor strength is 5/5 in all muscle groups of the bilateral lower extremities including hip flexion, knee extension, and ankle dorsiflexion/plantarflexion.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Light touch and pinprick sensation are fully intact throughout both lower extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

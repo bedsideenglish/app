@@ -1,0 +1,357 @@
+{
+  "id": "ps_043",
+  "system": "ps",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Allen",
+  "age": 71,
+  "gender": "male",
+  "chief_complaint": "intertrigo rash and skin irritation under large abdominal fold",
+  "hpi_details": "A 71-year-old man has recurrent moist rash and skin irritation beneath a large abdominal fold, interfering with hygiene and mobility.",
+  "ideas": "He thinks the raw, red skin beneath his stomach fold is just a bad case of sweat chafing or heat rash from the summer humidity.",
+  "concerns": "He is worried that the raw skin will turn into a rotting infection that smells foul and embarrasses him around his grandchildren.",
+  "expectations": "He hopes to get a prescription drying powder to soothe the burn and a consultation about surgically trimming away the hanging flap of skin.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Abdominal Panniculus evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Abdominal Panniculus is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Abdominal Panniculus: Treat intertrigo, discuss reconstructive panniculectomy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: intertrigo rash and skin irritation under large abdominal fold",
+      "Key HPI features: Recurrent moist rash beneath a large abdominal fold interferes with hygiene and mobility.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Abdominal Panniculus.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Abdominal Panniculus.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Missing cellulitis, ulceration, or uncontrolled comorbidities before considering elective panniculectomy."
+    ],
+    "management_principles": [
+      "Plan for Abdominal Panniculus: Treat intertrigo, discuss reconstructive panniculectomy",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "71M with recurrent moist intertrigo and irritation under a large abdominal fold that limits hygiene and mobility.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Abdominal Panniculus.",
+    "assessment": "Condition highly suspicious for Abdominal Panniculus.",
+    "plan": "Keep the fold clean and dry and treat clinically suspected candidal intertrigo with a topical antifungal when appropriate; assess for bacterial cellulitis or ulceration. Discuss panniculectomy only after risk assessment and optimization of smoking status, diabetes, nutrition, and weight stability."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Abdominal Panniculus",
+    "Select appropriate diagnostic workup for Abdominal Panniculus",
+    "Implement evidence-based management plan: Treat intertrigo, discuss reconstructive panniculectomy"
+  ],
+  "teaching": {
+    "diagnosis": "Abdominal Panniculus",
+    "one_liner": "Plastic and reconstructive surgical case presenting with intertrigo rash and skin irritation under large abdominal fold.",
+    "differentials": [
+      "Ventral hernia beneath the panniculus",
+      "Cellulitis unrelated to the panniculus",
+      "Lipoma of the abdominal wall",
+      "Post-bariatric skin laxity without intertrigo"
+    ],
+    "red_flags": [
+      "Fever, rapidly spreading erythema, severe tenderness, purulent drainage, or systemic illness suggesting cellulitis or deeper infection",
+      "Ulceration, necrosis, uncontrolled bleeding, or inability to maintain hygiene requiring prompt clinical assessment"
+    ],
+    "must_ask": [
+      {
+        "objective": "Duration and severity of skin irritation",
+        "say": "How long has the rash under the skin fold been there, and how bad does it get?",
+        "domains": [
+          "onset_duration",
+          "severity"
+        ],
+        "keywords": [
+          "rash",
+          "duration",
+          "irritation",
+          "skin fold",
+          "severity"
+        ]
+      },
+      {
+        "objective": "Weight history and bariatric surgery",
+        "say": "Have you had significant weight loss or bariatric surgery?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "weight loss",
+          "bariatric",
+          "surgery",
+          "history",
+          "significant"
+        ]
+      },
+      {
+        "objective": "Hygiene and prior treatments tried",
+        "say": "What have you tried to manage the irritation, like powders or creams?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "hygiene",
+          "powder",
+          "cream",
+          "treatment",
+          "tried"
+        ]
+      },
+      {
+        "objective": "Functional limitations",
+        "say": "Does the abdominal fold limit your mobility or ability to care for the area?",
+        "domains": [
+          "ideas",
+          "concerns"
+        ],
+        "keywords": [
+          "mobility",
+          "function",
+          "limit",
+          "hygiene",
+          "activity"
+        ]
+      },
+      {
+        "objective": "Signs of infection or skin breakdown",
+        "say": "Have you noticed any odor, discharge, or open sores in the fold?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "odor",
+          "discharge",
+          "sores",
+          "infection",
+          "breakdown"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/78",
+      "hr": 72,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I came in because the skin under my hanging belly fold keeps getting raw, red, and irritated.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "This flare-up started about two weeks ago, but it has been an on-and-off issue for the past year, especially in warm weather.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is strictly in the deep crease beneath my lower belly fold, where the overhanging skin rests against my abdomen and groin.",
+        "topic": "Rash location"
+      },
+      {
+        "answer": "It looks like a solid bright-red patch that stays damp and raw, but there are no crusts or large blisters.",
+        "topic": "Rash appearance"
+      },
+      {
+        "answer": "It itches and burns, especially when the skin rubs together while I am walking or moving around.",
+        "topic": "Itching and burning"
+      },
+      {
+        "answer": "No, the redness stays there constantly; it does not fade away within hours like hives.",
+        "topic": "Lesion duration"
+      },
+      {
+        "answer": "Yes, I've had similar flares several times over the past year. It usually calms down slightly if I keep it dry, but it always returns.",
+        "topic": "Past episodes"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or body aches at all.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my skin is not peeling off in sheets, and there are no dark purple or bleeding spots.",
+        "topic": "Skin peeling and purple spots"
+      },
+      {
+        "answer": "No sores, blisters, or raw spots in my mouth, eyes, or genital area.",
+        "topic": "Mouth and eye lesions"
+      },
+      {
+        "answer": "No, I have had no swelling of my lips, tongue, or face, and my breathing is completely normal.",
+        "topic": "Facial swelling and breathing"
+      },
+      {
+        "answer": "No, I haven't started taking any new prescription medications, antibiotics, or pain pills.",
+        "topic": "New medications"
+      },
+      {
+        "answer": "No, I haven't changed my laundry detergent, body wash, or soap, and I haven't used any new body products.",
+        "topic": "New products and contacts"
+      },
+      {
+        "answer": "No one at home has any rash or itching; my wife's skin is completely clear.",
+        "topic": "Family and contact symptoms"
+      },
+      {
+        "answer": "No, I haven't been hiking in the woods, haven't had any bug bites, and haven't used any public pools or saunas.",
+        "topic": "Outdoor and travel history"
+      },
+      {
+        "answer": "I have never had eczema, asthma, or chronic seasonal allergies.",
+        "topic": "Past allergy history"
+      },
+      {
+        "answer": "No joint swelling or stiffness, and my fingernails and toenails look normal.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I tried applying some over-the-counter hydrocortisone cream and baby powder, but neither really solved the problem.",
+        "topic": "Ointments tried"
+      },
+      {
+        "answer": "I wash under the fold daily with mild soap and water and pat it dry, but moisture builds back up very quickly.",
+        "topic": "Daily hygiene routine"
+      },
+      {
+        "answer": "No, there is no pus, foul odor, or redness spreading outward onto my stomach.",
+        "topic": "Drainage and spreading redness"
+      },
+      {
+        "answer": "My weight has hovered around eighty-five kilograms for years. I have never had gastric bypass or any other weight-loss surgery.",
+        "topic": "Weight history and surgery"
+      },
+      {
+        "answer": "The heavy fold tugs on my lower back, and the constant chafing makes it uncomfortable to walk or stay active.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I have been in a faithful marriage with my wife for decades, and neither of us has any genital sores or discharge.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "A friend mentioned an operation called a panniculectomy to remove the excess abdominal apron, and I wondered if that might be the permanent fix.",
+        "topic": "Thoughts on panniculectomy"
+      },
+      {
+        "answer": "I'm really worried the raw skin is rotting and going to start smelling bad when my family comes to visit.",
+        "topic": "Concerns about surgery"
+      },
+      {
+        "answer": "I'm hoping for a strong prescription powder to stop this painful burning and to see if a surgeon can trim off this heavy apron of skin.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have generally been healthy, with no history of diabetes, hypertension, or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never been hospitalized.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any regular prescription medications or health supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medicines.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I am a lifelong non-smoker.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially, maybe a single beer or glass of wine once or twice a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am retired and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of skin conditions, psoriasis, or chronic skin infections.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/78 mmHg, heart rate 72 beats/min, respiratory rate 16 breaths/min, body temperature 36.7°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished elderly male in no acute distress, with prominent central obesity and an overhanging abdominal apron.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae anicteric and conjunctivae pink without pallor, injection, or jaundice.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa moist and pink without ulcers, thrush, or mucosal desquamation.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, supraclavicular, or axillary lymphadenopathy palpated.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Large abdominal panniculus hanging over the lower abdomen, with marked erythema and maceration hidden in the deep transverse fold.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, non-distended abdomen underneath the panniculus, with no masses, guarding, or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No reducible or tender ventral, umbilical, or inguinal hernia detected on coughing or straining.",
+        "maneuver": "hernia_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Confluent, moist erythematous plaques with superficial maceration along the infrapannicular fold, accompanied by a few pinpoint satellite papules and mild tender chafing, but without warmth, induration, or purulence.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "External genitalia appear normal, with no maceration extending into the scrotum and no inguinal adenopathy.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

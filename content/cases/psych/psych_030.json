@@ -1,0 +1,424 @@
+{
+  "id": "psych_030",
+  "system": "psych",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lewis",
+  "age": 32,
+  "gender": "female",
+  "chief_complaint": "decreased need for sleep, pressured speech, grandiosity",
+  "hpi_details": "A 32-year-old female presents after 7 days of decreased need for sleep with sustained energy, pressured speech, grandiosity, and escalating impulsive behavior causing marked impairment.",
+  "ideas": "She thinks she has tapped into a sudden creative breakthrough and unlimited mental energy that has freed her from needing normal sleep.",
+  "concerns": "She is worried that her family's overprotective interference will slow her down and sabotage her new business plans.",
+  "expectations": "She hopes the doctor will confirm she is completely healthy so her relatives will stop nagging her.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "acute_mania_medication_baseline",
+      "title": "Urgent acute mania medication-safety results",
+      "order_terms": ["renal function", "creatinine", "liver function", "hepatic function", "calcium", "tsh", "thyroid function", "toxicology", "urine drug screen", "uds", "pregnancy test", "urine hcg", "ecg", "ekg"],
+      "availability_message": "The urgent medication-safety results are now available; psychiatric admission and acute stabilization should not be delayed.",
+      "results": [
+        {"id": "creatinine", "test": "Serum creatinine", "value": "0.7", "unit": "mg/dL", "reference_range": "0.5-1.1", "flag": "normal", "specimen": "Blood", "collected_at": "During emergency assessment"},
+        {"id": "alt", "test": "ALT", "value": "22", "unit": "U/L", "reference_range": "7-35", "flag": "normal", "specimen": "Blood", "collected_at": "During emergency assessment"},
+        {"id": "calcium", "test": "Serum calcium", "value": "9.1", "unit": "mg/dL", "reference_range": "8.6-10.2", "flag": "normal", "specimen": "Blood", "collected_at": "During emergency assessment"},
+        {"id": "tsh", "test": "TSH", "value": "1.3", "unit": "uIU/mL", "reference_range": "0.4-4.0", "flag": "normal", "specimen": "Blood", "collected_at": "During emergency assessment"},
+        {"id": "urine_drug_screen", "test": "Urine drug screen", "value": "Negative for tested substances", "flag": "normal", "specimen": "Urine", "collected_at": "During emergency assessment"},
+        {"id": "urine_hcg", "test": "Urine hCG", "value": "Negative", "flag": "normal", "specimen": "Urine", "collected_at": "During emergency assessment"},
+        {"id": "ecg", "test": "12-lead ECG", "value": "Normal sinus rhythm at 92 bpm; QTc 428 ms", "flag": "normal", "collected_at": "During emergency assessment"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Bipolar I Disorder (Manic Episode) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Bipolar I Disorder (Manic Episode) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "A manic episode requires at least one week of abnormally elevated, expansive, or irritable mood and increased energy with associated symptoms and marked impairment, hospitalization, or psychosis; assess for substances, medications, and medical or neurologic causes.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: decreased need for sleep, pressured speech, grandiosity",
+      "Key HPI features: A 32-year-old female presents after 7 days of decreased need for sleep with sustained energy, pressured speech, grandiosity, and escalating impulsive behavior causing marked impairment.",
+      "Objective/Exam findings: Obtain vital signs, hydration status, focused neurologic and mental-status examination, including psychosis, insight, judgment, capacity, and suicide, self-harm, violence, vulnerability, and inability-to-care-for-self risk.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Bipolar I Disorder (Manic Episode).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Schizoaffective disorder without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging a patient with impaired judgment, psychosis, or inability to participate in a safe discharge plan; use local involuntary-treatment procedures when criteria are met.",
+      "Missing intoxication, stimulant use, medication-induced mania, delirium, hyperthyroidism, or neurologic illness as mimics or contributors.",
+      "Starting lithium or valproate without baseline renal, thyroid, hepatic, hematologic, metabolic, interaction, and pregnancy assessment as applicable; valproate has major fetal risk and requires explicit pregnancy-prevention counseling where relevant.",
+      "Ignoring critical warning signs such as: Severe impulse control loss (reckless spending/driving)."
+    ],
+    "management_principles": [
+      "Urgently assess danger to self or others, grave disability, capacity, ability to consent, and need for emergency psychiatric evaluation or involuntary admission under local law; obtain collateral when appropriate.",
+      "Admit to a psychiatric inpatient unit; use a low-stimulation setting, protect sleep and hydration, and restrict access to money, vehicles, and other foreseeable hazards.",
+      "Obtain CBC, CMP including renal and hepatic function and calcium, TSH, urine toxicology, blood alcohol level when indicated, ECG, and pregnancy test before teratogenic medicines when applicable. Initiate an antipsychotic and mood stabilizer per local protocol, with required drug-level, laboratory, metabolic, and adverse-effect monitoring."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "32-year-old woman with seven days of reduced need for sleep, sustained energy, pressured speech, grandiosity, escalating impulsive behavior, and marked impairment. Assess all manic symptoms, psychosis, prior mood episodes, substances/medications, medical or neurologic symptoms, collateral history, capacity, and suicide, self-harm, violence, vulnerability, and inability-to-care-for-self risk.",
+    "objective": "Obtain vital signs, hydration status, focused neurologic and mental-status examination, and targeted studies including CBC, CMP with renal/hepatic function and calcium, TSH, toxicology, alcohol testing when indicated, ECG, and pregnancy testing before teratogenic medicines when applicable.",
+    "assessment": "Manic episode with marked impairment, concerning for Bipolar I disorder; exclude substance/medication-induced and medical causes and characterize psychotic features and immediate risk.",
+    "plan": "Urgent psychiatric evaluation and inpatient admission; determine whether involuntary treatment criteria apply under local law. Use a low-stimulation setting, restore sleep and hydration, obtain collateral, and restrict foreseeable financial and driving risks. Initiate an antipsychotic and mood stabilizer per local protocol after baseline testing. Monitor serum levels and renal/thyroid function for lithium, hepatic/hematologic effects for valproate, and metabolic/neurologic adverse effects for antipsychotics. Discuss valproate's major fetal risk and pregnancy prevention when relevant."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Bipolar I manic",
+    "Select appropriate diagnostic workup for Bipolar I manic",
+    "Implement evidence-based management plan: Admit for safety, start Valproate or Lithium and Olanzapine"
+  ],
+  "teaching": {
+    "diagnosis": "Bipolar I Disorder (Manic Episode)",
+    "one_liner": "At least one week of abnormally elevated, expansive, or irritable mood with increased energy, associated manic symptoms, and marked impairment, hospitalization, or psychosis.",
+    "differentials": [
+      "Schizoaffective disorder",
+      "Substance-induced mania",
+      "Hyperthyroidism"
+    ],
+    "red_flags": [
+      "Severe impulse control loss (reckless spending/driving)",
+      "Acute exhaustion/dehydration",
+      "Suicide, self-harm, violence, vulnerability, inability to care for self, or impaired capacity",
+      "Delirium, intoxication, substance withdrawal, or rapidly changing consciousness"
+    ],
+    "must_ask": [
+      {
+        "objective": "Decreased need for sleep",
+        "say": "Do you feel full of energy even after sleeping only two or three hours?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "energy",
+          "sleeping",
+          "hours",
+          "sleep",
+          "rested"
+        ]
+      },
+      {
+        "objective": "Pressured speech and racing mind",
+        "say": "Does your mind feel like it is racing so fast that your words cannot keep up?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "racing",
+          "speech",
+          "fast",
+          "talking",
+          "mind"
+        ]
+      },
+      {
+        "objective": "Grandiosity and inflated self-esteem",
+        "say": "Do you feel you have special powers, famous connections, or a divine mission?",
+        "domains": [
+          "ideas"
+        ],
+        "keywords": [
+          "special",
+          "powers",
+          "mission",
+          "famous",
+          "grandiosity"
+        ]
+      },
+      {
+        "objective": "High-risk impulsive behavior",
+        "say": "Have you engaged in risky spending sprees, reckless driving, or risky sexual choices?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "spending",
+          "reckless",
+          "driving",
+          "gambling",
+          "impulsive"
+        ]
+      },
+      {
+        "objective": "Prior depressive episode history",
+        "say": "Have you also experienced severe depressive crashes in the past?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "depressive",
+          "depression",
+          "crashes",
+          "low",
+          "episodes"
+        ]
+      },
+      {
+        "objective": "Immediate safety, capacity, and collateral",
+        "say": "Are you having thoughts of suicide, harming yourself or anyone else, or do you feel unable to keep yourself safe? Is there someone we can contact to help us make a safe plan?",
+        "domains": [
+          "safety"
+        ],
+        "keywords": [
+          "suicide",
+          "self-harm",
+          "harm",
+          "safe",
+          "contact"
+        ]
+      },
+      {
+        "objective": "Substance, medication, and medical contributors",
+        "say": "Have you used alcohol, cannabis, stimulants, or other drugs, stopped any substances suddenly, or started medicines such as antidepressants or steroids?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "alcohol",
+          "cannabis",
+          "stimulants",
+          "drugs",
+          "stopped",
+          "steroids"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 92,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I haven't slept more than an hour or two a night for the past week, but I feel completely wired and my mind and mouth won't stop racing.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about seven days ago quite suddenly, and my energy and ideas have been ramping up continuously every single day.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "I've only been sleeping one or two hours each night, yet I jump out of bed feeling 100 percent energized and ready to take on the world.",
+        "topic": "Decreased need for sleep"
+      },
+      {
+        "answer": "I feel fantastic, completely euphoric and invincible, but I get very irritable and frustrated when other people tell me to slow down or calm down.",
+        "topic": "Mood and irritability"
+      },
+      {
+        "answer": "My thoughts are flying by so fast it feels like fireworks in my brain, and I just have an overwhelming urge to keep talking so I don't lose them.",
+        "topic": "Pressured speech and racing thoughts"
+      },
+      {
+        "answer": "I think my brain has just unlocked this incredible burst of creative power, so I don't even need regular sleep right now.",
+        "topic": "Grandiose ideas and self-esteem"
+      },
+      {
+        "answer": "I spent over five thousand dollars of my savings online buying top-tier electronics and designer clothes, and I've been driving much faster than usual because I felt in complete control.",
+        "topic": "Impulsive spending and risky behavior"
+      },
+      {
+        "answer": "No, I haven't heard any voices talking to me or commenting on what I do, and I haven't seen anything unusual or unreal.",
+        "topic": "Auditory and visual hallucinations"
+      },
+      {
+        "answer": "No, there are no voices ordering me to do anything.",
+        "topic": "Command hallucinations"
+      },
+      {
+        "answer": "No one is spying on me, following me, or putting thoughts into my head, and my thoughts aren't leaking out; I just feel unusually gifted.",
+        "topic": "Delusions and thought control"
+      },
+      {
+        "answer": "No, I've never experienced strange beliefs, paranoia, or hallucinations at times when my mood was normal.",
+        "topic": "Psychotic symptoms outside mood changes"
+      },
+      {
+        "answer": "About two years ago, I had a period of about three weeks where I felt terribly down, exhausted, couldn't get out of bed, and lost interest in everything.",
+        "topic": "Prior depressive episodes"
+      },
+      {
+        "answer": "No, absolutely not. I don't want to hurt or kill myself at all; I feel too full of life right now.",
+        "topic": "Suicidal or self-harm thoughts"
+      },
+      {
+        "answer": "No, I don't have any thoughts of harming anyone and I don't carry any weapons, though I did shout at my sister when she tried to take my car keys.",
+        "topic": "Homicidal thoughts and aggressive behavior"
+      },
+      {
+        "answer": "I haven't really eaten full meals or showered much because I've been so obsessed with working on my ideas, and I've missed three days of work.",
+        "topic": "Daily functioning and self-care"
+      },
+      {
+        "answer": "Deep down I know this speed isn't sustainable and I wondered if this could be mania like bipolar, so I came in wanting a proper evaluation and help.",
+        "topic": "Insight and willingness to receive treatment"
+      },
+      {
+        "answer": "I'm worried that my family is going to hold me back and ruin the huge new projects I'm trying to launch. I just want you to sign off that I'm completely fine so my family will stop bothering me and let me work.",
+        "topic": "Concerns and expectations"
+      },
+      {
+        "answer": "My sister was really worried about my spending and drove me here today; she's in the waiting room and you have my full permission to speak with her.",
+        "topic": "Collateral information and support"
+      },
+      {
+        "answer": "I had a busy project deadline at work last month, but nothing traumatic or unusual happened right before this started.",
+        "topic": "Recent stressors"
+      },
+      {
+        "answer": "No, I have never used methamphetamine, cocaine, cannabis, amphetamines, steroids, or any other recreational drugs.",
+        "topic": "Recreational drugs and steroids"
+      },
+      {
+        "answer": "I have never been diagnosed with a psychiatric condition before, so I've never been on mood stabilizers, antidepressants, or antipsychotics.",
+        "topic": "Prior psychiatric medications"
+      },
+      {
+        "answer": "No, I haven't had any headaches, seizures, episodes of confusion, fevers, heart palpitations, or unexplained weight loss.",
+        "topic": "Neurological and medical symptoms"
+      },
+      {
+        "answer": "No, I have never had a baby and I haven't been pregnant recently.",
+        "topic": "Recent pregnancy or childbirth"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions, no thyroid problems, and no history of head injuries.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any operations and I've never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I'm not taking any prescription medications, over-the-counter medicines, or dietary supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I don't have any known allergies to medications, foods, or anything else.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used e-cigarettes.",
+        "topic": "Smoking"
+      },
+      {
+        "answer": "I only drink a glass of wine occasionally when socialising, and I haven't had any alcohol over the last two weeks.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a graphic designer and I live by myself in an apartment, but my sister lives only ten minutes away.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has suffered from recurrent major depression, and my maternal aunt was diagnosed with bipolar disorder.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My sex drive has felt much higher this past week, but I haven't had any risky, unprotected, or new sexual encounters.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "My last menstrual period was two weeks ago, my cycles are regular every 28 days, I use condoms, and there's no chance I am pregnant.",
+        "topic": "Menstrual history and contraception"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, pulse 92 beats per minute, respiratory rate 16 breaths per minute, temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Awake, restless, and mildly disheveled young woman with psychomotor agitation, rapid body gestures, and intense, unblinking eye contact.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and fully oriented; speech is rapid, loud, and pressured; mood is elevated and irritable; thought process reveals flight of ideas with grandiose themes, without hallucinations or suicidal ideation; insight is partial.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is warm, pink, and dry with normal turgor, no rashes, and no intravenous needle tracks.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equally round and reactive to light; extraocular movements are intact without exophthalmos or lid lag.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and moves freely on swallowing without palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rhythm at 92 beats per minute with normal S1 and S2, and no murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, and non-tender throughout with no palpable masses or hepatosplenomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact with symmetric facial movements and intact sensation.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle tone and full 5/5 strength in all four extremities without focal weakness or cogwheel rigidity.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes are 2+ and symmetric throughout, and plantar responses are flexor bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "No resting tremor, postural tremor, asterixis, or involuntary movements detected.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple without nuchal rigidity, and Kernig and Brudzinski signs are negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Gait is brisk and energetic with steady balance, and finger-to-nose and rapid alternating movements are intact.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

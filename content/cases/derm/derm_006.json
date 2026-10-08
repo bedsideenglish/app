@@ -1,0 +1,324 @@
+{
+  "id": "derm_006",
+  "system": "dermatology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Foster",
+  "age": 23,
+  "gender": "female",
+  "chief_complaint": "intensely itchy, linear, excoriated papules and burrows between finger webs and wrists worsening severely at night (Scabies)",
+  "hpi_details": "23F medical student presents with 3-week history of excruciating, intractable itching that is dramatically worse at night after getting under warm bedcovers. Itching involves her wrists, between her fingers, waistline, and around her nipples. Reports that two of her roommates have also developed similar itchy rashes over the past week. Has scratched her arms raw attempting to relieve the itching.",
+  "ideas": "thinks she developed severe nervous eczema from medical school exams or bedbug bites",
+  "concerns": "desperate for sleep due to relentless nocturnal itching waking her up every hour",
+  "expectations": "wants strong prescription anti-itch pills and creams immediately",
+  "pmh": "No prior dermatological history",
+  "medications": "Over-the-counter antihistamines (ineffective)",
+  "social_hx": "Medical student, living in shared college apartment",
+  "available_results": [
+    {"id": "scabies_scraping", "test": "Mineral-oil skin scraping microscopy", "value": "Live Sarcoptes scabiei mite, ova, and scybala visualized", "flag": "abnormal", "specimen": "Interdigital burrow scraping"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Scabies evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Scabies is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes full-body topical permethrin with a mandatory repeat treatment in 7 days plus simultaneous treatment of household contacts and environmental decontamination, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: intensely itchy, linear, excoriated papules and burrows between finger webs and wrists worsening severely at night (Scabies)",
+      "Key HPI features: 23F medical student presents with 3-week history of excruciating, intractable itching that is dramatically worse at night after getting under warm bedcovers. Itching involves her wrists, between her fingers, waistline, and around her nipples. Reports that two of her roommates have also developed similar itchy rashes over the past week. Has scratched her arms raw attempting to relieve the itching.",
+      "Objective/Exam findings: Vitals: HR 76, Temp 36.7C. Skin exam reveals erythematous, excoriated papules, tiny vesicles, and pathognomonic 2-5 mm serpiginous, grayish-white linear tracts ('burrows') located across the interdigital web spaces of the fingers, flexor surfaces of the wrists, anterior axillary folds, and periareolar skin. Skin scraping of an intact interdigital burrow under mineral oil mount examined via light microscopy reveals live, eight-legged Sarcoptes scabiei mites, oval eggs, and brown fecal pellets (scybala).",
+      "Relevant background/PMH: No prior dermatological history",
+      "Current medications: Over-the-counter antihistamines (ineffective)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Scabies.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Atopic dermatitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Widespread crusted lesions — could suggest crusted (Norwegian) scabies in an immunocompromised patient."
+    ],
+    "management_principles": [
+      "Definitive scabicidal therapy: prescribe Topical Permethrin 5% cream",
+      "Patient must apply cream thoroughly from the neck down to the soles of the feet (paying meticulous attention to finger webs, under fingernails, groin, and gluteal cleft), leave on for 8-14 hours (overnight), and wash off",
+      "CRITICAL RULE: Repeat the exact full-body Permethrin application in 7 days to kill newly hatched nymphs"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "23F presenting with severely pruritic cutaneous eruption with nocturnal exacerbation, characteristic distribution, and household contacts affected, classic for Scabies infestation.",
+    "objective": "Vitals: HR 76, Temp 36.7C. Skin exam reveals erythematous, excoriated papules, tiny vesicles, and pathognomonic 2-5 mm serpiginous, grayish-white linear tracts ('burrows') located across the interdigital web spaces of the fingers, flexor surfaces of the wrists, anterior axillary folds, and periareolar skin. Skin scraping of an intact interdigital burrow under mineral oil mount examined via light microscopy reveals live, eight-legged Sarcoptes scabiei mites, oval eggs, and brown fecal pellets (scybala).",
+    "assessment": "Active Scabies Infestation (Sarcoptes scabiei var. hominis).",
+    "plan": "1. Definitive scabicidal therapy: prescribe Topical Permethrin 5% cream. Patient must apply cream thoroughly from the neck down to the soles of the feet (paying meticulous attention to finger webs, under fingernails, groin, and gluteal cleft), leave on for 8-14 hours (overnight), and wash off. CRITICAL RULE: Repeat the exact full-body Permethrin application in 7 days to kill newly hatched nymphs. (Alternatively, prescribe Oral Ivermectin 200 mcg/kg single dose, repeated on day 8-14). 2. Environmental decontamination: ALL household contacts and sexual partners must be treated simultaneously regardless of whether they itch. All clothing, bed linens, and towels used in the past 3 days must be hot-water washed and machine dried on high heat (or sealed in plastic bags for 72 hours). 3. Counsel that post-scabietic pruritus can persist for 2-4 weeks after successful eradication due to retained allergic antigen response (prescribe topical triamcinolone and oral cetirizine for symptom control)."
+  },
+  "learning_objectives": [
+    "Identify clinical hallmarks of Scabies infestation (intense nocturnal pruritus, interdigital/wrist/genital distribution, pathognomonic burrows, multiple household contacts affected)",
+    "Perform mineral oil skin scraping microscopic prep to visualize mites, eggs, and scybala (fecal pellets)",
+    "Outline exact patient administration instructions for Topical Permethrin 5% cream (neck-down full-body application left overnight for 8-14 hours, MANDATORY repeat application at day 7)",
+    "Coordinate comprehensive environmental decontamination and simultaneous treatment of all close contacts while managing post-scabietic allergic hypersensitivity itch"
+  ],
+  "teaching": {
+    "diagnosis": "Scabies",
+    "one_liner": "An infestation with the Sarcoptes scabiei mite causing intense itching that is dramatically worse at night, with burrows classically found between the finger webs, wrists, and waistline — highly contagious to close contacts.",
+    "differentials": [
+      "Atopic dermatitis",
+      "Contact dermatitis",
+      "Bedbug bites"
+    ],
+    "red_flags": [
+      "Widespread crusted lesions — could suggest crusted (Norwegian) scabies in an immunocompromised patient"
+    ],
+    "must_ask": [
+      {
+        "objective": "Nocturnal itching pattern",
+        "say": "Is the itching much worse at night, especially after getting into bed?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "night",
+          "worse at night"
+        ]
+      },
+      {
+        "objective": "Location of burrows",
+        "say": "Where is the itching worst — between your fingers, your wrists, your waistline?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "finger webs",
+          "wrists"
+        ]
+      },
+      {
+        "objective": "Contacts with similar symptoms",
+        "say": "Has anyone you live with had similar itching?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "roommates",
+          "contacts"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many weeks has this been going on?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "weeks"
+        ]
+      },
+      {
+        "objective": "Visible burrows",
+        "say": "Have you seen any thin, thread-like lines on your skin?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "burrows",
+          "lines"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 76,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "Doctor, the skin between my fingers and on my wrists has been itching terribly, especially at night when I am trying to sleep.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It began about three weeks ago right between my fingers, and it has gradually spread down to my wrists and around my waistline.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The itching becomes unbearable at night, particularly right after I get under warm blankets in bed.",
+        "topic": "Nocturnal itching pattern"
+      },
+      {
+        "answer": "It is worst between my fingers, on the inside of my wrists, around my waist, and around my nipples.",
+        "topic": "Location and rash distribution"
+      },
+      {
+        "answer": "I noticed tiny, thin grayish pencil-like lines between my fingers, along with scattered red bumps and small blisters.",
+        "topic": "Visible burrows and appearance"
+      },
+      {
+        "answer": "It is an excruciating, relentless itch that drives me crazy, but it does not really ache or burn unless I scratch the skin raw.",
+        "topic": "Itching and skin sensations"
+      },
+      {
+        "answer": "No, the bumps and lines stay in the same spots all day and do not disappear or move around like hives.",
+        "topic": "Fluctuation or transient hives"
+      },
+      {
+        "answer": "I have never had any itchy rash or skin problem like this before in my life.",
+        "topic": "Prior episodes"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, body aches, or fatigue.",
+        "topic": "Fever or systemic symptoms"
+      },
+      {
+        "answer": "No, my mouth, eyes, and private areas feel completely normal without any sores or redness.",
+        "topic": "Mucous membrane involvement"
+      },
+      {
+        "answer": "No skin has sloughed off and I do not have any dark purple spots, just scratches from trying to stop the itch.",
+        "topic": "Skin peeling or purpura"
+      },
+      {
+        "answer": "No swelling of my face, lips, or tongue, and I have had no shortness of breath or dizziness.",
+        "topic": "Facial swelling or breathing difficulty"
+      },
+      {
+        "answer": "I have not started any new prescription medications, antibiotics, or painkillers recently.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No new soaps, detergents, lotions, perfumes, or new jewelry, and I have not been near poison ivy.",
+        "topic": "Contact triggers or new products"
+      },
+      {
+        "answer": "Actually, two of my roommates developed the exact same itchy bumps over this past week.",
+        "topic": "Roommates and household contacts"
+      },
+      {
+        "answer": "I wondered if it could be bedbugs, but I have not seen any bugs, and I have not traveled or gone hiking recently.",
+        "topic": "Bites, travel, or outdoor exposure"
+      },
+      {
+        "answer": "I have no history of asthma, allergic rhinitis, or childhood eczema.",
+        "topic": "Allergy or atopy history"
+      },
+      {
+        "answer": "My joints feel completely normal, and my fingernails look unchanged.",
+        "topic": "Joint pain or nail changes"
+      },
+      {
+        "answer": "I bought over-the-counter antihistamine pills and tried a soothing lotion, but neither gave me any relief.",
+        "topic": "Applied creams and treatments"
+      },
+      {
+        "answer": "I am sexually active with one regular partner, and neither of us has any sores or ulcers in our genital area.",
+        "topic": "Sexual history and genital ulcers"
+      },
+      {
+        "answer": "With exams coming up, I wondered if this might be severe stress eczema from studying, or maybe bedbug bites from our apartment.",
+        "topic": "Patient ideas on cause"
+      },
+      {
+        "answer": "I am desperate to get some sleep because the intense itching wakes me up every single hour.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping you could give me a strong prescription cream or pill that will stop this itching immediately.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have no past medical problems or chronic illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "Just the over-the-counter allergy tablets I took over the last few days; no other prescription medications or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any drugs or medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional glass of beer on weekends with friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a medical student, and I share an off-campus apartment with three roommates.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has chronic skin conditions like psoriasis or severe eczema.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last menstrual period was two weeks ago, my cycles are regular, I use condoms, and there is no chance I am pregnant.",
+        "topic": "Menstrual cycle and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/74 mmHg, pulse 76 beats/min, respiratory rate 14 breaths/min, body temperature 36.7°C, SpO2 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Tired-appearing young woman in no acute respiratory distress, scratching her wrists and hands intermittently during the interview.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Erythematous excoriated papules, pinpoint vesicles, and pathognomonic 2 to 5 mm serpiginous grayish-white linear burrows across the interdigital finger webs, volar wrists, and waistline; nails and scalp are clear.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple excoriated red papules scattered over the periareolar skin bilaterally, without palpable masses or nipple discharge.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae anicteric and conjunctivae clear without injection, discharge, or periocular rash.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa pink and moist without erosions, vesicles, ulcers, or mucosal enanthem.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal external genitalia without excoriations, burrows, or genital ulcers.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, axillary, or inguinal lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      }
+    ]
+  }
+}

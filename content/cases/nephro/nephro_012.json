@@ -1,0 +1,360 @@
+{
+  "id": "nephro_012",
+  "system": "nephrology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Walker",
+  "age": 21,
+  "gender": "male",
+  "chief_complaint": "sudden generalized swelling and frothy urine following vaccination",
+  "hpi_details": "21M presenting with rapid-onset periorbital edema, anasarca, 4+ proteinuria (>5g/day), severe hypoalbuminemia, and normal renal biopsy under light microscopy.",
+  "ideas": "He thinks his sudden body swelling and foamy urine are a bad allergic reaction to the vaccination he received recently.",
+  "concerns": "He is worried that the severe swelling around his eyes will not go down and that he will lose his job if he cannot work his shifts.",
+  "expectations": "He hopes to be prescribed strong allergy medication or given a shot to bring down the swelling quickly.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "available_results": [
+    {
+      "id": "urine_protein_24h",
+      "test": "24-hour urine protein",
+      "value": "6.2",
+      "unit": "g/day",
+      "reference_range": "<0.15",
+      "flag": "high"
+    },
+    {
+      "id": "serum_albumin",
+      "test": "Serum albumin",
+      "value": "1.6",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "flag": "low"
+    },
+    {
+      "id": "renal_biopsy",
+      "test": "Renal biopsy",
+      "value": "Normal glomeruli on light microscopy; diffuse podocyte foot-process effacement on electron microscopy; negative immunofluorescence",
+      "flag": "abnormal"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Minimal Change Disease (Nephrotic Syndrome) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Minimal Change Disease (Nephrotic Syndrome) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes high-dose oral corticosteroids as first-line induction therapy, since MCD is typically highly steroid-responsive, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden generalized swelling and frothy urine following vaccination",
+      "Key HPI features: 21M presenting with rapid-onset periorbital edema, anasarca, 4+ proteinuria (>5g/day), severe hypoalbuminemia, and normal renal biopsy under light microscopy.",
+      "Objective/Exam findings: Vitals: BP 128/82, HR 88, Weight up 6 kg over one week. Marked periorbital and scrotal edema, 3+ pitting edema to the knees. Urinalysis: 4+ protein, bland sediment (no hematuria or casts). 24-hour urine protein 6.2 g/day. Bloods: Serum albumin 1.6 g/dL, Total cholesterol 340 mg/dL, Creatinine 0.9 mg/dL. Renal biopsy: normal glomeruli on light microscopy with diffuse podocyte foot process effacement on electron microscopy and negative immunofluorescence.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Minimal Change Disease (Nephrotic Syndrome).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Focal segmental glomerulosclerosis (FSGS) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Signs of infection (fever, abdominal pain) — nephrotic patients are at increased risk of spontaneous peritonitis."
+    ],
+    "management_principles": [
+      "Initiate high-dose oral corticosteroids (Prednisone 1 mg/kg/day, max 80mg) as first-line induction therapy — MCD is typically highly steroid-responsive",
+      "Sodium restriction (<2 g/day) and loop diuretics (Furosemide) for symptomatic edema",
+      "Monitor for infection given the nephrotic state and steroid immunosuppression",
+      "Taper steroids gradually once remission achieved; consider steroid-sparing agents if frequently relapsing or steroid-resistant"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "21M presents with rapid-onset periorbital and generalized swelling and frothy urine, developing over the past week, shortly after a routine vaccination.",
+    "objective": "Vitals: BP 128/82, HR 88, Weight up 6 kg over one week. Marked periorbital and scrotal edema, 3+ pitting edema to the knees. Urinalysis: 4+ protein, bland sediment (no hematuria or casts). 24-hour urine protein 6.2 g/day. Bloods: Serum albumin 1.6 g/dL, Total cholesterol 340 mg/dL, Creatinine 0.9 mg/dL. Renal biopsy: normal glomeruli on light microscopy with diffuse podocyte foot process effacement on electron microscopy and negative immunofluorescence.",
+    "assessment": "Minimal Change Disease presenting as Nephrotic Syndrome.",
+    "plan": "Initiate high-dose oral corticosteroids (Prednisone 1 mg/kg/day, max 80mg) as first-line induction therapy. Sodium restriction (<2 g/day) and loop diuretics (Furosemide) for symptomatic edema. Monitor for infection given the nephrotic state and steroid immunosuppression. Taper steroids gradually once remission achieved; consider steroid-sparing agents if frequently relapsing or steroid-resistant."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Minimal Change Disease Nephrotic Syndrome",
+    "Formulate prioritized differential diagnosis for sudden generalized swelling and frothy urine following vaccination",
+    "Select appropriate laboratory and imaging studies for nephrology",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Minimal Change Disease (Nephrotic Syndrome)",
+    "one_liner": "The most common cause of nephrotic syndrome in children (and seen in young adults too), with rapid-onset massive swelling and heavy proteinuria despite a normal-appearing biopsy on light microscopy — usually very responsive to steroids.",
+    "differentials": [
+      "Focal segmental glomerulosclerosis (FSGS)",
+      "Membranous nephropathy",
+      "Allergic reaction with angioedema"
+    ],
+    "red_flags": [
+      "Signs of infection (fever, abdominal pain) — nephrotic patients are at increased risk of spontaneous peritonitis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset speed",
+        "say": "How quickly did the swelling come on — over days?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "rapid",
+          "sudden",
+          "days"
+        ]
+      },
+      {
+        "objective": "Distribution of swelling",
+        "say": "Where is the swelling — around your eyes, or all over?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "periorbital",
+          "anasarca"
+        ]
+      },
+      {
+        "objective": "Urine appearance",
+        "say": "Has your urine looked foamy?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "foamy",
+          "frothy"
+        ]
+      },
+      {
+        "objective": "Recent vaccination or illness",
+        "say": "Did you have a vaccination or infection recently before this started?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "vaccine",
+          "vaccination"
+        ]
+      },
+      {
+        "objective": "Weight gain",
+        "say": "How much weight have you gained from the fluid?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/82",
+      "hr": 88,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "My whole body suddenly started swelling up over the past week, and my urine has become very foamy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started in my eyelids and face, but now my legs, belly, and even my scrotum are swollen.",
+        "topic": "Distribution of swelling"
+      },
+      {
+        "answer": "It came on very quickly about a week ago and has gotten noticeably worse every single day.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "My eyes and face are puffy when I wake up in the morning, and my legs get tighter and more swollen by evening.",
+        "topic": "Daily variation of swelling"
+      },
+      {
+        "answer": "Yes, when I press my shins, deep pits stay there for a while, and my socks leave deep grooves on my ankles.",
+        "topic": "Pitting and sock marks"
+      },
+      {
+        "answer": "I stepped on the scale two days ago and I have gained about 6 kilograms over this past week.",
+        "topic": "Recent weight gain"
+      },
+      {
+        "answer": "No, both legs are equally swollen and neither leg is painful, red, or warm.",
+        "topic": "Unilateral leg pain or redness"
+      },
+      {
+        "answer": "No, I do not feel short of breath, and I can sleep flat on one pillow without any trouble.",
+        "topic": "Shortness of breath and orthopnea"
+      },
+      {
+        "answer": "It looks very frothy and bubbly like soap suds in the toilet bowl, but the color is normal yellow, not dark or bloody.",
+        "topic": "Urine appearance and foaming"
+      },
+      {
+        "answer": "My belly feels a little tight and bloated, but my skin and eyes have not turned yellow, and I have not had any unusual bruising.",
+        "topic": "Abdominal distension and jaundice"
+      },
+      {
+        "answer": "No, I have not had a sore throat, runny nose, or skin sores recently.",
+        "topic": "Recent throat or skin infection"
+      },
+      {
+        "answer": "No, I do not feel sensitive to cold, my skin is not dry, and my bowels have been regular.",
+        "topic": "Cold intolerance and bowel habits"
+      },
+      {
+        "answer": "My appetite has been normal, and I have not had any vomiting, nausea, or diarrhea.",
+        "topic": "Appetite and gastrointestinal symptoms"
+      },
+      {
+        "answer": "No, I have not had any surgery, I have not been stuck in bed, and I have not taken any long flights.",
+        "topic": "Surgery and immobility"
+      },
+      {
+        "answer": "No, I haven't taken any painkillers like ibuprofen, and I don't take steroids or hormones.",
+        "topic": "Painkillers and steroids"
+      },
+      {
+        "answer": "I only drink a beer socially once or twice a month, and I have never had hepatitis.",
+        "topic": "Alcohol and hepatitis history"
+      },
+      {
+        "answer": "I have high blood pressure and mild high cholesterol, but I do not have diabetes.",
+        "topic": "Chronic medical conditions"
+      },
+      {
+        "answer": "I eat a pretty standard diet without extra salt, and I sit at a desk for work rather than standing all day.",
+        "topic": "Dietary salt and standing"
+      },
+      {
+        "answer": "I got a routine booster vaccine about a week ago, just a few days before this swelling started.",
+        "topic": "Recent vaccination"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or stomach pain at all.",
+        "topic": "Fever or abdominal pain"
+      },
+      {
+        "answer": "I figured my body was having a bad allergic reaction to that vaccine shot I got a few days ago.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I'm really worried that this puffiness won't go away and I'll end up losing my job because I can barely see to do my work.",
+        "topic": "Main worries and concerns"
+      },
+      {
+        "answer": "I'm hoping to get some strong allergy medicine or an injection that can flush this puffiness out right away.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I have high blood pressure and mild high cholesterol, both diagnosed about a year ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been hospitalized before.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take Lisinopril 10 milligrams once a day for my blood pressure.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications or anything else that I know of.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink a beer once or twice a month with friends, but nothing heavy.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work full-time in an office and live in an apartment with my roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has kidney disease, dialysis, or early heart problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/82 mmHg, heart rate 88 beats/min, respiratory rate 16 breaths/min, body temperature 36.7°C, oxygen saturation 99%, weight up 6 kg from baseline.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Marked bilateral periorbital edema with facial puffiness; patient is comfortable at rest without respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae are non-icteric and conjunctivae are pink without pallor.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender, with no palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pressure is normal with no visible jugular venous distension.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Normal S1 and S2 with regular rate and rhythm; no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Vesicular breath sounds clear bilaterally throughout all lung fields; no crackles or wheezing.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild abdominal distension with shifting dullness present; no fluid wave elicited.",
+        "maneuver": "ascites_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender to light and deep palpation, with no hepatosplenomegaly or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Marked scrotal edema without erythema, warmth, or testicular tenderness.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral 3+ pitting edema extending up to both knees, symmetric on both lower extremities.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are symmetric in circumference without localized warmth, erythema, cord, or calf tenderness.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

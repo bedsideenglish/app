@@ -1,0 +1,357 @@
+{
+  "id": "cardio_003",
+  "system": "cardiology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Patel",
+  "age": 34,
+  "gender": "female",
+  "chief_complaint": "episodes of palpitations for 3 weeks",
+  "hpi_details": "sudden episodes of fast heartbeat lasting 5-10 minutes, sometimes with lightheadedness, triggered by coffee and stress, no chest pain or syncope",
+  "ideas": "thinks it may be anxiety",
+  "concerns": "worried it could be a heart rhythm problem",
+  "expectations": "wants to know if she needs tests or medication",
+  "pmh": "no known medical problems",
+  "medications": "combined oral contraceptive pill, no supplements",
+  "social_hx": "drinks 3 coffees daily, no smoking, occasional alcohol, medical student under exam stress",
+  "clinical_knowledge": {
+    "topic": "Intermittent Palpitations evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Intermittent Palpitations is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes assessing red flags, obtaining an ECG and labs, reducing caffeine intake, considering ambulatory monitoring, and safety-netting for syncope or chest pain, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: episodes of palpitations for 3 weeks",
+      "Key HPI features: sudden episodes of fast heartbeat lasting 5-10 minutes, sometimes with lightheadedness, triggered by coffee and stress, no chest pain or syncope",
+      "Objective/Exam findings: Check pulse, BP, ECG, thyroid function, FBC, electrolytes. Consider Holter monitor.",
+      "Relevant background/PMH: no known medical problems",
+      "Current medications: combined oral contraceptive pill, no supplements"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Intermittent Palpitations.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Supraventricular tachycardia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Palpitations with fainting, chest pain, or a family history of sudden death."
+    ],
+    "management_principles": [
+      "Assess red flags, ECG, labs, reduce caffeine, consider ambulatory monitoring, safety-net for syncope/chest pain",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines.",
+      "Provide clear patient education, address patient concerns, and establish explicit follow-up and safety-netting instructions."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2015 ACC/AHA/HRS Guideline for the Management of Adult Patients with Supraventricular Tachycardia",
+        "url": "https://professional.heart.org/en/guidelines-statements/supraventricular-tachycardia-guideline"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "34F with 3-week history of brief palpitations, lightheadedness, triggered by caffeine/stress. No chest pain or syncope.",
+    "objective": "Check pulse, BP, ECG, thyroid function, FBC, electrolytes. Consider Holter monitor.",
+    "assessment": "Intermittent palpitations. DDx: SVT, premature beats, anxiety, hyperthyroidism, anaemia.",
+    "plan": "Assess red flags, ECG, labs, reduce caffeine, consider ambulatory monitoring, safety-net for syncope/chest pain."
+  },
+  "learning_objectives": [
+    "Ask about rhythm symptoms, triggers, duration, syncope, chest pain",
+    "Explain palpitations in patient-friendly language",
+    "Safety-net for concerning symptoms"
+  ],
+  "teaching": {
+    "diagnosis": "Intermittent Palpitations",
+    "one_liner": "The heart being felt when it normally isn't. The history — how it starts, stops, and feels — separates a benign cause from an arrhythmia.",
+    "differentials": [
+      "Supraventricular tachycardia",
+      "Anxiety / panic attacks",
+      "Thyrotoxicosis"
+    ],
+    "red_flags": [
+      "Palpitations with fainting, chest pain, or a family history of sudden death"
+    ],
+    "must_ask": [
+      {
+        "objective": "How it starts and stops",
+        "say": "Does it start suddenly, like a switch, or build up gradually?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "sudden",
+          "gradual",
+          "switch",
+          "build"
+        ]
+      },
+      {
+        "objective": "Rhythm — regular or irregular",
+        "say": "Could you tap out the rhythm for me? Is it regular or all over the place?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "regular",
+          "irregular",
+          "fast",
+          "skip",
+          "tap"
+        ]
+      },
+      {
+        "objective": "Triggers",
+        "say": "Is there anything that sets it off — caffeine, alcohol, exercise, stress?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "coffee",
+          "caffeine",
+          "alcohol",
+          "exercise",
+          "stress"
+        ]
+      },
+      {
+        "objective": "Associated syncope or chest pain",
+        "say": "Have you ever passed out or had chest pain with an episode?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "faint",
+          "pass",
+          "out",
+          "black",
+          "chest",
+          "pain",
+          "dizzy"
+        ]
+      },
+      {
+        "objective": "Thyroid symptoms",
+        "say": "Have you noticed weight loss, feeling hot, or trembling hands?",
+        "keywords": [
+          "weight",
+          "hot",
+          "sweaty",
+          "tremor",
+          "shaking",
+          "thyroid"
+        ]
+      },
+      {
+        "objective": "Family history of early heart disease",
+        "say": "Has anyone in your family had a heart attack, especially young?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "family",
+          "father",
+          "mother",
+          "brother",
+          "sister"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I've been having sudden episodes where my heart starts beating really fast, and it has been happening for the past three weeks.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like my heart is fluttering and racing very fast inside my chest, like a hummingbird trapped inside.",
+        "topic": "Character of palpitations"
+      },
+      {
+        "answer": "It beats very fast but in a steady, regular rhythm, like tap-tap-tap-tap without skipping beats.",
+        "topic": "Rhythm and regularity"
+      },
+      {
+        "answer": "It starts completely out of nowhere like flipping an electric switch, and then it stops just as abruptly.",
+        "topic": "Onset and termination"
+      },
+      {
+        "answer": "The episodes started three weeks ago, last about five to ten minutes each time, and happen two or three times a week.",
+        "topic": "Frequency and duration"
+      },
+      {
+        "answer": "They usually happen when I'm drinking my afternoon coffee or staying up late studying under exam stress.",
+        "topic": "Triggers"
+      },
+      {
+        "answer": "Resting quietly and drinking a cold glass of water seem to help it go back to normal.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "I've felt slightly lightheaded once or twice when it was racing, but I have never passed out, blacked out, or fainted.",
+        "topic": "Dizziness and fainting"
+      },
+      {
+        "answer": "No, it doesn't happen while I'm exercising or running; it usually hits when I'm sitting down studying.",
+        "topic": "Exertional symptoms"
+      },
+      {
+        "answer": "No, I haven't had any chest pain, chest pressure, or shortness of breath during the episodes.",
+        "topic": "Chest pain and breathing"
+      },
+      {
+        "answer": "No, I haven't had any heat intolerance, excessive sweating, unintentional weight loss, or hand tremors.",
+        "topic": "Thyroid symptoms"
+      },
+      {
+        "answer": "No, I haven't felt unusually tired, my periods aren't heavy, and I haven't noticed any pale or yellow skin.",
+        "topic": "Fatigue and anemia symptoms"
+      },
+      {
+        "answer": "No, I haven't seen any black tarry stools or blood in my stool.",
+        "topic": "Bleeding and stool color"
+      },
+      {
+        "answer": "No, I don't get severe pounding headaches, cold drenching sweats, or pale skin during the episodes.",
+        "topic": "Headache sweating and pallor"
+      },
+      {
+        "answer": "No, I don't feel shaky or sweaty when I miss a meal.",
+        "topic": "Hunger and shaking"
+      },
+      {
+        "answer": "I feel stressed about my exams, but I haven't had sudden panic attacks, hyperventilation, or numbness in my hands.",
+        "topic": "Panic and anxiety symptoms"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, cough, sore throat, or recent viral infections.",
+        "topic": "Fever and recent illness"
+      },
+      {
+        "answer": "I drink about three mugs of brewed coffee every day to stay awake for studying, but no energy drinks.",
+        "topic": "Caffeine intake"
+      },
+      {
+        "answer": "No, I don't take any cold syrups, nasal decongestant sprays, asthma inhalers, or diet pills.",
+        "topic": "Over the counter stimulants"
+      },
+      {
+        "answer": "I've never had high blood pressure, heart disease, or any abnormal heart tracings before.",
+        "topic": "Past heart history"
+      },
+      {
+        "answer": "No one in my family died suddenly at a young age, and there's no history of arrhythmias or heart muscle problems.",
+        "topic": "Family history of heart problems"
+      },
+      {
+        "answer": "I've wondered if it's just exam anxiety, but it feels so physical that I worry it might be a true heart rhythm problem.",
+        "topic": "Ideas and concerns"
+      },
+      {
+        "answer": "I wanted to see if I need an electrocardiogram or any medication to stop this from happening during my exams.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have no chronic medical conditions and have always been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any surgeries and I've never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take a combined oral contraceptive pill every morning, and I don't take any vitamins or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink alcohol occasionally, maybe a glass of wine once or twice a month with friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I'm a medical student studying for my board exams, and I live alone in an apartment near campus.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My last period was two weeks ago, my cycles are regular every 28 days on the pill, and there is no chance of pregnancy.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, calm, and appears comfortable in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 76 beats per minute regular, respirations 16 breaths per minute, temperature 36.7 C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor; sclerae are clear and anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No exophthalmos, lid lag, or abnormal eye signs; pupils are equal and reactive.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal size, symmetrical, non-tender, with no palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal S1 and S2 with regular rate and rhythm; no murmurs, gallops, or friction rubs heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial pulses are strong, regular at 76 beats per minute, and symmetric bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds throughout both lung fields without crackles or wheezing.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No fine postural or resting tremor seen in the outstretched fingers.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or pedal edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

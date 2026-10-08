@@ -1,0 +1,291 @@
+{
+  "id": "derm_013",
+  "system": "dermatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Jones",
+  "age": 26,
+  "gender": "female",
+  "chief_complaint": "sudden appearance of perfectly smooth, circular, completely bald patches on scalp without scaling or inflammation",
+  "hpi_details": "26F presenting with well-demarcated non-scarring coin-sized hair loss patches showing 'exclamation mark hairs' at the margin responding to monthly intralesional Triamcinolone acetonide microinjections.",
+  "ideas": "She thinks the sudden round bald spots are from extreme work stress and tight hair ties pulling her hair out by the roots.",
+  "concerns": "She is worried that the bald spots will spread until all her hair falls out, forcing her to wear a wig before her sister's upcoming wedding.",
+  "expectations": "She hopes to receive steroid injections or a fast-acting hair regrowth serum directly into the spots today.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Alopecia Areata evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Alopecia Areata is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management of Alopecia Areata is guided by extent of hair loss, typically starting with intralesional or topical corticosteroids for limited patches and escalating for extensive or refractory disease.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden appearance of perfectly smooth, circular, completely bald patches on scalp without scaling or inflammation",
+      "Key HPI features: 26F presenting with well-demarcated non-scarring coin-sized hair loss patches showing 'exclamation mark hairs' at the margin responding to monthly intralesional Triamcinolone acetonide microinjections.",
+      "Objective/Exam findings: Well-demarcated, smooth, non-scarring bald patch(es) on the scalp with 'exclamation mark' hairs at the margin; no scaling, erythema, or broken hairs of varying lengths.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Alopecia Areata.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Tinea capitis (scaling present) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Rapidly progressive total scalp or body hair loss — suggests more extensive disease (alopecia totalis/universalis)."
+    ],
+    "management_principles": [
+      "Confirm diagnosis clinically (exclamation mark hairs, smooth non-scarring patches); biopsy only if presentation is atypical.",
+      "Offer monthly intralesional triamcinolone acetonide injections for limited patchy disease.",
+      "Consider topical corticosteroids or minoxidil as adjuncts, and refer to dermatology for extensive or refractory disease.",
+      "Counsel on the unpredictable, relapsing-remitting course and screen for associated autoimmune conditions (e.g., thyroid disease)."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Alopecia Areata: sudden appearance of perfectly smooth, circular, completely bald patches on scalp without scaling or inflammation. 26F presenting with well-demarcated non-scarring coin-sized hair loss patches showing 'exclamation mark hairs' at the margin responding to monthly intralesional Triamcinolone acetonide microinjections.",
+    "objective": "Well-demarcated, smooth, non-scarring bald patch(es) on the scalp with 'exclamation mark' hairs at the margin; no scaling, erythema, or broken hairs of varying lengths.",
+    "assessment": "Alopecia Areata, patchy scalp involvement, responding to intralesional corticosteroid therapy.",
+    "plan": "Continue monthly intralesional triamcinolone acetonide microinjections; counsel on the relapsing-remitting course, screen for associated autoimmune conditions, and refer to dermatology if progressing to alopecia totalis/universalis."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Alopecia Areata",
+    "Formulate prioritized differential diagnosis for sudden appearance of perfectly smooth, circular, completely bald patches on scalp without scaling or inflammation",
+    "Select appropriate laboratory and imaging studies for dermatology",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Alopecia Areata",
+    "one_liner": "An autoimmune attack on hair follicles causing sudden, well-demarcated, coin-sized bald patches without scarring or scaling, often with 'exclamation mark' hairs at the border.",
+    "differentials": [
+      "Tinea capitis (scaling present)",
+      "Trichotillomania",
+      "Scarring alopecia"
+    ],
+    "red_flags": [
+      "Rapidly progressive total scalp or body hair loss — suggests more extensive disease (alopecia totalis/universalis)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset speed",
+        "say": "How suddenly did this bald patch appear?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "sudden"
+        ]
+      },
+      {
+        "objective": "Scalp appearance",
+        "say": "Is the skin underneath smooth, or is there any scaling or redness?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "smooth",
+          "no scaling"
+        ]
+      },
+      {
+        "objective": "Number and location of patches",
+        "say": "How many patches do you have, and where?",
+        "domains": [
+          "location"
+        ]
+      },
+      {
+        "objective": "Itching or pain",
+        "say": "Does the area itch or hurt?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Stress and autoimmune history",
+        "say": "Have you had significant stress recently, or any other autoimmune conditions?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I noticed a couple of completely bald, round spots on my scalp that appeared out of nowhere.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started suddenly about three weeks ago when I was brushing my hair and noticed a coin-sized bald spot.",
+        "topic": "Onset and speed"
+      },
+      {
+        "answer": "Right now there are two coin-sized round patches near the crown and side of my scalp.",
+        "topic": "Number and location of patches"
+      },
+      {
+        "answer": "The skin on the patch is completely smooth and bare, like a coin, without any flakes or scabs.",
+        "topic": "Scalp appearance"
+      },
+      {
+        "answer": "I haven't noticed any thinning of my eyebrows, eyelashes, or body hair at all.",
+        "topic": "Hair loss on other body parts"
+      },
+      {
+        "answer": "No, I don't feel any itching, burning, tingling, or soreness on my scalp.",
+        "topic": "Itching or pain"
+      },
+      {
+        "answer": "The patches appeared rapidly over a few days, but they haven't gotten any bigger over the past week.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "I've been under a lot of stress lately preparing for a major promotion at work, and I feel like that might have triggered it.",
+        "topic": "Aggravating factors and stress"
+      },
+      {
+        "answer": "A dermatologist gave me small steroid injections directly into the patches once last month, and tiny fine hairs actually started regrowing there.",
+        "topic": "Relieving factors and treatment response"
+      },
+      {
+        "answer": "No, I have never had red bumps, pimples, flaking, or dandruff in those areas.",
+        "topic": "Scaling and redness"
+      },
+      {
+        "answer": "No, I have never had fever, chills, unintended weight loss, or extreme fatigue.",
+        "topic": "Systemic warning signs"
+      },
+      {
+        "answer": "No, I never pull, twist, or pluck my own hair when I am anxious or working.",
+        "topic": "Hair pulling habits"
+      },
+      {
+        "answer": "No, I haven't had any recent contact with stray animals, dogs, or cats, and no one around me has a ringworm infection.",
+        "topic": "Animal contact and fungal exposure"
+      },
+      {
+        "answer": "I haven't used any harsh chemical hair dyes, perms, or tight braids recently.",
+        "topic": "Hair care products and styling"
+      },
+      {
+        "answer": "About two years ago I had a single small bald patch that completely resolved after a couple of months.",
+        "topic": "Prior episodes"
+      },
+      {
+        "answer": "I switched to a gentle sulfate-free shampoo and tried not to brush that area aggressively, but that didn't make much difference on its own.",
+        "topic": "Self-care and remedies"
+      },
+      {
+        "answer": "I feel really self-conscious at work and have been wearing headbands to hide the spots, which makes me anxious.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I thought maybe pulling my hair back into tight buns and all the recent stress at work just caused my hair to fall out in clumps.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that these circles will keep multiplying until I lose all my hair, and everyone will think I'm undergoing chemotherapy at my sister's wedding.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can give me those scalp injections or a powerful regrowth lotion today to wake up the hair follicles right away.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have never been diagnosed with any chronic medical conditions, thyroid problems, or autoimmune diseases.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "No, I have never had any surgeries or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter pills, or herbal supplements right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a glass of wine socially once or twice a month, and I don't use recreational drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "I work as an office accountant and live in an apartment with my roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has autoimmune disorders, thyroid disease, or premature hair loss.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period started two weeks ago, and my cycles are very regular every 28 days.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "We use condoms consistently for birth control, and there is no chance that I could be pregnant.",
+        "topic": "Contraception and pregnancy possibility"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, well-nourished young female sitting comfortably in no acute distress, with hair partially parted to show localized hair loss.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Well-demarcated, smooth, completely bald, coin-sized circular patches on the scalp with exclamation mark hairs at the margins; no erythema, scaling, follicular plugging, or scarring.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Eyebrows and eyelashes are full and intact, with normal conjunctivae and sclerae.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size and texture, non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable occipital, postauricular, or cervical lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      }
+    ]
+  }
+}

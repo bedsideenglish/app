@@ -1,0 +1,305 @@
+{
+  "id": "nephro_034",
+  "system": "nephrology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Roberts",
+  "age": 44,
+  "gender": "female",
+  "chief_complaint": "muscle weakness and cramps after taking furosemide",
+  "hpi_details": "A 44-year-old female presents to the clinic with muscle weakness and cramps after taking furosemide. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "wonders if her water pill is the cause",
+  "concerns": "She is worried the muscle weakness will get so severe that her legs will buckle on the stairs or cause her to drop items at her retail job.",
+  "expectations": "She hopes to lower the dose of her water pill or get a supplement to stop the painful muscle spasms today.",
+  "pmh": "Hypertension",
+  "medications": "Furosemide 40mg daily",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "urgent_diuretic_electrolyte_workup",
+      "title": "Electrolyte and ECG assessment",
+      "order_terms": ["electrolytes", "potassium", "magnesium", "BMP", "basic metabolic panel", "ECG", "EKG"],
+      "availability_message": "The urgent electrolytes and ECG are now available.",
+      "results": [
+        {"id": "potassium", "test": "Serum potassium", "value": "2.9", "unit": "mEq/L", "reference_range": "3.5-5.0", "flag": "low"},
+        {"id": "magnesium", "test": "Serum magnesium", "value": "1.4", "unit": "mg/dL", "reference_range": "1.7-2.2", "flag": "low"},
+        {"id": "ecg", "test": "12-lead ECG", "value": "Flattened T waves with prominent U waves; no acute ST-segment changes", "flag": "abnormal"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Hypokalemia (diuretic-induced) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hypokalemia (diuretic-induced) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes oral potassium chloride replacement, correction of any coexisting hypomagnesemia, and dose reduction of the offending diuretic, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: muscle weakness and cramps after taking furosemide",
+      "Key HPI features: A 44-year-old female presents to the clinic with muscle weakness and cramps after taking furosemide. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Vitals: BP 122/78, HR 88 and regular. Diffuse mild proximal muscle weakness, decreased deep tendon reflexes, no focal deficits. Labs: Serum potassium 2.9 mEq/L, magnesium 1.4 mg/dL (low), bicarbonate 30 mEq/L (mild metabolic alkalosis), creatinine 0.8 mg/dL. ECG: flattened T waves with prominent U waves, no acute ST changes.",
+      "Relevant background/PMH: Hypertension on furosemide 40mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hypokalemia (diuretic-induced).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to GI losses (vomiting, diarrhea) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Significant weakness or palpitations — risk of arrhythmia."
+    ],
+    "management_principles": [
+      "Obtain an ECG and check serum magnesium, since coexisting hypomagnesemia can make hypokalemia refractory to correction",
+      "Start oral potassium chloride replacement (e.g., 40 mEq PO, repeat as needed) and reduce the furosemide dose or add a potassium-sparing agent (e.g., spironolactone)",
+      "Recheck electrolytes in 3-5 days; refer to nephrology if hypokalemia is refractory or recurrent"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: muscle weakness and cramps after taking furosemide\n\nA 44-year-old female on furosemide for hypertension reports several days of generalized muscle weakness and leg cramps. Denies vomiting or diarrhea, though she notices her heart occasionally 'skip' a beat.",
+    "objective": "Vitals: BP 122/78, HR 88 and regular. Diffuse mild proximal muscle weakness, decreased deep tendon reflexes, no focal deficits. Labs: Serum potassium 2.9 mEq/L, magnesium 1.4 mg/dL (low), bicarbonate 30 mEq/L (mild metabolic alkalosis), creatinine 0.8 mg/dL. ECG: flattened T waves with prominent U waves, no acute ST changes.",
+    "assessment": "Diuretic-induced hypokalemia with likely coexisting hypomagnesemia, causing muscle weakness and cramps in a patient on furosemide for hypertension.",
+    "plan": "1. Obtain an ECG and check serum magnesium. 2. Start oral potassium chloride replacement and reduce the furosemide dose or add a potassium-sparing agent (e.g., spironolactone). 3. Recheck electrolytes in 3-5 days. 4. Refer to nephrology if hypokalemia is refractory or recurrent."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Hypokalemia",
+    "Select appropriate diagnostic workup for Hypokalemia",
+    "Implement evidence-based management plan: Oral Potassium Chloride replacement, adjust diuretic dose"
+  ],
+  "teaching": {
+    "diagnosis": "Hypokalemia (diuretic-induced)",
+    "one_liner": "Loop diuretics like furosemide cause renal potassium wasting, leading to muscle weakness and cramps from low serum potassium.",
+    "differentials": [
+      "GI losses (vomiting, diarrhea)",
+      "Primary hyperaldosteronism"
+    ],
+    "red_flags": [
+      "Significant weakness or palpitations — risk of arrhythmia"
+    ],
+    "must_ask": [
+      {
+        "objective": "Diuretic use",
+        "say": "How long have you been taking furosemide, and at what dose?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Muscle symptoms",
+        "say": "Where are the cramps, and how severe is the weakness?",
+        "domains": [
+          "location",
+          "severity"
+        ]
+      },
+      {
+        "objective": "Onset",
+        "say": "When did the weakness start relative to starting or increasing the medication?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "GI losses",
+        "say": "Any vomiting or diarrhea recently?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Cardiac symptoms",
+        "say": "Any palpitations?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 88,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I have been feeling so weak all over and getting terrible muscle cramps in my legs ever since I started taking my water pill.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is true muscle weakness and aching cramps, not numbness or tingling. My legs and arms just feel heavy and tired.",
+        "topic": "Type of weakness or numbness"
+      },
+      {
+        "answer": "The weakness is all over but mostly in my thighs and upper arms on both sides, and the cramps are in both of my calves.",
+        "topic": "Location and distribution of symptoms"
+      },
+      {
+        "answer": "The weakness and cramping started about four or five days ago, just a few days after my doctor put me on that new water pill.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "It has been getting gradually worse each day. At first it was just feeling tired, but now my legs feel heavy and stiff.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "I have trouble getting up from deep chairs and climbing stairs, though my hand grip is fine for holding things and buttoning my clothes.",
+        "topic": "Impact on daily activities"
+      },
+      {
+        "answer": "Walking or standing for long periods makes the cramps worse, and resting helps a little, but the heaviness stays all day.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I don't have any neck pain or back pain, and nothing shoots down into my arms or legs.",
+        "topic": "Neck or back radiating pain"
+      },
+      {
+        "answer": "No facial drooping, no slurred speech, no vision trouble, and no dizziness at all.",
+        "topic": "Neurological stroke symptoms"
+      },
+      {
+        "answer": "I have no problems controlling my bladder or bowels, and no numbness down there, though I am urinating more often from the water pill.",
+        "topic": "Bowel and bladder function"
+      },
+      {
+        "answer": "No shortness of breath, no trouble swallowing or chewing, and my eyelids are not drooping.",
+        "topic": "Bulbar and respiratory symptoms"
+      },
+      {
+        "answer": "I have not seen any twitching under my skin, and my muscles haven't shrunk or gotten smaller.",
+        "topic": "Muscle twitching or wasting"
+      },
+      {
+        "answer": "Now that you mention it, I have felt my heart skip a beat or flutter a few times over the past couple of days.",
+        "topic": "Heart palpitations or skipped beats"
+      },
+      {
+        "answer": "No vomiting, nausea, or diarrhea at all. My stomach has been completely fine.",
+        "topic": "Gastrointestinal fluid losses"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, cough, or recent colds.",
+        "topic": "Preceding infection or fever"
+      },
+      {
+        "answer": "My doctor started me on furosemide 40 milligrams once every morning about ten days ago to help lower my blood pressure.",
+        "topic": "Diuretic medication details"
+      },
+      {
+        "answer": "No, I do office work so I don't do repetitive heavy lifting, and I haven't been squatting or leaning on my elbows.",
+        "topic": "Repetitive strain or compression postures"
+      },
+      {
+        "answer": "I really wonder if this new water pill is draining something important from my body and making my muscles act up like this.",
+        "topic": "Patient's ideas on cause"
+      },
+      {
+        "answer": "I'm really afraid my legs will give out while I'm walking down the stairs or working my shifts on the shop floor.",
+        "topic": "Patient's concerns and complications"
+      },
+      {
+        "answer": "I'm hoping you can adjust my water pill dose or prescribe a supplement so these awful leg cramps finally stop.",
+        "topic": "Patient's expectations from visit"
+      },
+      {
+        "answer": "I only have high blood pressure, which was diagnosed two years ago. I don't have diabetes or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been hospitalized.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "Just the furosemide 40 milligrams once a day in the morning. I don't take any pain relievers, vitamins, or supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or anything else.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine with friends, maybe once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I eat a normal, balanced diet with meat and vegetables, and I haven't had any stomach or bowel surgeries.",
+        "topic": "Dietary habits and nutrition"
+      },
+      {
+        "answer": "I work as an office administrative assistant, and I live with my husband and two teenage children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has high blood pressure, but no one in my family has muscle disorders, kidney disease, or strokes.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period was about two weeks ago and it was normal. My husband had a vasectomy, so there is no chance I could be pregnant.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 122/78 mmHg, pulse 88 beats per minute and regular, respiratory rate 16 breaths per minute, body temperature 36.7°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are intact with normal extraocular movements, symmetric facial expression, and clear speech.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse mild weakness of bilateral shoulder abductors and hip flexors (grade 4/5); distal muscle strength is normal (grade 5/5) without atrophy or fasciculations.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Light touch, pinprick, and vibration sensation are normal and symmetric across all four extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Diffusely diminished deep tendon reflexes (grade 1+) throughout upper and lower extremities; bilateral plantar responses are flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "No spinal tenderness along the cervical or lumbar spine, and straight leg raise test is negative bilaterally.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are soft, non-tender, and symmetrical without swelling, warmth, or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Heart sounds reveal a regular rate and rhythm with an occasional skipped beat; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

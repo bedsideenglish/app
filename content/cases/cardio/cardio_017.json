@@ -1,0 +1,402 @@
+{
+  "id": "cardio_017",
+  "system": "cardiology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Higgins",
+  "age": 42,
+  "gender": "female",
+  "chief_complaint": "sensation of heart skipping a beat and thumping in chest for 3 months",
+  "hpi_details": "3-month history of frequent, unsettling sensations described as her heart 'skipping a beat', fluttering, or doing a 'hard thrum' in her chest. These episodes occur intermittently throughout the day, often more noticeable when lying quietly in bed at night or after drinking coffee during busy work periods. Each sensation lasts only a second. Denies chest pain, lightheadedness, shortness of breath, or syncope. Can walk 5 miles without cardiac symptoms.",
+  "ideas": "thinks high stress from her new management promotion and energy drinks are making her heart misfire",
+  "concerns": "worried that these skipped beats will suddenly turn into a fatal cardiac arrest while sleeping",
+  "expectations": "wants a portable heart monitor to confirm they are harmless and advice on whether to stop drinking coffee",
+  "pmh": "mild generalized anxiety, no structural heart disease, normal health screening last year",
+  "medications": "none regular",
+  "social_hx": "consumes 4-5 double espressos daily plus occasional energy drinks when working late, non-smoker, bank executive",
+  "investigation_events": [
+    {
+      "id": "pvc_ecg",
+      "title": "12-lead ECG",
+      "order_terms": ["ECG", "EKG", "12-lead"],
+      "availability_message": "The 12-lead ECG is now available.",
+      "results": [
+        {
+          "id": "ecg_isolated_pvcs",
+          "test": "12-lead ECG",
+          "value": "Sinus rhythm at 72 bpm with two isolated monomorphic PVCs and full compensatory pauses; QTc 418 ms",
+          "unit": "",
+          "reference_range": "Sinus rhythm; QTc <450 ms",
+          "flag": "abnormal",
+          "collected_at": "During today's assessment"
+        }
+      ]
+    },
+    {
+      "id": "pvc_holter",
+      "title": "24-hour Holter monitor",
+      "order_terms": ["Holter", "ambulatory ECG", "24-hour monitor"],
+      "availability_message": "The 24-hour Holter report is now available.",
+      "results": [
+        {
+          "id": "holter_pvc_burden",
+          "test": "PVC burden",
+          "value": "3.2",
+          "unit": "% of all beats",
+          "reference_range": "<10% low burden",
+          "flag": "abnormal",
+          "collected_at": "24-hour recording"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Benign Premature Ventricular Contractions (PVCs) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Benign Premature Ventricular Contractions (PVCs) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes reassuring the patient regarding the benign prognosis of PVCs in a structurally normal heart when ectopic burden is low (<10%) and LVEF is preserved, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sensation of heart skipping a beat and thumping in chest for 3 months",
+      "Key HPI features: 3-month history of frequent, unsettling sensations described as her heart 'skipping a beat', fluttering, or doing a 'hard thrum' in her chest. These episodes occur intermittently throughout the day, often more noticeable when lying quietly in bed at night or after drinking coffee during busy work periods. Each sensation lasts only a second. Denies chest pain, lightheadedness, shortness of breath, or syncope. Can walk 5 miles without cardiac symptoms.",
+      "Objective/Exam findings: Examine pulse: occasional irregular extra beat followed by compensatory pause. Auscultation: normal S1/S2 with occasional premature beat followed by louder post-compensatory beat. 12-lead baseline ECG: normal sinus rhythm with isolated broad, bizarre Premature Ventricular Contractions (PVCs / Ventricular Ectopics) not preceded by P waves, followed by full compensatory pause. Bloods: electrolytes (check potassium and magnesium levels), thyroid function tests (TSH). 24-hour Holter ambulatory ECG monitoring to quantify ectopic burden (% of total beats). Echocardiogram to confirm normal structural heart and LVEF.",
+      "Relevant background/PMH: mild generalized anxiety, no structural heart disease, normal health screening last year",
+      "Current medications: none regular"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Benign Premature Ventricular Contractions (PVCs).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Atrial ectopic beats without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Skipped beats with syncope, or a family history of sudden death."
+    ],
+    "management_principles": [
+      "Reassure patient regarding benign prognosis of PVCs in a structurally normal heart when ectopic burden is low (<10%) and LVEF is preserved",
+      "Explain that the 'thump' sensation is simply the more forceful contraction occurring after the compensatory pause due to increased diastolic filling",
+      "Lifestyle modification: gradual reduction of caffeine/energy drinks, stress management, adequate sleep, and maintaining hydration/potassium balance"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2017 AHA/ACC/HRS Guideline for Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death",
+        "url": "https://professional.heart.org/en/guidelines-statements/2017-ahaacchrs-guideline-for-management-of-patients-with-ventricularcircd1700061"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: sensation of heart skipping a beat and thumping in chest for 3 months\n\n3-month history of frequent, unsettling sensations described as her heart 'skipping a beat', fluttering, or doing a 'hard thrum' in her chest. These episodes occur intermittently throughout the day, often more noticeable when lying quietly in bed at night or after drinking coffee during busy work periods. Each sensation lasts only a second. Denies chest pain, lightheadedness, shortness of breath, or syncope. Can walk 5 miles without cardiac symptoms.",
+    "objective": "Examine pulse: occasional irregular extra beat followed by compensatory pause. Auscultation: normal S1/S2 with occasional premature beat followed by louder post-compensatory beat. 12-lead baseline ECG: normal sinus rhythm with isolated broad, bizarre Premature Ventricular Contractions (PVCs / Ventricular Ectopics) not preceded by P waves, followed by full compensatory pause. Bloods: electrolytes (check potassium and magnesium levels), thyroid function tests (TSH). 24-hour Holter ambulatory ECG monitoring to quantify ectopic burden (% of total beats). Echocardiogram to confirm normal structural heart and LVEF.",
+    "assessment": "Benign Premature Ventricular Contractions (PVCs / Ventricular Ectopic Beats) triggered by caffeine and stress in a structurally normal heart. DDx: premature atrial contractions (PACs), paroxysmal atrial fibrillation, underlying structural heart disease (mitral valve prolapse, cardiomyopathy if ectopic burden >15%).",
+    "plan": "Reassure patient regarding benign prognosis of PVCs in a structurally normal heart when ectopic burden is low (<10%) and LVEF is preserved. Explain that the 'thump' sensation is simply the more forceful contraction occurring after the compensatory pause due to increased diastolic filling. Lifestyle modification: gradual reduction of caffeine/energy drinks, stress management, adequate sleep, and maintaining hydration/potassium balance. Trial of low-dose beta-blocker (e.g., bisoprolol 2.5mg OD) only if symptoms remain highly intrusive despite lifestyle adjustments."
+  },
+  "learning_objectives": [
+    "Explain the hemodynamic mechanism behind the subjective 'skipped beat and thump' sensation (compensatory pause and post-pause increased stroke volume)",
+    "Stratify ventricular ectopic risk based on absence of red flags, normal echocardiogram, and 24-hour Holter ectopic burden (<10%)",
+    "Identify dietary and lifestyle triggers for cardiac excitability (caffeine, energy drinks, stress, hypokalaemia)",
+    "Provide empowering reassurance that prevents cardiac hypervigilance in structurally healthy patients"
+  ],
+  "teaching": {
+    "diagnosis": "Benign Premature Ventricular Contractions (PVCs)",
+    "one_liner": "Extra beats that make the heart feel like it skips then thumps. In a structurally normal heart they are harmless but frightening.",
+    "differentials": [
+      "Atrial ectopic beats",
+      "Anxiety",
+      "Thyrotoxicosis"
+    ],
+    "red_flags": [
+      "Skipped beats with syncope, or a family history of sudden death"
+    ],
+    "must_ask": [
+      {
+        "objective": "The skip-then-thump sensation",
+        "say": "Does it feel like a missed beat followed by a stronger thump?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "skip",
+          "miss",
+          "thump",
+          "flip",
+          "jump"
+        ]
+      },
+      {
+        "objective": "When it is noticed",
+        "say": "Do you notice it more when you're resting quietly, or when you're active?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "rest",
+          "quiet",
+          "lying",
+          "active",
+          "exercise",
+          "night"
+        ]
+      },
+      {
+        "objective": "Caffeine, alcohol and sleep",
+        "say": "How much coffee and alcohol do you have, and how are you sleeping?",
+        "domains": [
+          "aggravating",
+          "alcohol"
+        ],
+        "keywords": [
+          "coffee",
+          "caffeine",
+          "alcohol",
+          "sleep",
+          "tired"
+        ]
+      },
+      {
+        "objective": "Associated syncope or chest pain",
+        "say": "Have you fainted or had chest pain with it?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "faint",
+          "black",
+          "out",
+          "chest",
+          "pain",
+          "dizzy"
+        ]
+      },
+      {
+        "objective": "Stress and anxiety",
+        "say": "Has anything been particularly stressful recently?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "stress",
+          "anxious",
+          "worried",
+          "work"
+        ]
+      },
+      {
+        "objective": "The patient's own worry",
+        "say": "What are you most worried this might be?",
+        "domains": [
+          "concerns",
+          "ideas"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "For the past three months, my heart feels like it skips a beat and then gives a hard thump in my chest.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like my heart suddenly skips or drops a beat, flutters for an instant, and then gives a hard thrum or pounding thump.",
+        "topic": "Palpitation sensation"
+      },
+      {
+        "answer": "It goes steady like thump... thump... then a pause, and then one heavy THUMP, before settling back into normal rhythm.",
+        "topic": "Tapping out rhythm"
+      },
+      {
+        "answer": "The flutter starts out of nowhere and ends immediately. Each sensation lasts only about a second.",
+        "topic": "Onset and offset"
+      },
+      {
+        "answer": "This started about three months ago and happens intermittently throughout the day, lasting just a second each time.",
+        "topic": "Duration and frequency"
+      },
+      {
+        "answer": "I notice it most when I am lying quietly in bed at night, or at work when I am stressed and drinking lots of coffee.",
+        "topic": "Symptom triggers"
+      },
+      {
+        "answer": "Nothing stops it because each thump is over in a second, but I notice it less when I am actively up and walking around.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "No, I have never fainted or felt lightheaded, and I can walk five miles without feeling breathless or noticing the skipped beats.",
+        "topic": "Dizziness and exercise"
+      },
+      {
+        "answer": "No, I don't have any chest pain, tightness, or pressure, and I haven't had trouble breathing.",
+        "topic": "Chest pain and breathlessness"
+      },
+      {
+        "answer": "No, I haven't noticed any heat intolerance, abnormal sweating, unintentional weight loss, or trembling hands.",
+        "topic": "Heat intolerance and weight changes"
+      },
+      {
+        "answer": "I feel tired when I work late, but I don't get dizzy spells, and I haven't had any heavy periods or black tarry stools.",
+        "topic": "Fatigue and abnormal bleeding"
+      },
+      {
+        "answer": "No, I don't get severe pounding headaches, cold sweats, or pale spells, even if I skip lunch.",
+        "topic": "Headache and cold sweats"
+      },
+      {
+        "answer": "I get tense with work deadlines, but I don't experience sudden panic attacks, tingling in my fingers, or rapid breathing spells.",
+        "topic": "Panic symptoms and numbness"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, sore throat, cough, or recent viral illness.",
+        "topic": "Recent fever or infection"
+      },
+      {
+        "answer": "I drink four to five double espressos every single day, and I often grab an energy drink when working late hours.",
+        "topic": "Caffeine and energy drinks"
+      },
+      {
+        "answer": "No, I haven't taken any cold syrups, decongestants, asthma inhalers, thyroid medication, or diet pills.",
+        "topic": "Cold and diet medications"
+      },
+      {
+        "answer": "No, I have never had any heart conditions or high blood pressure, and my routine health screening last year was completely normal.",
+        "topic": "Prior heart disease"
+      },
+      {
+        "answer": "No one in my family has had unexplained sudden death at a young age, heart muscle disease, or irregular heart rhythms.",
+        "topic": "Family history of heart disease"
+      },
+      {
+        "answer": "My sleep has been poor and fragmented lately because of work stress, usually around five or six hours a night.",
+        "topic": "Sleep habits and rest"
+      },
+      {
+        "answer": "I was promoted to an executive management role at the bank recently, so my stress has been through the roof, and I've always had mild generalized anxiety.",
+        "topic": "Stress and mood"
+      },
+      {
+        "answer": "I think the severe work stress from my new promotion combined with all the caffeine and energy drinks is making my heart misfire.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I am terrified that these skipped beats might turn into a sudden cardiac arrest and stop my heart while I am asleep.",
+        "topic": "Patient fears and concerns"
+      },
+      {
+        "answer": "I want a portable heart monitor to verify whether these beats are harmless, and I need guidance on whether I should stop coffee completely.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "Aside from mild generalized anxiety, I have no chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was in college, but I have had no other surgeries or hospital stays.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I do not take any prescription medications, regular over-the-counter drugs, or nutritional supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I have no known allergies to medications, foods, or environmental triggers.",
+        "topic": "Allergies and adverse reactions"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any vaping or tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink only occasionally, maybe one or two glasses of wine over the weekend, and never heavily.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an executive at a bank, and I live with my husband and two teenage children in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father takes medication for mild high blood pressure, and my mother is healthy. There is no other significant family illness.",
+        "topic": "General family history"
+      },
+      {
+        "answer": "My last menstrual period started two weeks ago, and my cycles are regular every twenty-eight days with normal bleeding.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "There is no chance I am pregnant because my husband had a vasectomy several years ago.",
+        "topic": "Pregnancy and contraception"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 118/76 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.7 C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Radial pulse shows mostly regular rhythm at 72 beats per minute with an occasional premature beat followed by a compensatory pause.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Normal S1 and S2 heart sounds with no murmurs, rubs, or gallops, showing an occasional premature beat followed by a louder post-compensatory beat.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor, and sclerae are clear without jaundice.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, smooth, and mobile without nodules, goiter, or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No postural or resting tremor noted in outstretched hands.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal and reactive with normal extraocular movements, and no exophthalmos or lid lag.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pulse is not elevated, measuring approximately 2 cm above the sternal angle with normal waveforms.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetrical chest excursion with no visible deformities, thrills, or chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are clear bilaterally with no crackles, wheezes, or decreased breath sounds.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema in either pretibial area or ankle.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

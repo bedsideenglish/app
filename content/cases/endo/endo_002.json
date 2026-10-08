@@ -1,0 +1,335 @@
+{
+  "id": "endo_002",
+  "system": "endocrinology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Baker",
+  "age": 68,
+  "gender": "female",
+  "chief_complaint": "profound lethargy, confusion, and extreme dehydration over one week",
+  "hpi_details": "68F with type 2 diabetes brought in by family due to progressive confusion, lethargy, and extreme thirst over 7 days. No abdominal pain or vomiting. Blood glucose on arrival is 920 mg/dL without significant ketonuria.",
+  "ideas": "family thinks she had a small stroke because she is so lethargic",
+  "concerns": "family is alarmed by her severe weakness and dry tongue",
+  "expectations": "wants her checked thoroughly and admitted",
+  "pmh": "Type 2 Diabetes, Hypertension, Mild cognitive impairment",
+  "medications": "Metformin 1000mg BID, Glipizide 10mg OD, Lisinopril 20mg OD",
+  "social_hx": "Lives with daughter, non-smoker",
+  "available_results": [
+    {"id":"triage_glucose","test":"Point-of-care glucose","value":"920","unit":"mg/dL","reference_range":"70-140","flag":"critical","specimen":"Capillary blood","collected_at":"At triage"},
+    {"id":"triage_urine_ketones","test":"Urine ketones","value":"Trace","reference_range":"Negative","flag":"high","specimen":"Urine","collected_at":"At triage"}
+  ],
+  "investigation_events": [
+    {
+      "id": "stat_hhs_labs",
+      "title": "STAT hyperosmolar-state laboratory results",
+      "order_terms": ["blood tests", "blood work", "electrolytes", "metabolic panel", "osmolality", "blood gas", "vbg", "venous blood gas", "ketones", "beta hydroxybutyrate", "hhs labs"],
+      "availability_message": "The STAT hyperosmolar-state laboratory results are now available.",
+      "results": [
+        {"id":"effective_osmolality","test":"Effective serum osmolality","value":"368","unit":"mOsm/kg","reference_range":"275-295","flag":"critical","specimen":"Blood","collected_at":"At emergency presentation"},
+        {"id":"venous_ph","test":"Venous pH","value":"7.34","reference_range":"7.31-7.41","flag":"normal","specimen":"Venous blood","collected_at":"At emergency presentation"},
+        {"id":"bicarbonate","test":"Serum bicarbonate","value":"20","unit":"mEq/L","reference_range":"22-29","flag":"low","specimen":"Blood","collected_at":"At emergency presentation"},
+        {"id":"beta_hydroxybutyrate","test":"Beta-hydroxybutyrate","value":"0.8","unit":"mmol/L","reference_range":"<0.6","flag":"high","specimen":"Blood","collected_at":"At emergency presentation"},
+        {"id":"sodium","test":"Serum sodium","value":"152","unit":"mEq/L","reference_range":"135-145","flag":"high","specimen":"Blood","collected_at":"At emergency presentation"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Hyperosmolar Hyperglycemic State (HHS) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hyperosmolar Hyperglycemic State (HHS) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes vigorous IV fluid replacement and low-dose IV insulin infusion, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: profound lethargy, confusion, and extreme dehydration over one week",
+      "Key HPI features: 68F with type 2 diabetes brought in by family due to progressive confusion, lethargy, and extreme thirst over 7 days. No abdominal pain or vomiting. Blood glucose on arrival is 920 mg/dL without significant ketonuria.",
+      "Objective/Exam findings: Vitals: HR 115, BP 88/54, Temp 36.8C. Severe skin tenting, dry mucous membranes. Bloods: Glucose 920 mg/dL, Serum osmolality 368 mOsm/kg, pH 7.34, HCO3 20 mEq/L, Ketones trace, Na 152 mEq/L.",
+      "Relevant background/PMH: Type 2 Diabetes, Hypertension, Mild cognitive impairment",
+      "Current medications: Metformin 1000mg BID, Glipizide 10mg OD, Lisinopril 20mg OD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hyperosmolar Hyperglycemic State (HHS).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Stroke without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe altered mental status — reflects extreme hyperosmolality and dehydration."
+    ],
+    "management_principles": [
+      "Vigorous IV fluid replacement (0.9% NaCl initially, transitioning to 0.45% NaCl based on corrected sodium), low-dose IV insulin infusion (0.05-0.1 units/kg/hr), close neurological monitoring for cerebral edema during rehydration."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Diabetes Association (ADA) Standards of Care in Diabetes 2026",
+        "url": "https://diabetesjournals.org/care/issue/49/Supplement_1"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "68F with type 2 diabetes brought in by family due to progressive confusion, lethargy, and extreme thirst over 7 days. No abdominal pain or vomiting. Blood glucose on arrival is 920 mg/dL without significant ketonuria.",
+    "objective": "Vitals: HR 115, BP 88/54, Temp 36.8C. Severe skin tenting, dry mucous membranes. Bloods: Glucose 920 mg/dL, Serum osmolality 368 mOsm/kg, pH 7.34, HCO3 20 mEq/L, Ketones trace, Na 152 mEq/L.",
+    "assessment": "Hyperosmolar Hyperglycemic State (HHS) with severe dehydration and hyperosmolality.",
+    "plan": "Vigorous IV fluid replacement (0.9% NaCl initially, transitioning to 0.45% NaCl based on corrected sodium), low-dose IV insulin infusion (0.05-0.1 units/kg/hr), close neurological monitoring for cerebral edema during rehydration."
+  },
+  "learning_objectives": [
+    "Differentiate Hyperosmolar Hyperglycemic State (HHS) from Diabetic Ketoacidosis (DKA)",
+    "Calculate and interpret effective serum osmolality and corrected sodium",
+    "Manage careful, gradual fluid and electrolyte rehydration to avoid cerebral complications",
+    "Address underlying triggers such as infection or medication non-adherence"
+  ],
+  "teaching": {
+    "diagnosis": "Hyperosmolar Hyperglycemic State (HHS)",
+    "one_liner": "In Type 2 diabetes, extremely high blood glucose over days causes profound dehydration and confusion without significant ketones — distinct from DKA, and requiring careful fluid resuscitation to avoid cerebral edema.",
+    "differentials": [
+      "Stroke",
+      "Diabetic ketoacidosis",
+      "Sepsis with delirium"
+    ],
+    "red_flags": [
+      "Severe altered mental status — reflects extreme hyperosmolality and dehydration"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset over days",
+        "say": "How many days has she been getting more confused and lethargic?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "days",
+          "week"
+        ]
+      },
+      {
+        "objective": "Thirst and fluid intake",
+        "say": "Has she been extremely thirsty, and has she been able to drink enough?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "thirst"
+        ]
+      },
+      {
+        "objective": "Absence of abdominal pain/vomiting",
+        "say": "Has she had any vomiting or belly pain?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Diabetes history",
+        "say": "How long has she had diabetes, and how is it usually controlled?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Baseline cognitive status",
+        "say": "How does her confusion now compare to her usual memory?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "clinical_safety_note": "In DKA, monitor potassium closely; if K+ is <3.5 mEq/L, replace potassium and hold insulin until it is corrected.",
+  "sp_script": {
+    "vitals": {
+      "bp": "88/54",
+      "hr": 115,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My mother has become severely exhausted, confused, and barely responsive over the past week.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "She has had mild memory lapses for a year, but she was always alert and could manage her daily activities around the house.",
+        "topic": "Baseline cognitive function"
+      },
+      {
+        "answer": "It started about seven days ago and has gotten steadily worse every day, without any temporary improvements.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "She is extremely drowsy and drifts off right away, but she has not talked to anyone who is not there or seen hallucinations.",
+        "topic": "Alertness and hallucinations"
+      },
+      {
+        "answer": "No, she has not fallen, hit her head, or had any accidents recently, and she is not taking blood thinners.",
+        "topic": "Head trauma and falls"
+      },
+      {
+        "answer": "No, her face looks symmetric and she does not have weakness on one side, but she is too weak all over to walk.",
+        "topic": "Focal weakness and speech"
+      },
+      {
+        "answer": "She has not thrown up at all, and before she became too sleepy she never mentioned having a headache.",
+        "topic": "Headache and nausea"
+      },
+      {
+        "answer": "No, she has not had any seizures, body stiffening, eye rolling, or biting of her tongue.",
+        "topic": "Seizures and abnormal movements"
+      },
+      {
+        "answer": "She has not had any fever, chills, cough, or foul-smelling urine.",
+        "topic": "Fever and infection signs"
+      },
+      {
+        "answer": "No, her neck moves freely without stiffness, bright light does not bother her, and she has no red spots on her skin.",
+        "topic": "Neck stiffness and rash"
+      },
+      {
+        "answer": "She has had type 2 diabetes for years, and over this past week she has been constantly parched and drinking large pitchers of water.",
+        "topic": "Diabetes and extreme thirst"
+      },
+      {
+        "answer": "She was drinking and peeing constantly earlier in the week, but over the last two days her urine output drastically slowed down as she stopped drinking.",
+        "topic": "Fluid intake and urination"
+      },
+      {
+        "answer": "No new medications were started, though since she became so lethargic two days ago she may have missed some of her regular pills.",
+        "topic": "Recent medication changes"
+      },
+      {
+        "answer": "She never drinks alcohol, and all of her prescription bottles are accounted for with no sign of an overdose.",
+        "topic": "Alcohol and overdose risk"
+      },
+      {
+        "answer": "She usually eats a balanced diet, has not complained of double vision, and only stumbles because she has no energy.",
+        "topic": "Nutrition and gait stability"
+      },
+      {
+        "answer": "No, our home heating is normal, nobody else is sick, and there was no chemical or extreme heat exposure.",
+        "topic": "Carbon monoxide and toxin exposure"
+      },
+      {
+        "answer": "She has never had any liver or kidney problems, and her eyes and skin are not yellow.",
+        "topic": "Liver and kidney disease"
+      },
+      {
+        "answer": "No, she has never had depression or any psychiatric illness in the past.",
+        "topic": "Past psychiatric history"
+      },
+      {
+        "answer": "No, she has had no stomach ache at all, and she does not pull away when I touch her belly.",
+        "topic": "Abdominal pain"
+      },
+      {
+        "answer": "Seeing her so terribly weak and confused made us terrified that she might have had a small stroke.",
+        "topic": "Family idea about cause"
+      },
+      {
+        "answer": "We are extremely frightened by her profound weakness and how completely dry and shriveled her tongue looks.",
+        "topic": "Family main concerns"
+      },
+      {
+        "answer": "We want you to check her thoroughly and get her admitted to the hospital right away so she can recover.",
+        "topic": "Family expectations"
+      },
+      {
+        "answer": "She has type 2 diabetes, high blood pressure, and mild cognitive impairment.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She had an uncomplicated appendectomy about twenty years ago, but no other operations or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "She takes metformin 1000 milligrams twice daily, glipizide 10 milligrams once daily, and lisinopril 20 milligrams once daily.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "She has no known allergies to any medicines or foods.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "She has never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "She is a retired homemaker and lives at home with me, her daughter.",
+        "topic": "Living situation and occupation"
+      },
+      {
+        "answer": "Her mother had type 2 diabetes and high blood pressure, but there is no family history of early stroke or kidney failure.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 88/54 mmHg, heart rate is 115 beats per minute, respiratory rate is 18 breaths per minute, body temperature is 36.8 degrees Celsius, and oxygen saturation is 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient is somnolent and lethargic, rousable to verbal stimuli but disoriented to time and location with severely impaired attention.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal, round, and reactive to light bilaterally; extraocular movements appear intact with no nystagmus.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact with symmetric facial expression and no facial asymmetry.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is severely parched and tongue is deeply furrowed with no bite marks or fruity ketone odor.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Marked loss of skin turgor with severe skin tenting; no rashes, bruises, or external signs of head trauma.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with smooth passive flexion; Kernig and Brudzinski signs are negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Generalized, symmetric weakness with 4 out of 5 muscle strength in all four extremities and no focal limb drift.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rhythm with regular heart sounds; no murmurs, gallops, or friction rubs are heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are clear bilaterally with no crackles, wheezes, or deep Kussmaul respirations.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender throughout with normal active bowel sounds and no guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No asterixis, flapping tremors, or involuntary twitching movements are observed in the outstretched hands.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      }
+    ]
+  }
+}

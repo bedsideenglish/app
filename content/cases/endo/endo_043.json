@@ -1,0 +1,316 @@
+{
+  "id": "endo_043",
+  "system": "endo",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Rodriguez",
+  "age": 71,
+  "gender": "male",
+  "chief_complaint": "low libido, erectile dysfunction, and fatigue",
+  "hpi_details": "A 71-year-old male presents to the clinic with low libido, erectile dysfunction, and fatigue. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks his physical exhaustion and difficulty in the bedroom are simply signs that his body is wearing out with age or that his circulation is slowing down.",
+  "concerns": "He is worried that this loss of intimacy is creating an unspoken distance with his wife and putting a severe strain on their marriage.",
+  "expectations": "He hopes to find out if there is a safe booster or medication that can restore his energy and intimate life.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Male Hypogonadism evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Male Hypogonadism is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Diagnosis requires compatible symptoms plus consistently low early-morning testosterone on repeat testing, with evaluation for primary or secondary causes and treatment contraindications before testosterone therapy is considered.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: low libido, erectile dysfunction, and fatigue",
+      "Key HPI features: A 71-year-old male presents to the clinic with low libido, erectile dysfunction, and fatigue. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Male Hypogonadism.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Male Hypogonadism.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Depression without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: visual field defects, headaches, galactorrhoea, very low testosterone with anosmia, symptoms of anaemia, osteoporosis-related fracture, or rapid muscle loss."
+    ],
+    "management_principles": [
+      "Obtain repeat early-morning testosterone measurements and evaluate primary/secondary causes and treatment contraindications before considering testosterone therapy",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Endocrine Society Clinical Practice Guideline: Testosterone Therapy in Men with Hypogonadism",
+        "url": "https://academic.oup.com/jcem/article/103/5/1715/4939465"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of low libido, erectile dysfunction, and fatigue. HPI: testosterone deficiency.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Male Hypogonadism.",
+    "assessment": "Condition highly suspicious for Male Hypogonadism.",
+    "plan": "Obtain repeat early-morning testosterone measurements and evaluate primary/secondary causes and treatment contraindications before considering testosterone therapy."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Male Hypogonadism",
+    "Select appropriate diagnostic workup for Male Hypogonadism",
+    "Implement evidence-based management plan: Confirm consistently low early-morning testosterone, evaluate the cause and contraindications, then consider therapy"
+  ],
+  "teaching": {
+    "diagnosis": "Male Hypogonadism",
+    "one_liner": "Low testosterone causing low libido, erectile dysfunction, and fatigue, confirmed by a low morning testosterone level.",
+    "differentials": [
+      "Depression",
+      "Hypothyroidism"
+    ],
+    "red_flags": [
+      "Visual field defects, headaches, or galactorrhoea — raises concern for a pituitary macroadenoma rather than primary hypogonadism",
+      "Very low testosterone with anosmia — suggests Kallmann syndrome or another hypothalamic-pituitary cause",
+      "Symptoms of anaemia, osteoporosis-related fracture, or rapid muscle loss — indicates significant end-organ consequences of untreated hypogonadism"
+    ],
+    "must_ask": [
+      {
+        "objective": "Libido and sexual function",
+        "say": "How has your interest in sex and ability to maintain an erection changed?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Fatigue",
+        "say": "How is your energy level?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Mood",
+        "say": "How has your mood been?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Testing timing",
+        "say": "Was your testosterone checked in the morning?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Doctor, over the past few months my sex drive has really dropped, and I've been having trouble getting an erection.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about six months ago and has been gradually getting worse over time.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It affects my sexual intimacy; I have difficulty achieving and keeping an erection firm enough for intercourse.",
+        "topic": "Location and nature of complaint"
+      },
+      {
+        "answer": "My interest in sex has declined drastically, and I don't feel the desire I used to have.",
+        "topic": "Loss of sex drive"
+      },
+      {
+        "answer": "I noticed that I rarely wake up with morning erections anymore, which used to happen regularly.",
+        "topic": "Morning erections"
+      },
+      {
+        "answer": "I've been feeling exhausted and sluggish throughout the day, even though I get enough sleep.",
+        "topic": "Fatigue and low energy"
+      },
+      {
+        "answer": "Resting doesn't seem to restore my energy, and nothing I do makes the erections better.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "My mood has been a little down and frustrated about this, but I don't feel hopeless or depressed.",
+        "topic": "Mood and emotional state"
+      },
+      {
+        "answer": "No, I haven't had any headaches or blind spots on the sides of my vision.",
+        "topic": "Headaches and vision changes"
+      },
+      {
+        "answer": "No, my sense of smell is completely fine.",
+        "topic": "Sense of smell"
+      },
+      {
+        "answer": "No, I haven't noticed any swelling, pain in my chest, or liquid leaking from my nipples.",
+        "topic": "Breast enlargement and discharge"
+      },
+      {
+        "answer": "No, I'm not unusually sensitive to cold, and my bowels have been regular.",
+        "topic": "Cold intolerance and thyroid symptoms"
+      },
+      {
+        "answer": "My weight and appetite have stayed pretty much the same over the last few months.",
+        "topic": "Weight changes and appetite"
+      },
+      {
+        "answer": "I feel like I've lost some strength at the gym, but I haven't broken any bones or had bone pain.",
+        "topic": "Muscle strength and fractures"
+      },
+      {
+        "answer": "I shave at the same pace, though my pubic hair seems a bit thinner lately.",
+        "topic": "Body and facial hair changes"
+      },
+      {
+        "answer": "No pain when urinating, no weak stream, and I don't wake up multiple times at night to pee.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I've never experienced anything like this before in my life.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I haven't had any blood tests yet, though I read hormone checks should be done early in the morning.",
+        "topic": "Prior testing and timing"
+      },
+      {
+        "answer": "I tried taking some over-the-counter ginseng and vitality vitamins for a few weeks, but they didn't help.",
+        "topic": "Remedies and supplements tried"
+      },
+      {
+        "answer": "It has been stressful for my relationship with my wife, and feeling so tired holds me back from daily activities.",
+        "topic": "Impact on marriage and life"
+      },
+      {
+        "answer": "I sleep about seven hours a night and my wife says I don't snore heavily or stop breathing.",
+        "topic": "Sleep pattern and snoring"
+      },
+      {
+        "answer": "I thought maybe my body is just wearing out from old age, or perhaps my circulation has gotten poor.",
+        "topic": "Patient's ideas on cause"
+      },
+      {
+        "answer": "I'm really worried this is driving a wedge between me and my wife and ruining our relationship now that we're retired together.",
+        "topic": "Patient's main concerns"
+      },
+      {
+        "answer": "I don't have diabetes, high blood pressure, high cholesterol, or any heart problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had surgery, hospitalizations, or any injuries to my groin or head.",
+        "topic": "Past surgeries and trauma"
+      },
+      {
+        "answer": "I don't take any prescription drugs, steroid injections, or regular pain relievers.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of beer or wine when socializing with friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am retired and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has had pituitary tumors, osteoporosis, or hormonal deficiencies.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I have been in a faithful, monogamous marriage for over forty years with no other partners.",
+        "topic": "Sexual history and partners"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 122/78 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, temperature 36.6°C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished, comfortable elderly male with normal secondary sexual characteristics and no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Visual fields are intact to confrontation in all quadrants; pupils are equal, round, and reactive to light.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and mobile without palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal male chest contour without palpable gynecomastia, localized tenderness, or nipple discharge.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Circumcised penis without lesions; testes are bilaterally descended with mildly decreased volume of roughly 12 to 14 mL and soft consistency, without masses or tenderness.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Smooth, mildly enlarged prostate without nodularity, induration, or tenderness; normal sphincter tone.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Radial, femoral, popliteal, and dorsalis pedis pulses are 2+ and symmetric bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Normal skin turgor and normal axillary hair; mild thinning of pubic hair noted, with no pallor or abnormal bruising.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented to person, place, and time; affect is slightly subdued but congruent, with intact memory and cognition.",
+        "maneuver": "mental_status",
+        "response": "none"
+      }
+    ]
+  }
+}

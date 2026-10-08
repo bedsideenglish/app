@@ -1,0 +1,323 @@
+{
+  "id": "fm_023",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Lim",
+  "age": 45,
+  "gender": "female",
+  "chief_complaint": "postprandial burning chest pain and sour taste, worse when lying flat",
+  "hpi_details": "45F reports 3 months of burning pain behind her breastbone (heartburn) that occurs after eating spicy or fatty foods. Also notices a sour, acid taste in her throat when lying down at night.",
+  "ideas": "thinks she has acid reflux or stomach irritation",
+  "concerns": "worried about esophagus damage or heart attack",
+  "expectations": "wants antacid medicine and diet advice",
+  "pmh": "No significant history",
+  "medications": "None",
+  "social_hx": "Housewife, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Gastroesophageal Reflux Disease (GERD) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Gastroesophageal Reflux Disease (GERD) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes lifestyle modification plus an empiric proton pump inhibitor trial when alarm features are absent, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: postprandial burning chest pain and sour taste, worse when lying flat",
+      "Key HPI features: 45F reports 3 months of burning pain behind her breastbone (heartburn) that occurs after eating spicy or fatty foods. Also notices a sour, acid taste in her throat when lying down at night.",
+      "Objective/Exam findings: Vital signs stable; abdominal exam typically unremarkable in uncomplicated GERD, with no epigastric tenderness or signs of GI bleeding.",
+      "Relevant background/PMH: No significant history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Gastroesophageal Reflux Disease (GERD).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Peptic ulcer disease without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Dysphagia or weight loss."
+    ],
+    "management_principles": [
+      "Recommend lifestyle modifications (elevating head of bed, avoiding meals within 3 hours of sleep)",
+      "Prescribe empiric 8-week course of daily Proton Pump Inhibitor (Omeprazole 20mg)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Gastroesophageal Reflux Disease (GERD) without alarm features. postprandial burning chest pain and sour taste, worse when lying flat. 45F reports 3 months of burning pain behind her breastbone (heartburn) that occurs after eating spicy or fatty foods. Also notices a sour, acid taste in her throat when lying down at night.",
+    "objective": "Vital signs stable. Abdominal exam soft and non-tender, no epigastric tenderness. No pallor or signs of GI bleeding.",
+    "assessment": "Gastroesophageal reflux disease (GERD), uncomplicated, without alarm features.",
+    "plan": "Recommend lifestyle modifications (elevating head of bed, avoiding meals within 3 hours of sleep). Prescribe empiric 8-week course of daily proton pump inhibitor (omeprazole 20mg). Reassess response at follow-up; refer for upper endoscopy if symptoms persist despite adequate trial or alarm features develop."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Gastroesophageal Reflux Disease (GERD) without alarm features.",
+    "Formulate prioritized differential diagnosis for postprandial burning chest pain and sour taste, worse when lying flat",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies for Gastroesophageal Reflux Disease (GERD) without alarm features."
+  ],
+  "teaching": {
+    "diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+    "one_liner": "Burning chest pain and sour taste after meals and lying flat, without alarm features, managed with an empiric PPI trial.",
+    "differentials": [
+      "Peptic ulcer disease"
+    ],
+    "red_flags": [
+      "Dysphagia or weight loss"
+    ],
+    "must_ask": [
+      {
+        "objective": "Timing and triggers",
+        "say": "Does it happen after spicy food or lying down?",
+        "domains": [
+          "aggravating"
+        ]
+      },
+      {
+        "objective": "Sour taste",
+        "say": "Do you get a sour taste in your throat?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Alarm symptoms",
+        "say": "Any trouble swallowing or weight loss?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many months has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Concerns",
+        "say": "What worries you about this — the esophagus or your heart?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 15,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Doctor, for the past few months I've had this burning pain behind my breastbone after eating, and a sour taste comes up into my throat.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about three months ago, usually showing up thirty minutes to an hour after I finish eating.",
+        "topic": "Onset and circumstances"
+      },
+      {
+        "answer": "The pain is right in the center of my chest, directly behind my breastbone.",
+        "topic": "Location of pain"
+      },
+      {
+        "answer": "It feels like a hot, burning heartburn. It doesn't feel like pressure, squeezing, or stabbing.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "The burning creeps up toward my lower throat, but it never spreads to my left arm, jaw, shoulders, or back.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "Each episode usually lasts between thirty minutes to two hours, and it happens several times a week.",
+        "topic": "Duration and frequency"
+      },
+      {
+        "answer": "I would rate it around a 4 or 5 out of 10. It is quite uncomfortable and nagging, but not unbearable.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Exercising, walking fast, or climbing stairs doesn't trigger it or make it worse, and resting doesn't make it go away.",
+        "topic": "Exertion and rest"
+      },
+      {
+        "answer": "It gets significantly worse when I lie flat on my back or bend over, especially when I try to sleep at night.",
+        "topic": "Positional triggers and lying flat"
+      },
+      {
+        "answer": "It almost always happens after meals, particularly when I eat spicy dishes or fatty, greasy food.",
+        "topic": "Meal triggers and diet"
+      },
+      {
+        "answer": "Yes, especially when I lie down, a sour, acidic fluid backs up into my mouth and throat.",
+        "topic": "Acid regurgitation and sour taste"
+      },
+      {
+        "answer": "No, I have no trouble swallowing solids or liquids, and it doesn't hurt when food goes down.",
+        "topic": "Difficulty or pain swallowing"
+      },
+      {
+        "answer": "No cold sweats, no nausea, no vomiting, and I haven't felt short of breath or lightheaded.",
+        "topic": "Associated cardiopulmonary symptoms"
+      },
+      {
+        "answer": "No fever, no chills, and no cough or phlegm.",
+        "topic": "Fever, cough, or phlegm"
+      },
+      {
+        "answer": "No, I haven't had a cold, sore throat, or viral infection recently.",
+        "topic": "Recent viral illness"
+      },
+      {
+        "answer": "No, neither leg is swollen or painful, and I haven't had surgery, long flights, or prolonged bed rest.",
+        "topic": "Leg swelling and clot risk"
+      },
+      {
+        "answer": "No, there are no rashes, blisters, or redness anywhere on my chest.",
+        "topic": "Skin rash or blisters"
+      },
+      {
+        "answer": "No, I don't feel sudden panicky episodes, impending doom, or numbness in my hands.",
+        "topic": "Anxiety and panic symptoms"
+      },
+      {
+        "answer": "My appetite is completely fine, and my weight has remained stable.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "No, I have never vomited blood, and my bowel movements are normal brown without any black or sticky stool.",
+        "topic": "Gastrointestinal bleeding signs"
+      },
+      {
+        "answer": "I've never had heart problems or chest pain like this before, and I've never had heart tests or stents.",
+        "topic": "Previous chest pain or tests"
+      },
+      {
+        "answer": "No, I haven't hit my chest, and I haven't done any heavy weightlifting or strenuous upper-body workouts.",
+        "topic": "Chest trauma or muscle strain"
+      },
+      {
+        "answer": "I suspect it might be acid reflux or stomach irritation, but I'm worried it might damage my esophagus or even be a heart problem.",
+        "topic": "Ideas and concerns"
+      },
+      {
+        "answer": "I don't have high blood pressure, diabetes, high cholesterol, or any chronic conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery, and I've never been admitted to a hospital.",
+        "topic": "Past surgery and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter painkillers, or health supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I don't have any allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I rarely drink at all, maybe half a glass of wine once or twice a year on holidays.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a homemaker, and I live comfortably at home with my husband and two children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has had early heart disease, heart attacks, or gastrointestinal cancers.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period started two weeks ago, my monthly cycles are regular, and there is no chance of pregnancy.",
+        "topic": "Menstrual history and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 72 beats per minute, respiratory rate 15 breaths per minute, body temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient is comfortable and in no acute distress, with no diaphoresis or pallor.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor, and sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pressure is normal without distension.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "No chest wall tenderness, rib tenderness, or reproducible pain on palpation.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion notes bilaterally across all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds throughout both lungs with no crackles, wheezes, or friction rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, without murmurs, gallops, or pericardial friction rub.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat, symmetrical, and without scars or visible peristalsis.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-tender, with no epigastric tenderness, guarding, rigidity, or palpable mass.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No rash, vesicles, or skin lesions across the chest or back.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or ankle edema in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Both calves are symmetric, soft, and non-tender without swelling or erythema.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

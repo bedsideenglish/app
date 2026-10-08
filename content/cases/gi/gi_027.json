@@ -1,0 +1,339 @@
+{
+  "id": "gi_027",
+  "system": "gi",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Thompson",
+  "age": 23,
+  "gender": "male",
+  "chief_complaint": "dull upper stomach pain and feeling bloated after eating greasy food",
+  "hpi_details": "23-year-old male presents with recurrent episodes of dull right upper quadrant abdominal pain and bloating that typically occur 30 to 60 minutes after consuming fatty meals. The episodes last for a few hours before gradually subsiding. Denies fever, chills, or jaundice.",
+  "ideas": "He thinks he has bad indigestion or food poisoning triggered by grease from fast food he eats after late shifts.",
+  "concerns": "He is worried that an attack will strike while he is on duty at work or that it could be his appendix about to burst.",
+  "expectations": "He hopes to have an ultrasound of his abdomen and walk away with medication to settle his stomach after meals.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Biliary Colic evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Biliary Colic is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes ordering an abdominal ultrasound, advising a low-fat diet, and consulting general surgery, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: dull upper stomach pain and feeling bloated after eating greasy food",
+      "Key HPI features: 23M presents with recurrent dull RUQ pain and bloating 30-60 minutes after fatty meals, lasting a few hours before resolving. No fever or jaundice.",
+      "Objective/Exam findings: Vitals stable, afebrile. Abdomen is soft with mild tenderness in the right upper quadrant. Negative Murphy's sign.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Biliary Colic.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute cholecystitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever or pain that doesn't settle after several hours — would suggest cholecystitis."
+    ],
+    "management_principles": [
+      "Order right upper quadrant abdominal ultrasound to identify gallstones.",
+      "Advise a strict low-fat diet to prevent further symptomatic episodes.",
+      "Refer for elective outpatient general surgery consultation for consideration of cholecystectomy."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Gastroenterology (ACG) Clinical Guidelines",
+        "url": "https://gi.org/clinical-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "23-year-old male presents with recurrent episodes of dull right upper quadrant abdominal pain and bloating that typically occur 30 to 60 minutes after consuming fatty meals. The episodes last for a few hours before gradually subsiding. Denies fever, chills, or jaundice.",
+    "objective": "Vitals: HR 76, BP 120/80, Temp 37.0C, SpO2 99%. Abdomen: Soft, non-distended. Mild tenderness to deep palpation in the right upper quadrant. Negative Murphy's sign. No rebound or guarding. No scleral icterus or jaundice.",
+    "assessment": "Biliary Colic.",
+    "plan": "1. Order RUQ abdominal ultrasound to confirm cholelithiasis. 2. Educate patient on a strict low-fat diet. 3. Refer to general surgery for elective cholecystectomy evaluation. 4. Return precautions for fever, intractable vomiting, or unremitting pain."
+  },
+  "learning_objectives": [
+    "Recognize the classic presentation of Biliary Colic (postprandial RUQ pain, absence of fever/jaundice).",
+    "Differentiate Biliary Colic from Acute Cholecystitis using history and physical exam findings (e.g., Murphy's sign).",
+    "Implement an evidence-based management plan including ultrasound, dietary modification, and surgical referral."
+  ],
+  "teaching": {
+    "diagnosis": "Biliary Colic",
+    "one_liner": "A gallstone temporarily blocks the gallbladder outlet after fatty food, causing dull right-upper-quadrant pain and bloating that eventually settles.",
+    "differentials": [
+      "Acute cholecystitis",
+      "Peptic ulcer disease",
+      "Functional dyspepsia"
+    ],
+    "red_flags": [
+      "Fever or pain that doesn't settle after several hours — would suggest cholecystitis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Relation to fatty meals",
+        "say": "Does the pain come on after eating fatty food?",
+        "domains": [
+          "onset_duration",
+          "aggravating"
+        ],
+        "keywords": [
+          "fatty",
+          "greasy",
+          "meals",
+          "eating"
+        ]
+      },
+      {
+        "objective": "Bloating and fullness",
+        "say": "Do you feel bloated or overly full along with the pain?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bloating",
+          "bloated",
+          "full",
+          "distended"
+        ]
+      },
+      {
+        "objective": "Radiation to shoulder",
+        "say": "Does the pain spread to your shoulder blade?",
+        "domains": [
+          "radiation"
+        ],
+        "keywords": [
+          "shoulder",
+          "blade",
+          "spread"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had any fevers or chills?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "chills"
+        ]
+      },
+      {
+        "objective": "Jaundice",
+        "say": "Have you noticed any yellowing of your skin or eyes?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "yellow",
+          "jaundice"
+        ]
+      },
+      {
+        "objective": "Known gallstones",
+        "say": "Has anyone told you before that you have gallstones?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "gallstones",
+          "gallbladder",
+          "diagnosed"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/80",
+      "hr": 76,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 37
+    },
+    "history": [
+      {
+        "answer": "I've been having this dull upper stomach pain and feeling really bloated whenever I eat greasy food.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like a dull, heavy ache combined with tight bloating and fullness.",
+        "topic": "Nature of discomfort"
+      },
+      {
+        "answer": "It's mainly in my upper right abdomen, right under the rib cage on that side.",
+        "topic": "Location of the pain"
+      },
+      {
+        "answer": "Sometimes the dull ache spreads around toward my right flank and up into my right shoulder blade.",
+        "topic": "Radiation to shoulder or back"
+      },
+      {
+        "answer": "The attacks started about a month ago. Each episode begins roughly thirty to sixty minutes after eating and lasts two to four hours before gradually fading.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It definitely acts up after fatty or oily meals, like fried chicken, pork belly, or cheeseburgers.",
+        "topic": "Relation to fatty meals"
+      },
+      {
+        "answer": "If I eat late at night, the ache keeps me awake for a few hours, but it doesn't wake me from sleep on an empty stomach.",
+        "topic": "Nighttime waking from pain"
+      },
+      {
+        "answer": "No, I don't get a burning sensation behind my breastbone or sour fluid coming up into my throat.",
+        "topic": "Heartburn and acid reflux"
+      },
+      {
+        "answer": "I get bloated after eating, but I can finish a regular meal without feeling full after only a couple of bites.",
+        "topic": "Early satiety"
+      },
+      {
+        "answer": "No, swallowing food and drinks is completely normal and painless.",
+        "topic": "Difficulty or pain swallowing"
+      },
+      {
+        "answer": "I feel nauseated during the peak of the discomfort, but I haven't thrown up.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "My appetite is normal, though I try to steer clear of fried foods now, and my weight has stayed the same.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "No, I haven't thrown up blood, and my bowel movements are normal brown with no black or tarry stools.",
+        "topic": "Blood in vomit or stool"
+      },
+      {
+        "answer": "No, I haven't had any lightheadedness, dizziness, or unusual exhaustion.",
+        "topic": "Dizziness and fatigue"
+      },
+      {
+        "answer": "No, walking, climbing stairs, or exercising doesn't trigger or worsen the pain.",
+        "topic": "Pain with exertion"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or night sweats at all.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my skin and eyes look completely normal, and my urine hasn't turned dark.",
+        "topic": "Yellowing of eyes or skin"
+      },
+      {
+        "answer": "I've never been told I have gallstones, and I have never had an ultrasound done on my belly.",
+        "topic": "History of gallstones"
+      },
+      {
+        "answer": "I don't take aspirin or anti-inflammatory drugs like ibuprofen. I tried acetaminophen once, but it didn't make much difference.",
+        "topic": "Pain relievers or aspirin"
+      },
+      {
+        "answer": "I eat fried or heavy foods a few times a week and have one cup of coffee daily, but my stress levels are manageable.",
+        "topic": "Dietary habits and caffeine"
+      },
+      {
+        "answer": "No, I've never had an upper endoscopy or any testing or treatment for stomach bacteria.",
+        "topic": "Prior endoscopy"
+      },
+      {
+        "answer": "I thought it was just really bad indigestion or mild food poisoning from eating too much greasy fast food on late shifts.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm worried this might be my appendix getting ready to burst, or that an attack will hit during my new job's probationary period and cost me my shift.",
+        "topic": "Patient worries and concerns"
+      },
+      {
+        "answer": "I don't have any chronic medical illnesses like high blood pressure, diabetes, or liver problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I'm not currently taking any prescription medications, over-the-counter drugs, or nutritional supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I don't have any allergies to medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, having one or two beers maybe a couple of times a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I'm a university student living in a rented studio near my campus.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had her gallbladder removed due to gallstones, but nobody in my family has stomach cancer or liver disease.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/80 mmHg, pulse 76 beats/min, respiratory rate 14 breaths/min, body temperature 37.0 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-developed young male appearing comfortable at rest with no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor, and sclerae are clear without icterus or jaundice.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable left supraclavicular lymphadenopathy or cervical lymph node enlargement.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat and non-distended with no surgical scars or visible pulsations.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normoactive bowel sounds heard across all four quadrants with no vascular bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft with mild tenderness on deep palpation in the right upper quadrant, with no palpable mass.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness or involuntary abdominal wall guarding.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Negative Murphy's sign with no sharp arrest of inspiration on deep palpation beneath the right costal margin.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      }
+    ]
+  }
+}

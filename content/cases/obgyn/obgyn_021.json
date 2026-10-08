@@ -1,0 +1,364 @@
+{
+  "id": "obgyn_021",
+  "system": "obstetrics & gynecology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Park",
+  "age": 28,
+  "gender": "female",
+  "chief_complaint": "severe nausea and vomiting in early pregnancy, unable to keep fluids down",
+  "hpi_details": "28F who is 8 weeks pregnant presents with severe, persistent nausea and vomiting. Reports vomiting 5-6 times daily, unable to keep food or water down for 24 hours, and feeling extremely weak.",
+  "ideas": "worried about the health of her baby due to constant vomiting",
+  "concerns": "exhausted and dehydrated",
+  "expectations": "wants anti-nausea medication and IV fluids",
+  "pmh": "Primigravida (8 weeks gestation by LMP)",
+  "medications": "Prenatal vitamins (stopped due to nausea)",
+  "social_hx": "Office worker, non-smoker",
+  "investigation_events": [{
+    "id": "urgent_hyperemesis_assessment",
+    "title": "Urgent dehydration and electrolyte assessment",
+    "order_terms": ["urine ketones", "ketones", "electrolytes", "BMP", "basic metabolic panel", "sodium", "potassium"],
+    "availability_message": "Urine ketone and electrolyte results are now available. IV fluids and thiamine should not be delayed in this clinically dehydrated patient.",
+    "results": [
+      {"id": "urine_ketones", "test": "Urine ketones", "value": "3+", "reference_range": "Negative", "flag": "high"},
+      {"id": "sodium", "test": "Serum sodium", "value": "130", "unit": "mEq/L", "reference_range": "135-145", "flag": "low"},
+      {"id": "potassium", "test": "Serum potassium", "value": "3.1", "unit": "mEq/L", "reference_range": "3.5-5.0", "flag": "low"},
+      {"id": "bicarbonate", "test": "Serum bicarbonate", "value": "19", "unit": "mEq/L", "reference_range": "22-29", "flag": "low"}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Hyperemesis gravidarum evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hyperemesis gravidarum is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe nausea and vomiting in early pregnancy, unable to keep fluids down",
+      "Key HPI features: 28F who is 8 weeks pregnant presents with severe, persistent nausea and vomiting. Reports vomiting 5-6 times daily, unable to keep food or water down for 24 hours, and feeling extremely weak.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration).",
+      "Relevant background/PMH: Primigravida (8 weeks gestation by LMP)",
+      "Current medications: Prenatal vitamins (stopped due to nausea)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hyperemesis gravidarum.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Normal nausea/vomiting of pregnancy without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Unable to tolerate any fluids for 24 hours."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration)",
+      "Check weight loss, vital signs for orthostasis, urine ketones, and electrolytes",
+      "Administer IV fluids with thiamine, and prescribe antiemetics (Pyridoxine/Doxylamine first line)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration). severe nausea and vomiting in early pregnancy, unable to keep fluids down. 28F who is 8 weeks pregnant presents with severe, persistent nausea and vomiting. Reports vomiting 5-6 times daily, unable to keep food or water down for 24 hours, and feeling extremely weak.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration).",
+    "assessment": "Clinical presentation highly suggestive of Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration).",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration). Check weight loss, vital signs for orthostasis, urine ketones, and electrolytes. Administer IV fluids with thiamine, and prescribe antiemetics (Pyridoxine/Doxylamine first line). Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration).",
+    "Formulate prioritized differential diagnosis for severe nausea and vomiting in early pregnancy, unable to keep fluids down",
+    "Select appropriate laboratory and imaging studies for obstetrics & gynecology",
+    "Implement evidence-based acute and long-term management strategies for Hyperemesis Gravidarum (severe pregnancy-induced nausea/vomiting causing dehydration)."
+  ],
+  "teaching": {
+    "diagnosis": "Hyperemesis gravidarum",
+    "one_liner": "28F at 8 weeks with severe persistent vomiting, unable to tolerate oral intake for 24 hours.",
+    "differentials": [
+      "Normal nausea/vomiting of pregnancy",
+      "Gastroenteritis",
+      "Molar pregnancy",
+      "Peptic ulcer disease"
+    ],
+    "red_flags": [
+      "Unable to tolerate any fluids for 24 hours",
+      "Signs of dehydration",
+      "Ketonuria"
+    ],
+    "must_ask": [
+      {
+        "objective": "Quantify vomiting episodes",
+        "say": "How many times have you vomited today, and can you keep anything down?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vomiting frequency"
+        ]
+      },
+      {
+        "objective": "Screen for dehydration signs",
+        "say": "Have you felt weak, dizzy, or had a dry mouth?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dehydration"
+        ]
+      },
+      {
+        "objective": "Ask about weight and appetite changes",
+        "say": "Have you lost weight since the vomiting started?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weight loss"
+        ]
+      },
+      {
+        "objective": "Assess emotional impact and support",
+        "say": "How has this been affecting you emotionally, and do you have support at home?",
+        "domains": [
+          "concerns"
+        ],
+        "keywords": [
+          "emotional impact",
+          "support"
+        ]
+      },
+      {
+        "objective": "Explain IV fluids and antiemetic plan",
+        "say": "We'll start IV fluids and give you medication to control the nausea.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "IV fluids",
+          "antiemetics"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "100/65",
+      "hr": 104,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I am 8 weeks pregnant, and I haven't been able to keep any food or water down for the past 24 hours because of constant nausea and vomiting.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The nausea began mildly around 6 weeks, but it worsened sharply over the past week and became unbearable yesterday.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "I am throwing up 5 to 6 times every day, even when my stomach is completely empty.",
+        "topic": "Frequency of vomiting"
+      },
+      {
+        "answer": "At first it was undigested food, but now it is mostly clear fluid or bitter, yellowish-green bile without blood or foul odor.",
+        "topic": "Nature of vomitus"
+      },
+      {
+        "answer": "The nausea lasts all day and night rather than just mornings, and the vomiting is not shooting out forcefully.",
+        "topic": "Timing and projectile vomiting"
+      },
+      {
+        "answer": "I do not have severe stomach pain, just some mild aching in my upper belly after dry heaving that eases up afterward.",
+        "topic": "Abdominal pain"
+      },
+      {
+        "answer": "I passed gas today and had a normal bowel movement two days ago with no diarrhea, and my belly does not feel bloated.",
+        "topic": "Bowel habits and diarrhea"
+      },
+      {
+        "answer": "I have had no fever or chills, and my husband ate the same food as me without any sickness.",
+        "topic": "Fever and sick contacts"
+      },
+      {
+        "answer": "I feel lightheaded when standing up, but I have had no headache, stiff neck, blurry vision, or confusion.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, I have not bumped or injured my head recently.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "I throw up even tiny sips of water, my mouth is parched, and I have only urinated once today and it was very dark.",
+        "topic": "Fluid intake and dehydration"
+      },
+      {
+        "answer": "My mouth feels dry, but I have not had excessive urination or extreme thirst prior to this, and I do not have diabetes.",
+        "topic": "Thirst and diabetes history"
+      },
+      {
+        "answer": "No, I do not have any chest pain, tightness, or shortness of breath.",
+        "topic": "Chest pain and breathlessness"
+      },
+      {
+        "answer": "I do not drink alcohol, smoke marijuana, or use any recreational drugs.",
+        "topic": "Substance use"
+      },
+      {
+        "answer": "I have lost about 3 kilograms over the past two weeks because I cannot keep meals down.",
+        "topic": "Weight change"
+      },
+      {
+        "answer": "My appetite is completely gone, and even the smell of cooking makes me violently nauseous.",
+        "topic": "Appetite and food intake"
+      },
+      {
+        "answer": "No, I never induce vomiting myself. It happens completely involuntarily.",
+        "topic": "Self-induced vomiting"
+      },
+      {
+        "answer": "No, I have not had any vaginal bleeding, spotting, or unusual discharge.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "I feel utterly drained and overwhelmed, though my husband is being very supportive and brought me to the clinic today.",
+        "topic": "Emotional impact and support"
+      },
+      {
+        "answer": "I know morning sickness happens, but I am terrified that not keeping any fluids or food down will harm my baby.",
+        "topic": "Thoughts on baby health"
+      },
+      {
+        "answer": "I feel completely exhausted, dehydrated, and weak, and I am worried my body cannot take much more of this.",
+        "topic": "Current concerns"
+      },
+      {
+        "answer": "I am hoping I can get IV fluids to rehydrate me and medication that will safely stop the vomiting.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "I have no chronic medical conditions and have always been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I was taking prenatal vitamins, but I had to stop taking them a few days ago because they made my nausea worse.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications or foods.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink alcohol at all, especially now that I am pregnant.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work in an office at a desk job and live with my husband in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had severe morning sickness during her pregnancies, but there is no family history of gastrointestinal or metabolic diseases.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period was 8 weeks ago, my cycles were regular every 28 days, and this is my first pregnancy.",
+        "topic": "Menstrual and obstetric history"
+      },
+      {
+        "answer": "This was a planned and very wanted pregnancy, and we stopped using barrier contraception several months ago.",
+        "topic": "Pregnancy planning"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 100/65 mmHg, pulse rate 104 beats per minute, respiratory rate 16 breaths per minute, body temperature 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Standing blood pressure drops to 88/55 mmHg and pulse increases to 122 beats per minute, consistent with orthostatic hypotension.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Lethargic and visibly fatigued young woman with sunken eyes and dry lips.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucous membranes are dry with a cracked tongue; pharynx is clear without erythema or exudate.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Decreased skin turgor with delayed recoil on the forearm; capillary refill time is prolonged at 3 seconds.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, with no palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat and non-distended with no surgical scars or visible pulsations.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bowel sounds are present and normoactive in all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft throughout with no rigidity or guarding; mild epigastric discomfort on deep palpation without focal tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No rebound tenderness in any quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No spontaneous, gaze-evoked, or positional nystagmus.",
+        "maneuver": "vertigo_maneuvers",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented to time, place, and person, but responds slowly due to exhaustion.",
+        "maneuver": "mental_status",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "id": "fm_031",
+  "system": "fm",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Walker",
+  "age": 35,
+  "gender": "male",
+  "chief_complaint": "routine 3-month review, HbA1c 7.2% on metformin",
+  "hpi_details": "A 35-year-old male presents to the clinic with routine 3-month review, hba1c 7.2% on metformin. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks his blood sugar rose and he feels tired because he has been working exhausting overtime and cheating on his diet with late-night carbs.",
+  "concerns": "He is worried that his metformin is no longer working and that he will be forced to start daily insulin injections that will disrupt his job.",
+  "expectations": "He hopes the doctor will adjust his current pill dose or grant him another three months of strict dieting before considering injections.",
+  "pmh": "Type 2 diabetes mellitus",
+  "medications": "Metformin",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {
+      "id": "hba1c",
+      "test": "Hemoglobin A1c",
+      "value": "7.2",
+      "unit": "%",
+      "reference_range": "<7.0 individualized target",
+      "flag": "high",
+      "specimen": "Blood",
+      "collected_at": "Before 3-month review"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Type 2 Diabetes (follow-up) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Type 2 Diabetes (follow-up) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes optimizing the metformin dose, checking creatinine, and screening the feet with monofilament testing, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: routine 3-month review, HbA1c 7.2% on metformin",
+      "Key HPI features: A 35-year-old male presents to the clinic with routine 3-month review, hba1c 7.2% on metformin. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Stable vital signs, feet examined with monofilament testing (no ulcers or sensory loss), HbA1c 7.2% above goal.",
+      "Relevant background/PMH: Type 2 diabetes mellitus"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Type 2 Diabetes (follow-up).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Symptoms of a hyperglycemic crisis (polyuria, polydipsia, vomiting, confusion) — DKA/HHS needs emergent care."
+    ],
+    "management_principles": [
+      "Plan for Type 2 Diabetes follow-up: Optimize metformin dose, check creatinine, screen feet with monofilament",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of routine 3-month review, HbA1c 7.2% on metformin. HPI: Established type 2 diabetic on metformin returns for routine follow-up, reporting gradual fatigue but no polyuria, polydipsia, vision changes, or foot symptoms.",
+    "objective": "Vital signs stable, BMI reviewed. Feet examined with monofilament testing, no ulcers or sensory deficits noted. HbA1c 7.2%, above goal.",
+    "assessment": "Type 2 diabetes mellitus, routine follow-up with HbA1c 7.2% above target on metformin monotherapy.",
+    "plan": "Plan for Type 2 Diabetes follow-up: Optimize metformin dose, check creatinine, screen feet with monofilament. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Type 2 Diabetes follow-up",
+    "Select appropriate diagnostic workup for Type 2 Diabetes follow-up",
+    "Implement evidence-based management plan: Optimize metformin dose, check creatinine, screen feet with monofilament"
+  ],
+  "teaching": {
+    "diagnosis": "Type 2 Diabetes (follow-up)",
+    "one_liner": "A routine 3-month diabetes follow-up with an HbA1c above goal on metformin, prompting dose optimization and complication screening.",
+    "differentials": [
+      "Medication nonadherence",
+      "Intercurrent illness causing hyperglycemia",
+      "Diabetes complications"
+    ],
+    "red_flags": [
+      "Symptoms of a hyperglycemic crisis (polyuria, polydipsia, vomiting, confusion) — DKA/HHS needs emergent care",
+      "New vision changes, numbness/tingling in the feet, or chest pain — screen for diabetic complications",
+      "Recurrent or severe hypoglycemia — needs urgent medication adjustment"
+    ],
+    "must_ask": [
+      {
+        "objective": "Medication adherence",
+        "say": "Have you been taking your metformin regularly?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Blood sugar control",
+        "say": "How have your home glucose readings been?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Diet and exercise",
+        "say": "How has your diet and exercise been?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Foot symptoms",
+        "say": "Any numbness or sores on your feet?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Side effects",
+        "say": "Any side effects from the medication, like stomach upset?",
+        "domains": [
+          "medications"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I am here for my regular three-month checkup and to get a refill for my blood sugar medication.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I'm hoping we can just tweak my pill dosage or give me another three months to tighten up my eating before talking about any shots.",
+        "topic": "Reason for visit and goals"
+      },
+      {
+        "answer": "Over the past two or three weeks I have felt gradually more fatigued, but I don't have any fever or pain.",
+        "topic": "Current symptoms and fatigue"
+      },
+      {
+        "answer": "No, I haven't been drinking unusually large amounts of water or running to the bathroom to pee all the time.",
+        "topic": "Thirst and urination"
+      },
+      {
+        "answer": "My vision has been clear, with no blurriness, dark spots, or sudden changes.",
+        "topic": "Vision changes"
+      },
+      {
+        "answer": "No, I haven't noticed any tingling, numbness, pins and needles, or open sores on my feet.",
+        "topic": "Foot numbness and sores"
+      },
+      {
+        "answer": "I haven't had any cold sweats, hand shakiness, hunger pangs, or dizziness that felt like a low blood sugar episode.",
+        "topic": "Hypoglycemia symptoms"
+      },
+      {
+        "answer": "I don't get any chest heaviness, heart racing, shortness of breath, or lightheadedness when I walk or exercise.",
+        "topic": "Chest pain and palpitations"
+      },
+      {
+        "answer": "My wife says I snore lightly when I am very tired, but I never stop breathing in my sleep and I don't have knee pain.",
+        "topic": "Snoring and joint pain"
+      },
+      {
+        "answer": "I have never had exercise-induced asthma, wheezing, or shortness of breath during physical exertion.",
+        "topic": "Exercise tolerance and asthma"
+      },
+      {
+        "answer": "I don't have cold intolerance, severe constipation, easy bruising, or unusual fat building up on my face or neck.",
+        "topic": "Secondary weight gain symptoms"
+      },
+      {
+        "answer": "I eat three meals a day, but with work stress I occasionally have sugary snacks and mix-coffee in the afternoons.",
+        "topic": "Daily diet and eating habits"
+      },
+      {
+        "answer": "I walk about twenty minutes each weekday on my commute, but I haven't been doing any dedicated gym workouts.",
+        "topic": "Physical activity and exercise"
+      },
+      {
+        "answer": "My weight has stayed around 78 kilograms for the past year; I tried a low-calorie diet before and lost some weight, but it bounced back.",
+        "topic": "Weight history and attempts"
+      },
+      {
+        "answer": "I check my fasting blood sugar with a fingerstick monitor a couple of times a week, and it usually sits between 130 and 140.",
+        "topic": "Home blood sugar monitoring"
+      },
+      {
+        "answer": "I take my metformin 500 milligrams twice a day with meals, and I rarely miss a single dose.",
+        "topic": "Medication adherence"
+      },
+      {
+        "answer": "I don't have any stomach cramps, nausea, or diarrhea from the metformin.",
+        "topic": "Medication side effects"
+      },
+      {
+        "answer": "I had a general company health screening about a year ago with a normal stomach endoscopy, but I have not had a colonoscopy yet.",
+        "topic": "Screening and endoscopy history"
+      },
+      {
+        "answer": "I receive the annual flu vaccine and completed the hepatitis B shots, but I haven't had pneumonia or shingles vaccines.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "I was diagnosed with type 2 diabetes about two years ago, and I do not have high blood pressure.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or overnight stays in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I only take metformin 500 milligrams twice daily; I don't take vitamins, herbs, or over-the-counter pain pills.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink one or two glasses of beer once a week when having dinner with colleagues.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office accountant and live in an apartment with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "I am sexually active only with my wife, with no difficulties and no history of sexually transmitted infections.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "My father was diagnosed with type 2 diabetes when he was in his early fifties; my mother does not have any chronic conditions.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "No one in my family died suddenly at a young age or had a premature heart attack before age fifty.",
+        "topic": "Family cardiac history"
+      },
+      {
+        "answer": "I think my numbers slipped and I'm so tired because I've been pulling long hours at work and cheating on my diet with late-night carbs.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm really worried that the metformin has stopped working and I'll have to start giving myself insulin shots every day while on the job.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping we can just tweak my pill dosage or give me another three months to tighten up my eating before talking about any shots.",
+        "topic": "Patient expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, body temperature 36.6 °C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished male in no acute distress, with a body mass index of 26.2 kg/m² and a waist circumference of 86 cm.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid is normal in size and non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No facial plethoric rounding, purple abdominal striae, acanthosis nigricans, or cutaneous ulcers.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no heart murmurs, rubs, or gallops auscultated in supine or standing positions.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, non-tender throughout with normal bowel sounds and no palpable masses or hepatosplenomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Femoral, dorsalis pedis, and posterior tibial pulses are bilaterally symmetric and 2+ with brisk capillary refill.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial pitting edema or skin breakdown on either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Full range of motion in the spine, hips, knees, and ankles with no joint swelling, warmth, or tenderness.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact sensation to light touch and 10-g Semmes-Weinstein monofilament across all plantar sites on both feet; no callus or skin breakdown.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

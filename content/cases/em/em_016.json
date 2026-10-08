@@ -1,0 +1,384 @@
+{
+  "id": "em_016",
+  "system": "emergency medicine",
+  "difficulty": "intermediate",
+  "eval_template": "emergency_encounter",
+  "care_setting": "emergency_department",
+  "patient_name": "Ms. Taylor",
+  "age": 46,
+  "gender": "female",
+  "chief_complaint": "severe headache, confusion, nausea, and cherry-red lips in whole family using indoor propane heater during winter power outage",
+  "hpi_details": "Family of 4 presenting with headache and lethargy with normal standard pulse oximetry (SpO2 99% falsely normal due to carboxyhemoglobin) where co-oximetry confirms COHb level of 28% requiring immediate 100% high-flow oxygen via non-rebreather mask or hyperbaric oxygen therapy.",
+  "ideas": "She thinks the whole family caught a severe stomach flu or got food poisoning from spoiled leftovers during the blackout.",
+  "concerns": "She is terrified that her children are becoming unresponsive and might slip into a coma.",
+  "expectations": "She hopes the doctor will give everyone anti-nausea medicine and check that her children are safe to go home.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "investigation_events": [
+    {
+      "id": "co_oximetry",
+      "title": "Blood co-oximetry",
+      "order_terms": [
+        "co-oximetry",
+        "co oximetry",
+        "carboxyhemoglobin",
+        "carbon monoxide level",
+        "cohb"
+      ],
+      "availability_message": "The blood co-oximetry result is now available.",
+      "results": [
+        {
+          "id": "carboxyhemoglobin",
+          "test": "Carboxyhemoglobin",
+          "value": "28",
+          "unit": "%",
+          "reference_range": "<3% in a non-smoker",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "Initial sample before prolonged oxygen therapy",
+          "note": "Standard pulse oximetry may appear normal in carbon monoxide poisoning."
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Carbon Monoxide Poisoning evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Carbon Monoxide Poisoning is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Carbon Monoxide Poisoning Smoke Inhalation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe headache, confusion, nausea, and cherry-red lips in whole family using indoor propane heater during winter power outage",
+      "Key HPI features: Family of 4 presenting with headache and lethargy with normal standard pulse oximetry (SpO2 99% falsely normal due to carboxyhemoglobin) where co-oximetry confirms COHb level of 28% requiring immediate 100% high-flow oxygen via non-rebreather mask or hyperbaric oxygen therapy.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Carbon Monoxide Poisoning Smoke Inhalation.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Carbon Monoxide Poisoning.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Viral illness (flu-like symptoms) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Multiple household members with the same symptoms — a strong clue pointing to a shared environmental exposure."
+    ],
+    "management_principles": [
+      "Immediately remove from exposure, give 100% oxygen by non-rebreather mask, and measure carboxyhemoglobin with co-oximetry; discuss hyperbaric oxygen for severe poisoning or high-risk features",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Carbon Monoxide Poisoning Smoke Inhalation: severe headache, confusion, nausea, and cherry-red lips in whole family using indoor propane heater during winter power outage. Family of 4 presenting with headache and lethargy with normal standard pulse oximetry (SpO2 99% falsely normal due to carboxyhemoglobin) where co-oximetry confirms COHb level of 28% requiring immediate 100% high-flow oxygen via non-rebreather mask or hyperbaric oxygen therapy.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Carbon Monoxide Poisoning Smoke Inhalation.",
+    "assessment": "Clinical presentation highly suggestive of Carbon Monoxide Poisoning Smoke Inhalation.",
+    "plan": "Immediately remove all affected people from the exposure and give 100% oxygen by non-rebreather mask. Measure carboxyhemoglobin with co-oximetry, assess neurologic and cardiac involvement, and consult a hyperbaric center for severe poisoning or high-risk features such as loss of consciousness, neurologic deficits, myocardial ischemia, severe acidosis, pregnancy, or markedly elevated carboxyhemoglobin. Do not use standard pulse oximetry to exclude poisoning. Ensure the combustion source is remediated before return home."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Carbon Monoxide Poisoning Smoke Inhalation",
+    "Formulate prioritized differential diagnosis for severe headache, confusion, nausea, and cherry-red lips in whole family using indoor propane heater during winter power outage",
+    "Select appropriate laboratory and imaging studies for emergency medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Carbon Monoxide Poisoning",
+    "one_liner": "Carbon monoxide from an indoor combustion source (like a propane heater) binds hemoglobin far more strongly than oxygen, causing headache, confusion, and cherry-red skin — standard pulse oximetry reads falsely normal, so co-oximetry is needed.",
+    "differentials": [
+      "Viral illness (flu-like symptoms)",
+      "Migraine",
+      "Food poisoning"
+    ],
+    "red_flags": [
+      "Multiple household members with the same symptoms — a strong clue pointing to a shared environmental exposure"
+    ],
+    "must_ask": [
+      {
+        "objective": "Source of combustion",
+        "say": "Were you using any heater, generator, or stove indoors?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "propane heater",
+          "indoor"
+        ]
+      },
+      {
+        "objective": "Others affected",
+        "say": "Is anyone else in your household having similar symptoms?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "family",
+          "others"
+        ]
+      },
+      {
+        "objective": "Symptom character",
+        "say": "Do you have a headache, and how confused do you feel?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "headache",
+          "confusion"
+        ]
+      },
+      {
+        "objective": "Ventilation",
+        "say": "Was the area well ventilated, or were windows closed?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Duration of exposure",
+        "say": "How long were you exposed to this?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "136/84",
+      "hr": 102,
+      "rr": 20,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My whole family has terrible, throbbing headaches and severe nausea, and we are all feeling so weak and dizzy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It came on gradually over the past several hours this morning, getting steadily more intense until it became unbearable.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It started about four or five hours ago; I have never had a headache like this in my life.",
+        "topic": "Duration and prior episodes"
+      },
+      {
+        "answer": "The pain is all over my head on both sides, especially around my forehead and temples.",
+        "topic": "Pain location"
+      },
+      {
+        "answer": "It feels like a heavy, pounding, throbbing pressure, and it is an 8 out of 10 in severity.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "It has been constantly worsening since this morning while we were staying inside the living room.",
+        "topic": "Diurnal variation and pattern"
+      },
+      {
+        "answer": "Moving around or standing up makes the dizziness and throbbing worse; resting with a cool cloth did not help at all.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I didn't see any flashing lights, zigzag lines, or blind spots before the pain began.",
+        "topic": "Aura and visual warning"
+      },
+      {
+        "answer": "I feel very nauseous and almost threw up twice, and bright lights and loud sounds definitely make the throbbing worse.",
+        "topic": "Nausea and sensory sensitivity"
+      },
+      {
+        "answer": "No, I haven't had any eye redness, tearing, eyelid drooping, or runny nose.",
+        "topic": "Autonomic eye and nose symptoms"
+      },
+      {
+        "answer": "No, I do not have any fever, chills, neck stiffness, or skin rashes.",
+        "topic": "Fever neck stiffness and rash"
+      },
+      {
+        "answer": "I don't have one-sided weakness, numbness, or slurred speech, but I feel very drowsy, confused, and slow to think.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "My vision is slightly blurred and I feel lightheaded, but I do not have double vision or eye pain.",
+        "topic": "Vision changes and eye pain"
+      },
+      {
+        "answer": "No, my temples are not tender to the touch, and I have no pain with chewing or stiffness in my shoulders and hips.",
+        "topic": "Temporal tenderness and jaw claudication"
+      },
+      {
+        "answer": "No, I haven't fallen, hit my head, or had any head injuries.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "I took two acetaminophen tablets about two hours ago, but they didn't help my headache at all.",
+        "topic": "Pain medication use"
+      },
+      {
+        "answer": "I have not had unusual stress or lack of sleep; the only major change was setting up our backup heater during the power outage.",
+        "topic": "Headache triggers"
+      },
+      {
+        "answer": "I have high blood pressure and take a daily medication for it, but I do not take any blood thinners or anticoagulants.",
+        "topic": "Hypertension and blood thinners"
+      },
+      {
+        "answer": "No, I have never had cancer, HIV, or taken medications that suppress the immune system.",
+        "topic": "Cancer and immune history"
+      },
+      {
+        "answer": "Yes, my husband and our two teenage kids all developed bad headaches, nausea, and extreme fatigue at the same time.",
+        "topic": "Others affected in household"
+      },
+      {
+        "answer": "Our power went out during the winter storm last night, so we brought an indoor portable propane heater into our living room to stay warm.",
+        "topic": "Heating appliance and combustion source"
+      },
+      {
+        "answer": "All the windows and doors were kept shut tight because it was freezing cold outside, so there was no fresh air coming in.",
+        "topic": "Home ventilation and airflow"
+      },
+      {
+        "answer": "We started running the propane heater right before going to sleep last night, so it has been running indoors for about eight hours.",
+        "topic": "Duration of heater exposure"
+      },
+      {
+        "answer": "Everyone has been feeling sleepy and sick, and my husband noticed our lips look bright reddish pink.",
+        "topic": "Symptom character of family"
+      },
+      {
+        "answer": "I have high blood pressure and mild high cholesterol, but no other medical problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy in my twenties and two uncomplicated child deliveries, but no other surgeries or hospitalizations.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once a day every morning for my blood pressure.",
+        "topic": "Current prescription medications"
+      },
+      {
+        "answer": "Only the two Tylenol pills I took two hours ago, and a daily multivitamin.",
+        "topic": "Over the counter medications and supplements"
+      },
+      {
+        "answer": "I do not have any known allergies to medicines, foods, or latex.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any nicotine or vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine once or twice a month, and I haven't had any alcohol recently.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an office accountant, and I live with my husband and two teenage children in a house.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has high blood pressure and my father had a heart attack in his seventies; no history of brain aneurysms or early strokes.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period was two weeks ago and was normal, my cycles are regular, my husband had a vasectomy, and I am not pregnant.",
+        "topic": "Menstrual and reproductive history"
+      },
+      {
+        "answer": "I thought our whole family caught a terrible stomach flu or got food poisoning from spoiled leftovers during the blackout.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm terrified because my kids are so lethargic and I'm scared they'll stop breathing in their sleep.",
+        "topic": "Patient concerns and worries"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 136/84 mmHg, pulse 102 beats per minute, respirations 20 breaths per minute, temperature 36.8°C, and standard pulse oximetry reads 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient appears lethargic and mildly confused with flushed skin and distinct cherry-red coloration of the lips, in mild-to-moderate distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa and lips demonstrate marked cherry-pink to red hue without oral ulcerations, posterior pharyngeal erythema, or soot deposits.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are 3 mm, equal, round, and briskly reactive to light; extraocular movements are full without nystagmus; fundoscopy reveals sharp disc margins without papilledema or retinal hemorrhages.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness upon direct palpation or percussion over the frontal and maxillary sinuses bilaterally.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is fully supple with full passive flexion; Kernig and Brudzinski signs are both absent.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient is drowsy and slow to answer, oriented to person and place but unsure of the exact date; attention is mildly impaired.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact with symmetric facial sensation, symmetric smile, intact hearing, and intact uvular elevation.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone with 5/5 motor strength throughout all major muscle groups in both upper and lower extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Sensation to light touch and pinprick is intact and symmetric across all four extremities and the face.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Rapid alternating movements and finger-to-nose testing are accurate bilaterally; gait is mildly unsteady and hesitant, but negative Romberg test.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic, regular rhythm with normal S1 and S2; no murmurs, rubs, or gallops auscultated.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields without wheezing, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

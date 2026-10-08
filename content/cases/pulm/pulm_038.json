@@ -1,0 +1,350 @@
+{
+  "id": "pulm_038",
+  "system": "pulm",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Rodriguez",
+  "age": 56,
+  "gender": "female",
+  "chief_complaint": "positive IGRA / PPD test with completely normal chest X-ray",
+  "hpi_details": "A 56-year-old female presents after a positive IGRA or PPD screening test with a normal chest X-ray. She denies cough, fever, night sweats, weight loss, and hemoptysis.",
+  "ideas": "She thinks the screening result was an error or cross-reaction because she has no symptoms whatsoever and her chest X-ray showed clear lungs.",
+  "concerns": "She is worried that she might pass a dangerous contagious infection to her newborn grandchild or be forced into quarantine.",
+  "expectations": "She hopes to get the test repeated to prove it was a mistake or receive a medical note certifying she is safe around others.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [{"id":"igra","test":"Interferon-gamma release assay","value":"Positive","flag":"abnormal","specimen":"Blood","collected_at":"During screening before the current assessment"},{"id":"chest_xray","test":"Chest radiograph","value":"No focal opacity, cavitation, or other radiographic evidence of active tuberculosis","flag":"normal","collected_at":"Before the current assessment"}],
+  "clinical_knowledge": {
+    "topic": "Latent Tuberculosis Infection evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Latent Tuberculosis Infection is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Exclude active tuberculosis before preventive treatment; regimen choice and monitoring depend on drug interactions, liver risk, pregnancy status, prior treatment, and local public-health guidance.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: positive IGRA / PPD test with completely normal chest X-ray",
+      "Key HPI features: A 56-year-old female presents to the clinic with positive igra / ppd test with completely normal chest x-ray. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Latent Tuberculosis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that a positive IGRA or PPD alone establishes active tuberculosis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Failing to distinguish latent infection from active tuberculosis before starting preventive therapy."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring symptoms such as cough, fever, night sweats, or weight loss that may indicate active tuberculosis."
+    ],
+    "management_principles": [
+      "Confirm that there is no evidence of active tuberculosis and assess risks for progression and medication toxicity.",
+      "Select and monitor preventive therapy through a clinician or tuberculosis program when indicated.",
+      "Promptly reassess new cough, fever, night sweats, weight loss, hemoptysis, or abnormal imaging for active disease."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "CDC: Treatment for Latent Tuberculosis Infection",
+        "url": "https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of positive IGRA / PPD test with completely normal chest X-ray. HPI: exposure to TB.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Latent Tuberculosis.",
+    "assessment": "Condition highly suspicious for Latent Tuberculosis.",
+    "plan": "Confirm no evidence of active tuberculosis, assess progression and medication-toxicity risks, and refer to a clinician or tuberculosis program for regimen selection and monitoring when preventive therapy is indicated. Promptly reassess symptoms suggesting active disease."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Latent Tuberculosis",
+    "Select appropriate diagnostic workup for Latent Tuberculosis",
+    "Describe exclusion of active disease and clinician-directed preventive treatment for latent tuberculosis infection"
+  ],
+  "teaching": {
+    "diagnosis": "Latent Tuberculosis Infection",
+    "one_liner": "A positive IGRA or PPD with no symptoms and a normal chest radiograph indicates TB infection without evidence of active disease.",
+    "differentials": [
+      "Active tuberculosis",
+      "False-positive test result"
+    ],
+    "red_flags": [
+      "Cough, fever, night sweats, or weight loss suggesting active tuberculosis",
+      "Abnormal chest imaging or sputum testing suggesting active tuberculosis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Symptoms of active tuberculosis",
+        "say": "Have you had a cough, fever, night sweats, weight loss, or coughed up blood?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "cough",
+          "fever",
+          "night sweats",
+          "weight loss",
+          "blood"
+        ]
+      },
+      {
+        "objective": "TB exposure history",
+        "say": "Have you been in close contact with anyone who has active tuberculosis?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "tuberculosis",
+          "contact",
+          "exposure",
+          "close contact"
+        ]
+      },
+      {
+        "objective": "Reason for TB testing",
+        "say": "What prompted the IGRA or PPD test?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "test",
+          "screening",
+          "work",
+          "immigration",
+          "exposure"
+        ]
+      },
+      {
+        "objective": "Risk factors for progression to active disease",
+        "say": "Do you have HIV, diabetes, or take medicines that suppress your immune system?",
+        "domains": [
+          "pmh",
+          "medications"
+        ],
+        "keywords": [
+          "hiv",
+          "diabetes",
+          "steroids",
+          "immunosuppression",
+          "immune"
+        ]
+      },
+      {
+        "objective": "Previous TB treatment",
+        "say": "Have you ever been treated for tuberculosis or latent TB infection before?",
+        "domains": [
+          "pmh",
+          "medications"
+        ],
+        "keywords": [
+          "treated",
+          "treatment",
+          "tuberculosis",
+          "latent TB",
+          "medication"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I was told my tuberculosis screening test came back positive, so I came in to find out what I need to do.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I had a blood test called an IGRA done during an employee screening last week, and they called me to say it came back positive.",
+        "topic": "Reason for testing and results"
+      },
+      {
+        "answer": "They took a chest X-ray right after the blood test, and they told me the X-ray was completely clear and normal.",
+        "topic": "Chest X-ray result"
+      },
+      {
+        "answer": "I have had general checkups every year, but I have never had a tuberculosis blood test or a positive result before.",
+        "topic": "Previous screening results"
+      },
+      {
+        "answer": "I was well-rested, followed the fasting instructions, and was not feeling sick or stressed when they drew my blood.",
+        "topic": "Circumstances of testing"
+      },
+      {
+        "answer": "No, I have not had any repeat blood tests or checkups done anywhere else since receiving the result.",
+        "topic": "Repeat testing at home"
+      },
+      {
+        "answer": "I have felt a bit more tired than usual over the past couple of weeks, but nothing severe.",
+        "topic": "General fatigue"
+      },
+      {
+        "answer": "No, I do not have any cough, shortness of breath, or chest discomfort.",
+        "topic": "Cough and breathing symptoms"
+      },
+      {
+        "answer": "No, I have never coughed up blood or rust-colored phlegm.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweating at night that soaked my clothes.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "No, my weight has been completely steady and my appetite has been normal.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "No chest tightness, palpitations, sudden shortness of breath, or swelling in my legs.",
+        "topic": "Cardiovascular symptoms"
+      },
+      {
+        "answer": "No headaches, blurred vision, dizziness, numbness, or weakness on either side of my body.",
+        "topic": "Neurologic symptoms"
+      },
+      {
+        "answer": "No bone aches, joint pain, kidney stones, constipation, or cold intolerance.",
+        "topic": "Endocrine and bone symptoms"
+      },
+      {
+        "answer": "A colleague who sits near me at work was diagnosed with active pulmonary tuberculosis about two months ago.",
+        "topic": "Tuberculosis exposure history"
+      },
+      {
+        "answer": "I have never had tuberculosis before, and I have never taken any tuberculosis medications.",
+        "topic": "Previous tuberculosis treatment"
+      },
+      {
+        "answer": "I do not have HIV, kidney disease, or rheumatoid arthritis, and I do not take any immunosuppressant medications.",
+        "topic": "Immunosuppression and progression risks"
+      },
+      {
+        "answer": "I went through menopause around age 51, have never broken a bone, and have never taken steroid pills.",
+        "topic": "Bone health and menopause"
+      },
+      {
+        "answer": "I eat balanced home-cooked meals, walk for 30 minutes three times a week, and do not drink sugary sodas.",
+        "topic": "Diet and exercise habits"
+      },
+      {
+        "answer": "I feel completely healthy and my chest X-ray was totally clear, so I honestly thought the test must have been a false positive or mixed up at the lab.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I babysit my newborn granddaughter, and I'm terrified that I might unknowingly pass a contagious germ to her.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping you could re-run the blood test to confirm it was wrong, or give me a clearance note for my job.",
+        "topic": "Expectations of today visit"
+      },
+      {
+        "answer": "I do not have high blood pressure, diabetes, liver disease, or any other chronic conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized except for childbirth.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not currently taking any prescription drugs, over-the-counter painkillers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or environmental triggers.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a single glass of wine at social gatherings once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an administrative office worker and live with my husband in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has a history of early heart disease, stroke, diabetes, cancer, or kidney problems.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/78 mmHg in right arm and 122/80 mmHg in left arm, heart rate 72 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.6 degrees Celsius, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished, alert female in no acute distress; body mass index is 22.4 kg/m2 with normal waist circumference.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, supraclavicular, or axillary lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender without palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric chest expansion with normal tactile fremitus and no chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant to percussion throughout both lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields with no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, rubs, or carotid bruits audible.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender throughout with normal active bowel sounds and no abdominal bruits.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No hepatomegaly or splenomegaly palpable below the costal margins.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial, posterior tibial, dorsalis pedis, and femoral pulses are symmetric and 2+ bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Normal thoracic and lumbar spinal curvature with no midline bony tenderness or kyphosis.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

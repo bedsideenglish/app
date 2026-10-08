@@ -1,0 +1,422 @@
+{
+  "id": "cardio_021",
+  "system": "cardiology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Sullivan",
+  "age": 26,
+  "gender": "male",
+  "chief_complaint": "chest pain, racing heart, and extreme fatigue 2 weeks after a severe flu",
+  "hpi_details": "Presents with a 4-day history of persistent, dull, retrosternal chest discomfort accompanied by palpitations and profound exhaustion. The pain is mild to moderate (5/10), partially worse when taking deep breaths or lying down. Two weeks prior, suffered a severe viral upper respiratory infection with fever, sore throat, and myalgias that cleared up 5 days ago. Since yesterday, feels short of breath when climbing one flight of stairs and noticed mild swelling around his ankles.",
+  "ideas": "thinks the flu virus has infected the muscle around his heart",
+  "concerns": "worried he might have permanent heart damage or heart failure at age 26",
+  "expectations": "wants blood tests to check heart inflammation and advice on whether he needs to stay in hospital",
+  "pmh": "no prior medical history, highly active amateur cyclist before the flu",
+  "medications": "ibuprofen 400mg TDS over the past 3 days with minimal relief",
+  "social_hx": "non-smoker, drinks socially, software engineer, single",
+  "investigation_events": [
+    {
+      "id": "myocarditis_bloods",
+      "title": "Cardiac and inflammatory blood results",
+      "order_terms": ["troponin", "cardiac biomarkers", "CRP", "inflammatory markers"],
+      "availability_message": "The cardiac and inflammatory blood results are now available.",
+      "results": [
+        {
+          "id": "troponin_t_myocarditis",
+          "test": "High-sensitivity troponin T",
+          "value": "0.19",
+          "unit": "ng/mL",
+          "reference_range": "<0.014",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "Initial sample"
+        },
+        {
+          "id": "crp_myocarditis",
+          "test": "C-reactive protein",
+          "value": "46",
+          "unit": "mg/L",
+          "reference_range": "<5",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "Initial sample"
+        }
+      ]
+    },
+    {
+      "id": "myocarditis_cardiac_mri",
+      "title": "Cardiac MRI",
+      "order_terms": ["cardiac MRI", "CMR", "cardiac magnetic resonance"],
+      "availability_message": "The cardiac MRI report is now available.",
+      "results": [
+        {
+          "id": "cmr_myocarditis",
+          "test": "Cardiac MRI",
+          "value": "Patchy subepicardial late gadolinium enhancement and myocardial oedema in the inferolateral wall; LVEF 40%",
+          "unit": "",
+          "reference_range": "No myocardial oedema or late enhancement; LVEF 50-70%",
+          "flag": "abnormal",
+          "collected_at": "During admission"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Viral Myocarditis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Viral Myocarditis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes immediate hospital admission with continuous ECG monitoring (high risk of malignant ventricular arrhythmias and heart failure progression), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: chest pain, racing heart, and extreme fatigue 2 weeks after a severe flu",
+      "Key HPI features: Presents with a 4-day history of persistent, dull, retrosternal chest discomfort accompanied by palpitations and profound exhaustion. The pain is mild to moderate (5/10), partially worse when taking deep breaths or lying down. Two weeks prior, suffered a severe viral upper respiratory infection with fever, sore throat, and myalgias that cleared up 5 days ago. Since yesterday, feels short of breath when climbing one flight of stairs and noticed mild swelling around his ankles.",
+      "Objective/Exam findings: Vitals: sinus tachycardia (HR 108 bpm), low-normal BP 105/70. Cardiac auscultation: soft S1, presence of an S3 gallop rhythm, and a mild apical systolic murmur of functional mitral regurgitation. Lung auscultation: clear or mild basilar crackles. 12-lead ECG: diffuse non-specific T-wave inversions and ST changes, or ventricular ectopy. Bloods: high-sensitivity troponin persistently elevated (indicating active myocardial necrosis), CRP and ESR elevated, NT-proBNP elevated. Transthoracic echocardiogram: global left ventricular systolic dysfunction/hypokinesia with reduced ejection fraction (e.g., LVEF 40%). Cardiac MRI (gold standard showing late gadolinium enhancement in patchy subepicardial/mid-wall pattern confirming myocardial inflammation).",
+      "Relevant background/PMH: no prior medical history, highly active amateur cyclist before the flu",
+      "Current medications: ibuprofen 400mg TDS over the past 3 days with minimal relief"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Viral Myocarditis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute pericarditis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Breathlessness at rest, syncope, or a sustained fast heart rate."
+    ],
+    "management_principles": [
+      "Immediate hospital admission with continuous ECG monitoring (high risk of malignant ventricular arrhythmias and heart failure progression)",
+      "Avoid routine NSAID use in isolated myocarditis, particularly with heart failure; use for associated pericarditic pain only with specialist guidance",
+      "Initiate guideline-directed medical therapy for heart failure with reduced ejection fraction (low-dose ACE inhibitor and beta-blocker once haemodynamically stable)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Recognition and Initial Management of Fulminant Myocarditis: A Scientific Statement From the American Heart Association",
+        "url": "https://professional.heart.org/en/guidelines-statements/recognition-and-initial-management-of-fulminant-myocarditis-a-scientificcir0000000000000745"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: chest pain, racing heart, and extreme fatigue 2 weeks after a severe flu\n\nPresents with a 4-day history of persistent, dull, retrosternal chest discomfort accompanied by palpitations and profound exhaustion. The pain is mild to moderate (5/10), partially worse when taking deep breaths or lying down. Two weeks prior, suffered a severe viral upper respiratory infection with fever, sore throat, and myalgias that cleared up 5 days ago. Since yesterday, feels short of breath when climbing one flight of stairs and noticed mild swelling around his ankles.",
+    "objective": "Vitals: sinus tachycardia (HR 108 bpm), low-normal BP 105/70. Cardiac auscultation: soft S1, presence of an S3 gallop rhythm, and a mild apical systolic murmur of functional mitral regurgitation. Lung auscultation: clear or mild basilar crackles. 12-lead ECG: diffuse non-specific T-wave inversions and ST changes, or ventricular ectopy. Bloods: high-sensitivity troponin persistently elevated (indicating active myocardial necrosis), CRP and ESR elevated, NT-proBNP elevated. Transthoracic echocardiogram: global left ventricular systolic dysfunction/hypokinesia with reduced ejection fraction (e.g., LVEF 40%). Cardiac MRI (gold standard showing late gadolinium enhancement in patchy subepicardial/mid-wall pattern confirming myocardial inflammation).",
+    "assessment": "Acute Viral Myocarditis (likely Coxsackievirus B, Adenovirus, or Parvovirus B19) causing acute left ventricular systolic dysfunction. DDx: acute pericarditis (without myocardial dysfunction/elevated troponin), acute coronary syndrome, dilated cardiomyopathy of alternative etiology.",
+    "plan": "Immediate hospital admission with continuous ECG monitoring (high risk of malignant ventricular arrhythmias and heart failure progression). Avoid routine NSAID use in isolated myocarditis, particularly with heart failure; use for associated pericarditic pain only with specialist guidance. Initiate guideline-directed medical therapy for heart failure with reduced ejection fraction (low-dose ACE inhibitor and beta-blocker once haemodynamically stable). Absolute physical rest and restriction from competitive athletics/strenuous exercise for 3 to 6 months pending repeat cardiac MRI and normalization of biomarkers/LVEF."
+  },
+  "learning_objectives": [
+    "Recognise the classic presentation of acute viral myocarditis: subacute chest pain, arrhythmia, and heart failure following a recent viral illness",
+    "Explain why NSAIDs are generally avoided in isolated myocarditis with heart failure, while associated pericarditic pain may require specialist-directed treatment",
+    "Interpret diagnostic biomarker profiles combining inflammatory markers (troponin/CRP) with myocardial strain markers (NT-proBNP)",
+    "Formulate strict multidisciplinary discharge instructions on prolonged athletic restriction (3-6 months) to prevent sudden cardiac death"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Viral Myocarditis",
+    "one_liner": "A virus inflames the heart muscle itself — chest pain, palpitations and profound fatigue in someone recently unwell, often young.",
+    "differentials": [
+      "Acute pericarditis",
+      "Acute coronary syndrome",
+      "Pulmonary embolism"
+    ],
+    "red_flags": [
+      "Breathlessness at rest, syncope, or a sustained fast heart rate"
+    ],
+    "must_ask": [
+      {
+        "objective": "Recent viral illness",
+        "say": "Did you have a cold, sore throat or diarrhoea in the last week or two?",
+        "domains": [
+          "pmh",
+          "onset_duration"
+        ],
+        "keywords": [
+          "cold",
+          "flu",
+          "virus",
+          "sore",
+          "throat",
+          "diarrhoea",
+          "fever"
+        ]
+      },
+      {
+        "objective": "Fatigue out of proportion",
+        "say": "How does your energy compare with before you got ill?",
+        "domains": [
+          "severity",
+          "progression"
+        ],
+        "keywords": [
+          "tired",
+          "energy",
+          "exhausted",
+          "fatigue"
+        ]
+      },
+      {
+        "objective": "Palpitations",
+        "say": "Has your heart been racing or beating irregularly?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "racing",
+          "irregular",
+          "fast",
+          "palpitation"
+        ]
+      },
+      {
+        "objective": "Site and radiation of the pain",
+        "say": "Where exactly is the pain, and does it move anywhere else?",
+        "domains": [
+          "location",
+          "radiation"
+        ],
+        "keywords": [
+          "arm",
+          "jaw",
+          "shoulder",
+          "spread",
+          "radiate",
+          "travel"
+        ]
+      },
+      {
+        "objective": "Character of the pain",
+        "say": "How would you describe it — sharp, crushing, burning, tight?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "sharp",
+          "crushing",
+          "burning",
+          "tight",
+          "pressure",
+          "heavy"
+        ]
+      },
+      {
+        "objective": "Breathlessness on exertion",
+        "say": "Are you getting short of breath doing things that were easy before?",
+        "domains": [
+          "associated_symptoms",
+          "aggravating"
+        ],
+        "keywords": [
+          "breath",
+          "breathless",
+          "stairs",
+          "walk"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "105/70",
+      "hr": 108,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.9
+    },
+    "history": [
+      {
+        "answer": "I've had this persistent, dull ache in my chest along with a racing heartbeat and extreme exhaustion for the past four days, about two weeks after a bad flu.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It came on gradually about four days ago while I was just resting at home.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "It is right in the center of my chest behind my breastbone, covering a broad area that I can't pinpoint with one finger.",
+        "topic": "Location of pain"
+      },
+      {
+        "answer": "It feels like a steady, dull ache and pressure, not sharp, tearing, or burning.",
+        "topic": "Character of pain"
+      },
+      {
+        "answer": "No, the pain stays right in the middle of my chest and doesn't radiate to my neck, jaw, left arm, or back.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It has been pretty much continuous day and night over the last four days without really stopping.",
+        "topic": "Duration and pattern"
+      },
+      {
+        "answer": "I'd rate it around a 5 out of 10 in severity, and it has stayed at that level since it started.",
+        "topic": "Severity of pain"
+      },
+      {
+        "answer": "Any effort makes me exhausted and short of breath, but the chest ache itself is there even when I am resting quietly.",
+        "topic": "Effect of exertion and rest"
+      },
+      {
+        "answer": "Taking a deep breath or lying flat on my back makes the chest ache somewhat worse, while sitting up eases it slightly. Pressing on my ribs doesn't change it at all.",
+        "topic": "Positional and breathing changes"
+      },
+      {
+        "answer": "No, eating doesn't trigger or worsen it, I have no acid regurgitation or heartburn, and it doesn't hurt when I swallow.",
+        "topic": "Relation to meals and swallowing"
+      },
+      {
+        "answer": "No cold sweats, nausea, vomiting, or dizziness, but my heart races and I feel profoundly drained.",
+        "topic": "Associated systemic symptoms"
+      },
+      {
+        "answer": "Yes, my heart feels like it is constantly pounding and fluttering fast in my chest, even when I'm just sitting still.",
+        "topic": "Palpitations"
+      },
+      {
+        "answer": "Starting yesterday, I noticed I become significantly short of breath just walking up a single flight of stairs.",
+        "topic": "Shortness of breath on exertion"
+      },
+      {
+        "answer": "I feel completely wiped out and exhausted, far beyond any normal tiredness, even though I've been resting in bed.",
+        "topic": "Fatigue and exhaustion"
+      },
+      {
+        "answer": "No fever, cough, or sputum right now; those symptoms cleared up about five days ago.",
+        "topic": "Fever cough and phlegm"
+      },
+      {
+        "answer": "Yes, two weeks ago I had a severe flu with high fever, chills, a sore throat, and muscle aches, which finally resolved five days ago.",
+        "topic": "Recent viral infection"
+      },
+      {
+        "answer": "I noticed mild puffiness in both of my ankles since yesterday, but no pain or swelling in just one calf, and no recent long flights or surgeries.",
+        "topic": "Leg swelling and clot risk"
+      },
+      {
+        "answer": "No, there are no rashes, redness, or blisters anywhere on my chest.",
+        "topic": "Skin rash or blisters"
+      },
+      {
+        "answer": "No sudden panic, impending doom, or numbness in my fingers, although I am very worried about what this might be.",
+        "topic": "Panic symptoms and tingling"
+      },
+      {
+        "answer": "I don't have high blood pressure, diabetes, or cholesterol problems, I don't smoke, and no one in my family had heart issues at a young age.",
+        "topic": "Cardiovascular risk factors"
+      },
+      {
+        "answer": "No, I have never experienced chest pain or heart trouble before, and I've never had any heart tests or procedures done.",
+        "topic": "Prior cardiac history"
+      },
+      {
+        "answer": "No, I haven't had any trauma or blows to my chest, and I haven't done any workouts or heavy lifting since catching the flu.",
+        "topic": "Chest trauma and heavy exercise"
+      },
+      {
+        "answer": "I'm wondering if that severe flu virus somehow spread to or inflamed the muscle around my heart.",
+        "topic": "Patient ideas on cause"
+      },
+      {
+        "answer": "I'm really terrified that I might have caused permanent damage to my heart or developed heart failure at age twenty-six.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'd like to get blood tests to see if my heart muscle is inflamed and find out if I need to be admitted to the hospital.",
+        "topic": "Expectations of visit"
+      },
+      {
+        "answer": "I have no past medical illnesses. I was a very active amateur cyclist in excellent shape before this flu hit me.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I've never been admitted to a hospital before.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I've been taking ibuprofen 400 milligrams three times a day for the past three days, but it has barely helped the ache.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known drug allergies.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I am a non-smoker and have never used any tobacco or vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe one or two beers on weekends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a software engineer and live alone in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of premature heart disease, cardiomyopathy, or sudden unexplained death.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 105/70 mmHg, heart rate 108 beats per minute, respiratory rate 18 breaths per minute, oxygen saturation 98% on room air, temperature 36.9°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Appears noticeably fatigued and slightly breathless, but alert and without pallor or cold sweats.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pressure is normal at roughly 2 cm above the sternal angle with no gross distension.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "No rash, vesicles, or erythema observed across the anterior or posterior chest wall.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness to palpation over the sternum, ribs, or costochondral junctions, and pressing does not reproduce the discomfort.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rhythm with a soft first heart sound, an audible S3 gallop, and a faint apical systolic murmur; no pericardial friction rub.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal resonance to percussion bilaterally across all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral vesicular breath sounds with faint, fine inspiratory crackles at both lung bases.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, non-distended, with no tenderness in the epigastrium or right upper quadrant, and no organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild, 1+ bilateral pitting edema over both ankles.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are soft and non-tender bilaterally, with equal circumference and no palpable cord.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "id": "ortho_026",
+  "system": "orthopedics",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Thomas",
+  "age": 20,
+  "gender": "female",
+  "chief_complaint": "aching shoulder pain when reaching overhead",
+  "hpi_details": "20F with gradual aching shoulder pain provoked by overhead reaching; clarify duration, activity changes, trauma, and objective weakness on focused assessment.",
+  "ideas": "She thinks she strained a shoulder muscle from carrying a heavy backpack across campus or sleeping awkwardly on it.",
+  "concerns": "She is worried that a tendon is tearing and that she will have to give up going to the gym and carrying her campus backpack.",
+  "expectations": "She hopes to get specific stretching exercises and reassurance that nothing is torn.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Rotator cuff tendinopathy evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Rotator cuff tendinopathy is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Rotator Cuff Tendinopathy: Physical therapy (rotator cuff strengthening), NSAIDs, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: aching shoulder pain when reaching overhead",
+      "Key HPI features: A 20-year-old female presents to the clinic with aching shoulder pain when reaching overhead. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Rotator Cuff Tendinopathy.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Rotator cuff tendinopathy.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Rotator cuff tear without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Progressive weakness would suggest tear rather than tendinopathy."
+    ],
+    "management_principles": [
+      "Plan for Rotator Cuff Tendinopathy: Physical therapy (rotator cuff strengthening), NSAIDs",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of aching shoulder pain when reaching overhead. HPI: repetitive subacromial friction.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Rotator Cuff Tendinopathy.",
+    "assessment": "Condition highly suspicious for Rotator Cuff Tendinopathy.",
+    "plan": "Plan for Rotator Cuff Tendinopathy: Physical therapy (rotator cuff strengthening), NSAIDs. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Rotator Cuff Tendinopathy",
+    "Select appropriate diagnostic workup for Rotator Cuff Tendinopathy",
+    "Implement evidence-based management plan: Physical therapy (rotator cuff strengthening), NSAIDs"
+  ],
+  "teaching": {
+    "diagnosis": "Rotator cuff tendinopathy",
+    "one_liner": "Patient with aching shoulder pain when reaching overhead, consistent with repetitive subacromial friction.",
+    "differentials": [
+      "Rotator cuff tear",
+      "Adhesive capsulitis",
+      "AC joint arthritis"
+    ],
+    "red_flags": [
+      "Progressive weakness would suggest tear rather than tendinopathy"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize pain triggers",
+        "say": "What activities specifically bring on the shoulder pain?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "overhead activity"
+        ]
+      },
+      {
+        "objective": "Ask about duration and progression",
+        "say": "How long has this been going on, and is it getting worse?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "duration",
+          "progression"
+        ]
+      },
+      {
+        "objective": "Screen for weakness (to exclude tear)",
+        "say": "Do you feel any weakness, or is it mainly pain?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weakness screen"
+        ]
+      },
+      {
+        "objective": "Ask about associated fatigue",
+        "say": "How has the fatigue been affecting your daily activities?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fatigue"
+        ]
+      },
+      {
+        "objective": "Explain the physical therapy plan",
+        "say": "If examination supports tendinopathy, we can start physical therapy and discuss pain medicine after reviewing whether it is safe for you.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "physical therapy",
+          "NSAIDs"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "116/74",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My right shoulder has been aching quite a bit, especially whenever I raise my arm or reach overhead.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is just the top and outside of my right shoulder. My left shoulder feels completely normal.",
+        "topic": "Location and symmetry"
+      },
+      {
+        "answer": "It started about three weeks ago and has been gradually getting more noticeable.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is a dull, deep ache that is around a three out of ten normally, but it flares up to a six when I raise my arm.",
+        "topic": "Pain characteristics and severity"
+      },
+      {
+        "answer": "Reaching up to high shelves, brushing my hair, and overhead gym workouts or volleyball serves trigger the sharp ache.",
+        "topic": "Pain triggers"
+      },
+      {
+        "answer": "Resting my arm down by my side eases the discomfort, while repetitive overhead motions make it much worse.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I do not have real muscle weakness and my arm does not suddenly drop; it is just painful when I try to push through overhead motions.",
+        "topic": "Weakness or arm dropping"
+      },
+      {
+        "answer": "No, there has been no visible swelling, redness, or warmth over the shoulder.",
+        "topic": "Joint swelling and warmth"
+      },
+      {
+        "answer": "I do not have morning stiffness, though the shoulder feels a bit stiff if I sleep right on that side.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "I can write and use a computer without trouble, but putting on a jacket or reaching behind my back feels uncomfortable.",
+        "topic": "Functional limitation"
+      },
+      {
+        "answer": "No, I did not fall or dislocate the shoulder, and I did not hear or feel any popping or snapping sound.",
+        "topic": "Trauma or popping sound"
+      },
+      {
+        "answer": "No, I have never had shoulder trouble or joint problems before this.",
+        "topic": "Previous joint episodes"
+      },
+      {
+        "answer": "I have felt generally run down and fatigued lately with college exams, but I have not had fevers or weight loss.",
+        "topic": "Fatigue and constitutional symptoms"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No skin rashes, butterfly rash across my cheeks, mouth ulcers, hair loss, or dry eyes and mouth.",
+        "topic": "Skin rashes and sores"
+      },
+      {
+        "answer": "No, I do not have lower back pain in the morning, heel pain, or sausage-like swelling in my fingers or toes.",
+        "topic": "Back and heel pain"
+      },
+      {
+        "answer": "No recent sore throat, cough, stomach bug, diarrhea, or painful urination.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I eat normal meals without heavy meat binges, and I do not take water pills or diuretic medications.",
+        "topic": "Diet and gout triggers"
+      },
+      {
+        "answer": "No, I have never had steroid injections into any joint, joint surgery, or artificial implants.",
+        "topic": "Injections and previous surgeries"
+      },
+      {
+        "answer": "I have one steady partner, we always use protection, and I have no history of genital discharge or sexually transmitted infections.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I thought I just pulled a muscle from carrying my heavy shoulder bag around campus or maybe slept on it wrong.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I'm worried that something in there is actually tearing and that I won't be able to work out or carry my bag.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I was hoping to get some good stretches to fix it and reassurance that nothing is torn.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "I have no chronic medical conditions and have always been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital.",
+        "topic": "Past hospitalizations or surgeries"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter pain relievers, or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medicines or foods.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used e-cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, about one glass of beer once or twice a month with friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a college student, and I play recreational volleyball and do gym training twice a week.",
+        "topic": "Occupation and sports activities"
+      },
+      {
+        "answer": "No one in my family has rheumatoid arthritis, lupus, gout, or early joint problems.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period was two weeks ago, my cycles are regular every twenty-eight days, and there is no chance I am pregnant.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 116/74 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.6 degrees Celsius, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, healthy-appearing young woman sitting comfortably without distress, holding the right upper extremity naturally adducted.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Tenderness over the right subacromial space and greater tuberosity; painful active abduction between 60 and 120 degrees, with preserved passive range of motion and no joint effusion, redness, or heat bilaterally.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Motor strength is 5/5 throughout bilateral upper extremities, with pain provoked during resisted abduction and external rotation on the right but no drop-arm or true weakness.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Full active cervical spine range of motion without midline tenderness or reproduction of arm pain on Spurling maneuver.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation across bilateral upper extremity dermatomes, including the right lateral deltoid area.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps, brachioradialis, and triceps deep tendon reflexes are 2+ and symmetric bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral radial and brachial pulses are 2+ and equal, with brisk capillary refill under two seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No malar rash, psoriatic plaques, tophi, oral ulcerations, or nail changes.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

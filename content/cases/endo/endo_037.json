@@ -1,0 +1,298 @@
+{
+  "id": "endo_037",
+  "system": "endo",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Rivera",
+  "age": 65,
+  "gender": "female",
+  "chief_complaint": "asymptomatic low bone density on DEXA scan",
+  "hpi_details": "65-year-old female presents for a routine physical exam. She is completely asymptomatic, has no history of fractures, and went through menopause at age 51. A screening dual-energy X-ray absorptiometry (DEXA) scan ordered by her PCP last week returned with a T-score of -2.9 at the lumbar spine.",
+  "ideas": "She thinks the low scan score is just natural age-related thinning that happens to everyone her age since she feels completely healthy.",
+  "concerns": "She is worried that taking strong bone drugs might cause dangerous jaw issues she heard about, or that a simple fall could shatter her hip like her mother's.",
+  "expectations": "She hopes to learn whether simple calcium supplements and walking exercises are enough to avoid taking prescription drugs.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {
+      "id": "lumbar_spine_dexa",
+      "test": "DXA lumbar spine T-score",
+      "value": "-2.9",
+      "reference_range": ">-2.5",
+      "flag": "low",
+      "collected_at": "One week before encounter"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Postmenopausal Osteoporosis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Postmenopausal Osteoporosis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes starting an antiresorptive agent such as alendronate, along with calcium, vitamin D, and weight-bearing exercise for Postmenopausal Osteoporosis, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: asymptomatic low bone density on DEXA scan",
+      "Key HPI features: A 65-year-old postmenopausal woman without prior fracture has a screening DEXA T-score of -2.9 at the lumbar spine.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Postmenopausal Osteoporosis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Postmenopausal Osteoporosis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Osteomalacia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fragility fracture history."
+    ],
+    "management_principles": [
+      "Plan for Postmenopausal Osteoporosis: Alendronate, Calcium + Vitamin D, weight-bearing exercise",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Endocrine Society Clinical Practice Guideline: Pharmacological Management of Osteoporosis in Postmenopausal Women",
+        "url": "https://academic.oup.com/jcem/article/105/3/587/5715062"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "65F presenting asymptomatically after a screening DEXA scan showed low bone mineral density.",
+    "objective": "Exam is unremarkable. No loss of height, kyphosis, or spinal tenderness. Labs: Calcium, Vitamin D, and TSH are within normal limits. DEXA T-score: -2.9.",
+    "assessment": "Postmenopausal Osteoporosis.",
+    "plan": "Initiate first-line antiresorptive therapy with oral Alendronate 70mg weekly (instruct to take on empty stomach, sit upright for 30 mins). Emphasize weight-bearing exercises and adequate Calcium (1200mg/day) and Vitamin D (800 IU/day) intake."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Postmenopausal Osteoporosis",
+    "Select appropriate diagnostic workup for Postmenopausal Osteoporosis",
+    "Implement evidence-based management plan: Alendronate, Calcium + Vitamin D, weight-bearing exercise"
+  ],
+  "teaching": {
+    "diagnosis": "Postmenopausal Osteoporosis",
+    "one_liner": "Estrogen deficiency after menopause accelerates bone resorption, causing reduced bone density found on a DEXA scan.",
+    "differentials": [
+      "Osteomalacia"
+    ],
+    "red_flags": [
+      "Fragility fracture history"
+    ],
+    "must_ask": [
+      {
+        "objective": "Menopause status",
+        "say": "Have you gone through menopause?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Fracture history",
+        "say": "Have you ever broken a bone easily?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Calcium/vitamin D intake",
+        "say": "How much calcium and vitamin D do you get?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does osteoporosis run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      },
+      {
+        "objective": "How found",
+        "say": "Was this found on a routine scan?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I came in because my primary doctor told me that my routine bone density scan came back with very low numbers.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I had a screening bone density scan last week as part of my regular checkup, and the clinic called to say my spinal bone density is significantly low.",
+        "topic": "Test results and how found"
+      },
+      {
+        "answer": "No, this was the very first time I have ever had a bone density scan done.",
+        "topic": "Previous bone density tests"
+      },
+      {
+        "answer": "Nothing unusual happened; I just lay still on the scanner table for a few minutes as instructed, and I had not taken any contrast or unusual medications.",
+        "topic": "Circumstances during the test"
+      },
+      {
+        "answer": "No, I have not had any repeat scans or re-measurements since last week.",
+        "topic": "Retesting elsewhere"
+      },
+      {
+        "answer": "No, I feel completely fine. I have not had any headaches, unusual fatigue, excessive thirst, or unexpected weight changes.",
+        "topic": "General and metabolic symptoms"
+      },
+      {
+        "answer": "No, I have never had chest tightness, shortness of breath, blurred vision, numbness, or weakness on one side of my body.",
+        "topic": "Cardiovascular and neurological symptoms"
+      },
+      {
+        "answer": "No, I do not have any back pain, aching bones, kidney stones, constipation, or trouble tolerating the cold.",
+        "topic": "Bone and endocrine symptoms"
+      },
+      {
+        "answer": "No, I have not lost any weight, and I have had no fevers, night sweats, lumps, or cough.",
+        "topic": "Constitutional symptoms"
+      },
+      {
+        "answer": "No, I have never had muscle weakness, severe muscle cramps, heart palpitations, or tremors.",
+        "topic": "Secondary causes and muscle symptoms"
+      },
+      {
+        "answer": "No, I have never taken oral steroid pills, prescription anti-inflammatories, or water pills, and I do not currently take calcium or vitamin D supplements.",
+        "topic": "Medications affecting bone density"
+      },
+      {
+        "answer": "I eat a fairly regular diet, but I rarely drink milk or eat much cheese, and I try to walk around my neighborhood for twenty minutes twice a week.",
+        "topic": "Diet and exercise habits"
+      },
+      {
+        "answer": "I went through menopause naturally around age 51, and I never took hormone replacement therapy.",
+        "topic": "Menopause status"
+      },
+      {
+        "answer": "No, I have never broken any bones in my life, even from minor slips or falls.",
+        "topic": "Fracture history"
+      },
+      {
+        "answer": "No, my height has stayed the same at five feet four inches, and my clothes still fit the exact same way.",
+        "topic": "Height loss or stooping"
+      },
+      {
+        "answer": "No, I have never had tuberculosis, had contact with anyone who had it, or had any problems with my immune system.",
+        "topic": "Tuberculosis exposure and immunity"
+      },
+      {
+        "answer": "I feel completely healthy and never broke a bone, so I thought the scan just showed normal wear-and-tear for my age.",
+        "topic": "Patient ideas on diagnosis"
+      },
+      {
+        "answer": "I'm really worried that a simple slip in the garden will shatter my hip and leave me in a nursing home like my mother.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can tell me if simple calcium vitamins and daily walks are enough without needing heavy prescription drugs.",
+        "topic": "Expectations for today's visit"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with high blood pressure, diabetes, thyroid disease, or any chronic illness.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital except when I delivered my children.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter pain relievers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to foods or medications.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional glass of wine at family dinners, maybe once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired elementary school teacher, and I live with my husband in a quiet apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had a hunched back in her eighties, but nobody in my family had a broken hip or early heart problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/76 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, temperature 36.6 C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished, comfortable appearance with normal posture, no visible distress, and height and weight within normal limits.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, supraclavicular, or axillary lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, no murmurs, rubs, gallops, or carotid bruits.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with no wheezes, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, non-distended, with no hepatomegaly or splenomegaly palpable.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial, dorsalis pedis, and posterior tibial pulses are symmetric and 2+ bilaterally, with no femoral or abdominal bruits.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No thoracic kyphosis, no midline or paraspinal tenderness along the cervical, thoracic, or lumbar spine, and full active range of motion without discomfort.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or ankle edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

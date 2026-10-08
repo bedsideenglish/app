@@ -1,0 +1,335 @@
+{
+  "id": "fm_012",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Scott",
+  "age": 38,
+  "gender": "female",
+  "chief_complaint": "profound sadness, loss of interest in hobbies, fatigue, and early morning awakening for 3 months with PHQ-9 score 18",
+  "hpi_details": "38F presents with 3 months of persistent low mood and loss of interest in hobbies she used to enjoy, including gardening and her book club. Reports difficulty falling and staying asleep with early morning awakening around 4 AM, decreased appetite with an unintentional 8-pound weight loss, low energy, poor concentration at work, and feelings of guilt about being 'a burden' to her family. Denies any prior episodes of elevated mood, mania, or psychotic symptoms, and denies any thoughts of self-harm or suicide. She has never taken an antidepressant or seen a therapist before.",
+  "ideas": "thinks she may be depressed but is embarrassed to bring it up",
+  "concerns": "She is worried that her slipping focus at work will get her fired and make her a financial burden on her family.",
+  "expectations": "She hopes to get some blood tests to check her thyroid and a mild sleep aid to help her rest at night.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "investigation_events": [
+    {
+      "id": "phq9_screen",
+      "title": "PHQ-9 depression screen",
+      "order_terms": [
+        "phq 9",
+        "phq-9",
+        "depression screen",
+        "depression questionnaire"
+      ],
+      "availability_message": "The PHQ-9 result is now available.",
+      "results": [
+        {
+          "id": "phq9_score",
+          "test": "PHQ-9 score",
+          "value": "18/27",
+          "reference_range": "0-4",
+          "flag": "high",
+          "collected_at": "During clinic assessment",
+          "note": "Moderately severe depressive symptoms; item 9 negative"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Major Depressive Disorder evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Major Depressive Disorder is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management for moderate-to-severe Major Depressive Disorder (PHQ-9 >=15) emphasizes combination treatment: initiation of a first-line SSRI antidepressant together with referral for evidence-based psychotherapy (Cognitive Behavioral Therapy), with close early follow-up to monitor treatment response and safety.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: profound sadness, loss of interest in hobbies, fatigue, and early morning awakening for 3 months with PHQ-9 score 18",
+      "Key HPI features: 38F presents with 3 months of persistent low mood and loss of interest in hobbies she used to enjoy, including gardening and her book club. Reports difficulty falling and staying asleep with early morning awakening around 4 AM, decreased appetite with an unintentional 8-pound weight loss, low energy, poor concentration at work, and feelings of guilt about being 'a burden' to her family. Denies any prior episodes of elevated mood, mania, or psychotic symptoms, and denies any thoughts of self-harm or suicide. She has never taken an antidepressant or seen a therapist before.",
+      "Objective/Exam findings: Vitals: HR 76, BP 118/74, unintentional weight loss of 8 lbs over 3 months. Mental status exam: appears tired with mildly slowed psychomotor activity; downcast affect congruent with reported mood but full range; speech normal rate and volume; thought process linear and goal-directed without evidence of psychosis; no suicidal or homicidal ideation elicited on direct questioning; insight and judgment intact. PHQ-9 depression screen score: 18/27 (moderately severe depression). Baseline TSH and CBC ordered to exclude hypothyroidism and anemia as contributing/mimicking causes.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Major Depressive Disorder.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Adjustment disorder with depressed mood without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Any suicidal ideation or plan — requires immediate safety assessment."
+    ],
+    "management_principles": [
+      "Confirm the diagnosis using DSM-5 criteria (SIGECAPS: Sleep, Interest, Guilt, Energy, Concentration, Appetite, Psychomotor changes, Suicidality) with at least 5 symptoms present for 2+ weeks, and exclude medical mimics (hypothyroidism, anemia, medication side effects) with baseline TSH and CBC.",
+      "Perform a structured suicide risk assessment at this and every follow-up visit, directly asking about ideation, intent, and plan, since untreated depression carries meaningful suicide risk even without an initial positive screen.",
+      "Initiate first-line pharmacotherapy with an SSRI (e.g., Escitalopram 10 mg PO daily or Sertraline 50 mg PO daily), counseling the patient that a full therapeutic response may take 4-6 weeks and that early side effects (nausea, jitteriness) often improve within the first 1-2 weeks.",
+      "Refer for Cognitive Behavioral Therapy or another evidence-based psychotherapy, since combining medication with psychotherapy is more effective than either alone for moderate-to-severe depression; schedule close follow-up in 1-2 weeks initially (then every 4 weeks) to reassess PHQ-9 score, side effects, and safety."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "38F presenting with 3 months of depressed mood, anhedonia, early morning awakening, unintentional weight loss, low energy, poor concentration, and guilt, meeting DSM-5 criteria for Major Depressive Disorder (PHQ-9 18/27, moderately severe). Denies suicidal ideation, intent, or plan; no history of mania or psychosis.",
+    "objective": "Vitals: HR 76, BP 118/74, unintentional weight loss of 8 lbs over 3 months. Mental status exam: appears tired with mildly slowed psychomotor activity; downcast affect congruent with reported mood but full range; speech normal rate and volume; thought process linear and goal-directed without evidence of psychosis; no suicidal or homicidal ideation elicited on direct questioning; insight and judgment intact. PHQ-9 depression screen score: 18/27 (moderately severe depression). Baseline TSH and CBC ordered to exclude hypothyroidism and anemia as contributing/mimicking causes.",
+    "assessment": "Major Depressive Disorder, Single Episode, Moderately Severe (PHQ-9 18/27), without active suicidal ideation.",
+    "plan": "1. Confirm safety: structured suicide risk assessment negative for active ideation, intent, or plan today; provide crisis line information and safety-net instructions to return or call immediately if thoughts of self-harm emerge. 2. Initiate first-line SSRI pharmacotherapy: Escitalopram 10 mg PO daily, counseling that full response may take 4-6 weeks and early side effects often improve within 1-2 weeks. 3. Refer for Cognitive Behavioral Therapy. 4. Order baseline TSH and CBC to exclude hypothyroidism/anemia as contributing causes. 5. Schedule close follow-up in 2 weeks to reassess PHQ-9 score, side effects, and suicide risk, then every 4 weeks until remission."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Major Depressive Disorder Outpatient Screening",
+    "Formulate prioritized differential diagnosis for profound sadness, loss of interest in hobbies, fatigue, and early morning awakening for 3 months with PHQ-9 score 18",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Major Depressive Disorder",
+    "one_liner": "Persistent low mood and loss of interest for over two weeks, meeting the SIGECAPS criteria (sleep, interest, guilt, energy, concentration, appetite, psychomotor, suicidality) — treated with an SSRI plus therapy.",
+    "differentials": [
+      "Adjustment disorder with depressed mood",
+      "Hypothyroidism (should be screened)",
+      "Bipolar disorder (screen for prior mania)"
+    ],
+    "red_flags": [
+      "Any suicidal ideation or plan — requires immediate safety assessment"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mood and anhedonia",
+        "say": "How would you describe your mood, and have you lost interest in things you used to enjoy?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "sad",
+          "loss of interest"
+        ]
+      },
+      {
+        "objective": "Sleep pattern",
+        "say": "Are you waking up early and unable to fall back asleep?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "early awakening"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many months has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Energy and concentration",
+        "say": "How is your energy and ability to concentrate?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Safety screening",
+        "say": "Have you had any thoughts of harming yourself or that life isn't worth living?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I have been feeling deeply sad, exhausted, and completely unmotivated for about three months now.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about three months ago and has been present almost every single day, lasting throughout the entire day.",
+        "topic": "Onset and daily pattern"
+      },
+      {
+        "answer": "There was no specific loss, breakup, or financial crisis that triggered it; it just gradually took over my life.",
+        "topic": "Precipitating life stressors"
+      },
+      {
+        "answer": "I completely lost interest in gardening and my book club, which were activities I used to love and look forward to.",
+        "topic": "Loss of interest in hobbies"
+      },
+      {
+        "answer": "I have trouble falling asleep, and I keep waking up around four in the morning unable to get back to sleep.",
+        "topic": "Sleep disturbances"
+      },
+      {
+        "answer": "My appetite has dropped significantly, and I have lost about eight pounds without trying over the past three months.",
+        "topic": "Appetite and weight changes"
+      },
+      {
+        "answer": "I feel drained of energy constantly, and my concentration at work has become really poor.",
+        "topic": "Fatigue and concentration"
+      },
+      {
+        "answer": "I keep feeling guilty and like I am just being a heavy burden to my family.",
+        "topic": "Feelings of guilt"
+      },
+      {
+        "answer": "I feel like my body and thoughts are moving in slow motion, like I am walking through molasses.",
+        "topic": "Psychomotor slowing"
+      },
+      {
+        "answer": "No, I do not want to die and I have never had thoughts of harming myself.",
+        "topic": "Thoughts of self-harm or suicide"
+      },
+      {
+        "answer": "I have never attempted suicide or harmed myself in the past, and I have no plan whatsoever to do so.",
+        "topic": "Suicide plan or past attempts"
+      },
+      {
+        "answer": "My husband and my two children are my world, and they give me every reason to get better.",
+        "topic": "Protective factors and support"
+      },
+      {
+        "answer": "It has been very hard to keep up with my tasks at work, and I have been withdrawing from my friends.",
+        "topic": "Impact on daily functioning"
+      },
+      {
+        "answer": "No, I have never had periods where I felt abnormally energetic, needed very little sleep, or felt unusually euphoric.",
+        "topic": "Episodes of elevated mood"
+      },
+      {
+        "answer": "No, I have never heard voices that were not there or seen things that others could not see.",
+        "topic": "Hallucinations and unusual thoughts"
+      },
+      {
+        "answer": "I only have an occasional glass of wine, and I do not take sleeping pills or use any illicit drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "I have not had cold intolerance, constipation, neck swelling, or sudden hair thinning.",
+        "topic": "Thyroid and physical symptoms"
+      },
+      {
+        "answer": "No, I have not been pregnant recently; my youngest child is eight years old.",
+        "topic": "Recent pregnancy or childbirth"
+      },
+      {
+        "answer": "I have never experienced an episode like this before, and I have never seen a counselor or taken antidepressants.",
+        "topic": "Past episodes and psychiatric care"
+      },
+      {
+        "answer": "No one in my family has a history of depression, bipolar disorder, psychiatric hospitalizations, or suicide.",
+        "topic": "Family psychiatric history"
+      },
+      {
+        "answer": "I suspect I might be dealing with depression, but I felt embarrassed to bring it up until now.",
+        "topic": "Patient ideas and perspective"
+      },
+      {
+        "answer": "I'm terrified that my lack of focus means I'll lose my job and end up being a burden to my family.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can check my blood to see if something physical is off and maybe give me something gentle to help me sleep through the night.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have high blood pressure and mild cholesterol elevation.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was a teenager, but I have had no other surgeries or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take lisinopril ten milligrams once every morning for my blood pressure.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or latex.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I work as an administrative assistant in an office and live with my husband and two school-aged children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father has high blood pressure, but there are no other significant medical conditions in my family.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My periods are regular every twenty-eight days, my last period was two weeks ago, and there is no chance of pregnancy.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/74 mmHg, pulse 76 beats per minute, respiratory rate 16 breaths per minute, temperature 36.7 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Appears tired and downcast with mildly slowed psychomotor activity, but is neatly groomed and maintains appropriate eye contact.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented times four; speech is normal in rate and volume, mood is depressed with congruent affect, thought process is linear and goal-directed without psychosis or suicidal ideation, and insight and judgment are intact.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor; sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, symmetric, and non-tender without palpable nodules or thyromegaly.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with normal vesicular breath sounds and no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No resting or postural tremor observed in the hands.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "No peripheral edema in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

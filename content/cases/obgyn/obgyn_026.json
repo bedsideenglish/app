@@ -1,0 +1,381 @@
+{
+  "id": "obgyn_026",
+  "system": "obgyn",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Gonzalez",
+  "age": 20,
+  "gender": "female",
+  "chief_complaint": "severe vomiting in pregnancy with dehydration/ketones",
+  "hpi_details": "A 20-year-old female presents to the clinic with severe vomiting in pregnancy with dehydration/ketones. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she has a prolonged stomach virus on top of regular morning sickness.",
+  "concerns": "She is worried that her extreme dehydration will harm the baby and that missing work shifts will cause her to lose her retail job.",
+  "expectations": "She hopes to get IV hydration, a prescription anti-vomiting medication, and a sick note for her employer.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Does not use tobacco, alcohol, or recreational drugs during pregnancy",
+  "available_results": [{"id": "urine_ketones", "test": "Urine ketones", "value": "3+", "reference_range": "Negative", "flag": "high"}],
+  "investigation_events": [{
+    "id": "urgent_hyperemesis_electrolytes",
+    "title": "Urgent electrolyte assessment",
+    "order_terms": ["electrolytes", "BMP", "basic metabolic panel", "sodium", "potassium"],
+    "availability_message": "Urgent electrolyte results are now available. IV fluids with thiamine should not be delayed.",
+    "results": [
+      {"id": "sodium", "test": "Serum sodium", "value": "131", "unit": "mEq/L", "reference_range": "135-145", "flag": "low"},
+      {"id": "potassium", "test": "Serum potassium", "value": "3.0", "unit": "mEq/L", "reference_range": "3.5-5.0", "flag": "low"},
+      {"id": "bicarbonate", "test": "Serum bicarbonate", "value": "18", "unit": "mEq/L", "reference_range": "22-29", "flag": "low"}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Hyperemesis gravidarum evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hyperemesis gravidarum is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Hyperemesis Gravidarum: IV fluids, thiamine, Pyridoxine/Doxylamine, Metoclopramide, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe vomiting in pregnancy with dehydration/ketones",
+      "Key HPI features: A 20-year-old female presents to the clinic with severe vomiting in pregnancy with dehydration/ketones. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Hyperemesis Gravidarum.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hyperemesis gravidarum.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Normal nausea/vomiting of pregnancy without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Dehydration."
+    ],
+    "management_principles": [
+      "Plan for Hyperemesis Gravidarum: IV fluids, thiamine, Pyridoxine/Doxylamine, Metoclopramide",
+      "Arrange urgent obstetric assessment and consider hospital treatment for dehydration, electrolyte abnormalities, or inability to tolerate oral intake",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of severe vomiting in pregnancy with dehydration/ketones. HPI: hyperemesis gravidarum.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Hyperemesis Gravidarum.",
+    "assessment": "Condition highly suspicious for Hyperemesis Gravidarum.",
+    "plan": "Assess vital signs, weight loss, urine ketones, and electrolytes. Give IV fluids with thiamine and use pregnancy-compatible antiemetics as clinically indicated. Arrange urgent obstetric assessment and consider hospital treatment for dehydration, electrolyte abnormalities, or inability to tolerate oral intake."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Hyperemesis Gravidarum",
+    "Select appropriate diagnostic workup for Hyperemesis Gravidarum",
+    "Implement evidence-based management plan: IV fluids, thiamine, Pyridoxine/Doxylamine, Metoclopramide"
+  ],
+  "teaching": {
+    "diagnosis": "Hyperemesis gravidarum",
+    "one_liner": "Pregnant patient with severe vomiting, dehydration, ketonuria, and associated fatigue.",
+    "differentials": [
+      "Normal nausea/vomiting of pregnancy",
+      "Gastroenteritis",
+      "Molar pregnancy",
+      "Thyroid disease"
+    ],
+    "red_flags": [
+      "Dehydration",
+      "Ketonuria",
+      "Inability to tolerate oral intake"
+    ],
+    "must_ask": [
+      {
+        "objective": "Establish gestational age and onset",
+        "say": "How many weeks pregnant are you, and when did the vomiting start?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "gestational age",
+          "onset"
+        ]
+      },
+      {
+        "objective": "Quantify vomiting and oral tolerance",
+        "say": "How many times a day are you vomiting, and can you keep fluids down?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vomiting frequency"
+        ]
+      },
+      {
+        "objective": "Screen for dehydration and weight loss",
+        "say": "Have you lost weight, or felt dizzy and weak?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dehydration",
+          "weight loss"
+        ]
+      },
+      {
+        "objective": "Ask about associated fatigue",
+        "say": "How is the fatigue affecting your daily activities?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fatigue"
+        ]
+      },
+      {
+        "objective": "Explain IV fluids and antiemetic treatment",
+        "say": "We'll give you IV fluids, thiamine, and medication to control the nausea.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "IV fluids",
+          "thiamine",
+          "antiemetics"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "96/62",
+      "hr": 108,
+      "rr": 18,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I am about eight weeks pregnant, and I have been vomiting constantly and cannot keep any food or water down. I feel completely drained, dizzy, and weak.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about two weeks ago as mild morning nausea, but over the past five days it has become relentless and happens all day long.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "I am eight weeks pregnant with my first pregnancy, confirmed two weeks ago on an ultrasound.",
+        "topic": "Gestational age"
+      },
+      {
+        "answer": "I am vomiting more than eight to ten times a day, even when I have nothing left in my stomach.",
+        "topic": "Frequency of vomiting"
+      },
+      {
+        "answer": "Almost immediately after swallowing anything, even a sip of water, it comes right back up within five minutes.",
+        "topic": "Timing after meals"
+      },
+      {
+        "answer": "It is mostly clear foamy fluid, yellowish-green bile, or the water I just drank. There is no blood, coffee grounds, or foul odor.",
+        "topic": "Vomitus appearance"
+      },
+      {
+        "answer": "It happens continuously from morning until late at night, and it is not projectile vomiting that shoots across the room.",
+        "topic": "Morning and projectile vomiting"
+      },
+      {
+        "answer": "My abdominal muscles ache from retching so much, but I do not have any localized or cramping belly pain.",
+        "topic": "Abdominal pain"
+      },
+      {
+        "answer": "I have not had a bowel movement in three days because I cannot eat, but I am still passing gas and my belly is not bloated.",
+        "topic": "Bowel movements and flatus"
+      },
+      {
+        "answer": "No, I have not had any diarrhea at all.",
+        "topic": "Diarrhea"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweating.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "Nobody around me is sick, and my husband ate the exact same meals as me and feels perfectly fine.",
+        "topic": "Sick contacts and food"
+      },
+      {
+        "answer": "No headache, no neck stiffness, and no confusion, but I feel very dizzy and unsteady when I stand up.",
+        "topic": "Neurologic symptoms"
+      },
+      {
+        "answer": "My vision is normal with no blurring, double vision, or flashing lights.",
+        "topic": "Visual changes"
+      },
+      {
+        "answer": "No, I have not bumped my head or had any falls or head injuries.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "I cannot keep any liquids down at all, not even small sips of water or ice chips.",
+        "topic": "Oral fluid tolerance"
+      },
+      {
+        "answer": "My mouth feels like sandpaper, and I have only urinated once today and it was a tiny amount of very dark tea-colored urine.",
+        "topic": "Urine output and dry mouth"
+      },
+      {
+        "answer": "I am very thirsty because my mouth is parched, but I am not urinating frequently, and I have never had diabetes or used insulin.",
+        "topic": "Thirst and diabetes history"
+      },
+      {
+        "answer": "No, I do not have any chest pain, chest tightness, or trouble breathing.",
+        "topic": "Chest pain and breathlessness"
+      },
+      {
+        "answer": "I have lost about four kilograms over the past two weeks since this nausea turned so severe.",
+        "topic": "Weight loss"
+      },
+      {
+        "answer": "I feel utterly exhausted and bedridden; even walking to the bathroom makes me feel like I might pass out.",
+        "topic": "Fatigue and weakness"
+      },
+      {
+        "answer": "No, I never induce vomiting or make myself throw up. It is completely involuntary.",
+        "topic": "Self-induced vomiting"
+      },
+      {
+        "answer": "I thought this was just a stubborn stomach bug layered on top of regular morning sickness.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm scared that being so dehydrated will hurt my baby, and I'm terrified my boss will fire me for missing more shifts.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get IV fluids to stop the dizziness, medicine to stop the vomiting, and a doctor's note for my job.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have always been healthy with no history of stomach ulcers, thyroid disease, or any chronic conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or previous hospital admissions.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I was prescribed prenatal vitamins two weeks ago, but they made me throw up immediately, so I stopped taking them three days ago.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I do not smoke cigarettes or vape, and I have never smoked.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink alcohol at all, especially now that I am pregnant.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I have never used marijuana, cannabis, or any recreational or illicit drugs.",
+        "topic": "Substance and drug use"
+      },
+      {
+        "answer": "I work as an office receptionist and live with my husband, but I have been on sick leave for the past three days because of this.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother told me she suffered from very bad nausea during her first trimester, but there is no family history of other major illnesses.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period started about eight weeks ago, and my cycles have always been regular every twenty-eight days.",
+        "topic": "Menstrual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Patient appears visibly exhausted and weak, lying still on the examination table with dry lips and sunken eyes.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 96/62 mmHg, heart rate 108 beats per minute, respiratory rate 18 breaths per minute, temperature 36.8 degrees Celsius, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure decreases to 84/52 mmHg and heart rate increases to 124 beats per minute upon standing, with notable lightheadedness.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is dry with dry cracked lips and absent saliva pooling, while the posterior pharynx is clear without erythema.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Skin turgor is decreased with sluggish recoil, and capillary refill time is prolonged to three seconds.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink, sclerae are non-icteric, pupils are equal and reactive to light, and no nystagmus is observed.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple without cervical lymphadenopathy or jugular venous distension.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, non-tender, and without palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Heart sounds are tachycardic with regular rhythm, normal S1 and S2, and no audible murmurs or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with vesicular breath sounds and no wheezing or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is scaphoid, non-distended, with no scars, visible peristalsis, or caput medusae.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bowel sounds are present and normoactive in all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft throughout with vague epigastric soreness from repeated dry heaving, but no focal tenderness or involuntary guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No rebound tenderness or peritoneal signs are present.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is completely supple with negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "id": "peds_023",
+  "system": "pediatrics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Miss Lim",
+  "age": 4,
+  "gender": "female",
+  "chief_complaint": "frequent vomiting, watery diarrhea, and lethargy for 24 hours",
+  "hpi_details": "4-year-old girl brought by mother due to 24 hours of watery diarrhea (6-7 episodes) and vomiting four times. Child is sleepy, has dry lips, and has not urinated for 8 hours.",
+  "ideas": "mother worried about severe dehydration and needing IV fluids",
+  "concerns": "worried child won't drink fluids",
+  "expectations": "wants anti-vomiting medicine and hydration check",
+  "pmh": "Atopic dermatitis",
+  "medications": "None",
+  "social_hx": "Preschooler, fully vaccinated",
+  "investigation_events": [{
+    "id": "severe_dehydration_labs",
+    "title": "Urgent metabolic assessment for dehydration",
+    "order_terms": ["basic metabolic panel", "BMP", "electrolytes", "renal function", "point-of-care glucose", "POC glucose", "blood glucose"],
+    "availability_message": "The urgent metabolic results are now available. Begin IV isotonic rehydration and monitor urine output without waiting for further testing.",
+    "results": [
+      {"id": "glucose", "test": "Blood glucose", "value": "72", "unit": "mg/dL", "reference_range": "70-140", "flag": "normal"},
+      {"id": "sodium", "test": "Serum sodium", "value": "148", "unit": "mEq/L", "reference_range": "135-145", "flag": "high"},
+      {"id": "bicarbonate", "test": "Serum bicarbonate", "value": "16", "unit": "mEq/L", "reference_range": "22-29", "flag": "low"},
+      {"id": "bun", "test": "Blood urea nitrogen", "value": "34", "unit": "mg/dL", "reference_range": "5-18", "flag": "high"},
+      {"id": "creatinine", "test": "Serum creatinine", "value": "0.8", "unit": "mg/dL", "reference_range": "0.2-0.7", "flag": "high"}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Acute viral gastroenteritis with moderate dehydration evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute viral gastroenteritis with moderate dehydration is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Acute Viral Gastroenteritis with moderate dehydration, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: frequent vomiting, watery diarrhea, and lethargy for 24 hours",
+      "Key HPI features: 4-year-old girl brought by mother due to 24 hours of watery diarrhea (6-7 episodes) and vomiting four times. Child is sleepy, has dry lips, and has not urinated for 8 hours.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acute Viral Gastroenteritis with moderate dehydration.",
+      "Relevant background/PMH: Atopic dermatitis"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute viral gastroenteritis with moderate dehydration.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Bacterial gastroenteritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: No urination for 8 hours (significant dehydration)."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Acute Viral Gastroenteritis with moderate dehydration",
+      ": Assess hydration status (mucous membranes, skin turgor, capillary refill)",
+      "Attempt oral rehydration therapy (ORT) with oral electrolyte solution"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Pediatrics (AAP) Clinical Practice Guidelines",
+        "url": "https://publications.aap.org/pediatrics/pages/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Acute Viral Gastroenteritis with moderate dehydration. frequent vomiting, watery diarrhea, and lethargy for 24 hours. 4-year-old girl brought by mother due to 24 hours of watery diarrhea (6-7 episodes) and vomiting four times. Child is sleepy, has dry lips, and has not urinated for 8 hours.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acute Viral Gastroenteritis with moderate dehydration.",
+    "assessment": "Clinical presentation highly suggestive of Acute Viral Gastroenteritis with moderate dehydration.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Acute Viral Gastroenteritis with moderate dehydration. Given lethargy and no urine for 8 hours, urgently assess in an emergency-capable setting for severe dehydration and need for IV fluids. Assess hydration status (mucous membranes, skin turgor, capillary refill). Use oral rehydration therapy only if the child is alert and can tolerate it. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Viral Gastroenteritis with moderate dehydration.",
+    "Formulate prioritized differential diagnosis for frequent vomiting, watery diarrhea, and lethargy for 24 hours",
+    "Select appropriate laboratory and imaging studies for pediatrics",
+    "Implement evidence-based acute and long-term management strategies for Acute Viral Gastroenteritis with moderate dehydration."
+  ],
+  "teaching": {
+    "diagnosis": "Acute viral gastroenteritis with moderate dehydration",
+    "one_liner": "4-year-old girl with 24 hours of watery diarrhea and vomiting, now lethargic with dry lips and no urination for 8 hours.",
+    "differentials": [
+      "Bacterial gastroenteritis",
+      "Appendicitis",
+      "Diabetic ketoacidosis (if severe dehydration/altered mental status)"
+    ],
+    "red_flags": [
+      "No urination for 8 hours (significant dehydration)",
+      "Lethargy",
+      "Dry mucous membranes",
+      "Inability to drink, worsening sleepiness, green/bilious or bloody vomit, bloody stool, or severe abdominal pain requires emergency assessment"
+    ],
+    "must_ask": [
+      {
+        "objective": "Quantify the diarrhea and vomiting episodes",
+        "say": "How many times has she had diarrhea and vomiting in the past 24 hours?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "diarrhea frequency",
+          "vomiting frequency"
+        ]
+      },
+      {
+        "objective": "Assess urine output as a dehydration marker",
+        "say": "When was the last time she urinated?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "urine output"
+        ]
+      },
+      {
+        "objective": "Assess mental status and energy level",
+        "say": "How alert and active is she right now compared to normal?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "lethargy"
+        ]
+      },
+      {
+        "objective": "Ask about oral intake tolerance",
+        "say": "Is she able to keep any fluids down at all?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "oral intake"
+        ]
+      },
+      {
+        "objective": "Explain the oral rehydration plan",
+        "say": "Because she is sleepy and has not urinated for 8 hours, she needs urgent assessment for dehydration and may need IV fluids; we will use oral rehydration only if she is alert and keeping fluids down.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "oral rehydration therapy"
+        ]
+      }
+    ]
+  },
+  "clinical_safety_note": "In DKA, monitor potassium closely; if K+ is <3.5 mEq/L, replace potassium and hold insulin until it is corrected.",
+  "sp_script": {
+    "vitals": {
+      "bp": "92/58",
+      "hr": 130,
+      "rr": 24,
+      "spo2": 99,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "My 4-year-old daughter has been throwing up and having watery diarrhea for the past day, and now she is very weak and sleepy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It all started suddenly yesterday morning, about 24 hours ago, and it has gotten progressively worse.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "She has vomited four times since yesterday, especially after attempting to drink water.",
+        "topic": "Frequency of vomiting"
+      },
+      {
+        "answer": "The vomit is mostly clear liquid and whatever water she drank; there is no blood, green bile, or foul odor.",
+        "topic": "Vomitus character"
+      },
+      {
+        "answer": "No, she does not wake up vomiting on an empty stomach, and it does not shoot forcefully across the room.",
+        "topic": "Morning and projectile vomiting"
+      },
+      {
+        "answer": "She complained of vague tummy cramps around her belly button right before having diarrhea, but it settles down afterwards and is not severe.",
+        "topic": "Abdominal pain"
+      },
+      {
+        "answer": "She has had six or seven large episodes of loose, watery diarrhea over the last 24 hours.",
+        "topic": "Diarrhea frequency and appearance"
+      },
+      {
+        "answer": "No, there has been no red blood or dark tarry stool, and no slime or mucus either.",
+        "topic": "Blood or mucus in stool"
+      },
+      {
+        "answer": "Her stomach does not look swollen or bloated, and she is still passing gas between bowel movements.",
+        "topic": "Abdominal distension"
+      },
+      {
+        "answer": "She felt slightly warm yesterday with a mild fever around 37.8 degrees, but she has not had high-grade fevers or severe chills.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "A couple of other children at her daycare were sent home with stomach flu earlier this week, but our family at home feels fine.",
+        "topic": "Sick contacts and exposures"
+      },
+      {
+        "answer": "She has been unusually lethargic and just wants to lie on the couch and sleep, though she still responds when I call her name.",
+        "topic": "Mental status and energy level"
+      },
+      {
+        "answer": "No, she has not complained of a headache, her neck bends easily, and she has not had any dizziness or seizures.",
+        "topic": "Headache and neck stiffness"
+      },
+      {
+        "answer": "No, she has not bumped her head, fallen down, or suffered any head trauma.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "She tries to take sips of water, but she cannot keep fluids down and quickly vomits them back up.",
+        "topic": "Oral fluid intake"
+      },
+      {
+        "answer": "She has not urinated or produced a wet pull-up for about 8 hours now.",
+        "topic": "Urine output"
+      },
+      {
+        "answer": "Her lips and tongue are noticeably dry, and when she whimpers, there are hardly any tears coming out.",
+        "topic": "Dry mouth and tears"
+      },
+      {
+        "answer": "No, she never drank excessively or urinated in large amounts before this, and no one in our family has diabetes.",
+        "topic": "Excessive thirst and urination"
+      },
+      {
+        "answer": "No chest pain or difficulty breathing, though she seems to be breathing slightly fast because she is tired.",
+        "topic": "Chest pain and breathing"
+      },
+      {
+        "answer": "No, there are no chemicals, cleaning products, or pills kept within her reach, and she has not swallowed anything unusual.",
+        "topic": "Toxic ingestion"
+      },
+      {
+        "answer": "She has not had chronic weight loss, but she looks noticeably thinner and sunken just from losing so much fluid today.",
+        "topic": "Weight changes"
+      },
+      {
+        "answer": "No, absolutely not, she is only four years old and does not do anything like that.",
+        "topic": "Self-induced vomiting"
+      },
+      {
+        "answer": "She has completely refused to eat solid food today and has zero appetite.",
+        "topic": "Appetite and oral feeding"
+      },
+      {
+        "answer": "I tried giving her small spoonfuls of water and an oral rehydration drink, but she could not keep them down.",
+        "topic": "Home rehydration attempts"
+      },
+      {
+        "answer": "I am really worried that she is becoming severely dehydrated and might need intravenous fluids in her arm.",
+        "topic": "Patient ideas and concerns"
+      },
+      {
+        "answer": "I want the doctor to check if she needs an IV drip for dehydration and prescribe medicine to stop the vomiting.",
+        "topic": "Expectations for this visit"
+      },
+      {
+        "answer": "She has mild atopic dermatitis on her limbs, but no other chronic illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She has never had surgery, and she has never been hospitalized before.",
+        "topic": "Past surgery and hospitalizations"
+      },
+      {
+        "answer": "She takes no regular medications, only an over-the-counter moisturizer for her dry eczema skin.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "She has no known allergies to medicines, foods, or anything else.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "There is no family history of stomach problems, inflammatory bowel disease, or kidney conditions.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "She was born at full term without any neonatal complications and has met all her milestones normally.",
+        "topic": "Birth and development"
+      },
+      {
+        "answer": "She has received all recommended childhood vaccinations on schedule.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "She attends daycare during the day and lives with me and her father in a smoke-free home.",
+        "topic": "Social and living situation"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 92/58 mmHg, pulse 130 beats/min, respiratory rate 24 breaths/min, body temperature 37.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Drowsy, fatigued young child lying still on the examination bed, appearing noticeably dehydrated with sunken eyes.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Lethargic but rouses to verbal call and touch, oriented to mother, though quickly falls back to sleep.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Dry, cracked lips and sticky, parched oral mucous membranes; pharynx is clear without erythema.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Decreased skin turgor with abdominal skin pinch returning slowly in about 2 seconds; capillary refill time is prolonged at 3 seconds with cool hands.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Flat abdomen without distension, rashes, caput medusae, or surgical scars.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperactive, frequent, rushing bowel sounds heard across all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft abdomen with mild generalized tenderness upon palpation, but no involuntary guarding or board-like rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness elicited in any quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No localized tenderness at McBurney point; psoas sign and obturator sign are negative.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full passive range of motion; Kernig and Brudzinski signs are absent.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

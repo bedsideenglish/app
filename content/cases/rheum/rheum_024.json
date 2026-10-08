@@ -1,0 +1,304 @@
+{
+  "id": "rheum_024",
+  "system": "rheumatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Ryu",
+  "age": 68,
+  "gender": "male",
+  "chief_complaint": "deep aching knee pain, cracking sound, and stiffness lasting 15 minutes in morning",
+  "hpi_details": "68M reports 3 years of progressive, deep, aching pain in his right knee that worsens with walking or climbing stairs and is relieved by sitting down. Morning stiffness lasts only 10-15 minutes.",
+  "ideas": "thinks his knee joint is completely worn out",
+  "concerns": "worried about needing knee replacement surgery",
+  "expectations": "wants joint injections and physical therapy",
+  "pmh": "Hypertension",
+  "medications": "Amlodipine 5mg daily",
+  "social_hx": "Retired, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Osteoarthritis of the knee evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Osteoarthritis of the knee is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Osteoarthritis of the right knee, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: deep aching knee pain, cracking sound, and stiffness lasting 15 minutes in morning",
+      "Key HPI features: 68M reports 3 years of progressive, deep, aching pain in his right knee that worsens with walking or climbing stairs and is relieved by sitting down. Morning stiffness lasts only 10-15 minutes.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Osteoarthritis of the right knee.",
+      "Relevant background/PMH: Hypertension",
+      "Current medications: Amlodipine 5mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Osteoarthritis of the knee.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Rheumatoid arthritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Sudden severe swelling or inability to bear weight — reconsider an acute process."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Osteoarthritis of the right knee",
+      "Use education, exercise/physical therapy, and weight management when relevant; a clinician should review renal, gastrointestinal, cardiovascular, anticoagulant, and pregnancy risks before NSAID use.",
+      "Do not inject an acutely hot/swollen joint until infection and crystal arthritis have been assessed; injections are clinician-performed after appropriate evaluation.",
+      "Refer to specialty team and provide comprehensive patient counseling"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Rheumatology (ACR) Clinical Guidance",
+        "url": "https://rheumatology.org/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Osteoarthritis of the right knee. deep aching knee pain, cracking sound, and stiffness lasting 15 minutes in morning. 68M reports 3 years of progressive, deep, aching pain in his right knee that worsens with walking or climbing stairs and is relieved by sitting down. Morning stiffness lasts only 10-15 minutes.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Osteoarthritis of the right knee.",
+    "assessment": "Clinical presentation highly suggestive of Osteoarthritis of the right knee.",
+    "plan": "Confirm a mechanical pattern with focused examination; obtain radiographs only when the diagnosis is uncertain, symptoms are atypical/severe, or results will alter management. Use education, graded strengthening/low-impact activity, and weight management when relevant. A clinician should assess NSAID risks before recommending topical or oral therapy. Sudden severe swelling, fever, inability to bear weight, or a hot joint requires urgent assessment for infection, crystal arthritis, or injury before any injection."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Osteoarthritis of the right knee.",
+    "Formulate prioritized differential diagnosis for deep aching knee pain, cracking sound, and stiffness lasting 15 minutes in morning",
+    "Select appropriate laboratory and imaging studies for rheumatology",
+    "Implement evidence-based acute and long-term management strategies for Osteoarthritis of the right knee."
+  ],
+  "teaching": {
+    "diagnosis": "Osteoarthritis of the knee",
+    "one_liner": "Degenerative wear of the joint cartilage causing deep aching pain that worsens with use and improves with rest, with only brief morning stiffness — the opposite pattern from inflammatory arthritis.",
+    "differentials": [
+      "Rheumatoid arthritis",
+      "Meniscal tear",
+      "Gout/pseudogout"
+    ],
+    "red_flags": [
+      "Sudden severe swelling or inability to bear weight — reconsider an acute process"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pain pattern with activity",
+        "say": "Does the pain get worse with walking and better with rest?",
+        "domains": [
+          "aggravating",
+          "relieving"
+        ],
+        "keywords": [
+          "walking",
+          "rest"
+        ]
+      },
+      {
+        "objective": "Morning stiffness duration",
+        "say": "How long does the morning stiffness last?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "15 minutes",
+          "brief"
+        ]
+      },
+      {
+        "objective": "Duration and progression",
+        "say": "How many years has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Crepitus",
+        "say": "Do you hear or feel any cracking in the knee?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "cracking",
+          "crepitus"
+        ]
+      },
+      {
+        "objective": "Functional impact",
+        "say": "How is this affecting your daily activities?",
+        "domains": [
+          "severity"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My right knee has been aching badly for quite a while, and it makes a cracking sound whenever I bend it.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is only my right knee that hurts; my left knee and my hand joints feel completely fine.",
+        "topic": "Joint location and symmetry"
+      },
+      {
+        "answer": "It started gradually about 3 years ago and has been slowly getting worse over time.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is a deep, dull ache inside the joint, usually about a 4 or 5 out of 10.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "No, I have not noticed any redness or heat, and it does not swell up.",
+        "topic": "Joint swelling, redness, and warmth"
+      },
+      {
+        "answer": "My knee feels stiff when I first get out of bed in the morning, but it loosens up after about 10 or 15 minutes.",
+        "topic": "Morning stiffness duration"
+      },
+      {
+        "answer": "Walking for a while or going up and down stairs makes it much worse, but resting in a chair helps ease the pain.",
+        "topic": "Effect of activity and rest"
+      },
+      {
+        "answer": "I can still bear weight and walk, but climbing stairs is quite hard now and I have had to cut down on my daily walks.",
+        "topic": "Functional impact and weight bearing"
+      },
+      {
+        "answer": "It makes a noticeable cracking or grinding sound when I move it, but it has never locked up or given way under me.",
+        "topic": "Joint cracking, locking, or giving way"
+      },
+      {
+        "answer": "No, I have never had sudden, excruciating joint attacks like this before.",
+        "topic": "Previous acute joint attacks"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweating.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I have not had unusual fatigue, low fever, or unexpected weight loss.",
+        "topic": "Fatigue or weight loss"
+      },
+      {
+        "answer": "No, I have no skin rashes, mouth sores, hair loss, eye redness, or dry eyes and mouth.",
+        "topic": "Skin rash and eye symptoms"
+      },
+      {
+        "answer": "No, I do not have morning stiffness in my lower back, heel pain, or swollen fingers and toes.",
+        "topic": "Back or heel pain"
+      },
+      {
+        "answer": "No, I haven't had any stomach flu, diarrhea, painful urination, or sore throat recently.",
+        "topic": "Recent infections or illnesses"
+      },
+      {
+        "answer": "I don't drink alcohol often, I don't eat a lot of red meat or seafood, and I don't take water pills.",
+        "topic": "Diet, alcohol, and diuretic use"
+      },
+      {
+        "answer": "I have never had steroid injections into this knee, nor have I had joint surgery or an artificial joint placed.",
+        "topic": "Prior injections or joint surgeries"
+      },
+      {
+        "answer": "No, I did not fall, twist my knee, or suffer any injury.",
+        "topic": "Trauma or injury history"
+      },
+      {
+        "answer": "I have been married to my wife for 40 years and do not have any other sexual partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I worry that the joint in my right knee is completely worn out and that I will end up needing knee replacement surgery.",
+        "topic": "Patient ideas and concerns"
+      },
+      {
+        "answer": "I am hoping to try physical therapy and maybe joint injections to see if that helps before thinking about surgery.",
+        "topic": "Treatment expectations"
+      },
+      {
+        "answer": "I have had high blood pressure for about five years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy in my twenties, but no other operations or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take amlodipine 5 milligrams once every morning for my blood pressure, and sometimes acetaminophen if the knee aches.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink alcohol, aside from maybe half a glass of beer once a month at family dinners.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am retired and live with my wife in an apartment building that has an elevator.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had severe knee arthritis as she grew older, but no one in my family has rheumatoid arthritis or gout.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/78 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, body temperature 36.6 C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, well-nourished elderly man who appears comfortable and in no acute distress at rest.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Right knee displays bony enlargement and mild medial joint-line tenderness with audible coarse crepitus during passive flexion, without warmth, erythema, or palpable joint effusion; left knee and other peripheral joints are normal.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Mild antalgic gait favoring the right lower limb, without ataxia or gross instability.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "No skin rashes, psoriatic plaques, tophi, or nail pitting observed.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No bilateral lower extremity peripheral edema.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are soft, symmetrical, and non-tender bilaterally without warmth or swelling.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal lumbar lordosis with no midline or paraspinal tenderness, and full pain-free spinal range of motion.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

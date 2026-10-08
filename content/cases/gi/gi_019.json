@@ -1,0 +1,444 @@
+{
+  "id": "gi_019",
+  "system": "gastroenterology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Kowalski",
+  "age": 55,
+  "gender": "male",
+  "chief_complaint": "vomiting large amounts of dark and bright red blood and dizziness for 2 hours",
+  "hpi_details": "Presents via ambulance with 2-hour history of vomiting two large basinfuls of dark and bright red blood mixed with clots. Reports profound dizziness, lightheadedness, and black tarry stools since yesterday. Known to have hepatitis C cirrhosis with portal hypertension diagnosed 4 years ago.",
+  "ideas": "thinks the swollen veins in his gullet that his doctor warned him about have burst",
+  "concerns": "in fear for his life, feeling faint and sweating profusely",
+  "expectations": "wants emergency blood transfusions and an emergency procedure to stop the bleeding immediately",
+  "pmh": "compensated hepatitis C cirrhosis, oesophageal varices Grade II seen on gastroscopy 2 years ago, portal hypertension",
+  "medications": "propranolol 40mg BD (reports missing doses recently), spironolactone 100mg OD",
+  "social_hx": "ex-IV drug user (30 years ago), abstinent from alcohol, unemployed due to chronic disability",
+  "investigation_events": [
+    {
+      "id": "stat_variceal_bleed_labs",
+      "title": "STAT variceal hemorrhage laboratory results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "hemoglobin",
+        "platelet count",
+        "coagulation studies",
+        "coagulation panel",
+        "inr",
+        "type and crossmatch",
+        "crossmatch"
+      ],
+      "availability_message": "The STAT hemorrhage laboratory results are now available; airway management, blood-product resuscitation, vasoactive therapy, and antibiotics should not be delayed.",
+      "results": [
+        {
+          "id": "hemoglobin",
+          "test": "Hemoglobin",
+          "value": "6.8",
+          "unit": "g/dL",
+          "reference_range": "13.5-17.5",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "platelets",
+          "test": "Platelet count",
+          "value": "72",
+          "unit": "x10^3/mcL",
+          "reference_range": "150-400",
+          "flag": "low",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "inr",
+          "test": "INR",
+          "value": "1.9",
+          "reference_range": "0.8-1.2",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        }
+      ]
+    },
+    {
+      "id": "emergency_upper_endoscopy",
+      "title": "Emergency upper gastrointestinal endoscopy",
+      "order_terms": [
+        "emergency upper endoscopy",
+        "urgent upper endoscopy",
+        "upper endoscopy",
+        "emergency ogd",
+        "urgent ogd",
+        "gastroscopy"
+      ],
+      "availability_message": "The emergency upper endoscopy findings are now available.",
+      "results": [
+        {
+          "id": "esophageal_varices",
+          "test": "Emergency upper gastrointestinal endoscopy",
+          "value": "Large distal esophageal varices with active spurting from one varix; hemostasis achieved with endoscopic band ligation",
+          "flag": "critical",
+          "collected_at": "During emergency endoscopy"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Variceal Haemorrhage evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Variceal Haemorrhage is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Medical emergency: secure airway, insert x2 large-bore IV cannulae (14/16G), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: vomiting large amounts of dark and bright red blood and dizziness for 2 hours",
+      "Key HPI features: Presents via ambulance with 2-hour history of vomiting two large basinfuls of dark and bright red blood mixed with clots. Reports profound dizziness, lightheadedness, and black tarry stools since yesterday. Known to have hepatitis C cirrhosis with portal hypertension diagnosed 4 years ago.",
+      "Objective/Exam findings: Vitals: HR 122, BP 88/54 (haemodynamic shock). Airway assessment critical. Bloods: urgent FBC, coagulation (INR), LFTs, U&Es, cross-match 4-6 units packed red blood cells. Emergency upper GI endoscopy (OGD).",
+      "Relevant background/PMH: compensated hepatitis C cirrhosis, oesophageal varices Grade II seen on gastroscopy 2 years ago, portal hypertension",
+      "Current medications: propranolol 40mg BD (reports missing doses recently), spironolactone 100mg OD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Variceal Haemorrhage.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Severe peptic ulcer bleed without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Dizziness and profuse sweating with large-volume haematemesis — signs of haemorrhagic shock."
+    ],
+    "management_principles": [
+      "Medical emergency: secure airway, insert x2 large-bore IV cannulae (14/16G)",
+      "Resuscitate with blood products (restrictive transfusion target Hb 70-80 g/L to avoid worsening portal pressure)",
+      "Immediate IV terlipressin (2mg bolus) or octreotide to reduce portal inflow"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Gastroenterology (ACG) Clinical Guidelines",
+        "url": "https://gi.org/clinical-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "55M with known hepatitis C cirrhosis and oesophageal varices presents with massive haematemesis, melaena, and haemodynamic instability.",
+    "objective": "Vitals: HR 122, BP 88/54 (haemodynamic shock). Airway assessment critical. Bloods: urgent FBC, coagulation (INR), LFTs, U&Es, cross-match 4-6 units packed red blood cells. Emergency upper GI endoscopy (OGD).",
+    "assessment": "Acute variceal haemorrhage secondary to portal hypertension in cirrhotic patient. DDx: severe peptic ulcer bleed, portal hypertensive gastropathy, Mallory-Weiss tear.",
+    "plan": "Medical emergency: secure airway, insert x2 large-bore IV cannulae (14/16G). Resuscitate with blood products (restrictive transfusion target Hb 70-80 g/L to avoid worsening portal pressure). Immediate IV terlipressin (2mg bolus) or octreotide to reduce portal inflow. Prophylactic IV antibiotics (ceftriaxone 1g OD) to prevent SBP and re-bleeding. Urgent emergency endoscopy for variceal band ligation. Balloon tamponade (Sengstaken-Blakemore tube) or TIPS on standby if uncontrolled."
+  },
+  "learning_objectives": [
+    "Execute emergency stabilization protocol for massive upper GI haemorrhage including airway safety and large-bore access",
+    "Apply specific pharmacological adjuncts for variceal bleeding immediately upon presentation (terlipressin/octreotide plus prophylactic antibiotics)",
+    "Explain the rationale behind restrictive transfusion strategy (target Hb 7-8 g/dL) in portal hypertensive bleeding",
+    "Communicate urgently and calmly during a life-threatening gastrointestinal crisis"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Variceal Haemorrhage",
+    "one_liner": "Cirrhosis raises the pressure in veins around the oesophagus until one bursts, causing sudden, massive vomiting of blood — a life-threatening emergency.",
+    "differentials": [
+      "Severe peptic ulcer bleed",
+      "Portal hypertensive gastropathy",
+      "Mallory-Weiss tear"
+    ],
+    "red_flags": [
+      "Dizziness and profuse sweating with large-volume haematemesis — signs of haemorrhagic shock"
+    ],
+    "must_ask": [
+      {
+        "objective": "Volume and colour of blood",
+        "say": "How much blood have you brought up, and was it dark or bright red?",
+        "domains": [
+          "severity",
+          "character"
+        ],
+        "keywords": [
+          "blood",
+          "dark",
+          "bright",
+          "amount"
+        ]
+      },
+      {
+        "objective": "Known liver disease / varices",
+        "say": "You mentioned swollen veins in your food pipe before — has a doctor told you about liver disease or varices?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "liver",
+          "cirrhosis",
+          "varices",
+          "veins"
+        ]
+      },
+      {
+        "objective": "Black stools",
+        "say": "Have you also had black, tarry stools?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "black",
+          "tarry",
+          "stool"
+        ]
+      },
+      {
+        "objective": "Medication adherence",
+        "say": "Have you been taking your propranolol regularly?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "propranolol",
+          "tablets",
+          "taking",
+          "missed"
+        ]
+      },
+      {
+        "objective": "Dizziness and faintness",
+        "say": "Do you feel dizzy, faint, or sweaty right now?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dizzy",
+          "faint",
+          "sweaty",
+          "lightheaded"
+        ]
+      },
+      {
+        "objective": "Alcohol use",
+        "say": "Have you had any alcohol recently?",
+        "domains": [
+          "alcohol"
+        ],
+        "keywords": [
+          "alcohol",
+          "drinking"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "88/54",
+      "hr": 122,
+      "rr": 22,
+      "spo2": 96,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "Help me, doctor, I've been throwing up huge amounts of blood and I feel so dizzy I can barely stay awake.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It definitely came up from my stomach as vomiting, not from coughing or hacking.",
+        "topic": "Vomiting versus coughing blood"
+      },
+      {
+        "answer": "No, I haven't had any nosebleeds or bleeding from my mouth or gums.",
+        "topic": "Nosebleed or swallowed blood"
+      },
+      {
+        "answer": "It was a mix of dark red and bright red blood with large jelly-like clots in it.",
+        "topic": "Color of blood"
+      },
+      {
+        "answer": "I threw up twice over the past two hours, filling two large washbasins each time.",
+        "topic": "Amount and frequency of vomiting"
+      },
+      {
+        "answer": "It started completely out of nowhere about two hours ago while I was resting at home.",
+        "topic": "Onset of bleeding"
+      },
+      {
+        "answer": "No, I didn't have any dry heaves or retching before the blood suddenly rushed up.",
+        "topic": "Retching before vomiting blood"
+      },
+      {
+        "answer": "I had two loose, pitch-black, sticky bowel movements that smelled awful starting yesterday.",
+        "topic": "Bowel movements and stool color"
+      },
+      {
+        "answer": "I feel profoundly lightheaded and faint, especially if I try to lift my head or sit up.",
+        "topic": "Dizziness and fainting"
+      },
+      {
+        "answer": "Yes, my heart has been pounding very fast in my chest and I am soaked in cold sweat.",
+        "topic": "Palpitations and cold sweats"
+      },
+      {
+        "answer": "No, I haven't had any gnawing epigastric pain or burning indigestion before or after eating.",
+        "topic": "Stomach pain and heartburn"
+      },
+      {
+        "answer": "No, I don't feel any tearing or crushing chest pain after throwing up.",
+        "topic": "Chest pain after vomiting"
+      },
+      {
+        "answer": "I was diagnosed with hepatitis C liver cirrhosis and high pressure in my liver veins four years ago.",
+        "topic": "Known liver conditions"
+      },
+      {
+        "answer": "During a camera test two years ago, my doctor said I had swollen veins in my gullet, but they never bled before today.",
+        "topic": "Previous bleeding or swollen veins"
+      },
+      {
+        "answer": "My belly hasn't swollen up, but the whites of my eyes have looked slightly yellowish for a while.",
+        "topic": "Abdominal swelling and jaundice"
+      },
+      {
+        "answer": "Yes, I notice that I get bruises on my arms and legs very easily from minor bumps.",
+        "topic": "Easy bruising or bleeding"
+      },
+      {
+        "answer": "My appetite has been fairly steady, and I haven't had any sudden weight loss.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "No, I haven't had any problems swallowing liquids or solid food.",
+        "topic": "Difficulty swallowing food"
+      },
+      {
+        "answer": "No, I never take ibuprofen, aspirin, or any blood thinners because my specialist told me they are dangerous for my liver.",
+        "topic": "Painkillers and blood thinners"
+      },
+      {
+        "answer": "I used to drink heavily when I was younger, but I completely quit drinking over twenty years ago.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I have never had a stomach ulcer or treatment for stomach bacteria, just that camera check two years ago.",
+        "topic": "Past stomach ulcers and scopes"
+      },
+      {
+        "answer": "I take blood pressure pills for the liver veins, but I ran out and missed several doses over the past week.",
+        "topic": "Medication adherence"
+      },
+      {
+        "answer": "I am terrified that those swollen veins my doctor warned me about in my gullet have finally burst open.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I feel like my life is slipping away and I am terrified that I am going to bleed to death.",
+        "topic": "Fears and concerns"
+      },
+      {
+        "answer": "Please give me blood transfusions and do whatever emergency procedure is needed to stop the bleeding right away.",
+        "topic": "Expectations for care"
+      },
+      {
+        "answer": "Aside from hepatitis C cirrhosis and portal hypertension, I don't have high blood pressure, diabetes, or kidney trouble.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I was hospitalized four years ago when my cirrhosis was first discovered, but I have never had surgery.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take propranolol forty milligrams twice a day for the liver veins and spironolactone one hundred milligrams once daily.",
+        "topic": "Current prescribed medications"
+      },
+      {
+        "answer": "No, I do not take any herbal supplements, vitamins, or over-the-counter medications.",
+        "topic": "Over-the-counter drugs and supplements"
+      },
+      {
+        "answer": "I don't have any known allergies to medicines, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I smoked about half a pack a day in my twenties, but I stopped smoking thirty years ago.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I used intravenous drugs about thirty years ago, which is how I contracted hepatitis C, but I haven't touched drugs since.",
+        "topic": "Past recreational drug use"
+      },
+      {
+        "answer": "I live alone in a rented apartment, and I am currently unemployed on disability due to my chronic liver disease.",
+        "topic": "Living situation and occupation"
+      },
+      {
+        "answer": "My father passed away from a stroke in his seventies and my mother had hypertension, but there is no liver disease in my family.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient is pale, diaphoretic, lethargic, and visibly distressed while lying flat in bed.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 88/54 mmHg, heart rate is 122 beats per minute, respiratory rate is 22 breaths per minute, oxygen saturation is 96% on room air, and temperature is 36.7°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Orthostatic measurements are deferred due to profound resting hypotension, tachycardia, and severe lightheadedness.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Marked conjunctival pallor bilaterally with mild scleral icterus.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is pale with dried blood around the lips, but no active bleeding lesions in the oral cavity or posterior oropharynx.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is cold, clammy, and pale with several spider angiomas on the upper anterior chest and subtle palmar erythema.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rhythm with normal heart sounds and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat with no surgical scars, caput medusae, or visible superficial venous engorgement.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, non-distended abdomen with mild diffuse non-localized tenderness, but no guarding, rigidity, or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Firm, slightly shrunken liver edge and a palpable spleen tip 2 cm below the left costal margin.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No shifting dullness to percussion and fluid wave test is negative.",
+        "maneuver": "ascites_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Digital rectal examination reveals copious black, tarry, sticky stool on the glove with no palpable rectal masses.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

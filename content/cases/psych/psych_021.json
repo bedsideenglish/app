@@ -1,0 +1,330 @@
+{
+  "id": "psych_021",
+  "system": "psychiatry",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Park",
+  "age": 38,
+  "gender": "male",
+  "chief_complaint": "profound sadness, loss of interest in hobbies, and terminal insomnia for 3 months",
+  "hpi_details": "38M librarian presents with 3 months of persistent low mood, loss of interest in reading and piano (anhedonia), early morning awakening at 3 AM, and constant fatigue. Reports feelings of worthlessness.",
+  "ideas": "thinks he is a failure and has lost his spark",
+  "concerns": "worried he will never feel happy again",
+  "expectations": "wants medication to lift the dark mood",
+  "pmh": "No prior psychiatric history",
+  "medications": "None",
+  "social_hx": "Librarian, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Major Depressive Disorder evaluation and management",
+    "core_concepts": [
+      "Major depressive disorder requires a depressive episode with clinically significant distress or impairment, after excluding bipolar disorder, substance-related causes, and relevant medical conditions.",
+      "Assess severity, psychotic symptoms, functional decline, suicide risk, access to means, protective factors, and capacity for a collaborative safety plan.",
+      "Screen carefully for past mania or hypomania before antidepressant treatment.",
+      "Psychotherapy and/or an antidepressant may be appropriate after shared decision-making; selection, dose, and monitoring must be individualized."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: profound sadness, loss of interest in hobbies, and terminal insomnia for 3 months",
+      "Key HPI features: 38M librarian presents with 3 months of persistent low mood, loss of interest in reading and piano (anhedonia), early morning awakening at 3 AM, and constant fatigue. Reports feelings of worthlessness.",
+      "Objective/Exam findings: Mental-state examination, suicide-risk assessment, and targeted physical examination or tests when history suggests a medical contributor.",
+      "Relevant background/PMH: No prior psychiatric history"
+    ],
+    "common_misconceptions": [
+      "Prescribing an antidepressant before screening for mania or hypomania.",
+      "Using a screening score alone to determine diagnosis or immediate risk.",
+      "Assuming absence of volunteered suicidal thoughts means risk is absent."
+    ],
+    "dangerous_errors": [
+      "Failing to urgently assess active suicidal intent, a plan, access to lethal means, recent attempt, psychosis, severe self-neglect, or inability to stay safe.",
+      "Starting an antidepressant without discussing adverse effects, early activation, interactions, bipolar risk, and follow-up."
+    ],
+    "management_principles": [
+      "Complete a diagnostic, mental-state, and suicide-risk assessment, including bipolar screening.",
+      "Offer evidence-based psychotherapy and discuss antidepressant treatment when indicated using shared decision-making and planned monitoring.",
+      "Create a collaborative safety plan and restrict access to lethal means where appropriate; arrange urgent emergency assessment if safety cannot be maintained."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Major Depressive Disorder (MDD), moderate episode. profound sadness, loss of interest in hobbies, and terminal insomnia for 3 months. 38M librarian presents with 3 months of persistent low mood, loss of interest in reading and piano (anhedonia), early morning awakening at 3 AM, and constant fatigue. Reports feelings of worthlessness.",
+    "objective": "Complete mental-state examination, assess suicide risk and bipolar history, and perform targeted physical examination or tests if clinically indicated.",
+    "assessment": "Clinical presentation highly suggestive of Major Depressive Disorder (MDD), moderate episode.",
+    "plan": "Assess suicide risk, access to means, psychosis, and capacity now. Offer CBT and discuss antidepressant treatment only after bipolar screening and shared decision-making, with early follow-up for response and adverse effects. Arrange emergency evaluation if he has suicidal intent, cannot maintain safety, or has psychosis or severe self-neglect."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Major Depressive Disorder (MDD), moderate episode.",
+    "Formulate prioritized differential diagnosis for profound sadness, loss of interest in hobbies, and terminal insomnia for 3 months",
+    "Select appropriate laboratory and imaging studies for psychiatry",
+    "Implement evidence-based acute and long-term management strategies for Major Depressive Disorder (MDD), moderate episode."
+  ],
+  "teaching": {
+    "diagnosis": "Major Depressive Disorder",
+    "one_liner": "Persistent depressed mood and pervasive anhedonia lasting at least two weeks, severely impairing daily psychosocial functioning.",
+    "differentials": [
+      "Persistent depressive disorder (Dysthymia)",
+      "Bipolar depression",
+      "Hypothyroidism",
+      "Burnout / adjustment disorder"
+    ],
+    "red_flags": [
+      "Active suicidal ideation with plan",
+      "Psychotic features (delusions of guilt)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mood and anhedonia specific to lost hobbies",
+        "say": "Have you lost interest in reading or playing piano, things you used to enjoy?",
+        "domains": [
+          "associated_symptoms",
+          "character"
+        ],
+        "keywords": [
+          "reading",
+          "piano",
+          "interest",
+          "enjoy",
+          "hobbies"
+        ]
+      },
+      {
+        "objective": "Early morning waking pattern",
+        "say": "Are you waking up very early in the morning and unable to fall back asleep?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "early",
+          "waking",
+          "morning",
+          "insomnia",
+          "sleep"
+        ]
+      },
+      {
+        "objective": "Fatigue and worthlessness",
+        "say": "Do you feel constantly fatigued, or like you're not good enough?",
+        "domains": [
+          "character",
+          "concerns"
+        ],
+        "keywords": [
+          "fatigue",
+          "worthless",
+          "tired",
+          "not good enough",
+          "guilt"
+        ]
+      },
+      {
+        "objective": "Suicidality and safety screen",
+        "say": "Have you had any thoughts of ending your life?",
+        "domains": [
+          "concerns"
+        ],
+        "keywords": [
+          "suicidal",
+          "ending",
+          "life",
+          "harm",
+          "death"
+        ]
+      },
+      {
+        "objective": "Prior manic or hypomanic episode screening",
+        "say": "Have you ever had a period of unusually elevated mood or energy?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "manic",
+          "elevated",
+          "energy",
+          "hypomania",
+          "bipolar"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "For the past three months, I've felt overwhelmingly sad and empty, and I just can't bring myself to do anything anymore.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about three months ago and has been present almost every single day, from the moment I wake up until night.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "There was no specific event or loss that triggered this; work and life were normal, but this dark feeling just crept in.",
+        "topic": "Triggering events"
+      },
+      {
+        "answer": "I used to love playing the piano and reading literature every evening, but I haven't felt any joy in them and haven't touched either in months.",
+        "topic": "Loss of interest and pleasure"
+      },
+      {
+        "answer": "I fall asleep around eleven without trouble, but I wake up suddenly at 3 AM every morning and lie awake feeling miserable until dawn.",
+        "topic": "Sleep disturbance"
+      },
+      {
+        "answer": "I have had almost no appetite lately and have to force myself to eat, losing about four kilograms over the past three months.",
+        "topic": "Appetite and weight changes"
+      },
+      {
+        "answer": "I feel completely drained and exhausted all day long, even when I spend the whole weekend resting.",
+        "topic": "Fatigue and low energy"
+      },
+      {
+        "answer": "My concentration at the library is terrible; cataloging books takes me twice as long, and even simple decisions overwhelm me.",
+        "topic": "Concentration and decision making"
+      },
+      {
+        "answer": "I constantly feel like a complete failure to everyone around me and that I'm just useless and taking up space.",
+        "topic": "Feelings of worthlessness and guilt"
+      },
+      {
+        "answer": "People at work told me I walk and speak much slower now, and my arms and legs feel heavy like lead.",
+        "topic": "Psychomotor changes"
+      },
+      {
+        "answer": "When I wake up alone at 3 AM, the thought crosses my mind that it might be easier if I just didn't wake up, but I have no desire to hurt myself.",
+        "topic": "Thoughts of death or self-harm"
+      },
+      {
+        "answer": "No, I do not have any plan or means to end my life, and I have never attempted suicide.",
+        "topic": "Suicide plan and intent"
+      },
+      {
+        "answer": "My parents and my sister mean the world to me, and I could never put them through that pain.",
+        "topic": "Protective factors and support"
+      },
+      {
+        "answer": "It has become very hard to keep up with my duties at the library, and I have stopped seeing friends or leaving home on weekends.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "No, I have never experienced a period of feeling unusually energetic, euphoric, or needing little sleep.",
+        "topic": "Screening for mania or hypomania"
+      },
+      {
+        "answer": "No, I have never heard voices or seen things that other people cannot, and I have no strange or paranoid beliefs.",
+        "topic": "Hallucinations and delusions"
+      },
+      {
+        "answer": "I do not drink alcohol, and I have never used sleeping pills, cannabis, or recreational drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "No, I haven't noticed sensitivity to cold, constipation, swelling in my neck, or dry skin.",
+        "topic": "Thyroid and physical symptoms"
+      },
+      {
+        "answer": "No, this is the very first time in my life that I have ever felt depressed or experienced anything like this.",
+        "topic": "Prior depressive episodes"
+      },
+      {
+        "answer": "I keep thinking that I have lost my spark and that I am failing at my life and career.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I am terrified that this heavy darkness will never lift and that I will never be able to feel happy again.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I am really hoping you might be able to prescribe some medication to help lift this dark cloud.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I do not have any chronic medical conditions like high blood pressure, diabetes, or thyroid disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never undergone any surgery and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or nutritional supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I work as a librarian at a municipal library and live alone in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has ever been diagnosed with depression, bipolar disorder, or died by suicide.",
+        "topic": "Family psychiatric history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 72 beats per minute, respiratory rate 14 breaths per minute, temperature 36.6 degrees Celsius, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Clean attire with slumped posture, subdued facial expression, decreased eye contact, and noticeably reduced spontaneous motor movement.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and fully oriented to person, place, and time; speech is soft and slow; reported mood is profoundly depressed with flat-to-constricted affect; thought process is linear with no active suicidal intent or psychotic features; insight and judgment are preserved.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, symmetrical, without palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink and non-pale; sclerae are clear and non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Skin has normal texture and turgor, with no dryness, coarseness, myxedema, or rashes.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes are 2+ and symmetric at the biceps, patella, and Achilles tendons, with normal relaxation phases bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal first and second heart sounds, no audible murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with no crackles, wheezes, or decreased breath sounds.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

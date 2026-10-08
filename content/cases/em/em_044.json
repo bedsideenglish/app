@@ -1,0 +1,306 @@
+{
+  "id": "em_044",
+  "system": "em",
+  "difficulty": "intermediate",
+  "eval_template": "emergency_encounter",
+  "care_setting": "emergency_department",
+  "patient_name": "Ms. Ramirez",
+  "age": 74,
+  "gender": "female",
+  "chief_complaint": "pain out of proportion to injury, pain on passive toe stretch",
+  "hpi_details": "A 74-year-old female presents to the clinic with pain out of proportion to injury, pain on passive toe stretch. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks the splint and bandages on her injured leg were wrapped much too tightly and are cutting off all blood circulation.",
+  "concerns": "She is terrified that the blood supply to her foot has completely stopped and her leg will have to be amputated.",
+  "expectations": "She hopes the doctor will immediately cut off the tight bandage or splint and give her strong medication to stop the agony.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Acute Compartment Syndrome evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Compartment Syndrome is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Management requires immediate removal or splitting of constrictive dressings/casts, limb positioning at heart level, and emergent surgical assessment; pressure measurement can support uncertain cases but must not delay fasciotomy when clinical suspicion is high.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: pain out of proportion to injury, pain on passive toe stretch",
+      "Key HPI features: A 74-year-old female presents to the clinic with pain out of proportion to injury, pain on passive toe stretch. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Acute Compartment Syndrome.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Compartment Syndrome.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Simple post-fracture pain without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Pain out of proportion, worse with passive stretch."
+    ],
+    "management_principles": [
+      "Immediately remove or split constrictive dressings/casts and position the limb at heart level; obtain emergent surgical assessment and do not delay fasciotomy for pressure measurement when clinical suspicion is high",
+      "Do not wait for worsening: obtain emergent orthopaedic/surgical consultation immediately for suspected compartment syndrome; proceed to fasciotomy if signs persist after releasing constriction",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of pain out of proportion to injury, pain on passive toe stretch. HPI: acute compartment syndrome.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Acute Compartment Syndrome.",
+    "assessment": "Condition highly suspicious for Acute Compartment Syndrome.",
+    "plan": "Immediately remove or split constrictive dressings/casts and position the limb at heart level. Obtain emergent surgical assessment; pressure measurement can support uncertain cases but must not delay fasciotomy when clinical suspicion is high."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Acute Compartment Syndrome",
+    "Select appropriate diagnostic workup for Acute Compartment Syndrome",
+    "Implement evidence-based management plan: Remove external constriction, obtain emergent surgical assessment, and do not delay fasciotomy for pressure measurement when clinical suspicion is high"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Compartment Syndrome",
+    "one_liner": "Rising pressure inside a fascial compartment causing pain out of proportion to the injury after a fracture, a limb-threatening emergency.",
+    "differentials": [
+      "Simple post-fracture pain"
+    ],
+    "red_flags": [
+      "Pain out of proportion, worse with passive stretch"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pain severity",
+        "say": "Is the pain much worse than expected?",
+        "domains": [
+          "severity"
+        ]
+      },
+      {
+        "objective": "Passive stretch pain",
+        "say": "Does it hurt badly when your toes are moved for you?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Numbness",
+        "say": "Any numbness in your foot?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Pain medication response",
+        "say": "Has pain medication helped at all?",
+        "domains": [
+          "relieving"
+        ]
+      },
+      {
+        "objective": "Timing",
+        "say": "When was the cast placed?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/86",
+      "hr": 98,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My injured right leg hurts so terribly bad. The pain has become completely unbearable, much worse than when I first hurt it yesterday.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I tripped over a rug at home yesterday morning and broke my lower right leg, so the clinic put a splint on it. This excruciating deep pressure pain started about six hours ago and has been ramping up ever since.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "The pain is deep inside my right calf and shin, feels like my lower leg is about to burst open, and radiates down toward my ankle.",
+        "topic": "Pain location and radiation"
+      },
+      {
+        "answer": "It is a relentless, crushing, burning ache deep inside the muscle. It is definitely a ten out of ten, easily the worst pain I have ever experienced.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "The pain is constant without a second of relief, and it has gotten progressively more intense every hour.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "Yes, whenever my toes are bent backwards or moved even the slightest bit, the burning agony in my shin shoots through the roof.",
+        "topic": "Pain on passive toe stretch"
+      },
+      {
+        "answer": "Any movement of my foot or touching the front of my leg makes it scream in pain, and having my leg resting flat does not help at all.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "Nothing makes it any better. Elevating it actually seemed to make the throbbing ache even more intense.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "I took the strong prescription pain pills the clinic gave me for the fracture, but they did not touch the pain at all.",
+        "topic": "Response to pain medication"
+      },
+      {
+        "answer": "My right toes have started feeling numb and tingly over the last couple of hours, like pins and needles.",
+        "topic": "Numbness and tingling"
+      },
+      {
+        "answer": "It feels very stiff and weak, and I can barely lift my right big toe or bend my foot upward because of the terrible weakness and pain.",
+        "topic": "Weakness and movement"
+      },
+      {
+        "answer": "My lower leg feels like an overinflated basketball, rock-hard and extremely tight under the splint.",
+        "topic": "Swelling and tightness"
+      },
+      {
+        "answer": "My toes look slightly pale and feel a bit cool compared to my other foot, but they are not blue.",
+        "topic": "Skin color and temperature changes"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "I feel completely worn out, exhausted, and dizzy from dealing with this nonstop, agonizing pain.",
+        "topic": "Generalized fatigue"
+      },
+      {
+        "answer": "No, I have not had any unintentional weight loss, cough, or night sweats.",
+        "topic": "Weight loss and systemic symptoms"
+      },
+      {
+        "answer": "No, I have never broken a bone or felt anything remotely like this before in my life.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I tried loosening the outer bandage slightly and resting in bed, but it did not relieve the horrible pressure inside.",
+        "topic": "Self-treatments tried"
+      },
+      {
+        "answer": "I cannot walk, sit comfortably, or sleep at all; the pain is keeping me in pure agony.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I think whoever wrapped my leg put the bandage on way too tight, and it's strangling all the blood flow to my foot.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that the tissue in my leg is dying and you're going to have to amputate it.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I need you to cut this tight wrapping off my leg right this second and give me something strong for the pain.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have always been healthy with no chronic medical conditions like diabetes, high blood pressure, or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or previous hospital admissions.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I only took the pain medicine prescribed yesterday for the broken leg, and I take no other regular medications, over-the-counter drugs, or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or materials.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have a small glass of wine once or twice a year during holidays.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a retired teacher and I live comfortably at home with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of blood clots, bleeding disorders, or bone diseases.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert elderly female in visible acute distress, grimacing and guarding her right lower leg.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 142/86 mmHg, heart rate 98 beats per minute, respiratory rate 18 breaths per minute, body temperature 36.8 C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The right lower leg is extremely tense, tight, and exquisitely tender across all compartments on palpation.",
+        "maneuver": "calf_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Tight, shiny, and pale skin over the right lower leg beneath the splint, with no redness, warmth, or open wounds.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Passive plantar flexion and stretch of the right toes elicits severe, agonizing pain in the anterior and deep calf compartments.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Weakness with active dorsiflexion of the right ankle and great toe against resistance, limited by severe pain.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Hypoesthesia to light touch and pinprick sensation over the first web space and dorsum of the right foot.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Severe tense, non-yielding swelling of the right lower leg with a firm, woody consistency compared to the normal left leg.",
+        "maneuver": "extremity_edema",
+        "response": "pain"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are intact and palpable bilaterally, though slightly diminished on the right; capillary refill is two seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Sinus tachycardia with normal heart sounds and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with normal respiratory excursion and no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

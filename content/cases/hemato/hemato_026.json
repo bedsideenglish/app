@@ -1,0 +1,344 @@
+{
+  "id": "hemato_026",
+  "system": "hemato",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Ramirez",
+  "age": 20,
+  "gender": "female",
+  "chief_complaint": "fatigue, pale conjunctivae, and microcytic indices",
+  "hpi_details": "A 20-year-old female presents to the clinic with fatigue, pale conjunctivae, and microcytic indices. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks her exhaustion and pale look are just the result of staying up late studying and skipping meals during exam season.",
+  "concerns": "She is worried she will be too exhausted to pass her upcoming final exams or keep up with her classes.",
+  "expectations": "She hopes to get prescribed some vitamin booster shots or energy supplements so she can power through her school term.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {
+      "id": "hemoglobin",
+      "test": "Hemoglobin",
+      "value": "9.1",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "flag": "low",
+      "specimen": "Blood"
+    },
+    {
+      "id": "mcv",
+      "test": "Mean corpuscular volume",
+      "value": "72",
+      "unit": "fL",
+      "reference_range": "80-100",
+      "flag": "low",
+      "specimen": "Blood"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Iron Deficiency Anemia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Iron Deficiency Anemia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes oral iron repletion (e.g., ferrous sulfate with vitamin C to enhance absorption) and identifying the source of blood loss, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Fatigue with pale conjunctivae",
+      "Microcytic red cell indices",
+      "Gradually worsening course without other prior medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Iron Deficiency Anemia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Anemia of chronic disease without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: GI bleeding symptoms (black stools, blood in stool) in a patient without menorrhagia — needs endoscopic workup."
+    ],
+    "management_principles": [
+      "Oral ferrous sulfate with vitamin C to enhance absorption; identify and address the source of blood loss",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "A 20-year-old female presents to the clinic with fatigue, pale conjunctivae, and microcytic indices. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Pale conjunctivae, mild tachycardia. No glossitis or koilonychia noted. Abdominal exam unremarkable with no signs of GI bleeding.",
+    "assessment": "Iron Deficiency Anemia, most likely secondary to chronic blood loss (menstrual or GI) pending further workup.",
+    "plan": "Start oral ferrous sulfate with vitamin C to enhance absorption; identify and address the source of blood loss. Consult specialist if symptoms worsen. Counsel patient on dietary iron intake and adherence."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Iron Deficiency Anemia",
+    "Select appropriate diagnostic workup for Iron Deficiency Anemia",
+    "Implement evidence-based management plan: Oral Ferrous Sulfate, Vitamin C, check source of blood loss"
+  ],
+  "teaching": {
+    "diagnosis": "Iron Deficiency Anemia",
+    "one_liner": "Depleted iron stores, usually from chronic blood loss (menstrual or GI), impair hemoglobin production and cause fatigue with microcytic red cells.",
+    "differentials": [
+      "Anemia of chronic disease",
+      "Thalassemia trait"
+    ],
+    "red_flags": [
+      "GI bleeding symptoms (black stools, blood in stool) in a patient without menorrhagia — needs endoscopic workup"
+    ],
+    "must_ask": [
+      {
+        "objective": "Source of blood loss",
+        "say": "Are your periods heavy, or have you noticed any blood in your stool?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "menorrhagia",
+          "blood in stool"
+        ]
+      },
+      {
+        "objective": "Duration of fatigue",
+        "say": "How long have you felt tired?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Exertional symptoms",
+        "say": "Do you get short of breath with activity?",
+        "domains": [
+          "aggravating"
+        ]
+      },
+      {
+        "objective": "Diet",
+        "say": "How much iron-rich food do you eat?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Pallor",
+        "say": "Have you or others noticed you looking pale?",
+        "domains": [
+          "character"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "110/70",
+      "hr": 104,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I've been feeling completely exhausted lately, and my friends told me I look really pale.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like a total lack of energy and general weakness throughout my body, not like I'm just sleepy or unable to stay awake.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It started about two months ago and has been gradually getting worse over time without any specific trigger.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It's hard to concentrate in my university classes, and even when I sleep in on weekends, I still wake up feeling tired.",
+        "topic": "Daily impact and rest relief"
+      },
+      {
+        "answer": "It gets noticeably worse in the late afternoon and evening after I have been moving around campus all day.",
+        "topic": "Diurnal variation"
+      },
+      {
+        "answer": "I sleep seven to eight hours every night without waking up, and my roommate says I do not snore or gasp for air.",
+        "topic": "Sleep quality and snoring"
+      },
+      {
+        "answer": "My mood is fine and I still enjoy spending time with my friends; I have never felt depressed or had thoughts of harming myself.",
+        "topic": "Mood and depressive symptoms"
+      },
+      {
+        "answer": "I feel lightheaded when I stand up quickly, but my bowel movements look completely normal with no black or bloody stools.",
+        "topic": "Dizziness and stool color"
+      },
+      {
+        "answer": "My periods last seven to eight days with very heavy bleeding; on the first three days, I soak through a pad every hour or two and pass large clots.",
+        "topic": "Menstrual flow and duration"
+      },
+      {
+        "answer": "No, I haven't noticed any unusual bruising, and my gums don't bleed when I brush my teeth.",
+        "topic": "Easy bruising or bleeding"
+      },
+      {
+        "answer": "No, I don't have any numbness, tingling, or pins and needles in my hands or feet.",
+        "topic": "Numbness or tingling"
+      },
+      {
+        "answer": "I do feel chilly easily, but my weight has been completely stable and I don't have constipation or dry skin.",
+        "topic": "Cold intolerance and weight changes"
+      },
+      {
+        "answer": "No, I don't feel unusually thirsty and I'm not urinating more often than normal.",
+        "topic": "Excessive thirst or urination"
+      },
+      {
+        "answer": "No, my skin hasn't darkened at all, and my appetite has been normal.",
+        "topic": "Skin darkening and appetite"
+      },
+      {
+        "answer": "No, I don't have itchy skin, metallic taste, or changes in how much urine I pass.",
+        "topic": "Itching or urinary changes"
+      },
+      {
+        "answer": "No fever, no chills, no night sweats, and no unexplained weight loss.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "I get out of breath and feel my heart pounding in my chest whenever I climb the stairs to my classroom.",
+        "topic": "Exertional breathlessness and palpitations"
+      },
+      {
+        "answer": "No, I haven't had any swelling in my legs, ankles, or feet.",
+        "topic": "Leg swelling"
+      },
+      {
+        "answer": "School has been manageable without extreme stress, and I just have one cup of iced latte in the morning.",
+        "topic": "Stress and caffeine intake"
+      },
+      {
+        "answer": "I often skip breakfast, eat ramen or instant salads for lunch, and rarely eat red meat.",
+        "topic": "Dietary habits"
+      },
+      {
+        "answer": "About a month ago, my mother and my friends pointed out that my face and inner eyelids looked unusually pale.",
+        "topic": "Noticing pale appearance"
+      },
+      {
+        "answer": "I just figured I'm completely burned out from pulling all-nighters for my college exams and skipping meals.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I'm terrified I'll crash and fail my upcoming finals because I can barely keep my eyes open.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I was hoping you could give me a vitamin booster shot or suggest some strong supplements to give me my energy back.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with any medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "I don't take any prescription medicines, over-the-counter drugs, or nutritional supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes, e-cigarettes, or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have a glass of beer socially about once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I'm a second-year college student living in a campus dormitory with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has a history of anemia, bleeding disorders, or bowel problems.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period started two weeks ago, and my cycles are usually regular at around twenty-eight days.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "I am not taking birth control pills and do not have an intrauterine device.",
+        "topic": "Contraception"
+      },
+      {
+        "answer": "No, I am not currently sexually active, so there is no chance of pregnancy.",
+        "topic": "Pregnancy possibility"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 110/70 mmHg, heart rate 104 beats/min, respiratory rate 16 breaths/min, body temperature 36.7°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Markedly pale palpebral conjunctivae bilaterally; sclerae are clear and anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is pale but moist; tongue shows normal papillae without glossitis or angular cheilitis.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and smooth without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, supraclavicular, or axillary lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm; normal S1 and S2 with no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, non-distended, non-tender throughout; no hepatomegaly, splenomegaly, or palpable mass.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Pale skin overall; nails are pale without spooning (koilonychia) or capillary refill delay; no petechiae or bruising.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or ankle pitting edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

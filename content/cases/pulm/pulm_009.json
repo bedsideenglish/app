@@ -1,0 +1,341 @@
+{
+  "id": "pulm_009",
+  "system": "pulmonology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. O'Reilly",
+  "age": 52,
+  "gender": "male",
+  "chief_complaint": "loud snoring, gasping for breath during sleep, and severe daytime exhaustion for 3 years",
+  "hpi_details": "3-year history of unrefreshing sleep and severe daytime somnolence, falling asleep unintentionally during daytime meetings, while reading, and while stopped at red lights driving home from work. His wife reports loud nightly snoring, interrupted by frequent witnessed pauses in breathing lasting 20 to 30 seconds, followed by snorting, gasping, and choking as he resumes breathing. He wakes most mornings with a dull frontal headache, a dry throat, and feeling unrefreshed. Reports waking up 3-4 times per night to urinate (nocturia). Gained 18 kg over the past 4 years due to sedentary office work.",
+  "ideas": "thinks stress at work and poor mattress quality are causing chronic fatigue and snoring",
+  "concerns": "terrified he will fall asleep at the wheel and cause a fatal highway car crash during his daily commute",
+  "expectations": "wants a sleep study, a CPAP breathing mask, and clear advice on whether he is legally safe to drive",
+  "pmh": "hypertension (poorly controlled despite two medications), obesity (BMI 37), type 2 diabetes mellitus",
+  "medications": "ramipril 10mg OD, amlodipine 10mg OD, metformin 1000mg BD",
+  "social_hx": "non-smoker, drinks 3 pints of beer in the evenings (worsens snoring), software development manager, sedentary",
+  "clinical_knowledge": {
+    "topic": "Severe obstructive sleep apnoea syndrome (OSA; AHI >30 with severe daytime somnolence), associated with poorly controlled hypertension and a driving-safety hazard",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of severe obstructive sleep apnoea (OSA) with marked daytime somnolence and driving risk is essential for targeted evaluation and management.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "A patient who has fallen asleep or nearly fallen asleep while driving should stop driving and promptly follow local licensing and clinician guidance before resuming.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: loud snoring, gasping for breath during sleep, and severe daytime exhaustion for 3 years",
+      "Key HPI features: 3-year history of intense, unrefreshing sleep and severe daytime somnolence, falling asleep uncontrollably during daytime meetings, while reading, and while stopped at red lights driving home from work. His wife reports he snores heroically every night, interrupted by frequent, terrifying episodes where he completely stops breathing for 20 to 30 seconds, followed by loud snorting, gasping, and choking noises as he struggles to catch his breath. Wakes up almost every morning with a dull frontal headache, a dry throat, and feeling completely unexhausted. Reports waking up 3-4 times per night to urinate (nocturia). Gained 18kg over the past 4 years due to sedentary office work.",
+      "Objective/Exam findings: Examine airway: calculate BMI (37 kg/m2), measure neck circumference (>43 cm / 17 inches confirms high risk), inspect oropharynx (Mallampati Class III/IV with crowded airway, enlarged tonsils, and elongated uvula). Check blood pressure (158/98 mmHg indicating poorly controlled hypertension on two agents). Administer subjective sleepiness scale: Epworth Sleepiness Scale (ESS) score = 18/24 (scores >10 indicate abnormal daytime sleepiness). Diagnostic Sleep Study: Overnight Polysomnography (PSG or home sleep apnea test): measure Apnoea-Hypopnoea Index (AHI -> shows AHI = 42 events per hour of sleep confirming Severe Obstructive Sleep Apnoea; mild 5-14, moderate 15-29, severe >=30). PSG also shows severe recurrent nocturnal desaturations (lowest O2 sat 78%) accompanied by sleep fragmentation/arousals.",
+      "Relevant background/PMH: hypertension (poorly controlled despite two medications), obesity (BMI 37), type 2 diabetes mellitus",
+      "Current medications: ramipril 10mg OD, amlodipine 10mg OD, metformin 1000mg BD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Severe Obstructive Sleep Apnoea Syndrome (OSAS - AHI >30 with severe daytime somnolence) contributing directly to poorly controlled hypertension and driving hazard.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Attributing the sleepiness only to stress or poor sleep habits without assessing for sleep-disordered breathing and other causes."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe hypoxemia (SpO2 < 90%)."
+    ],
+    "management_principles": [
+      "Because of sleepiness while driving, advise the patient to stop driving now and arrange urgent sleep-medicine review; follow local licensing requirements before resuming driving.",
+      "For confirmed moderate-to-severe OSA, a sleep clinician may prescribe and titrate positive airway pressure (CPAP) during sleep; it acts as a pneumatic splint to prevent upper-airway collapse and can improve symptoms and blood pressure.",
+      "Lifestyle modification: structured weight loss programme (bariatric surgery evaluation if refractory), strict alcohol avoidance before bedtime (alcohol relaxes pharyngeal dilator muscles), and positional sleep training (avoiding supine sleep)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Sleep Medicine: Positive Airway Pressure Treatment of Adult Obstructive Sleep Apnea",
+        "url": "https://jcsm.aasm.org/doi/10.5664/jcsm.7640"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "52M with obesity presents with 3-year history of loud snoring, witnessed apnoeas, gasping arousals, severe daytime somnolence, morning headaches, and poorly controlled hypertension.",
+    "objective": "Examine airway: calculate BMI (37 kg/m2), measure neck circumference (>43 cm / 17 inches indicates high risk), and inspect the oropharynx (Mallampati class III/IV with a crowded airway, enlarged tonsils, and elongated uvula). Check blood pressure (158/98 mmHg, indicating poorly controlled hypertension). Administer the Epworth Sleepiness Scale (ESS): 18/24 (scores >10 indicate abnormal daytime sleepiness). Overnight polysomnography (PSG) or an appropriate home sleep apnoea test shows an apnoea-hypopnoea index (AHI) of 42 events/hour, confirming severe OSA (mild 5-14, moderate 15-29, severe >=30), with recurrent nocturnal desaturations to 78% and sleep fragmentation/arousals.",
+    "assessment": "Severe obstructive sleep apnoea (AHI 42/hour) with severe daytime somnolence, recurrent nocturnal desaturation, poorly controlled hypertension, and an immediate driving-safety risk. Consider central sleep apnoea (review heart failure or stroke history), obesity hypoventilation syndrome (consider daytime blood gas testing for hypercapnia), narcolepsy, and other causes of hypersomnolence.",
+    "plan": "Advise no driving because of sleepiness while driving, and arrange urgent sleep-medicine review; follow local licensing requirements before resumption. A sleep clinician should arrange CPAP initiation and titration. Support weight management, avoid alcohol and sedatives before bedtime, and consider positional therapy. Seek urgent assessment for worsening breathlessness, persistent low oxygen levels, or drowsiness that impairs safety."
+  },
+  "learning_objectives": [
+    "Calculate and interpret the Epworth Sleepiness Scale and correlate neck circumference (>43cm) with airway collapse risk",
+    "Interpret overnight polysomnography Apnoea-Hypopnoea Index (AHI >=30) confirming severe Obstructive Sleep Apnoea Syndrome",
+      "Provide clear driving-safety advice and explain the need to follow local licensing and clinician guidance before driving again",
+    "Explain the physiological pneumatic-splint mechanism of CPAP therapy and its potential benefits for blood-pressure control"
+  ],
+  "teaching": {
+    "diagnosis": "Severe Obstructive Sleep Apnoea Syndrome",
+    "one_liner": "Pulmonology case presenting with loud snoring, gasping for breath during sleep, and severe daytime exhaustion for 3 years.",
+    "differentials": [
+      "Central sleep apnea",
+      "Hypothyroidism-related fatigue",
+      "Primary obesity hypoventilation syndrome"
+    ],
+    "red_flags": [
+      "Severe hypoxemia (SpO2 < 90%)",
+      "Unintentional sleep episodes while driving or other safety-critical activities"
+    ],
+    "must_ask": [
+      {
+        "objective": "Witnessed apneas and snoring pattern",
+        "say": "Has anyone told you that you stop breathing, gasp, or choke during sleep?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "apnea",
+          "snoring",
+          "gasping",
+          "choking",
+          "witnessed"
+        ]
+      },
+      {
+        "objective": "Daytime somnolence and driving safety risk",
+        "say": "Do you ever fall asleep unintentionally during the day, including while driving?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "sleepy",
+          "somnolence",
+          "driving",
+          "falling asleep",
+          "epworth"
+        ]
+      },
+      {
+        "objective": "Neck circumference, BMI, and airway anatomy",
+        "say": "I'd like to measure your neck size and weight, and take a look at the back of your throat.",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "neck circumference",
+          "BMI",
+          "obesity",
+          "airway",
+          "mallampati"
+        ]
+      },
+      {
+        "objective": "Comorbid poorly controlled hypertension and cardiometabolic risk",
+        "say": "Your blood pressure has been hard to control on two medications - has that changed since your sleep problems started?",
+        "domains": [
+          "pmh",
+          "medications"
+        ],
+        "keywords": [
+          "hypertension",
+          "uncontrolled",
+          "diabetes",
+          "cardiovascular",
+          "comorbid"
+        ]
+      },
+      {
+        "objective": "Alcohol use and sedative timing before bed",
+        "say": "How much alcohol do you drink in the evenings, and does it seem to make the snoring worse?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "alcohol",
+          "evening",
+          "sedative",
+          "worsens",
+          "snoring"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "158/98",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 97,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I've been feeling completely wiped out during the day, and my wife says my snoring has gotten terrible.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like overwhelming sleepiness rather than physical weakness. My muscles feel fine, but my eyes get heavy and I can barely stay awake.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It started gradually about three years ago and has steadily gotten worse, especially after I gained weight at my desk job.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is causing major problems at work because I keep falling asleep during meetings. Sleeping more does not help at all—I still wake up exhausted.",
+        "topic": "Impact on daily life and rest"
+      },
+      {
+        "answer": "I feel most groggy and tired as soon as I wake up in the morning, and another huge wave of sleepiness hits me in the early afternoon.",
+        "topic": "Time of day variation"
+      },
+      {
+        "answer": "I sleep about seven hours, but my wife says I snore loudly and frequently stop breathing for twenty to thirty seconds before gasping and snorting awake.",
+        "topic": "Sleep quality and snoring pauses"
+      },
+      {
+        "answer": "Almost every morning I wake up with a dull ache across my forehead and a dry, parched mouth.",
+        "topic": "Morning headaches and dry mouth"
+      },
+      {
+        "answer": "Yes, I get up to urinate three or four times every night, which interrupts my sleep even more.",
+        "topic": "Frequent nighttime urination"
+      },
+      {
+        "answer": "I have caught myself drifting off while stopped at red lights on my drive home from work, which completely terrifies me.",
+        "topic": "Drowsiness while driving"
+      },
+      {
+        "answer": "No, I am not feeling depressed and I have never had thoughts of harming myself. I still enjoy spending time with my family when I am awake.",
+        "topic": "Depression and mood screening"
+      },
+      {
+        "answer": "No dizziness or shortness of breath, and my bowel movements are normal brown with no blood or black stools.",
+        "topic": "Dizziness and bowel movements"
+      },
+      {
+        "answer": "No, I haven't noticed any unusual bruising on my skin or bleeding from my gums.",
+        "topic": "Easy bruising and bleeding"
+      },
+      {
+        "answer": "No, I don't have any numbness, tingling, or pins and needles in my hands or feet.",
+        "topic": "Numbness or tingling"
+      },
+      {
+        "answer": "I don't feel unusually sensitive to the cold, and my skin and bowels are fine. I have gained about 18 kilograms over the past four years, though.",
+        "topic": "Cold tolerance and weight change"
+      },
+      {
+        "answer": "My daytime thirst and urination have been fairly normal since starting my diabetes medication, aside from getting up multiple times at night.",
+        "topic": "Thirst and daytime urination"
+      },
+      {
+        "answer": "No, my skin has not gotten darker, I don't feel faint when I stand up, and my appetite has been normal.",
+        "topic": "Skin darkening and postural dizziness"
+      },
+      {
+        "answer": "No, my skin is not itchy, my sense of taste is normal, and my urine looks normal during the day without any foam.",
+        "topic": "Skin itching and urine changes"
+      },
+      {
+        "answer": "No fever, chills, or night sweats, and I certainly haven't had any weight loss.",
+        "topic": "Fever and weight loss"
+      },
+      {
+        "answer": "I do not get breathless when walking on level ground, and my legs and ankles never swell up.",
+        "topic": "Exertional breathlessness and leg swelling"
+      },
+      {
+        "answer": "I work long hours as a software manager which can be stressful, but it is sedentary. I drink two cups of black coffee in the morning to keep myself going.",
+        "topic": "Work stress and caffeine intake"
+      },
+      {
+        "answer": "I thought maybe work stress, long screen hours, and an old mattress were responsible for my bad sleep and snoring.",
+        "topic": "Patient's ideas about fatigue"
+      },
+      {
+        "answer": "I am terrified that I might fall asleep at the wheel on the highway and cause a fatal car crash.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I would like to get a formal sleep study, see if I need a nighttime breathing mask, and find out whether it is legally safe for me to drive.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I have high blood pressure and type 2 diabetes. My doctor mentioned my blood pressure has stayed high despite taking two medications.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was eighteen, but I have never had any other surgeries or hospital admissions.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take ramipril 10 milligrams once daily, amlodipine 10 milligrams once daily, and metformin 1000 milligrams twice daily. I don't take any sleeping pills or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink about three pints of beer in the evenings after work, which my wife says makes my snoring even louder.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a software development manager sitting at a desk, and I live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had hypertension and suffered a heart attack in his sixties, and my mother has type 2 diabetes. No family history of sleep disorders.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Obese middle-aged male sitting comfortably, appears fatigued with occasional yawning, but in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 158/98 mmHg, heart rate 76 beats/min, respiratory rate 16 breaths/min, temperature 36.7 °C, oxygen saturation 97% on room air; BMI is 37 kg/m2 and neck circumference is 44 cm.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor, and sclerae are white and anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Crowded oropharyngeal airway with Mallampati class IV visualization, enlarged palatine tonsils, and an elongated uvula; nasal passages are clear.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical lymphadenopathy palpated; neck appears thick with prominent soft tissue deposition.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema in bilateral lower extremities; calves are supple and non-tender.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

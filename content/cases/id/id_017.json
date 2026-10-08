@@ -1,0 +1,332 @@
+{
+  "id": "id_017",
+  "system": "infectious_disease",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Nguyen",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "chronic cough, night sweats, and weight loss",
+  "hpi_details": "45M presents with a 4-week history of a productive cough (sometimes with blood streaks), drenching night sweats, fatigue, and a 10-pound weight loss. He recently emigrated from Southeast Asia.",
+  "ideas": "thinks he has lung cancer",
+  "concerns": "worried about infecting his family",
+  "expectations": "wants a chest X-ray",
+  "pmh": "None",
+  "medications": "None",
+  "social_hx": "Recent immigrant, living in a crowded apartment",
+  "investigation_events": [
+    {
+      "id": "urgent_chest_xray",
+      "title": "Urgent chest radiograph",
+      "order_terms": [
+        "chest x ray",
+        "chest x-ray",
+        "chest radiograph",
+        "cxr"
+      ],
+      "availability_message": "The urgent chest radiograph is now available; airborne isolation and public-health notification should not be delayed while microbiologic testing is pending.",
+      "results": [
+        {
+          "id": "right_upper_lobe_cavitation",
+          "test": "Chest radiograph",
+          "value": "Right upper-lobe cavitary opacity with surrounding patchy infiltrate",
+          "flag": "critical",
+          "collected_at": "During urgent assessment",
+          "note": "Sputum AFB smear, culture, and NAAT remain pending"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Active Pulmonary Tuberculosis (TB)",
+    "core_concepts": [
+      "Classic symptoms: chronic cough (>2-3 weeks), hemoptysis, weight loss, fever, night sweats."
+    ],
+    "diagnostic_clues": [
+      "Hemoptysis",
+      "Night sweats",
+      "Endemic area origin"
+    ],
+    "common_misconceptions": [
+      "Assuming a negative PPD or IGRA rules out active TB in a severely ill or immunocompromised patient."
+    ],
+    "dangerous_errors": [
+      "Failing to place the patient in airborne isolation (negative pressure room) immediately upon suspicion."
+    ],
+    "management_principles": [
+      "Airborne isolation, Chest X-ray, Sputum AFB smears and cultures, GeneXpert."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "45M with a chronic productive cough, hemoptysis, night sweats, and weight loss. Recent immigrant.",
+    "objective": "Thin, cachectic appearing. Bronchial breath sounds and crackles in the right upper lobe.",
+    "assessment": "Suspected Active Pulmonary Tuberculosis.",
+    "plan": "Immediate airborne isolation. STAT Chest X-ray. Order 3 sputum AFB smears/cultures and NAAT. Notify public health."
+  },
+  "learning_objectives": [
+    "Identify classic symptoms of active TB and implement prompt infection control."
+  ],
+  "teaching": {
+    "diagnosis": "Active Pulmonary Tuberculosis",
+    "one_liner": "Chronic cough with hemoptysis, night sweats, and weight loss in a patient from an endemic area.",
+    "differentials": [
+      "Lung cancer",
+      "Histoplasmosis"
+    ],
+    "red_flags": [
+      "Massive hemoptysis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Cough duration and character",
+        "say": "How long have you had the cough, and have you coughed up any blood?",
+        "domains": [
+          "onset_duration",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "cough",
+          "weeks",
+          "hemoptysis",
+          "blood"
+        ]
+      },
+      {
+        "objective": "Night sweats",
+        "say": "Have you had drenching night sweats that soak your clothes or sheets?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "night sweats"
+        ]
+      },
+      {
+        "objective": "Weight loss",
+        "say": "Have you lost weight without trying?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weight loss"
+        ]
+      },
+      {
+        "objective": "TB exposure and risk factors",
+        "say": "Have you traveled from or lived in an area where tuberculosis is common, or been around anyone with TB?",
+        "domains": [
+          "social_hx"
+        ],
+        "keywords": [
+          "endemic area",
+          "TB exposure",
+          "travel"
+        ]
+      },
+      {
+        "objective": "Massive hemoptysis red flag",
+        "say": "Have you ever coughed up a large amount of blood at once?",
+        "domains": [
+          "red_flags"
+        ],
+        "keywords": [
+          "massive hemoptysis",
+          "large amount blood"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 88,
+      "rr": 18,
+      "spo2": 97,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "I've had this persistent cough for about four weeks now, and I've been losing weight without trying.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The cough started about a month ago and has gradually become more frequent and heavier.",
+        "topic": "Cough onset and duration"
+      },
+      {
+        "answer": "It didn't begin after a cold or flu, and I have never experienced a cough lasting this long before.",
+        "topic": "Onset trigger and prior episodes"
+      },
+      {
+        "answer": "I bring up a spoonful or two of thick yellowish phlegm every day, but it does not smell foul.",
+        "topic": "Sputum character and volume"
+      },
+      {
+        "answer": "Over the past week I've noticed streaks of bright red blood mixed in the mucus, but never mouthfuls or cups of blood.",
+        "topic": "Blood in phlegm"
+      },
+      {
+        "answer": "I cough throughout the entire day and night, and lying down flat doesn't seem to make it worse.",
+        "topic": "Diurnal pattern and posture"
+      },
+      {
+        "answer": "No, I do not have uncontrollable coughing fits, whooping sounds when I inhale, or vomiting after coughing.",
+        "topic": "Paroxysmal cough and whooping"
+      },
+      {
+        "answer": "Dusty environments make me clear my throat, but cold air, physical exertion, and pets don't specifically trigger it.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "I haven't heard any whistling or wheezing sounds, though I get tired and winded more easily lately.",
+        "topic": "Wheezing and shortness of breath"
+      },
+      {
+        "answer": "I haven't checked with a thermometer, but I feel flushed and feverish almost every late afternoon.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "Yes, almost every night for the past three weeks I wake up drenched in sweat and need to change my clothes and sheets.",
+        "topic": "Night sweats"
+      },
+      {
+        "answer": "I have lost about ten pounds over the past month because my appetite has completely dropped off.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "My chest feels somewhat sore and achy on the right side when I cough hard, but there is no sharp stabbing pain when I breathe in.",
+        "topic": "Chest pain with breathing"
+      },
+      {
+        "answer": "No runny nose, nasal congestion, or sensation of fluid dripping down the back of my throat.",
+        "topic": "Post-nasal drip symptoms"
+      },
+      {
+        "answer": "I don't have heartburn, sour regurgitation into my mouth, or a sensation of a lump in my throat.",
+        "topic": "Heartburn and acid reflux"
+      },
+      {
+        "answer": "No, I can sleep comfortably on one pillow, and my feet and legs have not become swollen.",
+        "topic": "Orthopnea and leg swelling"
+      },
+      {
+        "answer": "I do not take any blood pressure medications, ACE inhibitors, or regular prescription drugs.",
+        "topic": "Blood pressure medications"
+      },
+      {
+        "answer": "I have never been diagnosed with or treated for tuberculosis, but it was common where I grew up in Southeast Asia.",
+        "topic": "Tuberculosis history and exposure"
+      },
+      {
+        "answer": "A couple of roommates in my apartment have had lingering coughs, though none have mentioned a specific medical diagnosis.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I work general maintenance and warehouse tasks, with no heavy exposure to silica dust, toxic chemicals, birds, or mold.",
+        "topic": "Occupational and environmental exposures"
+      },
+      {
+        "answer": "I have never had asthma, allergic rhinitis, eczema, or known food allergies.",
+        "topic": "Allergic disease history"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with any chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never undergone any surgical procedures and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription drugs, over-the-counter cough syrups, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I used to smoke about half a pack a day for roughly ten years, but I completely quit five years ago.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional beer once or twice a month, and I have never used illicit drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "I moved here from Southeast Asia about six months ago and currently live in a crowded two-bedroom apartment with four other adults.",
+        "topic": "Living situation and immigration"
+      },
+      {
+        "answer": "Both of my parents are alive in their seventies with high blood pressure, and there is no family history of lung disease or cancer.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "Because of the blood and weight loss, I'm terrified that this could be lung cancer, and I'm very anxious about whether I might pass an infection to my roommates and family.",
+        "topic": "Patient ideas and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Thin, cachectic-appearing male who looks fatigued but is in no acute respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 88 beats per minute, respiratory rate 18 breaths per minute, temperature 37.8°C, and oxygen saturation 97% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild conjunctival pallor without scleral icterus.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Nasal mucosa pink without discharge; posterior pharynx clear without erythema, cobblestoning, or post-nasal drainage.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical or supraclavicular lymphadenopathy palpated.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetrical chest wall expansion; increased tactile fremitus over the right upper lung field without chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Dullness to percussion over the right upper lung zone; resonant across all other lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Bronchial breath sounds and coarse crackles over the right upper lobe; normal vesicular breath sounds without wheezes in all other fields.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No digital clubbing, cyanosis, or peripheral pitting edema in the lower extremities.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

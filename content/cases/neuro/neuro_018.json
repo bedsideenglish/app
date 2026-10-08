@@ -1,0 +1,331 @@
+{
+  "id": "neuro_018",
+  "system": "neurology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Sterling",
+  "age": 76,
+  "gender": "male",
+  "chief_complaint": "difficulty walking with feet glued to floor, wetting trousers, and forgetfulness over 1 year",
+  "hpi_details": "76-year-old male brought in by his son with a 1-year progressive triad of gait deterioration, urinary incontinence, and cognitive decline. Son reports that his father's walking has become slow, shuffling, and unstable, describing his feet as looking 'glued or stuck to the floor' when trying to initiate walking or turn corners (magnetic gait). Has fallen four times in the past 6 months. Simultaneously, developed urinary urgency progressing to complete urinary incontinence without awareness or concern. Over the past 6 months, became increasingly forgetful, slow to respond to questions (bradyphrenia), and apathetic, sitting in his chair all day without initiating activities. No resting tremor, rigidity, or prior stroke.",
+  "ideas": "son thinks father has Parkinson's disease combined with advanced Alzheimer's dementia",
+  "concerns": "son is exhausted cleaning up incontinence daily and terrified his father will fracture a hip during a fall",
+  "expectations": "wants Parkinson's medications started immediately and a nursing home placement assessment",
+  "pmh": "hypertension, mild benign prostatic hyperplasia, head injury with concussion 15 years ago in a car crash",
+  "medications": "ramipril 5mg OD, finasteride 5mg OD",
+  "social_hx": "non-smoker, zero alcohol, retired mechanical engineer, lives with son",
+  "investigation_events": [
+    {
+      "id": "large_volume_csf_tap_test",
+      "title": "High-volume lumbar puncture tap test",
+      "order_terms": ["tap test", "high-volume lumbar puncture", "large-volume lumbar puncture", "drain CSF"],
+      "availability_message": "The high-volume tap-test results, including the post-drainage gait reassessment, are now available.",
+      "results": [
+        {"id": "opening_pressure", "test": "CSF opening pressure", "value": "16", "unit": "cm H2O", "reference_range": "10-20", "flag": "normal"},
+        {"id": "gait_response", "test": "Timed 10-meter walk after removal of 40 mL CSF", "value": "Time improved from 24.8 seconds pre-tap to 16.1 seconds at 2 hours, with longer stride length and easier turning", "flag": "abnormal", "note": "A clinically meaningful positive tap-test response."}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Normal Pressure Hydrocephalus (NPH) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Normal Pressure Hydrocephalus (NPH) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Perform diagnostic large-volume CSF tap test with objective pre- and post-tap timed 10-meter walk test, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: difficulty walking with feet glued to floor, wetting trousers, and forgetfulness over 1 year",
+      "Key HPI features: 76-year-old male brought in by his son with a 1-year progressive triad of gait deterioration, urinary incontinence, and cognitive decline. Son reports that his father's walking has become slow, shuffling, and unstable, describing his feet as looking 'glued or stuck to the floor' when trying to initiate walking or turn corners (magnetic gait). Has fallen four times in the past 6 months. Simultaneously, developed urinary urgency progressing to complete urinary incontinence without awareness or concern. Over the past 6 months, became increasingly forgetful, slow to respond to questions (bradyphrenia), and apathetic, sitting in his chair all day without initiating activities. No resting tremor, rigidity, or prior stroke.",
+      "Objective/Exam findings: Gait assessment: broad-based, short-stepped, shuffling, 'magnetic' gait with difficulty initiating steps and multi-step turning, but normal foot clearance when kicking a ball or cycling in air (gait apraxia). Neurological exam: increased tone/spasticity in lower limbs with brisk ankle jerks and bilateral positive Babinski signs, but NO resting tremor or cogwheel rigidity. Cognitive exam: MoCA/MMSE shows subcortical executive dysfunction, bradyphrenia, and impaired attention with relatively preserved recognition memory. MRI Brain: shows communicating ventriculomegaly out of proportion to cerebral sulcal atrophy (Evans index >0.30), periventricular high-signal capping on FLAIR (transependymal CSF resorption), and narrow high-convexity sulci (DESH - Disproportionately Enlarged Subarachnoid Space Hydrocephalus). Bedside High-Volume Lumbar Puncture ('Tap Test'): measure normal opening pressure (10-20 cm H2O), drain 30-50 mL of CSF, and re-assess quantitative gait speed/stride length at 2 hours and 24 hours post-tap (objective improvement confirms diagnosis).",
+      "Relevant background/PMH: hypertension, mild benign prostatic hyperplasia, head injury with concussion 15 years ago in a car crash",
+      "Current medications: ramipril 5mg OD, finasteride 5mg OD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Normal Pressure Hydrocephalus (NPH).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Parkinson's disease with dementia (resting tremor, rigidity, levodopa response) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Repeated falls — significant injury risk needing prompt mobility support while workup proceeds."
+    ],
+    "management_principles": [
+      "Perform diagnostic large-volume CSF tap test with objective pre- and post-tap timed 10-meter walk test",
+      "Refer urgently to neurosurgery for consideration of Ventriculoperitoneal (VP) Shunt insertion with programmable valve (shunting yields dramatic, potentially curative improvement in gait and incontinence in >70% of tap-test positive patients)",
+      "Provide immediate fall prevention and mobility aids, plus urological containment advice while awaiting shunt placement"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "76M presents with the classic Hakim-Adams triad over 1 year: progressive gait apraxia/magnetic gait, urinary incontinence, and subcortical cognitive decline/apathy.",
+    "objective": "Gait assessment: broad-based, short-stepped, shuffling, 'magnetic' gait with difficulty initiating steps and multi-step turning, but normal foot clearance when kicking a ball or cycling in air (gait apraxia). Neurological exam: increased tone/spasticity in lower limbs with brisk ankle jerks and bilateral positive Babinski signs, but NO resting tremor or cogwheel rigidity. Cognitive exam: MoCA/MMSE shows subcortical executive dysfunction, bradyphrenia, and impaired attention with relatively preserved recognition memory. MRI Brain: shows communicating ventriculomegaly out of proportion to cerebral sulcal atrophy (Evans index >0.30), periventricular high-signal capping on FLAIR (transependymal CSF resorption), and narrow high-convexity sulci (DESH - Disproportionately Enlarged Subarachnoid Space Hydrocephalus). Bedside High-Volume Lumbar Puncture ('Tap Test'): measure normal opening pressure (10-20 cm H2O), drain 30-50 mL of CSF, and re-assess quantitative gait speed/stride length at 2 hours and 24 hours post-tap (objective improvement confirms diagnosis).",
+    "assessment": "Normal Pressure Hydrocephalus (NPH - Hakim-Adams Syndrome), likely secondary to remote head trauma/concussion or idiopathic. DDx: Parkinson's disease with dementia (shows resting tremor, cogwheel rigidity, response to levodopa), Alzheimer's disease (prominent early cortical amnesia without early gait apraxia/incontinence), vascular dementia (subcortical ischaemic vessel disease/Binswanger's disease).",
+    "plan": "Perform diagnostic large-volume CSF tap test with objective pre- and post-tap timed 10-meter walk test. Refer urgently to neurosurgery for consideration of Ventriculoperitoneal (VP) Shunt insertion with programmable valve (shunting yields dramatic, potentially curative improvement in gait and incontinence in >70% of tap-test positive patients). Provide immediate fall prevention and mobility aids, plus urological containment advice while awaiting shunt placement."
+  },
+  "learning_objectives": [
+    "Identify the classical Hakim-Adams clinical triad of Normal Pressure Hydrocephalus: gait apraxia, urinary incontinence, and cognitive decline ('wobbly, wet, and wacky')",
+    "Differentiate NPH gait apraxia ('magnetic gait' with preserved leg movements when supine) from Parkinsonian festinating gait",
+    "Execute and interpret the High-Volume Lumbar Puncture 'Tap Test' incorporating quantitative pre- and post-tap gait metrics",
+    "Advocate for neurosurgical shunt evaluation as a potentially reversible, treatable cause of dementia and gait failure in the elderly"
+  ],
+  "teaching": {
+    "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+    "one_liner": "Enlarged brain ventricles causing the classic triad of a magnetic, shuffling gait ('feet glued to the floor'), urinary incontinence, and cognitive decline — one of the few dementia-like conditions that can dramatically improve with a shunt.",
+    "differentials": [
+      "Parkinson's disease with dementia (resting tremor, rigidity, levodopa response)",
+      "Alzheimer's disease (early amnesia without gait apraxia)",
+      "Vascular dementia"
+    ],
+    "red_flags": [
+      "Repeated falls — significant injury risk needing prompt mobility support while workup proceeds"
+    ],
+    "must_ask": [
+      {
+        "objective": "Gait character",
+        "say": "Does it look like his feet are stuck to the floor when he tries to start walking?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "magnetic gait",
+          "shuffling"
+        ]
+      },
+      {
+        "objective": "Urinary symptoms",
+        "say": "Has he had trouble controlling his bladder?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "incontinence"
+        ]
+      },
+      {
+        "objective": "Cognitive changes",
+        "say": "How has his thinking and initiative changed?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "apathy",
+          "slow"
+        ]
+      },
+      {
+        "objective": "Falls history",
+        "say": "How many times has he fallen recently?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Onset order and duration",
+        "say": "Which came first — the walking trouble, the incontinence, or the memory problems?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "134/82",
+      "hr": 72,
+      "rr": 15,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "My son brought me because my feet feel glued to the floor when I walk, and he says I've been getting forgetful and wetting myself.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "Yes, please talk with my son as well; he notices many things that I don't pay attention to.",
+        "topic": "Collateral history from family"
+      },
+      {
+        "answer": "It began about a year ago with walking troubles, then the urine accidents started, and my memory has been slipping over the past six months.",
+        "topic": "Onset order and duration"
+      },
+      {
+        "answer": "It has been getting gradually worse over this past year rather than dropping suddenly.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "When I try to take a step, it feels like my shoes are stuck to the carpet or magnetized to the ground, especially when turning.",
+        "topic": "Gait character"
+      },
+      {
+        "answer": "At first I had sudden urgency where I couldn't reach the toilet in time, but now I often wet my trousers without even noticing.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "I forget recent conversations and misplace my glasses, but my son says I mostly take a long time to answer questions and just sit in my chair.",
+        "topic": "Cognitive and memory changes"
+      },
+      {
+        "answer": "I haven't gotten lost outside, but I stopped handling the bank account and bills because calculating numbers felt too hard.",
+        "topic": "Other cognitive domains"
+      },
+      {
+        "answer": "I gave up driving two years ago, and now my son cooks, manages my pills, and helps me get dressed because of my walking.",
+        "topic": "Daily activities and independence"
+      },
+      {
+        "answer": "I have tripped and fallen four times in the last six months, usually when trying to turn around or start walking.",
+        "topic": "Falls history"
+      },
+      {
+        "answer": "No, my alertness stays about the same throughout the day; I am just slow and tired rather than fluctuating from morning to night.",
+        "topic": "Fluctuations in alertness"
+      },
+      {
+        "answer": "I haven't seen anything unusual or imagined people who aren't there, and I don't feel paranoid.",
+        "topic": "Visual hallucinations or delusions"
+      },
+      {
+        "answer": "I don't feel sad or hopeless, but I simply don't have the drive or interest to work on my old engineering hobbies anymore.",
+        "topic": "Mood and motivation"
+      },
+      {
+        "answer": "I haven't bumped my head recently and I have no headaches, though I did have a concussion from a car crash fifteen years ago.",
+        "topic": "Head trauma and headache"
+      },
+      {
+        "answer": "No, I have never had sudden weakness on one side of my body, facial drooping, or slurred speech.",
+        "topic": "Focal neurological deficits"
+      },
+      {
+        "answer": "No, I haven't noticed any shaking in my hands or stiffness in my arms when moving.",
+        "topic": "Tremor and stiffness"
+      },
+      {
+        "answer": "No, I haven't felt unusually cold, my weight has been steady, and my bowel habits have been regular.",
+        "topic": "Thyroid and metabolic symptoms"
+      },
+      {
+        "answer": "No, I have had no fever, chills, burning when I urinate, or cough.",
+        "topic": "Infection and fever"
+      },
+      {
+        "answer": "My son makes sure the stove is off and I don't drive, so we haven't had accidents like fire, but my falling is the biggest hazard.",
+        "topic": "Safety and home risks"
+      },
+      {
+        "answer": "My son thinks I have a mix of Parkinson's disease and Alzheimer's dementia because of how I walk and forget things.",
+        "topic": "Ideas about diagnosis"
+      },
+      {
+        "answer": "My son is exhausted from cleaning up urine every day and is terrified that my next fall will break my hip.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "My son hopes you can start Parkinson's medicine today or evaluate whether I need to enter a nursing home.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have had high blood pressure and mild prostate enlargement for several years, plus that concussion from a car accident fifteen years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had brain surgery or any major operations, only a brief hospital stay after the car crash years ago.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I take ramipril 5 milligrams once daily for blood pressure and finasteride 5 milligrams once daily for my prostate.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I have not started any sleeping pills, nerve medications, antihistamines, or pain relievers recently.",
+        "topic": "Recently added medications"
+      },
+      {
+        "answer": "No, I do not have any known allergies to medications or food.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink any alcohol at all.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am a retired mechanical engineer and I live in an apartment with my son, who takes care of me.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family had dementia, hydrocephalus, or Parkinson's disease; my parents lived into their eighties.",
+        "topic": "Family history of dementia"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 134/82 mmHg, heart rate 72 beats per minute, respiratory rate 15 breaths per minute, temperature 36.7 C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert but slow to respond; scored 22/30 on MoCA with prominent deficits in executive function, drawing, and attention, while recognition memory is relatively preserved.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are intact with normal pupillary light reflexes and full extraocular movements without nystagmus.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal bulk and 5/5 strength throughout, with mild spastic increase in tone in both lower limbs and no cogwheel rigidity.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No resting tremor, postural tremor, or action tremor observed in hands or chin.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Brisk patellar and Achilles tendon reflexes bilaterally with extensor plantar responses (positive Babinski signs bilaterally).",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Normal light touch, pinprick, vibration, and joint position sensation in all four extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact finger-to-nose and rapid alternating movements, but ambulation reveals a broad-based, short-stepped shuffling magnetic gait with hesitant start and multi-step turning.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and smooth without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is warm, dry, and intact without coarse texture, myxedema, rash, or petechiae.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

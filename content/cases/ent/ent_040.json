@@ -1,0 +1,305 @@
+{
+  "id": "ent_040",
+  "system": "otolaryngology (ent)",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Rivera",
+  "age": 62,
+  "gender": "female",
+  "chief_complaint": "7 documented sore throat episodes in the past year",
+  "hpi_details": "A 62-year-old female presents to the clinic with 7 documented sore throat episodes in the past year. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she simply keeps catching throat infections and wonders whether something is wrong with her tonsils or her immune system.",
+  "concerns": "She is worried that the infections will keep coming back and that she will need antibiotics again and again, or even surgery.",
+  "expectations": "She hopes to find out why the sore throats keep recurring and whether she should see an ENT specialist about having her tonsils removed.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Recurrent Acute Tonsillitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of recurrent acute tonsillitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "For adults, the frequency, severity, documentation, and functional impact of recurrent episodes should guide shared decision-making about tonsillectomy; pediatric Paradise criteria should not be applied as an automatic adult surgical indication.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: 7 documented sore throat episodes in the past year",
+      "Key HPI features: A 62-year-old female presents to the clinic with 7 documented sore throat episodes in the past year. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for recurrent acute tonsillitis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out recurrent acute tonsillitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Isolated viral pharyngitis episodes without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: unilateral tonsillar asymmetry or weight loss in an adult, which require urgent ENT referral to exclude malignancy rather than routine recurrent tonsillitis management."
+    ],
+    "management_principles": [
+      "Document episode frequency, severity, and functional impact; discuss ENT referral and possible tonsillectomy using adult shared decision-making",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: 7 documented sore throat episodes in the past year\n\nA 62-year-old female presents to the clinic with 7 documented sore throat episodes in the past year. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for recurrent acute tonsillitis.",
+    "assessment": "Recurrent acute tonsillitis; assess episode documentation, severity, and impact.",
+    "plan": "Document frequency, severity, test results, and functional impact of episodes. Refer to ENT to discuss possible tonsillectomy using adult shared decision-making; treat each acute episode according to its cause and severity."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of recurrent acute tonsillitis",
+    "Select appropriate diagnostic workup for recurrent acute tonsillitis",
+    "Implement evidence-based management plan: document disease burden and use adult shared decision-making about tonsillectomy"
+  ],
+  "teaching": {
+    "diagnosis": "Recurrent Acute Tonsillitis",
+    "one_liner": "Recurrent documented sore-throat episodes in an adult, requiring assessment of disease burden and shared decision-making about tonsillectomy.",
+    "differentials": [
+      "Isolated viral pharyngitis episodes"
+    ],
+    "red_flags": [
+      "Unilateral tonsillar enlargement or asymmetry, especially in an adult — concerning for lymphoma or squamous cell carcinoma",
+      "Persistent odynophagia or sore throat beyond 3–4 weeks",
+      "Unintentional weight loss or a palpable neck mass",
+      "Trismus, drooling, or peritonsillar bulging — suggesting quinsy (peritonsillar abscess) or airway compromise"
+    ],
+    "must_ask": [
+      {
+        "objective": "Episode count",
+        "say": "How many documented strep throat episodes have you had this year?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Severity of episodes",
+        "say": "How severe are these episodes, and do you miss school or work?",
+        "domains": [
+          "severity"
+        ]
+      },
+      {
+        "objective": "Duration pattern",
+        "say": "How many years has this been a recurring problem?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Sleep symptoms",
+        "say": "Any snoring or breathing trouble at night?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Impact",
+        "say": "How is this affecting your daily life?",
+        "domains": [
+          "severity"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 37.6
+    },
+    "history": [
+      {
+        "answer": "I have come to the clinic because I have had seven bad sore throat infections over the past year, and it feels like it is starting up again.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "This current throat pain started about three days ago and has been gradually worsening each day.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "The throat pain is about a six out of ten across both sides equally, and neither side feels worse than the other.",
+        "topic": "Pain severity and symmetry"
+      },
+      {
+        "answer": "It hurts quite a bit when I swallow solid food, but I can still swallow liquids and saliva without any drooling.",
+        "topic": "Swallowing pain and drooling"
+      },
+      {
+        "answer": "My breathing is completely unobstructed with no unusual sounds, and my voice sounds completely normal.",
+        "topic": "Breathing difficulty and voice change"
+      },
+      {
+        "answer": "No, I have no problem opening my mouth wide, and my jaw does not feel stiff.",
+        "topic": "Difficulty opening mouth"
+      },
+      {
+        "answer": "I felt warm and had slight chills yesterday evening, but I did not check my temperature with a thermometer.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "I do not have any cough, runny nose, nasal congestion, or redness in my eyes.",
+        "topic": "Cough and cold symptoms"
+      },
+      {
+        "answer": "The glands under both sides of my jaw feel swollen and hurt when I press on them.",
+        "topic": "Neck swelling and tenderness"
+      },
+      {
+        "answer": "No, I have not noticed any kind of skin rash anywhere on my body.",
+        "topic": "Skin rash"
+      },
+      {
+        "answer": "I have been feeling completely worn out and fatigued, but I have no stomach pain or discomfort under my left ribs.",
+        "topic": "Fatigue and abdominal pain"
+      },
+      {
+        "answer": "No, the pain stays right in my throat and does not travel to my ears.",
+        "topic": "Referred ear pain"
+      },
+      {
+        "answer": "No one around me at home or among my friends has been sick with a sore throat or fever.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I have had seven distinct episodes over the past twelve months, and all of them were documented by my clinic doctor.",
+        "topic": "Episode count in past year"
+      },
+      {
+        "answer": "Each episode has been quite severe with high fevers and severe throat pain that kept me in bed for several days.",
+        "topic": "Severity of past episodes"
+      },
+      {
+        "answer": "Each attack typically lasts around five to seven days before it settles down with antibiotics and rest.",
+        "topic": "Duration pattern of episodes"
+      },
+      {
+        "answer": "It has been very disruptive and exhausting, draining my energy and making it difficult to keep up with my daily routine.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "My throat feels dry at night, but my husband tells me I do not snore heavily or stop breathing in my sleep.",
+        "topic": "Sleep and nighttime symptoms"
+      },
+      {
+        "answer": "I do not suffer from heartburn, acid coming up into my throat, a lump sensation, or chronic throat clearing.",
+        "topic": "Reflux and throat clearing"
+      },
+      {
+        "answer": "I have been in a faithful monogamous marriage for over thirty years and have no new sexual partners or high-risk exposures.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I do not have any immune system disorders, and all my vaccinations are up to date.",
+        "topic": "Immunocompromise and vaccines"
+      },
+      {
+        "answer": "My weight has remained steady, and I have not felt any hard or growing lumps in my neck.",
+        "topic": "Weight loss and neck lumps"
+      },
+      {
+        "answer": "I think I just keep catching throat infections, and I wonder if something is wrong with my tonsils or my immune system.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I'm really worried that these infections will keep coming back and I'll need antibiotics again and again, or even surgery.",
+        "topic": "Patient main concerns"
+      },
+      {
+        "answer": "I'm hoping you can tell me why these sore throats keep coming back and whether I should see an ENT specialist about having my tonsils out.",
+        "topic": "Expectations for today visit"
+      },
+      {
+        "answer": "I do not have any chronic medical illnesses like high blood pressure, diabetes, or heart problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never been hospitalized.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any regular prescription medications, over-the-counter pain relievers, or vitamins right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to penicillin or any other medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine during social dinners.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am retired from office work and live comfortably at home with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of throat cancer, recurring throat infections, or immune system diseases.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, heart rate 78 beats/min, respiratory rate 16 breaths/min, body temperature 37.6 C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert female appearing mildly tired but in no acute distress, speaking comfortably without stridor or drooling.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral tonsils are enlarged to grade 2 with mild mucosal erythema and small patchy white exudates, without uvular deviation or peritonsillar fullness.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Mildly enlarged and tender anterior cervical lymph nodes bilaterally, with no posterior cervical lymphadenopathy or fixed neck masses.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "No petechiae, sandpaper-like erythema, or skin rash present on the body.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and flat with no palpable splenomegaly or hepatomegaly, and no left upper quadrant tenderness.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral tympanic membranes are intact and pearly gray with normal light reflexes, and external canals are clear.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, or stridor.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "id": "opht_007",
+  "system": "ophthalmology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Green",
+  "age": 22,
+  "gender": "male",
+  "chief_complaint": "severe eye pain, photophobia, and foreign body sensation after falling asleep wearing contact lenses (Pseudomonas Corneal Ulcer)",
+  "hpi_details": "22M college student presents to urgent eye clinic with 24 hours of severe right eye pain, redness, photophobia, excessive tearing, and thick yellowish discharge. Woke up unable to open his eye without severe stinging. Admits to sleeping overnight in his soft daily-wear contact lenses for the past 4 days without cleaning or disinfecting them.",
+  "ideas": "in severe discomfort with eye squeezed shut, worried he scratched his eyeball",
+  "concerns": "terrified of getting a permanent scar on his cornea that ruins his vision",
+  "expectations": "wants antibiotic eye drops to kill the infection immediately",
+  "pmh": "Myopia, contact lens wearer",
+  "medications": "None",
+  "social_hx": "College student, non-smoker",
+  "investigation_events": [{
+    "id": "stat_corneal_ulcer_exam",
+    "title": "Emergency slit-lamp and fluorescein examination",
+    "order_terms": ["slit lamp", "slit-lamp", "fluorescein", "corneal exam", "corneal scraping"],
+    "availability_message": "The slit-lamp and fluorescein findings are now available. Corneal scrapings have been sent, but intensive empiric topical antibiotics must not wait for final culture.",
+    "results": [{"id": "slit_lamp_fluorescein", "test": "Slit-lamp examination with fluorescein", "value": "Central 2.5 x 2.5 mm dense stromal infiltrate with matching epithelial defect, surrounding edema, 2+ anterior chamber cells, and 1 mm hypopyon", "flag": "critical"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Bacterial corneal ulcer (microbial keratitis), likely Pseudomonas evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Bacterial corneal ulcer (microbial keratitis), likely Pseudomonas is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes STAT ophthalmology emergency (Pseudomonas can enzymatically melt and perforate the cornea within 24-48 hours) with immediate cultures and intensive fortified topical antibiotic therapy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe eye pain, photophobia, and foreign body sensation after falling asleep wearing contact lenses (Pseudomonas Corneal Ulcer)",
+      "Key HPI features: 22M college student presents to urgent eye clinic with 24 hours of severe right eye pain, redness, photophobia, excessive tearing, and thick yellowish discharge. Woke up unable to open his eye without severe stinging. Admits to sleeping overnight in his soft daily-wear contact lenses for the past 4 days without cleaning or disinfecting them.",
+      "Objective/Exam findings: Vitals: HR 78, Temp 36.9C. External exam shows diffuse conjunctival injection and thick mucopurulent discharge. Slit-lamp examination reveals a 2.5 x 2.5 mm round, dense, grayish-white stromal infiltrative ulcer located in the central cornea of the right eye with surrounding stromal edema. Fluorescein staining brightly highlights the overlying epithelial defect corresponding to the white stromal infiltrate. Anterior chamber shows 2+ cells with a 1 mm layer of white pus pooling at the bottom of the anterior chamber (hypopyon). Corneal scrapings obtained for Gram stain and culture (high concern for Pseudomonas aeruginosa).",
+      "Relevant background/PMH: Myopia, contact lens wearer"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Bacterial corneal ulcer (microbial keratitis), likely Pseudomonas.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Viral keratitis (HSV) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Hypopyon (pus layer in anterior chamber)."
+    ],
+    "management_principles": [
+      "STAT ophthalmology emergency (Pseudomonas can enzymatically melt and perforate the cornea within 24-48 hours) requiring immediate cultures and intensive fortified topical antibiotics",
+      "Immediately discontinue contact lens wear and discard old lenses/cases",
+      "Obtain corneal cultures and initiate intensive topical antibiotic therapy; use fortified antibiotics for large or vision-threatening ulcers as directed by ophthalmology"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "22M contact lens wearer presenting with acute painful red eye, purulence, and photophobia following overnight contact lens wear, suspicious for bacterial keratitis.",
+    "objective": "Vitals: HR 78, Temp 36.9C. External exam shows diffuse conjunctival injection and thick mucopurulent discharge. Slit-lamp examination reveals a 2.5 x 2.5 mm round, dense, grayish-white stromal infiltrative ulcer located in the central cornea of the right eye with surrounding stromal edema. Fluorescein staining brightly highlights the overlying epithelial defect corresponding to the white stromal infiltrate. Anterior chamber shows 2+ cells with a 1 mm layer of white pus pooling at the bottom of the anterior chamber (hypopyon). Corneal scrapings obtained for Gram stain and culture (high concern for Pseudomonas aeruginosa).",
+    "assessment": "Right Eye Severe Bacterial Corneal Ulcer (Microbial Keratitis) with Hypopyon, highly concerning for Pseudomonas aeruginosa secondary to contact lens abuse.",
+    "plan": "STAT ophthalmology emergency: immediately discontinue contact lens wear and retain lenses/case for culture if requested. Obtain corneal scrapings for Gram stain and culture, then initiate intensive topical antibiotic therapy. For this central, vision-threatening ulcer, ophthalmology should direct fortified topical antibiotics (for example, fortified tobramycin plus cefazolin or vancomycin) at frequent intervals; commercial moxifloxacin 0.5% is not a fortified preparation. Use cycloplegia for ciliary-spasm pain as indicated. Do not start topical corticosteroids initially; they may be considered only by ophthalmology after 24-48 hours of effective antibacterial treatment when the organism is identified or clear clinical response is documented, and should be avoided when fungal, Acanthamoeba, or Nocardia infection is suspected."
+  },
+  "learning_objectives": [
+    "Recognize overnight contact lens wear as the single greatest risk factor for rapidly destructive Pseudomonas aeruginosa bacterial keratitis / corneal ulcers",
+    "Identify slit-lamp features of microbial keratitis (corneal epithelial defect over dense white/gray stromal infiltrate with hypopyon pooling in anterior chamber)",
+    "Explain why topical corticosteroids should not be started initially for microbial keratitis and may only be considered later by ophthalmology after effective antibacterial therapy and appropriate organism assessment",
+    "Outline intensive fortified topical antibiotic drop regimens (fluoroquinolones/tobramycin administered every 30-60 minutes around the clock)"
+  ],
+  "teaching": {
+    "diagnosis": "Bacterial corneal ulcer (microbial keratitis), likely Pseudomonas",
+    "one_liner": "22M contact lens wearer who slept in his lenses for 4 days, now with severe pain, discharge, and a corneal ulcer with hypopyon.",
+    "differentials": [
+      "Viral keratitis (HSV)",
+      "Fungal keratitis",
+      "Acanthamoeba keratitis",
+      "Corneal abrasion"
+    ],
+    "red_flags": [
+      "Hypopyon (pus layer in anterior chamber)",
+      "Overnight contact lens wear",
+      "Severe pain with vision threat"
+    ],
+    "must_ask": [
+      {
+        "objective": "Ask about contact lens hygiene practices",
+        "say": "Do you sleep in your contacts, and how often do you clean them?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "contact lens hygiene",
+          "sleeping in lenses"
+        ]
+      },
+      {
+        "objective": "Characterize the discharge",
+        "say": "What color and consistency is the discharge from your eye?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "purulent discharge"
+        ]
+      },
+      {
+        "objective": "Assess pain severity and vision impact",
+        "say": "How severe is the pain, and has your vision gotten blurry?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "severe pain",
+          "vision loss"
+        ]
+      },
+      {
+        "objective": "Explain why lens wear must stop immediately",
+        "say": "Stop wearing contact lenses immediately. Keep the lenses and case if the eye specialist asks to culture them; otherwise, discard them.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "discontinue contact lenses"
+        ]
+      },
+      {
+        "objective": "Explain the intensive antibiotic drop schedule",
+        "say": "You'll need to use very strong antibiotic drops as often as every 30-60 minutes, even overnight.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "fortified antibiotics",
+          "frequent dosing"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.9
+    },
+    "history": [
+      {
+        "answer": "My right eye has been hurting terribly since yesterday, and I can barely open it because of the pain and light.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started yesterday morning right after I woke up in my right eye only, and it has been getting worse ever since.",
+        "topic": "Onset and affected eye"
+      },
+      {
+        "answer": "The entire white of my right eye is completely red, especially the ring right around the colored part.",
+        "topic": "Location of eye redness"
+      },
+      {
+        "answer": "It is a severe, stinging ache and feels like there is a sharp grain of sand trapped under my eyelid.",
+        "topic": "Pain and foreign body sensation"
+      },
+      {
+        "answer": "On a scale from one to ten, the pain is easily an eight or nine whenever I try to open the eye.",
+        "topic": "Severity of pain"
+      },
+      {
+        "answer": "Yes, everything looks foggy and blurry out of my right eye compared to my left.",
+        "topic": "Vision changes or blurring"
+      },
+      {
+        "answer": "Yes, even normal indoor light stings so badly that I have to keep my eye squeezed shut.",
+        "topic": "Sensitivity to light"
+      },
+      {
+        "answer": "No, I haven't noticed rainbow halos around lamps, and I don't have a headache, nausea, or vomiting.",
+        "topic": "Halos headache or nausea"
+      },
+      {
+        "answer": "Tears keep pouring out, mixed with a thick yellowish pus that crusted my eyelids shut this morning.",
+        "topic": "Eye discharge and crusting"
+      },
+      {
+        "answer": "No, it doesn't itch at all; it just burns and throbs.",
+        "topic": "Eye itching"
+      },
+      {
+        "answer": "My upper eyelid is slightly swollen and puffy from all the tearing, but there are no painful bumps or styes.",
+        "topic": "Eyelid swelling or lumps"
+      },
+      {
+        "answer": "Looking around makes the irritation worse, but my eye isn't bulging out, I don't see double, and I haven't had any chills or fever.",
+        "topic": "Pain with movement or bulging"
+      },
+      {
+        "answer": "No, I haven't had a cold, cough, or runny nose, and none of my roommates or friends have red eyes.",
+        "topic": "Recent cold or sick contacts"
+      },
+      {
+        "answer": "I wear soft daily contact lenses, but I kept them in overnight for the past four nights while studying without taking them out or cleaning them.",
+        "topic": "Contact lens habits and hygiene"
+      },
+      {
+        "answer": "No, I didn't get scratched, hit in the eye, or splashed with any cleaning chemicals.",
+        "topic": "Trauma or chemical exposure"
+      },
+      {
+        "answer": "No, I don't get seasonal allergies, hay fever, asthma, or eczema.",
+        "topic": "Allergies or seasonal recurrence"
+      },
+      {
+        "answer": "My eyes get slightly tired from reading on a laptop, but I don't suffer from chronic dry eyes or dry mouth.",
+        "topic": "Dry eyes or dry mouth"
+      },
+      {
+        "answer": "No, I don't have morning back stiffness, aching joints, mouth ulcers, or diarrhea.",
+        "topic": "Joint pain or mouth sores"
+      },
+      {
+        "answer": "No, I have never had fever blisters, and there are no bumps or rash on my forehead or nose.",
+        "topic": "Facial blisters or cold sores"
+      },
+      {
+        "answer": "No, I don't take aspirin or blood thinners, and I haven't had heavy coughing, vomiting, or straining.",
+        "topic": "Straining or blood thinners"
+      },
+      {
+        "answer": "No, I only have nearsightedness; I have never had eye surgery, glaucoma, or an infection like this before.",
+        "topic": "Past eye disease or surgery"
+      },
+      {
+        "answer": "I was worried I might have badly scratched my cornea with my fingernail or the contact lens.",
+        "topic": "Thoughts on what happened"
+      },
+      {
+        "answer": "I am terrified this will leave a permanent scar on my eye and ruin my eyesight permanently.",
+        "topic": "Main worries and concerns"
+      },
+      {
+        "answer": "I hope you can give me strong antibiotic eye drops right away to wipe out the infection.",
+        "topic": "Expectations for today visit"
+      },
+      {
+        "answer": "I am healthy other than having moderate myopia and wearing contacts or glasses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not taking any prescription drugs, over-the-counter medicines, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink one or two beers on occasional weekends when hanging out with friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am an undergraduate student and live in a campus dorm room.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents wear glasses for nearsightedness, but no one has glaucoma, blindness, or autoimmune disease.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "A young male sitting with his right eye tightly shut in obvious distress, with tearing streaming down his right cheek.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 78 beats/min, respiratory rate 16 breaths/min, temperature 36.9°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Right visual acuity reduced to 20/100; slit-lamp and fluorescein show a 2.5 by 2.5 mm round, dense, grayish-white central corneal ulcer with a matching epithelial defect, 2+ anterior chamber cells, and a 1 mm hypopyon; left eye is normal.",
+        "maneuver": "eye_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Right eye demonstrates marked ciliary flush and diffuse conjunctival injection with thick yellowish mucopurulent discharge; left conjunctiva and sclera are quiet.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "pain"
+      },
+      {
+        "finding": "Right preauricular lymph node is mildly tender without gross enlargement; no anterior or posterior cervical lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Pupils are round with consensual light response intact, extraocular movements are full without proptosis or diplopia, and facial sensation is intact.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Periorbital skin, forehead, and tip of the nose are clear with no vesicles, crusts, or erythema.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "id": "opht_006",
+  "system": "ophthalmology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Foster",
+  "age": 55,
+  "gender": "female",
+  "chief_complaint": "profound eye pain, proptosis, complete ophthalmoplegia, and fever indicating life-threatening Orbital Cellulitis",
+  "hpi_details": "55F with recent severe bacterial sinus infection presents to ED with 2 days of rapidly worsening right eyelid swelling, extreme right eye pain, high fever, and double vision. Today her right eyeball appears pushed forward out of the socket (proptosis) and she is completely unable to move her right eye up, down, or sideways due to severe pain and paralysis. Eyelids are red, hot, and swollen shut.",
+  "ideas": "terrified because her eyeball is bulging and paralyzed",
+  "concerns": "worried the sinus infection has spread into her brain and eyes",
+  "expectations": "wants immediate emergency hospitalization, IV antibiotics, and CT scan",
+  "pmh": "Chronic rhinosinusitis, Type 2 Diabetes",
+  "medications": "Metformin 1000mg BID",
+  "social_hx": "Accountant, non-smoker",
+  "investigation_events": [{
+    "id": "stat_orbital_cellulitis_ct",
+    "title": "Emergency contrast-enhanced orbital CT",
+    "order_terms": ["CT orbit", "orbital CT", "CT sinuses", "contrast CT"],
+    "availability_message": "The emergency orbital and sinus CT result is now available. IV antibiotics and urgent ophthalmology/ENT involvement should not be delayed.",
+    "results": [{"id": "orbital_ct", "test": "Contrast-enhanced CT of orbits and sinuses", "value": "Right ethmoid and maxillary sinus opacification with lamina papyracea erosion, post-septal orbital fat inflammation, and a 1.5 cm medial subperiosteal abscess; no cavernous sinus thrombosis", "flag": "critical"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Orbital cellulitis (post-septal) with subperiosteal abscess evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Orbital cellulitis (post-septal) with subperiosteal abscess is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes immediate ophthalmology and ENT assessment, hospital admission, broad-spectrum IV antibiotics, and prompt consideration of drainage for a vision-threatening abscess, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: profound eye pain, proptosis, complete ophthalmoplegia, and fever indicating life-threatening Orbital Cellulitis",
+      "Key HPI features: 55F with recent severe bacterial sinus infection presents to ED with 2 days of rapidly worsening right eyelid swelling, extreme right eye pain, high fever, and double vision. Today her right eyeball appears pushed forward out of the socket (proptosis) and she is completely unable to move her right eye up, down, or sideways due to severe pain and paralysis. Eyelids are red, hot, and swollen shut.",
+      "Objective/Exam findings: Vitals: HR 112, BP 138/84, Temp 39.2C. Right eye demonstrates severe periorbital erythema and tense edema of upper and lower lids. Lids separated manually to reveal marked conjunctival chemosis and 4 mm axial proptosis. Extraocular motility testing confirms complete ophthalmoplegia (restriction across all gazes) with exquisite pain on attempted movement. Visual acuity slightly reduced to 20/40; pupil reactive without RAPD. Contrast-enhanced CT scan of orbits and sinuses confirms complete opacification of the right ethmoid and maxillary sinuses with erosion through the lamina papyracea into the right orbit, showing diffuse inflammatory fat stranding across the post-septal orbital fat and a 1.5 cm subperiosteal abscess along the medial orbital wall without cavernous sinus thrombosis.",
+      "Relevant background/PMH: Chronic rhinosinusitis, Type 2 Diabetes",
+      "Current medications: Metformin 1000mg BID"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Orbital cellulitis (post-septal) with subperiosteal abscess.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Preseptal (periorbital) cellulitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Proptosis."
+    ],
+    "management_principles": [
+      "Immediate ophthalmology and ENT assessment with hospital admission and close serial monitoring of vision and orbital signs",
+      "Promptly determine with ENT and ophthalmology whether the subperiosteal abscess requires surgical drainage",
+      "Initiate broad-spectrum empirical IV antibiotics covering sinus pathogens, MRSA, and anaerobes: IV Vancomycin PLUS IV Ampicillin-Sulbactam (or Piperacillin-Tazobactam)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "55F diabetic presenting with high fever, orbital pain, proptosis, and ophthalmoplegia secondary to ethmoid sinusitis extension, diagnostic of Orbital Cellulitis.",
+    "objective": "Vitals: HR 112, BP 138/84, Temp 39.2C. Right eye demonstrates severe periorbital erythema and tense edema of upper and lower lids. Lids separated manually to reveal marked conjunctival chemosis and 4 mm axial proptosis. Extraocular motility testing confirms complete ophthalmoplegia (restriction across all gazes) with exquisite pain on attempted movement. Visual acuity slightly reduced to 20/40; pupil reactive without RAPD. Contrast-enhanced CT scan of orbits and sinuses confirms complete opacification of the right ethmoid and maxillary sinuses with erosion through the lamina papyracea into the right orbit, showing diffuse inflammatory fat stranding across the post-septal orbital fat and a 1.5 cm subperiosteal abscess along the medial orbital wall without cavernous sinus thrombosis.",
+    "assessment": "Severe Right Orbital Cellulitis (Post-Septal) complicated by Medial Subperiosteal Abscess, secondary to Ethmoid Sinusitis.",
+    "plan": "Immediate ophthalmology and ENT assessment with hospital admission and close serial monitoring. Start broad-spectrum IV antibiotics covering sinus pathogens, MRSA, and anaerobes, tailored to local guidance and cultures. Urgently determine with ENT and ophthalmology whether drainage of the 1.5 cm medial subperiosteal abscess and sinus source control are required; the ophthalmoplegia and vision-threatening orbital findings warrant prompt escalation. Monitor optic nerve function frequently."
+  },
+  "learning_objectives": [
+    "Differentiate Preseptal Cellulitis (limited to anterior eyelid skin, NO proptosis, NO pain on eye movement, NORMAL extraocular motility, normal vision) from Orbital Cellulitis (post-septal orbital fat involvement, PROPTOSIS, EXCRUCIATING pain on eye movement, OPHTHALMOPLEGIA, reduced vision/RAPD risk)",
+    "Identify ethmoid sinusitis extending through the thin paper-like lamina papyracea bone as the primary anatomical source of orbital cellulitis in children and adults",
+    "Interpret orbital CT scan findings (subperiosteal abscess, post-septal fat infiltration) to guide urgent surgical drainage thresholds",
+    "Outline empirical IV broad-spectrum antibiotic regimens and serial optic nerve monitoring for cavernous sinus thrombosis or optic neuropathy escalation"
+  ],
+  "teaching": {
+    "diagnosis": "Orbital cellulitis (post-septal) with subperiosteal abscess",
+    "one_liner": "55F diabetic with recent sinusitis, now with rapidly worsening eyelid swelling, proptosis, complete ophthalmoplegia, and fever.",
+    "differentials": [
+      "Preseptal (periorbital) cellulitis",
+      "Cavernous sinus thrombosis",
+      "Allergic angioedema",
+      "Orbital tumor"
+    ],
+    "red_flags": [
+      "Proptosis",
+      "Complete ophthalmoplegia (pain/inability to move eye)",
+      "High fever",
+      "Diabetes (immunocompromise)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm painful eye movement and ophthalmoplegia",
+        "say": "Can you try to move your eye up and down? Is it painful or impossible?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "ophthalmoplegia",
+          "painful eye movement"
+        ]
+      },
+      {
+        "objective": "Ask about proptosis awareness",
+        "say": "Has anyone told you your eye looks like it's bulging forward?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "proptosis"
+        ]
+      },
+      {
+        "objective": "Review recent sinus infection history",
+        "say": "Have you had a sinus infection recently?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sinusitis"
+        ]
+      },
+      {
+        "objective": "Screen for vision changes",
+        "say": "Has your vision changed or gotten blurry in that eye?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vision change"
+        ]
+      },
+      {
+        "objective": "Ask about diabetes control",
+        "say": "How well controlled is your diabetes?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes control"
+        ]
+      },
+      {
+        "objective": "Explain need for IV antibiotics and possible surgery",
+        "say": "You need to be admitted immediately for IV antibiotics, and surgery may be needed to drain the infection.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "IV antibiotics",
+          "surgical drainage"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "138/84",
+      "hr": 112,
+      "rr": 20,
+      "spo2": 98,
+      "temp_c": 39.2
+    },
+    "history": [
+      {
+        "answer": "My right eye is swollen shut, bulging out, and hurting terribly, and I have a high fever.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started two days ago with swelling around my right eyelid, and it has gotten aggressively worse each hour. Only my right eye is affected.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "My entire right eye looks angry red and violently swollen, not just a small spot.",
+        "topic": "Eye redness distribution"
+      },
+      {
+        "answer": "It is a severe, deep, throbbing ache behind and around my eyeball. It feels like an unbearable intense pressure.",
+        "topic": "Eye pain characteristics"
+      },
+      {
+        "answer": "My vision in the right eye is slightly blurry, but I have not gone completely blind.",
+        "topic": "Vision changes and blurring"
+      },
+      {
+        "answer": "Yes, bright light hurts my right eye quite a bit.",
+        "topic": "Sensitivity to light"
+      },
+      {
+        "answer": "I haven't noticed rainbow halos, but I do have a throbbing headache right above my right brow. I feel slightly nauseated from the pain.",
+        "topic": "Halos and headaches"
+      },
+      {
+        "answer": "There is some yellowish thick crust and watery discharge sealing my right lids, especially when I wake up.",
+        "topic": "Eye discharge and morning crusting"
+      },
+      {
+        "answer": "No, it does not itch at all. It just throbs and burns with pain.",
+        "topic": "Eye itching"
+      },
+      {
+        "answer": "My right eyelids are tensely swollen, bright red, and feel hot to the touch.",
+        "topic": "Eyelid swelling and warmth"
+      },
+      {
+        "answer": "Any attempt to look sideways, up, or down triggers unbearable, excruciating pain, so I can't move my eye at all.",
+        "topic": "Pain with eye movement"
+      },
+      {
+        "answer": "Yes, my right eyeball is clearly pushed forward out of its socket compared to my left eye.",
+        "topic": "Bulging eye sensation"
+      },
+      {
+        "answer": "Yes, when I force my swollen right eye open, everything looks double.",
+        "topic": "Double vision"
+      },
+      {
+        "answer": "I developed a high fever yesterday afternoon with severe shivering chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "I had a bad bacterial sinus infection with thick facial pressure and green nasal discharge for about ten days before this started.",
+        "topic": "Recent sinus infection"
+      },
+      {
+        "answer": "No, nobody at home or work has had pink eye or any illness like this.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I wear prescription glasses and have never worn contact lenses.",
+        "topic": "Contact lens use"
+      },
+      {
+        "answer": "No, I haven't had any injury, scratches, chemical exposure, or foreign object in my eye.",
+        "topic": "Eye trauma or foreign body"
+      },
+      {
+        "answer": "No, this is completely different from my seasonal spring allergies, which only cause mild sneezing and itching.",
+        "topic": "Allergies and seasonal symptoms"
+      },
+      {
+        "answer": "I work on computers, but this is definitely not regular screen fatigue or dryness.",
+        "topic": "Dry eyes and environmental strain"
+      },
+      {
+        "answer": "No joint stiffness, morning back pain, or oral ulcers at all.",
+        "topic": "Systemic symptoms and autoimmune screen"
+      },
+      {
+        "answer": "No, I have never had shingles, cold sores, or any blisters on my forehead or nose.",
+        "topic": "Facial blisters or cold sores"
+      },
+      {
+        "answer": "No, I do not take blood thinners, and there was no coughing, vomiting, or straining before the swelling started.",
+        "topic": "Blood thinners and straining"
+      },
+      {
+        "answer": "I have never had glaucoma, eye surgery, or any severe eye infection before.",
+        "topic": "Past eye diseases or surgery"
+      },
+      {
+        "answer": "I take metformin for my diabetes, but my blood sugars have run high the last few days because of the infection.",
+        "topic": "Diabetes control"
+      },
+      {
+        "answer": "I am terrified that the infection from my sinuses has invaded behind my eye and might spread into my brain. I need to be admitted for IV antibiotics and a CT scan right away.",
+        "topic": "Patient thoughts and concerns"
+      },
+      {
+        "answer": "I have a long history of chronic rhinosinusitis and type 2 diabetes diagnosed seven years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have not had any surgeries or previous hospital admissions.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take metformin 1000 mg twice daily. I took some over-the-counter acetaminophen yesterday for the fever, but it barely helped.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known drug allergies.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes, and I drink a glass of wine maybe once a month.",
+        "topic": "Smoking and alcohol"
+      },
+      {
+        "answer": "I work as an accountant and live with my husband in a house.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had hypertension, and my father had type 2 diabetes. No family history of eye diseases.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I went through natural menopause about four years ago, so no menstrual periods since then.",
+        "topic": "Menstrual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 138/84 mmHg, heart rate 112 beats/min, temperature 39.2 C, respiratory rate 20 breaths/min, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Middle-aged female appearing acutely ill, toxic, flushed, and in distress holding a towel over her right face.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Severe right periorbital erythema and tense edema of upper and lower lids; manual lid separation reveals 4 mm axial proptosis, marked conjunctival chemosis, complete ophthalmoplegia in all gazes, visual acuity 20/40 OD and 20/20 OS, and reactive pupils without afferent pupillary defect.",
+        "maneuver": "eye_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked tenderness over the right maxillary sinus and medial canthal ethmoid sinus region.",
+        "maneuver": "sinus_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "Purulent yellowish discharge visible from the right nasal cavity with mucosal swelling; oropharynx is without exudates.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Painful restriction of right extraocular movements in all fields of gaze; sensation intact across facial dermatomes and facial motor symmetry preserved.",
+        "maneuver": "cranial_nerves",
+        "response": "pain"
+      },
+      {
+        "finding": "Tender, palpable lymphadenopathy in the right anterior cervical and submandibular chains.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Supple neck with full active flexion and extension; Kernig and Brudzinski signs are negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

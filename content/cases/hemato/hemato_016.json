@@ -1,0 +1,318 @@
+{
+  "id": "hemato_016",
+  "system": "hematology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Ellis",
+  "age": 28,
+  "gender": "female",
+  "chief_complaint": "heavy periods, fatigue, and craving ice",
+  "hpi_details": "28F presents with extreme fatigue for 6 months. She reports very heavy menstrual periods, changing a pad every 2 hours for 7 days each month. She also reports a strange craving to chew on ice cubes.",
+  "ideas": "thinks she is just stressed",
+  "concerns": "worried about losing too much blood",
+  "expectations": "wants a blood test",
+  "pmh": "None",
+  "medications": "None",
+  "social_hx": "Vegan diet for 1 year",
+  "clinical_knowledge": {
+    "topic": "Iron Deficiency Anemia",
+    "core_concepts": [
+      "Most common cause of anemia worldwide, often due to blood loss (menorrhagia in young women, GI bleed in older adults) or poor diet.",
+      "Pica (craving ice/pagophagia) is a highly specific symptom."
+    ],
+    "diagnostic_clues": [
+      "Heavy periods",
+      "Pica (chewing ice)",
+      "Vegan diet"
+    ],
+    "common_misconceptions": [
+      "Treating the anemia without addressing the underlying cause (menorrhagia)."
+    ],
+    "dangerous_errors": [
+      "Assuming iron deficiency in an older adult or postmenopausal woman is dietary (must rule out colon cancer)."
+    ],
+    "management_principles": [
+      "Oral iron supplementation with vitamin C, gynecology referral for menorrhagia."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "28F with fatigue, pagophagia, and heavy menstrual bleeding.",
+    "objective": "Pale conjunctiva, tachycardia (HR 105). No spooning of nails.",
+    "assessment": "Iron deficiency anemia secondary to menorrhagia and possibly vegan diet.",
+    "plan": "CBC, iron panel, ferritin. Start oral ferrous sulfate. OB/GYN referral."
+  },
+  "learning_objectives": [
+    "Recognize pagophagia and menorrhagia as classic clues for iron deficiency anemia."
+  ],
+  "teaching": {
+    "diagnosis": "Iron Deficiency Anemia",
+    "one_liner": "Fatigue and pagophagia (ice craving) in a young female with heavy menstrual bleeding and a vegan diet.",
+    "differentials": [
+      "Thalassemia trait",
+      "Hypothyroidism"
+    ],
+    "red_flags": [
+      "Occult GI bleeding (not typically in this age group)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Menstrual bleeding history",
+        "say": "How heavy are your periods, and how many pads do you soak through in a day?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "heavy periods",
+          "pads",
+          "bleeding"
+        ]
+      },
+      {
+        "objective": "Pica symptoms",
+        "say": "Have you had any unusual cravings, like craving ice, dirt, or starch?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "ice",
+          "pica",
+          "craving"
+        ]
+      },
+      {
+        "objective": "GI blood loss",
+        "say": "Have you noticed any blood in your stool, or black tarry stools?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "blood in stool",
+          "melena"
+        ]
+      },
+      {
+        "objective": "Diet history",
+        "say": "Can you tell me about your typical diet, especially how much meat or iron-rich food you eat?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diet",
+          "vegetarian",
+          "iron"
+        ]
+      },
+      {
+        "objective": "Fatigue and functional impact",
+        "say": "How is the fatigue affecting your day-to-day activities?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "fatigue",
+          "tired"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "110/70",
+      "hr": 105,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I have been feeling completely exhausted for the past several months, and my periods have become unusually heavy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is an overwhelming lack of energy and physical weakness all over, rather than just feeling drowsy or sleepy.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It crept up on me gradually about six months ago, and it has been getting steadily worse without any specific event triggering it.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "I struggle to get through my regular workday, and resting over the weekend does not restore my energy at all.",
+        "topic": "Daily impact and rest"
+      },
+      {
+        "answer": "I feel drained and sluggish all day long, from the minute I wake up until I go to sleep.",
+        "topic": "Time of day variation"
+      },
+      {
+        "answer": "I sleep about seven to eight hours every night without waking up, and my roommate has never heard me snore or gasp for air.",
+        "topic": "Sleep quality and snoring"
+      },
+      {
+        "answer": "I feel frustrated and down about having no energy, but I do not have depression and have never had thoughts of hurting myself.",
+        "topic": "Mood and emotional health"
+      },
+      {
+        "answer": "I get lightheaded when I stand up quickly and breathless climbing stairs, but I have not had black tarry stools or blood in my bowel movements.",
+        "topic": "Dizziness and shortness of breath"
+      },
+      {
+        "answer": "My bleeding lasts for seven full days every month, and I have to change a soaked pad every two hours day and night.",
+        "topic": "Menstrual bleeding details"
+      },
+      {
+        "answer": "Yes, over the past few months I have developed this intense craving to constantly chew on ice cubes throughout the day.",
+        "topic": "Ice craving"
+      },
+      {
+        "answer": "No, I have not noticed unusual bruising on my skin, and my gums do not bleed when I brush my teeth.",
+        "topic": "Easy bruising or bleeding"
+      },
+      {
+        "answer": "No, I do not have any tingling, numbness, or pins-and-needles sensations in my hands or feet.",
+        "topic": "Numbness in hands and feet"
+      },
+      {
+        "answer": "I tend to feel chilly more easily lately, but I have not had unexplained weight gain, constipation, or dry skin.",
+        "topic": "Cold intolerance and skin changes"
+      },
+      {
+        "answer": "No, I am not excessively thirsty, and I am not running to the bathroom to pee more than usual.",
+        "topic": "Excessive thirst and urination"
+      },
+      {
+        "answer": "No, my skin has not darkened or turned bronzed, and my appetite has been normal.",
+        "topic": "Skin darkening and appetite loss"
+      },
+      {
+        "answer": "No, I have no skin itching, strange tastes in my mouth, or changes in how much urine I make.",
+        "topic": "Itching and urinary changes"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, night sweats, or unintentional weight loss.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "I get winded when walking uphill or up the stairs, but my legs have not swollen and I do not have chest pain.",
+        "topic": "Leg swelling and chest pain"
+      },
+      {
+        "answer": "I switched to a strict vegan diet about one year ago, and I have not been taking any iron pills or multivitamins.",
+        "topic": "Dietary habits"
+      },
+      {
+        "answer": "My office work can get busy, but my stress level is manageable, and I only drink one cup of coffee a day.",
+        "topic": "Work stress and caffeine intake"
+      },
+      {
+        "answer": "I assumed I was just burned out and stressed from work, which is why I waited this long to see a doctor.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I am worried that losing so much blood during my heavy periods every month is draining my body and making me sick.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping we could do some blood tests today to check my blood count and find out why I have no energy.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with any medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never stayed overnight in a hospital.",
+        "topic": "Past surgery or hospital stays"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter medicines, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or environmental triggers.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes, vaped, or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I rarely drink, maybe just a single glass of wine once or twice a month on social occasions.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an accountant in an office and live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are alive and healthy, and there is no family history of anemia, bleeding disorders, or thyroid disease.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period started two weeks ago, and my cycle is regular, arriving every twenty-eight days.",
+        "topic": "Last menstrual period and cycle"
+      },
+      {
+        "answer": "I am sexually active with one partner, we consistently use condoms, and there is no chance that I am pregnant.",
+        "topic": "Contraception and pregnancy possibility"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 110/70 mmHg, heart rate is 105 beats per minute, respiratory rate is 16 breaths per minute, temperature is 36.7°C, and oxygen saturation is 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Marked conjunctival pallor is present bilaterally; sclerae are white and anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and moves smoothly with swallowing without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Regular tachycardic rhythm with normal S1 and S2; faint systolic ejection flow murmur audible at the left sternal border without gallop or rub.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with vesicular breath sounds and no crackles or wheezes.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender without hepatomegaly or splenomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is pale without rashes or petechiae, and fingernails show no koilonychia or spooning.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

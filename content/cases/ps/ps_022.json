@@ -1,0 +1,353 @@
+{
+  "id": "ps_022",
+  "system": "plastic surgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Sim",
+  "age": 75,
+  "gender": "female",
+  "chief_complaint": "deep, painful open sore on the lower back in bedridden patient",
+  "hpi_details": "75F presents with a deep, open sore on her sacrum/lower back. She is bedridden due to a recent stroke. The wound is 5cm wide, red, producing yellow drainage, and shows underlying muscle tissue.",
+  "ideas": "daughter worried about severe bed sore infection",
+  "concerns": "anxious about wound healing and surgery",
+  "expectations": "wants specialized wound dressing and care",
+  "pmh": "Ischemic stroke 3 months ago (hemiplegic), Type 2 Diabetes",
+  "medications": "Metformin 1000mg BID",
+  "social_hx": "Bedridden, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Pressure Ulcer (Decubitus Ulcer), Stage IV evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pressure Ulcer (Decubitus Ulcer), Stage IV is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Pressure Ulcer (Decubitus Ulcer), Stage IV, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: deep, painful open sore on the lower back in bedridden patient",
+      "Key HPI features: 75F presents with a deep, open sore on her sacrum/lower back. She is bedridden due to a recent stroke. The wound is 5cm wide, red, producing yellow drainage, and shows underlying muscle tissue.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Pressure Ulcer (Decubitus Ulcer), Stage IV.",
+      "Relevant background/PMH: Ischemic stroke 3 months ago (hemiplegic), Type 2 Diabetes",
+      "Current medications: Metformin 1000mg BID"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pressure Ulcer (Decubitus Ulcer), Stage IV.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Missing sepsis, spreading cellulitis, or possible osteomyelitis in a deep pressure injury."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Pressure Ulcer (Decubitus Ulcer), Stage IV",
+      ": Perform wound debridement of necrotic tissue",
+      "Implement pressure off-loading (frequent turning, air mattress), optimize nutrition/glycemic control, and discuss reconstructive options (flap surgery)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Pressure Ulcer (Decubitus Ulcer), Stage IV. deep, painful open sore on the lower back in bedridden patient. 75F presents with a deep, open sore on her sacrum/lower back. She is bedridden due to a recent stroke. The wound is 5cm wide, red, producing yellow drainage, and shows underlying muscle tissue.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Pressure Ulcer (Decubitus Ulcer), Stage IV.",
+    "assessment": "Clinical presentation highly suggestive of Pressure Ulcer (Decubitus Ulcer), Stage IV.",
+    "plan": "Assess urgently for sepsis or spreading infection and obtain deep tissue or bone specimens if clinically indicated during debridement; choose antibiotics based on clinical findings and culture results. Maintain pressure off-loading, continence care, nutrition, and glycemic optimization. Debridement and any flap reconstruction require specialist assessment and an adequate long-term repositioning plan."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Pressure Ulcer (Decubitus Ulcer), Stage IV.",
+    "Formulate prioritized differential diagnosis for deep, painful open sore on the lower back in bedridden patient",
+    "Select appropriate laboratory and imaging studies for plastic surgery",
+    "Implement evidence-based acute and long-term management strategies for Pressure Ulcer (Decubitus Ulcer), Stage IV."
+  ],
+  "teaching": {
+    "diagnosis": "Pressure Ulcer (Decubitus Ulcer), Stage IV.",
+    "one_liner": "Plastic and reconstructive surgical case presenting with deep, painful open sore on the lower back in bedridden patient.",
+    "differentials": [
+      "Stage III pressure ulcer",
+      "Diabetic-related soft tissue infection unrelated to pressure",
+      "Necrotizing fasciitis",
+      "Fungating malignant wound"
+    ],
+    "red_flags": [
+      "Sepsis, spreading cellulitis, or necrotizing soft tissue infection (fever, hypotension, crepitus, rapidly spreading erythema)",
+      "Underlying osteomyelitis or deep-space infection (exposed or palpable bone, positive probe-to-bone, non-healing wound, raised inflammatory markers)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Repositioning and pressure-relief practices",
+        "say": "How often are you or your caregiver turning you in bed?",
+        "domains": [
+          "living_work",
+          "social_hx"
+        ],
+        "keywords": [
+          "turning",
+          "reposition",
+          "caregiver",
+          "pressure",
+          "bed"
+        ]
+      },
+      {
+        "objective": "Wound duration and depth changes",
+        "say": "How long has this sore been there, and has it gotten deeper?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ],
+        "keywords": [
+          "wound",
+          "duration",
+          "deeper",
+          "sore",
+          "weeks"
+        ]
+      },
+      {
+        "objective": "Glycemic control",
+        "say": "How well controlled has your blood sugar been recently?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "blood sugar",
+          "glucose",
+          "control",
+          "glycemic"
+        ]
+      },
+      {
+        "objective": "Systemic infection symptoms",
+        "say": "Have you had fevers, chills, or felt generally unwell?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "fever",
+          "chills",
+          "unwell",
+          "infection",
+          "systemic"
+        ]
+      },
+      {
+        "objective": "Nutritional intake and mobility level",
+        "say": "How has your appetite been, and how much are you able to move on your own?",
+        "domains": [
+          "pmh",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "nutrition",
+          "appetite",
+          "mobility",
+          "move",
+          "intake"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I have a deep, painful open sore on my lower back that keeps leaking yellow fluid.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It developed from lying in bed so much after my stroke, not from an injury or a cut.",
+        "topic": "Mechanism and cause of wound"
+      },
+      {
+        "answer": "The skin broke open about three weeks ago, and it has gotten noticeably deeper and wider since then.",
+        "topic": "Onset and timeline"
+      },
+      {
+        "answer": "It is right over my tailbone, and my daughter says it measures about five centimeters across.",
+        "topic": "Wound location and size"
+      },
+      {
+        "answer": "It looks like a deep crater, and my daughter told me she can see dark red muscle tissue at the bottom.",
+        "topic": "Wound depth and exposed tissue"
+      },
+      {
+        "answer": "No, there was no dirt, soil, rusty object, or animal bite involved.",
+        "topic": "Contamination or bite injury"
+      },
+      {
+        "answer": "It oozes a little watery blood when the dressing is changed, but there has never been any spurting or heavy bleeding.",
+        "topic": "Active bleeding"
+      },
+      {
+        "answer": "My right leg has been weak and numb since my stroke, but my left leg feels and moves normally.",
+        "topic": "Numbness and limb mobility"
+      },
+      {
+        "answer": "No, I haven't had any contact with hot water, fire, heating pads, chemicals, or electricity.",
+        "topic": "Burn or heat exposure"
+      },
+      {
+        "answer": "No, I was never in a fire, and I have no hoarseness, coughing, or shortness of breath.",
+        "topic": "Smoke exposure and breathing"
+      },
+      {
+        "answer": "It is a constant dull ache around a 6 out of 10, and it throbs with sharp pain whenever pressure is placed directly on it.",
+        "topic": "Pain severity and character"
+      },
+      {
+        "answer": "The skin became red about two months ago, broke down three weeks ago, and simple gauze dressings haven't helped it heal.",
+        "topic": "Progression and prior wound care"
+      },
+      {
+        "answer": "It drains thick yellow fluid every day, smells unpleasant, and has a red ring spreading slightly around the edges.",
+        "topic": "Drainage, redness, and odor"
+      },
+      {
+        "answer": "No, I haven't experienced any fever, shaking chills, body sweats, or mental confusion.",
+        "topic": "Fever and systemic infection symptoms"
+      },
+      {
+        "answer": "I am completely bedridden because of the paralysis on my right side and cannot walk or get out of bed on my own.",
+        "topic": "Bed rest and mobility level"
+      },
+      {
+        "answer": "My daughter turns me every two to three hours during the day, but at night I often remain on my back for long stretches.",
+        "topic": "Repositioning and pressure relief"
+      },
+      {
+        "answer": "My fasting blood sugar usually stays between 140 and 160, and my last hemoglobin A1c was 7.8 percent.",
+        "topic": "Blood sugar control"
+      },
+      {
+        "answer": "My appetite has been very poor since the stroke, so I only eat half my food and have lost some weight.",
+        "topic": "Nutritional intake and appetite"
+      },
+      {
+        "answer": "I received a tetanus booster shot about five years ago after a minor scratch in the garden.",
+        "topic": "Tetanus vaccination status"
+      },
+      {
+        "answer": "No, I do not take any blood thinners, steroids, or medications that weaken my immune system.",
+        "topic": "Blood thinners and immunosuppressants"
+      },
+      {
+        "answer": "No, absolutely nothing like that; my daughter is very gentle and loving when taking care of me.",
+        "topic": "Trauma, abuse, or self-harm"
+      },
+      {
+        "answer": "My daughter is very worried that this is a severe bedsore infection that could spread into my blood.",
+        "topic": "Patient ideas and thoughts"
+      },
+      {
+        "answer": "I am terrified that this wound will never heal and that I might need major surgery.",
+        "topic": "Patient concerns and fears"
+      },
+      {
+        "answer": "I want to get specialized wound care, proper dressings, and clear instructions so it can finally heal.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I suffered an ischemic stroke three months ago that left my right side paralyzed, and I have had type 2 diabetes for ten years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I was hospitalized for three weeks when I had my stroke three months ago, but I have never had any surgeries.",
+        "topic": "Past hospitalizations and surgeries"
+      },
+      {
+        "answer": "I take metformin 1000 milligrams twice a day for my diabetes.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink any alcohol.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired homemaker living at home with my daughter, who is my full-time caregiver.",
+        "topic": "Living situation and caregiver support"
+      },
+      {
+        "answer": "My mother had high blood pressure, but there is no family history of severe vascular disease or ulcer problems.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, pulse 76 beats/min, respiratory rate 16 breaths/min, temperature 36.8°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Elderly female lying in bed, appearing frail and chronically ill, but alert, oriented, and conversant.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "A 5 cm circular ulcer over the sacrum with full-thickness tissue loss exposing underlying red muscle fibers, yellow purulent drainage, and a rim of peri-wound erythema without crepitus or fluctuance.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, and no murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Vesicular breath sounds clear bilaterally with no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended with active bowel sounds and no organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Flaccid right hemiplegia with 1/5 motor strength in right upper and lower extremities, and intact 5/5 strength on the left side.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Decreased sensation to light touch and pinprick over the right side of the body, with preserved sensation and localized tenderness around the sacral wound edges.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral femoral, popliteal, dorsalis pedis, and posterior tibial pulses are palpable and 2+ bilaterally, with capillary refill under 2 seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Mild non-pitting edema in the paralyzed right lower extremity; no calf tenderness, warmth, or palpable cords bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

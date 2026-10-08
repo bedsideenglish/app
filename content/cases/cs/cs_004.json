@@ -1,0 +1,354 @@
+{
+  "id": "cs_004",
+  "system": "cardiothoracic surgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Davis",
+  "age": 62,
+  "gender": "male",
+  "chief_complaint": "severe crushing chest pain, triple-vessel coronary artery disease on angiogram, and diabetes requiring bypass evaluation",
+  "hpi_details": "62M with type 2 diabetes admitted to cardiac care unit with unstable angina. Coronary angiography performed yesterday revealed severe multi-vessel coronary artery disease: 90% proximal left anterior descending (LAD) stenosis, 85% circumflex artery stenosis, and 95% right coronary artery (RCA) stenosis with reduced left ventricular ejection fraction (40%). Interventional cardiology requested cardiothoracic surgery consultation for surgical revascularization.",
+  "ideas": "thinks cardiac stents are easier and wants to avoid open heart surgery if possible",
+  "concerns": "worried about the risks of heart-lung bypass machine and sternum recovery",
+  "expectations": "wants thorough explanation of why bypass surgery is superior to stents for his specific blockages",
+  "pmh": "Type 2 Diabetes Mellitus (insulin-requiring), Hypertension, CAD",
+  "medications": "Insulin glargine 30 units QHS, Aspirin 81mg, Atorvastatin 80mg, Metoprolol 50mg BID",
+  "social_hx": "Accountant, non-smoker",
+  "available_results": [
+    {
+      "id": "angiogram_three_vessel_cad",
+      "test": "Coronary angiography",
+      "value": "90% proximal LAD, 85% circumflex, and 95% right coronary artery stenoses; SYNTAX score 34",
+      "unit": "",
+      "reference_range": "No obstructive coronary disease",
+      "flag": "critical",
+      "collected_at": "Yesterday"
+    },
+    {
+      "id": "lv_function_cabg_evaluation",
+      "test": "Left ventricular ejection fraction",
+      "value": "40",
+      "unit": "%",
+      "reference_range": "50-70",
+      "flag": "low",
+      "collected_at": "Preoperative assessment"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Severe Three-Vessel Coronary Artery Disease evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Severe Three-Vessel Coronary Artery Disease is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Recommend Coronary Artery Bypass Graft (CABG) x3-4 vessels over Percutaneous Coronary Intervention (PCI) based on FREEDOM and SYNTAX clinical trial evidence demonstrating superior long-term survival and reduced myocardial infarction/revascularization rates in diabetic multi-vessel disease, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe crushing chest pain, triple-vessel coronary artery disease on angiogram, and diabetes requiring bypass evaluation",
+      "Key HPI features: 62M with type 2 diabetes admitted to cardiac care unit with unstable angina. Coronary angiography performed yesterday revealed severe multi-vessel coronary artery disease: 90% proximal left anterior descending (LAD) stenosis, 85% circumflex artery stenosis, and 95% right coronary artery (RCA) stenosis with reduced left ventricular ejection fraction (40%). Interventional cardiology requested cardiothoracic surgery consultation for surgical revascularization.",
+      "Objective/Exam findings: Vitals: HR 66, BP 128/78. Chest clear to auscultation. SYNTAX score calculated from angiogram is 34 (high anatomical complexity). LVEF 40% with anterior hypokinesis. Allen test confirms patent palmar arch of left arm suitable for radial artery harvest. Bilateral lower extremity venous Doppler confirms great saphenous veins patent without varicosities.",
+      "Relevant background/PMH: Type 2 Diabetes Mellitus (insulin-requiring), Hypertension, CAD",
+      "Current medications: Insulin glargine 30 units QHS, Aspirin 81mg, Atorvastatin 80mg, Metoprolol 50mg BID"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Severe Three-Vessel Coronary Artery Disease.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Single/double-vessel disease (would favor PCI) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Ongoing rest angina — suggests unstable disease needing urgent revascularization."
+    ],
+    "management_principles": [
+      "Recommend Coronary Artery Bypass Graft (CABG) x3-4 vessels over Percutaneous Coronary Intervention (PCI) based on FREEDOM and SYNTAX clinical trial evidence demonstrating superior long-term survival and reduced myocardial infarction/revascularization rates in diabetic multi-vessel disease",
+      "Surgical plan: Left Internal Mammary Artery (LIMA) to LAD (gold standard for long-term patency), plus saphenous vein/radial artery grafts to circumflex and RCA targets",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for Acute Coronary Syndromes",
+        "url": "https://professional.heart.org/en/guidelines-statements/2025-accahaacepnaemspscai-guideline-for-the-management-of-patients-with-acutecir0000000000001309"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: severe crushing chest pain, triple-vessel coronary artery disease on angiogram, and diabetes requiring bypass evaluation\n\n62M with type 2 diabetes admitted to cardiac care unit with unstable angina. Coronary angiography performed yesterday revealed severe multi-vessel coronary artery disease: 90% proximal left anterior descending (LAD) stenosis, 85% circumflex artery stenosis, and 95% right coronary artery (RCA) stenosis with reduced left ventricular ejection fraction (40%). Interventional cardiology requested cardiothoracic surgery consultation for surgical revascularization.",
+    "objective": "Vitals: HR 66, BP 128/78. Chest clear to auscultation. SYNTAX score calculated from angiogram is 34 (high anatomical complexity). LVEF 40% with anterior hypokinesis. Allen test confirms patent palmar arch of left arm suitable for radial artery harvest. Bilateral lower extremity venous Doppler confirms great saphenous veins patent without varicosities.",
+    "assessment": "Severe Three-Vessel Coronary Artery Disease in an insulin-dependent diabetic patient with reduced LVEF (SYNTAX score > 33).",
+    "plan": "Recommend Coronary Artery Bypass Graft (CABG) x3-4 vessels over Percutaneous Coronary Intervention (PCI) based on FREEDOM and SYNTAX clinical trial evidence demonstrating superior long-term survival and reduced myocardial infarction/revascularization rates in diabetic multi-vessel disease. Surgical plan: Left Internal Mammary Artery (LIMA) to LAD (gold standard for long-term patency), plus saphenous vein/radial artery grafts to circumflex and RCA targets."
+  },
+  "learning_objectives": [
+    "Explain evidence-based guidelines (FREEDOM and SYNTAX trials) favoring CABG over PCI in diabetic patients with multivessel coronary disease and complex anatomy",
+    "Understand the superior long-term patency rates and survival benefit of using the Left Internal Mammary Artery (LIMA) grafted to the LAD artery over venous conduits",
+    "Perform pre-operative assessment of conduit vessels (radial artery Allen test, great saphenous vein evaluation)",
+    "Outline perioperative management of glycemic control, antiplatelet therapy, and renal protection during cardiac surgery"
+  ],
+  "teaching": {
+    "diagnosis": "Severe Three-Vessel Coronary Artery Disease",
+    "one_liner": "Severe blockages in all three major coronary arteries, especially in a diabetic patient with reduced heart pumping function, where bypass surgery has a proven survival advantage over stenting.",
+    "differentials": [
+      "Single/double-vessel disease (would favor PCI)",
+      "Non-ischemic cardiomyopathy"
+    ],
+    "red_flags": [
+      "Ongoing rest angina — suggests unstable disease needing urgent revascularization"
+    ],
+    "must_ask": [
+      {
+        "objective": "Angina pattern",
+        "say": "How severe is your chest pain, and does it happen with minimal activity now?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "unstable",
+          "minimal exertion"
+        ]
+      },
+      {
+        "objective": "Diabetes history",
+        "say": "How long have you had diabetes, and is it insulin-dependent?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "insulin"
+        ]
+      },
+      {
+        "objective": "Prior cardiac interventions",
+        "say": "Have you had a stent or angiogram before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "stent",
+          "angiogram"
+        ]
+      },
+      {
+        "objective": "Concerns about surgery vs stent",
+        "say": "What worries you about having open heart surgery instead of stents?",
+        "domains": [
+          "concerns"
+        ]
+      },
+      {
+        "objective": "Functional capacity",
+        "say": "How far can you walk before the chest pain starts?",
+        "domains": [
+          "severity"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/78",
+      "hr": 66,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I was admitted two days ago after having severe crushing chest pain, and the doctors told me my angiogram showed blockages in three main arteries.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The severe pain started suddenly two evenings ago while I was watching television on the couch.",
+        "topic": "Onset and trigger"
+      },
+      {
+        "answer": "It felt like a heavy weight pressing directly on the middle of my chest, behind my breastbone.",
+        "topic": "Pain location"
+      },
+      {
+        "answer": "It was a tight, crushing pressure, like an elephant was stepping right on my chest.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "The tightness spread up into my neck, my lower jaw, and down the inside of my left arm.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "That severe attack lasted about twenty-five minutes until the paramedics gave me nitroglycerin and oxygen.",
+        "topic": "Duration and frequency"
+      },
+      {
+        "answer": "It was an eight or nine out of ten when it peaked at home, much worse than the mild tightness I used to feel.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "For the past month I had mild tightness when climbing stairs that stopped with rest, but this severe episode came on completely at rest.",
+        "topic": "Exertion and rest"
+      },
+      {
+        "answer": "Taking a deep breath, coughing, or changing my position did not change the pain at all, and pressing on my chest did not make it worse.",
+        "topic": "Positional and breathing changes"
+      },
+      {
+        "answer": "It was not related to eating or spicy foods, and I did not have any sour acid backing up into my throat or pain swallowing.",
+        "topic": "Relationship to meals"
+      },
+      {
+        "answer": "I broke out in a heavy cold sweat and felt quite short of breath and nauseated, but I did not vomit or pass out.",
+        "topic": "Associated symptoms"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, cough, or phlegm.",
+        "topic": "Fever and cough"
+      },
+      {
+        "answer": "No, I have been feeling completely well otherwise with no cold, sore throat, or body aches recently.",
+        "topic": "Recent viral infection"
+      },
+      {
+        "answer": "No, neither of my legs is swollen or painful, and I have not been on any long flights or immobilized in bed before this.",
+        "topic": "Leg swelling or immobilization"
+      },
+      {
+        "answer": "No, there have been no rashes, blisters, or skin spots on my chest.",
+        "topic": "Rash or skin blisters"
+      },
+      {
+        "answer": "I was terrified that I was having a fatal heart attack during the episode, but I did not have tingling in my hands or feet.",
+        "topic": "Anxiety and numbness"
+      },
+      {
+        "answer": "I have had type 2 diabetes for twelve years and high blood pressure for ten years, but my cholesterol has been treated with medication.",
+        "topic": "Cardiovascular risk factors"
+      },
+      {
+        "answer": "I have had mild exertional chest tightness for a few weeks, but never pain this bad, and I have never had stents or a heart catheterization before yesterday.",
+        "topic": "Prior chest pain and procedures"
+      },
+      {
+        "answer": "No, I have had no blows, falls, heavy lifting, or injuries to my chest wall.",
+        "topic": "Chest trauma or overuse"
+      },
+      {
+        "answer": "I've had diabetes for twelve years; I currently take a long-acting insulin injection every night, and my doctor keeps a close eye on my blood sugar.",
+        "topic": "Diabetes history"
+      },
+      {
+        "answer": "Before this past month, I could walk briskly on flat ground for thirty minutes without trouble, but lately climbing more than one flight of stairs brought on chest tightness.",
+        "topic": "Functional capacity"
+      },
+      {
+        "answer": "I was really hoping they could just put in stents because that seems much easier and less invasive than opening up my chest.",
+        "topic": "Ideas about stent versus bypass"
+      },
+      {
+        "answer": "I am very nervous about being put on a heart-lung bypass machine and having my breastbone cracked open and healing afterward.",
+        "topic": "Concerns regarding surgery"
+      },
+      {
+        "answer": "I want a clear explanation of why open bypass surgery would be better or safer for me than getting stents.",
+        "topic": "Expectations from consultation"
+      },
+      {
+        "answer": "I have type 2 diabetes mellitus, high blood pressure, and coronary artery disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was twenty-two, but no other surgeries or hospitalizations until this admission.",
+        "topic": "Past surgical and hospital history"
+      },
+      {
+        "answer": "I take insulin glargine thirty units at bedtime, aspirin 81 milligrams, atorvastatin 80 milligrams daily, and metoprolol 50 milligrams twice a day.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or iodine dye.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I have a glass of red wine on special occasions maybe once a month, but I don't drink regularly.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an accountant and live in an apartment with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had a heart attack in his late fifties and had bypass surgery, and my mother had high blood pressure.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/78 mmHg, pulse 66 beats per minute, respiratory rate 16 breaths per minute, body temperature 36.6°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Comfortable at rest in bed, alert, no diaphoresis, pallor, or acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "No jugular venous distension observed with the head elevated at 45 degrees.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "No skin rash, vesicles, bruising, or superficial lesions over the chest wall.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No chest wall tenderness or reproducible pain on palpation of costochondral junctions and ribs.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion notes symmetrically across all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with no crackles, wheezes, or pleural friction rub.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, no heart murmurs, gallops, or pericardial friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender to light and deep palpation, without epigastric tenderness, guarding, or organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No bilateral pedal or pretibial edema; great saphenous veins are soft and non-varicose bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are symmetrical, supple, non-tender, without cords or warmth.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Radial and pedal pulses are intact and symmetrical; modified Allen test shows prompt palmar collateral refill in the left hand within 5 seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      }
+    ]
+  }
+}

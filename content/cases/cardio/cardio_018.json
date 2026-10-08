@@ -1,0 +1,372 @@
+{
+  "id": "cardio_018",
+  "system": "cardiology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Patel",
+  "age": 61,
+  "gender": "male",
+  "chief_complaint": "heavy squeezing tightness in the middle of the chest when walking uphill in cold weather",
+  "hpi_details": "4-month history of predictable, reproducible retrosternal heaviness and squeezing tightness. The pain consistently occurs when walking uphill, carrying groceries, or hurrying to catch a train, especially on cold windy mornings. Radiates occasionally to his left inner arm and lower jaw. The discomfort forces him to stop walking, and reliably disappears completely within 3 to 5 minutes of resting. Never occurs when sitting watching TV or sleeping. No associated diaphoresis or nausea.",
+  "ideas": "thinks his cholesterol buildup is narrowing the arteries supplying his heart muscle with oxygen",
+  "concerns": "afraid that a complete blockage will happen soon causing a massive heart attack like his father had at age 60",
+  "expectations": "wants a GTN spray to carry in his pocket and a referral for treadmill or angiogram testing",
+  "pmh": "type 2 diabetes mellitus x8 years, hypertension, hypercholesterolaemia",
+  "medications": "metformin 1000mg BD, ramipril 10mg OD, atorvastatin 20mg OD",
+  "social_hx": "non-smoker (quit 15 years ago), drinks 4 units alcohol/week, accountant, sedentary",
+  "clinical_knowledge": {
+    "topic": "Chronic Stable Angina evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Chronic Stable Angina is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes immediate symptom relief with sublingual Glyceryl Trinitrate (GTN) spray 400mcg PRN before exertion or during attacks (instruct to sit down before spraying, repeat after 5 mins if needed; call 999/ambulance if pain has not eased 5 mins after the second dose), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: heavy squeezing tightness in the middle of the chest when walking uphill in cold weather",
+      "Key HPI features: 4-month history of predictable, reproducible retrosternal heaviness and squeezing tightness. The pain consistently occurs when walking uphill, carrying groceries, or hurrying to catch a train, especially on cold windy mornings. Radiates occasionally to his left inner arm and lower jaw. The discomfort forces him to stop walking, and reliably disappears completely within 3 to 5 minutes of resting. Never occurs when sitting watching TV or sleeping. No associated diaphoresis or nausea.",
+      "Objective/Exam findings: Vitals: normal HR and BP. Cardiac auscultation: normal S1/S2 without murmurs or gallops. 12-lead resting ECG: normal sinus rhythm or minor non-specific ST/T wave changes (normal resting ECG does NOT exclude stable angina). Bloods: HbA1c, lipid profile, FBC (rule out anaemia worsening angina). Outpatient functional ischemia testing: CT Coronary Angiography (first-line in many guidelines) or exercise stress echocardiogram/treadmill test.",
+      "Relevant background/PMH: type 2 diabetes mellitus x8 years, hypertension, hypercholesterolaemia",
+      "Current medications: metformin 1000mg BD, ramipril 10mg OD, atorvastatin 20mg OD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Chronic Stable Angina.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to GERD without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Pain at rest, at lower effort than before, or lasting more than 20 minutes."
+    ],
+    "management_principles": [
+      "Immediate symptom relief: prescribe sublingual Glyceryl Trinitrate (GTN) spray 400mcg PRN before exertion or during attacks (instruct to sit down before spraying, repeat after 5 mins if needed; call 999/ambulance if pain has not eased 5 mins after the second dose)",
+      "Anti-anginal prophylactic therapy: initiate beta-blocker (e.g., bisoprolol 5mg OD) or calcium channel blocker (amlodipine/diltiazem)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease",
+        "url": "https://professional.heart.org/en/guidelines-statements/2023-ahaaccaccpaspcnlapcna-guideline-for-the-management-of-patients-withcir0000000000001168"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "61M with T2DM and HTN presents with classical exertional retrosternal squeezing chest pain radiating to left arm/jaw, promptly relieved within 5 minutes of rest.",
+    "objective": "Vitals: normal HR and BP. Cardiac auscultation: normal S1/S2 without murmurs or gallops. 12-lead resting ECG: normal sinus rhythm or minor non-specific ST/T wave changes (normal resting ECG does NOT exclude stable angina). Bloods: HbA1c, lipid profile, FBC (rule out anaemia worsening angina). Outpatient functional ischemia testing: CT Coronary Angiography (first-line in many guidelines) or exercise stress echocardiogram/treadmill test.",
+    "assessment": "Chronic Stable Angina Pectoris secondary to coronary artery disease. DDx: unstable angina / ACS (differentiated by lack of rest pain, accelerating frequency, or prolonged duration >20 mins), gastro-oesophageal reflux disease, musculoskeletal chest pain, aortic stenosis.",
+    "plan": "Immediate symptom relief: prescribe sublingual Glyceryl Trinitrate (GTN) spray 400mcg PRN before exertion or during attacks (instruct to sit down before spraying, repeat after 5 mins if needed; call 999/ambulance if pain has not eased 5 mins after the second dose). Anti-anginal prophylactic therapy: initiate beta-blocker (e.g., bisoprolol 5mg OD) or calcium channel blocker (amlodipine/diltiazem). Secondary cardiovascular prevention: up-titrate atorvastatin to 80mg OD, add aspirin 75mg OD. Refer to cardiology for CT coronary angiography or rapid-access chest pain clinic."
+  },
+  "learning_objectives": [
+    "Apply the three clinical characteristics of typical stable angina: constricting anterior chest pain, provoked by exertion, and relieved promptly by rest/GTN within 5 minutes",
+    "Instruct the patient on exact safety rules for sublingual GTN spray usage and when to activate emergency services",
+    "Formulate dual-track management of stable CAD: symptomatic anti-anginal prophylaxis (beta-blocker) plus secondary prevention (statin/aspirin)",
+    "Differentiate chronic stable angina from unstable coronary syndromes requiring immediate emergency admission"
+  ],
+  "teaching": {
+    "diagnosis": "Chronic Stable Angina",
+    "one_liner": "Fixed coronary narrowing: predictable chest tightness at a predictable level of effort, relieved by rest within minutes.",
+    "differentials": [
+      "GERD",
+      "Musculoskeletal chest pain",
+      "Anaemia"
+    ],
+    "red_flags": [
+      "Pain at rest, at lower effort than before, or lasting more than 20 minutes"
+    ],
+    "must_ask": [
+      {
+        "objective": "Relationship to exertion",
+        "say": "Does it come on when you walk uphill or climb stairs, and settle when you rest?",
+        "domains": [
+          "aggravating",
+          "relieving"
+        ],
+        "keywords": [
+          "walk",
+          "stairs",
+          "uphill",
+          "exercise",
+          "rest",
+          "exert"
+        ]
+      },
+      {
+        "objective": "Time to relief with rest",
+        "say": "How long does it take to settle once you stop?",
+        "domains": [
+          "relieving"
+        ],
+        "keywords": [
+          "minutes",
+          "settle",
+          "rest",
+          "away"
+        ]
+      },
+      {
+        "objective": "Stability — is the threshold changing?",
+        "say": "Is it coming on with less effort than it used to?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "less",
+          "used",
+          "easier"
+        ]
+      },
+      {
+        "objective": "Character of the pain",
+        "say": "How would you describe it — sharp, crushing, burning, tight?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "sharp",
+          "crushing",
+          "burning",
+          "tight",
+          "pressure",
+          "heavy"
+        ]
+      },
+      {
+        "objective": "Site and radiation of the pain",
+        "say": "Where exactly is the pain, and does it move anywhere else?",
+        "domains": [
+          "location",
+          "radiation"
+        ],
+        "keywords": [
+          "arm",
+          "jaw",
+          "shoulder",
+          "spread",
+          "radiate",
+          "travel"
+        ]
+      },
+      {
+        "objective": "Cardiac risk factors",
+        "say": "Do you have high blood pressure, diabetes, or high cholesterol, and do you smoke?",
+        "domains": [
+          "pmh",
+          "smoking",
+          "family_hx"
+        ],
+        "keywords": [
+          "diabetes",
+          "cholesterol",
+          "smoking",
+          "hypertension"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/78",
+      "hr": 72,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Whenever I walk uphill or carry heavy groceries, especially in this cold weather, I get a heavy squeezing tightness right in the middle of my chest.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "This started about four months ago, and it happens whenever I walk uphill, carry shopping bags, or hurry to catch a train on cold, windy mornings.",
+        "topic": "Onset and triggers"
+      },
+      {
+        "answer": "It is right in the center of my chest, deep behind my breastbone, and it covers a wide area rather than one spot I can point to with a finger.",
+        "topic": "Location of pain"
+      },
+      {
+        "answer": "It feels like a heavy squeezing tightness or a heavy weight pressing down on my chest, not sharp or stabbing at all.",
+        "topic": "Character of pain"
+      },
+      {
+        "answer": "Sometimes the tight ache spreads down into the inside of my left arm and up along my lower jaw.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "Once I stop walking and rest, the feeling reliably goes away completely within three to five minutes.",
+        "topic": "Duration of episodes"
+      },
+      {
+        "answer": "When it peaks, I would rate the discomfort at about a 5 or 6 out of 10, enough that it forces me to stop walking right away.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Exertion always brings it on, and stopping to rest reliably takes it away completely every single time.",
+        "topic": "Effect of exertion and rest"
+      },
+      {
+        "answer": "It has stayed very predictable and stable over these four months, coming on at about the same amount of effort without getting more frequent or severe.",
+        "topic": "Stability and progression"
+      },
+      {
+        "answer": "No, I never get this tightness when I am sitting on the couch watching television or resting in bed at night.",
+        "topic": "Pain at rest or night"
+      },
+      {
+        "answer": "No, taking a deep breath, coughing, or moving around does not change the tightness at all.",
+        "topic": "Effect of breathing or posture"
+      },
+      {
+        "answer": "No, pressing on my chest or ribs does not hurt and does not bring on that tight feeling.",
+        "topic": "Chest wall tenderness"
+      },
+      {
+        "answer": "No, it does not happen after meals, lying flat does not trigger it, and I have no acid reflux, sour taste, or trouble swallowing.",
+        "topic": "Meals and acid reflux"
+      },
+      {
+        "answer": "No, I haven't broken out into cold sweats and I don't feel sick to my stomach when the pain happens.",
+        "topic": "Sweating and nausea"
+      },
+      {
+        "answer": "I get a little out of breath just from the physical effort, but I don't have severe breathlessness, dizziness, or fainting.",
+        "topic": "Shortness of breath or dizziness"
+      },
+      {
+        "answer": "No, I have had no fever, chills, cough, or phlegm.",
+        "topic": "Fever or cough"
+      },
+      {
+        "answer": "No, I haven't had a cold, the flu, or any viral illness recently.",
+        "topic": "Recent viral illness"
+      },
+      {
+        "answer": "No, neither leg is swollen or painful, and I haven't been on any long flights or had surgery recently.",
+        "topic": "Leg swelling and travel history"
+      },
+      {
+        "answer": "No, there are no rashes, sores, or blisters on my chest or back.",
+        "topic": "Skin rash or blisters"
+      },
+      {
+        "answer": "I feel anxious about my heart, but I don't have sudden panic attacks, trembling, or tingling in my hands.",
+        "topic": "Anxiety and panic symptoms"
+      },
+      {
+        "answer": "No, I haven't had any injuries or hits to my chest, and I haven't done any heavy weightlifting.",
+        "topic": "Chest trauma or heavy lifting"
+      },
+      {
+        "answer": "I had a normal routine checkup ECG a couple of years ago, but I have never had an angiogram, stress test, or stents placed.",
+        "topic": "Previous cardiac investigations"
+      },
+      {
+        "answer": "I suspect cholesterol buildup is narrowing the arteries that supply blood and oxygen to my heart muscle.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I am terrified that one of the arteries will block completely and trigger a fatal heart attack like my father had at age sixty.",
+        "topic": "Patient concerns and worries"
+      },
+      {
+        "answer": "I was hoping to get a prescription for that under-the-tongue nitro spray to keep with me, and a referral for a treadmill test or angiogram.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "I have had type 2 diabetes for eight years, along with high blood pressure and high cholesterol.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never stayed overnight in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take metformin 1000 milligrams twice a day, ramipril 10 milligrams once a day, and atorvastatin 20 milligrams once a day, with no other supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I used to smoke, but I quit completely fifteen years ago and haven't touched a cigarette since.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink about four units of alcohol a week, usually just a couple of beers over the weekend.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an accountant, so I sit at a desk most of the day, and I live with my wife in a two-story house.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father died suddenly of a massive heart attack when he was sixty years old, and my mother had diabetes in her later years.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert and comfortable at rest in no acute distress, with normal skin colour and no diaphoresis.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 128/78 mmHg, heart rate 72 beats per minute, respiratory rate 16 breaths per minute, oxygen saturation 98% on room air, and temperature 36.6°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor, and sclerae are non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pressure is normal, without visible jugular venous distension.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "No visible chest wall lesions or deformity, and palpation of the ribs and chondrosternal joints does not elicit tenderness or reproduce the chest pain.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion notes throughout both lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Normal vesicular breath sounds bilaterally with no crackles, wheezes, or pleural friction rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal first and second heart sounds, and no murmurs, gallops, or pericardial friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-tender without palpable masses, organomegaly, or epigastric discomfort.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are symmetric, non-tender, and without warmth, swelling, or cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

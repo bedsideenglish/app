@@ -1,0 +1,326 @@
+{
+  "id": "ortho_036",
+  "system": "ortho",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Brown",
+  "age": 50,
+  "gender": "female",
+  "chief_complaint": "sharp heel pain on first steps out of bed in morning",
+  "hpi_details": "A 50-year-old female presents to the clinic with sharp heel pain on first steps out of bed in morning. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she has developed a sharp bone spur on the bottom of her heel or bruised the heel bone from walking barefoot on hard floors.",
+  "concerns": "She is worried that the severe morning heel pain will force her to stop her daily walking routine and make it impossible to stand during her shifts at work.",
+  "expectations": "She hopes to get recommendations for custom shoe insoles and a prescription for strong anti-inflammatory relief.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Plantar fasciitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Plantar fasciitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Plantar Fasciitis: Achilles stretching, heel cups, supportive shoes, night splints, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sharp heel pain on first steps out of bed in morning",
+      "Key HPI features: A 50-year-old female presents to the clinic with sharp heel pain on first steps out of bed in morning. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Plantar Fasciitis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Plantar fasciitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Calcaneal stress fracture without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Persistent pain despite conservative treatment would warrant imaging."
+    ],
+    "management_principles": [
+      "Plan for Plantar Fasciitis: Achilles stretching, heel cups, supportive shoes, night splints",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of sharp heel pain on first steps out of bed in morning. HPI: plantar aponeurosis microtears.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Plantar Fasciitis.",
+    "assessment": "Condition highly suspicious for Plantar Fasciitis.",
+    "plan": "Plan for Plantar Fasciitis: Achilles stretching, heel cups, supportive shoes, night splints. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Plantar Fasciitis",
+    "Select appropriate diagnostic workup for Plantar Fasciitis",
+    "Implement evidence-based management plan: Achilles stretching, heel cups, supportive shoes, night splints"
+  ],
+  "teaching": {
+    "diagnosis": "Plantar fasciitis",
+    "one_liner": "Patient with sharp heel pain on the first steps out of bed in the morning.",
+    "differentials": [
+      "Calcaneal stress fracture",
+      "Tarsal tunnel syndrome",
+      "Achilles tendinopathy"
+    ],
+    "red_flags": [
+      "Inability to bear weight, fever, redness or marked swelling, numbness, or pain after significant trauma needs assessment for another diagnosis rather than routine plantar-fasciitis care."
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the first-step pain pattern",
+        "say": "Is the pain worst with your very first steps in the morning?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "first-step pain"
+        ]
+      },
+      {
+        "objective": "Ask about improvement with activity",
+        "say": "Does it get better once you've been walking a bit?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "improvement with walking"
+        ]
+      },
+      {
+        "objective": "Ask about footwear and activity level",
+        "say": "What kind of shoes do you usually wear, and how much walking or standing do you do?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "footwear",
+          "activity level"
+        ]
+      },
+      {
+        "objective": "Ask about duration",
+        "say": "How long has this heel pain been going on?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "duration"
+        ]
+      },
+      {
+        "objective": "Explain the stretching and supportive treatment plan",
+        "say": "We recommend Achilles and plantar fascia stretching, heel cups, and supportive shoes.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "stretching",
+          "heel cups"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My right heel hurts terribly when I take my first steps out of bed in the morning.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about four weeks ago and has been gradually getting worse.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "The pain is on the bottom of my right heel, towards the inner side, and it stays right there.",
+        "topic": "Location of pain"
+      },
+      {
+        "answer": "It feels like a sharp, stabbing ache right under my heel when I first put weight on it.",
+        "topic": "Quality of pain"
+      },
+      {
+        "answer": "During those first few steps in the morning it is a 7 out of 10, but later it drops down to about a 3 or 4.",
+        "topic": "Severity of pain"
+      },
+      {
+        "answer": "Those first steps out of bed are the most painful part of my day, like stepping directly on a nail.",
+        "topic": "First steps in morning"
+      },
+      {
+        "answer": "After I walk around for ten or fifteen minutes, the stiffness eases up and the pain dulls down.",
+        "topic": "Improvement with activity"
+      },
+      {
+        "answer": "If I sit down for an hour and then stand up, the sharp heel pain flares right up again.",
+        "topic": "Pain after resting"
+      },
+      {
+        "answer": "Walking barefoot on hard tile floors and standing for hours at work make it much worse.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "Sitting down to take weight off my feet and wearing cushioned shoes help ease the ache.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "I usually wear flat slip-on shoes without much arch support, and I often walk barefoot at home.",
+        "topic": "Footwear habits"
+      },
+      {
+        "answer": "About a month ago, I started a new exercise routine walking 10,000 steps a day on hard pavements.",
+        "topic": "Recent activity level"
+      },
+      {
+        "answer": "I have felt generally worn out and fatigued lately, mostly because the pain disrupts my morning routine.",
+        "topic": "Associated fatigue"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I have not had any accidents, falls, or twists to my foot or ankle.",
+        "topic": "History of trauma"
+      },
+      {
+        "answer": "No, I do not have any numbness, tingling, or pins-and-needles feelings in my foot or toes.",
+        "topic": "Numbness or tingling"
+      },
+      {
+        "answer": "No, my heel has not looked red, puffy, or warm.",
+        "topic": "Redness or swelling"
+      },
+      {
+        "answer": "I can still put weight on it and walk, though I limp and try to walk on my toes.",
+        "topic": "Ability to bear weight"
+      },
+      {
+        "answer": "No, I have never experienced anything like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I tried taking ibuprofen a few times and icing my heel, but it only gave slight temporary relief.",
+        "topic": "Self-treatments and medications tried"
+      },
+      {
+        "answer": "It makes getting out of bed dreadfully painful and makes it difficult to stand during my workday.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "It feels like stepping on a nail every morning, so I thought I must have grown a sharp bone spur on my heel.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that this will get worse and I won't be able to stay on my feet at work or go on my daily morning walks.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can recommend some good shoe inserts or insoles and give me something strong to take away the morning pain.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I do not have any chronic medical illnesses like high blood pressure, diabetes, or arthritis.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any regular prescription medications or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink one or two glasses of wine a week when having dinner with friends.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an elementary school teacher, so I am on my feet on hard floors most of the day. I live with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has chronic joint diseases, gout, or inflammatory conditions.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My menstrual cycles are regular, my last period started two weeks ago, and there is no chance of pregnancy.",
+        "topic": "Menstrual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/78 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, temperature 36.6 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-appearing female in no acute distress, ambulating independently with a slight antalgic limp favoring the right heel.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Exquisite pinpoint tenderness over the medial process of the calcaneal tuberosity on the right plantar heel; pain is exacerbated by passive dorsiflexion of the great toe; ankle range of motion is normal bilaterally without joint effusion.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Calves are symmetric without swelling or tenderness; bilateral Achilles tendons are non-tender, intact, and without nodules.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch sensation over the plantar surface and toes bilaterally; negative Tinel sign posterior to the medial malleolus.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Muscle strength is 5/5 for ankle dorsiflexion, plantarflexion, inversion, and eversion bilaterally.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Antalgic gait with reduced heel strike on the right; patient can walk comfortably on toes, but walking on the right heel reproduces pain.",
+        "maneuver": "coordination_gait",
+        "response": "pain"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are 2+ and symmetric bilaterally with capillary refill under 2 seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No erythema, warmth, ecchymosis, swelling, calluses, or skin breakdown over either heel or foot.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

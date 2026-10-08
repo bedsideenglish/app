@@ -1,0 +1,342 @@
+{
+  "id": "psych_029",
+  "system": "psych",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Anderson",
+  "age": 29,
+  "gender": "male",
+  "chief_complaint": "difficulty falling asleep taking 2 hours, daytime fatigue",
+  "hpi_details": "A 29-year-old male presents with more than 3 months of difficulty falling asleep for about 2 hours on most nights and daytime fatigue, with symptoms gradually worsening.",
+  "ideas": "He thinks looking at his phone in bed and drinking coffee late at the office has completely ruined his body's natural sleep cycle.",
+  "concerns": "He is worried that being so exhausted during the day will lead to a costly mistake at work and cost him his job.",
+  "expectations": "He hopes to get a prescription for a sleeping pill to knock him out and reset his sleep schedule.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Chronic Insomnia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Chronic Insomnia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Chronic insomnia disorder requires difficulty initiating or maintaining sleep despite adequate opportunity and circumstances, with daytime impairment, occurring at least three nights weekly for at least three months; assess for comorbid sleep, medical, substance, and psychiatric disorders.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: difficulty falling asleep taking 2 hours, daytime fatigue",
+      "Key HPI features: A 29-year-old male presents with more than 3 months of difficulty falling asleep for about 2 hours on most nights and daytime fatigue, with symptoms gradually worsening.",
+      "Objective/Exam findings: Obtain vital signs, BMI and focused cardiopulmonary/neurologic examination when indicated; assess daytime sleepiness and driving/occupational risk, mood, mania, psychosis, and suicide/self-harm risk. Use a sleep diary; arrange sleep testing when obstructive sleep apnea or another sleep disorder is suspected.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Chronic Insomnia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Adjustment disorder without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Missing suicidal ideation, severe depression, mania, psychosis, intoxication/withdrawal, delirium, or dangerous daytime sleepiness that needs urgent assessment or immediate driving/work-safety advice.",
+      "Treating insomnia solely with sedatives before identifying sleep apnea, restless legs syndrome, circadian disorder, pain, medications, caffeine/stimulants, alcohol, or psychiatric causes.",
+      "Using sedative-hypnotics without evaluating substance-use risk, interactions, next-day impairment, falls, dependence, and a time-limited plan.",
+      "Ignoring critical warning signs such as: Acute suicidal or homicidal ideation."
+    ],
+    "management_principles": [
+      "Use CBT-I as first-line treatment, supported by a sleep diary and a consistent wake time, stimulus control, sleep restriction only when clinically appropriate, and reduction of late caffeine, alcohol, nicotine, and screens.",
+      "Treat identified contributors and refer for sleep evaluation when apnea, parasomnia, restless legs syndrome, circadian disorder, or marked daytime sleepiness is suspected.",
+      "Advise against driving or hazardous work when dangerously sleepy. Escalate urgently for suicide/self-harm/violence risk, mania, psychosis, delirium, or intoxication/withdrawal; if medication is used, choose it cautiously with monitoring and a limited duration."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "29-year-old man with more than three months of sleep-onset delay of about two hours on most nights and daytime fatigue. Confirm adequate sleep opportunity, frequency of at least three nights weekly, functional impact, sleep schedule, substances/medications, and symptoms of apnea, restless legs syndrome, circadian disorder, pain, mood disorder, mania, and trauma.",
+    "objective": "Obtain vital signs, BMI and focused examination as indicated; assess daytime sleepiness and driving/work safety, mental status, and suicide, self-harm, violence, mania, psychosis, intoxication/withdrawal, and delirium. Use a sleep diary and obtain sleep testing when clinically indicated.",
+    "assessment": "Probable chronic insomnia disorder if adequate sleep opportunity, frequency, daytime impairment, and exclusion criteria are confirmed; evaluate for comorbid sleep, psychiatric, medical, and substance-related causes.",
+    "plan": "Start CBT-I and individualized behavioral sleep interventions with a sleep diary. Address contributors and refer for sleep evaluation when indicated. Give immediate driving/hazardous-work precautions for significant sleepiness and urgent escalation for acute safety risk, mania, psychosis, delirium, or substance withdrawal. Avoid routine long-term sedatives; if a medicine is considered, review interactions, misuse/dependence, and next-day impairment and monitor closely."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Chronic Insomnia",
+    "Select appropriate diagnostic workup for Chronic Insomnia",
+    "Implement evidence-based management plan: Cognitive Behavioral Therapy for Insomnia (CBT-I)"
+  ],
+  "teaching": {
+    "diagnosis": "Chronic Insomnia",
+    "one_liner": "Difficulty initiating or maintaining sleep despite adequate opportunity, at least three nights weekly for at least three months, causing daytime impairment and not better explained by another disorder or substance.",
+    "differentials": [
+      "Generalized anxiety disorder",
+      "Major depressive disorder",
+      "Obstructive sleep apnea",
+      "Restless legs syndrome",
+      "Circadian rhythm disorder"
+    ],
+    "red_flags": [
+      "Acute suicidal or homicidal ideation",
+      "Severe self-neglect"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sleep onset pattern",
+        "say": "How long does it take you to fall asleep, and do you wake up during the night?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "falling asleep",
+          "waking",
+          "hours",
+          "night",
+          "pattern"
+        ]
+      },
+      {
+        "objective": "Nighttime behaviors",
+        "say": "What do you do while lying awake — worry, use your phone, or just try to rest?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "worry",
+          "phone",
+          "awake",
+          "rest",
+          "bed"
+        ]
+      },
+      {
+        "objective": "Daytime concentration and mood",
+        "say": "How is your concentration and mood during the day because of poor sleep?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "concentration",
+          "mood",
+          "daytime",
+          "fatigue",
+          "tired"
+        ]
+      },
+      {
+        "objective": "Caffeine and substance use",
+        "say": "Do you drink caffeine or alcohol, especially in the evening?",
+        "domains": [
+          "substances"
+        ],
+        "keywords": [
+          "caffeine",
+          "alcohol",
+          "evening",
+          "coffee",
+          "drinks"
+        ]
+      },
+      {
+        "objective": "Ruling out other sleep disorders",
+        "say": "Do you snore, or feel like your legs are restless at night?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "snore",
+          "legs",
+          "restless",
+          "apnea",
+          "movements"
+        ]
+      },
+      {
+        "objective": "Daytime safety and urgent psychiatric symptoms",
+        "say": "Have you nodded off while driving or working, had thoughts of harming yourself or anyone else, or felt unusually energized with little need for sleep?",
+        "domains": [
+          "safety",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "driving",
+          "working",
+          "harming",
+          "safe",
+          "energized",
+          "little sleep"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I have been having a really hard time falling asleep for the past few months, and it leaves me exhausted during the day.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It takes me about two hours just to fall asleep once I lie down, but once I finally drift off, I usually sleep through until morning.",
+        "topic": "Pattern of sleep difficulty"
+      },
+      {
+        "answer": "It started about three and a half months ago, and it happens almost every night, around five to six nights a week.",
+        "topic": "Onset and frequency"
+      },
+      {
+        "answer": "It started around the time I took on a stressful new project at work, but the sleep problem continued even after the project wrapped up.",
+        "topic": "Triggering factors"
+      },
+      {
+        "answer": "I get into bed around eleven at night and wake up at seven in the morning, and my schedule stays the same on weekends.",
+        "topic": "Sleep schedule and routine"
+      },
+      {
+        "answer": "I feel sluggish and fatigued throughout the day, and my concentration at work has noticeably declined.",
+        "topic": "Daytime fatigue and concentration"
+      },
+      {
+        "answer": "I do feel drowsy during my drive home from work, and I had to pull over once because I caught myself nodding off.",
+        "topic": "Drowsy driving and daytime safety"
+      },
+      {
+        "answer": "When I cannot fall asleep, I keep watching the clock and scrolling on my phone, worrying about how tired I will be the next day.",
+        "topic": "Nighttime behaviors and clock watching"
+      },
+      {
+        "answer": "I do not take naps during the day because I worry that napping will make it even harder to fall asleep at night.",
+        "topic": "Daytime naps"
+      },
+      {
+        "answer": "I drink two cups of black coffee in the morning to stay awake, but I always stop drinking caffeine before noon.",
+        "topic": "Caffeine consumption"
+      },
+      {
+        "answer": "I have a beer or two socially on weekends, but I never drink alcohol to help myself fall asleep.",
+        "topic": "Alcohol as sleep aid"
+      },
+      {
+        "answer": "No, I do not snore, and nobody has ever told me that I stop breathing or choke in my sleep.",
+        "topic": "Snoring and breathing pauses"
+      },
+      {
+        "answer": "No, my legs feel completely normal at night without any crawling sensations or urge to move them.",
+        "topic": "Restless legs symptoms"
+      },
+      {
+        "answer": "I work standard daytime office hours from nine to six and have never done shift work or night shifts.",
+        "topic": "Shift work and schedule changes"
+      },
+      {
+        "answer": "I feel stressed and anxious specifically about not sleeping, but I do not feel depressed or hopeless about my life.",
+        "topic": "Mood and anxiety"
+      },
+      {
+        "answer": "No, I have never had any thoughts of hurting myself or wishing I were dead.",
+        "topic": "Thoughts of self-harm"
+      },
+      {
+        "answer": "No, I have never experienced periods where I felt energetic or euphoric despite barely sleeping.",
+        "topic": "Episodes of decreased sleep need"
+      },
+      {
+        "answer": "I do not have any chest pain, heartburn, cough, shortness of breath, or need to urinate during the night.",
+        "topic": "Physical nocturnal symptoms"
+      },
+      {
+        "answer": "I tried an over-the-counter herbal sleep tea a month ago with no success, and I have not taken any prescription sleeping pills.",
+        "topic": "Sleep aids and medications tried"
+      },
+      {
+        "answer": "My bedroom is quiet, dark, and kept at a comfortable temperature, and I sleep alone in my room.",
+        "topic": "Bedroom environment"
+      },
+      {
+        "answer": "I thought maybe all the late-night screen time and caffeine at work just completely threw off my sleep rhythm.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I'm really worried that this constant exhaustion will cause me to mess up on the job and get fired.",
+        "topic": "Main worries and concerns"
+      },
+      {
+        "answer": "I'm hoping you can prescribe me some sleeping pills so I can finally get a full night of rest and reset my routine.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I have no chronic medical conditions and have always been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any regular prescription medications or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I work as a software engineer at a technology company and live alone in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are healthy, and no one in my family has a history of sleep disorders or mental health conditions.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/78 mmHg, pulse 72 beats/min, respiratory rate 14 breaths/min, temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, mildly tired-appearing young male with normal body habitus, body mass index 22.8 kg/m2, and normal neck circumference without crowded features.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and fully oriented; speech is fluent and coherent; affect is mildly anxious regarding sleep but congruent, with no thought disorder, delusions, or suicidal ideation.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Oropharynx is clear with normal tonsils, no mucosal erythema, and Mallampati class I airway without posterior pharyngeal crowding.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and smooth with no palpable nodules or thyromegaly.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with normal vesicular breath sounds and no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

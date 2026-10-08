@@ -1,0 +1,350 @@
+{
+  "id": "gs_026",
+  "system": "gs",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Nelson",
+  "age": 20,
+  "gender": "female",
+  "chief_complaint": "abdominal pain starting at navel moving to RLQ",
+  "hpi_details": "A 20-year-old female presents to the clinic with abdominal pain that started as a dull ache around the navel and has migrated to the right lower quadrant (RLQ) over the past 12 hours, now sharp and constant, with associated loss of appetite and mild nausea.",
+  "ideas": "She thinks she is experiencing severe menstrual cramps or a ruptured ovarian cyst.",
+  "concerns": "She is worried that she will need emergency surgery and miss her college final exams starting this week.",
+  "expectations": "She hopes to get an ultrasound to check her ovaries and strong pain relief so she can finish studying.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "point_of_care_pregnancy_test",
+      "title": "Point-of-care urine pregnancy test",
+      "order_terms": [
+        "pregnancy test",
+        "urine pregnancy test",
+        "urine hcg",
+        "hcg"
+      ],
+      "availability_message": "The point-of-care urine pregnancy test is now available.",
+      "results": [
+        {
+          "id": "urine_hcg",
+          "test": "Urine hCG",
+          "value": "Negative",
+          "reference_range": "Negative",
+          "flag": "normal",
+          "specimen": "Urine",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    },
+    {
+      "id": "urgent_appendicitis_imaging",
+      "title": "Urgent appendicitis imaging",
+      "order_terms": [
+        "appendix ultrasound",
+        "graded compression ultrasound",
+        "abdominal ultrasound",
+        "ct abdomen",
+        "ct abdomen and pelvis"
+      ],
+      "availability_message": "The urgent appendicitis imaging is now available; IV fluids, analgesia, antibiotics, and surgical consultation should not be delayed.",
+      "results": [
+        {
+          "id": "appendix_ultrasound",
+          "test": "Graded-compression appendix ultrasound",
+          "value": "Noncompressible blind-ending tubular structure measuring 9 mm with periappendiceal echogenic fat and focal probe tenderness; no abscess",
+          "flag": "abnormal",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Appendicitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Appendicitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes keeping the patient NPO, IV fluid resuscitation, and urgent surgical consultation for laparoscopic appendectomy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: abdominal pain starting at navel moving to RLQ",
+      "Key HPI features: A 20-year-old female presents to the clinic with abdominal pain that started as a dull ache around the navel and has migrated to the right lower quadrant (RLQ) over the past 12 hours, now sharp and constant, with associated loss of appetite and mild nausea.",
+      "Objective/Exam findings: Vitals: Temp 37.9C, HR 96, BP 118/74. Abdominal exam reveals tenderness and voluntary guarding at McBurney's point with a positive Rovsing's sign; no rebound or diffuse rigidity. Urine hCG pending. Bloods: WBC 12,500 /uL with left shift.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Appendicitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Gastroenteritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Diffuse rigidity — suggests perforation."
+    ],
+    "management_principles": [
+      "Keep the patient NPO, provide IV fluids and analgesia",
+      "Obtain urgent general surgery consultation for laparoscopic appendectomy",
+      "Counsel the patient on the diagnosis and the need for surgery"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "SAGES & ACS Evidence-Based Surgical Practice Guidelines",
+        "url": "https://www.facs.org/quality-programs/about-quality/evidence-based-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "20-year-old female presents with abdominal pain that started as a dull ache around the navel and has migrated to the right lower quadrant (RLQ) over the past 12 hours, now sharp and constant, with associated loss of appetite and mild nausea.",
+    "objective": "Vitals: Temp 37.9C, HR 96, BP 118/74. Abdominal exam reveals tenderness and voluntary guarding at McBurney's point with a positive Rovsing's sign; no rebound or diffuse rigidity. Urine hCG pending. Bloods: WBC 12,500 /uL with left shift.",
+    "assessment": "Acute appendicitis; gynecologic causes (e.g., ectopic pregnancy, ovarian torsion) must be excluded given her age and sex.",
+    "plan": "Keep NPO, establish IV access, provide fluids, analgesia, antiemetics, and urgent surgical assessment. Obtain CBC, urinalysis, and pregnancy testing before imaging/operative planning; use ultrasound and/or CT according to pregnancy status and local pathways. Consider gynecologic causes, including ectopic pregnancy, in the differential before appendectomy."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Acute Appendicitis",
+    "Select appropriate diagnostic workup for Acute Appendicitis",
+    "Implement evidence-based management plan: NPO, IV fluids, appendectomy (laparoscopic)"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Appendicitis",
+    "one_liner": "Obstruction of the appendiceal lumen causing pain migrating from the umbilicus to the right lower quadrant.",
+    "differentials": [
+      "Gastroenteritis",
+      "Mesenteric adenitis",
+      "Ectopic pregnancy / ovarian cyst or torsion"
+    ],
+    "red_flags": [
+      "Diffuse rigidity — suggests perforation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Migration of the pain",
+        "say": "Did the pain move from your belly button to your lower right side?",
+        "domains": [
+          "location",
+          "progression"
+        ],
+        "keywords": [
+          "migrate",
+          "moved"
+        ]
+      },
+      {
+        "objective": "Onset",
+        "say": "When did the pain start?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Associated symptoms",
+        "say": "Any loss of appetite, nausea, or fever?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "appetite",
+          "nausea",
+          "fever"
+        ]
+      },
+      {
+        "objective": "Aggravating movement",
+        "say": "Does walking or coughing make it worse?",
+        "domains": [
+          "aggravating"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 96,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 37.9
+    },
+    "history": [
+      {
+        "answer": "My stomach started aching around my belly button about 12 hours ago, and now the pain has moved down to my lower right side and feels much worse.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It began gradually about 12 hours ago as a dull stomachache, but over the last few hours it became sharp and constant.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "At first it was right around my belly button, but then it shifted down to the lower right side of my belly.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "No, it stays right there in my lower right abdomen and doesn't shoot to my back, shoulder, or groin.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It started as a dull, crampy ache, but right now it feels like a steady, sharp pain.",
+        "topic": "Character of pain"
+      },
+      {
+        "answer": "Around my belly button it was about a 3 out of 10, but now in the lower right side it is around a 7 out of 10.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Walking around, coughing, or bumping the bed makes it hurt a lot more, so I feel best lying completely still with my legs curled up.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have never had stomach pain like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I completely lost my appetite today and couldn't even think about eating breakfast or lunch.",
+        "topic": "Loss of appetite"
+      },
+      {
+        "answer": "I felt mildly nauseous after the pain started, but I haven't actually thrown up.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "I had a normal bowel movement yesterday morning, and I've passed a little bit of gas today, but no diarrhea or blood.",
+        "topic": "Bowel habits and gas"
+      },
+      {
+        "answer": "I've been feeling slightly feverish and warm since this morning, but I haven't had shaking chills.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my skin and eyes look normal, and my urine hasn't turned dark.",
+        "topic": "Jaundice and stool changes"
+      },
+      {
+        "answer": "No burning or pain when I pee, no blood, and I am not going to the bathroom more often than usual.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I haven't felt dizzy or faint at all.",
+        "topic": "Dizziness or fainting"
+      },
+      {
+        "answer": "No unusual vaginal bleeding, spotting, or strange discharge.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "My last period started about two weeks ago, and my cycles are very regular every 28 days.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "I am sexually active with my boyfriend, but we always use condoms consistently and my period was totally normal.",
+        "topic": "Contraception and pregnancy possibility"
+      },
+      {
+        "answer": "No, no chest discomfort, palpitations, or shortness of breath.",
+        "topic": "Chest pain or breathing"
+      },
+      {
+        "answer": "I had regular pasta for dinner last night, nothing particularly greasy or spicy, and no alcohol.",
+        "topic": "Recent food and alcohol"
+      },
+      {
+        "answer": "I haven't taken any pain medicine, ibuprofen, or aspirin because I didn't want to upset my stomach further.",
+        "topic": "Painkillers or anti-inflammatory drugs"
+      },
+      {
+        "answer": "I don't have any chronic medical illnesses like high blood pressure, diabetes, or heart conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any surgeries, and I've never been admitted to a hospital before.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "I don't take any prescription medications, birth control pills, or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I don't smoke cigarettes, and I've never used e-cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe one glass of beer or wine once or twice a month with friends.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a college student living in a dormitory with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No major health conditions run in my family; my parents and brother are healthy, and no one has bowel diseases.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I thought it was just really bad menstrual cramps or maybe an ovarian cyst acting up. I have college final exams starting in two days, and I'm terrified that needing surgery will make me fail my semester.",
+        "topic": "Patient thoughts and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient appears in moderate discomfort, lying still on the examination bed with her right knee slightly bent.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 118/74 mmHg, pulse 96 beats per minute, temperature 37.9 C, respiratory rate 16 breaths per minute, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor; sclerae are white and anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "The abdomen is flat and symmetric with no surgical scars, rashes, distension, or visible peristalsis.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bowel sounds are present in all four quadrants, though slightly hypoactive, with no abdominal bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft overall, but there is marked localized tenderness and voluntary guarding at McBurney's point in the right lower quadrant; no diffuse rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness is elicited upon gentle release.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Positive Rovsing's sign with referred pain in the right lower quadrant upon palpation of the left lower quadrant, and pain on right psoas stretch.",
+        "maneuver": "appendicitis_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "Negative Murphy's sign with no tender arrest on deep inspiration during right upper quadrant palpation.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on percussion bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      }
+    ]
+  }
+}

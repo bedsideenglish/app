@@ -1,0 +1,322 @@
+{
+  "id": "ps_027",
+  "system": "ps",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Ramirez",
+  "age": 23,
+  "gender": "male",
+  "chief_complaint": "non-healing scaly bleeding red patch on scalp",
+  "hpi_details": "A 23-year-old male presents with a non-healing, scaly, bleeding red patch that developed within an old childhood scalp burn scar, gradually enlarging over the past several months.",
+  "ideas": "He thinks his old burn scar cracked open and started bleeding because his safety helmet kept rubbing against it at work.",
+  "concerns": "He is worried that the sore will become infected and prevent him from wearing his hard hat, jeopardizing his job at the construction site.",
+  "expectations": "He hopes to receive a prescription antibiotic ointment and protective bandages to help the cracked skin finally close.",
+  "pmh": "Childhood scalp burn injury (age 8) treated with skin grafting, with the graft/scar site now showing malignant-appearing changes",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Squamous Cell Carcinoma scalp evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Squamous Cell Carcinoma scalp is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes biopsy confirmation followed by wide local excision with margins, recognizing that SCC arising in a chronic burn scar (Marjolin ulcer) behaves more aggressively and carries higher metastatic risk than typical sun-related SCC, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: non-healing scaly bleeding red patch on scalp",
+      "Key HPI features: A 23-year-old male presents with a non-healing, scaly, bleeding red patch that developed within an old childhood scalp burn scar, gradually enlarging over the past several months.",
+      "Objective/Exam findings: Vitals normal. Ulcerated, indurated, scaly plaque with rolled, everted edges arising within a hypopigmented burn scar on the scalp; friable with bleeding on contact. No overlying hair growth within the lesion. Palpation of cervical/occipital lymph nodes for regional spread.",
+      "Relevant background/PMH: Childhood scalp burn injury (age 8) treated with skin grafting, with the graft/scar site now showing malignant-appearing changes"
+    ],
+    "common_misconceptions": [
+      "Assuming SCC only arises from chronic sun damage in older patients and missing SCC arising in a chronic wound or burn scar (Marjolin ulcer) in a younger patient.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: a lesion fixed to deep tissue/bone, regional lymphadenopathy, or rapid enlargement within a burn scar."
+    ],
+    "management_principles": [
+      "SCC arising in a chronic wound/scar (Marjolin ulcer) is rare but should be suspected in a non-healing lesion within an old burn scar, even in a young patient",
+      "Confirm the diagnosis with a full-thickness (punch or incisional) biopsy sampling the ulcer edge and base",
+      "Perform wide local excision with margins wider than typical sun-related SCC given the more aggressive behavior and higher metastatic potential of Marjolin ulcer, with nodal staging/imaging if there is palpable lymphadenopathy or high-risk features",
+      "Refer to plastic surgery for excision and reconstruction planning, and arrange long-term surveillance given the elevated recurrence and metastasis risk."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "A 23-year-old male presents with a non-healing, scaly, bleeding red patch that developed within an old childhood scalp burn scar, gradually enlarging over the past several months.",
+    "objective": "Vitals normal. Ulcerated, indurated, scaly plaque with rolled, everted edges arising within a hypopigmented burn scar on the scalp; friable with bleeding on contact. No overlying hair growth within the lesion. No palpable cervical/occipital lymphadenopathy.",
+    "assessment": "Non-healing ulcerated plaque within a chronic burn scar, highly suspicious for squamous cell carcinoma arising in the scar (Marjolin ulcer), pending biopsy confirmation.",
+    "plan": "Confirm with a full-thickness biopsy of the ulcer edge and base. If confirmed, perform wide local excision with margins wider than typical sun-related SCC given the more aggressive behavior of Marjolin ulcer, with nodal staging if lymphadenopathy is present. Refer to plastic surgery for excision and reconstruction planning, and arrange long-term surveillance."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Squamous Cell Carcinoma scalp, including SCC arising in a chronic burn scar (Marjolin ulcer) in a young patient",
+    "Select appropriate diagnostic workup for Squamous Cell Carcinoma scalp",
+    "Implement evidence-based management plan: Biopsy, wide local surgical excision with margins"
+  ],
+  "teaching": {
+    "diagnosis": "Squamous Cell Carcinoma scalp",
+    "one_liner": "Plastic and reconstructive surgical case presenting with non-healing scaly bleeding red patch on scalp.",
+    "differentials": [
+      "Actinic keratosis",
+      "Basal cell carcinoma of the scalp",
+      "Seborrheic keratosis",
+      "Psoriatic plaque"
+    ],
+    "red_flags": [
+      "Fixation to underlying bone/deep tissue (possible calvarial invasion) or new neurological signs",
+      "Palpable regional (cervical/occipital) lymphadenopathy or rapid enlargement of the lesion"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sun exposure and risk factors",
+        "say": "Do you spend a lot of time in the sun, and do you usually wear a hat?",
+        "domains": [
+          "social_hx",
+          "living_work"
+        ],
+        "keywords": [
+          "sun",
+          "exposure",
+          "hat",
+          "outdoor",
+          "risk"
+        ]
+      },
+      {
+        "objective": "Lesion duration and growth",
+        "say": "How long has this patch been there, and has it been growing?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ],
+        "keywords": [
+          "duration",
+          "growing",
+          "patch",
+          "months",
+          "size"
+        ]
+      },
+      {
+        "objective": "Bleeding and crusting pattern",
+        "say": "Does it bleed or crust over, and does that happen easily?",
+        "domains": [
+          "character",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bleeding",
+          "crusting",
+          "easily",
+          "scaly",
+          "discharge"
+        ]
+      },
+      {
+        "objective": "Fatigue and other systemic symptoms",
+        "say": "Have you had any unexplained fatigue, weight loss, or other new symptoms?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fatigue",
+          "weight loss",
+          "systemic",
+          "tired",
+          "symptoms"
+        ]
+      },
+      {
+        "objective": "Chronic wound or burn scar at the site",
+        "say": "Did this patch develop within an old scar, burn, or wound at that spot?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "scar",
+          "burn",
+          "wound",
+          "history",
+          "chronic"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I noticed a rough, red scab on my head that keeps bleeding when I touch it, and it just will not heal.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about four months ago as a tiny rough spot and has been gradually spreading ever since.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is located on the top of my scalp, right in the center of an old burn scar from my childhood.",
+        "topic": "Location of the lesion"
+      },
+      {
+        "answer": "It has grown steadily over the past few months, becoming noticeably wider, thicker, and more raised.",
+        "topic": "Progression and size changes"
+      },
+      {
+        "answer": "There is only this single spot on my scalp; I do not have any other sores or lumps on my body.",
+        "topic": "Number of lesions"
+      },
+      {
+        "answer": "It feels very firm and hard, and it seems stuck to the tissue underneath rather than moving freely when pressed.",
+        "topic": "Texture and mobility"
+      },
+      {
+        "answer": "It feels sore and tender when I wash my hair or comb over it, but it does not throb when left alone.",
+        "topic": "Pain or tenderness"
+      },
+      {
+        "answer": "It started as a reddish scaly mark, and now the edges look thickened and rolled outward with an open center.",
+        "topic": "Appearance and edge changes"
+      },
+      {
+        "answer": "It crusts over repeatedly, but whenever the crust catches on something or gets washed, it peels off and bleeds easily.",
+        "topic": "Bleeding and crusting pattern"
+      },
+      {
+        "answer": "No, there is no foul-smelling drainage, yellow pus, or sensation of heat around the sore.",
+        "topic": "Discharge and signs of infection"
+      },
+      {
+        "answer": "No, there is no visible central hole, and nothing cheesy or pasty comes out if it is pressed.",
+        "topic": "Central pore or discharge"
+      },
+      {
+        "answer": "No, it has never swollen up and shrunk back down; it has only gotten progressively larger.",
+        "topic": "Fluctuation in size"
+      },
+      {
+        "answer": "When I was eight years old, I suffered a severe hot-water burn on my scalp and underwent skin graft surgery.",
+        "topic": "Previous injury or scar"
+      },
+      {
+        "answer": "I work outdoors on construction sites, but my hard hat covers my head all day, so my scalp has not had significant sun exposure or severe sunburns.",
+        "topic": "Sun exposure history"
+      },
+      {
+        "answer": "No, I have not had any fevers, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my energy level has been normal and my weight has remained completely stable.",
+        "topic": "Fatigue and weight changes"
+      },
+      {
+        "answer": "No, I checked behind my ears and along my neck and have not felt any swollen glands or bumps.",
+        "topic": "Lumps in neck or elsewhere"
+      },
+      {
+        "answer": "I put some over-the-counter petroleum jelly on it to keep it soft, but I have not squeezed it or seen a doctor for it yet.",
+        "topic": "Prior treatments or picking"
+      },
+      {
+        "answer": "I have never had skin cancer, and to my knowledge, nobody in my family has ever had skin cancer or atypical moles.",
+        "topic": "Personal or family cancer history"
+      },
+      {
+        "answer": "No, I do not have diabetes, I have never had an organ transplant, and I do not take steroid or immune-suppressing drugs.",
+        "topic": "Medical conditions and immune status"
+      },
+      {
+        "answer": "I thought my old burn scar was just splitting open because my work helmet keeps rubbing hard against that spot.",
+        "topic": "Patient thoughts on diagnosis"
+      },
+      {
+        "answer": "I'm worried this sore will keep oozing and stop me from wearing my hard hat, which would cost me work hours on site.",
+        "topic": "Patient primary concerns"
+      },
+      {
+        "answer": "I was hoping you could give me a healing ointment and some good bandages to help the skin finally close up.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "Except for the childhood burn and skin graft, I have never had any chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I was hospitalized at age eight for the burn surgery and skin grafting, but I have not had any other surgeries or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter medicines, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or latex.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially, maybe a beer or two once or twice a month when meeting friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a construction worker, and I live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are alive and healthy, and there is no family history of skin cancer, other cancers, or chronic illnesses.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 118/76 mmHg, heart rate is 72 beats per minute, respiratory rate is 14 breaths per minute, body temperature is 36.6°C, and oxygen saturation is 99% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient appears well-nourished, alert, and in no acute physical distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Scalp examination reveals an ulcerated, indurated, scaly plaque with rolled, everted edges arising within an old hypopigmented burn scar, firm and tethered to the underlying tissue with contact bleeding and absent hair growth.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Palpation of the occipital, retroauricular, and cervical lymph node chains reveals no enlargement, tenderness, or fixity.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Full-body skin examination across the face, trunk, and extremities shows normal skin turgor with no additional nodules, ulcers, or irregular pigmented lesions.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

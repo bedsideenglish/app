@@ -1,0 +1,316 @@
+{
+  "id": "allergy_036",
+  "system": "allergy",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Thomas",
+  "age": 50,
+  "gender": "female",
+  "chief_complaint": "itchy linear blisters on legs after hiking in woods",
+  "hpi_details": "A 50-year-old female presents to the clinic with itchy linear blisters on legs after hiking in woods. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she was bitten along the trail by biting mites or brush spiders hiding in the tall grass.",
+  "concerns": "She is worried that scratching the oozing blisters will cause a severe skin infection and leave permanent scars on her legs.",
+  "expectations": "She hopes to get a strong prescription cream or lotion to stop the intense itching so she can sleep tonight.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Poison Ivy Contact Dermatitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Poison Ivy Contact Dermatitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Poison Ivy Contact Dermatitis: Topical Clobetasol cream or oral Prednisone taper if severe, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: itchy linear blisters on legs after hiking in woods",
+      "Key HPI features: A 50-year-old female presents to the clinic with itchy linear blisters on legs after hiking in woods. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Poison Ivy Contact Dermatitis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Poison Ivy Contact Dermatitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Insect bites without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Widespread involvement of the face or genitals, or signs of secondary infection."
+    ],
+    "management_principles": [
+      "Plan for Poison Ivy Contact Dermatitis: Topical Clobetasol cream or oral Prednisone taper if severe",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "World Allergy Organization (WAO) Anaphylaxis & Angioedema Guidelines",
+        "url": "https://www.worldallergy.org/education-and-programs/education/allergic-disease-resource-center/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of itchy linear blisters on legs after hiking in woods. HPI: Type IV delayed-type hypersensitivity (urushiol).",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Poison Ivy Contact Dermatitis.",
+    "assessment": "Condition highly suspicious for Poison Ivy Contact Dermatitis.",
+    "plan": "Plan for Poison Ivy Contact Dermatitis: Topical Clobetasol cream or oral Prednisone taper if severe. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Poison Ivy Contact Dermatitis",
+    "Select appropriate diagnostic workup for Poison Ivy Contact Dermatitis",
+    "Implement evidence-based management plan: Topical Clobetasol cream or oral Prednisone taper if severe"
+  ],
+  "teaching": {
+    "diagnosis": "Poison Ivy Contact Dermatitis",
+    "one_liner": "A Type IV delayed hypersensitivity reaction to urushiol oil causing an intensely itchy, linear blistering rash where the plant brushed the skin.",
+    "differentials": [
+      "Insect bites",
+      "Herpes zoster (shingles)",
+      "Allergic contact dermatitis from another plant/chemical"
+    ],
+    "red_flags": [
+      "Widespread involvement of the face or genitals, or signs of secondary infection"
+    ],
+    "must_ask": [
+      {
+        "objective": "Exposure history",
+        "say": "Were you hiking or in the woods recently — did you brush against any plants?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "hiking",
+          "woods",
+          "plant"
+        ]
+      },
+      {
+        "objective": "Rash pattern",
+        "say": "Is the rash in streaks or lines where your skin brushed something?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "linear",
+          "streaks",
+          "lines"
+        ]
+      },
+      {
+        "objective": "Itch and blistering",
+        "say": "How itchy is it, and are there blisters?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "itchy",
+          "blisters"
+        ]
+      },
+      {
+        "objective": "Extent of exposure",
+        "say": "Did the rash spread to other areas after the first day?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "spread"
+        ]
+      },
+      {
+        "objective": "Prior reactions to poison ivy",
+        "say": "Have you had a reaction to poison ivy before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "before",
+          "poison ivy"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 74,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "Doctor, I went hiking two days ago, and now I have these terribly itchy blisters breaking out in lines along my lower legs.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The redness and itching started yesterday morning, about a day after the hike, and by last night it blistered and got much worse.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is on the front and sides of both of my lower legs and calves, right where my bare skin was exposed.",
+        "topic": "Rash location and distribution"
+      },
+      {
+        "answer": "They look like red swollen stripes with clusters of small fluid-filled bumps and blisters running along the lines.",
+        "topic": "Appearance of the rash"
+      },
+      {
+        "answer": "The itching is intense and keeps me from sleeping, and it burns a little, but I had no tingling or shooting pain before it appeared.",
+        "topic": "Itching and skin sensations"
+      },
+      {
+        "answer": "No, once the bumps and blisters show up, they stay in place; they don't vanish after a few hours or move around.",
+        "topic": "Transient hives or shifting"
+      },
+      {
+        "answer": "I had a mild poison ivy rash many years ago in my twenties after camping, but nothing this severe since then.",
+        "topic": "Prior similar rash episodes"
+      },
+      {
+        "answer": "I haven't had any fever or chills, but I've been feeling unusually tired and worn out since yesterday.",
+        "topic": "Fever, chills, and fatigue"
+      },
+      {
+        "answer": "No, my eyes, mouth, and lips feel completely normal, with no sores, ulcers, or irritation.",
+        "topic": "Mouth and eye sores"
+      },
+      {
+        "answer": "No, the skin is not peeling off in sheets, and there are no dark purple spots or bruises.",
+        "topic": "Skin peeling and purple spots"
+      },
+      {
+        "answer": "No, my face, lips, and tongue are not swollen at all, and I have no trouble breathing or swallowing.",
+        "topic": "Facial swelling and breathing"
+      },
+      {
+        "answer": "No, I haven't started taking any new prescription drugs, antibiotics, painkillers, or herbal products.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No, I haven't changed my laundry detergent, body wash, or lotions, and I haven't worn any new jewelry.",
+        "topic": "Household chemicals and cosmetics"
+      },
+      {
+        "answer": "I was hiking off the trail through dense woods two days ago wearing shorts, and my bare legs definitely brushed against some thick shrubs.",
+        "topic": "Outdoor exposure and brush contact"
+      },
+      {
+        "answer": "I didn't notice any bug bites or ticks, and there aren't individual bite marks with little puncture dots in the middle.",
+        "topic": "Insect or tick bites"
+      },
+      {
+        "answer": "My friend who went hiking with me wore long pants and thick socks, and she has no rash at all.",
+        "topic": "Similar symptoms in companions"
+      },
+      {
+        "answer": "I don't have a history of eczema, asthma, hay fever, or any chronic skin conditions.",
+        "topic": "History of allergies"
+      },
+      {
+        "answer": "No, my joints don't ache or swell, and my fingernails and toenails look completely normal.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I washed my legs with cool water and dabbed some calamine lotion on them this morning, but it didn't help the itching much.",
+        "topic": "Topical creams and home remedies"
+      },
+      {
+        "answer": "I have been married to my husband for over twenty years, and I don't have any blisters or sores down there.",
+        "topic": "Sexual history and genital sores"
+      },
+      {
+        "answer": "I thought some kind of biting trail bugs or mites must have crawled onto my legs while I was walking through the brush.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I'm really worried that scratching these blisters will lead to a bad infection and leave permanent scars on my legs.",
+        "topic": "Worries and concerns"
+      },
+      {
+        "answer": "I really just want a strong prescription cream to calm this burning itch so I can finally get some sleep tonight.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I don't have any chronic medical illnesses, no high blood pressure or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery or stayed in a hospital, except when I gave birth to my two children.",
+        "topic": "Past surgeries and hospital stays"
+      },
+      {
+        "answer": "I don't take any regular medications, over-the-counter pills, or dietary supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I have no known allergies to any medicines, latex, or foods.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have a glass of wine socially once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office manager and live with my husband in a house.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents have mild high blood pressure, but no one in my family has psoriasis or autoimmune skin diseases.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period was two weeks ago, my periods are regular every twenty-eight days, and there is no chance I could be pregnant.",
+        "topic": "Menstrual cycle and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 120/78 mmHg, pulse is 74 beats per minute, respiratory rate is 16 breaths per minute, temperature is 36.8°C, and oxygen saturation is 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented female in mild distress due to skin itching, actively scratching her lower legs, with no respiratory distress or facial edema.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Erythematous linear plaques with clustered tense vesicles and small bullae along the anterior and lateral lower legs; lesions are tender to palpation with no honey-colored crusts, purpura, or epidermal detachment.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Oral mucosa and lips are pink and moist without erosions, vesicles, ulcerations, or pharyngeal erythema.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are clear without injection or exudate, and periorbital skin is intact without rash or edema.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable anterior or posterior cervical, submandibular, or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "External genitalia are normal without erythema, erosions, vesicles, or discharge.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

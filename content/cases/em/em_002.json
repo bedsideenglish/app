@@ -1,0 +1,394 @@
+{
+  "id": "em_002",
+  "system": "emergency medicine",
+  "difficulty": "advanced",
+  "eval_template": "emergency_encounter",
+  "care_setting": "emergency_department",
+  "patient_name": "Ms. Baker",
+  "age": 26,
+  "gender": "female",
+  "chief_complaint": "sudden excruciating right lower quadrant abdominal pain, syncope, hypotension, and positive urine pregnancy test (Ruptured Ectopic Pregnancy)",
+  "hpi_details": "26F brought by boyfriend after collapsing (syncope) in her bathroom. Reports 2 hours of sudden, excruciating, sharp stabbing pain in her right lower abdomen and pelvic area accompanied by left shoulder blade tip pain. Patient missed her last menstrual period 6 weeks ago and noticed mild dark vaginal spotting yesterday. Currently dizzy, weak, and lightheaded.",
+  "ideas": "terrified by sudden fainting and agonizing abdominal pain",
+  "concerns": "feeling faint and cold, worried she has a burst appendix or internal bleeding",
+  "expectations": "wants immediate emergency IV fluids and diagnosis",
+  "pmh": "No prior surgeries or pregnancies, history of Chlamydia infection treated age 20",
+  "medications": "None",
+  "social_hx": "Graduate student, non-smoker",
+  "investigation_events": [
+    {
+      "id": "point_of_care_pregnancy_test",
+      "title": "Point-of-care urine pregnancy test",
+      "order_terms": [
+        "pregnancy test",
+        "urine pregnancy test",
+        "urine hcg",
+        "beta hcg"
+      ],
+      "availability_message": "The point-of-care urine pregnancy test is now available.",
+      "results": [
+        {
+          "id": "urine_hcg",
+          "test": "Urine hCG",
+          "value": "Positive",
+          "flag": "critical",
+          "specimen": "Urine",
+          "collected_at": "At bedside"
+        }
+      ]
+    },
+    {
+      "id": "bedside_pelvic_ultrasound",
+      "title": "Bedside pelvic ultrasound",
+      "order_terms": [
+        "bedside ultrasound",
+        "pelvic ultrasound",
+        "point of care ultrasound",
+        "pocus",
+        "fast scan",
+        "fast exam"
+      ],
+      "availability_message": "The bedside pelvic ultrasound result is now available.",
+      "results": [
+        {
+          "id": "pelvic_pocus",
+          "test": "Pelvic POCUS / FAST",
+          "value": "4.5 cm complex right adnexal mass with a large volume of echogenic free fluid in the pouch of Douglas and Morison's pouch",
+          "flag": "critical",
+          "collected_at": "At bedside"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Ruptured Ectopic Pregnancy evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Ruptured Ectopic Pregnancy is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes hemodynamic resuscitation with large-bore IV access and blood products, followed by emergent surgical control of the bleeding via laparoscopy/laparotomy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden excruciating right lower quadrant abdominal pain, syncope, hypotension, and positive urine pregnancy test (Ruptured Ectopic Pregnancy)",
+      "Key HPI features: 26F brought by boyfriend after collapsing (syncope) in her bathroom. Reports 2 hours of sudden, excruciating, sharp stabbing pain in her right lower abdomen and pelvic area accompanied by left shoulder blade tip pain. Patient missed her last menstrual period 6 weeks ago and noticed mild dark vaginal spotting yesterday. Currently dizzy, weak, and lightheaded.",
+      "Objective/Exam findings: Vitals: HR 128 (sinus tachycardia), BP 82/50 (profound hypotension / hemorrhagic shock), RR 22, SpO2 97%. Abdominal examination reveals distension, diffuse peritoneal signs with severe guarding and rebound tenderness, most pronounced in the right lower quadrant. Pelvic exam reveals dark blood in vaginal vault and exquisite cervical motion tenderness (Chandelier sign). Bedside Urine Pregnancy Test (hCG) is POSITIVE. Bedside FAST (Focused Assessment with Sonography for Trauma / Pelvic Ultrasound) reveals complex right adnexal mass measuring 4.5 cm with significant free echogenic fluid (blood) pooling in the Pouch of Douglas and Morison's pouch.",
+      "Relevant background/PMH: No prior surgeries or pregnancies, history of Chlamydia infection treated age 20"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Ruptured Ectopic Pregnancy.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Ruptured ovarian cyst without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Syncope with abdominal pain and a missed period — assume ectopic pregnancy until ruled out."
+    ],
+    "management_principles": [
+      "STAT surgical emergency",
+      "Hemodynamic resuscitation: immediately establish two large-bore (14- or 16-gauge) peripheral IVs, initiate rapid warmed crystalloid infusion, order STAT Type and Crossmatch for 4 units Packed Red Blood Cells (PRBCs) and activate Massive Transfusion Protocol if unresponsive",
+      "Immediate OB/GYN surgical consultation and transfer directly to the Operating Room for emergency Exploratory Laparoscopy/Laparotomy and Salpingectomy to arrest active arterial hemorrhage"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "26F presenting with acute severe pelvic pain, syncope, amenorrhea (6 weeks), and vaginal spotting with referred shoulder pain, classic for Ruptured Ectopic Pregnancy causing hemoperitoneum.",
+    "objective": "Vitals: HR 128 (sinus tachycardia), BP 82/50 (profound hypotension / hemorrhagic shock), RR 22, SpO2 97%. Abdominal examination reveals distension, diffuse peritoneal signs with severe guarding and rebound tenderness, most pronounced in the right lower quadrant. Pelvic exam reveals dark blood in vaginal vault and exquisite cervical motion tenderness (Chandelier sign). Bedside Urine Pregnancy Test (hCG) is POSITIVE. Bedside FAST (Focused Assessment with Sonography for Trauma / Pelvic Ultrasound) reveals complex right adnexal mass measuring 4.5 cm with significant free echogenic fluid (blood) pooling in the Pouch of Douglas and Morison's pouch.",
+    "assessment": "Ruptured Right Tubal Ectopic Pregnancy with Hemoperitoneum and Class III Hemorrhagic Shock.",
+    "plan": "STAT surgical emergency: 1. Hemodynamic resuscitation: immediately establish two large-bore (14- or 16-gauge) peripheral IVs, initiate rapid warmed crystalloid infusion, order STAT Type and Crossmatch for 4 units Packed Red Blood Cells (PRBCs) and activate Massive Transfusion Protocol if unresponsive. 2. Immediate OB/GYN surgical consultation and transfer directly to the Operating Room for emergency Exploratory Laparoscopy/Laparotomy and Salpingectomy to arrest active arterial hemorrhage. 3. Administer Rho(D) Immune Globulin (RhoGAM) if maternal blood type is Rh-negative."
+  },
+  "learning_objectives": [
+    "Recognize the classic clinical triad of Ectopic Pregnancy (amenorrhea, vaginal bleeding/spotting, and acute abdominal/pelvic pain) and red flags for rupture (syncope, shoulder tip pain from diaphragmatic irritation by intraperitoneal blood, hemorrhagic shock)",
+    "Execute immediate hemodynamic stabilization protocols in hemorrhagic shock (two large-bore IVs, Type and Crossmatch, balanced blood product resuscitation over crystalloids)",
+    "Understand the definitive diagnostic role of bedside pelvic ultrasound / FAST exam combined with pregnancy testing in acute female lower abdominal pain",
+    "Coordinate rapid emergency transfer to the operating room for definitive surgical control (laparoscopic salpingectomy) in ruptured ectopic pregnancy without delaying for quantitative serum beta-hCG titration"
+  ],
+  "teaching": {
+    "diagnosis": "Ruptured Ectopic Pregnancy",
+    "one_liner": "A pregnancy implanted outside the uterus (usually the fallopian tube) ruptures, causing sudden severe pelvic pain and internal bleeding — a true surgical emergency in any woman of reproductive age with a missed period and abdominal pain.",
+    "differentials": [
+      "Ruptured ovarian cyst",
+      "Appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "red_flags": [
+      "Syncope with abdominal pain and a missed period — assume ectopic pregnancy until ruled out"
+    ],
+    "must_ask": [
+      {
+        "objective": "Last menstrual period",
+        "say": "When was your last period, and was it normal?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "missed period",
+          "last period"
+        ]
+      },
+      {
+        "objective": "Pain character and location",
+        "say": "Where exactly is the pain, and does it spread to your shoulder?",
+        "domains": [
+          "location",
+          "radiation"
+        ],
+        "keywords": [
+          "shoulder tip"
+        ]
+      },
+      {
+        "objective": "Vaginal bleeding",
+        "say": "Have you had any vaginal spotting or bleeding?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "spotting",
+          "bleeding"
+        ]
+      },
+      {
+        "objective": "Syncope and dizziness",
+        "say": "Did you actually pass out, or just feel dizzy?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "syncope",
+          "faint"
+        ]
+      },
+      {
+        "objective": "Pregnancy and STI risk factors",
+        "say": "Have you had any prior pregnancies, or a history of chlamydia or other infections?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "chlamydia",
+          "pelvic infection"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "82/50",
+      "hr": 128,
+      "rr": 22,
+      "spo2": 97,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My right lower belly suddenly started hurting terribly two hours ago, and then I passed out in the bathroom.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It came on all of a sudden about two hours ago while I was at home, starting with a terrible sharp pain.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It is mostly in my right lower belly and across my pelvic area, and it hasn't moved anywhere else.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "Yes, my left shoulder tip has been aching really badly ever since the belly pain started.",
+        "topic": "Radiating pain"
+      },
+      {
+        "answer": "It feels like an excruciating, sharp stabbing pain that never lets up.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "It is a ten out of ten, the worst pain I have ever felt in my life.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Moving, coughing, or even taking a deep breath makes it much worse, and nothing makes it better.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have never experienced anything even close to this kind of pain before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I felt sick to my stomach from the intense pain, but I haven't actually thrown up.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "I had a normal bowel movement this morning, and there was no diarrhea or blood in my stool.",
+        "topic": "Bowel habits and stool"
+      },
+      {
+        "answer": "No, I haven't had any fever or chills, but I feel very cold and clammy right now.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my eyes and skin are not yellow, and my urine and stool look normal in color.",
+        "topic": "Jaundice or color changes"
+      },
+      {
+        "answer": "No, it does not burn when I pee, and I haven't seen any blood in my urine.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "I stood up from the toilet and completely passed out about an hour ago, and I still feel terribly dizzy and faint.",
+        "topic": "Dizziness and syncope"
+      },
+      {
+        "answer": "I noticed a small amount of dark brown spotting on my underwear yesterday, but no heavy bleeding.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "No chest pain, but I feel short of breath because breathing deeply hurts my stomach so much.",
+        "topic": "Chest pain or breathlessness"
+      },
+      {
+        "answer": "I just had a light sandwich last night, nothing greasy, and I haven't had any alcohol.",
+        "topic": "Recent food and alcohol"
+      },
+      {
+        "answer": "No, I haven't taken any ibuprofen, aspirin, or any other painkillers today.",
+        "topic": "Pain medication or aspirin"
+      },
+      {
+        "answer": "No, I have never had an irregular heart rhythm, heart disease, or any blood vessel problems.",
+        "topic": "Cardiovascular history"
+      },
+      {
+        "answer": "My last normal menstrual period started about six weeks ago, so I am about two weeks late.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "My periods are usually regular every 28 days and last about five days.",
+        "topic": "Menstrual cycle history"
+      },
+      {
+        "answer": "We don't use birth control pills, mostly just condoms or pulling out, but we aren't always consistent.",
+        "topic": "Contraception method"
+      },
+      {
+        "answer": "Yes, since my period is late and we had unprotected sex, I could be pregnant.",
+        "topic": "Possibility of pregnancy"
+      },
+      {
+        "answer": "I am sexually active with my boyfriend of two years.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I had a chlamydia infection when I was twenty, but I took antibiotics and it was cured; otherwise I've been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "No, I have never had any surgeries and I have never been hospitalized before.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter drugs, or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or latex that I know of.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a glass of wine on social occasions, and I haven't had a drink in over a week.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a full-time graduate student and I live in an apartment with my boyfriend.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are healthy, and there is no family history of bleeding disorders or early heart problems.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I am terrified because I suddenly passed out and the pain is tearing through my stomach.",
+        "topic": "Thoughts and feelings"
+      },
+      {
+        "answer": "I feel freezing cold and weak, and I am worried that my appendix burst or I'm bleeding inside.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I need you to give me fluids right away, find out what is wrong, and stop the pain.",
+        "topic": "Patient expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 82/50 mmHg, heart rate is 128 beats per minute, respiratory rate is 22 breaths per minute, oxygen saturation is 97% on room air, and temperature is 36.6°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Pale, diaphoretic young female lying still in acute distress, looking lethargic and weak.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are markedly pale; sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Mild abdominal distension noted without visible masses or surgical scars.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hypoactive bowel sounds heard throughout all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Rigid abdomen with diffuse guarding, most exquisitely tender in the right lower quadrant and suprapubic region.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Severe rebound tenderness elicited diffusely across the lower abdomen, most pronounced in the right lower quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked tenderness over McBurney's point; psoas and obturator maneuvers elicit excruciating lower abdominal pain.",
+        "maneuver": "appendicitis_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "No tenderness elicited on percussion over either costovertebral angle.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Small pool of dark blood in the vaginal vault, marked right adnexal fullness, and exquisite cervical motion tenderness.",
+        "maneuver": "pelvic_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Radial and dorsalis pedis pulses are rapid, thready, and weak bilaterally, with cool, clammy extremities.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "id": "obgyn_023",
+  "system": "obstetrics & gynecology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lim",
+  "age": 24,
+  "gender": "female",
+  "chief_complaint": "sudden left-sided pelvic pain, mild nausea, and history of ovarian cyst",
+  "hpi_details": "24F reports sudden, sharp pain in her left lower abdomen that started 4 hours ago. Pain is constant, accompanied by mild nausea. Denies vaginal bleeding. Missed her period 2 weeks ago.",
+  "ideas": "thinks she has a ruptured ovarian cyst or appendicitis",
+  "concerns": "worried about internal bleeding",
+  "expectations": "wants pelvic ultrasound and scan",
+  "pmh": "Left ovarian cyst diagnosed on ultrasound 1 year ago",
+  "medications": "None",
+  "social_hx": "Student, non-smoker",
+  "investigation_events": [{
+    "id": "urgent_acute_pelvic_pain_workup",
+    "title": "Urgent pregnancy test and pelvic ultrasound",
+    "order_terms": ["pregnancy test", "urine hCG", "beta hCG", "pelvic ultrasound", "transvaginal ultrasound", "TVUS", "ovarian Doppler"],
+    "availability_message": "Point-of-care pregnancy testing and urgent pelvic ultrasound results are now available.",
+    "results": [
+      {"id": "urine_hcg", "test": "Point-of-care urine beta-hCG", "value": "Negative", "flag": "normal"},
+      {"id": "tvus", "test": "Transvaginal ultrasound with Doppler", "value": "4.6 cm left ovarian hemorrhagic cyst with reticular internal echoes and small-volume pelvic free fluid; preserved arterial and venous ovarian flow", "flag": "abnormal", "note": "No adnexal torsion is demonstrated at the time of imaging."}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Hemorrhagic ovarian cyst or ruptured ovarian cyst (r/o ectopic pregnancy) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hemorrhagic ovarian cyst or ruptured ovarian cyst (r/o ectopic pregnancy) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Hemorrhagic Ovarian Cyst or Ovarian Cyst Rupture, differential includes ectopic pregnancy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden left-sided pelvic pain, mild nausea, and history of ovarian cyst",
+      "Key HPI features: 24F reports sudden, sharp pain in her left lower abdomen that started 4 hours ago. Pain is constant, accompanied by mild nausea. Denies vaginal bleeding. Missed her period 2 weeks ago.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Hemorrhagic Ovarian Cyst or Ovarian Cyst Rupture, differential includes ectopic pregnancy.",
+      "Relevant background/PMH: Left ovarian cyst diagnosed on ultrasound 1 year ago"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hemorrhagic ovarian cyst or ruptured ovarian cyst (r/o ectopic pregnancy).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Ectopic pregnancy without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Missed period (rule out pregnancy)."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Hemorrhagic Ovarian Cyst or Ovarian Cyst Rupture, differential includes ectopic pregnancy",
+      "Perform urine pregnancy test to evaluate for ectopic pregnancy, order pelvic ultrasound (evaluate for free pelvic fluid, adnexal mass)",
+      "Manage pain supportively if hemodynamically stable"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: sudden left-sided pelvic pain, mild nausea, and history of ovarian cyst\n\n24F reports sudden, sharp pain in her left lower abdomen that started 4 hours ago. Pain is constant, accompanied by mild nausea. Denies vaginal bleeding. Missed her period 2 weeks ago.",
+    "objective": "Complete vital signs and focused physical examination. Evaluate for pertinent signs.",
+    "assessment": "Acute pelvic pain with possible ovarian-cyst complication; urgently exclude ectopic pregnancy and ovarian torsion before making a definitive diagnosis.",
+    "plan": "Perform urine pregnancy test to evaluate for ectopic pregnancy, order pelvic ultrasound (evaluate for free pelvic fluid, adnexal mass). Manage pain supportively if hemodynamically stable. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hemorrhagic Ovarian Cyst or Ovarian Cyst Rupture, differential includes ectopic pregnancy.",
+    "Formulate prioritized differential diagnosis for sudden left-sided pelvic pain, mild nausea, and history of ovarian cyst",
+    "Select appropriate laboratory and imaging studies for obstetrics & gynecology",
+    "Implement evidence-based acute and long-term management strategies for Hemorrhagic Ovarian Cyst or Ovarian Cyst Rupture, differential includes ectopic pregnancy."
+  ],
+  "teaching": {
+    "diagnosis": "Acute pelvic pain: rule out ectopic pregnancy, ovarian torsion, and ovarian-cyst complication",
+    "one_liner": "24F with sudden sharp left pelvic pain, mild nausea, a known ovarian cyst, and a missed period 2 weeks ago.",
+    "differentials": [
+      "Ectopic pregnancy",
+      "Ovarian torsion",
+      "Appendicitis",
+      "Pelvic inflammatory disease"
+    ],
+    "red_flags": [
+      "Missed period (rule out pregnancy)",
+      "Sudden severe onset",
+      "Signs of hemodynamic instability"
+    ],
+    "must_ask": [
+      {
+        "objective": "Rule out pregnancy first",
+        "say": "When was your last period, and could you be pregnant?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "LMP",
+          "pregnancy test"
+        ]
+      },
+      {
+        "objective": "Characterize the pain onset and quality",
+        "say": "Did the pain start suddenly, and how would you describe it?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sudden onset",
+          "pain quality"
+        ]
+      },
+      {
+        "objective": "Confirm known ovarian cyst history",
+        "say": "You mentioned a cyst before — do you know which side and how large it was?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "ovarian cyst history"
+        ]
+      },
+      {
+        "objective": "Screen for hemodynamic symptoms",
+        "say": "Have you felt dizzy or faint since the pain started?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dizziness",
+          "syncope"
+        ]
+      },
+      {
+        "objective": "Ask about vaginal bleeding",
+        "say": "Have you had any vaginal bleeding or spotting?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vaginal bleeding"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "115/75",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I came to the clinic because of sudden, sharp pain in my lower left belly that started four hours ago, and I feel nauseous.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It hit me completely out of the blue about four hours ago while I was studying at my desk, and it has been constant ever since.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "The pain started in my lower left abdomen and has stayed right there. It has not spread anywhere else.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "No, it doesn't shoot to my back, shoulder, or down to my groin. It stays right in my lower left side.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It is a sharp, constant ache. It does not squeeze or come and go in waves.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "It is quite severe, about a seven out of ten, and it hasn't eased up since it began.",
+        "topic": "Pain severity and progression"
+      },
+      {
+        "answer": "Walking or moving around definitely makes it hurt worse, so I prefer to lie completely still. Resting doesn't make it go away, though.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I've had mild cramping on that side occasionally during my periods, but never anything sudden or intense like this.",
+        "topic": "Previous similar pain"
+      },
+      {
+        "answer": "I have felt nauseous ever since the pain came on, but I haven't actually thrown up.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "My bowel movements are normal. I went to the bathroom normally this morning, I can pass gas, and there is no diarrhea or blood.",
+        "topic": "Bowel habits and stool"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or cold sweats.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my eyes and skin are not yellow, and my urine has not been dark or tea-colored.",
+        "topic": "Jaundice and urine color"
+      },
+      {
+        "answer": "No, I have no pain or burning when I urinate, no blood in my urine, and I'm not going more frequently than usual.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I haven't felt dizzy, lightheaded, or like I was going to pass out, even when I stood up.",
+        "topic": "Dizziness and fainting"
+      },
+      {
+        "answer": "No, I don't have any vaginal bleeding, spotting, or unusual discharge.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "No, I don't have any chest pain, tightness, or shortness of breath.",
+        "topic": "Chest pain and breathing"
+      },
+      {
+        "answer": "I only ate a regular sandwich for lunch today. I didn't eat anything greasy or heavy, and I haven't had any alcohol.",
+        "topic": "Recent meals and alcohol"
+      },
+      {
+        "answer": "I took one acetaminophen tablet about two hours ago, but it didn't really help. I haven't taken aspirin or ibuprofen.",
+        "topic": "Pain relievers or aspirin"
+      },
+      {
+        "answer": "No, I've never had heart rhythm problems, palpitations, blood clots, or vascular disease.",
+        "topic": "Arrhythmia and vascular disease"
+      },
+      {
+        "answer": "Yes, about a year ago, an ultrasound showed a cyst on my left ovary. The doctor told me it was small and just needed monitoring.",
+        "topic": "History of ovarian cyst"
+      },
+      {
+        "answer": "I'm wondering if that ovarian cyst ruptured, or if maybe this could be appendicitis even though it's on my left side.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I'm really worried that there might be bleeding inside my abdomen.",
+        "topic": "Patient main concern"
+      },
+      {
+        "answer": "I would like to get a pelvic ultrasound or scan today so we can find out what happened.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "Aside from the ovarian cyst found last year, I don't have any chronic illnesses or conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I've never been admitted to a hospital.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I don't take any regular prescription medications, birth control pills, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe one glass of wine or beer once or twice a month, but none recently.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I'm a graduate student, and I live in an apartment near the university with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are healthy, and there is no family history of ovarian or gynecological diseases.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I am sexually active with my boyfriend.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "My periods are usually regular every 28 days, but my last period was six weeks ago, so I am about two weeks late.",
+        "topic": "Last menstrual period and cycle"
+      },
+      {
+        "answer": "We usually use condoms, but we haven't used them every single time.",
+        "topic": "Contraceptive use"
+      },
+      {
+        "answer": "Because my period is two weeks late, I realize I could be pregnant, though I haven't taken a home pregnancy test yet.",
+        "topic": "Pregnancy possibility"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert young female lying still on the examination table in moderate discomfort from lower abdominal pain.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 115/75 mmHg, heart rate 78 beats/min, respiratory rate 16 breaths/min, body temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor; sclerae are clear and non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat and symmetric without surgical scars, distension, or visible peristalsis.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normal active bowel sounds heard throughout all four quadrants; no bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft abdomen with localized moderate tenderness in the left lower quadrant without rigidity; no tenderness in the right lower quadrant or upper abdomen.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Mild localized rebound tenderness in the left lower quadrant; negative in all other quadrants.",
+        "maneuver": "rebound_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "Negative McBurney point tenderness, negative Rovsing sign, and negative psoas and obturator signs.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Negative Murphy sign with no tenderness elicited in the right upper quadrant during deep inspiration.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Moderate tenderness elicited in the left adnexal region without cervical motion tenderness; no vaginal blood or abnormal discharge seen.",
+        "maneuver": "pelvic_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

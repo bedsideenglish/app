@@ -1,0 +1,347 @@
+{
+  "id": "hemato_029",
+  "system": "hemato",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Lopez",
+  "age": 29,
+  "gender": "male",
+  "chief_complaint": "normocytic anemia in patient with rheumatoid arthritis",
+  "hpi_details": "A 29-year-old male presents to the clinic with normocytic anemia in patient with rheumatoid arthritis. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks his overwhelming fatigue is just another flare-up of his rheumatoid arthritis draining his energy.",
+  "concerns": "He is worried he will become too physically weak to do his daily job and support his young family.",
+  "expectations": "He hopes to receive a joint injection or a stronger anti-inflammatory medicine to calm down his arthritis flare.",
+  "pmh": "Rheumatoid arthritis",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {
+      "id": "hemoglobin",
+      "test": "Hemoglobin",
+      "value": "10.4",
+      "unit": "g/dL",
+      "reference_range": "13.5-17.5",
+      "flag": "low",
+      "specimen": "Blood"
+    },
+    {
+      "id": "mcv",
+      "test": "Mean corpuscular volume",
+      "value": "87",
+      "unit": "fL",
+      "reference_range": "80-100",
+      "flag": "normal",
+      "specimen": "Blood"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Anemia of Chronic Disease evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Anemia of Chronic Disease is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Anemia of Chronic Disease: Treat underlying inflammatory disease, consider ESA if indicated, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: normocytic anemia in patient with rheumatoid arthritis",
+      "Key HPI features: A 29-year-old male presents to the clinic with normocytic anemia in patient with rheumatoid arthritis. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Anemia of Chronic Disease.",
+      "Relevant background/PMH: Rheumatoid arthritis"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Anemia of Chronic Disease.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Iron deficiency anemia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: signs of active bleeding or a rapidly falling hemoglobin, which require urgent workup rather than being attributed to anemia of chronic disease alone."
+    ],
+    "management_principles": [
+      "Treat the underlying inflammatory disease and evaluate for coexisting iron deficiency, renal disease, or other causes of anemia; erythropoiesis-stimulating agents are not routine for rheumatoid-arthritis-associated anemia",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: normocytic anemia in patient with rheumatoid arthritis\n\nA 29-year-old male presents to the clinic with normocytic anemia in patient with rheumatoid arthritis. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Anemia of Chronic Disease.",
+    "assessment": "Condition highly suspicious for Anemia of Chronic Disease.",
+    "plan": "Treat the underlying inflammatory disease and evaluate for coexisting iron deficiency, renal disease, or other causes of anemia. Erythropoiesis-stimulating agents are not routine for rheumatoid-arthritis-associated anemia and should be reserved for specific indications such as selected CKD or chemotherapy-associated anemia with appropriate risk assessment."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Anemia of Chronic Disease",
+    "Select appropriate diagnostic workup for Anemia of Chronic Disease",
+    "Implement evidence-based management plan: Treat underlying inflammatory disease, consider ESA if indicated"
+  ],
+  "teaching": {
+    "diagnosis": "Anemia of Chronic Disease",
+    "one_liner": "Ongoing inflammation (from a condition like rheumatoid arthritis) traps iron inside storage cells and blunts red cell production, causing a mild-to-moderate normocytic anemia.",
+    "differentials": [
+      "Iron deficiency anemia",
+      "Anemia from disease-modifying drug side effects",
+      "Renal anemia"
+    ],
+    "red_flags": [
+      "Hemoglobin low enough to cause symptomatic anemia (chest pain, dyspnea, hemodynamic instability)",
+      "Signs of active bleeding (melena, hematochezia, hematemesis)",
+      "Rapidly falling hemoglobin — suggests hemolysis or bleeding rather than anemia of chronic disease",
+      "Microcytic anemia with a low ferritin — suggests coexisting true iron deficiency warranting GI workup"
+    ],
+    "must_ask": [
+      {
+        "objective": "Underlying inflammatory disease",
+        "say": "How is your rheumatoid arthritis being managed, and how active is it right now?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "rheumatoid arthritis",
+          "inflammation"
+        ]
+      },
+      {
+        "objective": "Fatigue severity",
+        "say": "How is the fatigue affecting your daily life?",
+        "domains": [
+          "severity"
+        ]
+      },
+      {
+        "objective": "Iron intake vs. loss",
+        "say": "Have you noticed any bleeding, or is your diet iron-rich?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bleeding",
+          "diet"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long have you felt this way?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Other chronic conditions",
+        "say": "Do you have any other ongoing medical conditions?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/80",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I have been feeling constantly exhausted and drained of energy for the past few weeks.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like a total lack of energy and general body weariness, rather than just being sleepy or having localized muscle weakness.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It started about a month ago and has been gradually getting worse, with no specific injury or triggering illness that I can think of.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is hard to get through my regular workday, and even after sleeping or resting on the sofa, I still wake up feeling tired.",
+        "topic": "Daily impact and rest"
+      },
+      {
+        "answer": "I feel stiff and drained in the morning, and the fatigue stays pretty steady throughout the entire day.",
+        "topic": "Diurnal variation"
+      },
+      {
+        "answer": "I sleep around seven to eight hours every night, and my partner has never mentioned any loud snoring or gasping for breath.",
+        "topic": "Sleep quality and apnea"
+      },
+      {
+        "answer": "My mood is okay, though feeling so tired is frustrating. I have not lost interest in things I enjoy and have never had thoughts of harming myself.",
+        "topic": "Mood and depression"
+      },
+      {
+        "answer": "I get a little lightheaded if I stand up too quickly, but I have not had chest pain or any black, tarry, or bloody stools.",
+        "topic": "Dizziness and stool color"
+      },
+      {
+        "answer": "No, I have not noticed any unusual bruising on my body, nor have my gums been bleeding when I brush my teeth.",
+        "topic": "Bruising and bleeding"
+      },
+      {
+        "answer": "No, I do not have any numbness, tingling, or pins-and-needles feelings in my hands or feet.",
+        "topic": "Numbness and tingling"
+      },
+      {
+        "answer": "No, I haven't been unusually sensitive to the cold, my skin isn't dry, and my bowel habits are regular without constipation.",
+        "topic": "Cold intolerance and thyroid symptoms"
+      },
+      {
+        "answer": "No, my thirst is normal and I am not waking up or running to the bathroom constantly to urinate.",
+        "topic": "Thirst and urination"
+      },
+      {
+        "answer": "My appetite has been fairly normal, and I haven't noticed any darkening of my skin or extreme dizzy spells.",
+        "topic": "Appetite and skin changes"
+      },
+      {
+        "answer": "No, my skin does not itch, food tastes normal, and my urine amount and color look completely normal.",
+        "topic": "Itching and urinary output"
+      },
+      {
+        "answer": "I haven't had any fevers, night sweats, chills, or noticeable weight loss.",
+        "topic": "Fevers and weight loss"
+      },
+      {
+        "answer": "I sometimes feel slightly winded when climbing two flights of stairs, but my legs have not swollen at all.",
+        "topic": "Shortness of breath and leg swelling"
+      },
+      {
+        "answer": "My job is an ordinary desk job with normal stress levels, and I drink one cup of coffee in the morning.",
+        "topic": "Workload, stress, and caffeine"
+      },
+      {
+        "answer": "I was diagnosed with rheumatoid arthritis two years ago, and lately my wrists and finger joints have been aching and feeling stiff in the mornings.",
+        "topic": "Rheumatoid arthritis details"
+      },
+      {
+        "answer": "I eat regular meals including chicken, beef, and vegetables, so my diet hasn't changed.",
+        "topic": "Diet and iron intake"
+      },
+      {
+        "answer": "No, I haven't had any stomach ulcers, nosebleeds, blood donations, or visible bleeding anywhere.",
+        "topic": "Blood loss and donation"
+      },
+      {
+        "answer": "I thought this deep tiredness was just my rheumatoid arthritis flaring up again and wearing me out.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm terrified that this weakness will stop me from working and providing for my family.",
+        "topic": "Patient worries and concerns"
+      },
+      {
+        "answer": "I was hoping to get a stronger anti-inflammatory or a steroid shot to get this flare-up under control.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "Aside from rheumatoid arthritis diagnosed two years ago, I have no other medical conditions like kidney or liver disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I am not taking any prescription medications or supplements right now; I stopped my arthritis medicine a few months ago.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink one or two glasses of beer occasionally on weekends when meeting friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work in an office as an accountant, and I live with my partner in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has mild high blood pressure, but no one in my family has autoimmune diseases, blood disorders, or colon cancer.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Appears mildly tired but in no acute distress; complexion is slightly pale.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 120/80 mmHg, heart rate 76 beats/min, respiratory rate 16 breaths/min, temperature 36.8 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No significant drop in blood pressure or compensatory tachycardia upon standing.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Mild pallor of the palpebral conjunctivae bilaterally; sclerae are clear and non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, symmetric, and non-tender without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds throughout both lung fields without wheezes, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended with no guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No hepatomegaly or splenomegaly appreciated below the costal margins.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema in the lower extremities bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Mild bilateral swelling, warmth, and tenderness over the second and third metacarpophalangeal joints and wrists without joint deformities.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

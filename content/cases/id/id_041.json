@@ -1,0 +1,311 @@
+{
+  "id": "id_041",
+  "system": "id",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Hill",
+  "age": 65,
+  "gender": "male",
+  "chief_complaint": "foul-smelling bloating diarrhea after drinking stream water",
+  "hpi_details": "A 65-year-old male presents to the clinic with foul-smelling bloating diarrhea after drinking stream water. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks he picked up a stubborn water parasite or amoeba from drinking unfiltered water straight out of a mountain creek.",
+  "concerns": "He is worried that this foul-smelling infection will spread to his wife at home or permanently damage his digestive tract.",
+  "expectations": "He hopes to have a stool test sent off and receive a targeted antiparasitic medication to wipe out the bug.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Giardiasis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Giardiasis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Giardiasis: Oral Metronidazole 250mg TID for 5-7 days, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: foul-smelling bloating diarrhea after drinking stream water",
+      "Key HPI features: A 65-year-old male presents to the clinic with foul-smelling bloating diarrhea after drinking stream water. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Vitals: Temp 37.1C (afebrile), HR 78, BP 128/76. Mild abdominal distension and bloating, hyperactive bowel sounds, no rebound or guarding, no blood on stool exam. Stool antigen test and ova/parasite exam positive for Giardia lamblia cysts and trophozoites.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Giardiasis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Bacterial gastroenteritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: bloody diarrhea, high fever, or dehydration, which suggest a more severe or invasive infection requiring urgent workup rather than uncomplicated giardiasis."
+    ],
+    "management_principles": [
+      "Plan for Giardiasis: Oral Metronidazole 250mg TID for 5-7 days",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: foul-smelling bloating diarrhea after drinking stream water\n\nA 65-year-old male presents to the clinic with foul-smelling bloating diarrhea after drinking stream water. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Vitals: Temp 37.1C (afebrile), HR 78, BP 128/76. Mild abdominal distension and bloating, hyperactive bowel sounds, no rebound or guarding, no blood on stool exam. Stool antigen test and ova/parasite exam positive for Giardia lamblia cysts and trophozoites.",
+    "assessment": "Giardiasis, confirmed by positive stool antigen and ova/parasite testing, consistent with recent untreated stream-water exposure.",
+    "plan": "Plan for Giardiasis: Oral Metronidazole 250mg TID for 5-7 days. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Giardiasis",
+    "Select appropriate diagnostic workup for Giardiasis",
+    "Implement evidence-based management plan: Oral Metronidazole 250mg TID for 5-7 days"
+  ],
+  "teaching": {
+    "diagnosis": "Giardiasis",
+    "one_liner": "A protozoan infection acquired from contaminated water, causing foul-smelling, bloating diarrhea without blood.",
+    "differentials": [
+      "Bacterial gastroenteritis",
+      "Irritable bowel syndrome"
+    ],
+    "red_flags": [
+      "Bloody diarrhea (dysentery) — suggests an invasive bacterial pathogen rather than giardiasis",
+      "High fever or signs of systemic toxicity",
+      "Signs of significant dehydration (hypotension, tachycardia, reduced urine output)",
+      "Immunocompromised status or symptoms persisting despite treatment — warrants further workup"
+    ],
+    "must_ask": [
+      {
+        "objective": "Water exposure",
+        "say": "Did you drink any untreated water, like from a stream, recently?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "stream water",
+          "untreated"
+        ]
+      },
+      {
+        "objective": "Stool character",
+        "say": "Does the diarrhea smell particularly foul, and does your belly feel bloated?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "foul-smelling",
+          "bloating"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Blood in stool",
+        "say": "Any blood in your stool?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Weight loss",
+        "say": "Have you lost weight?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/76",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 37.1
+    },
+    "history": [
+      {
+        "answer": "I have been having terrible bloating and foul-smelling, watery diarrhea for the past several days after drinking water from a mountain stream.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about a week ago, roughly four days after my mountain hike, and the diarrhea and gas have been getting progressively worse.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "I am going four to five times a day. The stool is watery, greasy, tends to float, and has an unusually strong, foul odor.",
+        "topic": "Stool frequency and character"
+      },
+      {
+        "answer": "No, there is definitely no blood and no mucus in the toilet or on the tissue.",
+        "topic": "Blood or mucus in stool"
+      },
+      {
+        "answer": "Yes, the stomach rumbling and urgent loose stools have woken me up from sleep once or twice.",
+        "topic": "Nocturnal diarrhea"
+      },
+      {
+        "answer": "My stomach feels bloated, tight, and crampy all over, especially after eating. Going to the bathroom gives me a little temporary relief.",
+        "topic": "Abdominal pain and bloating"
+      },
+      {
+        "answer": "I don't have that feeling of straining or incomplete emptying like something is stuck, just urgency when the cramps hit.",
+        "topic": "Tenesmus"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or shivering.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "I feel mildly nauseous and have lost my appetite, but I haven't thrown up.",
+        "topic": "Nausea or vomiting"
+      },
+      {
+        "answer": "I have been feeling quite thirsty, but I am able to drink fluids and my urine output has been normal without any dizziness.",
+        "topic": "Dehydration symptoms"
+      },
+      {
+        "answer": "I haven't eaten any raw fish, raw meat, or buffet food. My friend who hiked with me ate the same packed food and is completely fine.",
+        "topic": "Suspicious food and sick contacts"
+      },
+      {
+        "answer": "Ten days ago, I ran out of bottled water while hiking in the mountains and drank directly from a natural stream because it looked clean.",
+        "topic": "Untreated stream water exposure"
+      },
+      {
+        "answer": "I haven't traveled overseas or been out of the country recently, just that weekend hiking trip.",
+        "topic": "Recent travel"
+      },
+      {
+        "answer": "No, I haven't taken any antibiotics in years, and I haven't been admitted to a hospital or started any new prescriptions.",
+        "topic": "Recent antibiotics or hospitalizations"
+      },
+      {
+        "answer": "I think I have lost about two or three pounds this past week because of the diarrhea and lack of appetite.",
+        "topic": "Weight loss"
+      },
+      {
+        "answer": "I have never had food allergies before, but over the last few days, having milk or dairy seems to make the gas and diarrhea noticeably worse.",
+        "topic": "Dairy or food triggers"
+      },
+      {
+        "answer": "No, I am not under any major stress, and my bowels have always been regular once a day until this episode.",
+        "topic": "Stress and baseline bowel habits"
+      },
+      {
+        "answer": "No joint pains, skin rashes, mouth ulcers, or eye redness at all.",
+        "topic": "Extra-intestinal symptoms"
+      },
+      {
+        "answer": "No heart palpitations, heat intolerance, excessive sweating, or facial flushing.",
+        "topic": "Thyroid and systemic symptoms"
+      },
+      {
+        "answer": "I have been feeling worn down and sluggish with generalized fatigue over the last few days.",
+        "topic": "Fatigue"
+      },
+      {
+        "answer": "I figured I must have picked up some nasty water bug or amoeba from drinking straight out of a mountain creek on my walk.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "The smell is terrible and the bloating won't stop, so I'm really worried it's going to pass to my wife or permanently ruin my stomach.",
+        "topic": "Concerns"
+      },
+      {
+        "answer": "I'm hoping you can test a stool sample and give me a prescription to kill off whatever bug is living in my gut.",
+        "topic": "Expectations"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like diabetes, hypertension, or kidney disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Surgical history"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter remedies, or health supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or environmental triggers.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional beer when socializing, maybe once or twice a month, but I haven't had any alcohol recently.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am a retired high school teacher and live comfortably in an apartment with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of colon cancer, inflammatory bowel disease, celiac disease, or chronic intestinal problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 128/76 mmHg, pulse 78 bpm, respiratory rate 16/min, body temperature 37.1°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is moist, and the posterior pharynx is clear without dryness or ulceration.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Skin turgor is normal with prompt recoil, and capillary refill time is less than two seconds.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "The abdomen is mildly distended and bloated; no surgical scars, rashes, or visible pulsations are seen.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperactive, frequent bowel sounds are present in all four quadrants; no bruits are heard.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Generalized tympany is present across all quadrants consistent with gaseous distension; no shifting dullness.",
+        "maneuver": "abdominal_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Mild diffuse tenderness on palpation across the abdomen, but the abdomen is soft without involuntary guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness is elicited anywhere in the abdomen.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal sphincter tone with no rectal masses or hemorrhoids; loose, pale stool on the examining glove with no visible blood.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

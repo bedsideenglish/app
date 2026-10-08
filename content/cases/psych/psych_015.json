@@ -1,0 +1,363 @@
+{
+  "id": "psych_015",
+  "system": "psychiatry",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lopez",
+  "age": 28,
+  "gender": "female",
+  "chief_complaint": "crying spells, feeling disconnected from newborn infant, profound guilt, and thoughts of self-harm 6 weeks post-delivery",
+  "hpi_details": "Six weeks after delivery, she has severe depressed mood, crying spells, guilt, difficulty bonding with her newborn, and insomnia even when the baby sleeps. She reports thoughts of walking into traffic. This requires immediate emergency psychiatric assessment and a plan to protect both her and the infant; treatment decisions follow stabilization.",
+  "ideas": "She wonders whether this is postpartum depression and feels ashamed that she is not bonding with the baby.",
+  "concerns": "She fears she may harm herself and worries she is not safe to care for her infant alone.",
+  "expectations": "She wants immediate help staying safe and treatment after urgent assessment.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Postpartum Depression with Suicidal Ideation: emergency evaluation and management",
+    "core_concepts": [
+      "A major depressive episode with peripartum onset can occur during pregnancy or in the weeks after delivery; assess depressive symptoms, function, bonding, anxiety, trauma, substance use, and medical contributors.",
+      "Thoughts of walking into traffic are an acute suicide-risk signal. Assess intent, plan, access to means, past attempts, protective factors, ability to collaborate with safety measures, and decision-making capacity.",
+      "Assess thoughts of harm to the infant separately from intrusive ego-dystonic thoughts, and urgently evaluate hallucinations, delusions, severe confusion, mania, or markedly reduced need for sleep for postpartum psychosis or bipolar illness.",
+      "When safety is established, treatment may include psychotherapy and an antidepressant selected with shared decision-making; discuss breastfeeding, adverse effects, activation, and close follow-up."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: crying spells, feeling disconnected from newborn infant, profound guilt, and thoughts of self-harm 6 weeks post-delivery",
+      "Key HPI features: six weeks postpartum with severe depressed mood, crying spells, guilt, impaired bonding, insomnia despite opportunity to sleep, and suicidal thoughts of walking into traffic.",
+      "Objective/Exam findings: assess vital signs, mental status, psychosis, mania, delirium, cognition, capacity, suicide and infant-safety risk, nutrition and hydration; obtain targeted medical evaluation when indicated.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Postpartum depression is simply normal adjustment or 'baby blues' when symptoms persist, impair function, or include suicidality.",
+      "A mother who reports intrusive thoughts of harm will inevitably act on them; distinguish intrusive thoughts from intent, psychosis, and loss of control through careful assessment.",
+      "All postpartum depression should be treated as unipolar depression without screening for prior mania, psychosis, or bipolar disorder.",
+      "Starting an antidepressant substitutes for emergency safety assessment when there is active suicidal intent or inability to protect the infant."
+    ],
+    "dangerous_errors": [
+      "Leaving the patient alone or discharging her without emergency psychiatric evaluation when she has suicidal intent, a plan, inability to maintain safety, impaired capacity, or unreliable supervision.",
+      "Failing to arrange immediate infant protection and a safe caregiver when there is risk of harm to the infant, psychosis, severe mania, delirium, or inability to provide safe care.",
+      "Missing postpartum psychosis, which can present rapidly with confusion, insomnia, mania, delusions, or hallucinations and is a psychiatric emergency.",
+      "Initiating medication without assessing bipolar history, breastfeeding, adverse effects, interactions, adherence, and early treatment monitoring."
+    ],
+    "management_principles": [
+      "Maintain continuous safety precautions and arrange emergency psychiatric evaluation now; do not rely on a routine outpatient safety plan for active suicide risk.",
+      "Ensure the infant is with a safe responsible caregiver while risk is assessed, with multidisciplinary safeguarding support according to local policy when needed.",
+      "Evaluate for postpartum psychosis, bipolar disorder, substance-related illness, delirium, thyroid disease, anemia, infection, and other targeted medical contributors.",
+      "After stabilization, provide perinatal mental-health follow-up, psychotherapy, and individualized medication treatment with monitoring of suicide risk, mood activation, adherence, adverse effects, and infant-feeding considerations."
+    ],
+    "boundaries_and_exceptions": [
+      "This presentation warrants emergency evaluation; diagnosis and long-term treatment must not delay safety interventions.",
+      "Use local emergency, child-safeguarding, and involuntary-treatment pathways when capacity or safety is compromised; respect confidentiality while sharing only information necessary to prevent serious harm."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "28-year-old woman, six weeks postpartum, with severe depressed mood, crying, guilt, impaired bonding, insomnia despite opportunity for sleep, and suicidal thoughts of walking into traffic. Clarify intent, plan, means, past attempts, ability to remain safe, support, infant-care capacity, thoughts of harm to the infant, psychosis, and mania.",
+    "objective": "Obtain vital signs and full mental-status examination, including cognition, delirium, psychosis, mania, insight, judgment, and capacity. Assess nutrition, hydration, substance use, and targeted postpartum medical contributors.",
+    "assessment": "Postpartum major depressive episode with acute suicidal ideation. Rule out postpartum psychosis, bipolar disorder, substance-related illness, delirium, thyroid disease, anemia, infection, and other medical contributors.",
+    "plan": "Initiate continuous safety precautions and emergency psychiatric assessment. Ensure a safe caregiver supervises the infant during evaluation. After stabilization, arrange urgent perinatal mental-health follow-up, psychotherapy, and individualized antidepressant treatment with breastfeeding and bipolar-risk review."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Postpartum Depression PPD with Suicidal Ideation",
+    "Formulate prioritized differential diagnosis for crying spells, feeling disconnected from newborn infant, profound guilt, and thoughts of self-harm 6 weeks post-delivery",
+    "Conduct emergency suicide, capacity, psychosis, and infant-safety assessment in the postpartum period",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Postpartum Depression with Suicidal Ideation",
+    "one_liner": "A severe postpartum depressive presentation with active suicidal thoughts, requiring immediate safety assessment and evaluation for psychosis or bipolar illness.",
+    "differentials": [
+      "Postpartum psychosis",
+      "Postpartum blues (\"baby blues\")",
+      "Bipolar disorder",
+      "Postpartum thyroiditis",
+      "Adjustment disorder"
+    ],
+    "red_flags": [
+      "Suicidal intent, plan, access to means, inability to remain safe, or impaired capacity",
+      "Thoughts or intent to harm the infant, hallucinations, delusions, confusion, mania, or markedly reduced need for sleep"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mood and bonding since delivery",
+        "say": "How have you been feeling since the baby was born, and how do you feel about bonding with the baby?",
+        "domains": [
+          "character",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bonding",
+          "baby",
+          "postpartum",
+          "feeling",
+          "connected"
+        ]
+      },
+      {
+        "objective": "Sleep despite opportunity to rest",
+        "say": "Even when the baby is sleeping, are you able to sleep, or does your mind keep you awake?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sleep",
+          "insomnia",
+          "awake",
+          "rest",
+          "baby sleeping"
+        ]
+      },
+      {
+        "objective": "Guilt and self-worth",
+        "say": "Do you feel guilty, or like you're failing as a mother?",
+        "domains": [
+          "concerns"
+        ],
+        "keywords": [
+          "guilt",
+          "failing",
+          "mother",
+          "worthless",
+          "inadequate"
+        ]
+      },
+      {
+        "objective": "Safety screen for self and infant",
+        "say": "Have you had thoughts of harming yourself or your baby? Do you have a plan, access to means, or feel unable to keep either of you safe?",
+        "domains": [
+          "concerns"
+        ],
+        "keywords": [
+          "hurting",
+          "baby",
+          "suicidal",
+          "plan",
+          "means",
+          "safe"
+        ]
+      },
+      {
+        "objective": "Social support",
+        "say": "Who is helping you at home, and do you feel supported?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "support",
+          "help",
+          "home",
+          "family",
+          "alone"
+        ]
+      },
+      {
+        "objective": "Psychosis and mania screen",
+        "say": "Have you heard or seen things others do not, felt unusually energized or driven, or had racing thoughts and little need for sleep?",
+        "domains": [
+          "associated_symptoms",
+          "safety"
+        ],
+        "keywords": [
+          "heard",
+          "seen",
+          "energized",
+          "racing thoughts",
+          "sleep"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I had my baby six weeks ago, but I feel overwhelmingly depressed and cannot stop crying. I feel like a terrible mother and I keep having frightening thoughts of walking into traffic.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about two to three weeks after giving birth and has gotten steadily worse. For the past three weeks, this heavy sadness has been there all day, every day.",
+        "topic": "Onset and duration of low mood"
+      },
+      {
+        "answer": "There were no complications during labor, and we had planned this pregnancy, but adjusting to motherhood has felt completely overwhelming and isolating.",
+        "topic": "Triggering events or stressors"
+      },
+      {
+        "answer": "I do not enjoy anything anymore. Even looking at my baby or doing things I used to love just leaves me feeling completely empty and numb.",
+        "topic": "Loss of interest and pleasure"
+      },
+      {
+        "answer": "I can barely sleep two or three hours a night. Even when my husband takes the baby and the house is quiet, I lie awake staring at the ceiling with my mind racing.",
+        "topic": "Sleep pattern changes"
+      },
+      {
+        "answer": "I have no appetite at all and have to force myself to take a few bites. I have lost about four kilograms over the last month because food tastes like cardboard.",
+        "topic": "Appetite and weight changes"
+      },
+      {
+        "answer": "I feel completely exhausted from the moment I wake up. My mind feels sluggish, and I cannot even focus enough to read a short article or decide what to make for lunch.",
+        "topic": "Fatigue and poor concentration"
+      },
+      {
+        "answer": "I feel like an utter failure and a terrible mother. I feel so guilty that I haven't bonded with my child, and I keep thinking my baby would be better off without me.",
+        "topic": "Feelings of guilt and worthlessness"
+      },
+      {
+        "answer": "Everything feels like moving through wet concrete. My speech is slower, and my husband noticed that I just sit motionless on the couch for hours.",
+        "topic": "Psychomotor changes or agitation"
+      },
+      {
+        "answer": "Yes, I have been thinking that dying would be a relief. Over the past week, I keep having intrusive urges to just walk out into oncoming traffic.",
+        "topic": "Suicidal ideation or self-harm"
+      },
+      {
+        "answer": "I do not have a set day, and I have never made an attempt before, but the thought of walking into busy traffic keeps flashing in my head whenever I step outside.",
+        "topic": "Suicide plan and intent"
+      },
+      {
+        "answer": "I have never had any urges or thoughts to harm my baby. I love her, but I feel terrified because I am so emotionally disconnected and worried I might neglect her if I collapse.",
+        "topic": "Thoughts of harming the infant"
+      },
+      {
+        "answer": "My husband is very supportive and is with the baby right now, and my mother comes over on weekdays. I came to the clinic today because I desperately want help and want to stay alive for my family.",
+        "topic": "Protective factors and support"
+      },
+      {
+        "answer": "I have completely stopped seeing friends, and I cannot manage household chores. My husband has had to take over feeding and caring for the baby because I can barely get out of bed.",
+        "topic": "Impact on daily functioning"
+      },
+      {
+        "answer": "No, I have never experienced a period where I felt abnormally energetic, euphoric, or went without sleep while feeling great.",
+        "topic": "History of mania or hypomania"
+      },
+      {
+        "answer": "No, I do not hear any voices or see things that aren't there, and I don't feel like anyone is spying on me or trying to hurt me.",
+        "topic": "Hallucinations and delusions"
+      },
+      {
+        "answer": "I do not drink any alcohol, and I have never used sleeping pills, recreational drugs, or misuse prescription medications.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "No, I have not had unusual cold intolerance, severe constipation, neck swelling, or heat intolerance, and I have not started any new medications since delivery.",
+        "topic": "Thyroid symptoms and new medications"
+      },
+      {
+        "answer": "I feel detached and disconnected from her. When she cries, I know I should feel warmth and comfort, but instead I just feel numb, panicked, and guilty that I cannot bond properly.",
+        "topic": "Bonding and feelings toward newborn"
+      },
+      {
+        "answer": "I felt mildly down and anxious during college exams years ago, but it passed quickly and I have never had clinical depression, psychiatric therapy, or medication.",
+        "topic": "Past psychiatric history"
+      },
+      {
+        "answer": "My maternal aunt struggled with postpartum depression after her children, but there is no family history of bipolar disorder, schizophrenia, or completed suicide.",
+        "topic": "Family psychiatric history"
+      },
+      {
+        "answer": "I wonder if this is postpartum depression. I feel so ashamed that I cannot just be happy like other new mothers.",
+        "topic": "Patient ideas and understanding"
+      },
+      {
+        "answer": "I am terrified that I might act on these thoughts of walking into traffic, and I worry I am not mentally stable enough to look after my infant alone.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I need immediate help to stay safe, and I want an urgent psychiatric evaluation and treatment so I can recover and be a good mother.",
+        "topic": "Expectations of today visit"
+      },
+      {
+        "answer": "I do not have any chronic medical illnesses like hypertension, diabetes, or asthma.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an uncomplicated full-term cesarean delivery six weeks ago, with no other prior surgeries or hospitalizations.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am only taking postnatal multivitamins and iron supplements that were prescribed after delivery.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used e-cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I work as a graphic designer on maternity leave, and I live in an apartment with my husband and our newborn daughter.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My last menstrual period was before I got pregnant ten months ago. I have not had a period since giving birth six weeks ago, and we have not resumed sexual intercourse.",
+        "topic": "Menstrual and sexual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 78 bpm, respiratory rate 16 breaths/min, temperature 36.7 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Tired appearance with dark circles under eyes, slumped posture, tearful with downcast gaze, poor eye contact, and delayed motor movements, but adequate hygiene.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented x3; speech is slow, soft, and hesitant; depressed mood and tearful, blunted affect; expresses severe guilt and passive suicidal thoughts of walking into traffic without intent to hurt infant; no delusions or hallucinations; insight is intact and judgment is fair.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Normal conjunctivae without pallor; sclerae non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Normal size and texture of thyroid gland without enlargement, nodules, or tenderness.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm without murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, non-tender abdomen; well-healed lower transverse cesarean delivery incision without erythema or induration.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Warm, well-perfused skin without rash, cold clamminess, or abnormal dryness.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal and symmetric deep tendon reflexes throughout; no delayed relaxation phase.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

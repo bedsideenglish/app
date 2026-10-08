@@ -1,0 +1,367 @@
+{
+  "id": "id_009",
+  "system": "infectious_disease",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Lewis",
+  "age": 25,
+  "gender": "male",
+  "chief_complaint": "fever, sore throat, generalized swollen lymph glands, and mononucleosis-like rash after exposure",
+  "hpi_details": "25M presenting 3 weeks after high-risk exposure with fever, pharyngitis, diffuse lymphadenopathy, maculopapular rash, and high HIV RNA viral load while antibody test is still indeterminate.",
+  "ideas": "He thinks he caught mononucleosis or a bad case of strep throat after kissing someone at a party three weeks ago.",
+  "concerns": "He is terrified that his symptoms might mean he contracted an incurable sexually transmitted infection that will permanently impact his health and future relationships.",
+  "expectations": "He hopes to have his throat swabbed and get tested so he can be prescribed medication to ease his severe throat pain.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "available_results": [
+    {
+      "id": "hiv_rna",
+      "test": "Quantitative HIV-1 RNA",
+      "value": ">500000",
+      "unit": "copies/mL",
+      "reference_range": "Not detected",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "hiv_fourth_generation",
+      "test": "Fourth-generation HIV antigen/antibody assay",
+      "value": "Reactive; p24 antigen detected",
+      "reference_range": "Nonreactive",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "hiv_differentiation_assay",
+      "test": "HIV-1/HIV-2 antibody differentiation assay",
+      "value": "Indeterminate",
+      "reference_range": "Negative",
+      "flag": "abnormal",
+      "specimen": "Blood",
+      "note": "Pattern is consistent with acute HIV during the antibody window period"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Retroviral Syndrome (Primary HIV Infection) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Retroviral Syndrome (Primary HIV Infection) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes confirming acute infection with HIV RNA testing (since antibody assays may still be negative in the window period) and initiating antiretroviral therapy immediately upon diagnosis regardless of CD4 count, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fever, sore throat, generalized swollen lymph glands, and mononucleosis-like rash after exposure",
+      "Key HPI features: 25M presenting 3 weeks after high-risk exposure with fever, pharyngitis, diffuse lymphadenopathy, maculopapular rash, and high HIV RNA viral load while antibody test is still indeterminate.",
+      "Objective/Exam findings: Vitals: Temp 38.5C, HR 96, BP 118/74, RR 16. Diffuse non-tender cervical, axillary, and inguinal lymphadenopathy; pharyngeal erythema without exudate; diffuse maculopapular rash over the trunk and proximal extremities; mild hepatosplenomegaly. Bloods: HIV RNA viral load markedly elevated (>500,000 copies/mL); 4th-generation HIV Ag/Ab combo immunoassay reactive (p24 antigen positive) with an indeterminate/negative antibody differentiation assay, consistent with the acute 'window period'; CD4 count transiently reduced at 450 cells/uL; mild transaminitis; heterophile (Monospot) test and EBV serology negative.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Retroviral Syndrome (Primary HIV Infection).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Infectious mononucleosis (EBV) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Recent high-risk exposure with this symptom cluster — needs urgent HIV RNA testing, not just antibody testing."
+    ],
+    "management_principles": [
+      "Confirm the diagnosis with quantitative HIV RNA PCR (viral load) — the primary test for acute HIV, since antibody-based assays can still be negative in the window period; repeat the 4th-generation Ag/Ab test and differentiation assay to document seroconversion",
+      "Initiate antiretroviral therapy (ART) immediately upon diagnosis regardless of CD4 count, per 'rapid/same-day ART start' guidance, after sending baseline resistance genotype and routine labs (e.g., Bictegravir/Emtricitabine/Tenofovir alafenamide as a typical first-line regimen)",
+      "Counsel on the markedly elevated transmission risk during acute infection given very high viral loads; advise consistent condom use, offer partner notification, and discuss PrEP for HIV-negative partners",
+      "Screen for concurrent sexually transmitted infections (syphilis, gonorrhea, chlamydia, hepatitis B/C) and link the patient to ongoing HIV primary care with an ID/HIV specialist"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Acute Retroviral Syndrome Primary HIV Infection: fever, sore throat, generalized swollen lymph glands, and mononucleosis-like rash after exposure. 25M presenting 3 weeks after high-risk exposure with fever, pharyngitis, diffuse lymphadenopathy, maculopapular rash, and high HIV RNA viral load while antibody test is still indeterminate.",
+    "objective": "Vitals: Temp 38.5C, HR 96, BP 118/74, RR 16. Diffuse non-tender cervical, axillary, and inguinal lymphadenopathy; pharyngeal erythema without exudate; diffuse maculopapular rash over the trunk and proximal extremities; mild hepatosplenomegaly. Bloods: HIV RNA viral load markedly elevated (>500,000 copies/mL); 4th-generation HIV Ag/Ab combo immunoassay reactive (p24 antigen positive) with an indeterminate/negative antibody differentiation assay, consistent with the acute 'window period'; CD4 count transiently reduced at 450 cells/uL; mild transaminitis; heterophile (Monospot) test and EBV serology negative.",
+    "assessment": "Acute Retroviral Syndrome (Primary HIV Infection) confirmed by a markedly elevated HIV RNA viral load with an indeterminate antibody differentiation assay, consistent with recent high-risk exposure 3 weeks prior.",
+    "plan": "1. Confirm the diagnosis with quantitative HIV RNA PCR (viral load) — the primary test for acute HIV, since antibody-based assays can still be negative in the window period; repeat the 4th-generation Ag/Ab test and differentiation assay to document seroconversion. 2. Initiate antiretroviral therapy (ART) immediately upon diagnosis regardless of CD4 count, per 'rapid/same-day ART start' guidance, after sending baseline resistance genotype and routine labs (e.g., Bictegravir/Emtricitabine/Tenofovir alafenamide as a typical first-line regimen). 3. Counsel on the markedly elevated transmission risk during acute infection given very high viral loads; advise consistent condom use, offer partner notification, and discuss PrEP for HIV-negative partners. 4. Screen for concurrent sexually transmitted infections (syphilis, gonorrhea, chlamydia, hepatitis B/C) and link the patient to ongoing HIV primary care with an ID/HIV specialist."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Retroviral Syndrome Primary HIV Infection",
+    "Formulate prioritized differential diagnosis for fever, sore throat, generalized swollen lymph glands, and mononucleosis-like rash after exposure",
+    "Select appropriate laboratory and imaging studies for infectious_disease",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Retroviral Syndrome (Primary HIV Infection)",
+    "one_liner": "The mononucleosis-like illness that occurs 2-4 weeks after HIV acquisition, with fever, pharyngitis, diffuse lymphadenopathy, and rash, at a time when the antibody test may still be negative but the viral load is very high.",
+    "differentials": [
+      "Infectious mononucleosis (EBV)",
+      "CMV infection",
+      "Secondary syphilis"
+    ],
+    "red_flags": [
+      "Recent high-risk exposure with this symptom cluster — needs urgent HIV RNA testing, not just antibody testing"
+    ],
+    "must_ask": [
+      {
+        "objective": "Timing relative to exposure",
+        "say": "How many weeks ago was the exposure you're concerned about?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "weeks",
+          "exposure"
+        ]
+      },
+      {
+        "objective": "Symptom cluster",
+        "say": "Do you have a sore throat, fever, and swollen glands all together?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sore throat",
+          "fever",
+          "lymph nodes"
+        ]
+      },
+      {
+        "objective": "Rash",
+        "say": "Have you noticed a rash on your body?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "rash"
+        ]
+      },
+      {
+        "objective": "Prior HIV testing",
+        "say": "Have you been tested for HIV before, and what was the result?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "HIV test",
+          "before"
+        ]
+      },
+      {
+        "objective": "The patient's own worry",
+        "say": "What are you most concerned this might be?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 96,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 38.5
+    },
+    "history": [
+      {
+        "answer": "I've had a fever and a terrible sore throat for about four days, and I noticed swollen lumps popping up around my neck and body.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever started about four days ago, and it has stayed high pretty much continuously since then.",
+        "topic": "Onset and duration of fever"
+      },
+      {
+        "answer": "At home it went up to around 38.5 degrees, and I've been having shaking chills and severe whole-body aches.",
+        "topic": "Fever pattern and chills"
+      },
+      {
+        "answer": "I took some acetaminophen yesterday; it brought the fever down slightly for a few hours, but then it spiked right back up.",
+        "topic": "Response to fever reducers"
+      },
+      {
+        "answer": "My throat hurts badly whenever I swallow, but I don't have a cough, phlegm, or any shortness of breath.",
+        "topic": "Throat and respiratory symptoms"
+      },
+      {
+        "answer": "No pain or burning when I urinate, no needing to pee more often, and no flank pain.",
+        "topic": "Urinary and flank symptoms"
+      },
+      {
+        "answer": "I have mild nausea and a poor appetite, but no vomiting, diarrhea, or stomach cramps.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "I have a dull, generalized headache with the fever, but no severe throbbing headache, neck stiffness, or confusion.",
+        "topic": "Headache and neck stiffness"
+      },
+      {
+        "answer": "A flat, red spotted rash broke out over my chest and belly two days ago. I haven't noticed any bug bites, black crusts, or sores.",
+        "topic": "Skin rash and bug bites"
+      },
+      {
+        "answer": "My joints and muscles ache all over, but no specific joints are visibly red or swollen.",
+        "topic": "Joint and muscle pain"
+      },
+      {
+        "answer": "I have woken up drenched in sweat the past two nights, but I don't think I've lost weight.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "I've noticed swollen, non-painful lumps in both sides of my neck, under my armpits, and in my groin over the last three days.",
+        "topic": "Swollen lymph glands"
+      },
+      {
+        "answer": "I haven't traveled overseas recently, haven't been hiking in the woods or grass, and haven't handled animals.",
+        "topic": "Travel and outdoor activities"
+      },
+      {
+        "answer": "No one at my home or workplace has had a fever or similar symptoms.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I have never received chemotherapy, radiation, or taken steroid medications or immune suppressants.",
+        "topic": "Immunosuppressive treatments"
+      },
+      {
+        "answer": "I have no heart problems or artificial valves, and I haven't had any dental work or cleaning recently.",
+        "topic": "Cardiac history and dental work"
+      },
+      {
+        "answer": "I haven't started any new prescription medications or over-the-counter supplements.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "About three weeks ago, I had condomless sexual intercourse with a new partner.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I have never used injection drugs or shared needles.",
+        "topic": "Injection drug use"
+      },
+      {
+        "answer": "That unprotected sexual encounter took place exactly three weeks ago, and my symptoms started about four days ago.",
+        "topic": "Timing of exposure"
+      },
+      {
+        "answer": "I had a routine HIV test about six months ago that came back negative, and I haven't been tested since then.",
+        "topic": "Prior HIV testing"
+      },
+      {
+        "answer": "I hooked up with someone at a party a few weeks ago, so I thought I probably caught mono or a severe case of strep throat. I had unprotected sex recently, and I'm terrified that this might be an incurable sexually transmitted disease that will ruin my future.",
+        "topic": "Ideas and concerns"
+      },
+      {
+        "answer": "I'm hoping you can swab my throat, run the necessary tests, and prescribe something to make this awful throat pain go away.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I have no chronic medical conditions and have always been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any surgical operations and have never been admitted to a hospital.",
+        "topic": "Surgical and hospitalization history"
+      },
+      {
+        "answer": "I don't take any regular prescription medications or herbal products, only the acetaminophen I took yesterday for fever.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or materials like latex.",
+        "topic": "Medication and food allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking status"
+      },
+      {
+        "answer": "I drink alcohol socially on occasion, about one or two beers on weekends.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work full-time in an office and live by myself in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are alive and well, with no major hereditary or chronic diseases in my family.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature 38.5 C, blood pressure 118/74 mmHg, heart rate 96 beats/min, respiratory rate 16 breaths/min, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Pharyngeal erythema without tonsillar exudate, swelling, or mucosal ulcerations.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Both tympanic membranes are intact and pearly gray, with no erythema or middle ear effusion.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple non-tender, mobile, rubbery lymph nodes palpable in both anterior and posterior cervical chains.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple non-tender, mobile axillary lymph nodes palpable bilaterally; no breast masses or skin retraction.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral non-tender, mobile inguinal lymph nodes palpable; no femoral or inguinal hernia.",
+        "maneuver": "hernia_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally on auscultation, with no wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no heart murmurs, gallops, or friction rubs heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-distended, with no focal tenderness, voluntary guarding, or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild hepatosplenomegaly palpable; liver edge and spleen tip are smooth, non-tender, and palpable just below the costal margins.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on gentle percussion bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse, non-pruritic, erythematous maculopapular rash distributed across the trunk and proximal limbs; no petechiae or eschars.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full passive flexion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

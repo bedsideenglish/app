@@ -1,0 +1,330 @@
+{
+  "id": "em_019",
+  "system": "emergency medicine",
+  "difficulty": "intermediate",
+  "eval_template": "emergency_encounter",
+  "care_setting": "emergency_department",
+  "patient_name": "Mr. Wilson",
+  "age": 29,
+  "gender": "male",
+  "chief_complaint": "excruciating, out-of-proportion leg pain, severe pain on passive stretch of toes, and tense woody calf swelling 12 hours after tibial fracture",
+  "hpi_details": "29M with casted tibial fracture complaining of agonizing 10/10 leg pain unresponsive to opioids with exquisite pain on passive ankle dorsiflexion where compartment pressure measures 45 mmHg requiring immediate emergent bivalving of cast and four-compartment fasciotomy.",
+  "ideas": "He thinks the plaster cast was wrapped far too tightly around his lower leg and is cutting off all blood flow to his foot.",
+  "concerns": "He is terrified that the cut-off circulation will cause permanent nerve damage or force doctors to amputate his leg.",
+  "expectations": "He hopes the doctors will cut the cast off immediately and give him a much stronger painkiller that actually gives him relief.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "investigation_events": [
+    {
+      "id": "compartment_pressure",
+      "title": "Intracompartmental pressure measurement",
+      "order_terms": [
+        "compartment pressure",
+        "intracompartmental pressure",
+        "pressure measurement"
+      ],
+      "availability_message": "The compartment pressure measurement is now available. A clear clinical diagnosis should not be delayed for repeated measurements.",
+      "results": [
+        {
+          "id": "anterior_compartment_pressure",
+          "test": "Anterior compartment pressure",
+          "value": "45",
+          "unit": "mmHg",
+          "reference_range": "<10",
+          "flag": "critical",
+          "collected_at": "At bedside"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Compartment Syndrome evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Compartment Syndrome is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Acute Compartment Syndrome Lower Extremity Fracture, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: excruciating, out-of-proportion leg pain, severe pain on passive stretch of toes, and tense woody calf swelling 12 hours after tibial fracture",
+      "Key HPI features: 29M with casted tibial fracture complaining of agonizing 10/10 leg pain unresponsive to opioids with exquisite pain on passive ankle dorsiflexion where compartment pressure measures 45 mmHg requiring immediate emergent bivalving of cast and four-compartment fasciotomy.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acute Compartment Syndrome Lower Extremity Fracture.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Compartment Syndrome.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Simple post-fracture pain without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Pain out of proportion to the injury, especially with passive stretch — the earliest and most reliable sign."
+    ],
+    "management_principles": [
+      "Immediately loosen or bivalve constricting casts or dressings, keep the limb at heart level, and obtain emergent surgical fasciotomy for clinically diagnosed compartment syndrome",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Acute Compartment Syndrome Lower Extremity Fracture: excruciating, out-of-proportion leg pain, severe pain on passive stretch of toes, and tense woody calf swelling 12 hours after tibial fracture. 29M with casted tibial fracture complaining of agonizing 10/10 leg pain unresponsive to opioids with exquisite pain on passive ankle dorsiflexion where compartment pressure measures 45 mmHg requiring immediate emergent bivalving of cast and four-compartment fasciotomy.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acute Compartment Syndrome Lower Extremity Fracture.",
+    "assessment": "Clinical presentation highly suggestive of Acute Compartment Syndrome Lower Extremity Fracture.",
+    "plan": "Immediately bivalve and remove constricting cast material, keep the limb at heart level, and obtain emergent Orthopedic Surgery consultation for four-compartment fasciotomy. Do not delay surgery for repeated pressure measurements when the clinical diagnosis is clear; interpret pressures with the clinical examination and perfusion pressure. Monitor for rhabdomyolysis and renal injury."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Compartment Syndrome Lower Extremity Fracture",
+    "Formulate prioritized differential diagnosis for excruciating, out-of-proportion leg pain, severe pain on passive stretch of toes, and tense woody calf swelling 12 hours after tibial fracture",
+    "Select appropriate laboratory and imaging studies for emergency medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Compartment Syndrome",
+    "one_liner": "Swelling inside a tight fascial compartment (after a fracture) raises pressure high enough to cut off circulation, causing pain out of proportion to the injury and severe pain on passive stretch — a limb-threatening emergency needing immediate fasciotomy.",
+    "differentials": [
+      "Simple post-fracture pain",
+      "Deep vein thrombosis",
+      "Arterial injury"
+    ],
+    "red_flags": [
+      "Pain out of proportion to the injury, especially with passive stretch — the earliest and most reliable sign"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pain versus expected recovery",
+        "say": "Is the pain much worse than you'd expect for this kind of injury, and is it getting worse?",
+        "domains": [
+          "severity",
+          "progression"
+        ],
+        "keywords": [
+          "out of proportion",
+          "worse"
+        ]
+      },
+      {
+        "objective": "Pain with passive movement",
+        "say": "Does it hurt severely when someone moves your toes or ankle for you?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "passive stretch"
+        ]
+      },
+      {
+        "objective": "Sensation changes",
+        "say": "Do you have any numbness or tingling in your foot?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "numbness",
+          "tingling"
+        ]
+      },
+      {
+        "objective": "Response to pain medication",
+        "say": "Has your usual pain medication been helping at all?",
+        "domains": [
+          "relieving"
+        ],
+        "keywords": [
+          "opioids",
+          "no relief"
+        ]
+      },
+      {
+        "objective": "Timing relative to the cast",
+        "say": "How long ago was your leg casted, and when did the pain start getting this bad?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/88",
+      "hr": 108,
+      "rr": 20,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I broke my lower leg yesterday and got a cast put on, but over the last few hours the pain has become unbearable, like my leg is about to burst open.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I broke my leg about 18 hours ago and the splint was placed, but this excruciating, tightening pain started getting much worse around 6 hours ago.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The worst pain is deep in the front and back of my right lower leg under the cast, but it feels like the whole calf and foot are exploding.",
+        "topic": "Location and radiation of pain"
+      },
+      {
+        "answer": "It is a severe, deep, throbbing pressure and tight squeezing feeling, easily a 10 out of 10.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "It is constant and unrelenting, and it has steadily escalated every hour since midnight without letting up at all.",
+        "topic": "Duration and course"
+      },
+      {
+        "answer": "Any slight touch, shifting my leg, or moving my toes makes the pain unbearable, and nothing brings any relief.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I have numbness and a tingling, pins-and-needles sensation spreading across the top of my foot and between my big toe and second toe.",
+        "topic": "Sensation changes"
+      },
+      {
+        "answer": "Whenever my toes get bumped or bent backwards even a tiny bit, it shoots blinding, agonizing pain right up my calf.",
+        "topic": "Pain with passive movement"
+      },
+      {
+        "answer": "The doctors gave me strong prescription opioid pain pills after casting it, but even after taking two pills it did not touch the pain at all.",
+        "topic": "Response to pain medication"
+      },
+      {
+        "answer": "I just need you to cut this cast off immediately and give me whatever strong pain medication will actually stop this agony.",
+        "topic": "Pain versus expected recovery"
+      },
+      {
+        "answer": "The splint went on about 12 hours ago, and within hours my calf felt tighter and tighter until it felt rock-hard inside.",
+        "topic": "Timing relative to the cast"
+      },
+      {
+        "answer": "I can barely wiggle my toes, and trying to pull my foot upwards feels extremely weak and excruciatingly painful.",
+        "topic": "Motor weakness in toes"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, sweating, or signs of an infection.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I have not had any shortness of breath, chest pain, or coughing.",
+        "topic": "Chest symptoms"
+      },
+      {
+        "answer": "I slipped and fell heavily during a soccer match yesterday afternoon and snapped my right shin bone.",
+        "topic": "Mechanism of injury"
+      },
+      {
+        "answer": "I tried propping my leg up on pillows and taking the prescribed pain medication, but elevating it actually made the burning and tightness feel worse.",
+        "topic": "Self-treatment attempts"
+      },
+      {
+        "answer": "No, I have never had any fractures, blood clots, or severe leg pain like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I am in too much agony to sit still or sleep, and I feel like my leg is losing blood flow.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I think this cast was put on way too tight and it's completely choking off the blood supply to my leg.",
+        "topic": "Patient ideas of cause"
+      },
+      {
+        "answer": "I'm terrified that if my leg stays numb and suffocated like this, I'll get permanent nerve damage or even lose the leg.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I just need you to cut this cast off immediately and give me whatever strong pain medication will actually stop this agony.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have no chronic medical conditions like diabetes, high blood pressure, or kidney disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized prior to yesterday.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am only on the pain pills they gave me yesterday at the clinic, which was oxycodone, and I do not take any other daily prescriptions or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known drug or food allergies.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I do not smoke cigarettes or use any nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially, maybe one or two beers on the weekend, but I have not had any alcohol since the injury.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a software engineer and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of bleeding disorders, blood clotting problems, or vascular diseases.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 142/88 mmHg, heart rate 108 beats per minute, respiratory rate 20 breaths per minute, temperature 36.8°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Young male in severe, visible agony, groaning and clutching his immobilized lower extremity, pale and diaphoretic from pain.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "The splinted lower leg and calf demonstrate severe, tense, woody swelling with extreme tenderness upon palpation of the compartments.",
+        "maneuver": "calf_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Passive dorsiflexion of the ankle and passive extension of the toes elicit excruciating, severe pain in the anterior and deep calf compartments.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Hypoesthesia and tingling sensation noted over the first web space of the foot; sensation elsewhere is diminished compared to the contralateral side.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Active extension of the great toe and ankle dorsiflexion are severely weakened and limited by agonizing pain.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are palpable but weak bilaterally, with capillary refill in the toes slightly delayed at 3 seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Tense, tight skin visible at the exposed margins of the splint and toes without open wounds or gross skin necrosis.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

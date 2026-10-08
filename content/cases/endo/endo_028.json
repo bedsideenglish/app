@@ -1,0 +1,409 @@
+{
+  "id": "endo_028",
+  "system": "endo",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Clark",
+  "age": 26,
+  "gender": "female",
+  "chief_complaint": "abdominal pain, vomiting, Kussmaul breathing, and high glucose",
+  "hpi_details": "A 26-year-old female presents to the clinic with abdominal pain, vomiting, kussmaul breathing, and high glucose. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she has a severe bout of food poisoning from spoiled takeout or an appendicitis attack.",
+  "concerns": "She is worried she will lose consciousness from the uncontrollable vomiting and choke while alone in her apartment.",
+  "expectations": "She hopes to receive intravenous fluids and strong anti-nausea medication to quickly stop the vomiting and severe belly pain.",
+  "pmh": "Type 1 diabetes mellitus diagnosed ~6 months ago; no other medical conditions, no prior surgery or hospital admissions",
+  "medications": "Insulin glargine nightly and insulin lispro before meals (prescribed); ran out ~2 days ago and has missed all doses since; no other medications",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {
+      "id": "triage_glucose",
+      "test": "Point-of-care glucose",
+      "value": "528",
+      "unit": "mg/dL",
+      "reference_range": "70-140",
+      "flag": "critical",
+      "specimen": "Capillary blood",
+      "collected_at": "At triage"
+    }
+  ],
+  "investigation_events": [
+    {
+      "id": "stat_dka_labs",
+      "title": "STAT diabetic ketoacidosis laboratory results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "electrolytes",
+        "metabolic panel",
+        "blood gas",
+        "vbg",
+        "venous blood gas",
+        "ketones",
+        "beta hydroxybutyrate",
+        "dka labs"
+      ],
+      "availability_message": "The STAT diabetic ketoacidosis laboratory results are now available; fluid resuscitation should not be delayed while testing is processed.",
+      "results": [
+        {
+          "id": "venous_ph",
+          "test": "Venous pH",
+          "value": "7.08",
+          "reference_range": "7.31-7.41",
+          "flag": "critical",
+          "specimen": "Venous blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "bicarbonate",
+          "test": "Serum bicarbonate",
+          "value": "7",
+          "unit": "mEq/L",
+          "reference_range": "22-29",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "anion_gap",
+          "test": "Anion gap",
+          "value": "28",
+          "unit": "mEq/L",
+          "reference_range": "8-12",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "beta_hydroxybutyrate",
+          "test": "Beta-hydroxybutyrate",
+          "value": "7.4",
+          "unit": "mmol/L",
+          "reference_range": "<0.6",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "potassium",
+          "test": "Serum potassium",
+          "value": "5.4",
+          "unit": "mEq/L",
+          "reference_range": "3.5-5.0",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Diabetic Ketoacidosis (DKA) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Diabetic Ketoacidosis (DKA) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes protocolized IV fluids, an insulin infusion, and potassium replacement, with insulin held until potassium is corrected if it is below 3.5 mEq/L, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: abdominal pain, vomiting, Kussmaul breathing, and high glucose",
+      "Key HPI features: A 26-year-old female presents to the clinic with abdominal pain, vomiting, kussmaul breathing, and high glucose. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Diabetic Ketoacidosis DKA.",
+      "Relevant background/PMH: Type 1 diabetes mellitus diagnosed ~6 months ago; out of insulin for 2 days"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Diabetic Ketoacidosis (DKA).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Gastroenteritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Confusion."
+    ],
+    "management_principles": [
+      "Manage DKA with protocolized aggressive IV fluids, an insulin infusion, and potassium replacement, holding insulin if potassium is below 3.5 mEq/L until corrected",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Diabetes Association (ADA) Standards of Care in Diabetes 2026",
+        "url": "https://diabetesjournals.org/care/issue/49/Supplement_1"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of abdominal pain, vomiting, Kussmaul breathing, and high glucose. HPI: insulin deficiency, infection.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Diabetic Ketoacidosis DKA.",
+    "assessment": "Diabetic Ketoacidosis (DKA), given the abdominal pain, vomiting, Kussmaul breathing, and markedly elevated glucose, likely precipitated by missed insulin doses and/or infection.",
+    "plan": "Manage DKA in an acute-care setting with protocolized IV fluids, insulin infusion, frequent glucose/electrolyte/acid-base monitoring, and identification of the precipitating cause. Do not start or continue insulin if serum potassium is below 3.5 mEq/L; replace potassium first and monitor potassium frequently during treatment. Add dextrose when glucose falls while ketoacidosis persists, and continue insulin until ketoacidosis has resolved."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Diabetic Ketoacidosis DKA",
+    "Select appropriate diagnostic workup for Diabetic Ketoacidosis DKA",
+    "Implement evidence-based management plan: Aggressive IV fluids, insulin infusion, potassium replacement"
+  ],
+  "teaching": {
+    "diagnosis": "Diabetic Ketoacidosis (DKA)",
+    "one_liner": "Insulin deficiency during infection causing abdominal pain, vomiting, Kussmaul breathing, and very high glucose.",
+    "differentials": [
+      "Gastroenteritis"
+    ],
+    "red_flags": [
+      "Confusion"
+    ],
+    "must_ask": [
+      {
+        "objective": "Insulin use",
+        "say": "Have you been taking your insulin?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Breathing",
+        "say": "Are you breathing deeper or faster?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Abdominal pain",
+        "say": "Where is the pain?",
+        "domains": [
+          "location"
+        ]
+      },
+      {
+        "objective": "Infection symptoms",
+        "say": "Have you had a fever or infection?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Thirst",
+        "say": "Are you very thirsty?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "clinical_safety_note": "In DKA, monitor potassium closely; if K+ is <3.5 mEq/L, replace potassium and hold insulin until it is corrected.",
+  "sp_script": {
+    "vitals": {
+      "bp": "98/62",
+      "hr": 114,
+      "rr": 28,
+      "spo2": 98,
+      "temp_c": 37.1
+    },
+    "history": [
+      {
+        "answer": "My stomach has been hurting all over and I cannot stop throwing up since yesterday.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about two days ago as mild cramps and fatigue, but it got much worse over the last 24 hours.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The pain is all across my abdomen, mostly around the middle, and it has not shifted or moved anywhere specific.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "No, it stays right in my belly and does not travel to my back, shoulders, or groin.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It feels like a steady, heavy ache with generalized cramping all over my stomach.",
+        "topic": "Nature of pain"
+      },
+      {
+        "answer": "I would rate it around a 7 out of 10 right now, and it has steadily become stronger since yesterday.",
+        "topic": "Severity of pain"
+      },
+      {
+        "answer": "Taking small sips of water or trying to eat makes me throw up immediately, and no resting position gives any relief.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have never experienced stomach pain or vomiting like this before.",
+        "topic": "Previous similar pain"
+      },
+      {
+        "answer": "I have thrown up at least five or six times today, mostly clear fluid and a bit of yellowish bile, but never any blood.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "I had a normal bowel movement yesterday morning, no diarrhea, and there has been no blood or black stool.",
+        "topic": "Bowel habits and stool"
+      },
+      {
+        "answer": "I have not felt feverish or had any chills or shivering.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No yellowing of my eyes or skin, and my stool color has been normal, though my urine is dark and concentrated.",
+        "topic": "Jaundice and stool changes"
+      },
+      {
+        "answer": "I have been peeing huge amounts very frequently over the past three days, but there is no burning pain or blood.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "I feel lightheaded, shaky, and unsteady when I try to stand up, but I have not fainted.",
+        "topic": "Dizziness and lightheadedness"
+      },
+      {
+        "answer": "No, there has been no unusual vaginal bleeding, spotting, or abnormal vaginal discharge.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "I do not have any chest pain, but I feel like I am breathing very heavily and rapidly just to catch my breath.",
+        "topic": "Chest pain and breathing"
+      },
+      {
+        "answer": "I have not eaten any greasy or spoiled food, and I have not had any alcohol recently.",
+        "topic": "Recent meals and alcohol"
+      },
+      {
+        "answer": "No, I have not taken any ibuprofen, naproxen, aspirin, or other pain relievers.",
+        "topic": "Painkillers and NSAIDs"
+      },
+      {
+        "answer": "My heart feels like it is pounding fast, but I have never had heart disease or irregular heart rhythms.",
+        "topic": "Palpitations and heart issues"
+      },
+      {
+        "answer": "I have type 1 diabetes, but I ran out of my insulin pens two days ago and missed all my doses since then.",
+        "topic": "Insulin use and adherence"
+      },
+      {
+        "answer": "Yes, I have had an extreme thirst that I cannot quench for the last three days, and my mouth feels completely parched.",
+        "topic": "Extreme thirst and dry mouth"
+      },
+      {
+        "answer": "I had a scratchy throat and a slight runny nose three days ago, but no high fever or chest congestion.",
+        "topic": "Infection symptoms"
+      },
+      {
+        "answer": "I was diagnosed with type 1 diabetes about six months ago, but otherwise I have had no other medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery, and I have never been admitted to a hospital before.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I normally take long-acting insulin glargine at night and rapid-acting insulin lispro before meals, but I ran out two days ago; I take no other medications or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially once or twice a month, but I have not had a drink in several weeks.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an office administrative assistant and live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has mild high blood pressure, but no one in my immediate family has diabetes or autoimmune diseases.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period was three weeks ago and was normal; my cycles are always regular and I use condoms consistently.",
+        "topic": "Menstrual history and pregnancy"
+      },
+      {
+        "answer": "I thought I just came down with terrible food poisoning from restaurant food, or maybe my appendix is about to burst.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm terrified that I'll pass out from throwing up so much and choke while nobody is around to help me.",
+        "topic": "Patient worries and concerns"
+      },
+      {
+        "answer": "I just want an IV drip for dehydration and strong medicine to stop this awful nausea and stomach pain right away.",
+        "topic": "Patient expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Ill-appearing, visibly dehydrated female lying in bed with rapid, deep Kussmaul breathing and a faint fruity breath odor.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 98/62 mmHg, heart rate 114 beats per minute, respiratory rate 28 breaths per minute with deep excursions, temperature 37.1 C, oxygen saturation 98% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Dry, sticky oral mucous membranes and cracked lips without pharyngeal erythema or tonsillar exudates.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with deep, rapid respiratory cycles and no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat and symmetrical with no scars, visible distension, or abnormal pulsations.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hypoactive bowel sounds heard across all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse, mild nonspecific tenderness to palpation across the entire abdomen without involuntary guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness elicited in any quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Negative Murphy's sign without focal right upper quadrant tenderness or inspiratory arrest.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "Negative McBurney point tenderness, negative psoas sign, and negative obturator sign.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Reduced skin turgor with delayed recoil and dry skin, consistent with moderate dehydration.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

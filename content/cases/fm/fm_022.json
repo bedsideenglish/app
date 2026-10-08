@@ -1,0 +1,316 @@
+{
+  "id": "fm_022",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Cho",
+  "age": 55,
+  "gender": "male",
+  "chief_complaint": "elevated cholesterol on screening, high LDL, and history of smoking",
+  "hpi_details": "55M presents to review screening labs. Total cholesterol is 240 mg/dL, LDL is 165 mg/dL, and HDL is 38 mg/dL. He has a 15 pack-year smoking history and drinks socially.",
+  "ideas": "thinks his high cholesterol is due to eating eggs and cheese",
+  "concerns": "worried about heart attack or stroke",
+  "expectations": "wants dietary advice and statin review",
+  "pmh": "Hypertension",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Driver, smoker",
+  "available_results": [
+    {
+      "id": "total_cholesterol",
+      "test": "Total cholesterol",
+      "value": "240",
+      "unit": "mg/dL",
+      "reference_range": "<200",
+      "flag": "high",
+      "specimen": "Blood"
+    },
+    {
+      "id": "ldl_cholesterol",
+      "test": "LDL cholesterol",
+      "value": "165",
+      "unit": "mg/dL",
+      "reference_range": "<100",
+      "flag": "high",
+      "specimen": "Blood"
+    },
+    {
+      "id": "hdl_cholesterol",
+      "test": "HDL cholesterol",
+      "value": "38",
+      "unit": "mg/dL",
+      "reference_range": ">=40",
+      "flag": "low",
+      "specimen": "Blood"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Hyperlipidemia with elevated ASCVD risk evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hyperlipidemia with elevated ASCVD risk is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes calculating a 10-year ASCVD risk score to guide statin initiation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: elevated cholesterol on screening, high LDL, and history of smoking",
+      "Key HPI features: 55M presents to review screening labs. Total cholesterol is 240 mg/dL, LDL is 165 mg/dL, and HDL is 38 mg/dL. He has a 15 pack-year smoking history and drinks socially.",
+      "Objective/Exam findings: Blood pressure and BMI recorded for risk calculation; no xanthomas or xanthelasma noted on exam. Lipid panel: total cholesterol 240 mg/dL, LDL 165 mg/dL, HDL 38 mg/dL.",
+      "Relevant background/PMH: Hypertension",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hyperlipidemia with elevated ASCVD risk.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Familial hypercholesterolemia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Chest pain or exertional dyspnea — needs urgent cardiac evaluation, not just a risk-score calculation."
+    ],
+    "management_principles": [
+      "Calculate 10-year ASCVD risk score to guide the decision on statin intensity",
+      "Recommend Mediterranean diet, smoking cessation, and discuss initiating moderate-to-high intensity statin (Atorvastatin 20mg daily)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Hyperlipidemia / Dyslipidemia with elevated 10-year ASCVD risk. elevated cholesterol on screening, high LDL, and history of smoking. 55M presents to review screening labs. Total cholesterol is 240 mg/dL, LDL is 165 mg/dL, and HDL is 38 mg/dL. He has a 15 pack-year smoking history and drinks socially.",
+    "objective": "Blood pressure and BMI recorded. No xanthomas or xanthelasma. Lipid panel: total cholesterol 240 mg/dL, LDL 165 mg/dL, HDL 38 mg/dL.",
+    "assessment": "Hyperlipidemia with elevated 10-year ASCVD risk given smoking history and lipid profile.",
+    "plan": "Calculate 10-year ASCVD risk score. Recommend Mediterranean diet, smoking cessation counseling, and discuss initiating moderate-to-high intensity statin (Atorvastatin 20mg daily)."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hyperlipidemia / Dyslipidemia with elevated 10-year ASCVD risk.",
+    "Formulate prioritized differential diagnosis for elevated cholesterol on screening, high LDL, and history of smoking",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies for Hyperlipidemia / Dyslipidemia with elevated 10-year ASCVD risk."
+  ],
+  "teaching": {
+    "diagnosis": "Hyperlipidemia with elevated ASCVD risk",
+    "one_liner": "High LDL and low HDL on screening labs in a smoker, where statin initiation is decided using a calculated cardiovascular risk score, not diet alone.",
+    "differentials": [
+      "Familial hypercholesterolemia"
+    ],
+    "red_flags": [
+      "Chest pain or exertional dyspnea — needs urgent cardiac evaluation, not just a risk-score calculation",
+      "LDL >190 mg/dL — consider familial hypercholesterolemia, which needs more aggressive treatment and family screening",
+      "Claudication or cold extremities — signs of peripheral arterial disease reflecting advanced atherosclerosis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Smoking history",
+        "say": "How much and how long have you smoked?",
+        "domains": [
+          "smoking"
+        ]
+      },
+      {
+        "objective": "Diet beliefs",
+        "say": "What do you think is causing your high cholesterol?",
+        "domains": [
+          "ideas"
+        ],
+        "keywords": [
+          "eggs",
+          "cheese"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does heart disease run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      },
+      {
+        "objective": "Alcohol use",
+        "say": "How much alcohol do you drink?",
+        "domains": [
+          "alcohol"
+        ]
+      },
+      {
+        "objective": "Symptoms",
+        "say": "Any chest pain or shortness of breath?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "132/84",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I got a call after my routine health checkup saying my cholesterol was high, so I came in to have it checked out.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The clinic said my total cholesterol and bad cholesterol were quite high, but they told me you would go over the exact numbers with me today.",
+        "topic": "Understanding of lab results"
+      },
+      {
+        "answer": "Yes, I fasted for twelve hours before the blood draw, and I did not drink alcohol or eat greasy food the night before.",
+        "topic": "Fasting and pre-test meal"
+      },
+      {
+        "answer": "My cholesterol was slightly borderline a couple of years ago, but this is the first time anyone said it was definitely high. I have never taken cholesterol medication before.",
+        "topic": "Previous cholesterol history"
+      },
+      {
+        "answer": "No, I do not get any chest pain, tightness, or shortness of breath when I walk or climb stairs.",
+        "topic": "Chest pain or breathlessness"
+      },
+      {
+        "answer": "No, I have never had sudden weakness, numbness on one side, slurred speech, or vision trouble.",
+        "topic": "Transient weakness or numbness"
+      },
+      {
+        "answer": "No, my legs feel fine when I walk, and I do not get calf cramps or aches.",
+        "topic": "Leg pain when walking"
+      },
+      {
+        "answer": "I have high blood pressure, but I do not have diabetes. I also smoke cigarettes.",
+        "topic": "Cardiovascular risk factors"
+      },
+      {
+        "answer": "No, I have not noticed any yellowish bumps on my eyelids, hands, or heels.",
+        "topic": "Yellow skin bumps"
+      },
+      {
+        "answer": "No, I have not felt unusually sensitive to the cold, gained sudden weight, had constipation, or felt fatigued.",
+        "topic": "Thyroid symptoms"
+      },
+      {
+        "answer": "No, my legs do not swell up, my urine is not foamy, and my skin and eyes are not yellow or itchy.",
+        "topic": "Kidney and liver symptoms"
+      },
+      {
+        "answer": "No, I have never taken steroids, water pills, acne medications, or psychiatric drugs.",
+        "topic": "Lipid raising medications"
+      },
+      {
+        "answer": "I eat eggs and cheese almost every morning, and I often grab fast food while working on the road. I wonder if all those eggs and cheese caused this.",
+        "topic": "Dietary habits and beliefs"
+      },
+      {
+        "answer": "I drive for a living, so I sit most of the day and rarely get regular exercise. My weight has stayed pretty stable around eighty kilograms.",
+        "topic": "Physical activity and weight"
+      },
+      {
+        "answer": "No, I have never had severe upper belly pain or vomiting.",
+        "topic": "Severe abdominal pain"
+      },
+      {
+        "answer": "I am really worried this might lead to a heart attack or stroke down the road. I would like to hear what foods to change and whether I need to take a statin.",
+        "topic": "Patient concerns and expectations"
+      },
+      {
+        "answer": "No, I feel completely fine right now and do not have any day-to-day symptoms.",
+        "topic": "Current symptoms"
+      },
+      {
+        "answer": "I was diagnosed with high blood pressure about five years ago, but I have no other chronic conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was twenty, but I have had no other surgeries or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril ten milligrams once every morning for my blood pressure. I do not take any over-the-counter pills or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have smoked about half a pack of cigarettes a day for thirty years.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, usually just one or two beers on the weekend with friends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "My father had high blood pressure, but no one in my immediate family had early heart attacks, strokes, or severe cholesterol disorders.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I work full-time as a delivery driver and live with my wife.",
+        "topic": "Occupation and living situation"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 132/84 mmHg, heart rate 74 bpm, respiratory rate 14 breaths/min, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, comfortable, well-nourished male; BMI 26.8 kg/m2 with waist circumference 92 cm.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal and reactive; no xanthelasma on either eyelid and no corneal arcus.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal size, symmetrical, non-tender, and without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, rubs, gallops, or carotid bruits.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with no wheezes, rhonchi, or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, non-distended, with no palpable hepatosplenomegaly or pulsatile mass.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial, dorsalis pedis, and posterior tibial pulses are 2+ bilaterally and symmetric.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No tendon xanthomas over the Achilles tendons or hands, and no eruptive xanthomas.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or ankle edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

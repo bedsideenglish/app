@@ -1,0 +1,332 @@
+{
+  "id": "fm_001",
+  "system": "family medicine",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Adams",
+  "age": 52,
+  "gender": "male",
+  "chief_complaint": "routine health check reveals newly diagnosed Type 2 Diabetes, Hypertension, and Metabolic Syndrome requiring comprehensive management",
+  "hpi_details": "52M sedentary truck driver presents for his first general medical checkup in 8 years upon insistence of his wife. Reports feeling generally well, but admits to chronic mild fatigue, gaining 25 pounds over the past 3 years, waking up twice nightly to urinate (nocturia), and increased thirst. Eats fast food daily while driving and drinks 3 cans of soda daily. Denies chest pain, shortness of breath, or foot numbness.",
+  "ideas": "thinks his fatigue and weight gain are just normal signs of getting older and working long shifts",
+  "concerns": "anxious because his father died of a heart attack at age 58 and mother lost toes to diabetes",
+  "expectations": "wants a complete physical checkup and advice on whether he needs daily prescription medications",
+  "pmh": "No prior formal diagnoses (has not seen a physician in 8 years)",
+  "medications": "None",
+  "social_hx": "Long-haul truck driver, sedentary, 15 pack-year smoker (quit 5 years ago), drinks 4-5 beers on weekends",
+  "clinical_knowledge": {
+    "topic": "Newly Diagnosed Type 2 Diabetes with Hypertension and Metabolic Syndrome evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Newly Diagnosed Type 2 Diabetes with Hypertension and Metabolic Syndrome is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Comprehensive, multi-target Family Medicine evidence-based protocol: glycemic control with metformin and an SGLT2 inhibitor, blood pressure and renal protection with an ACEi/ARB, high-intensity statin therapy, and lifestyle and preventative care, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: routine health check reveals newly diagnosed Type 2 Diabetes, Hypertension, and Metabolic Syndrome requiring comprehensive management",
+      "Key HPI features: 52M sedentary truck driver presents for his first general medical checkup in 8 years upon insistence of his wife. Reports feeling generally well, but admits to chronic mild fatigue, gaining 25 pounds over the past 3 years, waking up twice nightly to urinate (nocturia), and increased thirst. Eats fast food daily while driving and drinks 3 cans of soda daily. Denies chest pain, shortness of breath, or foot numbness.",
+      "Objective/Exam findings: Vitals: HR 78, BP 154/94 (confirmed on repeat check after 10 minutes resting: 152/92), Weight 104 kg, Height 175 cm (BMI 34.0 kg/m2 - Class I Obesity), Waist Circumference 112 cm (>102 cm cutoff for abdominal obesity). Physical exam reveals prominent velvety, dark hyperpigmented thickening of the skin around the posterior neck and axillae (Acanthosis Nigricans, indicating severe insulin resistance). Cardiovascular exam reveals regular rhythm without murmurs; peripheral pulses 2+ bilaterally; Semmes-Weinstein 10g monofilament foot sensation intact bilaterally. STAT Fasting Laboratory Panel: Fasting Blood Glucose 186 mg/dL, Hemoglobin A1c (HbA1c) 8.6% (diagnostic of Type 2 Diabetes >6.5%), Lipid Panel: Total Cholesterol 245 mg/dL, Triglycerides 280 mg/dL, HDL 34 mg/dL, LDL 155 mg/dL. Serum Creatinine 0.9 mg/dL (eGFR >90 mL/min/1.73m2). Random Urine Albumin-to-Creatinine Ratio (UACR) 45 mg/g (confirming early Microalbuminuria / Diabetic Kidney Disease).",
+      "Relevant background/PMH: No prior formal diagnoses (has not seen a physician in 8 years)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Newly Diagnosed Type 2 Diabetes with Hypertension and Metabolic Syndrome.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Isolated hypertension without metabolic syndrome without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Very high HbA1c with kidney involvement (microalbuminuria) — signals disease has been present silently for years."
+    ],
+    "management_principles": [
+      "Comprehensive, multi-target Family Medicine evidence-based protocol: glycemic control with metformin and an SGLT2 inhibitor, blood pressure and renal protection with an ACEi/ARB, high-intensity statin therapy, and lifestyle and preventative care",
+      "Glycemic management: initiate Metformin 500 mg PO with dinner for 1 week, titrating to 1000 mg BID with meals (first line, check baseline B12 and renal function)",
+      "Given HbA1c >8.5% plus high cardiovascular/renal risk with microalbuminuria, immediately add a Sodium-Glucose Cotransporter-2 (SGLT2) Inhibitor (Empagliflozin 10 mg or Dapagliflozin 10 mg daily) for proven nephroprotection and cardiovascular risk reduction. Target HbA1c < 7.0%."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "52M sedentary male presenting for comprehensive annual health checkup manifesting polyuria, polydipsia, fatigue, and weight gain, with strong family history of premature cardiovascular disease and diabetes.",
+    "objective": "Vitals: HR 78, BP 154/94 (confirmed on repeat check after 10 minutes resting: 152/92), Weight 104 kg, Height 175 cm (BMI 34.0 kg/m2 - Class I Obesity), Waist Circumference 112 cm (>102 cm cutoff for abdominal obesity). Physical exam reveals prominent velvety, dark hyperpigmented thickening of the skin around the posterior neck and axillae (Acanthosis Nigricans, indicating severe insulin resistance). Cardiovascular exam reveals regular rhythm without murmurs; peripheral pulses 2+ bilaterally; Semmes-Weinstein 10g monofilament foot sensation intact bilaterally. STAT Fasting Laboratory Panel: Fasting Blood Glucose 186 mg/dL, Hemoglobin A1c (HbA1c) 8.6% (diagnostic of Type 2 Diabetes >6.5%), Lipid Panel: Total Cholesterol 245 mg/dL, Triglycerides 280 mg/dL, HDL 34 mg/dL, LDL 155 mg/dL. Serum Creatinine 0.9 mg/dL (eGFR >90 mL/min/1.73m2). Random Urine Albumin-to-Creatinine Ratio (UACR) 45 mg/g (confirming early Microalbuminuria / Diabetic Kidney Disease).",
+    "assessment": "1. Newly Diagnosed Type 2 Diabetes Mellitus (HbA1c 8.6%) complicated by early Diabetic Kidney Disease (Stage G1A2 microalbuminuria). 2. Stage 2 Primary Hypertension (BP 152/92). 3. Mixed Dyslipidemia and Class I Obesity (Metabolic Syndrome). 4. Intermediate 10-Year ASCVD Risk (calculated at 18.4%; intermediate category 7.5% to <20%) with multiple risk-enhancing factors (diabetes with albuminuria, hypertension, metabolic syndrome).",
+    "plan": "Comprehensive, multi-target Family Medicine evidence-based protocol: 1. Glycemic management: initiate Metformin 500 mg PO with dinner for 1 week, titrating to 1000 mg BID with meals (first line, check baseline B12 and renal function). Given HbA1c >8.5% plus high cardiovascular/renal risk with microalbuminuria, immediately add a Sodium-Glucose Cotransporter-2 (SGLT2) Inhibitor (Empagliflozin 10 mg or Dapagliflozin 10 mg daily) for proven nephroprotection and cardiovascular risk reduction. Target HbA1c < 7.0%. 2. Blood Pressure & Renal Protection: initiate an Angiotensin-Converting Enzyme Inhibitor (ACEi - Lisinopril 10 mg PO daily) or ARB (Losartan 50 mg daily) specifically indicated for both hypertension reduction (target BP <130/80 mmHg in diabetes) and antiproteinuric renoprotection for microalbuminuria. Check basic metabolic panel in 2-3 weeks to monitor potassium and creatinine. 3. Cardiovascular Lipid Reduction: initiate high-intensity statin therapy (Atorvastatin 40 mg PO daily or Rosuvastatin 20 mg) chosen because he has diabetes plus multiple additional ASCVD risk factors (at least moderate-intensity statin therapy is recommended for all diabetic patients aged 40-75 regardless of baseline LDL), aiming for LDL reduction of >=50% and LDL < 70 mg/dL. 4. Lifestyle & Preventative care: refer to Diabetes Self-Management Education (DSME) and Medical Nutrition Therapy (MNT) for low-glycemic, Mediterranean-style dietary counseling and elimination of sugar-sweetened sodas. Encourage 150 minutes/week moderate aerobic exercise. Schedule baseline Ophthalmology Dilated Diabetic Eye Exam and referral to Podiatry. Provide annual Influenza and Pneumococcal (PCV20) vaccinations."
+  },
+  "learning_objectives": [
+    "Formulate a comprehensive, evidence-based primary care management plan for newly diagnosed Type 2 Diabetes Mellitus adhering to ADA standards of care (targeting glycemic control, hypertension, dyslipidemia, and microvascular screening)",
+    "Identify specific clinical criteria mandating dual-combination or organ-protective pharmacotherapy at diabetes diagnosis (initiating Metformin plus an SGLT2 inhibitor or GLP-1 receptor agonist when established cardiovascular risk, chronic kidney disease, or microalbuminuria is present)",
+    "Prescribe appropriate antiproteinuric and antihypertensive pharmacotherapy (ACE inhibitors or ARBs targeting BP <130/80 mmHg) for diabetic microalbuminuria, and explain required monitoring protocols (serum creatinine and potassium re-checks in 2-3 weeks)",
+    "Execute standard preventative diabetes screening checklists including annual dilated funduscopic eye examinations, comprehensive foot exams with 10-gram monofilament, annual urine albumin-to-creatinine ratio (UACR), and age-appropriate immunizations (pneumococcal, influenza, hepatitis B)"
+  ],
+  "teaching": {
+    "diagnosis": "Newly Diagnosed Type 2 Diabetes with Hypertension and Metabolic Syndrome",
+    "one_liner": "Years without a checkup let insulin resistance, high blood pressure, and abnormal lipids build up silently together — 'metabolic syndrome' — often only surfacing as vague fatigue and weight gain until routine labs reveal all three at once.",
+    "differentials": [
+      "Isolated hypertension without metabolic syndrome",
+      "Thyroid dysfunction (for fatigue/weight gain)",
+      "Sleep apnea (common comorbidity, may explain fatigue)"
+    ],
+    "red_flags": [
+      "Very high HbA1c with kidney involvement (microalbuminuria) — signals disease has been present silently for years"
+    ],
+    "must_ask": [
+      {
+        "objective": "Classic diabetes symptoms",
+        "say": "Have you been more thirsty than usual, or getting up at night to urinate?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "thirst",
+          "nocturia"
+        ]
+      },
+      {
+        "objective": "Weight change",
+        "say": "How much weight have you gained, and over what time?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "25 pounds",
+          "3 years"
+        ]
+      },
+      {
+        "objective": "Diet and lifestyle",
+        "say": "What does a typical day of eating look like for you?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "fast food",
+          "soda"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Has anyone in your family had diabetes, heart attacks, or lost toes/limbs to diabetes?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "father",
+          "heart attack",
+          "toes"
+        ]
+      },
+      {
+        "objective": "The patient's own worry",
+        "say": "What worries you most, given your family history?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "154/94",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I came in to get a routine checkup today. My wife pushed me to come because it has been about eight years since I last saw a doctor.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My wife insisted on this visit, and I want a full physical checkup to know where my health stands and if I need prescription medications.",
+        "topic": "Reason for visit and goals"
+      },
+      {
+        "answer": "I have been feeling worn out and chronically tired for the past several months. I figured it was just long driving hours and getting older.",
+        "topic": "Fatigue and low energy"
+      },
+      {
+        "answer": "I find myself drinking lots of water throughout the day, and I now have to wake up twice every night to use the bathroom.",
+        "topic": "Increased thirst and urination"
+      },
+      {
+        "answer": "I have put on about twenty-five pounds over the last three years. My belt keeps needing bigger notches.",
+        "topic": "Weight gain and timeline"
+      },
+      {
+        "answer": "I tried cutting out bread for a couple of weeks last year, but I went right back to my old eating habits once I hit the road.",
+        "topic": "Weight loss attempts"
+      },
+      {
+        "answer": "I drive long routes, so I eat fast food almost every day and drink about three cans of regular soda daily.",
+        "topic": "Daily diet and beverages"
+      },
+      {
+        "answer": "I spend ten to twelve hours a day sitting behind the steering wheel, so I really get almost zero exercise.",
+        "topic": "Physical activity and exercise"
+      },
+      {
+        "answer": "My wife tells me I snore pretty loudly, but she has never mentioned seeing me stop breathing in my sleep.",
+        "topic": "Snoring and sleep quality"
+      },
+      {
+        "answer": "No, I do not have any chest tightness, heaviness, or pain at all.",
+        "topic": "Chest pain or pressure"
+      },
+      {
+        "answer": "No, I do not get unusually short of breath, even when loading or unloading cargo.",
+        "topic": "Shortness of breath"
+      },
+      {
+        "answer": "No, my heart never feels like it is fluttering or beating out of my chest, and I have never passed out.",
+        "topic": "Palpitations and fainting"
+      },
+      {
+        "answer": "My knees feel a bit stiff after a long haul, but there is no sharp pain, swelling, or redness.",
+        "topic": "Joint and knee pain"
+      },
+      {
+        "answer": "No, my feet feel totally normal, with no numbness, tingling, or burning feelings.",
+        "topic": "Numbness or tingling in feet"
+      },
+      {
+        "answer": "No, my vision seems fine, maybe just a little tired after driving all day.",
+        "topic": "Vision changes"
+      },
+      {
+        "answer": "No, I do not feel cold when others are comfortable, and my bowels move normally every day.",
+        "topic": "Cold intolerance and bowel habits"
+      },
+      {
+        "answer": "I have not noticed easy bruising, purple stretch marks, or puffiness in my face.",
+        "topic": "Bruising and facial swelling"
+      },
+      {
+        "answer": "No, I have never had a concussion, head trauma, or asthma attacks while working.",
+        "topic": "Head injury and asthma"
+      },
+      {
+        "answer": "I honestly thought the extra weight and sluggishness were just typical parts of turning fifty.",
+        "topic": "Patient thoughts on symptoms"
+      },
+      {
+        "answer": "I am really worried about having a heart attack like my dad did, or losing toes to diabetes like my mom did.",
+        "topic": "Patient worries and fears"
+      },
+      {
+        "answer": "I want to see what my lab tests show and find out whether I need to be taking daily medication.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have never been diagnosed with any chronic medical conditions, though I have not seen any doctor in eight years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription pills, over-the-counter medicines, or dietary supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or anything else that I know of.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "My last general checkup was eight years ago, and I have never had a colonoscopy or any cancer screening tests.",
+        "topic": "Prior checkups and cancer screening"
+      },
+      {
+        "answer": "I haven't had any shots in years, maybe a tetanus shot over ten years ago, but definitely no recent flu or pneumonia vaccines.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "My father died of a heart attack when he was fifty-eight, and my mother had severe diabetes and had toes amputated.",
+        "topic": "Family history of heart disease"
+      },
+      {
+        "answer": "No one in my immediate family has died suddenly before age fifty, and there is no family history of cancer.",
+        "topic": "Family history of sudden death"
+      },
+      {
+        "answer": "I smoked a pack a day for fifteen years, but I quit completely five years ago and have not touched a cigarette since.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink four or five beers over the weekend when I am off duty, but I never drink while working on the road.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time as an interstate long-haul truck driver, and I live with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "I have been married to my wife for twenty-five years, with no other sexual partners, and no history of sexually transmitted infections.",
+        "topic": "Sexual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 154/94 mmHg, heart rate 78 beats per minute, respiratory rate 16 breaths per minute, BMI 34.0 kg/m2, and waist circumference 112 cm.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Velvety, dark hyperpigmented plaques are present on the posterior neck and bilateral axillae, with no purple striae or easy bruising.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size and non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, and no murmurs auscultated in supine or standing positions.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear to auscultation bilaterally with normal vesicular breath sounds and no crackles or wheezes.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, obese abdomen with no tenderness, guarding, or palpable organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Femoral, posterior tibial, and dorsalis pedis pulses are 2+ and symmetric bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Normal light touch and preserved sensation to Semmes-Weinstein 10-gram monofilament testing on all plantar surfaces bilaterally.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Full active range of motion in bilateral knees and ankles without joint effusion, warmth, or tenderness.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal spinal curvature with preserved range of motion and no midline or paraspinal tenderness.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

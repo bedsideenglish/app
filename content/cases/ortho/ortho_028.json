@@ -1,0 +1,320 @@
+{
+  "id": "ortho_028",
+  "system": "orthopedics",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Gonzalez",
+  "age": 26,
+  "gender": "female",
+  "chief_complaint": "pop sound and swelling in knee after twisting in soccer",
+  "hpi_details": "26F with a pop and knee swelling after a noncontact twist in soccer; assess swelling timing, ability to bear weight, alignment, and distal neurovascular status.",
+  "ideas": "She thinks she blew out a knee ligament or popped her kneecap out of place when she twisted during the match.",
+  "concerns": "She is worried that she will never be able to play competitive soccer again and will struggle to commute to work on crutches.",
+  "expectations": "She hopes to get an MRI scheduled today along with a stabilizing knee brace and crutches so she can walk safely.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "ACL tear evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of ACL tear is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for ACL Tear: Knee MRI, physical therapy, surgical reconstruction if unstable, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: pop sound and swelling in knee after twisting in soccer",
+      "Key HPI features: A 26-year-old female presents to the clinic with pop sound and swelling in knee after twisting in soccer. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for ACL Tear.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out ACL tear.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Meniscal tear without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Immediate large effusion suggests hemarthrosis."
+    ],
+    "management_principles": [
+      "Plan for ACL Tear: Knee MRI, physical therapy, surgical reconstruction if unstable",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of pop sound and swelling in knee after twisting in soccer. HPI: anterior cruciate ligament rupture.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for ACL Tear.",
+    "assessment": "Condition highly suspicious for ACL Tear.",
+    "plan": "Assess alignment, ability to bear weight, and distal neurovascular status; obtain radiographs first when fracture is a concern, then MRI when examination and the clinical course support internal derangement. Provide protection and early rehabilitation follow-up. Consider reconstruction with a specialist for persistent functional instability after shared decision-making. Escalate for a deformed knee, a cool/pale foot, new numbness/weakness, or pain/swelling out of proportion."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of ACL Tear",
+    "Select appropriate diagnostic workup for ACL Tear",
+    "Implement evidence-based management plan: Knee MRI, physical therapy, surgical reconstruction if unstable"
+  ],
+  "teaching": {
+    "diagnosis": "ACL tear",
+    "one_liner": "Patient with a pop sound and swelling in the knee after twisting during soccer.",
+    "differentials": [
+      "Meniscal tear",
+      "MCL sprain",
+      "Patellar dislocation"
+    ],
+    "red_flags": [
+      "Immediate large effusion suggests hemarthrosis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the mechanism",
+        "say": "Can you describe how you twisted your knee?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "twisting mechanism"
+        ]
+      },
+      {
+        "objective": "Ask about the swelling timeline",
+        "say": "How quickly did the swelling appear?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "rapid swelling"
+        ]
+      },
+      {
+        "objective": "Assess weight-bearing ability",
+        "say": "Could you walk on it right after the injury?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weight bearing"
+        ]
+      },
+      {
+        "objective": "Explore concerns about returning to sport",
+        "say": "What's your main concern about getting back to soccer?",
+        "domains": [
+          "concerns"
+        ],
+        "keywords": [
+          "return to sport"
+        ]
+      },
+      {
+        "objective": "Explain the MRI and treatment options",
+        "say": "After examination and any needed X-rays, an MRI may clarify a ligament injury. We can then discuss rehabilitation and, if instability persists, whether surgery fits your goals.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "MRI",
+          "reconstruction"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 74,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I heard a loud pop in my right knee while playing soccer yesterday, and it swelled up really fast.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is just my right knee; all my other joints feel completely normal.",
+        "topic": "Location and number of joints"
+      },
+      {
+        "answer": "It happened suddenly yesterday afternoon during our soccer match, about twenty-four hours ago.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It was a sharp, tearing pain when it happened, and now it is a dull, throbbing ache at about a 6 out of 10.",
+        "topic": "Pain characteristics and severity"
+      },
+      {
+        "answer": "I was running and tried to quickly change direction to cut around a defender, and my right foot planted while my knee twisted inward without anyone hitting me.",
+        "topic": "Mechanism of injury"
+      },
+      {
+        "answer": "Yes, I heard and felt a distinct popping sound inside my knee, and my leg buckled right under me so I fell to the ground.",
+        "topic": "Pop sound and giving way"
+      },
+      {
+        "answer": "It started swelling almost immediately, and within one to two hours it was swollen like a balloon.",
+        "topic": "Swelling timeline"
+      },
+      {
+        "answer": "It feels quite warm and tight because of all the fluid, but it isn't noticeably red.",
+        "topic": "Warmth and redness"
+      },
+      {
+        "answer": "It feels too stiff and swollen to bend fully, but it hasn't gotten completely stuck or locked in place.",
+        "topic": "Joint locking or catching"
+      },
+      {
+        "answer": "Trying to bend the knee or put any weight on it makes the pain worse; resting with an ice pack and elevating it helps a bit.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I couldn't walk off the field and had to be helped off by my teammates; I can't put any weight on it right now.",
+        "topic": "Weight-bearing and walking ability"
+      },
+      {
+        "answer": "No, I don't have any morning stiffness in my joints, just the tightness from the swelling.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "No, I have never injured this knee or had any joint problems before.",
+        "topic": "Previous joint injuries"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or sweating.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "I have been feeling a little extra tired from work lately, but my weight has stayed the same.",
+        "topic": "Fatigue and weight changes"
+      },
+      {
+        "answer": "No, I haven't had any rashes on my face or body, mouth ulcers, hair loss, or red eyes.",
+        "topic": "Autoimmune symptoms"
+      },
+      {
+        "answer": "No, I don't have any morning lower back pain, heel soreness, or swollen fingers or toes.",
+        "topic": "Back or heel pain"
+      },
+      {
+        "answer": "No recent colds, sore throats, stomach trouble, diarrhea, or pain when I pee.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I eat a normal diet, haven't been bingeing on meat or seafood, and don't take water pills.",
+        "topic": "Diet and gout risk"
+      },
+      {
+        "answer": "No, I have never had surgery on my joints or any injections into my knee.",
+        "topic": "Joint injections or surgeries"
+      },
+      {
+        "answer": "I understand why you ask; I am in a long-term monogamous relationship with my partner and haven't had any new partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I heard a loud pop and thought I completely blew out a ligament or dislocated my kneecap when I twisted.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I'm really worried that I'll never be able to play soccer again and that I won't be able to commute to work on crutches.",
+        "topic": "Concerns and return to sport"
+      },
+      {
+        "answer": "I was hoping to get an MRI scheduled today and leave with a good knee brace and crutches so I can get around.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like diabetes or high blood pressure.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or been admitted to a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I don't take any prescription medications; I just took one over-the-counter ibuprofen yesterday for the pain.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I don't have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking"
+      },
+      {
+        "answer": "I only drink socially, maybe one or two glasses of beer or wine on the weekend.",
+        "topic": "Alcohol"
+      },
+      {
+        "answer": "I work in an office doing graphic design at a desk, and I live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has rheumatoid arthritis, gout, or any other joint diseases.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period was two weeks ago, my cycles are regular, and there is no chance that I am pregnant.",
+        "topic": "Last menstrual period and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 74 bpm, respiratory rate 16 breaths/min, temperature 36.7 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert young female resting comfortably on the examination table, holding the right knee in slight flexion with no gross angular limb deformity.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Right knee demonstrates a tense moderate-to-large joint effusion with a positive fluid wave and ballottable patella, mild warmth, periarticular tenderness, positive Lachman and anterior drawer tests with a soft endpoint, and active flexion restricted to 90 degrees by pain and swelling.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are 2+ bilaterally, and both feet are warm with capillary refill under 2 seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Light touch and pinprick sensation are completely intact throughout the distal bilateral lower extremities, including the first web space.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Ankle dorsiflexion, plantarflexion, and extensor hallucis longus strength are 5/5 bilaterally, while active knee motion on the right is guarded due to pain.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Antalgic gait with marked reluctance to bear weight on the right lower extremity, requiring assistance to walk.",
+        "maneuver": "coordination_gait",
+        "response": "pain"
+      },
+      {
+        "finding": "No rash, malar erythema, psoriatic plaques, tophi, or nail pitting on skin and extremities.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

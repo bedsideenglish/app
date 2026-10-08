@@ -1,0 +1,312 @@
+{
+  "id": "ent_009",
+  "system": "otolaryngology (ent)",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Irwin",
+  "age": 32,
+  "gender": "female",
+  "chief_complaint": "intense left ear canal pain, itching, foul-smelling drainage, and exquisite pain when pulling on earlobe post-swimming (Otitis Externa)",
+  "hpi_details": "32F competitive swimmer presents with 3 days of severe left ear pain, intense ear canal itching, and a feeling that her ear is completely plugged with water and muffled. Yesterday started draining thin, yellowish, foul-smelling fluid onto her pillow. Pain is excruciating whenever she touches her outer ear, lies on her left side, or chews food.",
+  "ideas": "thinks she trapped pool water inside her eardrum causing a middle ear infection",
+  "concerns": "in severe sharp discomfort and unable to insert earplugs or sleep",
+  "expectations": "wants antibiotic ear drops and clearing of the trapped water and debris",
+  "pmh": "Swimmer's ear 2 years ago",
+  "medications": "Over-the-counter drying drops (caused severe stinging)",
+  "social_hx": "Swim coach, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Acute Otitis Externa (Swimmer's Ear) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Otitis Externa (Swimmer's Ear) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes aural toilet plus topical antibiotic-corticosteroid ear drops, avoiding ototoxic agents if the eardrum cannot be confirmed intact, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: intense left ear canal pain, itching, foul-smelling drainage, and exquisite pain when pulling on earlobe post-swimming (Otitis Externa)",
+      "Key HPI features: 32F competitive swimmer presents with 3 days of severe left ear pain, intense ear canal itching, and a feeling that her ear is completely plugged with water and muffled. Yesterday started draining thin, yellowish, foul-smelling fluid onto her pillow. Pain is excruciating whenever she touches her outer ear, lies on her left side, or chews food.",
+      "Objective/Exam findings: Vitals: HR 74, Temp 36.8C. Inspection of left external ear shows erythema and crusting at the meatus. CRITICAL DIAGNOSTIC HALLMARK: Exquisite, jumping tenderness elicited by gentle traction/pulling upward on the pinna (auricle) or pressing inward on the tragus (this pinna/tragus tenderness distinguishes otitis externa from acute otitis media where pulling the earlobe is painless). Otoscopic examination after gentle suction micro-debridement reveals an intensely erythematous, edematous external auditory canal narrowed by 50%, filled with moist white/greenish debris and purulent exudate. Tympanic membrane is intact, mobile, and normal in appearance behind the canal swelling.",
+      "Relevant background/PMH: Swimmer's ear 2 years ago",
+      "Current medications: Over-the-counter drying drops (caused severe stinging)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Otitis Externa (Swimmer's Ear).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute otitis media (middle ear, different exam findings) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Diabetes or immunocompromise with severe pain — raises concern for malignant otitis externa, a serious complication."
+    ],
+    "management_principles": [
+      "Aural toilet: perform meticulous gentle suction micro-debridement under otoscopic guidance to remove purulent debris and ensure topical drops can physically reach the canal mucosa",
+      "Topical antibiotic-corticosteroid therapy: instil Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops (or Ofloxacin drops) 4 drops BID for 7 days; avoid ototoxic aminoglycoside drops (e.g. Neomycin-Polymyxin-Hydrocortisone) if the tympanic membrane is perforated or cannot be fully visualized",
+      "If the canal is severely swollen shut (>70% obstruction), insert an expanding Pope Ear Wick to mechanically draw drops down the canal, and keep the ear completely dry (no swimming x10 days)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "32F swimmer presenting with acute otalgia, pruritus, otorrhea, and exquisite external auricle tenderness characteristic of Acute Otitis Externa (Swimmer's Ear).",
+    "objective": "Vitals: HR 74, Temp 36.8C. Inspection of left external ear shows erythema and crusting at the meatus. CRITICAL DIAGNOSTIC HALLMARK: Exquisite, jumping tenderness elicited by gentle traction/pulling upward on the pinna (auricle) or pressing inward on the tragus (this pinna/tragus tenderness distinguishes otitis externa from acute otitis media where pulling the earlobe is painless). Otoscopic examination after gentle suction micro-debridement reveals an intensely erythematous, edematous external auditory canal narrowed by 50%, filled with moist white/greenish debris and purulent exudate. Tympanic membrane is intact, mobile, and normal in appearance behind the canal swelling.",
+    "assessment": "Acute Otitis Externa (Swimmer's Ear) of the Left Ear, secondary to Pseudomonas aeruginosa or Staphylococcus aureus proliferation in moist canal.",
+    "plan": "1. Aural toilet: perform meticulous gentle suction micro-debridement under otoscopic guidance to remove purulent debris and ensure topical drops can physically reach the canal mucosa. 2. Topical antibiotic-corticosteroid therapy: instil Ciprofloxacin 0.3% / Dexamethasone 0.1% ear drops (or Ofloxacin drops) 4 drops BID for 7 days. CRITICAL RULE: If the tympanic membrane is perforated or cannot be fully visualized due to swelling, strictly prescribe non-ototoxic fluoroquinolone drops (AVOID aminoglycoside drops like Neomycin-Polymyxin-Hydrocortisone which cause permanent sensorineural hearing loss if they cross into the middle/inner ear). 3. If canal is severely swollen shut (>70% obstruction), insert an expanding Pope Ear Wick to mechanically draw drops down the canal. Keep ear completely dry during bathing (no swimming x10 days)."
+  },
+  "learning_objectives": [
+    "Differentiate Acute Otitis Externa (external auditory canal inflammation, exquisite pain on pinna traction or tragus pressure, normal or obscured eardrum, Pseudomonas/Staph etiology) from Acute Otitis Media (middle ear infection behind eardrum, NO pain on pinna traction, bulging erythematous tympanic membrane with loss of landmarks, Strep pneumoniae/Hib etiology)",
+    "Understand the absolute necessity of performing mechanical aural toilet/debridement and inserting an expandable cellulose Ear Wick when severe canal edema prevents topical drops from penetrating deeply",
+    "Select appropriate topical antimicrobial-steroid combinations (fluoroquinolone + dexamethasone) and recognize the strict contraindication against ototoxic aminoglycoside (Neomycin) preparations whenever eardrum perforation is suspected or confirmed",
+    "Outline water precautions and prophylactic acidifying ear drying drops (50% rubbing alcohol / 50% white vinegar) for frequent swimmers following recovery"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Otitis Externa (Swimmer's Ear)",
+    "one_liner": "Bacterial infection of the outer ear canal from trapped moisture, causing severe pain worsened by touching the outer ear or pulling the earlobe, itching, and foul-smelling discharge — treated with topical drops, not oral antibiotics.",
+    "differentials": [
+      "Acute otitis media (middle ear, different exam findings)",
+      "Malignant (necrotizing) otitis externa in a diabetic",
+      "Contact dermatitis of the ear canal"
+    ],
+    "red_flags": [
+      "Diabetes or immunocompromise with severe pain — raises concern for malignant otitis externa, a serious complication"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pain with manipulation",
+        "say": "Does it hurt a lot when you touch your outer ear or pull on your earlobe?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "tragus pain",
+          "pulling earlobe"
+        ]
+      },
+      {
+        "objective": "Water exposure",
+        "say": "Have you been swimming recently?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "swimming"
+        ]
+      },
+      {
+        "objective": "Discharge",
+        "say": "Is anything draining from your ear, and does it smell bad?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "discharge",
+          "foul-smelling"
+        ]
+      },
+      {
+        "objective": "Itching and fullness",
+        "say": "Does your ear itch, and does it feel plugged?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "itching",
+          "plugged"
+        ]
+      },
+      {
+        "objective": "Prior episodes",
+        "say": "Has this happened before?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My left ear has been hurting terribly and itching like crazy for the past three days.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started three days ago in my left ear, and the pain and swelling have become steadily worse since then.",
+        "topic": "Onset and affected ear"
+      },
+      {
+        "answer": "It's a severe, throbbing ache that jumps up to an eight out of ten, and it keeps me from sleeping at night.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "Yes, pulling on my earlobe or pressing the little bump in front of my ear is excruciating, and even chewing food hurts.",
+        "topic": "Pain with touch or chewing"
+      },
+      {
+        "answer": "It was intensely itchy deep inside the ear canal right before the severe pain took over, and it still feels itchy.",
+        "topic": "Ear itching"
+      },
+      {
+        "answer": "Yesterday morning I woke up with yellowish, thin, foul-smelling fluid stained on my pillow, but there was no blood.",
+        "topic": "Ear drainage"
+      },
+      {
+        "answer": "My left ear feels completely plugged and muffled, exactly like water is trapped deep inside, and my hearing is dulled on that side.",
+        "topic": "Hearing loss and ear fullness"
+      },
+      {
+        "answer": "No, I have not had any ringing in my ear or spinning dizziness.",
+        "topic": "Tinnitus or dizziness"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I haven't had a cough, sore throat, runny nose, or nasal congestion.",
+        "topic": "Cold or upper respiratory symptoms"
+      },
+      {
+        "answer": "No, both sides of my face move normally, and I haven't noticed any blisters or rash in or around my ear.",
+        "topic": "Facial weakness or blisters"
+      },
+      {
+        "answer": "No swelling or redness behind my ear, and I have not had any severe headache or neck stiffness.",
+        "topic": "Swelling behind ear or headache"
+      },
+      {
+        "answer": "I am a swim coach and competitive swimmer, so I am in the pool every day. When it started itching, I used cotton swabs to try to dry it out.",
+        "topic": "Water exposure and swab use"
+      },
+      {
+        "answer": "No trauma, no one hit my ear, and I haven't had any foreign objects or insects crawl inside.",
+        "topic": "Ear trauma or foreign body"
+      },
+      {
+        "answer": "No, I haven't been on an airplane or done any deep scuba diving recently.",
+        "topic": "Pressure changes"
+      },
+      {
+        "answer": "My teeth don't hurt and my jaw feels fine normally, but chewing moves the ear canal and triggers intense pain.",
+        "topic": "Dental or jaw symptoms"
+      },
+      {
+        "answer": "No sore throat, no pain when I swallow, no voice changes, and no lumps in my neck.",
+        "topic": "Throat or neck symptoms"
+      },
+      {
+        "answer": "I had swimmer's ear in this same ear about two years ago, but I have never had middle ear infections or a ruptured eardrum.",
+        "topic": "Prior ear problems"
+      },
+      {
+        "answer": "No, I have never had surgery on either ear.",
+        "topic": "Past ear surgery"
+      },
+      {
+        "answer": "No, I do not have diabetes and I have no immune system problems.",
+        "topic": "Diabetes or immune status"
+      },
+      {
+        "answer": "I think pool water got trapped behind my eardrum and caused a middle ear infection.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "The pain is unbearable, and I cannot insert my earplugs, coach properly, or get any sleep.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I hope you can clear out the trapped water and debris and prescribe antibiotic drops to relieve the pain.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "Other than the swimmer's ear two years ago, I have always been completely healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I tried over-the-counter drying drops two days ago, but they caused terrible stinging so I stopped immediately. I take no regular prescriptions.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially on rare occasions, maybe one glass of wine every few weeks.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time as a swim coach and competitive swimmer, and I live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of hearing loss, ear disease, or chronic illnesses.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period started two weeks ago, my cycles are regular every twenty-eight days, and there is no chance I am pregnant.",
+        "topic": "Menstrual history and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert and in moderate distress from left ear discomfort, guarding her left ear, but sitting comfortably in no respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 74 beats per minute, respiratory rate 14 breaths per minute, temperature 36.8°C, oxygen saturation 99% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Left external meatus shows erythema and crusting; exquisite tenderness elicited by gentle traction on the left pinna or pressing on the tragus; no mastoid erythema or tenderness; otoscopy of the left ear shows external auditory canal narrowed by 50% with severe edema, moist white-green debris, and purulent exudate; tympanic membrane intact, translucent, and mobile; right ear canal and tympanic membrane are completely normal.",
+        "maneuver": "ear_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Whisper test reveals mild reduction in left ear; Weber test lateralizes to the left ear; Rinne test demonstrates bone conduction greater than air conduction on the left, consistent with conductive hearing loss from canal occlusion.",
+        "maneuver": "hearing_test",
+        "response": "none"
+      },
+      {
+        "finding": "Facial nerve exam demonstrates full and symmetric forehead wrinkling, tight eye closure, and symmetric smile, with no focal cranial neuropathies.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Oral cavity, dentition, and posterior oropharynx are clear without inflammation; temporomandibular joints have smooth excursion without joint clicks or intrinsic joint tenderness.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable preauricular, postauricular, or cervical lymphadenopathy; no neck masses or thyroid enlargement.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      }
+    ]
+  }
+}

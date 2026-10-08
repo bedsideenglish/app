@@ -1,0 +1,375 @@
+{
+  "id": "peds_003",
+  "system": "pediatrics",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Master Clark",
+  "age": 3,
+  "gender": "male",
+  "chief_complaint": "5 days of high spiking fever unresponsive to antipyretics, bilateral conjunctivitis, strawberry tongue, and rash (Kawasaki Disease)",
+  "hpi_details": "3-year-old boy brought to pediatric clinic with a 5-day history of high spiking fevers (up to 40.2C / 104.4F) that do not resolve with acetaminophen or ibuprofen. Over the past 3 days, mother noticed his eyes became bright red without pus, his lips turned dry, cracked, and bleeding, his tongue became bumpy and bright red like a strawberry, and a blotchy red rash appeared over his trunk and diaper area. Today noticed swelling and redness of the palms of his hands and soles of his feet.",
+  "ideas": "mother exhausted and worried that 5 days of high fever is causing permanent damage",
+  "concerns": "mother terrified by peeling red lips and bright bloodshot eyes without pus",
+  "expectations": "wants specialized blood tests and immediate treatment to stop the fever and prevent heart damage",
+  "pmh": "No prior medical history",
+  "medications": "Acetaminophen 160mg q4h (ineffective)",
+  "social_hx": "3-year-old preschooler",
+  "investigation_events": [
+    {
+      "id": "kawasaki_inflammatory_workup",
+      "title": "Urgent Kawasaki disease laboratory assessment",
+      "order_terms": ["CBC", "complete blood count", "ESR", "CRP", "inflammatory markers", "urinalysis"],
+      "availability_message": "The urgent inflammatory and supportive laboratory results are now available. Do not delay indicated IVIG while awaiting further testing.",
+      "results": [
+        {"id": "wbc", "test": "White blood cell count", "value": "18.5", "unit": "x10^3/uL", "reference_range": "5.0-14.5", "flag": "high"},
+        {"id": "platelets", "test": "Platelet count", "value": "580", "unit": "x10^3/uL", "reference_range": "150-450", "flag": "high"},
+        {"id": "esr", "test": "Erythrocyte sedimentation rate", "value": "78", "unit": "mm/hr", "reference_range": "0-20", "flag": "high"},
+        {"id": "crp", "test": "C-reactive protein", "value": "9.4", "unit": "mg/dL", "reference_range": "<0.5", "flag": "high"},
+        {"id": "urinalysis", "test": "Urinalysis microscopy", "value": "16-20 WBC/HPF with no bacteria, leukocyte esterase, or nitrites", "flag": "abnormal"}
+      ]
+    },
+    {
+      "id": "kawasaki_baseline_echo",
+      "title": "Baseline transthoracic echocardiogram",
+      "order_terms": ["echocardiogram", "cardiac echo", "coronary artery Z-score", "transthoracic echo"],
+      "availability_message": "The baseline echocardiogram result is now available. A normal initial study does not exclude Kawasaki disease or remove the need for scheduled follow-up imaging.",
+      "results": [{"id": "echocardiogram", "test": "Transthoracic echocardiogram", "value": "Normal biventricular function; no coronary aneurysm, with maximal proximal coronary artery Z-score +1.8", "flag": "normal"}]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Kawasaki disease (complete/classic) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Kawasaki disease (complete/classic) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Admit to pediatric inpatient unit, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: 5 days of high spiking fever unresponsive to antipyretics, bilateral conjunctivitis, strawberry tongue, and rash (Kawasaki Disease)",
+      "Key HPI features: 3-year-old boy brought to pediatric clinic with a 5-day history of high spiking fevers (up to 40.2C / 104.4F) that do not resolve with acetaminophen or ibuprofen. Over the past 3 days, mother noticed his eyes became bright red without pus, his lips turned dry, cracked, and bleeding, his tongue became bumpy and bright red like a strawberry, and a blotchy red rash appeared over his trunk and diaper area. Today noticed swelling and redness of the palms of his hands and soles of his feet.",
+      "Objective/Exam findings: Vitals: HR 142, BP 94/60, Temp 39.9C. Physical exam reveals: 1. Bilateral non-exudative bulbar conjunctival injection with limbal sparing. 2. Oral mucocutaneous changes: erythematous cracked bleeding lips and prominent hypertrophic papillae forming a 'Strawberry Tongue'. 3. Polymorphous erythematous maculopapular rash across trunk and accentuated in the groin/diaper area. 4. Extremity changes: brawny edema and intense erythema of palms and soles. 5. Cervical lymphadenopathy: single firm, tender right cervical lymph node measuring 1.8 cm diameter (>1.5 cm). Labs: WBC 18,500 /uL with neutrophilia, Platelets elevated at 580,000 /uL (thrombocytosis), ESR 78 mm/hr, CRP 9.4 mg/dL. Sterile pyuria (>15 WBC/HPF without bacteria) on urinalysis.",
+      "Relevant background/PMH: No prior medical history",
+      "Current medications: Acetaminophen 160mg q4h (ineffective)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Kawasaki disease (complete/classic).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Scarlet fever without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever >=5 days unresponsive to antipyretics."
+    ],
+    "management_principles": [
+      "Admit to pediatric inpatient unit",
+      "Administer STAT single high-dose Intravenous Immunoglobulin (IVIG 2 grams/kg over 10-12 hours) PLUS high-dose oral Aspirin (80-100 mg/kg/day divided q6h for anti-inflammatory effect until afebrile for 48 hours, then drop to low-dose antiplatelet aspirin 3-5 mg/kg/day)",
+      "Perform baseline 2D Transthoracic Echocardiogram immediately upon admission to establish coronary artery Z-scores and screen for coronary artery dilation/aneurysm (repeating echo at 2 and 6 weeks post-treatment)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Pediatrics (AAP) Clinical Practice Guidelines",
+        "url": "https://publications.aap.org/pediatrics/pages/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "3-year-old male presenting with 5 days of high persistent fever and all five classic mucocutaneous diagnostic criteria for Kawasaki Disease.",
+    "objective": "Vitals: HR 142, BP 94/60, Temp 39.9C. Physical exam reveals: 1. Bilateral non-exudative bulbar conjunctival injection with limbal sparing. 2. Oral mucocutaneous changes: erythematous cracked bleeding lips and prominent hypertrophic papillae forming a 'Strawberry Tongue'. 3. Polymorphous erythematous maculopapular rash across trunk and accentuated in the groin/diaper area. 4. Extremity changes: brawny edema and intense erythema of palms and soles. 5. Cervical lymphadenopathy: single firm, tender right cervical lymph node measuring 1.8 cm diameter (>1.5 cm). Labs: WBC 18,500 /uL with neutrophilia, Platelets elevated at 580,000 /uL (thrombocytosis), ESR 78 mm/hr, CRP 9.4 mg/dL. Sterile pyuria (>15 WBC/HPF without bacteria) on urinalysis.",
+    "assessment": "Complete (Classic) Kawasaki Disease (Mucocutaneous Lymph Node Syndrome) with high risk of Coronary Artery Aneurysm.",
+    "plan": "Admit to pediatric inpatient unit. Administer STAT single high-dose Intravenous Immunoglobulin (IVIG 2 grams/kg over 10-12 hours) PLUS high-dose oral Aspirin (80-100 mg/kg/day divided q6h for anti-inflammatory effect until afebrile for 48 hours, then drop to low-dose antiplatelet aspirin 3-5 mg/kg/day). Perform baseline 2D Transthoracic Echocardiogram immediately upon admission to establish coronary artery Z-scores and screen for coronary artery dilation/aneurysm (repeating echo at 2 and 6 weeks post-treatment). Critical guideline: IVIG must be infused within the first 10 days of illness onset to reduce coronary artery aneurysm risk from 25% down to <5%."
+  },
+  "learning_objectives": [
+    "Memorize the diagnostic criteria for Kawasaki Disease: fever >= 5 days plus at least 4 of 5 mucocutaneous features (conjunctivitis, oral/lip changes, rash, extremity changes, cervical lymphadenopathy >1.5 cm)",
+    "Explain the critical rationale and strict 10-day therapeutic window for high-dose Intravenous Immunoglobulin (IVIG 2g/kg) combined with Aspirin to prevent permanent coronary artery aneurysms",
+    "Understand the unique exception allowing high-dose Aspirin in a febrile child (balancing Reye syndrome risk against coronary thrombosis/vasculitis prevention)",
+    "Schedule serial echocardiographic surveillance (baseline, 2 weeks, and 6-8 weeks) to track coronary artery Z-scores and detect aneurysms"
+  ],
+  "teaching": {
+    "diagnosis": "Kawasaki disease (complete/classic)",
+    "one_liner": "3-year-old boy with 5 days of high fever unresponsive to antipyretics, conjunctivitis, strawberry tongue, rash, and extremity swelling.",
+    "differentials": [
+      "Scarlet fever",
+      "Measles",
+      "Toxic shock syndrome",
+      "Multisystem inflammatory syndrome in children (MIS-C)"
+    ],
+    "red_flags": [
+      "Fever >=5 days unresponsive to antipyretics",
+      "Bilateral non-purulent conjunctivitis",
+      "Strawberry tongue and cracked lips",
+      "Extremity swelling/redness"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm the fever duration and response to medication",
+        "say": "How many days has the fever lasted, and does it come down with medicine?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever duration",
+          "antipyretic response"
+        ]
+      },
+      {
+        "objective": "Ask about eye redness without discharge",
+        "say": "Are his eyes red but without any pus or discharge?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "conjunctivitis without discharge"
+        ]
+      },
+      {
+        "objective": "Ask about mouth and lip changes",
+        "say": "Have his lips become cracked or dry, and does his tongue look bumpy and red?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "strawberry tongue",
+          "cracked lips"
+        ]
+      },
+      {
+        "objective": "Ask about hand/foot swelling",
+        "say": "Have you noticed swelling or redness on his palms or the soles of his feet?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "extremity changes"
+        ]
+      },
+      {
+        "objective": "Explain the urgency of IVIG treatment",
+        "say": "We need to admit him today for a special IV medication and aspirin to protect his heart's blood vessels.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "IVIG",
+          "aspirin",
+          "coronary artery protection"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "94/60",
+      "hr": 142,
+      "rr": 28,
+      "spo2": 98,
+      "temp_c": 39.9
+    },
+    "history": [
+      {
+        "answer": "My son has had a high fever for five days now, and it just will not go down even with medicine.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever started five days ago on Saturday morning, and it has stayed high the whole time.",
+        "topic": "Fever onset and duration"
+      },
+      {
+        "answer": "It spiked up as high as 40.2 degrees, and it comes back in waves day and night with shivering.",
+        "topic": "Peak temperature and pattern"
+      },
+      {
+        "answer": "I gave him children's Tylenol and ibuprofen around the clock, but his temperature barely drops.",
+        "topic": "Fever medication and response"
+      },
+      {
+        "answer": "No, he has not had any cough, runny nose, or trouble breathing at all.",
+        "topic": "Cough and respiratory symptoms"
+      },
+      {
+        "answer": "He has not cried when peeing, and his diaper does not smell foul or look cloudy.",
+        "topic": "Urinary symptoms and flank pain"
+      },
+      {
+        "answer": "He has had no vomiting, stomach aches, or diarrhea, although his appetite is quite poor.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "He seems cranky, but he recognizes me, moves his neck easily, and has not passed out.",
+        "topic": "Headache and alertness"
+      },
+      {
+        "answer": "A blotchy red rash started three days ago on his chest and belly, especially around his diaper area.",
+        "topic": "Rash and skin changes"
+      },
+      {
+        "answer": "No, he has not had drenching night sweats or noticeable weight loss before getting sick.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "I felt a firm, tender lump on the right side of his neck about two days ago.",
+        "topic": "Swollen lymph nodes"
+      },
+      {
+        "answer": "We have not traveled anywhere recently, spent time in the woods, or touched stray animals.",
+        "topic": "Travel and outdoor exposures"
+      },
+      {
+        "answer": "None of the children in his preschool or anyone at home has been sick with a fever.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, he has never had chemotherapy, steroids, or any immune-suppressing treatments.",
+        "topic": "Chemotherapy and immunosuppressive drugs"
+      },
+      {
+        "answer": "He has never had any heart murmurs or defects, and he has not had any dental work done.",
+        "topic": "Heart conditions and dental work"
+      },
+      {
+        "answer": "No, he was not taking any prescription medications before this fever began.",
+        "topic": "Recently started medications"
+      },
+      {
+        "answer": "He is only three years old, so neither of those applies to him.",
+        "topic": "High risk exposures"
+      },
+      {
+        "answer": "He is much more sluggish and irritable than usual, but he drinks some water and has not had seizures.",
+        "topic": "Activity intake and seizures"
+      },
+      {
+        "answer": "His eyes turned bloodshot three days ago, but there has been no yellow pus or crusting.",
+        "topic": "Eye redness and discharge"
+      },
+      {
+        "answer": "His lips became very red, cracked, and bleeding, and his tongue looks bumpy and bright red like a strawberry.",
+        "topic": "Lip and tongue changes"
+      },
+      {
+        "answer": "Just this morning, I noticed the palms of his hands and soles of his feet became swollen and bright red.",
+        "topic": "Hand and foot swelling"
+      },
+      {
+        "answer": "I am exhausted and terrified that five straight days of such high fever might cause permanent damage to his body.",
+        "topic": "Ideas and worries"
+      },
+      {
+        "answer": "I want proper blood tests and whatever medicine is needed right away to stop this fever and protect his heart.",
+        "topic": "Expectations of visit"
+      },
+      {
+        "answer": "He has always been a healthy boy with no prior illnesses or chronic conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had surgery, and this is the first time he might need to be hospitalized.",
+        "topic": "Past hospitalizations and surgeries"
+      },
+      {
+        "answer": "Only the children's acetaminophen liquid every four hours, which has not helped.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known allergies to medicines, foods, or anything else.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "No one in our family has autoimmune diseases, childhood heart problems, or recurrent fevers.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "He lives at home with my husband and me, and attends a local preschool three days a week.",
+        "topic": "Living situation and schooling"
+      },
+      {
+        "answer": "Neither my husband nor I smoke, and no one smokes around him.",
+        "topic": "Secondhand smoke exposure"
+      },
+      {
+        "answer": "He was born at full term through a normal delivery with no complications in the nursery.",
+        "topic": "Birth history"
+      },
+      {
+        "answer": "His growth and development have always been right on track according to his pediatrician.",
+        "topic": "Growth and development"
+      },
+      {
+        "answer": "All of his routine childhood vaccinations are completely up to date.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "His preschool reported no outbreaks of hand-foot-mouth disease, strep, or other illnesses.",
+        "topic": "Daycare exposures"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature is 39.9 C, blood pressure 94/60 mmHg, heart rate 142 beats per minute, respiratory rate 28 breaths per minute, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Irritable, flushed young boy resting in his mother's arms, appearing uncomfortable but consolable.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral bulbar conjunctival injection without discharge or pus, with clear limbal sparing around the irises.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Both tympanic membranes are clear, translucent, and pearly gray with normal light reflexes.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Dry, cracked, bleeding red lips and diffuse pharyngeal erythema with prominent raised papillae showing a classic strawberry tongue.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "A single firm, tender right anterior cervical lymph node measuring about 1.8 cm in diameter, without fluctuance.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with normal S1 and S2, without murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds throughout both lung fields with symmetric air entry and no wheezing or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, and non-tender with no palpable masses or hepatosplenomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Brawny edema and striking redness on the palms of both hands and soles of both feet.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Polymorphous erythematous maculopapular rash spreading over the trunk and accentuated in the diaper area, without vesicles or petechiae.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with full passive flexion, and negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "id": "obgyn_005",
+  "system": "obstetrics & gynecology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Evans",
+  "age": 30,
+  "gender": "female",
+  "chief_complaint": "massive postpartum hemorrhage 20 minutes after delivery due to uterine atony not responding to uterine massage",
+  "hpi_details": "30F G2P2 just delivered a healthy 4.2 kg (9 lb 4 oz) male infant via spontaneous vaginal delivery following a prolonged 18-hour labor augmented with high-dose oxytocin. Ten minutes after spontaneous delivery of an intact placenta, nurse notes massive, continuous gushing of bright red blood from the vagina filling the bed drapes (>1000 mL blood loss). Patient reports feeling lightheaded, dizzy, and short of breath.",
+  "ideas": "patient feeling weak and confused, asking why there is so much blood",
+  "concerns": "husband terrified watching the rapid blood loss and emergency room alarms going off",
+  "expectations": "wants immediate medication and intervention to stop the bleeding and prevent blood transfusion if possible",
+  "pmh": "Prolonged labor, fetal macrosomia (4.2 kg), oxytocin augmentation during labor",
+  "medications": "Oxytocin IV infusion running",
+  "social_hx": "Accountant, non-smoker",
+  "investigation_events": [{
+    "id": "stat_postpartum_hemorrhage_labs",
+    "title": "Emergency postpartum hemorrhage laboratory assessment",
+    "order_terms": ["CBC", "hemoglobin", "coagulation", "fibrinogen", "type and crossmatch", "crossmatch"],
+    "availability_message": "Initial hemorrhage laboratory results are now available. Uterotonics, tranexamic acid, resuscitation, and hemorrhage control must not be delayed.",
+    "results": [
+      {"id": "hemoglobin", "test": "Hemoglobin", "value": "7.6", "unit": "g/dL", "reference_range": "12.0-15.5", "flag": "critical"},
+      {"id": "fibrinogen", "test": "Fibrinogen", "value": "182", "unit": "mg/dL", "reference_range": "200-400", "flag": "low", "note": "Low for active postpartum hemorrhage and concerning for evolving coagulopathy."}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Primary postpartum hemorrhage due to uterine atony evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Primary postpartum hemorrhage due to uterine atony is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes the STAT obstetric emergency stepwise postpartum hemorrhage protocol (mechanical, then pharmacological, then surgical), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: massive postpartum hemorrhage 20 minutes after delivery due to uterine atony not responding to uterine massage",
+      "Key HPI features: 30F G2P2 just delivered a healthy 4.2 kg (9 lb 4 oz) male infant via spontaneous vaginal delivery following a prolonged 18-hour labor augmented with high-dose oxytocin. Ten minutes after spontaneous delivery of an intact placenta, nurse notes massive, continuous gushing of bright red blood from the vagina filling the bed drapes (>1000 mL blood loss). Patient reports feeling lightheaded, dizzy, and short of breath.",
+      "Objective/Exam findings: Vitals: HR 128, BP 88/54, SpO2 95%. Abdominal palpation reveals a boggy, soft, flaccid uterus situated well above the umbilicus that fails to firm up or contract with bimanual uterine compression and massage. Examination of the placenta confirms complete intact lobes and membranes without missing cotyledons. Inspection of cervix and vagina reveals no arterial lacerations or hematomas. Total quantitative estimated blood loss is 1350 mL.",
+      "Relevant background/PMH: Prolonged labor, fetal macrosomia (4.2 kg), oxytocin augmentation during labor",
+      "Current medications: Oxytocin IV infusion running"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Primary postpartum hemorrhage due to uterine atony.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Genital tract laceration without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Blood loss >1000 mL."
+    ],
+    "management_principles": [
+      "STAT obstetric emergency Stepwise PPH Protocol",
+      "Mechanical: continue vigorous bimanual uterine compression/massage and empty urinary bladder with straight catheter",
+      "Pharmacological: increase IV Oxytocin rate (40 units in 1L normal saline wide open); administer Methylergonovine (Methergine) 0.2 mg IM"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: massive postpartum hemorrhage 20 minutes after delivery due to uterine atony not responding to uterine massage\n\n30F G2P2 just delivered a healthy 4.2 kg (9 lb 4 oz) male infant via spontaneous vaginal delivery following a prolonged 18-hour labor augmented with high-dose oxytocin. Ten minutes after spontaneous delivery of an intact placenta, nurse notes massive, continuous gushing of bright red blood from the vagina filling the bed drapes (>1000 mL blood loss). Patient reports feeling lightheaded, dizzy, and short of breath.",
+    "objective": "Vitals: HR 128, BP 88/54, SpO2 95%. Abdominal palpation reveals a boggy, soft, flaccid uterus situated well above the umbilicus that fails to firm up or contract with bimanual uterine compression and massage. Examination of the placenta confirms complete intact lobes and membranes without missing cotyledons. Inspection of cervix and vagina reveals no arterial lacerations or hematomas. Total quantitative estimated blood loss is 1350 mL.",
+    "assessment": "Primary Postpartum Hemorrhage secondary to Uterine Atony (accounting for 70-80% of PPH cases).",
+    "plan": "STAT obstetric emergency Stepwise PPH Protocol: activate the hemorrhage protocol; obtain large-bore IV access, send CBC/coagulation studies and type and crossmatch, and resuscitate with blood products as clinically indicated. 1. Mechanical: continue vigorous bimanual uterine compression/massage and empty urinary bladder with straight catheter. 2. Pharmacological: increase IV Oxytocin rate (40 units in 1L normal saline wide open); administer Methylergonovine (Methergine) 0.2 mg intramuscularly (check BP: avoid if hypertensive); administer Carboprost tromethamine (Hemabate / 15-methyl PGF2a) 0.25 mg intramuscularly (check lungs: avoid if asthmatic); administer Misoprostol 800-1000 mcg rectally; administer Tranexamic Acid (TXA) 1 gram IV over 10 minutes immediately (WOMAN trial evidence: within 3 hours). 3. Surgical/Interventional if refractory: intrauterine balloon tamponade (Bakri balloon), B-Lynch uterine compression sutures, uterine/internal iliac artery embolization or ligation, or emergency peripartum hysterectomy as life-saving last resort."
+  },
+  "learning_objectives": [
+    "Classify the 4 Ts etiology of primary postpartum hemorrhage: Tone (uterine atony 80%), Trauma (lacerations 10%), Tissue (retained placenta 10%), and Thrombin (coagulopathy <1%)",
+    "Perform and explain bimanual uterine massage and bladder decompression as primary mechanical interventions for boggy uterine atony",
+    "Select and administer first and second-line uterotonic medications (Oxytocin, Methylergonovine, Carboprost, Misoprostol) and memorize their specific absolute contraindications (Methergine in hypertension; Carboprost in asthma)",
+    "Understand the life-saving timing and dosage of intravenous Tranexamic Acid (TXA 1g within 3 hours of birth) based on the international WOMAN trial"
+  ],
+  "teaching": {
+    "diagnosis": "Primary postpartum hemorrhage due to uterine atony",
+    "one_liner": "30F immediately postpartum after prolonged labor and macrosomic infant, now with massive vaginal bleeding and a boggy uterus.",
+    "differentials": [
+      "Genital tract laceration",
+      "Retained placental tissue",
+      "Coagulopathy",
+      "Uterine rupture"
+    ],
+    "red_flags": [
+      "Blood loss >1000 mL",
+      "Lightheadedness/dizziness",
+      "Shortness of breath",
+      "Boggy uterus on palpation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Assess how the patient feels systemically",
+        "say": "How are you feeling right now — dizzy, short of breath, or weak?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dizziness",
+          "weakness"
+        ]
+      },
+      {
+        "objective": "Confirm delivery details and labor course",
+        "say": "How long was your labor, and was your baby large?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "prolonged labor",
+          "macrosomia"
+        ]
+      },
+      {
+        "objective": "Ask about placenta delivery",
+        "say": "Was the placenta delivered completely and easily?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "placenta delivery"
+        ]
+      },
+      {
+        "objective": "Explain the bimanual massage and medications about to be given",
+        "say": "I'm going to massage your uterus and give you medication to help it contract and stop the bleeding.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "uterine massage",
+          "uterotonics"
+        ]
+      },
+      {
+        "objective": "Screen for bleeding disorder history",
+        "say": "Do you have any history of bleeding problems or blood clotting disorders?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "bleeding disorder",
+          "coagulopathy"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "88/54",
+      "hr": 128,
+      "rr": 24,
+      "spo2": 95,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "Doctor, please help my wife! She just gave birth twenty minutes ago, and now blood is gushing out of her and won't stop!",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The heavy bleeding started about ten minutes after the placenta came out, roughly twenty minutes ago, and it has been pouring out ever since.",
+        "topic": "Onset and timing of bleeding"
+      },
+      {
+        "answer": "It is a massive amount of bright red blood that completely soaked through the pads and the bed sheets, running continuously.",
+        "topic": "Amount and appearance of bleeding"
+      },
+      {
+        "answer": "I haven't seen any large solid tissue or lumps come out, just a continuous gush of liquid red blood.",
+        "topic": "Passing clots or tissue"
+      },
+      {
+        "answer": "She doesn't feel the tight cramping she's supposed to feel after delivery; when the nurse pressed on her belly, it felt completely soft and loose.",
+        "topic": "Abdominal pain and uterine firmness"
+      },
+      {
+        "answer": "Yes, she told me her head is spinning, she feels very faint and weak, and she's struggling to catch her breath.",
+        "topic": "Dizziness and shortness of breath"
+      },
+      {
+        "answer": "Yes, she mentioned her heart feels like it is beating extremely fast inside her chest.",
+        "topic": "Heart palpitations"
+      },
+      {
+        "answer": "No, she hasn't had any severe headaches, blurry vision, or seeing spots before or during labor.",
+        "topic": "Headache or visual changes"
+      },
+      {
+        "answer": "No, she hasn't complained of any sharp pain under her ribs or in the upper part of her stomach.",
+        "topic": "Upper abdominal pain"
+      },
+      {
+        "answer": "No, she has not had any fever, chills, or shivers today.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, her waters were clear when they broke, and there hasn't been any bad smell.",
+        "topic": "Foul odor or abnormal discharge"
+      },
+      {
+        "answer": "She reached her full term at exactly forty weeks today, and she attended all her regular prenatal checkups at the clinic without missing any.",
+        "topic": "Gestational age and prenatal care"
+      },
+      {
+        "answer": "She had a normal vaginal delivery, but her labor was very long and exhausting, lasting about eighteen hours with medication to speed up her contractions.",
+        "topic": "Delivery mode and labor duration"
+      },
+      {
+        "answer": "The baby boy weighed four point two kilograms, over nine pounds, and he is healthy and resting with the nursery team right now.",
+        "topic": "Baby weight and condition"
+      },
+      {
+        "answer": "The placenta came out on its own about ten minutes after the baby, and the midwife said it looked completely intact.",
+        "topic": "Placenta delivery"
+      },
+      {
+        "answer": "Her ultrasounds showed normal placenta placement at the top of the womb, enough fluid, and a single baby that was measuring quite big.",
+        "topic": "Prior ultrasound findings"
+      },
+      {
+        "answer": "Her blood pressure was always normal during pregnancy, her blood type is O positive, and her sugar test and urine tests were all completely clear.",
+        "topic": "Prenatal blood pressure and lab tests"
+      },
+      {
+        "answer": "She gained about twelve kilograms during the pregnancy and only had mild ankle swelling toward the end, nothing sudden.",
+        "topic": "Pregnancy weight gain and swelling"
+      },
+      {
+        "answer": "This is her second child; her first birth three years ago was a normal vaginal delivery without any heavy bleeding or complications.",
+        "topic": "Obstetric history"
+      },
+      {
+        "answer": "No, she has never had abnormal bleeding, heavy bruising, nosebleeds, or prolonged bleeding after dental work, and nobody in her family does.",
+        "topic": "History of bleeding disorders"
+      },
+      {
+        "answer": "She is feeling very confused and weak, and she keeps asking me why there is so much blood.",
+        "topic": "Patient ideas and thoughts"
+      },
+      {
+        "answer": "I am absolutely terrified watching all this blood pour out while the monitors are beeping, and I'm scared she might pass out.",
+        "topic": "Husband concerns"
+      },
+      {
+        "answer": "We need you to give her medicine immediately to stop this bleeding and do everything possible to avoid a blood transfusion.",
+        "topic": "Expectations of care"
+      },
+      {
+        "answer": "She is generally healthy and has never had high blood pressure, diabetes, asthma, or heart conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She has never had any surgeries or hospital stays other than giving birth to our first child.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "Right now she has an IV drip running oxytocin to help her womb, and at home she was only taking prenatal vitamins and iron pills.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "She doesn't have any allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "She has never smoked cigarettes or used any nicotine products.",
+        "topic": "Smoking"
+      },
+      {
+        "answer": "She does not drink any alcohol, especially throughout the pregnancy.",
+        "topic": "Alcohol"
+      },
+      {
+        "answer": "She works as an accountant and lives with me and our three-year-old daughter in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of bleeding tendencies, blood clots, or pregnancy complications.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 88/54 mmHg, heart rate is 128 beats per minute, respiratory rate is 24 breaths per minute, temperature is 36.8 C, and oxygen saturation is 95% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Diaphoretic, pale, and anxious-appearing woman lying supine in bed with active, heavy bright red vaginal bleeding pooling on the delivery drapes.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Marked palpebral conjunctival pallor bilaterally; anicteric sclerae.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rate with regular rhythm, normal S1 and S2, without murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear to auscultation bilaterally with normal vesicular breath sounds and no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Postpartum abdomen with prominent uterine bulge extending well above the umbilicus; no surgical scars.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, flaccid, and boggy uterus palpated 3 to 4 centimeters above the umbilicus that fails to contract or firm up upon massage.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Continuous heavy stream of bright red blood issuing from the vaginal introitus; perineum is intact without vulvar hematoma.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bimanual exam reveals an enlarged, poorly contracted uterus; speculum inspection confirms an intact cervix and vaginal vault without laceration, with bleeding originating from within the uterine cavity.",
+        "maneuver": "pelvic_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Trace dependent bilateral pretibial edema without calf tenderness or asymmetric swelling.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Normal 2+ patellar reflexes bilaterally without clonus.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Rapid, thready radial and dorsalis pedis pulses bilaterally with delayed capillary refill of approximately three seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Lethargic and slow to respond, oriented to person and place, reporting severe lightheadedness and feeling faint.",
+        "maneuver": "mental_status",
+        "response": "none"
+      }
+    ]
+  }
+}

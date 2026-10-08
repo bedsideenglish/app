@@ -1,0 +1,349 @@
+{
+  "id": "gs_034",
+  "system": "gs",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Wilson",
+  "age": 44,
+  "gender": "female",
+  "chief_complaint": "difficulty swallowing and weight loss with thyroid lump",
+  "hpi_details": "A 44-year-old female presents to the clinic with difficulty swallowing and weight loss with thyroid lump. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks her swollen neck gland and swallowing trouble are due to severe stress and burnout from her demanding job.",
+  "concerns": "She is worried that the lump is throat cancer and that it will eventually choke her or stop her from eating entirely.",
+  "expectations": "She hopes to have an ultrasound of her neck today and get medication to shrink the swelling so she can swallow normally.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Toxic Multinodular Goiter evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Toxic Multinodular Goiter is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management for Toxic Multinodular Goiter emphasizes TSH and free thyroid hormones, thyroid ultrasound, and radionuclide scanning when TSH is suppressed; FNA is reserved for non-functioning or sonographically suspicious nodules, and definitive treatment is radioactive iodine or thyroidectomy (preferred for compressive symptoms) after restoring euthyroidism, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: difficulty swallowing and weight loss with thyroid lump",
+      "Key HPI features: A 44-year-old female presents to the clinic with difficulty swallowing and weight loss with thyroid lump. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Toxic Multinodular Goiter.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Toxic Multinodular Goiter.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Graves' disease without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Rapidly enlarging or hard, fixed nodule — raises concern for malignancy."
+    ],
+    "management_principles": [
+      "Plan for Toxic Multinodular Goiter: TSH/free T4/T3, thyroid ultrasound, radionuclide scan if TSH suppressed; FNA only for cold or sonographically suspicious nodules (not hyperfunctioning nodules); beta-blocker and antithyroid drug to restore euthyroidism, then radioactive iodine or thyroidectomy (preferred for compressive symptoms)",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "SAGES & ACS Evidence-Based Surgical Practice Guidelines",
+        "url": "https://www.facs.org/quality-programs/about-quality/evidence-based-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of difficulty swallowing and weight loss with thyroid lump, gradually worsening with associated fatigue, consistent with multinodular thyroid hyperplasia.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Toxic Multinodular Goiter.",
+    "assessment": "Assessment consistent with Toxic Multinodular Goiter.",
+    "plan": "Measure TSH and free thyroid hormones, obtain ultrasound, and perform radionuclide scanning when TSH is suppressed. Do not routinely biopsy a hyperfunctioning nodule; use FNA only for nodules with appropriate suspicious ultrasound/scintigraphy characteristics. Refer for endocrine/surgical management of compressive symptoms or confirmed toxic multinodular goiter."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Toxic Multinodular Goiter",
+    "Select appropriate diagnostic workup for Toxic Multinodular Goiter",
+    "Implement evidence-based management plan: TSH and free thyroid hormones, thyroid ultrasound, radionuclide scan if TSH suppressed, FNA only for non-functioning or suspicious nodules, and definitive therapy with radioactive iodine or thyroidectomy"
+  ],
+  "teaching": {
+    "diagnosis": "Toxic Multinodular Goiter",
+    "one_liner": "Multiple autonomously functioning thyroid nodules causing gland enlargement that can compress the esophagus, along with hyperthyroid symptoms and weight loss.",
+    "differentials": [
+      "Graves' disease",
+      "Thyroid malignancy",
+      "Simple (non-toxic) goiter"
+    ],
+    "red_flags": [
+      "Rapidly enlarging or hard, fixed nodule — raises concern for malignancy",
+      "Stridor or significant compressive symptoms"
+    ],
+    "must_ask": [
+      {
+        "objective": "Swallowing and compressive symptoms",
+        "say": "Is it hard to swallow, or does the lump feel like it's pressing on your throat?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "swallow",
+          "pressing",
+          "throat"
+        ]
+      },
+      {
+        "objective": "Weight and appetite changes",
+        "say": "Have you lost weight without trying, or noticed your appetite change?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weight loss",
+          "appetite"
+        ]
+      },
+      {
+        "objective": "Hyperthyroid symptoms",
+        "say": "Have you felt your heart racing, felt hot, or noticed a tremor?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "heart racing",
+          "tremor",
+          "hot"
+        ]
+      },
+      {
+        "objective": "Duration and growth",
+        "say": "How long have you had the lump, and has it grown?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does thyroid disease run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/76",
+      "hr": 96,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I noticed a lump in the front of my neck recently, and lately it has felt difficult to swallow food.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I first felt the bump about three months ago, and it has gradually become bigger over the past few weeks.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is located in the lower front part of my neck, mostly centered and spreading across both sides.",
+        "topic": "Location of neck lump"
+      },
+      {
+        "answer": "It feels like several bumpy lumps together about the size of a golf ball, and I have not felt any lumps in my armpits or groin.",
+        "topic": "Size and number of lumps"
+      },
+      {
+        "answer": "No, it does not hurt at all, even when I press directly on it.",
+        "topic": "Pain or tenderness"
+      },
+      {
+        "answer": "Yes, whenever I swallow water, I can feel and see the lump move upward in the mirror.",
+        "topic": "Movement with swallowing"
+      },
+      {
+        "answer": "No, sticking out my tongue does not make the lump move at all.",
+        "topic": "Movement with tongue protrusion"
+      },
+      {
+        "answer": "No, it does not swell up or become painful while I am eating meals.",
+        "topic": "Symptoms during meals"
+      },
+      {
+        "answer": "No, I have not had a cold, sore throat, dental problem, or skin infection recently.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "No, I have not had any fevers, chills, or night sweats.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "I have lost around 4 kilograms over the past two months, even though my appetite has actually increased.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "Solid foods feel like they catch or get stuck on the way down, but I have not had difficulty breathing or choking.",
+        "topic": "Swallowing and breathing difficulty"
+      },
+      {
+        "answer": "No, my voice sounds completely normal and has not become hoarse.",
+        "topic": "Voice changes"
+      },
+      {
+        "answer": "No, I do not have ear pain, nosebleeds, nasal blockage, or pain when I swallow.",
+        "topic": "Ear nose and throat symptoms"
+      },
+      {
+        "answer": "Yes, I feel hot all the time lately and sweat heavily even in air-conditioned rooms.",
+        "topic": "Heat tolerance and sweating"
+      },
+      {
+        "answer": "My heart often feels like it is pounding or fluttering in my chest, and my fingers have a slight tremor.",
+        "topic": "Palpitations and hand tremor"
+      },
+      {
+        "answer": "I have been feeling constantly exhausted and weak, no matter how much I sleep.",
+        "topic": "Generalized fatigue"
+      },
+      {
+        "answer": "No, my eyes look completely normal to me, with no bulging, redness, or double vision.",
+        "topic": "Eye symptoms"
+      },
+      {
+        "answer": "My bowels have been moving more frequently, around two to three times a day, but I do not have diarrhea.",
+        "topic": "Bowel habits"
+      },
+      {
+        "answer": "No, I have never had tuberculosis and have never been around anyone sick with it.",
+        "topic": "Tuberculosis exposure"
+      },
+      {
+        "answer": "No, I never received any radiation treatments to my head or neck as a child.",
+        "topic": "Head and neck radiation exposure"
+      },
+      {
+        "answer": "No, I do not own pets and have not been scratched or bitten by cats or any other animals.",
+        "topic": "Animal contact"
+      },
+      {
+        "answer": "I thought maybe my throat was tightening up and my glands swelled because of extreme stress and exhaustion at work.",
+        "topic": "Ideas about the cause"
+      },
+      {
+        "answer": "I'm terrified that this swelling might be throat cancer and that it's going to end up choking me or blocking my food completely.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can scan my neck today and give me some medication to bring down the swelling so I can swallow easily again.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have never been diagnosed with any chronic health conditions like hypertension or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital admissions.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription drugs, over-the-counter medicines, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have a glass of beer on rare social occasions, maybe a few times a year.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office accountant and live at home with my husband and two teenage daughters.",
+        "topic": "Occupation and social situation"
+      },
+      {
+        "answer": "My mother had an enlarged non-cancerous goiter years ago, but nobody in my family has had thyroid cancer.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last period started two weeks ago on my usual regular monthly cycle, we use barrier contraception, and there is no chance I am pregnant.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/76 mmHg, heart rate 96 beats per minute, respiratory rate 16 breaths per minute, body temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and mildly anxious-appearing female with visible fullness in the anterior lower neck; no respiratory distress or audible stridor.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normal visual acuity and extraocular movements without exophthalmos, lid lag, lid retraction, or scleral icterus.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal oral mucosa and dentition without tonsillar swelling, pharyngeal erythema, or mucosal lesions.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, submandibular, submental, or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Enlarged multinodular thyroid gland with several firm, non-tender, mobile nodules that ascend on swallowing; no retrosternal dullness or overlying vascular bruit.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No axillary lymphadenopathy or palpable axillary masses bilaterally.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No inguinal lymphadenopathy or palpable groin hernia bilaterally.",
+        "maneuver": "hernia_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with normal S1 and S2; no heart murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, or stridor.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Fine postural tremor observed in both outstretched hands.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is warm, smooth, and mildly diaphoretic without pretibial myxedema or rash.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Brisk symmetrical deep tendon reflexes throughout without clonus; normal plantar reflex.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

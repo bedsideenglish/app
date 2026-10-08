@@ -1,0 +1,300 @@
+{
+  "id": "derm_023",
+  "system": "dermatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lim",
+  "age": 19,
+  "gender": "female",
+  "chief_complaint": "painful cystic nodules and red pimples across face, chest, and back",
+  "hpi_details": "19F presents with severe, painful acne nodules, pustules, and comedones across her face, chest, and upper back that have resisted over-the-counter benzoyl peroxide washes.",
+  "ideas": "worried about permanent acne scarring",
+  "concerns": "embarrassed by facial appearance",
+  "expectations": "wants strong prescription pills or Accutane",
+  "pmh": "No prior history",
+  "medications": "None",
+  "social_hx": "College student, non-smoker",
+  "investigation_events": [
+    {
+      "id": "pregnancy_test_before_acne_medication",
+      "title": "Pregnancy test before teratogenic acne medication",
+      "order_terms": ["pregnancy test", "hcg", "beta hcg", "urine pregnancy", "pregnancy status"],
+      "availability_message": "The pregnancy test result is now available.",
+      "results": [
+        {"id": "urine_hcg", "test": "Urine hCG", "value": "Negative", "flag": "normal", "specimen": "Urine", "collected_at": "Before doxycycline, topical retinoid, or isotretinoin prescribing"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Moderate-to-Severe Acne Vulgaris evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Moderate-to-Severe Acne Vulgaris is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes an evidence-based diagnostic and therapeutic protocol for Acne Vulgaris, moderate-to-severe papulopustular/nodular, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: painful cystic nodules and red pimples across face, chest, and back",
+      "Key HPI features: 19F presents with severe, painful acne nodules, pustules, and comedones across her face, chest, and upper back that have resisted over-the-counter benzoyl peroxide washes.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acne Vulgaris, moderate-to-severe papulopustular/nodular."
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Moderate-to-Severe Acne Vulgaris.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Rosacea without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Deep scarring already present — signals need for more aggressive treatment sooner."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Acne Vulgaris, moderate-to-severe papulopustular/nodular: assess pregnancy status before prescribing, then prescribe oral Doxycycline 100mg daily, topical Retinoid (Adapalene), and Benzoyl peroxide",
+      "Discuss Isotretinoin (Accutane) criteria and iPLEDGE if refractory"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Acne Vulgaris, moderate-to-severe papulopustular/nodular. painful cystic nodules and red pimples across face, chest, and back. 19F presents with severe, painful acne nodules, pustules, and comedones across her face, chest, and upper back that have resisted over-the-counter benzoyl peroxide washes.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acne Vulgaris, moderate-to-severe papulopustular/nodular.",
+    "assessment": "Clinical presentation highly suggestive of Acne Vulgaris, moderate-to-severe papulopustular/nodular.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Acne Vulgaris, moderate-to-severe papulopustular/nodular. Before prescribing doxycycline or a topical retinoid, assess pregnancy status and pregnancy intentions; avoid these medicines during pregnancy. If appropriate, prescribe oral doxycycline with topical adapalene and benzoyl peroxide, limiting antibiotic duration. Discuss isotretinoin for severe or refractory disease; it requires strict pregnancy-prevention and monitoring requirements. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acne Vulgaris, moderate-to-severe papulopustular/nodular.",
+    "Formulate prioritized differential diagnosis for painful cystic nodules and red pimples across face, chest, and back",
+    "Select appropriate laboratory and imaging studies for dermatology",
+    "Implement evidence-based acute and long-term management strategies for Acne Vulgaris, moderate-to-severe papulopustular/nodular."
+  ],
+  "teaching": {
+    "diagnosis": "Moderate-to-Severe Acne Vulgaris",
+    "one_liner": "Inflammatory acne with painful nodules, pustules, and comedones across the face, chest, and back, unresponsive to over-the-counter treatment — needs prescription-strength therapy.",
+    "differentials": [
+      "Rosacea",
+      "Folliculitis",
+      "Hidradenitis suppurativa"
+    ],
+    "red_flags": [
+      "Deep scarring already present — signals need for more aggressive treatment sooner"
+    ],
+    "must_ask": [
+      {
+        "objective": "Lesion type and distribution",
+        "say": "Do you have nodules, pustules, and blackheads, and where — face, chest, back?",
+        "domains": [
+          "location",
+          "character"
+        ]
+      },
+      {
+        "objective": "Prior treatments",
+        "say": "What have you tried so far, like face washes?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Scarring concern",
+        "say": "Are you noticing any scarring?",
+        "domains": [
+          "concerns"
+        ],
+        "keywords": [
+          "scarring"
+        ]
+      },
+      {
+        "objective": "Menstrual pattern (if relevant)",
+        "say": "Does it get worse around your period?",
+        "domains": [
+          "aggravating"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I came in because I've been breaking out with really painful red pimples and deep bumps across my face and back.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about six months ago on my forehead and cheeks, and over the past two months it has spread down to my chest and upper back.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The bumps are clustered across my cheeks, chin, forehead, middle of my chest, and upper back.",
+        "topic": "Location and distribution"
+      },
+      {
+        "answer": "There are red inflamed bumps, small whiteheads, blackheads, and several deep, tender lumps under the skin.",
+        "topic": "Appearance of bumps"
+      },
+      {
+        "answer": "They throb and hurt quite a bit when I touch them or wash my face, but they don't itch at all.",
+        "topic": "Pain and itching"
+      },
+      {
+        "answer": "No, they do not disappear within hours; individual deep lumps linger for weeks and feel swollen.",
+        "topic": "Fluctuation of lesions"
+      },
+      {
+        "answer": "I had mild pimples in high school, but it was never this severe, and over-the-counter benzoyl peroxide washes haven't helped.",
+        "topic": "Previous breakouts and treatments"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, fatigue, or muscle aches.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my mouth, tongue, eyes, and private areas are completely normal without any sores or ulcers.",
+        "topic": "Mucosal involvement"
+      },
+      {
+        "answer": "No, my skin isn't peeling off, and I don't have any dark purple or bruise-like spots.",
+        "topic": "Skin peeling or purple spots"
+      },
+      {
+        "answer": "No, I have not had any swelling of my lips or tongue, and my breathing is completely normal.",
+        "topic": "Facial swelling or breathing difficulty"
+      },
+      {
+        "answer": "No, I have not started any new prescription drugs, antibiotics, seizure pills, or pain relievers.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "I haven't changed my cosmetics, skincare, or laundry detergent, and I haven't been exposed to strange plants or jewelry.",
+        "topic": "New cosmetics or chemical exposures"
+      },
+      {
+        "answer": "Both of my parents had bad acne when they were in college, but my roommate doesn't have any rash.",
+        "topic": "Family history of skin conditions"
+      },
+      {
+        "answer": "No bug bites or tick bites, and I haven't been hiking, traveling, or using public hot tubs.",
+        "topic": "Bug bites and outdoor exposures"
+      },
+      {
+        "answer": "No, I don't have asthma, eczema, or seasonal allergies.",
+        "topic": "History of allergic conditions"
+      },
+      {
+        "answer": "No, my joints don't hurt and my fingernails look completely normal.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I have only used the store-bought benzoyl peroxide wash; I haven't used any steroid creams or antifungal ointments.",
+        "topic": "Topical creams and ointments"
+      },
+      {
+        "answer": "I have a boyfriend and we are sexually active, but neither of us has any genital sores or unusual discharge.",
+        "topic": "Sexual history and genital sores"
+      },
+      {
+        "answer": "I'm terrified that these deep cysts are going to leave permanent pitted scars on my face.",
+        "topic": "Scarring concerns"
+      },
+      {
+        "answer": "I feel very self-conscious and embarrassed about how my face looks, especially around people at school.",
+        "topic": "Emotional impact"
+      },
+      {
+        "answer": "Since over-the-counter washes failed, I was hoping to get strong prescription pills or something like Accutane.",
+        "topic": "Treatment expectations"
+      },
+      {
+        "answer": "My periods are regular every twenty-eight days, though my skin tends to break out slightly worse right before my period.",
+        "topic": "Menstrual regularity and pattern"
+      },
+      {
+        "answer": "My last period started two weeks ago, and we always use condoms consistently; there is no chance I am pregnant.",
+        "topic": "Last menstrual period and contraception"
+      },
+      {
+        "answer": "I do not have any chronic medical problems and have always been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, birth control pills, vitamins, or supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I do not have any known allergies to medications or foods.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used e-cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional beer with friends once or twice a month at social gatherings.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a first-year college student living in a university dormitory.",
+        "topic": "Occupation and living situation"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, well-nourished young female in no acute distress, with visible facial blemishes and mild embarrassment.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, body temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple erythematous papules, pustules, comedones, and several tender fluctuant nodules across both cheeks, the chest, and the upper back, with early shallow atrophic scars on the cheeks.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Conjunctivae pink and non-injected, sclerae clear, and no signs of blepharitis or conjunctival inflammation.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa and posterior pharynx are moist and clear without ulcerations, pseudomembranes, or lesions.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, submandibular, or preauricular lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      }
+    ]
+  }
+}

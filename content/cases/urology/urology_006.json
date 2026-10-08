@@ -1,0 +1,353 @@
+{
+  "id": "urology_006",
+  "system": "urology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Foster",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "rapidly spreading dusky, crepitant, foul-smelling infection across scrotum and perineum with septic shock (Fournier Gangrene)",
+  "hpi_details": "58M with poorly controlled type 2 diabetes brought by ambulance with 3-day history of severe perianal and scrotal swelling, intense pain, high fever, and lethargy. Today family noticed the skin over the scrotum turned purplish-black with blisters emitting a putrid smell. Patient is confused and hypotensive.",
+  "ideas": "too lethargic to provide detailed history; family terrified by rapid blackening of tissues and septic state",
+  "concerns": "family worried he will die from flesh-eating infection without immediate surgery",
+  "expectations": "family wants aggressive emergency operating room debridement and ICU resuscitation",
+  "pmh": "Type 2 Diabetes Mellitus (HbA1c 11.4%), Morbid Obesity, Peripheral Vascular Disease",
+  "medications": "Insulin sliding scale (poorly compliant)",
+  "social_hx": "Disabled truck driver, non-smoker",
+  "available_results": [
+    {"id": "fournier_hba1c", "test": "Hemoglobin A1c", "value": "11.4", "unit": "%", "reference_range": "<6.5", "flag": "high", "specimen": "Blood", "collected_at": "Recent diabetes monitoring"},
+    {"id": "fournier_wbc", "test": "White blood cell count", "value": "28.0", "unit": "×10^9/L", "reference_range": "4.0-11.0", "flag": "high", "specimen": "Blood", "collected_at": "At emergency assessment"},
+    {"id": "fournier_glucose", "test": "Glucose", "value": "480", "unit": "mg/dL", "reference_range": "70-140", "flag": "high", "specimen": "Blood", "collected_at": "At emergency assessment"},
+    {"id": "fournier_lactate", "test": "Lactate", "value": "6.4", "unit": "mmol/L", "reference_range": "0.5-2.0", "flag": "high", "specimen": "Blood", "collected_at": "At emergency assessment"},
+    {"id": "fournier_creatinine", "test": "Creatinine", "value": "2.4", "unit": "mg/dL", "reference_range": "0.7-1.3", "flag": "high", "specimen": "Blood", "collected_at": "At emergency assessment"},
+    {"id": "fournier_ct_pelvis", "test": "CT pelvis", "value": "Extensive subcutaneous gas dissecting through the scrotal, perineal, and lower abdominal fascial planes", "flag": "abnormal", "collected_at": "Emergency assessment; surgery must not be delayed"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Fournier Gangrene (Polymicrobial Necrotizing Fasciitis of the Perineum/Scrotum) with Septic Shock evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Fournier Gangrene (Polymicrobial Necrotizing Fasciitis of the Perineum/Scrotum) with Septic Shock is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes STAT surgical emergency: immediately transfer to operating room for radical, aggressive surgical debridement of all necrotic and non-viable skin, subcutaneous fat, and fascia of the scrotum, perineum, and lower abdomen down to bleeding healthy tissue, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: rapidly spreading dusky, crepitant, foul-smelling infection across scrotum and perineum with septic shock (Fournier Gangrene)",
+      "Key HPI features: 58M with poorly controlled type 2 diabetes brought by ambulance with 3-day history of severe perianal and scrotal swelling, intense pain, high fever, and lethargy. Today family noticed the skin over the scrotum turned purplish-black with blisters emitting a putrid smell. Patient is confused and hypotensive.",
+      "Objective/Exam findings: Vitals: HR 134, BP 84/48, Temp 39.6C, RR 28. Scrotum is massively swollen, dusky blue-black, and necrotic with large hemorrhagic bullae and patches of sloughing skin. Palpable crepitus (subcutaneous gas) extends from the scrotum across the perineum into the left inguinal crease and lower abdominal wall. Extremely foul, feculent odor. Labs: WBC 28,000 /uL with left shift, Glucose 480 mg/dL, Lactate 6.4 mmol/L, Creatinine 2.4 mg/dL. CT pelvis shows extensive subcutaneous emphysema and gas dissection through scrotal, perineal, and fascial planes.",
+      "Relevant background/PMH: Type 2 Diabetes Mellitus (HbA1c 11.4%), Morbid Obesity, Peripheral Vascular Disease",
+      "Current medications: Insulin sliding scale (poorly compliant)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Fournier Gangrene (Polymicrobial Necrotizing Fasciitis of the Perineum/Scrotum) with Septic Shock.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Urinary tract infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Acute total urinary retention."
+    ],
+    "management_principles": [
+      "STAT surgical emergency: immediately transfer to operating room for radical, aggressive surgical debridement of all necrotic and non-viable skin, subcutaneous fat, and fascia of the scrotum, perineum, and lower abdomen down to bleeding healthy tissue",
+      "(Testes usually preserved as their blood supply via spermatic cord inside internal inguinal ring is separate from scrotal skin circulation)",
+      "Obtain cultures when feasible without delaying therapy, then give renal-adjusted broad-spectrum IV antibiotics with MRSA, gram-negative, and anaerobic coverage; tailor to cultures and local guidance.",
+      "Provide ICU sepsis resuscitation, urgent glucose management, and planned repeat debridement as clinically required; imaging must never delay surgical source control."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "58M immunocompromised diabetic presenting with rapidly progressive necrotizing fasciitis of the perineum and scrotum (Fournier gangrene) in septic shock.",
+    "objective": "Vitals: HR 134, BP 84/48, Temp 39.6C, RR 28. Scrotum is massively swollen, dusky blue-black, and necrotic with large hemorrhagic bullae and patches of sloughing skin. Palpable crepitus (subcutaneous gas) extends from the scrotum across the perineum into the left inguinal crease and lower abdominal wall. Extremely foul, feculent odor. Labs: WBC 28,000 /uL with left shift, Glucose 480 mg/dL, Lactate 6.4 mmol/L, Creatinine 2.4 mg/dL. CT pelvis shows extensive subcutaneous emphysema and gas dissection through scrotal, perineal, and fascial planes.",
+    "assessment": "Fournier Gangrene (Polymicrobial Necrotizing Fasciitis of the Perineum/Scrotum) with Septic Shock.",
+    "plan": "Immediate operative debridement and ICU sepsis resuscitation are required; do not delay source control for imaging. Obtain cultures when feasible without delaying treatment, then give renal-adjusted broad-spectrum IV antibiotics with MRSA, gram-negative, and anaerobic coverage and tailor to results. Manage severe hyperglycemia, monitor organ failure, and plan repeat debridement as needed."
+  },
+  "learning_objectives": [
+    "Recognize Fournier Gangrene as a polymicrobial necrotizing surgical emergency requiring immediate OR debridement (<2-4 hours to prevent mortality)",
+    "Identify anatomical boundaries and fascial planes involved in Fournier gangrene spread (Colles fascia of perineum continuous with Dartos fascia of scrotum and Scarpa fascia of abdominal wall)",
+    "Explain why the testes themselves are frequently spared from necrosis during Fournier gangrene (separate testicular artery perfusion arising directly from the abdominal aorta at L2 level)",
+    "Outline empirical triple broad-spectrum antimicrobial regimens including protein synthesis inhibitors (Clindamycin) for necrotizing soft tissue infections"
+  ],
+  "teaching": {
+    "diagnosis": "Fournier Gangrene (Polymicrobial Necrotizing Fasciitis of the Perineum/Scrotum) with Septic Shock.",
+    "one_liner": "Urology evaluation for patient presenting with rapidly spreading dusky, crepitant, foul-smelling infection across scrotum and perineum with septic shock (Fournier Gangrene).",
+    "differentials": [
+      "Scrotal cellulitis",
+      "Strangulated inguinal hernia",
+      "Idiopathic scrotal edema"
+    ],
+    "red_flags": [
+      "Pain out of proportion, rapidly spreading necrosis, bullae, or crepitus",
+      "Hypotension, confusion, or other septic shock features"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset and rapid progression of scrotal/perineal changes",
+        "say": "When did you first notice the swelling, and how quickly has the skin color and pain changed since then?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "swelling",
+          "hours",
+          "days",
+          "spreading",
+          "worsening"
+        ]
+      },
+      {
+        "objective": "Pain out of proportion and skin findings",
+        "say": "Is the pain far worse than the skin looks, and have you noticed any crackling feeling, blistering, or a foul smell?",
+        "domains": [
+          "character",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "crepitus",
+          "blisters",
+          "foul smell",
+          "dusky",
+          "black"
+        ]
+      },
+      {
+        "objective": "Diabetes and immunosuppression risk factors",
+        "say": "Do you have diabetes, and if so, how well controlled is your blood sugar?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "immunosuppressed",
+          "blood sugar",
+          "steroids",
+          "hiv"
+        ]
+      },
+      {
+        "objective": "Portal of entry - perianal, urethral, or skin source",
+        "say": "Have you had any recent cuts, insect bites, hemorrhoids, urinary infections, or procedures near your groin?",
+        "domains": [
+          "pmh",
+          "onset_duration"
+        ],
+        "keywords": [
+          "wound",
+          "hemorrhoid",
+          "catheter",
+          "injury",
+          "infection"
+        ]
+      },
+      {
+        "objective": "Systemic sepsis screening",
+        "say": "Do you feel confused, extremely weak, or like your heart is racing, along with the fever?",
+        "domains": [
+          "associated_symptoms",
+          "concerns"
+        ],
+        "keywords": [
+          "confusion",
+          "hypotension",
+          "weak",
+          "fever",
+          "sepsis"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "84/48",
+      "hr": 134,
+      "rr": 28,
+      "spo2": 94,
+      "temp_c": 39.6
+    },
+    "history": [
+      {
+        "answer": "Please help him, doctor! His scrotum swelled up terribly, turned black today, and smells rotten, and he has a raging fever and can barely stay awake.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started three days ago with swelling and soreness near his bottom, but over the last twenty-four hours it spread rapidly across his entire scrotum and groin.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It started right around his anus and the bottom of his scrotum, but now it covers the whole scrotum, between his legs, and up onto his lower stomach.",
+        "topic": "Location and spread"
+      },
+      {
+        "answer": "He was screaming in agony the first two days whenever anything brushed against it, but today he has become so out of it that he just groans when moved.",
+        "topic": "Pain severity and character"
+      },
+      {
+        "answer": "Yes, before he became so sleepy he kept grabbing his groin and lower belly, saying the burning pain was shooting straight upward into his stomach.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "No, he has never had anything like this happen before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "He felt sick to his stomach yesterday and threw up once this morning, but he hasn't been able to keep any food down.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "No, the swelling doesn't change at all whether he lies down or sits up; it has just been relentlessly getting bigger and firmer.",
+        "topic": "Positional swelling changes"
+      },
+      {
+        "answer": "He didn't describe a dull dragging sensation; he kept saying it felt like his private parts were on fire and tearing apart.",
+        "topic": "Heaviness or dragging sensation"
+      },
+      {
+        "answer": "No, there was never any painless hard lump; it started suddenly as red, swollen, intensely tender skin.",
+        "topic": "Painless hard lump"
+      },
+      {
+        "answer": "He has had a burning high fever with shaking chills since yesterday, and he hasn't passed any urine since early this morning.",
+        "topic": "Fever and urinary symptoms"
+      },
+      {
+        "answer": "Yes, this morning his skin turned dark purplish-black with large fluid blisters, and there is a terrible, rotting smell coming from it.",
+        "topic": "Skin discoloration, blisters, and odor"
+      },
+      {
+        "answer": "No, he didn't hurt himself or do any strenuous exercise; he has been sitting in his recliner resting.",
+        "topic": "Trauma or exertion"
+      },
+      {
+        "answer": "No, he hasn't had any swelling under his ears or in his neck, and he had mumps as a boy.",
+        "topic": "Recent parotid swelling or mumps"
+      },
+      {
+        "answer": "No, both of his testicles were always down in place, and he has never had surgery in that area.",
+        "topic": "Testicular surgery or undescended testicle"
+      },
+      {
+        "answer": "No, he hasn't had chronic weight loss, back pain, or a cough; he has struggled with severe obesity for years.",
+        "topic": "Weight loss, back pain, or cough"
+      },
+      {
+        "answer": "He has been married to me for thirty years, and we have not been sexually active recently because of his health issues.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "No, he hasn't had a urinary catheter placed, and he has never had any prostate procedures or scopes into his bladder.",
+        "topic": "Recent urologic procedures"
+      },
+      {
+        "answer": "We have two grown children, but he has severe diabetes that has been poorly controlled for years, which weakens his immune system.",
+        "topic": "Immunocompromise and fertility"
+      },
+      {
+        "answer": "About four days ago he had a painful boil near his anus that he scratched open, and the area got swollen and red right after that.",
+        "topic": "Potential portal of entry"
+      },
+      {
+        "answer": "He became very confused last night, mumbling strange things, and today he's barely responsive and burning up.",
+        "topic": "Confusion and lethargy"
+      },
+      {
+        "answer": "We are terrified that this is a flesh-eating infection and that he might die; we want him taken to surgery immediately to cut away the infected tissue.",
+        "topic": "Family concerns and expectations"
+      },
+      {
+        "answer": "He has severe type 2 diabetes, morbid obesity, and poor circulation in his legs.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He had an arterial stent placed in his right leg two years ago for his poor circulation, but no other operations.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "He is prescribed an insulin sliding scale, but he has not been taking it consistently like he should.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known drug allergies.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "He has never smoked.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "He doesn't drink alcohol except for an occasional beer on the holidays.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "He is a disabled former truck driver and lives at home with me.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "His mother had type 2 diabetes and his father had hypertension, but there is no family history of testicular or scrotal problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature 39.6 C, blood pressure 84/48 mmHg, heart rate 134 bpm, respiratory rate 28 breaths/min, oxygen saturation 94% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Toxic-appearing, obtunded, and diaphoretic man lying supine in septic shock, with a putrid odor noticeable from the bedside.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Lethargic and poorly responsive to voice, opening eyes only to painful stimuli and mumbling incoherently.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with no audible murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachypneic with vesicular breath sounds clear to auscultation bilaterally, without crackles or wheezes.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Distended, obese abdomen with dusky erythema and swelling extending onto the lower abdominal wall.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Marked tenderness and subcutaneous crepitus over the lower abdominal wall and suprapubic area without generalized rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Palpable subcutaneous gas and dusky discoloration extending into the left inguinal crease without a distinct hernia mass.",
+        "maneuver": "hernia_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Massively swollen, dusky blue-black scrotum and perineum with hemorrhagic bullae, sloughing necrotic skin, palpable crepitus, and a foul feculent odor.",
+        "maneuver": "genital_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked induration, warmth, and crepitus around the perianal region extending to the anal verge; exam limited due to severe necrosis and tissue breakdown.",
+        "maneuver": "digital_rectal_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

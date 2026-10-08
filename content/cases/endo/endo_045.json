@@ -1,0 +1,309 @@
+{
+  "id": "endo_045",
+  "system": "endo",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Lee",
+  "age": 77,
+  "gender": "male",
+  "chief_complaint": "bilateral, painful breast tissue enlargement",
+  "hpi_details": "A 77-year-old male presents to the clinic with bilateral, painful breast tissue enlargement. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks he might have developed male breast cancer after remembering that a man in his senior community was diagnosed with it last year.",
+  "concerns": "He is worried that the tender lumps in his chest are a malignant tumor that could spread before he can do anything about it.",
+  "expectations": "He hopes to get an ultrasound or mammogram today to confirm whether the swellings are cancerous or benign.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Gynecomastia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Gynecomastia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes reviewing medications and checking liver, kidney, and hormone levels for Gynecomastia, with reassurance once serious causes are excluded, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: bilateral, painful breast tissue enlargement",
+      "Key HPI features: A 77-year-old male presents to the clinic with bilateral, painful breast tissue enlargement. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Gynecomastia.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Gynecomastia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Breast cancer (rare in males but must exclude) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Hard, fixed, or asymmetric mass — needs biopsy to exclude male breast cancer."
+    ],
+    "management_principles": [
+      "Plan for Gynecomastia: Review medications, check liver/kidney/hormone levels, reassure",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Endocrine Society Clinical Practice Guideline: Gynecomastia — Evaluation and Management",
+        "url": "https://academic.oup.com/jcem/article/104/11/5039/5566327"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of bilateral, painful breast tissue enlargement. HPI: estrogen-androgen imbalance, medications.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Gynecomastia.",
+    "assessment": "Condition highly suspicious for Gynecomastia.",
+    "plan": "Plan for Gynecomastia: Review medications, check liver/kidney/hormone levels, reassure. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Gynecomastia",
+    "Select appropriate diagnostic workup for Gynecomastia",
+    "Implement evidence-based management plan: Review medications, check liver/kidney/hormone levels, reassure"
+  ],
+  "teaching": {
+    "diagnosis": "Gynecomastia",
+    "one_liner": "An imbalance between estrogen and androgen effects causing painful enlargement of breast tissue in a male, often related to medications.",
+    "differentials": [
+      "Breast cancer (rare in males but must exclude)",
+      "Pseudogynecomastia (fat only)"
+    ],
+    "red_flags": [
+      "Hard, fixed, or asymmetric mass — needs biopsy to exclude male breast cancer"
+    ],
+    "must_ask": [
+      {
+        "objective": "Bilaterality and pain",
+        "say": "Is it on both sides, and is it painful?",
+        "domains": [
+          "character",
+          "location"
+        ]
+      },
+      {
+        "objective": "Medications",
+        "say": "What medications are you taking?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Onset and progression",
+        "say": "When did you first notice this, and has it grown?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ]
+      },
+      {
+        "objective": "Liver or kidney disease",
+        "say": "Do you have any liver or kidney problems?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Alcohol use",
+        "say": "How much alcohol do you drink?",
+        "domains": [
+          "alcohol"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Doctor, both sides of my chest have gotten swollen and painful recently, and it is making me quite uncomfortable.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I first noticed it about a month ago when my shirts started rubbing against my chest and feeling uncomfortable.",
+        "topic": "Onset and trigger"
+      },
+      {
+        "answer": "It is right behind my nipples on both sides, and both breasts seem enlarged to about the size of a plum.",
+        "topic": "Location and bilaterality"
+      },
+      {
+        "answer": "The swelling has been gradually getting larger over the last several weeks.",
+        "topic": "Progression and size changes"
+      },
+      {
+        "answer": "Yes, there is a constant dull ache, and they feel quite tender if my clothes brush against them or if I touch them.",
+        "topic": "Pain and tenderness"
+      },
+      {
+        "answer": "No, I have not seen any skin puckering, dimpling, redness, or inverted nipples.",
+        "topic": "Skin and nipple changes"
+      },
+      {
+        "answer": "No, there has not been any fluid, milk, or blood leaking from either nipple.",
+        "topic": "Nipple discharge"
+      },
+      {
+        "answer": "No, I have felt around under my arms and have not found any lumps or swollen glands.",
+        "topic": "Armpit swelling"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or burning heat in my chest.",
+        "topic": "Fever and warmth"
+      },
+      {
+        "answer": "Yes, I have been feeling unusually tired and sluggish over the past few weeks, but no other sickness.",
+        "topic": "Generalized fatigue"
+      },
+      {
+        "answer": "No, my weight has been steady and my appetite has not changed.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "No, I have no bone pain, persistent cough, or shortness of breath.",
+        "topic": "Bone pain and breathing"
+      },
+      {
+        "answer": "No, I have never had an injury, trauma, or medical procedure done on my chest.",
+        "topic": "Chest trauma or procedures"
+      },
+      {
+        "answer": "No, I have never had breast lumps, a biopsy, or any radiation therapy to my chest.",
+        "topic": "Past breast conditions"
+      },
+      {
+        "answer": "I have not noticed any pain or lumps in my testicles, though my sex drive has gradually dwindled over the years.",
+        "topic": "Testicular symptoms and libido"
+      },
+      {
+        "answer": "No, I have never had yellowing of my skin, liver trouble, or kidney problems.",
+        "topic": "Liver and kidney disease"
+      },
+      {
+        "answer": "No, I have not experienced heat intolerance, hand tremors, or palpitations.",
+        "topic": "Thyroid symptoms"
+      },
+      {
+        "answer": "I started thinking it might be breast cancer, especially after a guy in my bowling league had a lump like this last year.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that these lumps are breast cancer and that it's going to spread if I don't catch it right away.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can order a scan today to prove once and for all that this isn't cancer.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I do not have any chronic medical illnesses like high blood pressure, diabetes, or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was in my twenties, but no other operations or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications at all.",
+        "topic": "Prescription medications"
+      },
+      {
+        "answer": "No, I do not take any over-the-counter pills, herbal remedies, steroids, or hormone supplements.",
+        "topic": "Supplements and over-the-counter drugs"
+      },
+      {
+        "answer": "I have no allergies to any medications, foods, or other substances.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink alcohol socially, perhaps a single glass of beer once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am retired from clerical work and live quietly at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has ever had breast cancer, ovarian cancer, or any hormonal problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, temperature 36.6 degrees Celsius, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished elderly male in no acute distress, with normal male secondary sexual characteristics.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral symmetric enlargement of subareolar breast tissue without erythema, skin dimpling, or peau d orange.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral symmetric, disc-shaped, rubbery glandular tissue palpable beneath the areolae with mild tenderness; no discrete hard masses, skin tethering, or nipple discharge.",
+        "maneuver": "breast_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No cervical, supraclavicular, or infraclavicular lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with normal respiratory effort and no crackles or wheezing.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal heart sounds and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended with normal bowel sounds and no guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Liver and spleen are not palpable below the costal margins, with no hepatosplenomegaly.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No spider angiomas, palmar erythema, jaundice, or abnormal skin hyperpigmentation.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal male genitalia with symmetric descended testes of normal volume and consistency, without masses or tenderness.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No peripheral pitting edema in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

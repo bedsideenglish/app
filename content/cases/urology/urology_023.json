@@ -1,0 +1,385 @@
+{
+  "id": "urology_023",
+  "system": "urology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Lim",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "high fever, shaking chills, severe pain in lower pelvic area, and painful urination",
+  "hpi_details": "58M presents with sudden high fever, shaking chills, painful urination (dysuria), and severe pain in his perineum/pelvic area. Urination is extremely difficult, and he feels like his bladder is full.",
+  "ideas": "thinks he has a severe bladder or prostate infection",
+  "concerns": "worried about urinary retention and sepsis",
+  "expectations": "wants IV antibiotics and catheter",
+  "pmh": "BPH",
+  "medications": "Tamsulosin 0.4mg daily",
+  "social_hx": "Retired, non-smoker",
+  "investigation_events": [
+    {
+      "id": "prostatitis_sepsis_bloods",
+      "title": "Sepsis blood tests",
+      "order_terms": ["cbc", "complete blood count", "blood count", "creatinine", "renal function", "lactate", "sepsis labs"],
+      "availability_message": "The urgent blood-test results are now available; blood cultures remain pending.",
+      "results": [
+        {"id": "white_blood_cell_count", "test": "White blood cell count", "value": "19.6", "unit": "×10^9/L", "reference_range": "4.0-11.0", "flag": "high", "specimen": "Blood"},
+        {"id": "serum_creatinine", "test": "Creatinine", "value": "1.5", "unit": "mg/dL", "reference_range": "0.7-1.3", "flag": "high", "specimen": "Blood"},
+        {"id": "estimated_gfr", "test": "Estimated GFR", "value": "53", "unit": "mL/min/1.73 m²", "reference_range": ">=60", "flag": "low", "specimen": "Blood"},
+        {"id": "serum_lactate", "test": "Lactate", "value": "3.1", "unit": "mmol/L", "reference_range": "0.5-2.0", "flag": "high", "specimen": "Blood"}
+      ]
+    },
+    {
+      "id": "prostatitis_urinalysis",
+      "title": "Urinalysis with microscopy",
+      "order_terms": ["urinalysis", "urine microscopy", "urine dip", "urine test", "ua"],
+      "availability_message": "The urinalysis result is now available; the urine culture remains pending.",
+      "results": [
+        {"id": "urine_leukocyte_esterase", "test": "Leukocyte esterase", "value": "3+", "flag": "abnormal", "specimen": "Urine"},
+        {"id": "urine_nitrite", "test": "Nitrite", "value": "Positive", "flag": "abnormal", "specimen": "Urine"},
+        {"id": "urine_wbc", "test": "White blood cells", "value": ">50", "unit": "/HPF", "reference_range": "0-5", "flag": "high", "specimen": "Urine"}
+      ]
+    },
+    {
+      "id": "prostatitis_retention_scan",
+      "title": "Post-void residual bladder scan",
+      "order_terms": ["post void residual", "pvr", "bladder scan", "retention scan"],
+      "availability_message": "The bladder-scan result is now available.",
+      "results": [
+        {"id": "post_void_residual", "test": "Post-void residual", "value": "680", "unit": "mL", "reference_range": "<100", "flag": "high"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Bacterial Prostatitis, high risk for acute urinary retention evaluation and management",
+    "core_concepts": [
+      "Acute bacterial prostatitis with rigors, severe pain, and retention risk is a potential sepsis emergency requiring rapid assessment, cultures, resuscitation when needed, and empiric antibiotics.",
+      "Obtain urine culture before antibiotics when this does not delay treatment; obtain blood cultures, CBC, creatinine, and lactate in febrile/systemically ill patients. Do not massage the prostate.",
+      "A gentle DRE may find a tender boggy prostate, but avoid repeated vigorous examination. Evaluate residual/retention without traumatic urethral instrumentation.",
+      "If drainage is required and urethral catheterization is difficult or risky, obtain urgent urology input for suprapubic diversion; image for prostatic abscess when not improving or when high risk."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: high fever, shaking chills, severe pain in lower pelvic area, and painful urination",
+      "Key HPI features: 58M presents with sudden high fever, shaking chills, painful urination (dysuria), and severe pain in his perineum/pelvic area. Urination is extremely difficult, and he feels like his bladder is full.",
+      "Objective/Exam findings: Record sepsis physiology and bladder distension; perform one gentle DRE only. Obtain urinalysis/culture, blood cultures before antibiotics when feasible, CBC, renal function, and lactate; assess post-void residual/retention.",
+      "Relevant background/PMH: BPH",
+      "Current medications: Tamsulosin 0.4mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Bacterial Prostatitis, high risk for acute urinary retention.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Urinary tract infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Delaying sepsis treatment or urgent urology review for retention, hypotension, altered mental status, rising lactate, or organ dysfunction.",
+      "Performing prostatic massage or repeated vigorous DRE, which may precipitate bacteremia and adds no benefit.",
+      "Forcing a urethral catheter through acute prostatitis/obstruction; discuss suprapubic drainage with urology if bladder drainage is needed.",
+      "Choosing empiric therapy without urine/blood cultures, renal adjustment, local resistance patterns, allergy review, or fluoroquinolone adverse-effect counseling."
+    ],
+    "management_principles": [
+      "Treat as complicated UTI/sepsis when systemically ill: obtain cultures promptly, start local-guideline empiric IV antibiotics without delay, give fluids/analgesia as indicated, then tailor to results.",
+      "Admit or closely observe patients with sepsis, retention, significant comorbidity, inability to take oral medication, or unreliable follow-up; step down only after clear clinical improvement.",
+      "Assess retention and obtain urgent urology input for drainage; arrange reassessment and imaging for abscess if fever or symptoms persist despite appropriate treatment."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Acute Bacterial Prostatitis, high risk for acute urinary retention. high fever, shaking chills, severe pain in lower pelvic area, and painful urination. 58M presents with sudden high fever, shaking chills, painful urination (dysuria), and severe pain in his perineum/pelvic area. Urination is extremely difficult, and he feels like his bladder is full.",
+    "objective": "Assess for sepsis and bladder distension; perform a single gentle DRE without massage. Obtain urinalysis/culture, blood cultures when febrile/systemically ill, CBC, renal function, lactate, and retention assessment; image for abscess if not improving.",
+    "assessment": "Clinical presentation highly suggestive of Acute Bacterial Prostatitis, high risk for acute urinary retention.",
+    "plan": "Urgently evaluate and treat possible sepsis: obtain cultures when feasible without delaying antibiotics, start local-guideline empiric IV therapy and supportive care, and tailor therapy to culture/renal function. Do not massage the prostate. Assess retention; seek urgent urology input for drainage, particularly if urethral catheterization is difficult. Admit/observe given rigors, severe pain, and retention risk; evaluate for abscess if response is inadequate."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Bacterial Prostatitis, high risk for acute urinary retention.",
+    "Formulate prioritized differential diagnosis for high fever, shaking chills, severe pain in lower pelvic area, and painful urination",
+    "Select appropriate laboratory and imaging studies for urology",
+    "Implement evidence-based acute and long-term management strategies for Acute Bacterial Prostatitis, high risk for acute urinary retention."
+  ],
+  "teaching": {
+    "diagnosis": "Acute Bacterial Prostatitis, high risk for acute urinary retention.",
+    "one_liner": "Urology evaluation for patient presenting with high fever, shaking chills, severe pain in lower pelvic area, and painful urination.",
+    "differentials": [
+      "Acute cystitis / urinary tract infection",
+      "Prostate abscess",
+      "Acute urinary retention from benign prostatic obstruction"
+    ],
+    "red_flags": [
+      "Acute total urinary retention",
+      "Urosepsis with high fever"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset and severity of fever/chills",
+        "say": "When did the fever and shaking chills start, and how high has your temperature gotten?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "fever",
+          "chills",
+          "onset",
+          "temperature",
+          "rigors"
+        ]
+      },
+      {
+        "objective": "Perineal/pelvic pain and dysuria characteristics",
+        "say": "Can you describe the pain in your pelvic area, and does it burn when you urinate?",
+        "domains": [
+          "character",
+          "location"
+        ],
+        "keywords": [
+          "perineal",
+          "pelvic",
+          "burning",
+          "dysuria",
+          "pain"
+        ]
+      },
+      {
+        "objective": "Screen for acute urinary retention",
+        "say": "Are you able to urinate at all, or does your bladder feel completely full and blocked?",
+        "domains": [
+          "associated_symptoms",
+          "concerns"
+        ],
+        "keywords": [
+          "retention",
+          "blocked",
+          "unable",
+          "straining",
+          "full bladder"
+        ]
+      },
+      {
+        "objective": "Recent instrumentation or catheterization",
+        "say": "Have you had a urinary catheter, cystoscopy, or prostate biopsy recently?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "catheter",
+          "biopsy",
+          "cystoscopy",
+          "instrumentation",
+          "recent"
+        ]
+      },
+      {
+        "objective": "Systemic sepsis screening",
+        "say": "Do you feel confused, extremely weak, or lightheaded along with the fever?",
+        "domains": [
+          "associated_symptoms",
+          "concerns"
+        ],
+        "keywords": [
+          "confusion",
+          "weak",
+          "lightheaded",
+          "sepsis",
+          "systemic"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "102/66",
+      "hr": 110,
+      "rr": 22,
+      "spo2": 97,
+      "temp_c": 39.2
+    },
+    "history": [
+      {
+        "answer": "I came in because I have a sudden burning pain when I try to urinate, along with a high fever and uncontrollable shaking chills.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like an intense, sharp burning and stinging sensation inside my urinary passage whenever I try to push urine out.",
+        "topic": "Pain character during urination"
+      },
+      {
+        "answer": "It started suddenly yesterday evening with severe shivering, and by this morning the fever spiked and the pelvic pain became unbearable.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "I have never had an infection or burning pain like this before, only mild urinary slowing from my enlarged prostate.",
+        "topic": "Previous episodes"
+      },
+      {
+        "answer": "The burning starts immediately as soon as I try to pass urine, and a deep throbbing ache persists down below even after I stop.",
+        "topic": "Timing of dysuria"
+      },
+      {
+        "answer": "My urine is very cloudy and dark amber, but I have not seen any frank red blood or clots.",
+        "topic": "Urine color and hematuria"
+      },
+      {
+        "answer": "Yes, it has a distinctly strong and foul smell that is completely different from normal.",
+        "topic": "Foul urine odor"
+      },
+      {
+        "answer": "I feel an urgent need to go every ten or fifteen minutes, but when I get to the toilet almost nothing comes out.",
+        "topic": "Urinary frequency and urgency"
+      },
+      {
+        "answer": "I was up out of bed seven or eight times last night straining to pass even a few drops.",
+        "topic": "Nocturia"
+      },
+      {
+        "answer": "I have to wait and strain very hard just to get a weak, sputtering trickle going.",
+        "topic": "Hesitancy and weak stream"
+      },
+      {
+        "answer": "My lower belly feels tight, heavy, and completely full, like my bladder is ready to burst and cannot empty.",
+        "topic": "Urinary retention and fullness"
+      },
+      {
+        "answer": "My thermometer read over 39 degrees at home, and my teeth were chattering from violent shaking chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, I do not have any pain in my flanks, sides, or upper back.",
+        "topic": "Flank pain"
+      },
+      {
+        "answer": "I have a severe, heavy throbbing pain deep in my pelvis and between my scrotum and rectum, and sitting down hurts terribly.",
+        "topic": "Pelvic and perineal pain"
+      },
+      {
+        "answer": "I feel nauseated from the high fever and severe pain, but I have not actually vomited.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "No, there is no pus, fluid, or discharge leaking from my penis, and no itching.",
+        "topic": "Urethral discharge and itching"
+      },
+      {
+        "answer": "No, I have never had kidney stones or any other kidney problems.",
+        "topic": "History of urinary stones"
+      },
+      {
+        "answer": "No, I have never had a urinary catheter placed, and I have not had any cystoscopy or prostate procedures.",
+        "topic": "Recent catheterization or procedures"
+      },
+      {
+        "answer": "No, I do not have diabetes, and I do not take any immunosuppressants or steroids.",
+        "topic": "Immunocompromised state or diabetes"
+      },
+      {
+        "answer": "I feel lightheaded, exhausted, and my heart has been pounding fast since the fever spiked.",
+        "topic": "Systemic sepsis screening"
+      },
+      {
+        "answer": "I have been married and monogamous with my wife for thirty years, and I have no new sexual partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I usually drink plenty of water, but today I have been avoiding drinking because trying to urinate is so agonizing.",
+        "topic": "Fluid intake and holding habits"
+      },
+      {
+        "answer": "I think I have a severe prostate or bladder infection that has suddenly flared up out of nowhere.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I am terrified that my bladder is completely blocked and that this infection is spreading into my bloodstream.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I feel like I need intravenous antibiotics right away and a catheter to relieve this agonizing bladder pressure.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have benign prostatic hyperplasia, which was diagnosed about four years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or previous hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take tamsulosin 0.4 milligrams once daily at bedtime for my prostate.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink alcohol other than a rare glass of wine on holidays.",
+        "topic": "Alcohol history"
+      },
+      {
+        "answer": "I am a retired accountant and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had an enlarged prostate in his seventies, but there is no family history of prostate cancer or kidney disease.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient appears acutely ill, flushed, and diaphoric, sitting uncomfortably and shifting weight to avoid direct perineal pressure.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 102/66 mmHg, heart rate 110 beats/min, respiratory rate 22 breaths/min, body temperature 39.2°C, and oxygen saturation 97% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm without murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without crackles or wheezes.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Marked tenderness over the suprapubic area; a smooth, tense, distended bladder is palpable rising several centimeters above the pubic symphysis.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Dullness to percussion extending from the suprapubic region midway to the umbilicus, indicating acute bladder distension.",
+        "maneuver": "abdominal_percussion",
+        "response": "pain"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal circumcised male genitalia without penile discharge or skin lesions; scrotal contents and epididymides are non-tender and symmetric without swelling.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "A single gentle examination reveals a warm, swollen, tense, and exquisitely tender prostate gland; massage was avoided.",
+        "maneuver": "digital_rectal_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

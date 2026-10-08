@@ -1,0 +1,369 @@
+{
+  "id": "pmr_007",
+  "system": "physical medicine & rehabilitation (pm&r)",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Green",
+  "age": 19,
+  "gender": "male",
+  "chief_complaint": "confusion, headaches, dizziness, sleep disturbances, and memory difficulty 2 weeks after football concussion (Post-Concussion Syndrome)",
+  "hpi_details": "19M college varsity football player presents to sports rehabilitation clinic 14 days after sustaining a helmet-to-helmet hit during a game. Experienced immediate disorientation and brief retrograde amnesia without loss of consciousness, and was removed from play after failing sideline screening. Two weeks later, he continues to suffer from daily throbbing headaches, dizziness when changing positions, sensitivity to fluorescent lights and computer screens, brain fog, poor concentration during lectures, and irritability. Has severe difficulty sleeping.",
+  "ideas": "frustrated and anxious because his symptoms are preventing him from studying for college midterm exams",
+  "concerns": "desperate to get clearance to return to football practice next week before the championship game",
+  "expectations": "wants specialized concussion physical therapy and medications to clear his brain fog fast",
+  "pmh": "One prior mild sports concussion in high school (recovered in 7 days)",
+  "medications": "None",
+  "social_hx": "College freshman student-athlete, non-smoker",
+  "available_results": [{"id": "initial_head_ct", "test": "Noncontrast head CT", "value": "No acute intracranial hemorrhage, mass effect, or skull fracture", "flag": "normal", "collected_at": "At the initial injury 14 days before today's encounter"}],
+  "clinical_knowledge": {
+    "topic": "Post-Concussion Syndrome (Persistent Post-Concussive Symptoms / Mild Traumatic Brain Injury mTBI) with prominent Vestibulocochlear and Oculomotor dysfunction evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Post-Concussion Syndrome (Persistent Post-Concussive Symptoms / Mild Traumatic Brain Injury mTBI) with prominent Vestibulocochlear and Oculomotor dysfunction is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes withholding return-to-play clearance, graduated symptom-limited activity, and targeted vestibular/oculomotor rehabilitation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: confusion, headaches, dizziness, sleep disturbances, and memory difficulty 2 weeks after football concussion (Post-Concussion Syndrome)",
+      "Key HPI features: 19M college varsity football player presents to sports rehabilitation clinic 14 days after sustaining a helmet-to-helmet hit during a game. Experienced immediate disorientation and brief retrograde amnesia without loss of consciousness, and was removed from play after failing sideline screening. Two weeks later, he continues to suffer from daily throbbing headaches, dizziness when changing positions, sensitivity to fluorescent lights and computer screens, brain fog, poor concentration during lectures, and irritability. Has severe difficulty sleeping.",
+      "Objective/Exam findings: Vitals: HR 68, BP 118/76. Comprehensive neurological examination reveals normal cranial nerves, normal 5/5 strength, and normal reflexes without focal deficits. Vestibular/Ocular Motor Screening (VOMS) is highly provocative: smooth pursuit, horizontal/vertical saccades, and Vestibular-Ocular Reflex (VOR) testing induce marked dizziness, headache exacerbation, and nausea. Balance testing via the Balance Error Scoring System (BESS) demonstrates 6 errors on single-leg and tandem foam stances. Standardized assessment using the Post-Concussion Symptom Scale (PCSS) reveals moderate-to-severe symptom burden (score 42/126 across headache, photophobia, sleep disturbance, and cognitive fatigue). Head CT from initial injury was normal.",
+      "Relevant background/PMH: One prior mild sports concussion in high school (recovered in 7 days)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Post-Concussion Syndrome (Persistent Post-Concussive Symptoms / Mild Traumatic Brain Injury mTBI) with prominent Vestibulocochlear and Oculomotor dysfunction.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue strain without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe progressive motor deficit."
+    ],
+    "management_principles": [
+      "Return-to-Play MANDATE: strictly withhold medical clearance for collision sports or physical exertion",
+      "Withhold clearance for contact or collision sport. After an initial 24-48 hours of relative rest, begin symptom-limited activity and sub-symptom aerobic exercise; progress through a graduated return-to-sport protocol, with no return to activities carrying risk of head impact until symptoms and cognitive function have resolved and exertion is tolerated.",
+      "Rehabilitation therapy: refer immediately to PM&R Concussion Rehabilitation: Vestibular Physical Therapy (gaze stabilization exercises, habituation for dizziness) and Oculomotor Vision Therapy"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: confusion, headaches, dizziness, sleep disturbances, and memory difficulty 2 weeks after football concussion (Post-Concussion Syndrome)\n\n19M college varsity football player presents to sports rehabilitation clinic 14 days after sustaining a helmet-to-helmet hit during a game. Experienced immediate disorientation and brief retrograde amnesia without loss of consciousness, and was removed from play after failing sideline screening. Two weeks later, he continues to suffer from daily throbbing headaches, dizziness when changing positions, sensitivity to fluorescent lights and computer screens, brain fog, poor concentration during lectures, and irritability. Has severe difficulty sleeping.",
+    "objective": "Vitals: HR 68, BP 118/76. Comprehensive neurological examination reveals normal cranial nerves, normal 5/5 strength, and normal reflexes without focal deficits. Vestibular/Ocular Motor Screening (VOMS) is highly provocative: smooth pursuit, horizontal/vertical saccades, and Vestibular-Ocular Reflex (VOR) testing induce marked dizziness, headache exacerbation, and nausea. Balance testing via the Balance Error Scoring System (BESS) demonstrates 6 errors on single-leg and tandem foam stances. Standardized assessment using the Post-Concussion Symptom Scale (PCSS) reveals moderate-to-severe symptom burden (score 42/126 across headache, photophobia, sleep disturbance, and cognitive fatigue). Head CT from initial injury was normal.",
+    "assessment": "Post-Concussion Syndrome (Persistent Post-Concussive Symptoms / Mild Traumatic Brain Injury mTBI) with prominent Vestibulocochlear and Oculomotor dysfunction.",
+    "plan": "Do not clear the athlete for contact or collision sport. After 24-48 hours of relative rest, use clinician-supervised, symptom-limited activity and a graduated return-to-learn/return-to-sport progression; no head-impact risk until symptoms and cognition have resolved and exertion is tolerated. Refer for vestibular or oculomotor rehabilitation when targeted assessment confirms persistent deficits, and coordinate temporary academic accommodations. Obtain urgent emergency assessment for worsening or severe headache, repeated vomiting, seizure, increasing confusion, focal weakness/numbness, unequal pupils, or deteriorating consciousness."
+  },
+  "learning_objectives": [
+    "Administer and interpret validated clinical concussion assessments including the Vestibular/Ocular Motor Screening (VOMS) and Balance Error Scoring System (BESS) to identify specific symptom generators",
+    "Enforce the absolute clinical rule against premature return to collision sports while any concussive symptoms persist at rest or with exertion, mitigating the fatal risk of Second Impact Syndrome (diffuse malignant cerebral swelling)",
+    "Outline the strict 6-stage international consensus graduated Return-to-Play protocol (Stage 1 symptom-limited rest, Stage 2 light aerobic exercise, Stage 3 sport-specific exercise, Stage 4 non-contact training drills, Stage 5 full contact practice following medical clearance, Stage 6 return to game play)",
+    "Prescribe targeted multidisciplinary PM&R interventions including Vestibular Physical Therapy and cognitive academic accommodations (Return-to-Learn) rather than recommending prolonged dark-room isolation (cocooning)"
+  ],
+  "teaching": {
+    "diagnosis": "Post-Concussion Syndrome (Persistent Post-Concussive Symptoms / Mild Traumatic Brain Injury mTBI) with prominent Vestibulocochlear and Oculomotor dysfunction.",
+    "one_liner": "Physical medicine presentation involving confusion, headaches, dizziness, sleep disturbances, and memory difficulty 2 weeks after football concussion (Post-Concussion Syndrome).",
+    "differentials": [
+      "Cervicogenic headache",
+      "Vestibular migraine",
+      "Benign paroxysmal positional vertigo (BPPV)"
+    ],
+    "red_flags": [
+      "Worsening or severe headache, repeated vomiting, seizure, or increasing confusion",
+      "Focal weakness/numbness, unequal pupils, or deteriorating consciousness"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mechanism and initial injury symptoms",
+        "say": "Can you describe how the hit to your head happened, and did you lose consciousness or have any memory loss?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "hit",
+          "concussion",
+          "consciousness",
+          "amnesia",
+          "head"
+        ]
+      },
+      {
+        "objective": "Headache character and triggers",
+        "say": "What do your headaches feel like, and are they made worse by bright lights or looking at screens?",
+        "domains": [
+          "character",
+          "aggravating"
+        ],
+        "keywords": [
+          "headache",
+          "light",
+          "screen",
+          "throbbing",
+          "sensitivity"
+        ]
+      },
+      {
+        "objective": "Dizziness with position change",
+        "say": "Do you feel dizzy or off-balance when you change position, like standing up quickly?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dizziness",
+          "balance",
+          "position",
+          "vertigo",
+          "unsteady"
+        ]
+      },
+      {
+        "objective": "Cognitive and sleep impact",
+        "say": "Have you had trouble concentrating, remembering things, or sleeping since the injury?",
+        "domains": [
+          "associated_symptoms",
+          "impact"
+        ],
+        "keywords": [
+          "memory",
+          "concentration",
+          "sleep",
+          "brain fog",
+          "irritability"
+        ]
+      },
+      {
+        "objective": "Red flag screening",
+        "say": "Have you had any vomiting, seizures, worsening headache, or weakness since the injury?",
+        "domains": [
+          "red_flags"
+        ],
+        "keywords": [
+          "vomiting",
+          "seizure",
+          "worsening",
+          "weakness",
+          "red flag"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 68,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I took a hard helmet-to-helmet hit during a football game two weeks ago, and I still have daily throbbing headaches, dizziness, and this terrible brain fog.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The headache came on gradually later that evening after the game, rather than all of a sudden like a thunderclap.",
+        "topic": "Onset and speed of peak"
+      },
+      {
+        "answer": "It has been happening every single day for the past fourteen days since the impact.",
+        "topic": "Duration and frequency"
+      },
+      {
+        "answer": "It aches across my whole forehead and temples, and sometimes feels heavy all over my head.",
+        "topic": "Pain location"
+      },
+      {
+        "answer": "It feels like a dull, throbbing pressure that sits around a four or five out of ten, but it spikes higher when I try to read or move quickly.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "It tends to get much worse by the afternoon and evening after I've tried sitting through college lectures.",
+        "topic": "Daily pattern and timing"
+      },
+      {
+        "answer": "Fluorescent classroom lights, computer screens, and quick head movements make it worse, while lying down in a dark, quiet room helps.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I haven't seen any flickering lights, jagged lines, or blind spots before the pain starts.",
+        "topic": "Visual aura or sensory warning"
+      },
+      {
+        "answer": "I get nauseated when the dizziness or headache spikes, and bright lights and loud noises definitely bother me.",
+        "topic": "Nausea and sensory sensitivity"
+      },
+      {
+        "answer": "No, I haven't had any eye tearing, redness, drooping eyelids, or nasal congestion.",
+        "topic": "Autonomic eye and nasal symptoms"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, stiff neck, or rashes.",
+        "topic": "Fever, neck stiffness, or rash"
+      },
+      {
+        "answer": "No weakness in my arms or legs, no numbness or tingling, no speech trouble, and I have never had a seizure.",
+        "topic": "Weakness, numbness, speech, or seizures"
+      },
+      {
+        "answer": "I don't have blurry vision or double vision, just sensitivity to bright lights.",
+        "topic": "Vision changes or double vision"
+      },
+      {
+        "answer": "Yes, exactly two weeks ago during our football game, another player and I had a direct helmet-to-helmet collision.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "Right after the hit I felt completely disoriented and couldn't remember the play right before it, but I never passed out. The athletic trainer pulled me from the game immediately.",
+        "topic": "Initial injury symptoms and amnesia"
+      },
+      {
+        "answer": "Whenever I stand up quickly or turn my head, the room feels like it swims and I feel off balance.",
+        "topic": "Dizziness with position change"
+      },
+      {
+        "answer": "I have this heavy brain fog, I can barely focus during lectures, and I've been irritable with my friends.",
+        "topic": "Cognitive fatigue and memory issues"
+      },
+      {
+        "answer": "I have severe trouble falling asleep and wake up frequently, so I wake up feeling exhausted.",
+        "topic": "Sleep disturbances"
+      },
+      {
+        "answer": "I haven't taken any pain relievers or over-the-counter medications because our athletic trainer advised resting first.",
+        "topic": "Pain medication use"
+      },
+      {
+        "answer": "Staring at screens, reading textbooks, noisy cafeterias, and quick posture changes bring on the worst symptoms.",
+        "topic": "Specific triggers"
+      },
+      {
+        "answer": "I don't have high blood pressure, and I've never taken blood thinners or aspirin.",
+        "topic": "Blood pressure and blood thinners"
+      },
+      {
+        "answer": "No, my roommate is feeling completely fine, and we don't use any unvented fuel heaters in our dorm.",
+        "topic": "Heating devices and household members"
+      },
+      {
+        "answer": "No, I have never had cancer or any immune system disorders.",
+        "topic": "Cancer or immunosuppression history"
+      },
+      {
+        "answer": "I am extremely stressed and anxious because midterm exams are coming up, and right now I can't even study for them.",
+        "topic": "Patient's thoughts and midterms"
+      },
+      {
+        "answer": "I'm desperate to get medical clearance so I can return to football practice next week for our championship game.",
+        "topic": "Sports clearance concern"
+      },
+      {
+        "answer": "I came here hoping to get specialized concussion therapy or medications that will clear this brain fog as fast as possible.",
+        "topic": "Expectations for today's visit"
+      },
+      {
+        "answer": "I had one mild concussion during high school football two years ago, but that resolved completely within seven days.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had surgery or stayed in a hospital, although they did a head CT right after the game two weeks ago that was completely normal.",
+        "topic": "Past surgeries or hospital stays"
+      },
+      {
+        "answer": "I am not currently taking any medications, vitamins, or workout supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes, used tobacco, or vaped.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I don't drink alcohol, especially during the football season, and I don't use recreational drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "I am a nineteen-year-old college freshman and varsity student-athlete living in a campus dormitory.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of chronic migraines, brain aneurysms, or neurological disorders.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 68 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented to person, place, and time, but demonstrates mild cognitive fatigue and delayed processing speed on serial recall tasks.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils equal, round, and reactive to light; visual fields full without papilledema on funduscopy, though light causes mild discomfort.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII intact with symmetric facial movements, intact gag reflex, and normal hearing bilaterally.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal 5/5 muscle strength throughout all muscle groups in bilateral upper and lower extremities with normal tone.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact sensation to light touch and pinprick symmetrically across all dermatomes.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes 2+ and symmetric bilaterally at biceps, triceps, patellar, and Achilles; plantar responses are flexor bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Normal finger-to-nose and rapid alternating movements; Balance Error Scoring System demonstrates 6 errors on single-leg and tandem foam stances.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Smooth pursuit, saccades, and Vestibular-Ocular Reflex testing induce marked dizziness, headache exacerbation, and nausea without nystagmus.",
+        "maneuver": "vertigo_maneuvers",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with full flexion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness to percussion or palpation over the frontal or maxillary sinuses bilaterally.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Full cervical range of motion with mild paraspinal muscle tightness, but no midline cervical spinous process tenderness.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

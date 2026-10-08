@@ -1,0 +1,305 @@
+{
+  "id": "derm_039",
+  "system": "derm",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Brown",
+  "age": 26,
+  "gender": "female",
+  "chief_complaint": "recurrent painful draining boils in axillae and groin",
+  "hpi_details": "26-year-old obese female who smokes presents with recurrent, painful, deep-seated boils and draining sinus tracts in both axillae (armpits) and her groin for the past 2 years. They frequently rupture, leaving behind thick scars, and severely impact her quality of life.",
+  "ideas": "She thinks the painful boils are severe ingrown hairs and sweat glands that keep getting infected from shaving and friction.",
+  "concerns": "She is worried the foul drainage and thick scarring will push her partner away and force her to quit her retail job because moving hurts too much.",
+  "expectations": "She hopes to get strong antibiotics and have the doctor lance the most painful lump today so she can get immediate relief.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Smokes; social drinker",
+  "clinical_knowledge": {
+    "topic": "Hidradenitis Suppurativa evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hidradenitis Suppurativa is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Hidradenitis Suppurativa: Oral Clindamycin + Rifampin, weight loss, warm compresses, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: recurrent painful draining boils in axillae and groin",
+      "Key HPI features: A 26-year-old obese woman who smokes has recurrent painful deep nodules, draining sinus tracts, and scarring in the axillae and groin for 2 years.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Hidradenitis Suppurativa.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hidradenitis Suppurativa.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Recurrent furunculosis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever or rapidly spreading erythema/cellulitis — suggests systemic infection requiring escalation."
+    ],
+    "management_principles": [
+      "Plan for Hidradenitis Suppurativa: Oral Clindamycin + Rifampin, weight loss, warm compresses",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "26F presenting with chronic, recurrent, painful, suppurative nodules and abscesses in intertriginous areas.",
+    "objective": "Exam of the bilateral axillae reveals multiple deep-seated, tender inflammatory nodules, double-comedones (blackheads), draining sinus tracts, and hypertrophic 'rope-like' scarring. Groin shows similar but milder lesions.",
+    "assessment": "Hidradenitis Suppurativa (Acne Inversa).",
+    "plan": "Advise weight loss and smoking cessation (major triggers). Prescribe topical clindamycin and a long course of oral antibiotics (e.g., Doxycycline or Minocycline). Consider referral to Dermatology for biologic therapy (Adalimumab) or surgical excision of sinus tracts."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Hidradenitis Suppurativa",
+    "Select appropriate diagnostic workup for Hidradenitis Suppurativa",
+    "Implement evidence-based management plan: Oral Clindamycin + Rifampin, weight loss, warm compresses"
+  ],
+  "teaching": {
+    "diagnosis": "Hidradenitis Suppurativa",
+    "one_liner": "A chronic inflammatory follicular disease causing recurrent painful draining boils in the armpits and groin.",
+    "differentials": [
+      "Recurrent furunculosis",
+      "Infected cysts"
+    ],
+    "red_flags": [
+      "Fever or rapidly spreading erythema/cellulitis — suggests systemic infection requiring escalation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Location and recurrence",
+        "say": "Where do the boils occur, and how often?",
+        "domains": [
+          "location",
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Drainage",
+        "say": "Do they drain pus?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Smoking",
+        "say": "Do you smoke?",
+        "domains": [
+          "smoking"
+        ]
+      },
+      {
+        "objective": "Pain",
+        "say": "How painful are they?",
+        "domains": [
+          "severity"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does this run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 74,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I keep getting these painful, swollen boils in both of my armpits and groin that constantly break open and drain pus.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about two years ago with small painful bumps under my arms, and over time they became deeper, spread to my groin, and formed tunnels under the skin.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "They are mainly in my armpits on both sides and along the skin folds in my groin, nowhere else on my body.",
+        "topic": "Location and distribution"
+      },
+      {
+        "answer": "They look like deep red swollen lumps that rupture and drain foul-smelling yellowish pus and blood, leaving thick rope-like scars.",
+        "topic": "Appearance and drainage"
+      },
+      {
+        "answer": "They are very painful and throbbing, especially when they swell up or when my clothing rubs against them.",
+        "topic": "Pain and tenderness"
+      },
+      {
+        "answer": "They sometimes itch or burn right before a new bump swells up, but the main issue is the throbbing soreness.",
+        "topic": "Itching or burning"
+      },
+      {
+        "answer": "No, they do not disappear within hours; each lump persists for weeks or months, and new ones keep popping up.",
+        "topic": "Duration of individual lesions"
+      },
+      {
+        "answer": "I have had these flare-ups repeatedly for the past two years, and the short antibiotic courses I got at local clinics only gave brief temporary relief.",
+        "topic": "Prior episodes and treatments"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, fatigue, or generalized body aches.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I do not have any blisters, sores, or redness in my mouth, eyes, or inside my genital area.",
+        "topic": "Mucosal involvement"
+      },
+      {
+        "answer": "No, my skin is not peeling off, and I do not have any dark purple spots or bruises.",
+        "topic": "Skin peeling or purpura"
+      },
+      {
+        "answer": "No, I have never had swelling of my lips, tongue, or face, and I have no shortness of breath or dizziness.",
+        "topic": "Facial swelling or breathing difficulty"
+      },
+      {
+        "answer": "No, I have not started any new prescription drugs, antibiotics, painkillers, or herbal medications recently.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No, I have not switched my laundry detergent, body wash, or deodorant, and I have not worn new jewelry or touched unusual plants.",
+        "topic": "Contact allergens or new products"
+      },
+      {
+        "answer": "My mother actually used to get similar recurrent boils in her armpits when she was younger.",
+        "topic": "Family history of skin boils"
+      },
+      {
+        "answer": "No insect bites, no recent hiking or outdoor trips, and I have not visited public saunas, gyms, or pools.",
+        "topic": "Insect bites and outdoor exposures"
+      },
+      {
+        "answer": "I had mild eczema as a child, but I have no history of asthma or allergic rhinitis.",
+        "topic": "History of atopy or allergies"
+      },
+      {
+        "answer": "No, I do not have any joint pain, swelling, or changes in my fingernails or toenails.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I applied over-the-counter antibiotic ointments and tried warm compresses, but they did not stop the boils from coming back.",
+        "topic": "Topical treatments tried"
+      },
+      {
+        "answer": "I have a single regular partner, we use condoms irregularly, and I have never had genital ulcers, blisters, or sexually transmitted infections.",
+        "topic": "Sexual history and genital sores"
+      },
+      {
+        "answer": "I thought they were just really bad ingrown hairs and clogged sweat glands getting infected from shaving.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm terrified the smell and drainage will push my partner away, and the pain makes it almost impossible to stand and reach shelves at my retail job.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get some strong prescription antibiotics and have someone lance this throbbing lump today so I can finally get relief.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I do not have any chronic medical conditions like diabetes, hypertension, or thyroid disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never been hospitalized.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I am not taking any daily prescription medications, over-the-counter pills, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or latex.",
+        "topic": "Drug and food allergies"
+      },
+      {
+        "answer": "I smoke about half a pack of cigarettes a day and have smoked for about six years.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially, about one or two beers once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office clerk sitting at a desk most of the day, and I live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father has hypertension, but there is no family history of psoriasis, lupus, or other autoimmune conditions.",
+        "topic": "General family history"
+      },
+      {
+        "answer": "My last menstrual period started two weeks ago, my cycles are regular every 28 days, and there is no possibility of pregnancy.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, obese young female sitting comfortably on the examination table in no acute respiratory distress, moving arms cautiously due to axillary discomfort.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 120/78 mmHg, heart rate 74 beats/min, respiratory rate 16 breaths/min, body temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor or discharge; sclerae are anicteric without injection.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucous membranes are moist and pink without mucosal erosions, aphthae, or ulcerations.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, submandibular, or supraclavicular lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral axillae demonstrate multiple tender, deep-seated inflammatory nodules, open double-ended comedones, draining sinus tracts discharging purulent exudate, and thick rope-like hypertrophic bridging scars; no discrete breast masses palpable.",
+        "maneuver": "breast_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Bilateral axillae and inguinal folds show deep inflammatory nodules, sinus tracts, and rope-like scarring; surrounding skin elsewhere on the trunk and extremities is clear without generalized plaques, target lesions, or purpura.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Inguinal creases show tender erythematous subcutaneous nodules and mild comedones; labia and vaginal introitus are normal with no active mucosal ulcers or discharges.",
+        "maneuver": "genital_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No joint swelling, effusion, erythema, or tenderness across peripheral joints; nails show no pitting, oil drops, or onycholysis.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

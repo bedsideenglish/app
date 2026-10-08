@@ -1,0 +1,393 @@
+{
+  "id": "cardio_025",
+  "system": "cardiovascular",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Son",
+  "age": 64,
+  "gender": "female",
+  "chief_complaint": "fluttering sensation in chest and mild dizziness for 2 days",
+  "hpi_details": "64F reports feeling sudden fluttering/palpitations in her chest accompanied by mild lightheadedness for 2 days. Vitals show an irregular pulse. Denies chest pain or shortness of breath.",
+  "ideas": "thinks it is stress or too much coffee",
+  "concerns": "worried about stroke risk",
+  "expectations": "wants ECG and advice",
+  "pmh": "Hypertension",
+  "medications": "Amlodipine 5mg daily",
+  "social_hx": "Retired, non-smoker",
+  "investigation_events": [
+    {
+      "id": "new_af_ecg",
+      "title": "12-lead ECG",
+      "order_terms": ["ECG", "EKG", "12-lead"],
+      "availability_message": "The 12-lead ECG is now available.",
+      "results": [
+        {
+          "id": "ecg_atrial_fibrillation",
+          "test": "12-lead ECG",
+          "value": "Atrial fibrillation with no discrete P waves and an irregularly irregular ventricular rate of 118 bpm",
+          "unit": "",
+          "reference_range": "Sinus rhythm 60-100 bpm",
+          "flag": "abnormal",
+          "collected_at": "During today's assessment"
+        }
+      ]
+    },
+    {
+      "id": "af_thyroid_test",
+      "title": "Thyroid function result",
+      "order_terms": ["TSH", "thyroid function", "thyroid tests"],
+      "availability_message": "The thyroid-stimulating hormone result is now available.",
+      "results": [
+        {
+          "id": "tsh_new_af",
+          "test": "Thyroid-stimulating hormone",
+          "value": "1.8",
+          "unit": "mIU/L",
+          "reference_range": "0.4-4.0",
+          "flag": "normal",
+          "specimen": "Blood",
+          "collected_at": "Initial sample"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "New-Onset Atrial Fibrillation evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of New-Onset Atrial Fibrillation is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes confirming the rhythm with an ECG, then stratifying stroke risk (CHA2DS2-VASc) and rate/rhythm control needs for newly presenting Atrial Fibrillation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fluttering sensation in chest and mild dizziness for 2 days",
+      "Key HPI features: 64F reports feeling sudden fluttering/palpitations in her chest accompanied by mild lightheadedness for 2 days. Vitals show an irregular pulse. Denies chest pain or shortness of breath.",
+      "Objective/Exam findings: Pulse irregularly irregular in rate and rhythm; BP and O2 saturation otherwise unremarkable. Cardiac auscultation: variable intensity S1, no murmurs. 12-lead ECG to confirm absence of discrete P waves with an irregularly irregular ventricular response. Bloods: TSH (rule out thyrotoxicosis), U&Es, FBC.",
+      "Relevant background/PMH: Hypertension",
+      "Current medications: Amlodipine 5mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out New-Onset Atrial Fibrillation.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Supraventricular tachycardia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Chest pain, breathlessness at rest, or any focal weakness (stroke)."
+    ],
+    "management_principles": [
+      "Obtain a 12-lead ECG to confirm the diagnosis",
+      "Assess CHA2DS2-VASc score for anticoagulation indication"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation",
+        "url": "https://professional.heart.org/en/guidelines-statements/2023-accahaaccphrs-guideline-for-the-diagnosis-and-management-of-atrialcir0000000000001193"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Atrial Fibrillation, newly presenting. fluttering sensation in chest and mild dizziness for 2 days. 64F reports feeling sudden fluttering/palpitations in her chest accompanied by mild lightheadedness for 2 days. Vitals show an irregular pulse. Denies chest pain or shortness of breath.",
+    "objective": "Pulse irregularly irregular in rate and rhythm; BP and O2 saturation otherwise unremarkable. Cardiac auscultation: variable intensity S1, no murmurs. 12-lead ECG to confirm absence of discrete P waves with an irregularly irregular ventricular response. Bloods: TSH (rule out thyrotoxicosis), U&Es, FBC.",
+    "assessment": "New-onset Atrial Fibrillation in a patient with hypertension. DDx: supraventricular tachycardia, frequent ectopic beats, thyrotoxicosis-induced AF.",
+    "plan": "Obtain a 12-lead ECG to confirm the diagnosis. Assess CHA2DS2-VASc score for anticoagulation indication. Consider rate control with beta-blockers. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Atrial Fibrillation, newly presenting.",
+    "Formulate prioritized differential diagnosis for fluttering sensation in chest and mild dizziness for 2 days",
+    "Select appropriate laboratory and imaging studies for cardiovascular risk assessment, including ECG and thyroid function tests",
+    "Implement evidence-based acute and long-term management strategies for Atrial Fibrillation, newly presenting."
+  ],
+  "teaching": {
+    "diagnosis": "New-Onset Atrial Fibrillation",
+    "one_liner": "The atria quiver instead of beating, giving an irregularly irregular pulse — the main danger is stroke, not the palpitations.",
+    "differentials": [
+      "Supraventricular tachycardia",
+      "Frequent ectopic beats",
+      "Thyrotoxicosis"
+    ],
+    "red_flags": [
+      "Chest pain, breathlessness at rest, or any focal weakness (stroke)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Irregular rhythm",
+        "say": "If you tap out your heartbeat, is there any pattern to it at all?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "irregular",
+          "pattern",
+          "all",
+          "over",
+          "random",
+          "tap"
+        ]
+      },
+      {
+        "objective": "Duration — when did it start?",
+        "say": "Can you pin down when this started? Was it within the last 48 hours?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "hours",
+          "when"
+        ]
+      },
+      {
+        "objective": "Stroke risk factors",
+        "say": "Do you have high blood pressure, diabetes, or have you ever had a stroke?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "blood",
+          "pressure",
+          "diabetes",
+          "stroke",
+          "heart",
+          "failure"
+        ]
+      },
+      {
+        "objective": "Alcohol and thyroid triggers",
+        "say": "Have you been drinking more than usual, or noticed weight loss and heat intolerance?",
+        "domains": [
+          "alcohol"
+        ],
+        "keywords": [
+          "alcohol",
+          "drink",
+          "binge",
+          "weight",
+          "hot",
+          "thyroid"
+        ]
+      },
+      {
+        "objective": "Syncope and dizziness",
+        "say": "Have you fainted or felt like you were going to?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "faint",
+          "black",
+          "out",
+          "dizzy",
+          "pass",
+          "lightheaded"
+        ]
+      },
+      {
+        "objective": "Exertional breathlessness",
+        "say": "How far can you walk on the flat before you need to stop?",
+        "domains": [
+          "severity",
+          "aggravating"
+        ],
+        "keywords": [
+          "walk",
+          "breath",
+          "stairs"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/78",
+      "hr": 118,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I have had this strange fluttering sensation in my chest and felt a little lightheaded for the past two days.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like my heart is beating completely out of rhythm and jumping around fast, rather than just skipping a single beat.",
+        "topic": "Palpitation character"
+      },
+      {
+        "answer": "It is completely chaotic and unpredictable, like tap-tap... tap... tap-tap-tap without any steady rhythm at all.",
+        "topic": "Tapping the rhythm"
+      },
+      {
+        "answer": "It started suddenly two mornings ago while I was sitting having breakfast, and it has stayed constantly irregular since then.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It has been fluttering almost continuously for the last two days without pausing.",
+        "topic": "Duration and frequency"
+      },
+      {
+        "answer": "It started out of the blue, but I have been feeling quite stressed lately and drank an extra cup of coffee that morning.",
+        "topic": "Triggers and aggravating factors"
+      },
+      {
+        "answer": "I tried resting quietly, sitting down, and drinking cold water, but none of that calmed the fluttering.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "I have felt slightly woozy and lightheaded off and on, but I never passed out or blacked out.",
+        "topic": "Dizziness and syncope"
+      },
+      {
+        "answer": "No, I do not have any chest pain, tightness, or pressure at all.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "No, I haven't been short of breath while resting, and I haven't had any trouble breathing at night.",
+        "topic": "Shortness of breath"
+      },
+      {
+        "answer": "I felt slightly winded and lightheaded when I walked up the stairs yesterday, but mostly my heart just fluttered faster.",
+        "topic": "Exertional symptoms"
+      },
+      {
+        "answer": "No, I have not had any weakness in my arms or legs, facial drooping, numbness, or trouble speaking.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, I haven't had heat intolerance, excessive sweating, unexplained weight loss, or trembling hands.",
+        "topic": "Thyroid symptoms"
+      },
+      {
+        "answer": "No severe fatigue, no heavy bleeding in the past, and my stools have been normal brown without any black or bloody color.",
+        "topic": "Anemia and bleeding symptoms"
+      },
+      {
+        "answer": "No, I haven't had sudden pounding headaches, cold drenching sweats, or pale skin.",
+        "topic": "Headache and sweating episodes"
+      },
+      {
+        "answer": "No, I didn't feel panicked, suffocating, or terrified before this began; the fluttering came first.",
+        "topic": "Panic and anxiety symptoms"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, cough, sore throat, or recent viral infections.",
+        "topic": "Recent fever or illness"
+      },
+      {
+        "answer": "I usually drink one cup of coffee a day, though two days ago I had two cups; I never drink energy drinks.",
+        "topic": "Caffeine intake"
+      },
+      {
+        "answer": "I drink maybe one glass of wine on special occasions, and I haven't had any alcohol this past week.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "No, I haven't taken any over-the-counter cold tablets, nasal decongestants, asthma inhalers, or diet pills.",
+        "topic": "Decongestants and other medications"
+      },
+      {
+        "answer": "I was wondering if this fluttering is just from being stressed out recently or having that second cup of coffee.",
+        "topic": "Ideas and beliefs"
+      },
+      {
+        "answer": "My neighbor had an irregular heartbeat and ended up having a stroke, so I am very worried this might lead to a stroke.",
+        "topic": "Concerns and fears"
+      },
+      {
+        "answer": "I would like to get an electrocardiogram to see what my heart is doing, and get your advice on what to do next.",
+        "topic": "Expectations"
+      },
+      {
+        "answer": "I have had high blood pressure for about five years, but no other chronic illnesses and no previous heart issues.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was in my twenties, but no other surgeries or hospitalizations.",
+        "topic": "Past surgery and hospitalizations"
+      },
+      {
+        "answer": "I take amlodipine 5 mg once every morning for my blood pressure; I don't take any herbal remedies or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I am a retired elementary school teacher and I live at home with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had high blood pressure, but there is no family history of heart disease, irregular heartbeats, or sudden unexplained death.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I went through menopause around age fifty-one, and I have not had any spotting or vaginal bleeding since then.",
+        "topic": "Menopausal history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 128/78 mmHg, heart rate is 118 beats per minute and irregularly irregular, respiratory rate is 16 breaths per minute, temperature is 36.6 °C, and oxygen saturation is 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Radial pulses are irregularly irregular in rhythm and variable in strength at roughly 118 beats per minute; peripheral pulses are palpable and equal bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Heart sounds reveal an irregularly irregular rhythm with variable intensity of the first heart sound (S1); no murmurs, gallops, or friction rubs are heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear to auscultation bilaterally with normal vesicular breath sounds; no crackles or wheezes.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No jugular venous distension; internal jugular venous pulsation is not elevated.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor, and sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and smooth with no palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No postural or action tremor observed in the outstretched hands; palms are warm and dry.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or ankle pitting edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Full 5/5 muscle strength throughout all four limbs with symmetric tone; no focal neurological weakness.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

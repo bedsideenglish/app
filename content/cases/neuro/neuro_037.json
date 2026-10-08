@@ -1,0 +1,321 @@
+{
+  "id": "neuro_037",
+  "system": "neuro",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Moore",
+  "age": 53,
+  "gender": "male",
+  "chief_complaint": "sudden loss of consciousness, limb shaking, and tongue biting",
+  "hpi_details": "53-year-old male is brought to the clinic by his wife after she witnessed him suddenly lose consciousness, fall to the floor, and exhibit rhythmic shaking of all four limbs for about 2 minutes. He bit the side of his tongue and was confused and lethargic for 30 minutes afterward.",
+  "ideas": "He thinks he had a sudden drop in blood pressure or a severe faint caused by dehydration and exhaustion.",
+  "concerns": "He is worried that having another episode could cause him to lose his driver's license and his independence.",
+  "expectations": "He hopes to get a brain scan and a doctor's clearance note so he can safely return to driving and work.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "stat_first_seizure_workup",
+      "title": "Emergency first-seizure assessment",
+      "order_terms": ["CT head", "CT brain", "non-contrast CT", "glucose", "sodium", "calcium", "electrolytes", "CMP", "comprehensive metabolic panel"],
+      "availability_message": "Emergency CT and key metabolic results are now available. EEG and MRI remain specialist follow-up investigations.",
+      "results": [
+        {"id": "ct_head", "test": "Non-contrast CT head", "value": "No acute hemorrhage, mass effect, or large territorial infarction", "flag": "normal"},
+        {"id": "glucose", "test": "Serum glucose", "value": "101", "unit": "mg/dL", "reference_range": "70-140", "flag": "normal"},
+        {"id": "sodium", "test": "Serum sodium", "value": "140", "unit": "mEq/L", "reference_range": "135-145", "flag": "normal"},
+        {"id": "calcium", "test": "Serum calcium", "value": "9.1", "unit": "mg/dL", "reference_range": "8.6-10.2", "flag": "normal"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Generalized Tonic-Clonic Seizure evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Generalized Tonic-Clonic Seizure is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Generalized Tonic Clonic Seizure: Levetiracetam, EEG, avoid sleep deprivation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden loss of consciousness, limb shaking, and tongue biting",
+      "Key HPI features: witnessed sudden loss of consciousness with generalized rhythmic shaking for about 2 minutes, lateral tongue biting, and 30 minutes of postictal confusion and lethargy.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Generalized Tonic Clonic Seizure.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Generalized Tonic-Clonic Seizure.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Syncope without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: seizure lasting more than 5 minutes, recurrent seizures without recovery of consciousness between them, fever, neck stiffness, altered mental status persisting after the postictal period, focal neurological deficits that don't resolve, or head trauma during the fall."
+    ],
+    "management_principles": [
+      "Plan for Generalized Tonic Clonic Seizure: Levetiracetam, EEG, avoid sleep deprivation",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: sudden loss of consciousness, limb shaking, and tongue biting\n\n53-year-old male is brought to the clinic by his wife after she witnessed him suddenly lose consciousness, fall to the floor, and exhibit rhythmic shaking of all four limbs for about 2 minutes. He bit the side of his tongue and was confused and lethargic for 30 minutes afterward.",
+    "objective": "Vitals normal. Neurological exam reveals a lateral tongue laceration. Currently awake, alert, and oriented x3 with normal cranial nerves, motor, and sensory exams.",
+    "assessment": "First unprovoked Generalized Tonic-Clonic Seizure.",
+    "plan": "Order stat CT head without contrast to rule out acute intracranial hemorrhage or mass. Check comprehensive metabolic panel (calcium, sodium, glucose) and tox screen. Refer to Neurology for EEG and MRI brain. Counsel strictly against driving."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Generalized Tonic Clonic Seizure",
+    "Select appropriate diagnostic workup for Generalized Tonic Clonic Seizure",
+    "Implement evidence-based management plan: Levetiracetam, EEG, avoid sleep deprivation"
+  ],
+  "teaching": {
+    "diagnosis": "Generalized Tonic-Clonic Seizure",
+    "one_liner": "Unprovoked cortical hyper-synchrony causing sudden loss of consciousness, limb shaking, and tongue biting.",
+    "differentials": [
+      "Syncope",
+      "PNES"
+    ],
+    "red_flags": [
+      "Seizure lasting more than 5 minutes, or recurrent seizures without recovery of consciousness between them, indicates status epilepticus and is a medical emergency.",
+      "Fever, neck stiffness, or altered mental status persisting after the postictal period raises concern for CNS infection.",
+      "Persistent focal neurological deficits or head trauma during the fall require urgent neuroimaging."
+    ],
+    "must_ask": [
+      {
+        "objective": "Event description",
+        "say": "What did witnesses see happen?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Tongue biting",
+        "say": "Did you bite your tongue?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Post-ictal confusion",
+        "say": "How confused did you feel afterward?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Triggers",
+        "say": "Were you sleep-deprived or stressed?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Prior episodes",
+        "say": "Have you had anything like this before?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/80",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My wife brought me in because I suddenly collapsed at home, started violently shaking all over, and bit my tongue.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I don't remember it at all, but my wife said my body went completely stiff, my eyes rolled back, and all four limbs were shaking rhythmically.",
+        "topic": "Seizure description and limb shaking"
+      },
+      {
+        "answer": "She said the shaking lasted for about two minutes, and it only happened once without repeating.",
+        "topic": "Duration and recurrence"
+      },
+      {
+        "answer": "I had no warning signs at all—no strange smells, no rising feeling in my stomach, and no dizziness before I blacked out.",
+        "topic": "Aura and warning signs"
+      },
+      {
+        "answer": "My wife told me both of my arms and legs began shaking at the same time, not just on one side or starting in one hand.",
+        "topic": "Focal onset and head turning"
+      },
+      {
+        "answer": "I bit the left side of my tongue and it's quite sore, but I didn't lose control of my bladder or bowels.",
+        "topic": "Tongue biting and incontinence"
+      },
+      {
+        "answer": "When I woke up, I felt extremely drowsy and confused for about thirty minutes before I realized where I was.",
+        "topic": "Post-event confusion and recovery"
+      },
+      {
+        "answer": "My muscles feel very sore all over, and I have a dull headache across my forehead.",
+        "topic": "Muscle soreness and headache"
+      },
+      {
+        "answer": "No, as soon as my head cleared, I was able to move both my arms and legs normally without any weakness.",
+        "topic": "Weakness or paralysis after event"
+      },
+      {
+        "answer": "I fell onto the carpeted living room floor, so aside from my tongue and general soreness, I didn't hit my head or dislocate my shoulder.",
+        "topic": "Injuries during the fall"
+      },
+      {
+        "answer": "No, this has never happened to me before in my life, and I've never had staring spells or blackouts.",
+        "topic": "Previous episodes and staring spells"
+      },
+      {
+        "answer": "No, I have never had sudden jerks or twitching in my arms or legs in the mornings.",
+        "topic": "Morning muscle jerks"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or stiffness in my neck.",
+        "topic": "Fever and neck stiffness"
+      },
+      {
+        "answer": "No, I have not had worsening headaches, memory issues, or changes in my personality recently.",
+        "topic": "Progressive headache and personality changes"
+      },
+      {
+        "answer": "I had a normal night of sleep with seven hours of rest, and I wasn't around any strobe lights or under unusual stress.",
+        "topic": "Potential triggers and sleep deprivation"
+      },
+      {
+        "answer": "I only had one beer two days ago, and I haven't had a heavy drinking binge or sudden alcohol withdrawal.",
+        "topic": "Recent alcohol intake and withdrawal"
+      },
+      {
+        "answer": "I don't use any recreational drugs, weight-loss pills, or new medications.",
+        "topic": "Recreational drugs and substances"
+      },
+      {
+        "answer": "I don't take any diabetes medicine or insulin, and I ate breakfast about an hour before this happened.",
+        "topic": "Blood sugar and missed meals"
+      },
+      {
+        "answer": "I have never had a concussion, head injury, stroke, or brain infection in the past.",
+        "topic": "Past head trauma and brain conditions"
+      },
+      {
+        "answer": "I drive to work every day for my job, but my wife drove me to the clinic today.",
+        "topic": "Driving and hazardous activities"
+      },
+      {
+        "answer": "I didn't feel anything, so I just thought my blood pressure dropped and I passed out from being dehydrated and overtired.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "My biggest fear is having this happen while I'm behind the wheel, or losing my driver's license so I can't even get to work.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get a head scan today and a clean bill of health so I'm cleared to drive again.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have always been healthy and don't have high blood pressure, diabetes, or any other chronic illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I don't take any prescription medicines, over-the-counter painkillers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe one or two beers on the weekend.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an accountant in an office and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has ever had epilepsy, seizures, or febrile convulsions as a child.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/80 mmHg, pulse 76 beats/min, respiratory rate 16 breaths/min, temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, well-appearing male resting comfortably in no acute distress, with no scalp lacerations or external signs of head trauma.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Small superficial laceration on the left lateral margin of the tongue with mild surrounding erythema; oropharynx is otherwise clear.",
+        "maneuver": "nose_throat_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Supple neck with full active and passive flexion; Kernig and Brudzinski signs are absent.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, attentive, and fully oriented to person, place, and time with coherent, fluent speech.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are intact; pupils are equal, round, and reactive to light with normal extraocular movements.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Muscle bulk and tone are normal, with 5/5 strength throughout all four extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation symmetrically across all dermatomes.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes are 2+ and symmetric throughout, and bilateral plantar responses are flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs appreciated.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

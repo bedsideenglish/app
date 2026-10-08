@@ -1,0 +1,351 @@
+{
+  "id": "peds_005",
+  "system": "pediatrics",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Master Evans",
+  "age": 5,
+  "gender": "male",
+  "chief_complaint": "progressive fatigue, pale skin, bone pain, fever, and diffuse petechiae/bruising revealing 82% blasts (Pediatric ALL)",
+  "hpi_details": "5-year-old boy brought by parents with a 3-week history of worsening lethargy, low-grade fevers, and pale complexion. Over the past week, parents noticed the child limping and complaining of diffuse leg and bone pain waking him from sleep. Today noticed numerous tiny purple spots (petechiae) across his chest and ankles, along with large dark bruises over his shins without history of trauma.",
+  "ideas": "parents alarmed by rapid appearance of bruising, blood spots, and severe bone pain causing limping",
+  "concerns": "parents terrified that blood tests will show childhood leukemia after searching symptoms online",
+  "expectations": "want immediate pediatric hematology-oncology evaluation and bone marrow testing",
+  "pmh": "No prior medical history",
+  "medications": "None",
+  "social_hx": "Kindergarten student",
+  "investigation_events": [{
+    "id": "stat_leukemia_blood_workup",
+    "title": "STAT blood count and peripheral smear",
+    "order_terms": ["CBC", "complete blood count", "blood count", "peripheral smear", "blood smear"],
+    "availability_message": "The STAT blood count and peripheral-smear results are now available. Begin urgent hematology/oncology and tumor-lysis precautions; confirmatory marrow and flow studies remain specialist workup.",
+    "results": [
+      {"id": "wbc", "test": "White blood cell count", "value": "64.0", "unit": "x10^3/uL", "reference_range": "5.0-14.5", "flag": "critical"},
+      {"id": "hemoglobin", "test": "Hemoglobin", "value": "6.8", "unit": "g/dL", "reference_range": "11.5-14.5", "flag": "critical"},
+      {"id": "platelets", "test": "Platelet count", "value": "28", "unit": "x10^3/uL", "reference_range": "150-450", "flag": "critical"},
+      {"id": "peripheral_smear", "test": "Peripheral blood smear", "value": "78% circulating lymphoblasts with high nuclear-to-cytoplasmic ratios and prominent nucleoli", "flag": "critical"}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Pediatric B-cell acute lymphoblastic leukemia (B-ALL) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pediatric B-cell acute lymphoblastic leukemia (B-ALL) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Admit to Pediatric Hematology/Oncology and PICU, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: progressive fatigue, pale skin, bone pain, fever, and diffuse petechiae/bruising revealing 82% blasts (Pediatric ALL)",
+      "Key HPI features: 5-year-old boy brought by parents with a 3-week history of worsening lethargy, low-grade fevers, and pale complexion. Over the past week, parents noticed the child limping and complaining of diffuse leg and bone pain waking him from sleep. Today noticed numerous tiny purple spots (petechiae) across his chest and ankles, along with large dark bruises over his shins without history of trauma.",
+      "Objective/Exam findings: Vitals: HR 135, BP 96/60, Temp 38.4C. Marked conjunctival and facial pallor. Diffuse petechiae over trunk and lower extremities; ecchymoses over bilateral anterior tibias. Palpation reveals non-tender generalized cervical and axillary lymphadenopathy. Abdominal exam shows hepatosplenomegaly with spleen palpable 3 cm below left costal margin. Tenderness to palpation over bilateral proximal tibial metaphyses. STAT Complete Blood Count: WBC 64,000 /uL, Hemoglobin 6.8 g/dL, Platelets 28,000 /uL. Peripheral blood smear reveals 78% circulating lymphoblasts with high nuclear-to-cytoplasmic ratios and prominent nucleoli. Flow cytometry confirms B-Cell Acute Lymphoblastic Leukemia (B-ALL: CD19+, CD10+, TdT+). Bone marrow aspiration confirms replacement of marrow elements with >80% lymphoblasts.",
+      "Relevant background/PMH: No prior medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pediatric B-cell acute lymphoblastic leukemia (B-ALL).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Juvenile idiopathic arthritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Bone pain waking child at night."
+    ],
+    "management_principles": [
+      "Admit to Pediatric Hematology/Oncology and PICU",
+      "Begin tumor-lysis prophylaxis with hematology guidance: potassium-free isotonic IV hydration, allopurinol or rasburicase when indicated, and frequent monitoring of electrolytes, uric acid, renal function, and fluid balance",
+      "Transfuse irradiated, leukoreduced PRBCs and Platelets for severe symptomatic pancytopenia"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Pediatrics (AAP) Clinical Practice Guidelines",
+        "url": "https://publications.aap.org/pediatrics/pages/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "5-year-old male presenting with triad of bone marrow failure (fatigue/pallor from anemia, petechiae/bruising from thrombocytopenia, fever from neutropenia) and bone pain.",
+    "objective": "Vitals: HR 135, BP 96/60, Temp 38.4C. Marked conjunctival and facial pallor. Diffuse petechiae over trunk and lower extremities; ecchymoses over bilateral anterior tibias. Palpation reveals non-tender generalized cervical and axillary lymphadenopathy. Abdominal exam shows hepatosplenomegaly with spleen palpable 3 cm below left costal margin. Tenderness to palpation over bilateral proximal tibial metaphyses. STAT Complete Blood Count: WBC 64,000 /uL, Hemoglobin 6.8 g/dL, Platelets 28,000 /uL. Peripheral blood smear reveals 78% circulating lymphoblasts with high nuclear-to-cytoplasmic ratios and prominent nucleoli. Flow cytometry confirms B-Cell Acute Lymphoblastic Leukemia (B-ALL: CD19+, CD10+, TdT+). Bone marrow aspiration confirms replacement of marrow elements with >80% lymphoblasts.",
+    "assessment": "Pediatric B-Cell Acute Lymphoblastic Leukemia (B-ALL) with high tumor burden and impending Tumor Lysis Syndrome.",
+    "plan": "Urgently admit under Pediatric Hematology/Oncology; use PICU-level monitoring if clinically indicated. 1. Begin tumor-lysis prophylaxis with potassium-free isotonic IV hydration, allopurinol or rasburicase when indicated, and frequent monitoring of electrolytes, uric acid, renal function, and fluid balance. 2. Give irradiated, leukoreduced blood products as directed by hematology; correct thrombocytopenia before invasive procedures. 3. Arrange CNS staging/prophylaxis and protocol-based induction therapy through the treating oncology team."
+  },
+  "learning_objectives": [
+    "Recognize clinical manifestations of pediatric acute leukemia combining bone marrow infiltration (pancytopenia, petechiae, pallor) and extramedullary spread (hepatosplenomegaly, bone pain)",
+    "Interpret peripheral blood smear blast morphology and flow cytometry markers for B-cell Acute Lymphoblastic Leukemia (CD19, CD10 CALLA, terminal deoxynucleotidyl transferase TdT)",
+    "Implement emergency Tumor Lysis Syndrome prophylaxis (aggressive IV hydration, Rasburicase/Allopurinol, strict avoidance of IV potassium)",
+    "Outline multi-agent pediatric leukemia induction regimens and the mandatory requirement for intrathecal central nervous system prophylaxis"
+  ],
+  "teaching": {
+    "diagnosis": "Pediatric B-cell acute lymphoblastic leukemia (B-ALL)",
+    "one_liner": "5-year-old boy with 3 weeks of fatigue, pallor, bone pain waking him at night, and new petechiae/bruising.",
+    "differentials": [
+      "Juvenile idiopathic arthritis",
+      "Aplastic anemia",
+      "Immune thrombocytopenic purpura",
+      "Viral infection with reactive changes"
+    ],
+    "red_flags": [
+      "Bone pain waking child at night",
+      "Petechiae and unexplained bruising",
+      "Progressive pallor and fatigue"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the bone pain",
+        "say": "Does the leg pain wake him up at night, and is it in specific spots?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bone pain",
+          "night waking"
+        ]
+      },
+      {
+        "objective": "Ask about bruising without trauma",
+        "say": "Have you noticed bruises appearing without him bumping into anything?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "easy bruising",
+          "no trauma"
+        ]
+      },
+      {
+        "objective": "Screen for petechiae",
+        "say": "Have you seen tiny purple or red spots on his skin that don't fade when pressed?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "petechiae"
+        ]
+      },
+      {
+        "objective": "Assess pallor and fatigue progression",
+        "say": "Has his energy level and color changed over the past few weeks?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "pallor",
+          "fatigue"
+        ]
+      },
+      {
+        "objective": "Explain the urgency of hematology referral",
+        "say": "We need to get him to a children's cancer and blood specialist team right away for further testing.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "urgent hematology-oncology referral"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "96/60",
+      "hr": 135,
+      "rr": 24,
+      "spo2": 98,
+      "temp_c": 38.4
+    },
+    "history": [
+      {
+        "answer": "He has been getting more and more exhausted and looks very pale over the past three weeks.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "He has no energy to play and just lies on the couch looking completely wiped out.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It began gradually about three weeks ago and has steadily worsened every day.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "There was no specific injury, cold, or infection before this started.",
+        "topic": "Preceding triggers"
+      },
+      {
+        "answer": "Even after sleeping through the night or napping during the day, he wakes up just as tired.",
+        "topic": "Effect of rest"
+      },
+      {
+        "answer": "He is exhausted all day long, from the moment he wakes up until bedtime.",
+        "topic": "Daily pattern"
+      },
+      {
+        "answer": "He does not snore, but he wakes up crying in the middle of the night because his legs hurt so badly.",
+        "topic": "Sleep quality and night waking"
+      },
+      {
+        "answer": "Over the past week, he has been limping and complaining of severe, deep aching in both of his shins.",
+        "topic": "Bone pain and limping"
+      },
+      {
+        "answer": "Just this morning, I noticed tiny reddish-purple specks scattered across his chest and ankles.",
+        "topic": "Petechiae and skin spots"
+      },
+      {
+        "answer": "He has large, dark purple bruises on both shins even though he has not bumped into anything or fallen.",
+        "topic": "Bruising without trauma"
+      },
+      {
+        "answer": "He has not had nosebleeds, bleeding from his gums, or blood in his stool.",
+        "topic": "Other bleeding signs"
+      },
+      {
+        "answer": "He has been running low-grade fevers on and off over the past three weeks.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "His appetite has dropped significantly over the past two weeks, and his clothes look looser.",
+        "topic": "Appetite and weight loss"
+      },
+      {
+        "answer": "He gets winded just walking across the room, but he has not mentioned dizziness or room spinning.",
+        "topic": "Shortness of breath and dizziness"
+      },
+      {
+        "answer": "He does not feel unusually cold, his skin is not dry, and he has not had constipation.",
+        "topic": "Cold intolerance and bowel habits"
+      },
+      {
+        "answer": "He is not drinking excessive amounts of water or urinating more frequently than normal.",
+        "topic": "Thirst and urination"
+      },
+      {
+        "answer": "He is not depressed, but he is irritable and unhappy because his legs hurt and he cannot run.",
+        "topic": "Mood and behavior changes"
+      },
+      {
+        "answer": "No, he has never complained of numbness, tingling, or pins and needles in his hands or feet.",
+        "topic": "Numbness or tingling"
+      },
+      {
+        "answer": "I have not noticed any swelling in his face, eyelids, or legs.",
+        "topic": "Puffiness or swelling"
+      },
+      {
+        "answer": "He has not had stomachaches, nausea, or vomiting.",
+        "topic": "Abdominal symptoms"
+      },
+      {
+        "answer": "I noticed some small, pea-sized firm bumps along both sides of his neck recently.",
+        "topic": "Swollen glands"
+      },
+      {
+        "answer": "He has always been completely healthy with no past illnesses or chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had any operations and has never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "He does not take any prescription medications, over-the-counter syrups, or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known allergies to medicines, foods, or environmental triggers.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "He was born full-term with a normal delivery and has met all his developmental milestones on schedule.",
+        "topic": "Birth and development"
+      },
+      {
+        "answer": "All of his childhood vaccinations are completely up to date according to schedule.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "There is no family history of leukemia, blood cancers, bleeding disorders, or autoimmune conditions.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "He attends kindergarten, but no other children are sick and nobody smokes around him.",
+        "topic": "Kindergarten and exposures"
+      },
+      {
+        "answer": "We looked up his symptoms online and we are terrified that this might be childhood leukemia.",
+        "topic": "Parental concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 96/60 mmHg, heart rate 135 beats/min, respiratory rate 24 breaths/min, body temperature 38.4C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Pale, ill-appearing young boy resting quietly on the examination table.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Marked bilateral conjunctival pallor; sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple palpable, mobile, non-tender cervical lymph nodes measuring up to 1.5 cm bilaterally.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Palpable small, discrete, non-tender bilateral axillary lymph nodes; breasts normal.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm, no murmurs, gallops, or rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with no wheezes, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-tender without guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Hepatomegaly palpable 2 cm below right costal margin and splenomegaly palpable 3 cm below left costal margin.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse pinpoint petechiae across trunk and lower extremities, with large ecchymoses over bilateral anterior shins.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema over bilateral pretibial areas or ankles.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Marked tenderness to palpation over bilateral proximal tibial metaphyses without joint swelling, warmth, or erythema.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

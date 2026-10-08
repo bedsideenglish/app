@@ -1,0 +1,375 @@
+{
+  "id": "id_001",
+  "system": "infectious_disease",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Clark",
+  "age": 36,
+  "gender": "male",
+  "chief_complaint": "progressive dry cough, fever, severe shortness of breath, and oral thrush in HIV patient",
+  "hpi_details": "36M presents with 3-week progressive dry, non-productive cough, worsening shortness of breath (especially on exertion), low-grade fevers, and 15-lb weight loss. Found to have thick white plaques on his tongue and buccal mucosa. Diagnosed with HIV 5 years ago but stopped taking antiretroviral therapy (ART) 2 years ago due to insurance issues.",
+  "ideas": "thinks he has severe bronchitis or pneumonia from the changing seasons",
+  "concerns": "alarmed by how out of breath he gets just walking to the bathroom",
+  "expectations": "wants strong antibiotics and oxygen to clear his lungs",
+  "pmh": "HIV infection off ART, oral candidiasis",
+  "medications": "None",
+  "social_hx": "Restaurant worker, non-smoker",
+  "investigation_events": [
+    {
+      "id": "stat_pjp_severity_workup",
+      "title": "STAT Pneumocystis pneumonia severity results",
+      "order_terms": [
+        "arterial blood gas",
+        "abg",
+        "blood gas",
+        "chest x ray",
+        "chest x-ray",
+        "chest radiograph",
+        "cxr"
+      ],
+      "availability_message": "The STAT blood gas and chest radiograph are now available; oxygen, TMP-SMX, and indicated adjunctive corticosteroids should not be delayed.",
+      "results": [
+        {
+          "id": "pao2",
+          "test": "Arterial oxygen tension on room air",
+          "value": "58",
+          "unit": "mmHg",
+          "reference_range": "80-100",
+          "flag": "critical",
+          "specimen": "Arterial blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "a_a_gradient",
+          "test": "Alveolar-arterial oxygen gradient",
+          "value": "42",
+          "unit": "mmHg",
+          "reference_range": "<15",
+          "flag": "critical",
+          "specimen": "Arterial blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "chest_xray",
+          "test": "Chest radiograph",
+          "value": "Bilateral symmetric perihilar interstitial and ground-glass opacities without focal lobar consolidation or pleural effusion",
+          "flag": "abnormal",
+          "collected_at": "During emergency assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Pneumocystis Pneumonia (PJP/PCP) in advanced HIV/AIDS evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pneumocystis Pneumonia (PJP/PCP) in advanced HIV/AIDS is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes early adjunctive corticosteroids alongside high-dose TMP-SMX for moderate-to-severe disease, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: progressive dry cough, fever, severe shortness of breath, and oral thrush in HIV patient",
+      "Key HPI features: 36M presents with 3-week progressive dry, non-productive cough, worsening shortness of breath (especially on exertion), low-grade fevers, and 15-lb weight loss. Found to have thick white plaques on his tongue and buccal mucosa. Diagnosed with HIV 5 years ago but stopped taking antiretroviral therapy (ART) 2 years ago due to insurance issues.",
+      "Objective/Exam findings: Vitals: HR 112, RR 26, Temp 38.3C, SpO2 88% on room air (desaturates to 82% with minimal exertion). Oral exam reveals extensive white plaques scraping off to reveal erythematous base (oral thrush). Lung auscultation surprisingly clear or mild bilateral crackles. Bloods: CD4 count critical at 42 cells/uL (normal 500-1500), HIV viral load 245,000 copies/mL, LDH elevated at 480 U/L. ABG on room air: PaO2 58 mmHg, A-a gradient 42 mmHg (severe hypoxemia). Chest X-ray/CT shows bilateral symmetrical interstitial perihilar ground-glass infiltrates.",
+      "Relevant background/PMH: HIV infection off ART, oral candidiasis"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pneumocystis Pneumonia (PJP/PCP) in advanced HIV/AIDS.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Bacterial community-acquired pneumonia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe exertional dyspnea (breathless just walking to the bathroom) — suggests significant hypoxemia."
+    ],
+    "management_principles": [
+      "CRITICAL RULE: For moderate-to-severe PJP (PaO2 < 70 mmHg or A-a gradient > 35 mmHg), administer adjunctive corticosteroids (Prednisone 40 mg PO BID, or IV methylprednisolone at 75% of the prednisone dose if oral intake is not possible) as early as possible, simultaneously with or within 72 hours AFTER starting antimicrobial therapy, to prevent mortality from worsening oxygenation",
+      "Start high-dose IV Trimethoprim-Sulfamethoxazole (TMP-SMX / Co-trimoxazole 15-20 mg/kg/day TMP divided q6h) for 21 days",
+      "Treat oral thrush with Fluconazole 100mg daily"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "36M with untreated HIV/AIDS presenting with progressive dyspnea, dry cough, fever, weight loss, and thrush concerning for opportunistic pneumonia.",
+    "objective": "Vitals: HR 112, RR 26, Temp 38.3C, SpO2 88% on room air (desaturates to 82% with minimal exertion). Oral exam reveals extensive white plaques scraping off to reveal erythematous base (oral thrush). Lung auscultation surprisingly clear or mild bilateral crackles. Bloods: CD4 count critical at 42 cells/uL (normal 500-1500), HIV viral load 245,000 copies/mL, LDH elevated at 480 U/L. ABG on room air: PaO2 58 mmHg, A-a gradient 42 mmHg (severe hypoxemia). Chest X-ray/CT shows bilateral symmetrical interstitial perihilar ground-glass infiltrates.",
+    "assessment": "Pneumocystis jirovecii Pneumonia (PJP / PCP) in advanced HIV/AIDS (CD4 < 200) with severe hypoxemia.",
+    "plan": "1. CRITICAL RULE: For moderate-to-severe PJP (PaO2 < 70 mmHg or A-a gradient > 35 mmHg), administer adjunctive corticosteroids (Prednisone 40 mg PO BID, or IV methylprednisolone at 75% of the prednisone dose if oral intake is not possible) as early as possible, simultaneously with or within 72 hours AFTER starting antimicrobial therapy, to prevent mortality from worsening oxygenation. 2. Start high-dose IV Trimethoprim-Sulfamethoxazole (TMP-SMX / Co-trimoxazole 15-20 mg/kg/day TMP divided q6h) for 21 days. 3. Treat oral thrush with Fluconazole 100mg daily. Start ART within 2 weeks of starting PJP treatment (early ART reduces AIDS progression and death and should not be deferred); monitor for immune reconstitution inflammatory syndrome (IRIS)."
+  },
+  "learning_objectives": [
+    "Recognize clinical and radiographic hallmarks of Pneumocystis jirovecii Pneumonia (PJP) in immunocompromised patients",
+    "Enforce the life-saving rule of initiating adjunctive corticosteroids with, or within 72 hours after starting, TMP-SMX in severe PJP (PaO2 < 70)",
+    "Calculate and interpret arterial-alveolar (A-a) oxygen gradient to determine PJP severity",
+    "Outline appropriate timing of antiretroviral therapy initiation (within 2 weeks of starting PJP treatment) and monitoring for IRIS"
+  ],
+  "teaching": {
+    "diagnosis": "Pneumocystis Pneumonia (PJP/PCP) in advanced HIV/AIDS",
+    "one_liner": "An opportunistic fungal pneumonia that appears when CD4 count falls below 200, causing progressive dry cough, exertional breathlessness, and weight loss — a marker that antiretroviral therapy has been off for too long.",
+    "differentials": [
+      "Bacterial community-acquired pneumonia",
+      "Pulmonary tuberculosis",
+      "Pulmonary Kaposi sarcoma"
+    ],
+    "red_flags": [
+      "Severe exertional dyspnea (breathless just walking to the bathroom) — suggests significant hypoxemia"
+    ],
+    "must_ask": [
+      {
+        "objective": "HIV status and ART adherence",
+        "say": "You mentioned being diagnosed with HIV — are you currently taking your antiretroviral medication?",
+        "domains": [
+          "pmh",
+          "medications"
+        ],
+        "keywords": [
+          "HIV",
+          "ART",
+          "medication",
+          "stopped"
+        ]
+      },
+      {
+        "objective": "Cough character and duration",
+        "say": "How long have you had this dry cough, and has it been getting worse?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "dry cough",
+          "weeks"
+        ]
+      },
+      {
+        "objective": "Exertional breathlessness",
+        "say": "Does the shortness of breath happen with activity, or even at rest?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "exertion",
+          "walking",
+          "breathless"
+        ]
+      },
+      {
+        "objective": "Weight loss and fevers",
+        "say": "Have you lost weight, and have you had fevers?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weight loss",
+          "fever"
+        ]
+      },
+      {
+        "objective": "Oral symptoms",
+        "say": "Have you noticed any white patches in your mouth?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "white patches",
+          "thrush"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "115/75",
+      "hr": 112,
+      "rr": 26,
+      "spo2": 88,
+      "temp_c": 38.3
+    },
+    "history": [
+      {
+        "answer": "I have had this dry cough that will not go away for about three weeks, and lately I get terribly short of breath just walking across the room.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about three weeks ago and has been getting steadily worse each day.",
+        "topic": "Cough duration and progression"
+      },
+      {
+        "answer": "It didn't start with a cold or runny nose; it just crept up slowly, and I have never had a cough like this before.",
+        "topic": "Onset and previous episodes"
+      },
+      {
+        "answer": "No, it is completely dry. I have not been coughing up any phlegm or mucus at all.",
+        "topic": "Sputum production"
+      },
+      {
+        "answer": "It happens pretty steadily throughout the day and night, and lying down does not make it any worse.",
+        "topic": "Diurnal variation and posture"
+      },
+      {
+        "answer": "No, I don't have severe coughing fits, whooping sounds when breathing in, or vomiting after coughing.",
+        "topic": "Paroxysms and post-tussive vomiting"
+      },
+      {
+        "answer": "Any physical activity or walking makes my breathing and cough much worse, but cold air, dust, or weather changes don't seem to trigger it.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "I haven't noticed any wheezing, but I become severely winded even from simple tasks like walking to the bathroom.",
+        "topic": "Wheezing and shortness of breath"
+      },
+      {
+        "answer": "Yes, I have had low-grade fevers and occasional chills on and off over the past couple of weeks.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, I have never coughed up blood.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "I have lost about fifteen pounds over the past month without trying, and I have been waking up with night sweats lately.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "My chest feels tight and uncomfortable when I try to breathe in deeply, but I don't have sharp chest pain.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "No, I do not have a runny nose, nasal congestion, or mucus dripping down the back of my throat.",
+        "topic": "Runny nose and postnasal drip"
+      },
+      {
+        "answer": "No heartburn, acid reflux, or feeling of a lump in my throat.",
+        "topic": "Heartburn and reflux"
+      },
+      {
+        "answer": "No, I don't need extra pillows to sleep at night, and my feet and ankles are not swollen.",
+        "topic": "Orthopnea and leg swelling"
+      },
+      {
+        "answer": "No, I do not take any blood pressure medications or ACE inhibitors.",
+        "topic": "Blood pressure medications"
+      },
+      {
+        "answer": "No, I have never been diagnosed with tuberculosis, and as far as I know, I haven't been in contact with anyone who had it.",
+        "topic": "Tuberculosis exposure"
+      },
+      {
+        "answer": "No one at home or around me at work has been coughing or sick.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I work in a restaurant kitchen, but I'm not exposed to toxic fumes, bird droppings, chemicals, or heavy dust.",
+        "topic": "Occupational and environmental exposures"
+      },
+      {
+        "answer": "No history of asthma, hay fever, eczema, or other allergic conditions.",
+        "topic": "Allergy history"
+      },
+      {
+        "answer": "I have noticed thick white coatings on my tongue and inside my cheeks for the last couple of weeks, and food tastes a bit off.",
+        "topic": "Oral symptoms"
+      },
+      {
+        "answer": "I was diagnosed with HIV five years ago, but I had to stop taking my antiretroviral medications about two years ago when I lost my health insurance.",
+        "topic": "HIV status and medication adherence"
+      },
+      {
+        "answer": "I thought maybe I picked up a severe case of bronchitis or pneumonia because of the seasonal weather change.",
+        "topic": "Patient ideas on cause"
+      },
+      {
+        "answer": "I am very frightened by how breathless I feel just walking across the room to use the bathroom.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "Other than my HIV diagnosis five years ago and these recent mouth patches, I haven't had any major medical illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been admitted to a hospital before.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter drugs, or vitamins right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional beer once or twice a month, and I don't use recreational drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "I work as a food preparer in a restaurant and live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents both have high blood pressure, but there is no family history of chronic lung conditions or early deaths.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I have had male sexual partners in the past, but I have not been sexually active over the past year.",
+        "topic": "Sexual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Mildly tachypneic and fatigued at rest, with noticeable accessory muscle use when shifting position on the exam table.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 115/75 mmHg, heart rate 112 beats per minute, respiratory rate 26 breaths per minute, temperature 38.3 degrees Celsius, and oxygen saturation 88% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Extensive thick white curd-like plaques on the tongue and buccal mucosa that scrape off leaving an erythematous base; posterior pharynx without cobblestoning or purulent exudate.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, submandibular, or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion note heard symmetrically across all lung fields without focal dullness.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Faint bilateral end-inspiratory crackles heard at both lung bases with no audible wheezing or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rate with regular rhythm, distinct normal S1 and S2 sounds, and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No clubbing of the fingers, cyanosis of the nail beds, or peripheral edema in the lower legs.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

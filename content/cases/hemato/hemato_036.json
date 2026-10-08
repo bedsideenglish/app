@@ -1,0 +1,317 @@
+{
+  "id": "hemato_036",
+  "system": "hemato",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Wright",
+  "age": 50,
+  "gender": "female",
+  "chief_complaint": "painless cervical lymph node swelling and night sweats",
+  "hpi_details": "A 50-year-old female presents to the clinic with painless cervical lymph node swelling and night sweats. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks the lump in her neck is a lingering swollen gland from a head cold and that the night sweats are just menopausal hot flashes.",
+  "concerns": "She is worried that the firm lump in her neck is a malignant tumor like the one that took her sister's life.",
+  "expectations": "She hopes to have a neck ultrasound today to confirm the lump is just a harmless cyst or swollen gland.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Hodgkin Lymphoma evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hodgkin Lymphoma is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management for Hodgkin Lymphoma emphasizes excisional lymph node biopsy and chemotherapy (ABVD), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: painless cervical lymph node swelling and night sweats",
+      "Key HPI features: A 50-year-old female presents to the clinic with painless cervical lymph node swelling and night sweats. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Hodgkin Lymphoma.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hodgkin Lymphoma.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Non-Hodgkin lymphoma without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: B symptoms (fever, night sweats, weight loss)."
+    ],
+    "management_principles": [
+      "Plan for Hodgkin Lymphoma: Excisional lymph node biopsy, chemotherapy (ABVD)",
+      "Refer promptly to hematology/oncology for biopsy review, staging (PET-CT) and treatment planning",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of painless cervical lymph node swelling and night sweats. HPI: Left neck lump for about 4 weeks that is progressively enlarging, with drenching night sweats for 3 weeks, 4 kg unintentional weight loss over the last month, generalized itching, fatigue, and pain in the node after alcohol.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Hodgkin Lymphoma.",
+    "assessment": "Condition highly suspicious for Hodgkin Lymphoma.",
+    "plan": "Plan for Hodgkin Lymphoma: Excisional lymph node biopsy and staging (PET-CT); urgent referral to hematology/oncology; chemotherapy (ABVD) if Hodgkin lymphoma is confirmed. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Hodgkin Lymphoma",
+    "Select appropriate diagnostic workup for Hodgkin Lymphoma",
+    "Implement evidence-based management plan: Excisional lymph node biopsy, chemotherapy (ABVD)"
+  ],
+  "teaching": {
+    "diagnosis": "Hodgkin Lymphoma",
+    "one_liner": "A lymph node cancer defined by Reed-Sternberg cells, presenting with painless cervical lymphadenopathy and night sweats.",
+    "differentials": [
+      "Non-Hodgkin lymphoma",
+      "Infectious mononucleosis",
+      "Tuberculosis"
+    ],
+    "red_flags": [
+      "B symptoms (fever, night sweats, weight loss)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Character of the node",
+        "say": "Is the swelling painless, and has it been growing?",
+        "domains": [
+          "character",
+          "progression"
+        ]
+      },
+      {
+        "objective": "Night sweats and fever",
+        "say": "Have you had drenching night sweats or fevers?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Weight loss",
+        "say": "Have you lost weight without trying?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has the swelling been there?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Alcohol-related pain",
+        "say": "Does the area hurt after drinking alcohol?",
+        "domains": [
+          "aggravating"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 37.1
+    },
+    "history": [
+      {
+        "answer": "I noticed a lump on the left side of my neck a few weeks ago, and lately I have been waking up drenched in night sweats.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I first noticed the bump about four weeks ago. It started small like a marble, but over the past month it has steadily gotten bigger.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is on the lower left side of my neck, just above my collarbone area.",
+        "topic": "Location of the lump"
+      },
+      {
+        "answer": "It feels like a firm, rubbery lump about the size of a walnut. There might be a smaller pebble right next to it, but I haven't noticed lumps anywhere else like my armpits or groin.",
+        "topic": "Size and number of lumps"
+      },
+      {
+        "answer": "No, it doesn't hurt at all, even when I press directly on it.",
+        "topic": "Character and pain of the node"
+      },
+      {
+        "answer": "Curiously, whenever I have a glass of wine with dinner, that lump in my neck begins to ache. It usually fades after an hour or two.",
+        "topic": "Alcohol-induced pain"
+      },
+      {
+        "answer": "No, it doesn't move at all when I swallow water or stick out my tongue. It stays right in place.",
+        "topic": "Movement with swallowing or tongue protrusion"
+      },
+      {
+        "answer": "No, eating or chewing doesn't change it at all, and it doesn't swell up during meals.",
+        "topic": "Swelling or pain with meals"
+      },
+      {
+        "answer": "No, I haven't had a cold, sore throat, runny nose, toothache, or skin cuts recently.",
+        "topic": "Recent infections or dental issues"
+      },
+      {
+        "answer": "I have been waking up soaking wet from night sweats almost every night for the past three weeks, having to change my pajamas. I've also felt mildly warm in the evenings.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "Yes, my clothes have felt loose, and when I weighed myself last week, I had lost about 4 kilograms over the last month without trying.",
+        "topic": "Unexplained weight loss"
+      },
+      {
+        "answer": "I have felt completely exhausted and drained of energy lately, even after a full night of sleep.",
+        "topic": "Fatigue and general weakness"
+      },
+      {
+        "answer": "I have noticed some generalized itching over my arms and legs for the past couple of weeks, but there is no rash.",
+        "topic": "Skin itching or rash"
+      },
+      {
+        "answer": "No, I can swallow food and fluids normally, my voice sounds the same, and I am not having trouble breathing.",
+        "topic": "Dysphagia, hoarseness, or shortness of breath"
+      },
+      {
+        "answer": "No ear pain, no stuffy nose or nosebleeds, and no sore throat.",
+        "topic": "Ear, nose, or throat symptoms"
+      },
+      {
+        "answer": "No heart racing, tremors, or unusual sensitivity to heat or cold.",
+        "topic": "Thyroid symptoms"
+      },
+      {
+        "answer": "No, I have never had tuberculosis, and as far as I know, I have never been exposed to anyone with it.",
+        "topic": "Tuberculosis exposure"
+      },
+      {
+        "answer": "No, I don't own any pets, and I haven't had any contact with or scratches from cats or other animals.",
+        "topic": "Animal contacts or scratches"
+      },
+      {
+        "answer": "No, I have never received radiation treatments to my head, neck, or chest.",
+        "topic": "Head and neck radiation history"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with any chronic medical conditions like diabetes or hypertension.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Surgical and hospitalization history"
+      },
+      {
+        "answer": "I don't take any prescription medications, over-the-counter drugs, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I have an occasional glass of wine on weekends, maybe one or two glasses a week.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an administrative assistant at an accounting firm and live with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has had lymphoma, leukemia, or thyroid cancer. My father had hypertension.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My periods have become irregular over the past year. My last menstrual period was about two months ago. I am not pregnant.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "I figured the lump was just a swollen gland from a recent cold, and the night sweats were just hot flashes from menopause.",
+        "topic": "Patient ideas and beliefs"
+      },
+      {
+        "answer": "My sister passed away from cancer, so feeling this firm lump in my neck has made me terrified that history is repeating itself.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping we can do an ultrasound of my neck today so I can know for sure that it's nothing dangerous.",
+        "topic": "Patient expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, oriented, appears mildly fatigued, with visible swelling on the left side of the neck.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 120/78 mmHg, heart rate 78 bpm, respiratory rate 16 breaths/min, body temperature 37.1°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are slightly pale; sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is moist and pink without mucosal ulcers, tonsillar enlargement, or pharyngeal erythema.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Firm, nontender, rubbery, mobile left lower cervical lymph node measuring approximately 2.5 cm, with a smaller 1 cm node nearby; no erythema or warmth; mass does not move with swallowing.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size and texture without palpable nodules or tenderness; moves smoothly with swallowing.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable axillary lymphadenopathy or breast masses bilaterally.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-distended; mild splenomegaly palpable 1 cm below the left costal margin; liver edge is non-tender and not enlarged.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable inguinal lymphadenopathy bilaterally; femoral pulses intact.",
+        "maneuver": "hernia_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No peripheral edema or skin rashes noted on the extremities.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

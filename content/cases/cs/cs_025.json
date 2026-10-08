@@ -1,0 +1,333 @@
+{
+  "id": "cs_025",
+  "system": "cardiothoracic surgery",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Lim",
+  "age": 65,
+  "gender": "male",
+  "chief_complaint": "incidental finding of a 5.2 cm ascending thoracic aortic aneurysm on CT scan",
+  "hpi_details": "65M presents for cardiothoracic surgery consultation after a chest CT scan ordered for chronic cough revealed a 5.2 cm aneurysm in the ascending aorta. Denies chest pain, back pain, or hoarseness.",
+  "ideas": "worried about aneurysm rupture and sudden death",
+  "concerns": "anxious about needing open heart surgery",
+  "expectations": "wants surgery timing explanation",
+  "pmh": "Hypertension, Hyperlipidemia",
+  "medications": "Losartan 50mg daily, Atorvastatin 20mg daily",
+  "social_hx": "Retired, non-smoker",
+  "available_results": [
+    {
+      "id": "ct_ascending_aortic_aneurysm",
+      "test": "CT angiography of the thoracic aorta",
+      "value": "Ascending aortic aneurysm measuring 5.2 cm at maximum diameter; no dissection or rupture",
+      "unit": "",
+      "reference_range": "Ascending aorta <4.0 cm",
+      "flag": "abnormal",
+      "collected_at": "Before today's encounter"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Ascending Thoracic Aortic Aneurysm evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Ascending Thoracic Aortic Aneurysm is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Elective surgical repair is generally indicated at ≥5.5 cm (or ≥5.0 cm with bicuspid valve, connective tissue disease, or rapid growth), while smaller aneurysms are managed with blood pressure control and serial imaging.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: incidental finding of a 5.2 cm ascending thoracic aortic aneurysm on CT scan",
+      "Key HPI features: 65M presents for cardiothoracic surgery consultation after a chest CT scan ordered for chronic cough revealed a 5.2 cm aneurysm in the ascending aorta. Denies chest pain, back pain, or hoarseness.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Ascending Thoracic Aortic Aneurysm.",
+      "Relevant background/PMH: Hypertension, Hyperlipidemia",
+      "Current medications: Losartan 50mg daily, Atorvastatin 20mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Ascending Thoracic Aortic Aneurysm.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Bicuspid aortic valve-associated aneurysm without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: New chest or back pain — could indicate impending rupture or dissection."
+    ],
+    "management_principles": [
+      "Screen for bicuspid aortic valve and connective tissue disease features, and ask about family history of aneurysm or sudden death",
+      "Review CT measurements",
+      "Control blood pressure, generally to below 130/80 mmHg when tolerated, and reduce other cardiovascular risk factors"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease",
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Ascending Thoracic Aortic Aneurysm. incidental finding of a 5.2 cm ascending thoracic aortic aneurysm on CT scan. 65M presents for cardiothoracic surgery consultation after a chest CT scan ordered for chronic cough revealed a 5.2 cm aneurysm in the ascending aorta. Denies chest pain, back pain, or hoarseness.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Ascending Thoracic Aortic Aneurysm.",
+    "assessment": "Incidental 5.2 cm ascending thoracic aortic aneurysm, currently asymptomatic and below the typical surgical threshold.",
+    "plan": "Review CT measurements and screen for bicuspid valve/connective tissue disease. Control blood pressure, generally to below 130/80 mmHg when tolerated, and reduce other cardiovascular risk factors. Discuss surgical indications (threshold typically >=5.5 cm unless high-risk features/growth rate) and schedule serial imaging."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Ascending Thoracic Aortic Aneurysm.",
+    "Formulate prioritized differential diagnosis for incidental finding of a 5.2 cm ascending thoracic aortic aneurysm on CT scan",
+    "Select appropriate laboratory and imaging studies for cardiothoracic surgery",
+    "Implement evidence-based acute and long-term management strategies for Ascending Thoracic Aortic Aneurysm."
+  ],
+  "teaching": {
+    "diagnosis": "Ascending Thoracic Aortic Aneurysm",
+    "one_liner": "An enlarged, weakened section of the ascending aorta found incidentally on imaging, managed with strict blood pressure control and monitored for growth, with surgery typically considered around 5.5cm.",
+    "differentials": [
+      "Bicuspid aortic valve-associated aneurysm",
+      "Marfan or connective tissue disorder-associated aneurysm"
+    ],
+    "red_flags": [
+      "New chest or back pain — could indicate impending rupture or dissection"
+    ],
+    "must_ask": [
+      {
+        "objective": "How the finding was made",
+        "say": "Was this found by chance on a scan for something else?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Symptoms",
+        "say": "Have you had any chest pain, back pain, or hoarseness?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Blood pressure control",
+        "say": "How well controlled is your blood pressure?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does anyone in your family have aortic aneurysms or sudden deaths?",
+        "domains": [
+          "family_hx"
+        ]
+      },
+      {
+        "objective": "Concerns about surgery",
+        "say": "What worries you about potentially needing open heart surgery?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/78",
+      "hr": 72,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My doctor told me that a chest CT scan showed an enlarged main blood vessel in my chest, and referred me here to see a heart surgeon.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I had a chest CT scan about two weeks ago because of a lingering cough, and the doctor said the main artery coming out of my heart is stretched to about 5.2 centimeters.",
+        "topic": "Details of abnormal test result"
+      },
+      {
+        "answer": "This was the first time in my life I have ever had a chest CT scan, so there are no older scans to compare with.",
+        "topic": "Previous imaging comparisons"
+      },
+      {
+        "answer": "I only had the scan because of a persistent dry cough after a mild cold. I was well rested and had not had coffee or heavy exertion before the scan.",
+        "topic": "Circumstances of the test"
+      },
+      {
+        "answer": "I check my blood pressure at home every morning, and it usually stays well controlled, around 125 to 130 over 80.",
+        "topic": "Home blood pressure monitoring"
+      },
+      {
+        "answer": "No, I have not had any chest pain, tightness, or pressure.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "No, I haven't felt any tearing, ripping, or sharp pain between my shoulder blades or down my back.",
+        "topic": "Back pain"
+      },
+      {
+        "answer": "No, my breathing has been completely fine and I have not had any shortness of breath, even when walking.",
+        "topic": "Shortness of breath"
+      },
+      {
+        "answer": "No, my voice has not become hoarse or raspy at all.",
+        "topic": "Voice changes or hoarseness"
+      },
+      {
+        "answer": "No, food and liquids go down normally without any pain or sticking sensation.",
+        "topic": "Difficulty swallowing"
+      },
+      {
+        "answer": "The cough was just a dry tickle from a cold, and it has actually cleared up over the last week. I never coughed up any blood or phlegm.",
+        "topic": "Cough and hemoptysis"
+      },
+      {
+        "answer": "No, I have not had any headaches, dizziness, fainting spells, vision changes, or numbness and weakness in my arms or legs.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, drenching night sweats, or unexplained weight loss.",
+        "topic": "Systemic symptoms"
+      },
+      {
+        "answer": "No, I don't have any pain with urination, weak stream, blood in my urine, or frequent night urination.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "My blood pressure was discovered in my mid-fifties and has been stable on one pill. I don't get sudden heart palpitations, heavy sweating, or severe leg cramps.",
+        "topic": "Secondary hypertension clues"
+      },
+      {
+        "answer": "I try to eat a low-salt diet and avoid overly greasy foods. I walk for about thirty minutes five days a week, and my weight has stayed steady.",
+        "topic": "Diet and physical activity"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products in my life. I also have never worked around asbestos or toxic industrial dust.",
+        "topic": "Smoking and toxic exposures"
+      },
+      {
+        "answer": "No, I have never broken any bones, lost height, or taken steroid medications.",
+        "topic": "Bone fractures and steroid history"
+      },
+      {
+        "answer": "I have never had tuberculosis and have never been around anyone sick with it. I also don't take any medicines that suppress my immune system.",
+        "topic": "Tuberculosis and immune status"
+      },
+      {
+        "answer": "I am terrified that this enlarged artery might suddenly burst open and kill me without warning.",
+        "topic": "Patient main worry"
+      },
+      {
+        "answer": "I am really scared about having to undergo open-chest heart surgery and what the recovery might look like.",
+        "topic": "Concerns about surgery"
+      },
+      {
+        "answer": "I want to know if I need to have an operation immediately, or if it is safe to just monitor it closely for now.",
+        "topic": "Expectations for consultation"
+      },
+      {
+        "answer": "I have high blood pressure and high cholesterol, both diagnosed about ten years ago. I don't have diabetes or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was in my twenties, but I have had no other operations or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take losartan 50 milligrams once daily for my blood pressure and atorvastatin 20 milligrams once daily at bedtime for cholesterol.",
+        "topic": "Current prescription medications"
+      },
+      {
+        "answer": "I don't take pain relievers, cold medicines, herbal remedies, or dietary supplements.",
+        "topic": "Over the counter medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medications, foods, or CT contrast dye.",
+        "topic": "Drug and substance allergies"
+      },
+      {
+        "answer": "I only drink one glass of wine on holidays or special family dinners, perhaps once or twice a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am retired from an administrative desk job, and I live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure, but no one in my family has ever had an aortic aneurysm, ruptured blood vessel, or sudden cardiac death.",
+        "topic": "Family cardiovascular history"
+      },
+      {
+        "answer": "No one in my family is unusually tall, has loose joints, or has been diagnosed with Marfan syndrome or a connective tissue disease.",
+        "topic": "Family connective tissue disorder history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 128/78 mmHg in the right arm and 126/76 mmHg in the left arm; heart rate 72 beats per minute, respiratory rate 16 breaths per minute, oxygen saturation 98% on room air, and temperature 36.6 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient appears comfortable, well-nourished, and in no acute distress, with normal body habitus and no Marfanoid features.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Height 174 cm, weight 72 kg, body mass index 23.8 kg/m2, and waist circumference 84 cm.",
+        "maneuver": "developmental_growth",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical or supraclavicular lymphadenopathy palpated.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid is normal in size, smooth, non-tender, and moves freely with deglutition.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal chest wall symmetry without pectus excavatum, pectus carinatum, visible pulsations, or focal chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are clear bilaterally with no crackles, wheezing, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no aortic regurgitation diastolic murmur, ejection click, or gallop.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral radial, brachial, femoral, and dorsalis pedis pulses are 2+, symmetrical, and without radio-femoral delay.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Bowel sounds are normoactive; no bruits heard over the abdominal aorta, renal arteries, or femoral arteries.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, non-distended, with no palpable pulsating mass or organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal spinal curvature without kyphosis or scoliosis, and no midline vertebral tenderness on palpation.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal anal sphincter tone; smooth, non-tender prostate without discrete nodules or palpable masses.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

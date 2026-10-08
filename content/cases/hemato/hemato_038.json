@@ -1,0 +1,364 @@
+{
+  "id": "hemato_038",
+  "system": "hemato",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Nguyen",
+  "age": 56,
+  "gender": "female",
+  "chief_complaint": "fatigue, fever, easy bruising, and circulating myeloblasts",
+  "hpi_details": "A 56-year-old female presents to the clinic with fatigue, fever, easy bruising, and circulating myeloblasts. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks her sudden severe bruising and extreme fatigue are due to severe nutritional anemia or her blood thinning out for some unknown reason.",
+  "concerns": "She is worried that her sudden bruising and fevers are signs of a severe blood cancer that will hospitalize her and make her miss her daughter's wedding next month.",
+  "expectations": "She hopes to receive a blood transfusion or an intravenous iron infusion today to quickly restore her strength.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {
+      "id": "white_blood_cell_count",
+      "test": "White blood cell count",
+      "value": "38.0",
+      "unit": "x10^3/mcL",
+      "reference_range": "4.0-11.0",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "circulating_blasts",
+      "test": "Circulating myeloblasts",
+      "value": "62",
+      "unit": "%",
+      "reference_range": "0",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "hemoglobin",
+      "test": "Hemoglobin",
+      "value": "8.0",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "platelets",
+      "test": "Platelet count",
+      "value": "22",
+      "unit": "x10^3/mcL",
+      "reference_range": "150-400",
+      "flag": "critical",
+      "specimen": "Blood"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Myeloid Leukemia (AML) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Myeloid Leukemia (AML) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management for Acute Myeloid Leukemia emphasizes admission for induction chemotherapy and monitoring for tumor lysis, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fatigue, fever, easy bruising, and circulating myeloblasts",
+      "Key HPI features: A 56-year-old female presents to the clinic with fatigue, fever, easy bruising, and circulating myeloblasts. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Acute Myeloid Leukemia.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Myeloid Leukemia (AML).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute lymphoblastic leukemia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever (possible neutropenic fever)."
+    ],
+    "management_principles": [
+      "Plan for Acute Myeloid Leukemia: Admit for induction chemotherapy, monitor for tumor lysis",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of fatigue, fever, easy bruising, and circulating myeloblasts. HPI: malignant myeloid precursor proliferation.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Acute Myeloid Leukemia.",
+    "assessment": "Condition highly suspicious for Acute Myeloid Leukemia.",
+    "plan": "Plan for Acute Myeloid Leukemia: Admit for induction chemotherapy, monitor for tumor lysis. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Acute Myeloid Leukemia",
+    "Select appropriate diagnostic workup for Acute Myeloid Leukemia",
+    "Implement evidence-based management plan: Admit for induction chemotherapy, monitor for tumor lysis"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Myeloid Leukemia (AML)",
+    "one_liner": "Malignant proliferation of myeloid precursor cells (blasts) crowds out normal marrow function, causing fatigue, fever, easy bruising, and circulating blasts on a blood smear.",
+    "differentials": [
+      "Acute lymphoblastic leukemia",
+      "Aplastic anemia",
+      "Myelodysplastic syndrome"
+    ],
+    "red_flags": [
+      "Fever (possible neutropenic fever)",
+      "Spontaneous bleeding"
+    ],
+    "must_ask": [
+      {
+        "objective": "Fatigue and duration",
+        "say": "How long have you felt this tired, and how severe is it?",
+        "domains": [
+          "onset_duration",
+          "severity"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had any fevers?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Bruising and bleeding",
+        "say": "Have you noticed easy bruising or any bleeding?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Infection symptoms",
+        "say": "Any signs of infection, like a sore throat or cough?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Prior blood counts",
+        "say": "Has a recent blood test shown any abnormalities?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 104,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 38.2
+    },
+    "history": [
+      {
+        "answer": "I have been feeling completely drained and weak, running a fever, and noticing bruises showing up all over my arms and legs.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is a profound whole-body weakness and exhaustion, not just being sleepy. Even walking around the house takes all my energy.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It started about two to three weeks ago and has been steadily getting worse each day. There was no specific trigger or accident.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "I can barely do basic housework or my job, and resting in bed does not restore my energy at all.",
+        "topic": "Impact on daily life and rest"
+      },
+      {
+        "answer": "The fatigue stays heavy all day long from the moment I wake up until night.",
+        "topic": "Diurnal variation"
+      },
+      {
+        "answer": "I sleep around seven to eight hours every night, but I wake up feeling unrefreshed. I do not snore or stop breathing in my sleep.",
+        "topic": "Sleep and snoring"
+      },
+      {
+        "answer": "I feel anxious because of how sick I am, but I have not had a depressed mood, loss of interest in life, or thoughts of hurting myself.",
+        "topic": "Mood and depression"
+      },
+      {
+        "answer": "I feel lightheaded when I stand up, and I get winded just walking up a few stairs.",
+        "topic": "Dizziness and shortness of breath"
+      },
+      {
+        "answer": "No, I have never had black tarry stools, bloody stools, or vomited blood.",
+        "topic": "Gastrointestinal bleeding"
+      },
+      {
+        "answer": "I went through menopause five years ago and have had no vaginal spotting or bleeding since then.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "Large dark bruises appear even without bumping into anything, and my gums have started bleeding whenever I brush my teeth.",
+        "topic": "Bruising and gum bleeding"
+      },
+      {
+        "answer": "No, I have not felt any numbness, tingling, or pins-and-needles in my hands or feet.",
+        "topic": "Numbness or tingling"
+      },
+      {
+        "answer": "No, I have not noticed increased cold sensitivity, sudden weight gain, severe constipation, or brittle dry skin.",
+        "topic": "Hypothyroid symptoms"
+      },
+      {
+        "answer": "No, I have not been unusually thirsty, and my urination frequency is normal.",
+        "topic": "Thirst and frequent urination"
+      },
+      {
+        "answer": "No, my skin has not turned dark or bronze. My appetite has dropped a little over the past week due to the fever, though.",
+        "topic": "Skin darkening and appetite"
+      },
+      {
+        "answer": "No, I do not have generalized itching, and my urine color and volume have been normal.",
+        "topic": "Skin itching and urinary changes"
+      },
+      {
+        "answer": "I have had a low-grade fever and chills almost every day for the past week, and I wake up drenched in sweat at night.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "I have lost about two kilograms over the last two weeks, likely from sweating and eating less.",
+        "topic": "Weight changes"
+      },
+      {
+        "answer": "I get short of breath when I walk across the room, but my feet and legs have not swollen at all.",
+        "topic": "Exertional dyspnea and leg swelling"
+      },
+      {
+        "answer": "My work stress has been ordinary, and I only drink one cup of mild coffee in the morning.",
+        "topic": "Workload stress and caffeine"
+      },
+      {
+        "answer": "I have had a mild sore throat for a few days, but no cough, phlegm, painful urination, or diarrhea.",
+        "topic": "Infection symptoms"
+      },
+      {
+        "answer": "I had a routine blood test at my local clinic three days ago, and the doctor called me urgently saying my white cell count was very high with abnormal blast cells and told me to come to the hospital.",
+        "topic": "Prior blood counts"
+      },
+      {
+        "answer": "I thought maybe I had developed severe iron-deficiency anemia or that my blood was thinning out for some reason.",
+        "topic": "Thoughts on diagnosis"
+      },
+      {
+        "answer": "I'm terrified that this might be leukemia and that I'll be stuck in a hospital bed missing my daughter's wedding next month.",
+        "topic": "Concerns and worries"
+      },
+      {
+        "answer": "I really hope you can give me an iron infusion or a blood transfusion today so I can get back on my feet quickly.",
+        "topic": "Expectations of visit"
+      },
+      {
+        "answer": "I have never been diagnosed with high blood pressure, diabetes, liver disease, or kidney problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never been hospitalized before.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescribed medications, over-the-counter pain relievers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have half a glass of wine socially once or twice a month, and I have not had any alcohol recently.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office clerk doing administrative work, and I live with my husband in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has had leukemia, lymphoma, or any other blood diseases or cancers.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/74 mmHg, pulse 104 beats per minute, respiratory rate 18 breaths per minute, body temperature 38.2 degrees Celsius, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Marked pallor of both palpebral conjunctivae; sclerae are white without jaundice.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Pale oral mucous membranes with mild oozing along the gingival margins, but no pharyngeal erythema or exudate.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, submandibular, or supraclavicular lymph nodes.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable axillary lymphadenopathy on either side.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic, regular rhythm with a soft grade 2/6 systolic hemic flow murmur at the left upper sternal border; no S3 or S4.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds throughout both lung fields without crackles, wheezing, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender across all four quadrants without guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Splenic tip palpable approximately 1 cm below the left costal margin on inspiration; liver is not enlarged.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple ecchymoses and petechiae scattered over both upper extremities and pretibial regions; no skin necrosis or cellulitis.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema over either tibia or ankle.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

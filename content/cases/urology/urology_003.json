@@ -1,0 +1,372 @@
+{
+  "id": "urology_003",
+  "system": "urology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Clark",
+  "age": 69,
+  "gender": "male",
+  "chief_complaint": "acute urinary retention with painful distended lower abdomen and 12 hours of inability to void in patient with enlarged prostate",
+  "hpi_details": "69M with chronic urinary hesitancy, weak stream, and nocturia x4 presents to ED in agonizing distress. Reports complete inability to pass urine for the past 12 hours despite severe, relentless urge to void. Complains of a painful, swollen lower abdomen. Recently took over-the-counter cold medication containing pseudoephedrine for sinus congestion.",
+  "ideas": "in extreme lower abdominal pain begging for relief from his bursting bladder",
+  "concerns": "worried his bladder will rupture if not emptied immediately",
+  "expectations": "wants catheter insertion right away and long-term prostate medication to prevent this from happening again",
+  "pmh": "Benign Prostatic Hyperplasia (BPH) diagnosed 3 years ago, Hypertension",
+  "medications": "Amlodipine 5mg daily (stopped taking his prostate medication 6 months ago)",
+  "social_hx": "Retired postal worker, non-smoker",
+  "available_results": [
+    {"id": "retention_bladder_scan", "test": "Bedside bladder ultrasound", "value": "920", "unit": "mL", "reference_range": "<100 post-void", "flag": "high", "collected_at": "At emergency assessment"}
+  ],
+  "investigation_events": [
+    {
+      "id": "acute_retention_renal_labs",
+      "title": "Acute urinary retention renal blood tests",
+      "order_terms": ["creatinine", "renal function", "kidney function", "electrolytes", "bmp", "metabolic panel"],
+      "availability_message": "The renal blood-test results are now available.",
+      "results": [
+        {"id": "serum_creatinine", "test": "Creatinine", "value": "1.8", "unit": "mg/dL", "reference_range": "0.7-1.3", "flag": "high", "specimen": "Blood"},
+        {"id": "estimated_gfr", "test": "Estimated GFR", "value": "40", "unit": "mL/min/1.73 m²", "reference_range": ">=60", "flag": "low", "specimen": "Blood"},
+        {"id": "serum_potassium", "test": "Potassium", "value": "4.8", "unit": "mmol/L", "reference_range": "3.5-5.1", "flag": "normal", "specimen": "Blood"}
+      ]
+    },
+    {
+      "id": "acute_retention_urinalysis",
+      "title": "Urinalysis",
+      "order_terms": ["urinalysis", "urine dip", "urine test", "ua"],
+      "availability_message": "The urinalysis result is now available.",
+      "results": [
+        {"id": "urine_leukocyte_esterase", "test": "Leukocyte esterase", "value": "Negative", "flag": "normal", "specimen": "Urine"},
+        {"id": "urine_nitrite", "test": "Nitrite", "value": "Negative", "flag": "normal", "specimen": "Urine"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Benign Prostatic Hyperplasia (BPH) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Benign Prostatic Hyperplasia (BPH) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes prompt aseptic bladder decompression with an appropriate urethral catheter; use a coudé catheter if prostatic obstruction makes standard catheterization difficult, and seek urologic help rather than repeated traumatic attempts.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: acute urinary retention with painful distended lower abdomen and 12 hours of inability to void in patient with enlarged prostate",
+      "Key HPI features: 69M with chronic urinary hesitancy, weak stream, and nocturia x4 presents to ED in agonizing distress. Reports complete inability to pass urine for the past 12 hours despite severe, relentless urge to void. Complains of a painful, swollen lower abdomen. Recently took over-the-counter cold medication containing pseudoephedrine for sinus congestion.",
+      "Objective/Exam findings: Vitals: HR 102, BP 154/92. Abdominal exam reveals a firm, exquisitely tender, midline hypogastric mass extending 3 finger-breadths above the pubic symphysis, dull to percussion. Digital rectal examination (DRE) reveals a markedly enlarged (~60 gram), smooth, firm, non-tender, symmetric prostate gland without nodules or induration. Bladder bedside ultrasound estimates bladder volume > 850 mL.",
+      "Relevant background/PMH: Benign Prostatic Hyperplasia (BPH) diagnosed 3 years ago, Hypertension",
+      "Current medications: Amlodipine 5mg daily (stopped taking his prostate medication 6 months ago)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Benign Prostatic Hyperplasia (BPH).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Prostate adenocarcinoma without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Acute total urinary retention."
+    ],
+    "management_principles": [
+      "Immediate aseptic placement of a 16 Fr coudé-tip urethral Foley catheter (coudé tip angled upward to navigate past the enlarged median lobe of the prostate)",
+      "Drain bladder completely (monitoring for post-obstructive diuresis and transient hematuria ex vacuo)",
+      "Stop pseudoephedrine and check creatinine, electrolytes, urinalysis, and urine output; evaluate for infection, renal impairment, neurologic causes, or other obstruction.",
+      "After blood-pressure and fall-risk review, an alpha-1 blocker may improve the chance of a successful trial without catheter; reserve a 5-alpha-reductase inhibitor for appropriate longer-term BPH management."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "69M with underlying BPH presenting with acute urinary retention precipitated by alpha-adrenergic sympathomimetic decongestant use.",
+    "objective": "Vitals: HR 102, BP 154/92. Abdominal exam reveals a firm, exquisitely tender, midline hypogastric mass extending 3 finger-breadths above the pubic symphysis, dull to percussion. Digital rectal examination (DRE) reveals a markedly enlarged (~60 gram), smooth, firm, non-tender, symmetric prostate gland without nodules or induration. Bladder bedside ultrasound estimates bladder volume > 850 mL.",
+    "assessment": "Acute Urinary Retention secondary to Benign Prostatic Hyperplasia complicated by pseudoephedrine use.",
+    "plan": "Promptly decompress the bladder aseptically with an appropriate urethral catheter; use a coudé catheter if needed and seek urologic assistance rather than repeated traumatic attempts. Monitor urine output, post-obstructive diuresis, hematuria, creatinine, and electrolytes; stop pseudoephedrine and evaluate for infection or other causes of retention. After reviewing blood pressure and fall risk, consider an alpha-1 blocker before a urology-supervised trial without catheter in 3-5 days; discuss longer-term BPH therapy based on prostate size and follow-up assessment."
+  },
+  "learning_objectives": [
+    "Perform and explain technical pearls of urinary catheterization in severe BPH, including use of a coudé catheter and early escalation after failed atraumatic attempts",
+    "Identify alpha-adrenergic agonists (pseudoephedrine) and anticholinergics (antihistamines) as pharmacological precipitants of acute urinary retention in BPH patients",
+    "Understand the dual mechanism of medical therapy for BPH: fast-acting alpha-1 blockers (smooth muscle relaxation) vs slow-acting 5-alpha reductase inhibitors (dihydrotestosterone reduction shrinking glandular volume)",
+    "Recognize and manage post-obstructive diuresis and hematuria following rapid decompression of massive urinary retention"
+  ],
+  "teaching": {
+    "diagnosis": "Benign Prostatic Hyperplasia (BPH)",
+    "one_liner": "Non-malignant enlargement of the prostate gland leading to lower urinary tract symptoms (LUTS) and urinary retention.",
+    "differentials": [
+      "Prostate adenocarcinoma",
+      "Urethral stricture",
+      "Neurogenic bladder"
+    ],
+    "red_flags": [
+      "Acute total urinary retention",
+      "Hydronephrosis with renal failure"
+    ],
+    "must_ask": [
+      {
+        "objective": "Voiding symptoms - Hesitancy and weak stream",
+        "say": "Do you have to wait or strain before urine starts coming out, and is the stream weak?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "strain",
+          "stream",
+          "weak",
+          "hesitancy",
+          "dribbling"
+        ]
+      },
+      {
+        "objective": "Storage symptoms - Nocturia and frequency",
+        "say": "How many times do you wake up at night to urinate?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "night",
+          "urinate",
+          "nocturia",
+          "frequency",
+          "waking"
+        ]
+      },
+      {
+        "objective": "Sensation of incomplete emptying",
+        "say": "After finishing urination, do you still feel like your bladder is not completely empty?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "empty",
+          "bladder",
+          "incomplete",
+          "residual",
+          "emptying"
+        ]
+      },
+      {
+        "objective": "Urgency and urge incontinence",
+        "say": "Do you get sudden powerful urges to urinate that are hard to hold?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "urges",
+          "hold",
+          "urgency",
+          "urgent",
+          "leakage"
+        ]
+      },
+      {
+        "objective": "Current BPH medication screening",
+        "say": "Are you taking medications like tamsulosin or finasteride for your prostate?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "tamsulosin",
+          "finasteride",
+          "prostate",
+          "medications",
+          "pills"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "154/92",
+      "hr": 102,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "Doctor, please help me, I haven't been able to pee for twelve hours and my lower belly is in unbearable pain.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The problem is that I cannot pass any urine at all. Not a single drop will come out.",
+        "topic": "Nature of urinary complaint"
+      },
+      {
+        "answer": "My stream has been slow for years, but this complete blockage happened suddenly late last night.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "Yes, for the past couple of years I've had to stand and wait to start, and the flow was weak and kept stopping.",
+        "topic": "Hesitancy and weak stream"
+      },
+      {
+        "answer": "I always felt like my bladder wasn't fully empty, and urine would dribble onto my trousers after finishing.",
+        "topic": "Incomplete emptying and dribbling"
+      },
+      {
+        "answer": "I have not passed a single drop for twelve hours now. My lower abdomen is completely swollen and feels like it's going to burst.",
+        "topic": "Total retention and pain"
+      },
+      {
+        "answer": "I had to go pee every hour or two during the day, and I was waking up four times every night to use the bathroom.",
+        "topic": "Daytime frequency and nocturia"
+      },
+      {
+        "answer": "I frequently had sudden, desperate urges to urinate, and right now the urge is severe and continuous, though nothing comes out.",
+        "topic": "Urgency and urge leaking"
+      },
+      {
+        "answer": "No, I have never leaked urine when coughing, sneezing, laughing, or lifting heavy objects.",
+        "topic": "Stress urinary incontinence"
+      },
+      {
+        "answer": "I haven't had leaking accidents and I don't wear pads, but this sudden blockage has made it impossible to do anything.",
+        "topic": "Leakage volume and pads"
+      },
+      {
+        "answer": "I haven't felt any burning, I have never seen blood in my urine, and I have not had any fever or chills.",
+        "topic": "Dysuria, hematuria, and fever"
+      },
+      {
+        "answer": "No, I don't have any back pain, my legs feel strong, and I have normal feeling around my groin and bottom.",
+        "topic": "Back pain and numbness"
+      },
+      {
+        "answer": "My bowel movements are regular and I had one yesterday. I am not constipated at all.",
+        "topic": "Bowel movements and constipation"
+      },
+      {
+        "answer": "I drink about four glasses of water a day and one cup of coffee in the morning. I didn't drink alcohol or excess water last night.",
+        "topic": "Fluid, caffeine, and alcohol"
+      },
+      {
+        "answer": "I caught a bad head cold yesterday and took an over-the-counter cold pill with pseudoephedrine for my stuffy nose.",
+        "topic": "Recent cold medication use"
+      },
+      {
+        "answer": "The doctor gave me a prostate pill when I was diagnosed three years ago, but I stopped taking it six months ago because I felt okay.",
+        "topic": "Past prostate medication adherence"
+      },
+      {
+        "answer": "No, I have never been diagnosed with diabetes, stroke, Parkinson's disease, or spine problems.",
+        "topic": "Neurologic and metabolic history"
+      },
+      {
+        "answer": "No, I've never injured my groin, never had a catheter or urinary procedure before, and never had an infection.",
+        "topic": "Perineal trauma and infections"
+      },
+      {
+        "answer": "I think my prostate has completely blocked things off, and my bladder feels like it is going to explode.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I'm terrified that my bladder is going to rupture and burst inside me if it isn't drained immediately.",
+        "topic": "Fears and main concerns"
+      },
+      {
+        "answer": "Please insert a tube to empty my bladder right now, and restart me on prostate pills so this never happens again.",
+        "topic": "Expectations for today's visit"
+      },
+      {
+        "answer": "I have high blood pressure, and I was diagnosed with an enlarged prostate about three years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never stayed overnight in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take amlodipine 5 milligrams once every morning for my blood pressure.",
+        "topic": "Current prescription medications"
+      },
+      {
+        "answer": "I don't have any known allergies to any medicines or foods.",
+        "topic": "Known drug allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I rarely drink, maybe just a glass of beer once or twice a year on special occasions.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired postal worker, and I live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My late father had prostate enlargement as he grew older, but there is no family history of prostate or bladder cancer.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I am not sexually active these days, and I have never had any sexually transmitted diseases.",
+        "topic": "Sexual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 154/92 mmHg, heart rate is 102 beats per minute, respiratory rate is 18 breaths per minute, oxygen saturation is 98% on room air, and temperature is 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Elderly male sitting upright in obvious severe discomfort, clutching his lower abdomen and groaning in pain.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Visible, smooth, symmetric midline bulge in the suprapubic area; no abdominal surgical scars or rash.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Firm, exquisitely tender midline hypogastric mass extending three finger-breadths above the pubic symphysis; upper abdomen is soft and non-tender.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked dullness to percussion over the distended suprapubic mass, with normal tympany across the remaining abdomen.",
+        "maneuver": "abdominal_percussion",
+        "response": "pain"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on either side.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal circumcised male genitalia without meatal narrowing, discharge, penile plaques, or testicular tenderness.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Markedly enlarged prostate estimated at 60 grams, smooth, firm, non-tender, and symmetric without nodules or induration; intact anal sphincter tone.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal 5/5 motor strength throughout all bilateral lower extremity muscle groups.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal light touch and pinprick sensation in bilateral lower extremities and intact perianal sensation in the S2-S4 dermatomes.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal 2+ patellar and Achilles deep tendon reflexes bilaterally with down-going plantar responses.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

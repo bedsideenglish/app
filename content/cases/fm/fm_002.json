@@ -1,0 +1,327 @@
+{
+  "id": "fm_002",
+  "system": "family medicine",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Baker",
+  "age": 29,
+  "gender": "female",
+  "chief_complaint": "fatigue, weight gain, constipation, cold intolerance, dry skin, and menstrual irregularities (Primary Hypothyroidism / Hashimoto Thyroiditis)",
+  "hpi_details": "29F accountant presents with 8-month history of feeling constantly exhausted (`I wake up feeling like I never slept`), gaining 18 pounds despite eating a salad-based diet, severe constipation (bowel movements once every 4-5 days), feeling chilled in rooms where others are comfortable (`I wear a thick sweater in the office all summer`), dry brittle hair that falls out in the shower, and irregular, heavy menstrual periods occurring every 45-50 days.",
+  "ideas": "frustrated by unexplained rapid weight gain and debilitating daily brain fog",
+  "concerns": "worried she has chronic fatigue syndrome or early menopause",
+  "expectations": "wants complete thyroid and hormone blood panel testing",
+  "pmh": "Mild iron deficiency anemia treated 3 years ago",
+  "medications": "Over-the-counter multivitamin",
+  "social_hx": "Accountant, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Primary Hypothyroidism (Hashimoto Thyroiditis) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Primary Hypothyroidism (Hashimoto Thyroiditis) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes weight-based levothyroxine replacement with careful administration counseling and TSH-guided titration, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fatigue, weight gain, constipation, cold intolerance, dry skin, and menstrual irregularities (Primary Hypothyroidism / Hashimoto Thyroiditis)",
+      "Key HPI features: 29F accountant presents with 8-month history of feeling constantly exhausted (`I wake up feeling like I never slept`), gaining 18 pounds despite eating a salad-based diet, severe constipation (bowel movements once every 4-5 days), feeling chilled in rooms where others are comfortable (`I wear a thick sweater in the office all summer`), dry brittle hair that falls out in the shower, and irregular, heavy menstrual periods occurring every 45-50 days.",
+      "Objective/Exam findings: Vitals: HR 58 (sinus bradycardia), BP 118/76, Temp 36.4C, BMI 27.5 kg/m2. Physical exam reveals pale, dry, cool skin; coarse brittle hair; lateral thinning of the outer one-third of the eyebrows (Queen Anne's sign / Hertoghe sign); and non-pitting puffiness over the face and periorbital area (myxedema). Neck palpation confirms a firm, non-tender, diffusely enlarged, pebbly/lobulated thyroid gland (goiter) without distinct nodules. Neurological exam demonstrates delayed relaxation phase ('hung-up' reflexes) of the Achilles tendon reflexes bilaterally. STAT Thyroid Panel: Serum TSH markedly elevated at 28.4 uIU/mL (normal 0.4-4.0); Free T4 reduced at 0.5 ng/dL (normal 0.8-1.8). Anti-Thyroid Peroxidase (Anti-TPO) antibodies strongly POSITIVE at 450 IU/mL (confirming autoimmune etiology).",
+      "Relevant background/PMH: Mild iron deficiency anemia treated 3 years ago",
+      "Current medications: Over-the-counter multivitamin"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Primary Hypothyroidism (Hashimoto Thyroiditis).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Chronic fatigue syndrome without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Very high TSH with severe symptoms — could progress toward myxedema if untreated."
+    ],
+    "management_principles": [
+      "Thyroid hormone replacement: initiate synthetic Levothyroxine (T4) therapy",
+      "For young, otherwise healthy patients without underlying coronary artery disease, initiate full replacement dose immediately calculated at 1.6 mcg/kg/day actual body weight (for 68 kg woman = Levothyroxine 100 or 112 mcg PO daily)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "29F presenting with classic systemic slowdown symptoms of hypothyroidism: profound fatigue, weight gain, cold intolerance, constipation, dry skin, and oligomenorrhea.",
+    "objective": "Vitals: HR 58 (sinus bradycardia), BP 118/76, Temp 36.4C, BMI 27.5 kg/m2. Physical exam reveals pale, dry, cool skin; coarse brittle hair; lateral thinning of the outer one-third of the eyebrows (Queen Anne's sign / Hertoghe sign); and non-pitting puffiness over the face and periorbital area (myxedema). Neck palpation confirms a firm, non-tender, diffusely enlarged, pebbly/lobulated thyroid gland (goiter) without distinct nodules. Neurological exam demonstrates delayed relaxation phase ('hung-up' reflexes) of the Achilles tendon reflexes bilaterally. STAT Thyroid Panel: Serum TSH markedly elevated at 28.4 uIU/mL (normal 0.4-4.0); Free T4 reduced at 0.5 ng/dL (normal 0.8-1.8). Anti-Thyroid Peroxidase (Anti-TPO) antibodies strongly POSITIVE at 450 IU/mL (confirming autoimmune etiology).",
+    "assessment": "Primary Hypothyroidism secondary to Autoimmune Hashimoto Thyroiditis (chronic lymphocytic thyroiditis with goiter).",
+    "plan": "1. Thyroid hormone replacement: initiate synthetic Levothyroxine (T4) therapy. For young, otherwise healthy patients without underlying coronary artery disease, initiate full replacement dose immediately calculated at 1.6 mcg/kg/day actual body weight (for 68 kg woman = Levothyroxine 100 or 112 mcg PO daily). (If patient were elderly >60 or had coronary artery disease, start at 25-50 mcg daily and titrate slowly to prevent angina). 2. Patient administration counseling (CRITICAL): instruct patient to take Levothyroxine with a full glass of water first thing in the morning on an empty stomach at least 30-60 minutes before breakfast and coffee, OR at bedtime 4 hours after the last meal. Must strictly separate Levothyroxine administration by at least 4 hours from iron supplements, calcium tablets, multivitamins, and antacids (which chelate and block absorption). 3. Monitoring schedule: recheck serum TSH levels in exactly 6 to 8 weeks after initiation (or after any dose adjustment) to evaluate steady-state equilibrium and titrate dosage until TSH normalizes between 0.5 and 2.5 uIU/mL. Reassure patient that lifelong daily replacement restores normal energy and metabolic rate."
+  },
+  "learning_objectives": [
+    "Recognize clinical symptoms and physical signs of primary hypothyroidism across organ systems (cold intolerance, fatigue, weight gain, constipation, dry skin, lateral eyebrow thinning, goiter, delayed reflex relaxation phase)",
+    "Interpret laboratory thyroid panels confirming Primary Hypothyroidism (high TSH, low Free T4) versus Subclinical Hypothyroidism (high TSH, normal Free T4) and verify autoimmune etiology using Anti-TPO antibodies",
+    "Calculate weight-based starting doses of Levothyroxine (1.6 mcg/kg/day in young healthy adults versus cautious 25-50 mcg/day initiation in elderly hosts with ischemic heart disease)",
+    "Educate patients on precise administration instructions (taking levothyroxine on an empty stomach 30-60 min prior to breakfast or 4 hours after dinner, strictly separating by 4 hours from iron/calcium supplements) and schedule appropriate 6-to-8 week TSH monitoring intervals"
+  ],
+  "teaching": {
+    "diagnosis": "Primary Hypothyroidism (Hashimoto Thyroiditis)",
+    "one_liner": "Autoimmune destruction of the thyroid causes a gradual whole-body slowdown — crushing fatigue, weight gain despite dieting, severe constipation, cold intolerance, hair loss, and irregular heavy periods — corrected with lifelong levothyroxine.",
+    "differentials": [
+      "Chronic fatigue syndrome",
+      "Depression",
+      "Early menopause"
+    ],
+    "red_flags": [
+      "Very high TSH with severe symptoms — could progress toward myxedema if untreated"
+    ],
+    "must_ask": [
+      {
+        "objective": "Fatigue quality",
+        "say": "Do you wake up feeling like you never slept, no matter how long you sleep?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "exhausted",
+          "unrefreshed"
+        ]
+      },
+      {
+        "objective": "Weight gain despite diet",
+        "say": "You mentioned gaining weight despite a healthy diet — how much, and over how long?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "18 pounds",
+          "salad"
+        ]
+      },
+      {
+        "objective": "Bowel habits",
+        "say": "How often are you having bowel movements now compared to before?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "constipation",
+          "4-5 days"
+        ]
+      },
+      {
+        "objective": "Cold intolerance",
+        "say": "Do you feel cold in rooms where others are comfortable?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Menstrual changes",
+        "say": "How have your periods changed?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "irregular",
+          "heavy"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 58,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.4
+    },
+    "history": [
+      {
+        "answer": "I've been feeling completely exhausted all the time, and I keep gaining weight even though I barely eat anything.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like a profound lack of energy and whole-body sluggishness rather than just feeling sleepy. I wake up every morning feeling like I never even slept.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It started gradually about eight months ago without any clear illness or obvious trigger.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It slows me down terribly at my accounting job, and resting over the weekend does not recharge me at all.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "The fatigue is constant from the moment I wake up until I go to sleep at night.",
+        "topic": "Diurnal variation of fatigue"
+      },
+      {
+        "answer": "I sleep about eight to nine hours every night, but I wake up unrefreshed. I don't snore or stop breathing in my sleep.",
+        "topic": "Sleep habits and snoring"
+      },
+      {
+        "answer": "I feel frustrated and slowed down by the constant brain fog, but I am not feeling depressed or hopeless, and I have never had thoughts of harming myself.",
+        "topic": "Mood and interest"
+      },
+      {
+        "answer": "I haven't had lightheadedness, dizziness, or shortness of breath, and my bowel movements are normal brown without any blood or dark tarry stools.",
+        "topic": "Dizziness and stool color"
+      },
+      {
+        "answer": "My periods have become very irregular and heavy, coming only once every forty-five to fifty days instead of every month.",
+        "topic": "Menstrual cycle and flow"
+      },
+      {
+        "answer": "No, I don't bruise unusually easily and my gums don't bleed when I brush.",
+        "topic": "Easy bruising or bleeding"
+      },
+      {
+        "answer": "I sometimes get a mild pins-and-needles tingling in my hands, but no sharp pains or loss of feeling.",
+        "topic": "Numbness and tingling"
+      },
+      {
+        "answer": "I feel chilled even when everyone else is warm, and I wear a thick sweater in the office all summer. My skin has become very dry, and my bowels only move once every four to five days.",
+        "topic": "Cold intolerance and body changes"
+      },
+      {
+        "answer": "I have gained eighteen pounds over the last eight months despite strictly eating salads and carefully watching what I eat.",
+        "topic": "Weight gain and diet"
+      },
+      {
+        "answer": "My hair has become dry and brittle, coming out in clumps in the shower, and the outer edges of my eyebrows look noticeably thinner.",
+        "topic": "Hair and eyebrow changes"
+      },
+      {
+        "answer": "No, I haven't felt unusually thirsty, and I am not urinating any more often than normal.",
+        "topic": "Excessive thirst and urination"
+      },
+      {
+        "answer": "My skin hasn't gotten darker, and I don't feel lightheaded when standing up. My appetite has actually dropped slightly despite the weight gain.",
+        "topic": "Skin darkening and appetite"
+      },
+      {
+        "answer": "My skin feels very dry, but I don't have severe itching, taste alterations, or any change in urine output.",
+        "topic": "Itching and taste changes"
+      },
+      {
+        "answer": "No, I haven't had any fevers, chills, or night sweats.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "I don't get out of breath when walking or climbing stairs, though my face and eyes look puffy in the mirror.",
+        "topic": "Shortness of breath and swelling"
+      },
+      {
+        "answer": "My workload is typical for an accountant, but this deep exhaustion is completely different from ordinary stress. I drink one cup of coffee in the morning just to function.",
+        "topic": "Work stress and caffeine"
+      },
+      {
+        "answer": "I'm extremely frustrated by this unexplained weight gain and the terrible daily brain fog that clouds my thoughts.",
+        "topic": "Patient's thoughts"
+      },
+      {
+        "answer": "I'm really worried I might have chronic fatigue syndrome or perhaps early menopause because of my skipped periods.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I was really hoping we could run a complete thyroid and hormone blood panel today to figure out what is wrong.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I was treated for mild iron deficiency anemia about three years ago, but it resolved after a course of iron supplements.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been admitted to a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I only take an over-the-counter daily multivitamin every morning.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or materials.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine on weekends, maybe one drink a week at most.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an accountant at a corporate firm and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has an underactive thyroid condition and takes a daily thyroid pill, but there are no other significant health issues in my family.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period began about thirty-five days ago. We use condoms consistently, so there is no chance of pregnancy.",
+        "topic": "Last menstrual period and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 58 beats per minute and regular, respiratory rate 14 breaths per minute, temperature 36.4C, BMI 27.5 kg/m2.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Appears chronically fatigued and slightly sluggish, with noticeable non-pitting facial and periorbital puffiness.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Mild conjunctival pallor noted; sclerae are clear and non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is cool, pale, and dry to the touch; scalp hair is coarse and brittle, with noticeable thinning of the outer third of both eyebrows.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable lymphadenopathy in the anterior cervical, posterior cervical, or supraclavicular chains.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Firm, non-tender, diffusely enlarged thyroid gland with a pebbled, lobulated texture and no discrete nodules or audible bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Sinus bradycardia with regular rhythm, normal S1 and S2, and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with normal vesicular breath sounds and no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting pedal or pretibial edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Achilles tendon reflexes demonstrate a markedly delayed relaxation phase bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

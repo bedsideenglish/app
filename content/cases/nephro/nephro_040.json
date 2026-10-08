@@ -1,0 +1,328 @@
+{
+  "id": "nephro_040",
+  "system": "nephrology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Scott",
+  "age": 22,
+  "gender": "female",
+  "chief_complaint": "proteinuria, hematuria, and facial rash in young female",
+  "hpi_details": "A 22-year-old female presents to the clinic with proteinuria, hematuria, and a facial rash. The symptoms started recently and have gradually worsened.",
+  "ideas": "thinks it might be lupus, since her aunt has the same condition",
+  "concerns": "She is worried the rash will permanently scar her face right before her college graduation.",
+  "expectations": "She hopes to leave with a soothing topical cream for her cheeks and a prescription for antibiotics.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {"id": "urinalysis", "test": "Urinalysis with microscopy", "value": "3+ protein with dysmorphic RBCs and red blood cell casts", "flag": "abnormal"},
+    {"id": "urine_protein_24h", "test": "24-hour urine protein", "value": "3.5", "unit": "g/day", "reference_range": "<0.15", "flag": "high"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Lupus Nephritis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Lupus Nephritis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes prompt renal biopsy to classify disease severity, followed by induction immunosuppression (systemic corticosteroids plus mycophenolate mofetil or cyclophosphamide) tailored to the biopsy class, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: proteinuria, hematuria, and facial rash in young female",
+      "Key HPI features: A 22-year-old female presents to the clinic with proteinuria, hematuria, and a facial rash. The symptoms started recently and have gradually worsened.",
+      "Objective/Exam findings: Vitals: BP 142/90, HR 88, low-grade fever 37.8C. Malar (butterfly) rash across the cheeks and nasal bridge, sparing the nasolabial folds; mild bilateral ankle edema; no active synovitis. Labs: Urinalysis with 3+ protein, dysmorphic RBCs and RBC casts; 24-hour urine protein 3.5 g; serum creatinine 1.1 mg/dL; low C3/C4 complement; positive ANA (high titer) and anti-dsDNA antibodies.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Lupus Nephritis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Other primary glomerulonephritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Rapidly rising creatinine — suggests aggressive (proliferative) lupus nephritis needing urgent biopsy."
+    ],
+    "management_principles": [
+      "Obtain a renal biopsy promptly to classify lupus nephritis (ISN/RPS class) and guide immunosuppression",
+      "Start induction immunosuppression per biopsy class -- typically high-dose corticosteroids plus mycophenolate mofetil or cyclophosphamide for proliferative (Class III/IV) disease",
+      "Add hydroxychloroquine (renal-protective in all SLE patients) and an ACE inhibitor/ARB for proteinuria; refer to rheumatology and nephrology for combined management"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: proteinuria, hematuria, and facial rash in young female\n\nA 22-year-old female presents with several weeks of foamy, dark urine and a facial rash across her cheeks that worsens with sun exposure. Also reports mild joint aches and fatigue. Denies fever, chest pain, or shortness of breath.",
+    "objective": "Vitals: BP 142/90, HR 88, low-grade fever 37.8C. Malar (butterfly) rash across the cheeks and nasal bridge, sparing the nasolabial folds; mild bilateral ankle edema; no active synovitis. Labs: Urinalysis with 3+ protein, dysmorphic RBCs and RBC casts; 24-hour urine protein 3.5 g; serum creatinine 1.1 mg/dL; low C3/C4 complement; positive ANA (high titer) and anti-dsDNA antibodies.",
+    "assessment": "Lupus nephritis (likely proliferative, ISN/RPS Class III/IV) in a patient with new systemic lupus erythematosus, based on the malar rash, active urine sediment, heavy proteinuria, low complement, and positive ANA/anti-dsDNA.",
+    "plan": "1. Obtain a renal biopsy promptly to classify lupus nephritis and guide immunosuppression. 2. Start induction therapy with high-dose corticosteroids plus mycophenolate mofetil (or cyclophosphamide) based on the biopsy class. 3. Add hydroxychloroquine and an ACE inhibitor/ARB for proteinuria. 4. Refer to rheumatology and nephrology for combined management and monitor renal function, complement, and anti-dsDNA titers."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Lupus Nephritis",
+    "Select appropriate diagnostic workup for Lupus Nephritis",
+    "Implement evidence-based management plan: Renal biopsy, systemic corticosteroids, Mycophenolate Mofetil"
+  ],
+  "teaching": {
+    "diagnosis": "Lupus Nephritis",
+    "one_liner": "Kidney involvement in systemic lupus erythematosus, where immune complexes deposit in the glomeruli, causing proteinuria and hematuria, often alongside the classic facial rash.",
+    "differentials": [
+      "Other primary glomerulonephritis",
+      "Drug-induced lupus"
+    ],
+    "red_flags": [
+      "Rapidly rising creatinine — suggests aggressive (proliferative) lupus nephritis needing urgent biopsy"
+    ],
+    "must_ask": [
+      {
+        "objective": "Facial rash",
+        "say": "Have you had a rash across your cheeks and nose?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "malar rash",
+          "butterfly"
+        ]
+      },
+      {
+        "objective": "Joint symptoms",
+        "say": "Any joint pain or swelling?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Urine changes",
+        "say": "Have you noticed blood or foam in your urine?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Sun sensitivity",
+        "say": "Does sunlight make your rash worse?",
+        "domains": [
+          "aggravating"
+        ]
+      },
+      {
+        "objective": "Fatigue and fever",
+        "say": "Any fatigue or unexplained fever?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/90",
+      "hr": 88,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "I noticed my urine has been dark and foamy for the past few weeks, and I also broke out in this red rash across my cheeks and nose.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The dark urine and the facial rash started about three weeks ago and have gradually gotten more noticeable.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "No, I have never had dark urine, kidney trouble, or a rash like this in the past.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "It looks dark brownish, almost like iced tea or cola. I have not noticed any blood clots in it.",
+        "topic": "Urine color and clots"
+      },
+      {
+        "answer": "The dark reddish-brown color is present from the start of urination all the way to the end of the stream.",
+        "topic": "Timing of blood in stream"
+      },
+      {
+        "answer": "No, I do not have any burning, stinging, or pain when I urinate.",
+        "topic": "Pain with urination"
+      },
+      {
+        "answer": "No, I haven't had any back pain, flank pain, or sharp cramps shooting into my groin.",
+        "topic": "Flank or groin pain"
+      },
+      {
+        "answer": "No, I am not running to the bathroom frequently, and I do not feel sudden desperate urges to pee.",
+        "topic": "Frequency and urgency"
+      },
+      {
+        "answer": "I haven't had shaking chills or high fevers, but I have felt slightly warm and flushed lately.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my urine starts right away without hesitation, my stream is normal, and I don't feel like urine is left behind.",
+        "topic": "Hesitancy and stream strength"
+      },
+      {
+        "answer": "Yes, I noticed lots of persistent bubbles and foam in the toilet, and my ankles have been feeling puffy by the evening.",
+        "topic": "Foamy urine and swelling"
+      },
+      {
+        "answer": "The amount of urine feels fairly normal, maybe just slightly less than what I usually pass in a day.",
+        "topic": "Changes in urine volume"
+      },
+      {
+        "answer": "No, I have not had a sore throat, cold symptoms, or any skin infections over the last month.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "The rash is spread across both cheeks and over the bridge of my nose, but it doesn't cross into the creases around my mouth.",
+        "topic": "Facial rash details"
+      },
+      {
+        "answer": "Yes, whenever I go outside into the sunlight, the rash gets noticeably redder, warmer, and more irritated.",
+        "topic": "Sun sensitivity"
+      },
+      {
+        "answer": "My fingers and knees have felt stiff and achy, especially when I wake up in the morning, but they aren't red or swollen.",
+        "topic": "Joint pain and stiffness"
+      },
+      {
+        "answer": "I have felt unusually tired, exhausted, and drained over the past several weeks, but my weight has stayed stable.",
+        "topic": "Fatigue and weight changes"
+      },
+      {
+        "answer": "No, I do not have any cough, shortness of breath, chest pain, or coughing up of blood.",
+        "topic": "Chest pain and respiratory symptoms"
+      },
+      {
+        "answer": "No, I haven't had frequent nosebleeds, bleeding gums when brushing, or unusual bruises on my body.",
+        "topic": "Bleeding and bruising tendency"
+      },
+      {
+        "answer": "No, I do not take aspirin, ibuprofen, blood thinners, or any regular pain medications.",
+        "topic": "Blood thinners and medications"
+      },
+      {
+        "answer": "No, I haven't had any falls, abdominal injuries, or engaged in strenuous heavy exercise recently.",
+        "topic": "Trauma or strenuous exercise"
+      },
+      {
+        "answer": "No, I haven't eaten beets, blackberries, or food coloring, and I haven't taken any vitamins or pills that color urine.",
+        "topic": "Red foods or dyes"
+      },
+      {
+        "answer": "My last period was two weeks ago and it was normal. The dark urine is coming from my bladder, not menstrual bleeding.",
+        "topic": "Menstrual timing and bleeding"
+      },
+      {
+        "answer": "I have never had kidney stones or kidney disease before, and no one in my immediate family has kidney problems.",
+        "topic": "Kidney history and family background"
+      },
+      {
+        "answer": "I've been wondering if this could be lupus, because my maternal aunt has lupus and her symptoms started similarly.",
+        "topic": "Patient ideas and thoughts"
+      },
+      {
+        "answer": "My college graduation is only three weeks away, and I'm so scared this rash is going to leave permanent marks on my face.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can prescribe a good medicated cream to clear up my face and some antibiotics for the urine issue.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with any chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never stayed in a hospital overnight.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription drugs, over-the-counter medicines, or dietary supplements right now.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or environmental triggers.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink alcohol socially on special occasions, maybe one glass of beer or wine once or twice a month.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am a fourth-year university student studying business, and I don't work around dyes, rubber, paints, or toxic chemicals.",
+        "topic": "Occupation and toxic exposures"
+      },
+      {
+        "answer": "I live in an apartment near campus with one roommate.",
+        "topic": "Living situation"
+      },
+      {
+        "answer": "I am not currently sexually active, I am not using hormonal birth control, and there is no chance of pregnancy.",
+        "topic": "Pregnancy and contraception"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 142/90 mmHg, heart rate 88 beats per minute, respiratory rate 16 breaths per minute, body temperature 37.8 degrees Celsius, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-demarcated erythematous maculopapular rash across bilateral cheeks and nasal bridge sparing the nasolabial folds; no petechiae, ecchymoses, or ulcerations.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No conjunctival pallor, scleral icterus, or periorbital edema noted.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally on auscultation without crackles, wheezes, or pleural friction rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or pericardial friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender throughout with no palpable masses, organomegaly, or suprapubic distension.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness elicited upon gentle percussion over bilateral costovertebral angles.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Mild 1+ pitting edema noted over bilateral ankles and dorsum of feet; no pretibial erythema.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral proximal interphalangeal joints, wrists, and knees are without warmth, erythema, swelling, or active synovitis, with full passive and active range of motion.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

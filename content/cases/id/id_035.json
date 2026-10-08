@@ -1,0 +1,305 @@
+{
+  "id": "id_035",
+  "system": "id",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Clark",
+  "age": 47,
+  "gender": "male",
+  "chief_complaint": "expanding bull's-eye rash after tick bite hiking",
+  "hpi_details": "A 47-year-old male presents to the clinic with expanding bull's-eye rash after tick bite hiking. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks the expanding ring is a poisonous spider bite or an allergic reaction to a bug he brushed against while hiking.",
+  "concerns": "He is worried the venom is spreading through his body and will cause chronic joint pain that keeps him from working his construction job.",
+  "expectations": "He hopes to get a prescription for an antibiotic ointment or pills so the rash clears up before his weekend camping trip.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Lyme Disease evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Lyme Disease is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Lyme Disease: Oral Doxycycline 100mg BID for 10-14 days, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: expanding bull's-eye rash after tick bite hiking",
+      "Key HPI features: A 47-year-old male presents to the clinic with expanding bull's-eye rash after tick bite hiking. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Vitals: Temp 37.4C, HR 76, BP 122/78, well-appearing. Single 8cm annular erythematous patch with central clearing on the right posterior thigh, warm but non-tender, no fluctuance. No lymphadenopathy, normal cardiac and neurologic exam. Lyme serology (ELISA with Western blot confirmation) sent, clinical diagnosis made on exam alone given classic erythema migrans.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Lyme Disease.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Cellulitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Cardiac symptoms (suggesting carditis) or neurological symptoms."
+    ],
+    "management_principles": [
+      "Plan for Lyme Disease: Oral Doxycycline 100mg BID for 10-14 days",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: expanding bull's-eye rash after tick bite hiking\n\nA 47-year-old male presents to the clinic with expanding bull's-eye rash after tick bite hiking. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Vitals: Temp 37.4C, HR 76, BP 122/78, well-appearing. Single 8cm annular erythematous patch with central clearing on the right posterior thigh, warm but non-tender, no fluctuance. No lymphadenopathy, normal cardiac and neurologic exam. Lyme serology (ELISA with Western blot confirmation) sent, clinical diagnosis made on exam alone given classic erythema migrans.",
+    "assessment": "Early localized Lyme Disease (erythema migrans), diagnosed clinically based on the characteristic expanding annular rash with central clearing following tick exposure in an endemic area.",
+    "plan": "Plan for Lyme Disease: Oral Doxycycline 100mg BID for 10-14 days. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Lyme Disease",
+    "Select appropriate diagnostic workup for Lyme Disease",
+    "Implement evidence-based management plan: Oral Doxycycline 100mg BID for 10-14 days"
+  ],
+  "teaching": {
+    "diagnosis": "Lyme Disease",
+    "one_liner": "A tick-borne Borrelia burgdorferi infection causing an expanding bullseye rash (erythema migrans) after a tick bite in an endemic area.",
+    "differentials": [
+      "Cellulitis",
+      "Tinea corporis"
+    ],
+    "red_flags": [
+      "Cardiac symptoms (suggesting carditis) or neurological symptoms"
+    ],
+    "must_ask": [
+      {
+        "objective": "Tick exposure",
+        "say": "Did you notice a tick bite, or have you been hiking recently?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Rash character",
+        "say": "Does the rash look like an expanding ring?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Joint or flu symptoms",
+        "say": "Any joint pain or flu-like symptoms?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Cardiac symptoms",
+        "say": "Any dizziness or irregular heartbeat?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has the rash been there?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 37.4
+    },
+    "history": [
+      {
+        "answer": "I noticed a strange red bull's-eye rash spreading on the back of my right thigh after a hiking trip, and it seems to be getting bigger.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I went hiking in the woods about a week ago, and a few days later I noticed a small red spot that has gradually expanded into a wide ring.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is only on the back of my right thigh, and I have not seen any other spots or patches on my body.",
+        "topic": "Rash location and distribution"
+      },
+      {
+        "answer": "It looks like a bull's-eye target with a red outer circle and a clearing in the center, about the size of my palm.",
+        "topic": "Rash appearance"
+      },
+      {
+        "answer": "It feels slightly warm when I touch it, but it does not itch or hurt at all.",
+        "topic": "Pain or itching"
+      },
+      {
+        "answer": "No, it stays continuously in the exact same spot and does not fade away or reappear somewhere else.",
+        "topic": "Transient or shifting lesions"
+      },
+      {
+        "answer": "No, I have never experienced a skin rash like this before.",
+        "topic": "Past similar episodes"
+      },
+      {
+        "answer": "I have been feeling unusually tired and slightly warm over the past two days, but I have not had shaking chills or high fevers.",
+        "topic": "Fever, chills, and fatigue"
+      },
+      {
+        "answer": "No, my mouth, eyes, and genital area are completely normal with no sores, blisters, or redness.",
+        "topic": "Mucosal symptoms"
+      },
+      {
+        "answer": "No, the skin is intact with no peeling, blistering, or dark purple spots.",
+        "topic": "Skin peeling or dark spots"
+      },
+      {
+        "answer": "No, I have not had any swelling of my lips or face, throat tightness, or trouble breathing.",
+        "topic": "Facial swelling or breathing difficulty"
+      },
+      {
+        "answer": "No, I have not started any new prescription drugs, antibiotics, or pain medications.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No, I have not used any new soaps, detergents, lotions, or cosmetics, and no jewelry touches that area.",
+        "topic": "Contact with irritants or chemicals"
+      },
+      {
+        "answer": "No, neither my wife nor the friends who went hiking with me have any rashes or symptoms.",
+        "topic": "Similar symptoms in contacts"
+      },
+      {
+        "answer": "I was hiking through tall grass and brush in the woods last weekend, and I found a small tick attached to that exact spot on my thigh the following day.",
+        "topic": "Outdoor activity and tick exposure"
+      },
+      {
+        "answer": "No, I have never had eczema, asthma, or hay fever.",
+        "topic": "History of allergies or asthma"
+      },
+      {
+        "answer": "My joints feel completely normal with no pain or swelling, and my fingernails look fine.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I applied an over-the-counter hydrocortisone cream a couple of times, but it did not make any difference so I stopped.",
+        "topic": "Topical treatments applied"
+      },
+      {
+        "answer": "I am in a long-term monogamous relationship with my wife, and neither of us has had any genital sores or discharge.",
+        "topic": "Sexual history and genital sores"
+      },
+      {
+        "answer": "No, I have not had any chest pain, fluttering or racing heartbeats, shortness of breath, or dizziness.",
+        "topic": "Heart palpitations or chest pain"
+      },
+      {
+        "answer": "No, I have not had any facial drooping, muscle weakness, numbness, severe headaches, or stiff neck.",
+        "topic": "Neurological symptoms or headaches"
+      },
+      {
+        "answer": "I thought maybe a spider bit me while I was hiking in the brush, or my body is having an allergic reaction to some insect.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I'm really worried this poison is spreading into my joints and might keep me from working on the job site.",
+        "topic": "Patient main concerns"
+      },
+      {
+        "answer": "I have no chronic medical conditions and have always been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any regular prescription medications, over-the-counter drugs, or herbal supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink alcohol socially, perhaps one or two beers on the weekend.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office manager and live in a house with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are alive and healthy, and there is no family history of chronic skin disorders or autoimmune disease.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature 37.4°C, heart rate 76 beats per minute, blood pressure 122/78 mmHg, respiratory rate 16 breaths per minute, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-appearing adult male in no acute distress, alert and oriented.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Single 8-centimeter annular erythematous patch with central clearing on the right posterior thigh, warm to touch, non-tender, with no fluctuance or induration.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is pink and moist with no aphthae, ulcers, or mucosal enanthem.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are clear without injection or discharge, and sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No lymphadenopathy palpated in the cervical, supraclavicular, or occipital regions.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, with no murmurs, gallops, rubs, or irregular beats.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII intact bilaterally, with symmetrical facial expression and no facial nerve weakness.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with full flexion, with no nuchal rigidity or meningeal signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No swelling, warmth, redness, or joint tenderness in the knees, ankles, or wrists, with full range of motion.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

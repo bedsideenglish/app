@@ -1,0 +1,312 @@
+{
+  "id": "ent_018",
+  "system": "otolaryngology (ent)",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Wright",
+  "age": 48,
+  "gender": "male",
+  "chief_complaint": "severe dental infection progressing rapidly to massive woody swelling under chin, elevation of tongue, and drooling with impending airway loss",
+  "hpi_details": "48M with untreated mandibular molar abscess presenting with rapid bilateral submandibular/sublingual woody brawny induration elevating the floor of the mouth and pushing the tongue superiorly/posteriorly requiring immediate fiberoptic awake intubation and surgical neck exploration.",
+  "ideas": "He thinks severe infection and pus from his decayed tooth have broken out into his jaw and are spreading into his neck.",
+  "concerns": "He is worried that the swelling under his jaw is spreading into his throat so quickly that it will completely block his windpipe and suffocate him.",
+  "expectations": "He hopes the medical team will immediately drain the build-up under his chin and start powerful intravenous medication to relieve the choking pressure.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Ludwig's Angina evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Ludwig's Angina is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management follows an evidence-based diagnostic and therapeutic protocol for Ludwig's angina, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe dental infection progressing rapidly to massive woody swelling under chin, elevation of tongue, and drooling with impending airway loss",
+      "Key HPI features: 48M with untreated mandibular molar abscess presenting with rapid bilateral submandibular/sublingual woody brawny induration elevating the floor of the mouth and pushing the tongue superiorly/posteriorly requiring immediate fiberoptic awake intubation and surgical neck exploration.",
+      "Objective/Exam findings: Rapid bilateral submandibular/sublingual woody, brawny induration; floor of mouth elevated, tongue displaced superiorly/posteriorly; drooling with impending airway compromise.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Ludwig's Angina.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Peritonsillar abscess without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Any difficulty breathing, drooling, or stridor — airway compromise, needs immediate airway management."
+    ],
+    "management_principles": [
+      "Prioritize early controlled airway management with ENT/anesthesia involvement, start broad-spectrum IV antibiotics, and arrange urgent surgical drainage/source control",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with a severe dental infection progressing rapidly to massive woody swelling under the chin, elevation of the tongue, and drooling with impending airway loss. 48M with an untreated mandibular molar abscess.",
+    "objective": "Rapid bilateral submandibular/sublingual woody, brawny induration elevating the floor of the mouth and pushing the tongue superiorly/posteriorly; drooling, signs of impending airway compromise.",
+    "assessment": "Ludwig's angina (bilateral submandibular/sublingual space infection) with impending airway compromise, secondary to an untreated mandibular molar abscess.",
+    "plan": "Treat as an airway emergency: call ENT, Anesthesia, and Oral/Maxillofacial Surgery, and secure the airway early using a controlled awake technique when feasible with a surgical-airway backup. Start broad-spectrum IV antibiotics covering oral aerobes and anaerobes and obtain urgent surgical source control/drainage. Do not delay airway management for imaging in a patient with impending obstruction."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Ludwig Angina Submandibular Space Abscess",
+    "Formulate prioritized differential diagnosis for severe dental infection progressing rapidly to massive woody swelling under chin, elevation of tongue, and drooling with impending airway loss",
+    "Select appropriate laboratory and imaging studies for otolaryngology (ent)",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Ludwig's Angina",
+    "one_liner": "A rapidly spreading infection of the floor of the mouth, usually from a dental abscess, causing woody swelling that elevates the tongue and threatens the airway — a true emergency requiring airway management before anything else.",
+    "differentials": [
+      "Peritonsillar abscess",
+      "Simple dental abscess without spread",
+      "Submandibular sialadenitis"
+    ],
+    "red_flags": [
+      "Any difficulty breathing, drooling, or stridor — airway compromise, needs immediate airway management"
+    ],
+    "must_ask": [
+      {
+        "objective": "Dental history",
+        "say": "Did this start with a bad tooth infection?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "dental infection",
+          "tooth"
+        ]
+      },
+      {
+        "objective": "Swelling progression",
+        "say": "How quickly has the swelling under your chin been spreading?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "rapid",
+          "spreading"
+        ]
+      },
+      {
+        "objective": "Airway symptoms",
+        "say": "Are you having any trouble breathing or swallowing your saliva?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "breathing",
+          "drooling"
+        ]
+      },
+      {
+        "objective": "Tongue position",
+        "say": "Does your tongue feel pushed up or back?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "135/85",
+      "hr": 108,
+      "rr": 24,
+      "spo2": 95,
+      "temp_c": 38.6
+    },
+    "history": [
+      {
+        "answer": "Underneath my chin and jaw have swollen up into a rock-hard lump over the last two days, and now I can barely swallow my own saliva or breathe.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about two days ago after an untreated lower toothache flared up, and the swelling exploded in size between yesterday and this morning.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The swelling blew up across both sides of my jaw and under my chin extremely fast, getting larger and tighter by the hour.",
+        "topic": "Swelling progression"
+      },
+      {
+        "answer": "The swelling is right under my chin and across both sides of my lower jaw, spreading down into the front of my neck.",
+        "topic": "Location of swelling"
+      },
+      {
+        "answer": "It is an intense, severe throbbing pain that feels like my neck is caught in a vice, rated around an eight out of ten.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "My tongue feels like it has been shoved right up against the roof of my mouth, so I can hardly move it or close my mouth.",
+        "topic": "Tongue position and mouth fullness"
+      },
+      {
+        "answer": "I cannot swallow anything at all, not even my spit, so I have to constantly drool and spit into a towel.",
+        "topic": "Difficulty swallowing and drooling"
+      },
+      {
+        "answer": "It feels like my throat is narrowing and choking me; I have to sit straight up and lean forward just to keep air moving.",
+        "topic": "Airway and breathing symptoms"
+      },
+      {
+        "answer": "Yes, there is a harsh, high-pitched squeak whenever I draw in a breath because my airway feels so tight.",
+        "topic": "Stridor or noisy breathing"
+      },
+      {
+        "answer": "My voice has gotten very muffled and thick, almost like I am talking with a mouthful of hot mashed potatoes.",
+        "topic": "Voice changes"
+      },
+      {
+        "answer": "I can barely open my teeth more than a finger's width because my jaw muscles and neck are so tight and painful.",
+        "topic": "Jaw opening and trismus"
+      },
+      {
+        "answer": "I have had a bad, deep toothache in my lower right back molar for several weeks, but I put off going to the dentist.",
+        "topic": "Dental history"
+      },
+      {
+        "answer": "Yes, I have been burning up with a high fever and shaking with chills since yesterday evening.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "Lying flat on my back makes me feel like I am immediately suffocating, while sitting upright and leaning forward is the only way I can get air.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have never had any neck swelling, airway trouble, or an infection like this before in my life.",
+        "topic": "Prior similar episodes"
+      },
+      {
+        "answer": "I tried taking some over-the-counter ibuprofen and acetaminophen yesterday, but neither helped the swelling or the pain at all.",
+        "topic": "Treatments tried"
+      },
+      {
+        "answer": "No, I have not eaten anything unusual, and I have no itching, lip swelling, or allergic hives anywhere.",
+        "topic": "Allergies and triggers"
+      },
+      {
+        "answer": "I could not sleep at all last night because I felt terrified that my airway would completely shut if I tried to lie down.",
+        "topic": "Impact on daily life and sleep"
+      },
+      {
+        "answer": "No, I have not had any unintentional weight loss, chronic cough, or unexplained night sweats prior to this acute infection.",
+        "topic": "Weight loss and red flags"
+      },
+      {
+        "answer": "I think poison from that bad tooth I ignored spread into my neck and is swelling up my throat.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that my throat is closing up and that I'm going to suffocate before anyone can help me.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I need you to drain this swelling right away and give me strong IV medicine so I can breathe again.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have high blood pressure and slightly high cholesterol, but I do not have diabetes or asthma.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was twenty, but I have never had any neck surgeries or other hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once a day for my blood pressure, and I took some ibuprofen yesterday.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink one or two beers on the weekend, and I haven't had any alcohol this past week.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office accountant and live at home with my wife and son.",
+        "topic": "Occupation and social situation"
+      },
+      {
+        "answer": "My father had hypertension and a mild stroke in his seventies, and my mother is healthy with no history of serious infections.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature is 38.6°C (101.5°F), blood pressure is 135/85 mmHg, pulse is 108 beats per minute, respiratory rate is 24 breaths per minute, and oxygen saturation is 95% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Anxious, ill-appearing male sitting upright and leaning forward in a tripod position, visibly drooling into a towel with audible inspiratory stridor and a muffled voice.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Severe trismus with mouth opening limited to 1.5 cm; floor of the mouth is markedly elevated, tense, and erythematous, displacing the tongue superiorly and posteriorly against the palate with extensive pooling of saliva and an untreated decayed lower right molar.",
+        "maneuver": "nose_throat_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Massive bilateral submandibular and submental woody, brawny induration that is exquisitely tender and non-fluctuant, extending inferiorly toward the hyoid bone.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Harsh transmitted upper-airway inspiratory stridor heard loudest over the trachea, with clear breath sounds bilaterally and no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rate with regular rhythm; distinct S1 and S2 with no murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Overlying anterior neck and submandibular skin is warm, taut, and mildly erythematous, without crepitus, purulent draining fistulae, or generalized hives.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Facial motor symmetry intact; tongue protrusion and tongue mobility are mechanically restricted due to severe floor-of-mouth swelling and pain.",
+        "maneuver": "cranial_nerves",
+        "response": "pain"
+      },
+      {
+        "finding": "Passive neck flexion is limited by the massive anterior tender induration, but there is no true nuchal rigidity, Kernig sign, or Brudzinski sign.",
+        "maneuver": "meningeal_signs",
+        "response": "pain"
+      }
+    ]
+  }
+}

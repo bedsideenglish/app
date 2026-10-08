@@ -1,0 +1,317 @@
+{
+  "id": "rheum_025",
+  "system": "rheumatology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Min",
+  "age": 38,
+  "gender": "female",
+  "chief_complaint": "widespread muscle pain, chronic fatigue, poor sleep, and brain fog for 1 year",
+  "hpi_details": "38F reports 1 year of constant, widespread aching pain in muscles and joints all over her body. Accompanied by chronic exhaustion, waking up unrefreshed, and difficulty concentrating ('brain fog').",
+  "ideas": "She thinks she might have a sluggish thyroid or a severe vitamin deficiency that is draining all her physical energy.",
+  "concerns": "worried she will never feel normal again",
+  "expectations": "wants pain medication and advice",
+  "pmh": "Irritable bowel syndrome",
+  "medications": "None",
+  "social_hx": "Housewife, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Fibromyalgia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Fibromyalgia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Fibromyalgia (central sensitization pain syndrome), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: widespread muscle pain, chronic fatigue, poor sleep, and brain fog for 1 year",
+      "Key HPI features: 38F reports 1 year of constant, widespread aching pain in muscles and joints all over her body. Accompanied by chronic exhaustion, waking up unrefreshed, and difficulty concentrating ('brain fog').",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Fibromyalgia (central sensitization pain syndrome).",
+      "Relevant background/PMH: Irritable bowel syndrome"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Fibromyalgia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Hypothyroidism without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Objective joint swelling or elevated inflammatory markers — would suggest a different diagnosis instead."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Fibromyalgia (central sensitization pain syndrome)",
+      ": Assess widespread pain and symptom severity using validated criteria; exclude alternative causes when clinically indicated (for example, CBC, ESR/CRP, and TSH)",
+      "Use education, pacing, graded aerobic/strength exercise, sleep support, and CBT when accessible; medication options such as duloxetine or low-dose amitriptyline require clinician-directed selection and monitoring for interactions, adverse effects, and pregnancy considerations."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Rheumatology (ACR) Clinical Guidance",
+        "url": "https://rheumatology.org/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Fibromyalgia (central sensitization pain syndrome). widespread muscle pain, chronic fatigue, poor sleep, and brain fog for 1 year. 38F reports 1 year of constant, widespread aching pain in muscles and joints all over her body. Accompanied by chronic exhaustion, waking up unrefreshed, and difficulty concentrating ('brain fog').",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Fibromyalgia (central sensitization pain syndrome).",
+    "assessment": "Clinical presentation highly suggestive of Fibromyalgia (central sensitization pain syndrome).",
+    "plan": "Use validated widespread-pain/symptom-severity criteria and a focused examination; test for alternative conditions only when clinically indicated (for example CBC, ESR/CRP, and TSH). Explain that the pain is real and treat with education, pacing, sleep support, and graded activity; a clinician may consider medication after reviewing interactions, adverse effects, mental-health safety, and pregnancy considerations. Objective synovitis, persistent fever, focal neurologic deficit, unexplained weight loss, or abnormal inflammatory findings warrant reassessment rather than labeling the symptoms fibromyalgia."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Fibromyalgia (central sensitization pain syndrome).",
+    "Formulate prioritized differential diagnosis for widespread muscle pain, chronic fatigue, poor sleep, and brain fog for 1 year",
+    "Select appropriate laboratory and imaging studies for rheumatology",
+    "Implement evidence-based acute and long-term management strategies for Fibromyalgia (central sensitization pain syndrome)."
+  ],
+  "teaching": {
+    "diagnosis": "Fibromyalgia",
+    "one_liner": "A central sensitization pain syndrome causing widespread muscle and joint pain, unrefreshing sleep, and cognitive fog, in the absence of inflammation or structural joint damage.",
+    "differentials": [
+      "Hypothyroidism",
+      "Polymyalgia rheumatica",
+      "Early inflammatory arthritis"
+    ],
+    "red_flags": [
+      "Objective joint swelling or elevated inflammatory markers — would suggest a different diagnosis instead"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pain distribution",
+        "say": "Is the pain all over your body, or in specific joints?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "widespread",
+          "all over"
+        ]
+      },
+      {
+        "objective": "Sleep quality",
+        "say": "Do you wake up feeling rested, or still exhausted?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "unrefreshed",
+          "sleep"
+        ]
+      },
+      {
+        "objective": "Cognitive symptoms",
+        "say": "Have you had trouble concentrating, or 'brain fog'?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "brain fog",
+          "concentration"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has this been going on?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "year"
+        ]
+      },
+      {
+        "objective": "Associated conditions",
+        "say": "Do you have irritable bowel syndrome or other chronic symptoms?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My joints and muscles have been aching all over my body for about a year now, and I feel constantly exhausted.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It hurts everywhere on both sides—my neck, shoulders, upper back, lower back, hips, and knees all ache constantly.",
+        "topic": "Pain distribution and symmetry"
+      },
+      {
+        "answer": "It came on gradually about a year ago, and the aching has been constant almost every single day since.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It feels like a deep, dull, burning muscular ache and general stiffness, usually around a 5 or 6 out of 10.",
+        "topic": "Pain characteristics and severity"
+      },
+      {
+        "answer": "No, my joints have never been swollen, red, or hot to the touch.",
+        "topic": "Joint swelling redness and warmth"
+      },
+      {
+        "answer": "I feel stiff all over when I wake up, but it only lasts about 15 or 20 minutes until I get up and start moving around.",
+        "topic": "Morning stiffness duration"
+      },
+      {
+        "answer": "Doing too much physical exertion or being stressed makes it flare up, but just resting in bed doesn't make the ache go away either.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I can still walk and take care of daily chores, but I tire out so easily and everything takes tremendous effort.",
+        "topic": "Daily activities and functional limitations"
+      },
+      {
+        "answer": "No, I have not had any fevers or chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, there was never any injury, sprain, twisting, or popping sensation.",
+        "topic": "Trauma and mechanical symptoms"
+      },
+      {
+        "answer": "No, I have never had sudden acute attacks or flares in a single joint like gout.",
+        "topic": "Previous joint attacks"
+      },
+      {
+        "answer": "I feel completely drained of energy all the time, but my weight has been steady and I haven't had low-grade fevers.",
+        "topic": "Fatigue and weight changes"
+      },
+      {
+        "answer": "My sleep is awful. I wake up frequently during the night, and every morning I wake up feeling unrefreshed, like I haven't slept at all.",
+        "topic": "Sleep quality and rest"
+      },
+      {
+        "answer": "Yes, I have terrible brain fog. I'm constantly forgetful, lose my train of thought, and have trouble focusing on simple tasks.",
+        "topic": "Cognitive symptoms and brain fog"
+      },
+      {
+        "answer": "No rashes on my face, no scaly patches, no hair loss, no mouth sores, and my eyes and mouth are not unusually dry.",
+        "topic": "Skin rashes and autoimmune symptoms"
+      },
+      {
+        "answer": "My back aches like the rest of my muscles, but I don't have severe waking back pain, heel pain, or sausage-like swollen fingers.",
+        "topic": "Spondylitis and enthesitis symptoms"
+      },
+      {
+        "answer": "No recent diarrhea, no burning when I urinate, and no sore throat.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I eat ordinary home-cooked meals, I don't eat excessive meat or seafood, and I don't take water pills.",
+        "topic": "Diet and diuretic medications"
+      },
+      {
+        "answer": "No, I have never taken steroids or immunosuppressants, and I have never had any joint injections or operations.",
+        "topic": "Immunosuppressant use and joint procedures"
+      },
+      {
+        "answer": "I have been with my husband for over ten years, and neither of us has any other partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I have had irritable bowel syndrome for a few years with occasional stomach cramps and bloating, and I frequently get tension headaches.",
+        "topic": "Associated conditions and bowels"
+      },
+      {
+        "answer": "Apart from irritable bowel syndrome, I have never been diagnosed with any major medical illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an uncomplicated vaginal delivery eight years ago, but I have never had surgery or stayed in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter pain relievers, or herbal supplements right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I do not have any allergies to medications or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No one in my family has rheumatoid arthritis, lupus, or other autoimmune diseases.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I rarely drink alcohol, maybe half a glass of wine on a special occasion once or twice a year.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am a homemaker, and I live at home with my husband and our eight-year-old child.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My periods are regular every 28 days, my last period was two weeks ago, we use barrier contraception, and I am definitely not pregnant.",
+        "topic": "Menstrual history and pregnancy"
+      },
+      {
+        "answer": "I've been wondering if my thyroid is completely out of whack or if I have a severe vitamin deficiency, because my body just feels entirely worn down.",
+        "topic": "Patient ideas and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, mildly fatigued-appearing woman sitting comfortably with no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 72 bpm, respiratory rate 14 breaths/min, temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Widespread soft-tissue tenderness to palpation across bilateral shoulders, elbows, and knees; no objective joint swelling, warmth, redness, deformities, or joint effusions, with full range of motion.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No malar rash, discoid lesions, psoriasis plaques, tophi, rheumatoid nodules, or nail changes.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse tenderness along cervical and lumbar paraspinal muscles; no bony spinal tenderness or sacroiliac joint tenderness.",
+        "maneuver": "spine_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Normal muscle bulk and 5/5 motor strength in all extremities, accompanied by generalized muscular discomfort during testing.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation symmetrically throughout upper and lower extremities without focal deficits.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal steady gait without antalgia, instability, or ataxia.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

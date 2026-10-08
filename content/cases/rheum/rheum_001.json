@@ -1,0 +1,318 @@
+{
+  "id": "rheum_001",
+  "system": "rheumatology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Vance",
+  "age": 42,
+  "gender": "female",
+  "chief_complaint": "severe morning stiffness, symmetrical joint pain and swelling in wrists and fingers for 4 months",
+  "hpi_details": "42F presents with 4-month progressive, symmetrical pain, swelling, and stiffness involving the small joints of both hands (MCP and PIP joints) and both wrists. Morning stiffness lasts over 2 hours every day and improves gradually with physical activity. Also reports extreme fatigue and low-grade fevers.",
+  "ideas": "thinks she has early-onset osteoarthritis from typing all day at work",
+  "concerns": "worried her hands will become permanently twisted and deformed like her grandmother's",
+  "expectations": "wants strong anti-inflammatory medicine and treatment to stop joint destruction",
+  "pmh": "No prior chronic illness",
+  "medications": "Ibuprofen 400mg TID (minimal relief)",
+  "social_hx": "Legal secretary, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Rheumatoid Arthritis (seropositive) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Rheumatoid Arthritis (seropositive) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes early disease-modifying antirheumatic drug therapy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe morning stiffness, symmetrical joint pain and swelling in wrists and fingers for 4 months",
+      "Key HPI features: 42F presents with 4-month progressive, symmetrical pain, swelling, and stiffness involving the small joints of both hands (MCP and PIP joints) and both wrists. Morning stiffness lasts over 2 hours every day and improves gradually with physical activity. Also reports extreme fatigue and low-grade fevers.",
+      "Objective/Exam findings: Vitals normal. Exam: Bilateral symmetrical boggy swelling, warmth, and tenderness of 2nd-4th MCP joints, PIP joints, and wrists. Positive 'squeeze test' across MCPs. Distal interphalangeal (DIP) joints spared. Bloods: ESR 58 mm/hr, CRP 35 mg/L, Rheumatoid Factor (RF) positive (120 IU/mL), Anti-Cyclic Citrullinated Peptide (Anti-CCP) antibody strongly positive (>200 U/mL, high specificity). Hand X-rays show periarticular osteopenia and marginal bony erosions at the 2nd and 3rd MCP joints.",
+      "Relevant background/PMH: No prior chronic illness",
+      "Current medications: Ibuprofen 400mg TID (minimal relief)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Rheumatoid Arthritis (seropositive).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Osteoarthritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Missing septic arthritis (an acutely hot, very painful joint with fever or systemic illness), which requires same-day emergency assessment and joint aspiration before immunosuppression."
+    ],
+    "management_principles": [
+      "Arrange prompt rheumatology-led initiation of a disease-modifying antirheumatic drug (often methotrexate with folic acid when appropriate); do not start it without reviewing pregnancy plans, liver/kidney disease, alcohol use, blood counts, infection risk, and interactions.",
+      "If a short glucocorticoid bridge is considered, it should be prescribed by the treating clinician at the lowest effective dose and shortest duration after infection and other risks are assessed.",
+      "Before and during methotrexate or biologic therapy, obtain and monitor blood counts, liver and renal function; screen for hepatitis and tuberculosis as appropriate, update non-live vaccines, and give clear infection precautions."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Rheumatology (ACR) Clinical Guidance",
+        "url": "https://rheumatology.org/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: severe morning stiffness, symmetrical joint pain and swelling in wrists and fingers for 4 months\n\n42F presents with 4-month progressive, symmetrical pain, swelling, and stiffness involving the small joints of both hands (MCP and PIP joints) and both wrists. Morning stiffness lasts over 2 hours every day and improves gradually with physical activity. Also reports extreme fatigue and low-grade fevers.",
+    "objective": "Vitals normal. Exam: Bilateral symmetrical boggy swelling, warmth, and tenderness of 2nd-4th MCP joints, PIP joints, and wrists. Positive 'squeeze test' across MCPs. Distal interphalangeal (DIP) joints spared. Bloods: ESR 58 mm/hr, CRP 35 mg/L, Rheumatoid Factor (RF) positive (120 IU/mL), Anti-Cyclic Citrullinated Peptide (Anti-CCP) antibody strongly positive (>200 U/mL, high specificity). Hand X-rays show periarticular osteopenia and marginal bony erosions at the 2nd and 3rd MCP joints.",
+    "assessment": "Seropositive Rheumatoid Arthritis, moderate-to-severe disease activity.",
+    "plan": "1. Refer promptly to rheumatology to confirm activity and start a DMARD regimen; methotrexate with folic acid is commonly used when appropriate, but is contraindicated in pregnancy and requires individualized prescribing. 2. Screen for infection, pregnancy plans, liver/kidney disease, alcohol risk, drug interactions, and obtain baseline blood counts, liver and renal function; add hepatitis/tuberculosis screening and vaccination review when immunosuppression is planned. 3. Consider a brief clinician-directed glucocorticoid bridge only after risks are assessed; arrange serial monitoring and urgent review for fever or an acutely hot, swollen joint."
+  },
+  "learning_objectives": [
+    "Recognize symmetrical small-joint polyarthritis with prolonged morning stiffness as classical Rheumatoid Arthritis",
+    "Interpret diagnostic serology focusing on high specificity of Anti-CCP antibodies and baseline X-ray erosions",
+    "Enforce early initiation of conventional synthetic DMARDs (Methotrexate) with mandatory folic acid supplementation",
+    "Outline safe bridging steroid protocols and routine laboratory monitoring requirements for immunosuppressive agents"
+  ],
+  "teaching": {
+    "diagnosis": "Rheumatoid Arthritis (seropositive)",
+    "one_liner": "A symmetric autoimmune polyarthritis of the small joints of the hands and wrists, with morning stiffness lasting over an hour that improves with movement — distinct from osteoarthritis, which worsens with use.",
+    "differentials": [
+      "Osteoarthritis",
+      "Psoriatic arthritis",
+      "Systemic lupus erythematosus"
+    ],
+    "red_flags": [
+      "An acutely hot, swollen, severely painful joint—especially with fever, rigors, or inability to bear weight—may be septic arthritis and needs emergency assessment.",
+      "New chest pain, breathlessness, eye pain/redness, neurologic symptoms, or rapidly worsening systemic illness needs urgent assessment."
+    ],
+    "must_ask": [
+      {
+        "objective": "Joint distribution and symmetry",
+        "say": "Are both hands affected the same way — the same joints on each side?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "symmetric",
+          "both hands",
+          "MCP",
+          "PIP"
+        ]
+      },
+      {
+        "objective": "Morning stiffness duration",
+        "say": "How long does the morning stiffness last before it gets better?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "morning stiffness",
+          "hours"
+        ]
+      },
+      {
+        "objective": "Effect of movement",
+        "say": "Does moving around make the stiffness better or worse?",
+        "domains": [
+          "relieving"
+        ],
+        "keywords": [
+          "improves with activity"
+        ]
+      },
+      {
+        "objective": "Systemic symptoms",
+        "say": "Have you had fatigue or low-grade fevers along with the joint pain?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fatigue",
+          "fever"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many months has this been going on?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "months"
+        ]
+      },
+      {
+        "objective": "The patient's fear",
+        "say": "What worries you most about your hands long-term?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 37.1
+    },
+    "history": [
+      {
+        "answer": "Both of my wrists and the knuckles in both hands have been swollen, painful, and terribly stiff for about four months.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It affects both hands symmetrically, especially my knuckles and wrists, but the very tips of my fingers feel completely normal.",
+        "topic": "Joint distribution and symmetry"
+      },
+      {
+        "answer": "It started gradually about four months ago and has become steadily worse over time.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is a persistent, dull ache that rates around a 6 out of 10, but gripping things causes sharp pain.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "My knuckles and wrists are visibly puffy and feel warm, although the skin is not bright red.",
+        "topic": "Swelling and warmth"
+      },
+      {
+        "answer": "Every morning my fingers are extremely stiff, and it takes more than two hours of moving around before they loosen up.",
+        "topic": "Morning stiffness duration"
+      },
+      {
+        "answer": "Moving my fingers and soaking them in warm water helps ease the pain, whereas resting makes the stiffness worse.",
+        "topic": "Effect of movement and rest"
+      },
+      {
+        "answer": "I have trouble typing at work, opening jars, and turning keys, though walking and using stairs are completely fine.",
+        "topic": "Functional limitations and hand use"
+      },
+      {
+        "answer": "I have not had high fevers or shaking chills, but I often feel flushed and warm in the afternoons.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "I have not injured my hands or heard any popping sounds, and my joints do not catch or lock.",
+        "topic": "Trauma or mechanical symptoms"
+      },
+      {
+        "answer": "No, I have never had painful or swollen joints like this in the past.",
+        "topic": "Previous joint episodes"
+      },
+      {
+        "answer": "I have felt completely exhausted almost every day, although my weight has remained stable.",
+        "topic": "Fatigue and constitutional symptoms"
+      },
+      {
+        "answer": "I do not have any facial rashes, flaky skin patches, mouth ulcers, hair thinning, or red or gritty eyes.",
+        "topic": "Skin rash and eye symptoms"
+      },
+      {
+        "answer": "I have no morning stiffness in my lower back, no heel pain, and no sausage-like swelling of my toes.",
+        "topic": "Back and heel symptoms"
+      },
+      {
+        "answer": "I have not had diarrhea, burning when I urinate, unusual discharge, or any recent sore throat.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I do not drink much alcohol or eat excessive seafood and red meat, and I do not take water pills.",
+        "topic": "Diet alcohol and diuretics"
+      },
+      {
+        "answer": "I have never taken steroid tablets, had injections into my joints, or had any joint surgery or implants.",
+        "topic": "Steroids and joint procedures"
+      },
+      {
+        "answer": "I have been happily married for twelve years with only my husband, and I have no other partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I work as a legal secretary typing all day, so I wondered if this could be early osteoarthritis from overuse.",
+        "topic": "Patient ideas on cause"
+      },
+      {
+        "answer": "My grandmother's fingers became horribly twisted and deformed from arthritis, and I am terrified the same thing is happening to me.",
+        "topic": "Fears and concerns"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with any chronic medical illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was twenty-two without complications, and I have not had any other surgeries.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take ibuprofen 400 milligrams three times a day, but it gives me very little relief.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or materials.",
+        "topic": "Drug and food allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a single glass of wine once or twice a month at family dinners.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time as a legal secretary and live with my husband and our two teenage children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My maternal grandmother suffered from severe, crippling hand arthritis, but no one in my immediate family has joint problems.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My periods come regularly every twenty-eight days, my last one was two weeks ago, and my husband had a vasectomy so I cannot be pregnant.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/78 mmHg, heart rate 74 beats per minute, respiratory rate 14 breaths per minute, temperature 37.1°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient appears mildly fatigued but in no acute distress, holding both hands guardedly.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral symmetrical boggy swelling, warmth, and marked tenderness of the 2nd to 4th MCP joints, PIP joints, and wrists with a positive squeeze test across the MCPs, while DIP joints are spared.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No rheumatoid nodules, psoriatic plaques, malar rash, nail pitting, or tophi identified on the skin.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal conjunctivae and sclerae bilaterally with no redness, injection, or evidence of dry eyes.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is moist and pink without ulcers, aphthous lesions, or inflammation.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Full range of spine motion without cervical or thoracolumbar tenderness, and no sacroiliac tenderness.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal, upright, and steady gait without antalgia or imbalance.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

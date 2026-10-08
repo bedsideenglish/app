@@ -1,0 +1,308 @@
+{
+  "id": "derm_009",
+  "system": "dermatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Irwin",
+  "age": 16,
+  "gender": "female",
+  "chief_complaint": "herald patch followed 2 weeks later by diffuse, mildly itchy oval salmon-colored plaques along Langer cleavage lines (Pityriasis Rosea)",
+  "hpi_details": "16F high school student presents with a rash that started 3 weeks ago as a single, 4 cm oval pinkish-tan patch on her lower back (`I thought it was ringworm and used antifungal cream without help`). Over the past week, suddenly developed dozens of smaller, mildly itchy, oval salmon-colored spots across her chest, back, and upper thighs. Perfectly healthy otherwise without fever, joint pain, or new medications.",
+  "ideas": "thinks she caught severe widespread ringworm from gym class or an allergic reaction",
+  "concerns": "embarrassed by rash covering her trunk and worried it will leave permanent scars on her body",
+  "expectations": "wants strong prescription creams or pills to make the rash vanish quickly before prom next week",
+  "pmh": "Normal medical history",
+  "medications": "Over-the-counter clotrimazole cream (ineffective)",
+  "social_hx": "High school sophomore",
+  "available_results": [
+    {"id": "herald_patch_koh", "test": "Potassium hydroxide preparation", "value": "No fungal hyphae or spores seen", "flag": "normal", "specimen": "Scale from herald patch"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Pityriasis Rosea evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pityriasis Rosea is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes reassurance that the rash is benign and self-limiting, with symptomatic relief via topical steroids and oral antihistamines for pruritus, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: herald patch followed 2 weeks later by diffuse, mildly itchy oval salmon-colored plaques along Langer cleavage lines (Pityriasis Rosea)",
+      "Key HPI features: 16F high school student presents with a rash that started 3 weeks ago as a single, 4 cm oval pinkish-tan patch on her lower back (`I thought it was ringworm and used antifungal cream without help`). Over the past week, suddenly developed dozens of smaller, mildly itchy, oval salmon-colored spots across her chest, back, and upper thighs. Perfectly healthy otherwise without fever, joint pain, or new medications.",
+      "Objective/Exam findings: Vitals: HR 72, Temp 36.6C. Skin exam reveals a prominent 4 x 3 cm oval, fawn-colored plaque on the right lumbar back exhibiting a fine, collarette of scale oriented just inside the outer border (the primary 'Herald Patch'). Across the anterior and posterior trunk are multiple 1-2 cm discrete, oval, salmon-pink macules and thin plaques. On the back, the long axes of these oval lesions orient parallel to the skin cleavage lines (Langer lines), forming a striking, characteristic 'Christmas Tree' distribution pattern. Palms, soles, and mucous membranes are completely spared. Potassium hydroxide (KOH) skin scraping of the herald patch is completely negative for fungal hyphae/spores.",
+      "Relevant background/PMH: Normal medical history",
+      "Current medications: Over-the-counter clotrimazole cream (ineffective)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pityriasis Rosea.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Tinea corporis (the herald patch alone can mimic this) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Involvement of palms and soles — would suggest secondary syphilis instead, needing testing."
+    ],
+    "management_principles": [
+      "Reassurance and education: explain that Pityriasis Rosea is a completely benign, self-limiting viral-reactive rash that is NOT contagious, NOT fungal, and will resolve completely without scarring over 6-8 weeks",
+      "Symptomatic relief: for mild pruritus, prescribe medium-potency topical steroid (Triamcinolone acetonide 0.1% cream) and oral cetirizine"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: herald patch followed 2 weeks later by diffuse, mildly itchy oval salmon-colored plaques along Langer cleavage lines (Pityriasis Rosea)\n\n16F high school student presents with a rash that started 3 weeks ago as a single, 4 cm oval pinkish-tan patch on her lower back (`I thought it was ringworm and used antifungal cream without help`). Over the past week, suddenly developed dozens of smaller, mildly itchy, oval salmon-colored spots across her chest, back, and upper thighs. Perfectly healthy otherwise without fever, joint pain, or new medications.",
+    "objective": "Vitals: HR 72, Temp 36.6C. Skin exam reveals a prominent 4 x 3 cm oval, fawn-colored plaque on the right lumbar back exhibiting a fine, collarette of scale oriented just inside the outer border (the primary 'Herald Patch'). Across the anterior and posterior trunk are multiple 1-2 cm discrete, oval, salmon-pink macules and thin plaques. On the back, the long axes of these oval lesions orient parallel to the skin cleavage lines (Langer lines), forming a striking, characteristic 'Christmas Tree' distribution pattern. Palms, soles, and mucous membranes are completely spared. Potassium hydroxide (KOH) skin scraping of the herald patch is completely negative for fungal hyphae/spores.",
+    "assessment": "Pityriasis Rosea (Self-limiting acute papulosquamous viral exanthem associated with HHV-6/HHV-7 reactivity).",
+    "plan": "1. Reassurance and education: explain that Pityriasis Rosea is a completely benign, self-limiting viral-reactive rash that is NOT contagious, NOT fungal, and will resolve completely without scarring over 6-8 weeks. 2. Symptomatic relief: for mild pruritus, prescribe medium-potency topical steroid (Triamcinolone acetonide 0.1% cream) and oral cetirizine. Avoid scrubbing or hot showers. Advise that no systemic antiviral or antibiotic therapy is required."
+  },
+  "learning_objectives": [
+    "Recognize the pathognomonic progression and morphology of Pityriasis Rosea (solitary 3-5 cm collarette-scaled Herald Patch followed 1-2 weeks later by secondary oval salmon plaques arranged along Langer lines in a 'Christmas Tree' pattern)",
+    "Perform bedside KOH prep to definitively exclude Tinea Corporis ('ringworm') when evaluating a Herald Patch",
+    "Differentiate Pityriasis Rosea from Secondary Syphilis (which typically involves the palms and soles, has generalized lymphadenopathy, and requires RPR/VDRL serology confirmation, especially in sexually active adolescents)",
+    "Provide empathetic patient reassurance regarding the benign, non-contagious, self-limiting 6-8 week natural history without unnecessary systemic medications"
+  ],
+  "teaching": {
+    "diagnosis": "Pityriasis Rosea",
+    "one_liner": "A benign, self-limiting viral-reactive rash starting with a single 'herald patch' followed by a diffuse eruption of oval salmon-colored spots along the skin's natural cleavage lines — resolves on its own in 6-8 weeks.",
+    "differentials": [
+      "Tinea corporis (the herald patch alone can mimic this)",
+      "Guttate psoriasis",
+      "Secondary syphilis"
+    ],
+    "red_flags": [
+      "Involvement of palms and soles — would suggest secondary syphilis instead, needing testing"
+    ],
+    "must_ask": [
+      {
+        "objective": "Herald patch history",
+        "say": "Did this start with a single larger spot before the others appeared?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "herald patch",
+          "single spot first"
+        ]
+      },
+      {
+        "objective": "Distribution pattern",
+        "say": "Are the spots mostly on your trunk, following a pattern like a Christmas tree?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "trunk",
+          "back"
+        ]
+      },
+      {
+        "objective": "Itching severity",
+        "say": "How itchy is it?",
+        "domains": [
+          "severity"
+        ]
+      },
+      {
+        "objective": "Prior antifungal treatment",
+        "say": "Did you try an antifungal cream on the first spot, and did it help?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "antifungal",
+          "no help"
+        ]
+      },
+      {
+        "objective": "Systemic symptoms",
+        "say": "Any fever or joint pain?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "114/72",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "About three weeks ago, I got this single oval pink patch on my lower back, and then about a week ago, dozens of smaller pink spots suddenly spread all over my chest, belly, and back.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started three weeks ago with just that one larger oval spot on my lower back. Then, over the past seven days, all these smaller spots popped up across my torso and upper thighs.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "They are mainly on my back, chest, and stomach, with a few reaching down to my upper thighs. There are none on my face, arms, or lower legs.",
+        "topic": "Distribution of the rash"
+      },
+      {
+        "answer": "No, my palms and the soles of my feet are completely clear.",
+        "topic": "Involvement of palms and soles"
+      },
+      {
+        "answer": "The first spot on my back is about two inches wide with a fine flaky rim inside the edge. The new ones are smaller, oval, salmon-pink spots that seem to slant along lines on my back.",
+        "topic": "Lesion appearance and scaling"
+      },
+      {
+        "answer": "They itch mildly, especially when I get warm in the shower or sweat during gym class, but they do not burn or hurt at all.",
+        "topic": "Itching and sensation"
+      },
+      {
+        "answer": "No, once the spots appeared, they stayed right in the same spots. None of them have faded or popped up somewhere else within hours.",
+        "topic": "Fleeting or shifting spots"
+      },
+      {
+        "answer": "No, I have never had a rash like this in my life.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "No fever, chills, fatigue, or body aches. Aside from the rash itself, I feel completely normal.",
+        "topic": "Fever and systemic symptoms"
+      },
+      {
+        "answer": "No sores or blisters in my mouth, no redness or pain in my eyes, and nothing in my private area.",
+        "topic": "Mucosal symptoms"
+      },
+      {
+        "answer": "No, my skin isn't painful or sloughing off, and there are no dark purple spots that look like bruises.",
+        "topic": "Skin pain and peeling"
+      },
+      {
+        "answer": "No, I have had no swelling of my lips, tongue, or face, and no trouble breathing or throat tightness.",
+        "topic": "Facial swelling or breathing difficulty"
+      },
+      {
+        "answer": "No, I have not started any new prescription medicines, antibiotics, painkillers, or pills of any kind.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No new body washes, lotions, laundry detergents, perfumes, or jewelry, and no strange foods or outdoor plant exposures.",
+        "topic": "New products and contact exposures"
+      },
+      {
+        "answer": "No one at home or in my classes has a rash like this, and none of my friends have been sick.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I haven't noticed any tick or insect bites, and I haven't gone camping or traveling. I do use the school gym and shared locker room for volleyball.",
+        "topic": "Insect bites and gym exposure"
+      },
+      {
+        "answer": "No, I've never had eczema, asthma, hay fever, or any allergic conditions.",
+        "topic": "Personal history of atopy"
+      },
+      {
+        "answer": "No joint aches, morning stiffness, or swollen joints at all, and my nails look completely normal without dents.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I thought the first spot was ringworm, so I put over-the-counter clotrimazole cream on it twice a day for two weeks, but it didn't do anything at all.",
+        "topic": "Ointments tried and response"
+      },
+      {
+        "answer": "I am not sexually active, and I have never had any genital ulcers, sores, or discharges.",
+        "topic": "Sexual history and genital sores"
+      },
+      {
+        "answer": "I was worried I caught severe ringworm from gym mats at school, or maybe had some sudden widespread allergic reaction.",
+        "topic": "Suspected cause and ideas"
+      },
+      {
+        "answer": "I'm really embarrassed by how it looks and terrified it will leave permanent scars, especially with prom coming up next weekend.",
+        "topic": "Concerns and scarring fear"
+      },
+      {
+        "answer": "I was hoping you could give me a strong cream or pill to make the rash disappear completely before next weekend.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I don't have any chronic medical illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "Just the over-the-counter clotrimazole cream I tried on my back. I don't take any daily medications, vitamins, or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or latex.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "No, I don't smoke, vape, drink alcohol, or use any recreational drugs.",
+        "topic": "Smoking and alcohol"
+      },
+      {
+        "answer": "I am a high school sophomore and live at home with my parents. No one in our family has psoriasis or chronic skin problems.",
+        "topic": "Social and family history"
+      },
+      {
+        "answer": "My last period started two weeks ago. My cycles are regular every 28 days, and there is no chance of pregnancy.",
+        "topic": "Menstrual history and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 114/72 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-appearing adolescent female in no acute distress; alert, oriented, and calm.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Prominent 4 x 3 cm oval fawn-colored plaque on the right lumbar back with a delicate collarette of scale just inside the border; multiple 1-2 cm discrete salmon-pink oval plaques along skin cleavage lines across the trunk in a Christmas-tree distribution; palms, soles, scalp, and web spaces are completely clear.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is pink, moist, and intact without erythema, erosions, ulcers, or mucosal patches; posterior pharynx is clear.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are clear without injection or discharge; sclerae are non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, submandibular, or supraclavicular lymphadenopathy; palpated nodes are non-tender and mobile.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "External genitalia are normal without rashes, ulcers, chancres, or mucosal lesions.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Full active and passive range of motion in all peripheral joints without tenderness, warmth, or swelling; fingernails and toenails show no pitting, oil drops, or onycholysis.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

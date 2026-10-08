@@ -1,0 +1,316 @@
+{
+  "id": "nephro_044",
+  "system": "nephrology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Rivera",
+  "age": 74,
+  "gender": "female",
+  "chief_complaint": "proteinuria and progressive creatinine rise with high BP",
+  "hpi_details": "A 74-year-old female presents to the clinic with proteinuria and progressive creatinine rise with high bp. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "thinks it might be from her blood pressure, since it has never been well controlled",
+  "concerns": "She is worried her kidney health will deteriorate to the point where she becomes a physical burden to her working daughter.",
+  "expectations": "She hopes to get a kidney-friendly diet plan and a medication that will prevent further decline.",
+  "pmh": "Long-standing hypertension, poorly controlled for over 15 years",
+  "medications": "Amlodipine 10mg daily",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [
+    {"id": "creatinine", "test": "Serum creatinine", "value": "1.8", "unit": "mg/dL", "reference_range": "0.6-1.1", "flag": "high", "note": "Prior baseline was approximately 1.0 mg/dL."},
+    {"id": "egfr", "test": "Estimated glomerular filtration rate", "value": "28", "unit": "mL/min/1.73m2", "reference_range": ">=60", "flag": "low"},
+    {"id": "urine_protein", "test": "Quantified urine protein", "value": "1.0", "unit": "g/day", "reference_range": "<0.15", "flag": "high"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Hypertensive Nephrosclerosis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hypertensive Nephrosclerosis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes strict blood pressure control to a target below 130/80, typically adding an ACE inhibitor or ARB for its renal-protective effect on proteinuria, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: proteinuria and progressive creatinine rise with high BP",
+      "Key HPI features: A 74-year-old female presents to the clinic with proteinuria and progressive creatinine rise with high bp. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Vitals: BP 172/98 despite amlodipine 10mg daily. Fundoscopic exam with AV nicking (hypertensive retinopathy), mild bilateral ankle edema, S4 gallop suggesting LVH. Labs: Serum creatinine 1.8 mg/dL (up from a baseline of ~1.0 mg/dL), eGFR 28 mL/min/1.73m2, urinalysis with mild proteinuria (~1 g/day) and a bland sediment (no hematuria or RBC casts), renal ultrasound with symmetrically small, echogenic kidneys.",
+      "Relevant background/PMH: Long-standing hypertension, poorly controlled for over 15 years"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hypertensive Nephrosclerosis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Diabetic nephropathy without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Very high blood pressure with symptoms (headache, vision changes) — hypertensive emergency."
+    ],
+    "management_principles": [
+      "Optimize blood pressure control to a target of <130/80 by adding a second agent -- an ACE inhibitor or ARB is preferred given its renal-protective effect on proteinuria",
+      "Monitor renal function and potassium closely after starting or titrating the ACEi/ARB",
+      "Refer to nephrology for CKD stage 4 management, including anemia and mineral-bone disease workup and dialysis-access planning discussion as appropriate"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: proteinuria and progressive creatinine rise with high BP\n\nA 74-year-old female with 15 years of poorly controlled hypertension on amlodipine monotherapy is found to have new proteinuria and a rising creatinine on routine labs. Denies edema, hematuria, or urinary symptoms.",
+    "objective": "Vitals: BP 172/98 despite amlodipine 10mg daily. Fundoscopic exam with AV nicking (hypertensive retinopathy), mild bilateral ankle edema, S4 gallop suggesting LVH. Labs: Serum creatinine 1.8 mg/dL (up from a baseline of ~1.0 mg/dL), eGFR 28 mL/min/1.73m2, urinalysis with mild proteinuria (~1 g/day) and a bland sediment (no hematuria or RBC casts), renal ultrasound with symmetrically small, echogenic kidneys.",
+    "assessment": "Hypertensive nephrosclerosis (CKD stage 4) attributable to longstanding poorly controlled hypertension, based on the bland urine sediment, symmetrically small echogenic kidneys, and absence of an alternative cause.",
+    "plan": "1. Optimize blood pressure control to a target of <130/80 by adding an ACE inhibitor or ARB for its renal-protective effect. 2. Monitor renal function and potassium closely after starting or titrating therapy. 3. Refer to nephrology for CKD stage 4 management, including anemia and mineral-bone disease workup."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Hypertensive Nephrosclerosis",
+    "Select appropriate diagnostic workup for Hypertensive Nephrosclerosis",
+    "Implement evidence-based management plan: Strict blood pressure control (<130/80), start ACEi/ARB"
+  ],
+  "teaching": {
+    "diagnosis": "Hypertensive Nephrosclerosis",
+    "one_liner": "Years of uncontrolled high blood pressure damages the small renal arteries, causing progressive proteinuria and rising creatinine.",
+    "differentials": [
+      "Diabetic nephropathy",
+      "Renal artery stenosis"
+    ],
+    "red_flags": [
+      "Very high blood pressure with symptoms (headache, vision changes) — hypertensive emergency"
+    ],
+    "must_ask": [
+      {
+        "objective": "Blood pressure history",
+        "say": "How long have you had high blood pressure, and how controlled has it been?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Medication adherence",
+        "say": "Have you been taking your blood pressure medications regularly?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Symptoms",
+        "say": "Any headaches or vision changes?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Urine changes",
+        "say": "Any foaminess or swelling?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "How the finding was made",
+        "say": "Was the protein and creatinine change found on routine testing?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "172/98",
+      "hr": 74,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My doctor told me that my blood pressure is very high and that my kidney numbers have gotten worse on my recent routine checkup, so I came in to get it checked.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "At my clinic visit earlier this week, the doctor said my blood creatinine level had gone up and there was some protein leaking into my urine.",
+        "topic": "Abnormal test results"
+      },
+      {
+        "answer": "In past checkups my kidney tests were always normal, but my blood pressure has been running high for over fifteen years.",
+        "topic": "Previous checkup results"
+      },
+      {
+        "answer": "I fasted overnight before the blood draw as told and did not have coffee or smoke, though I did feel a little anxious sitting in the clinic.",
+        "topic": "Circumstances during screening"
+      },
+      {
+        "answer": "When I check my blood pressure on my machine at home, the top number is usually around the 150s or 160s, and it rarely ever drops below 140.",
+        "topic": "Home blood pressure monitoring"
+      },
+      {
+        "answer": "I have noticed that I feel more tired and run-down over the last few weeks, but I thought it was just from getting older.",
+        "topic": "General fatigue and onset"
+      },
+      {
+        "answer": "I do not have frequent headaches, lightheadedness, or excessive thirst.",
+        "topic": "Associated symptoms"
+      },
+      {
+        "answer": "No, I have not had any chest tightness, shortness of breath, sudden blurry vision, or weakness on one side of my body.",
+        "topic": "Cardiovascular and neurological symptoms"
+      },
+      {
+        "answer": "I haven't had burning with urination, difficulty passing urine, or visible blood, but my socks and shoes have felt a little tighter around my ankles recently.",
+        "topic": "Urinary symptoms and swelling"
+      },
+      {
+        "answer": "I have not noticed prominent bubbles or frothy foam in the toilet bowl when I go to the bathroom.",
+        "topic": "Foamy urine"
+      },
+      {
+        "answer": "No, I haven't had any fevers, chills, drenching night sweats, or unexpected weight loss.",
+        "topic": "Fever and constitutional symptoms"
+      },
+      {
+        "answer": "No, I do not experience sudden pounding heartbeats, excessive sweating spells, severe muscle weakness, or loud nighttime snoring.",
+        "topic": "Secondary hypertension symptoms"
+      },
+      {
+        "answer": "I take plain Tylenol once in a while for minor aches, but I avoid ibuprofen and other anti-inflammatory pills because my doctor told me to stay away from them.",
+        "topic": "Over the counter pain medications"
+      },
+      {
+        "answer": "I try to eat balanced meals, but I do enjoy salty stews and soups, and my main exercise is a gentle walk around the neighborhood.",
+        "topic": "Diet and lifestyle habits"
+      },
+      {
+        "answer": "I was an elementary school teacher before retiring, so I never worked around asbestos, silica dust, or industrial chemicals.",
+        "topic": "Occupational dust exposure"
+      },
+      {
+        "answer": "I went through menopause around age fifty, and I have never had a bone fracture, noticeable height loss, or taken steroid medications.",
+        "topic": "Bone fractures and menopause"
+      },
+      {
+        "answer": "No, I have never had tuberculosis and have never lived with or been exposed to anyone who had it.",
+        "topic": "Tuberculosis history and exposure"
+      },
+      {
+        "answer": "I was diagnosed with high blood pressure about fifteen years ago, but it has never really been well controlled even with my pill.",
+        "topic": "Blood pressure history"
+      },
+      {
+        "answer": "I take my blood pressure medicine faithfully every single morning with breakfast, and I hardly ever miss a dose.",
+        "topic": "Medication adherence"
+      },
+      {
+        "answer": "I suspect this kidney issue might be caused by my high blood pressure, since it has stayed high for so many years.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "My daughter already works two jobs to support us, and I'm terrified of becoming a heavy burden on her if my kidneys fail.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can tell me exactly what foods to avoid and give me a pill to keep my kidneys from getting any worse.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "Aside from high blood pressure for the past fifteen years, I have never been diagnosed with diabetes, kidney disease, or heart conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was twenty-two, but I have had no other operations or hospital stays since.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take amlodipine 10 milligrams once daily, plus a standard over-the-counter daily multivitamin.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products in my life.",
+        "topic": "Smoking"
+      },
+      {
+        "answer": "I only have half a glass of red wine on special holidays or family gatherings, and nothing more.",
+        "topic": "Alcohol"
+      },
+      {
+        "answer": "I am a retired teacher and live comfortably with my husband in a ground-floor apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure and passed away from a stroke in his seventies, but no one in my immediate family had chronic kidney failure.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 172/98 mmHg, heart rate is 74 beats per minute, respiratory rate is 16 breaths per minute, and body temperature is 36.8 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Fundoscopic examination reveals arteriovenous nicking and copper wiring consistent with hypertensive retinopathy, with no retinal hemorrhages, exudates, or papilledema.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, supraclavicular, or submandibular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with normal vesicular breath sounds and no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with an audible S4 gallop; no murmurs, pericardial rubs, or clicks appreciated.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal active bowel sounds heard; no renal artery or abdominal aortic bruits present.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended without hepatomegaly or splenomegaly.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness elicited bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Mild 1+ pitting edema noted over both ankles and pretibial areas without erythema or warmth.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Radial, femoral, posterior tibial, and dorsalis pedis pulses are 2+ and symmetric bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Normal spinal alignment without kyphosis or scoliosis, and no midline tenderness along the spine.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

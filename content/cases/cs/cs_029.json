@@ -1,0 +1,311 @@
+{
+  "id": "cs_029",
+  "system": "cs",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Taylor",
+  "age": 29,
+  "gender": "male",
+  "chief_complaint": "fatigue, dyspnea, orthopnea, and blowing systolic murmur",
+  "hpi_details": "A 29-year-old male presents to the clinic with fatigue, dyspnea, orthopnea, and blowing systolic murmur. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks his severe breathlessness and fatigue are from a lingering chest cold that settled in his lungs from working long hours.",
+  "concerns": "He is worried he will have to give up playing soccer on the weekends and won't be able to keep up with his active job.",
+  "expectations": "He hopes the doctor will prescribe an inhaler or strong decongestant so he can breathe easily and sleep flat in bed again.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "severe_mr_echo",
+      "title": "Transthoracic echocardiogram",
+      "order_terms": ["echocardiogram", "echo", "TTE"],
+      "availability_message": "The transthoracic echocardiogram report is now available.",
+      "results": [
+        {
+          "id": "echo_severe_primary_mr",
+          "test": "Transthoracic echocardiogram",
+          "value": "Severe primary mitral regurgitation from posterior leaflet prolapse; effective regurgitant orifice 0.48 cm2; regurgitant volume 68 mL; LVEF 60%",
+          "unit": "",
+          "reference_range": "EROA <0.20 cm2; regurgitant volume <30 mL",
+          "flag": "critical",
+          "collected_at": "During today's work-up"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Severe Mitral Regurgitation evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Severe Mitral Regurgitation is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes echocardiographic definition of mitral-regurgitation severity and mechanism, followed by valve-team assessment when severe disease is confirmed, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fatigue, dyspnea, orthopnea, and blowing systolic murmur",
+      "Key HPI features: A 29-year-old male presents to the clinic with fatigue, dyspnea, orthopnea, and blowing systolic murmur. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Severe Mitral Regurgitation.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Severe Mitral Regurgitation.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Aortic stenosis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Sudden worsening — possible chordae rupture."
+    ],
+    "management_principles": [
+      "Plan for suspected mitral regurgitation: obtain echocardiography to establish severity and mechanism; refer confirmed severe disease for valve-team assessment",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of fatigue, dyspnea, orthopnea, and blowing systolic murmur. HPI: mitral valve prolapse/flail leaflet.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Severe Mitral Regurgitation.",
+    "assessment": "Mitral regurgitation is suspected from the symptoms and blowing systolic murmur; echocardiography is required to establish severity and mechanism.",
+    "plan": "Plan for suspected mitral regurgitation: obtain echocardiography to establish severity and mechanism; refer confirmed severe disease for valve-team assessment. Repair is preferred when durable repair is feasible, while replacement is selected for appropriate anatomy or mechanism. Seek urgent evaluation for sudden deterioration. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Severe Mitral Regurgitation",
+    "Select appropriate diagnostic workup for Severe Mitral Regurgitation",
+    "Implement evidence-based management plan: Echocardiogram, refer for mitral valve repair or replacement"
+  ],
+  "teaching": {
+    "diagnosis": "Severe Mitral Regurgitation",
+    "one_liner": "A flail or prolapsing mitral valve leaflet allows significant backward blood flow, causing fatigue, breathlessness, and orthopnea with a blowing systolic murmur.",
+    "differentials": [
+      "Aortic stenosis",
+      "Cardiomyopathy"
+    ],
+    "red_flags": [
+      "Sudden worsening — possible chordae rupture"
+    ],
+    "must_ask": [
+      {
+        "objective": "Orthopnea",
+        "say": "How many pillows do you need to sleep?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Fatigue",
+        "say": "How is your energy level?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long have you had these symptoms?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Known valve history",
+        "say": "Have you known about your mitral valve problem before?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Progression",
+        "say": "Has this been getting worse gradually or suddenly?",
+        "domains": [
+          "progression"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 88,
+      "rr": 20,
+      "spo2": 97,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I've been feeling unusually tired lately, and whenever I lie flat in bed, I get so short of breath that I have to prop myself up.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about three or four weeks ago and has been gradually getting worse.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "I get winded just climbing one flight of stairs or walking up a slight incline, whereas I used to run without any problem.",
+        "topic": "Severity and exertional dyspnea"
+      },
+      {
+        "answer": "The shortness of breath has been steadily progressing, rather than coming and going in sudden attacks.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "I have to stack two or three pillows under my head to sleep, and I woke up twice last week gasping for air and had to sit by the window.",
+        "topic": "Orthopnea and nocturnal dyspnea"
+      },
+      {
+        "answer": "It gets noticeably worse whenever I exert myself or lie flat, and it settles down when I sit upright and rest.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I haven't heard any wheezing or whistling sounds when I breathe.",
+        "topic": "Wheezing or stridor"
+      },
+      {
+        "answer": "I have a dry cough that pops up when I lie down, but I don't have any phlegm, chills, or fever.",
+        "topic": "Cough and fever"
+      },
+      {
+        "answer": "No, I haven't had any squeezing chest pain or sharp pain when taking a deep breath.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "My heart feels like it pounds rapidly whenever I walk upstairs, but I have not had dizziness or blackouts.",
+        "topic": "Palpitations and dizziness"
+      },
+      {
+        "answer": "No, I have never coughed up blood.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "I noticed my socks leaving deep indentations around my ankles by evening, but my body weight has stayed about the same.",
+        "topic": "Leg swelling and weight changes"
+      },
+      {
+        "answer": "No, neither leg is swollen or tender, and I haven't had any surgeries or long-distance flights recently.",
+        "topic": "Unilateral leg swelling and immobilization"
+      },
+      {
+        "answer": "I feel drained and worn out by mid-afternoon even after a full night of rest, but I haven't seen any pale skin or dark stools.",
+        "topic": "Fatigue and bleeding"
+      },
+      {
+        "answer": "No, my hands and mouth do not tingle, and I don't feel like this is caused by hyperventilation or stress.",
+        "topic": "Numbness and anxiety symptoms"
+      },
+      {
+        "answer": "A doctor during a routine college health checkup mentioned I had a slight heart murmur or floppy valve, but told me it was harmless back then.",
+        "topic": "Known valve history"
+      },
+      {
+        "answer": "I have never had asthma, COPD, heart attacks, or heart failure, and I've never used an inhaler.",
+        "topic": "Past cardiopulmonary disease"
+      },
+      {
+        "answer": "I work at a desk in an office, so I am not exposed to dust, chemicals, mold, or birds.",
+        "topic": "Occupational and environmental exposures"
+      },
+      {
+        "answer": "No, I don't take beta-blockers, pain relievers like ibuprofen, or any other regular medications.",
+        "topic": "Medications causing dyspnea"
+      },
+      {
+        "answer": "I thought I just picked up a lingering chest cold or bad flu that settled into my lungs from working long hours.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I'm really worried this means I won't be able to play soccer anymore or keep up with my physically demanding job.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with high blood pressure or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter medicines, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications or food.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink one or two glasses of beer socially on weekends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office administrator and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are healthy, and there is no history of early heart disease or sudden cardiac death in my family.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/74 mmHg, pulse rate 88 beats/min, respiratory rate 20 breaths/min, body temperature 36.6°C, oxygen saturation 97% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and mildly tachypneic at rest without accessory muscle use; no perioral cyanosis or digital clubbing.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Palpebral conjunctivae are pink without pallor, and sclerae are non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Mildly elevated jugular venous pressure estimated at approximately 4 cm above the sternal angle at 45 degrees.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Percussion note is resonant symmetrically across all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Fine end-inspiratory crackles are audible at both lung bases without wheezes or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Grade 3/6 high-pitched blowing holosystolic murmur heard best at the apex with radiation to the left axilla, along with an audible third heart sound.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Trace to 1+ bilateral pitting edema noted over the pretibial regions and ankles.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Both calves are symmetric without swelling, localized tenderness, warmth, or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

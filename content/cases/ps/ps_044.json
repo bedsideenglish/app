@@ -1,0 +1,328 @@
+{
+  "id": "ps_044",
+  "system": "ps",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lopez",
+  "age": 74,
+  "gender": "female",
+  "chief_complaint": "tender red swollen lump with foul discharge on back",
+  "hpi_details": "A 74-year-old woman has a previously intermittent back lump that became tender, red, swollen, and foul-smelling over several days, concerning for an infected epidermoid cyst or abscess.",
+  "ideas": "She thinks an old harmless fatty lump on her back was bitten by a spider or scratched in the shower and turned into a painful boil.",
+  "concerns": "She is worried that the rapid swelling and foul odor mean the lump has turned into a flesh-eating infection or skin cancer.",
+  "expectations": "She hopes the doctor will numb the area, drain the foul fluid, and prescribe antibiotics so she can sleep on her back again.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Infected Sebaceous Cyst evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Infected Sebaceous Cyst is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes incision and drainage when a fluctuant abscess is present; antibiotics are reserved for systemic illness, extensive cellulitis, immunocompromise, or other high-risk features and should reflect local pathogen risk.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: tender red swollen lump with foul discharge on back",
+      "Key HPI features: A previously intermittent back lump became tender, red, swollen, and foul-smelling over several days.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Infected Sebaceous Cyst.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Infected Sebaceous Cyst.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Missing systemic infection or features concerning for a necrotizing soft-tissue infection."
+    ],
+    "management_principles": [
+      "Incision and drainage when a fluctuant abscess is present; selective antibiotics for systemic illness, extensive cellulitis, immunocompromise, or other high-risk features",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of tender red swollen lump with foul discharge on back. HPI: obstructed sebaceous gland with infection.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Infected Sebaceous Cyst.",
+    "assessment": "Condition highly suspicious for Infected Sebaceous Cyst.",
+    "plan": "Examine for a fluctuant abscess and perform incision and drainage when present. Use warm compresses and analgesia. Reserve antibiotics for systemic illness, extensive cellulitis, immunocompromise, or other high-risk features, selecting therapy based on local pathogen risk."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Infected Sebaceous Cyst",
+    "Select appropriate diagnostic workup for Infected Sebaceous Cyst",
+    "Implement evidence-based management: incision and drainage when indicated, supportive care, and selective antibiotics for high-risk infection"
+  ],
+  "teaching": {
+    "diagnosis": "Infected Sebaceous Cyst",
+    "one_liner": "Plastic and reconstructive surgical case presenting with tender red swollen lump with foul discharge on back.",
+    "differentials": [
+      "Furuncle or carbuncle",
+      "Epidermoid cyst without infection",
+      "Hidradenitis suppurativa",
+      "Soft tissue abscess unrelated to a cyst"
+    ],
+    "red_flags": [
+      "Fever, hypotension, confusion, rapidly spreading cellulitis, or severe systemic illness requiring urgent emergency evaluation",
+      "Pain out of proportion, skin discoloration or bullae, crepitus, or rapidly progressive swelling suggesting a necrotizing soft-tissue infection"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset and progression",
+        "say": "How long has this lump been there, and when did it become red and painful?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ],
+        "keywords": [
+          "lump",
+          "duration",
+          "red",
+          "painful",
+          "onset"
+        ]
+      },
+      {
+        "objective": "Prior cyst history",
+        "say": "Have you had this lump before, or noticed it getting bigger and smaller over time?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "prior",
+          "cyst",
+          "history",
+          "recurrent",
+          "before"
+        ]
+      },
+      {
+        "objective": "Discharge characteristics",
+        "say": "What does the discharge look like, and does it have a bad smell?",
+        "domains": [
+          "character",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "discharge",
+          "smell",
+          "foul",
+          "pus",
+          "drainage"
+        ]
+      },
+      {
+        "objective": "Systemic symptoms",
+        "say": "Have you had any fever or chills?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "fever",
+          "chills",
+          "systemic",
+          "unwell",
+          "symptoms"
+        ]
+      },
+      {
+        "objective": "Immune status and risk factors",
+        "say": "Do you have diabetes or anything that affects your immune system?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "immune",
+          "risk",
+          "factors",
+          "immunocompromise"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 74,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I have had a bump on my back for years, but over the last four days it got red, swollen, and started leaking foul-smelling pus.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I first noticed a tiny painless lump on my back about five years ago, but it suddenly swelled up and became painful four days ago.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is right in the center of my upper back, between my shoulder blades.",
+        "topic": "Location of the lump"
+      },
+      {
+        "answer": "It was the size of a small marble for years without changing, but over the past four days it swelled up to the size of a golf ball.",
+        "topic": "Progression and size changes"
+      },
+      {
+        "answer": "There is only this single lump on my back, and I have not found any bumps anywhere else on my body.",
+        "topic": "Number and other locations"
+      },
+      {
+        "answer": "It used to feel firm and movable under my skin, but now it feels very tight, swollen, and somewhat squishy.",
+        "topic": "Consistency and mobility"
+      },
+      {
+        "answer": "It aches constantly with a throbbing pain, and it hurts sharply whenever anything touches it or presses against my back.",
+        "topic": "Pain and tenderness"
+      },
+      {
+        "answer": "No, I haven't noticed any moles changing color, shape, or size, and this lump has always been skin-colored.",
+        "topic": "Changes in moles"
+      },
+      {
+        "answer": "It hasn't had recurring crusts, ulcers, or active bleeding; it just started leaking cloudy fluid yesterday.",
+        "topic": "Bleeding and ulceration"
+      },
+      {
+        "answer": "Yes, the skin over and around the bump is bright red, warm to the touch, and the drainage smells quite foul.",
+        "topic": "Redness and warmth"
+      },
+      {
+        "answer": "There is a tiny dark pore in the center, and when it started draining, thick yellowish-white cheesy material came out.",
+        "topic": "Punctum and cheesy discharge"
+      },
+      {
+        "answer": "In the past it would occasionally puff up a tiny bit and then calm down, but it never blew up like this before.",
+        "topic": "Fluctuation in size"
+      },
+      {
+        "answer": "No, I have never had severe back acne, a cut, surgery, or any piercing in that area.",
+        "topic": "Previous injury or acne"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, night sweats, or unexplained weight loss.",
+        "topic": "Fever and systemic symptoms"
+      },
+      {
+        "answer": "I rarely expose my back to direct sunlight, and I have never had a severe blistering sunburn.",
+        "topic": "Sun exposure history"
+      },
+      {
+        "answer": "No, neither I nor anyone in my family has ever had skin cancer or melanoma.",
+        "topic": "Family history of skin cancer"
+      },
+      {
+        "answer": "I don't have diabetes, I have never received an organ transplant, and I don't take any immunosuppressant medications.",
+        "topic": "Underlying conditions and immune status"
+      },
+      {
+        "answer": "I tried gently pressing on it two days ago when it swelled up, but it hurt too much, so I just put a clean bandage over it.",
+        "topic": "Prior treatment or squeezing"
+      },
+      {
+        "answer": "I've had this quiet little lump for years, but I think a bug bit it and turned it into an angry boil.",
+        "topic": "Suspected cause"
+      },
+      {
+        "answer": "With that terrible smell and the red swelling, I'm scared to death it might be skin cancer or a flesh-eating bug.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can numb it and drain the fluid today, then give me antibiotics so I can finally sleep on my back.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I don't have any chronic illnesses like high blood pressure, diabetes, or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital admissions in my life.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not taking any prescription medicines, over-the-counter painkillers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medicines, foods, or latex.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink half a glass of wine on rare social occasions once or twice a year.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired elementary school teacher, and I live with my husband in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents passed away in their eighties from natural old age, and there is no family history of skin diseases.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, comfortable-appearing elderly female in no acute respiratory or toxic distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 124/78 mmHg, pulse 74 bpm, respiratory rate 16 breaths/min, temperature 36.8°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Upper back shows a 3 cm tender, erythematous, fluctuant subcutaneous nodule with a central punctum and malodorous purulent drainage, non-transilluminating and mobile over underlying tissue, with no other lesions elsewhere.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No palpable enlargement or tenderness of occipital, posterior cervical, or supraclavicular lymph nodes.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable axillary lymphadenopathy on either side; breast tissue without focal masses.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezes, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal heart sounds; no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No spinal bony tenderness over the thoracic vertebrae; intact thoracic spine mobility.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

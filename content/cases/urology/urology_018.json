@@ -1,0 +1,387 @@
+{
+  "id": "urology_018",
+  "system": "urology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Nguyen",
+  "age": 56,
+  "gender": "male",
+  "chief_complaint": "persistent high spiking fevers, throbbing rectal pain, and acute retention despite 5 days of antibiotics for prostatitis",
+  "hpi_details": "56M diabetic with acute bacterial prostatitis failing ciprofloxacin, presenting with high rigors, fluctuating exquisitely tender swelling on DRE, and transrectal ultrasound demonstrating a 3 cm multiloculated prostatic abscess requiring transperineal aspiration/drainage.",
+  "ideas": "He thinks the bacterial infection completely overpowered the oral antibiotics and formed a deep collection of pus down below.",
+  "concerns": "He is terrified that the infection will enter his bloodstream and trigger life-threatening sepsis.",
+  "expectations": "He hopes to receive immediate drainage or stronger IV antibiotics today to relieve the severe pressure so he can pass urine.",
+  "pmh": "Type 2 diabetes, hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "available_results": [
+    {"id": "prostatic_abscess_ultrasound", "test": "Transrectal ultrasound", "value": "3.0 cm multiloculated fluid collection within the prostate, consistent with abscess", "flag": "abnormal", "collected_at": "Before emergency referral"}
+  ],
+  "investigation_events": [
+    {
+      "id": "prostatic_abscess_sepsis_bloods",
+      "title": "Sepsis blood tests",
+      "order_terms": ["cbc", "complete blood count", "blood count", "creatinine", "renal function", "lactate", "glucose", "blood sugar", "sepsis labs"],
+      "availability_message": "The urgent blood-test results are now available; blood cultures remain pending.",
+      "results": [
+        {"id": "white_blood_cell_count", "test": "White blood cell count", "value": "21.4", "unit": "×10^9/L", "reference_range": "4.0-11.0", "flag": "high", "specimen": "Blood"},
+        {"id": "serum_creatinine", "test": "Creatinine", "value": "1.7", "unit": "mg/dL", "reference_range": "0.7-1.3", "flag": "high", "specimen": "Blood"},
+        {"id": "estimated_gfr", "test": "Estimated GFR", "value": "47", "unit": "mL/min/1.73 m²", "reference_range": ">=60", "flag": "low", "specimen": "Blood"},
+        {"id": "serum_lactate", "test": "Lactate", "value": "3.8", "unit": "mmol/L", "reference_range": "0.5-2.0", "flag": "high", "specimen": "Blood"},
+        {"id": "serum_glucose", "test": "Glucose", "value": "326", "unit": "mg/dL", "reference_range": "70-140", "flag": "high", "specimen": "Blood"}
+      ]
+    },
+    {
+      "id": "prostatic_abscess_urinalysis",
+      "title": "Urinalysis",
+      "order_terms": ["urinalysis", "urine dip", "urine microscopy", "urine test", "ua"],
+      "availability_message": "The urinalysis result is now available; the urine culture remains pending.",
+      "results": [
+        {"id": "urine_leukocyte_esterase", "test": "Leukocyte esterase", "value": "3+", "flag": "abnormal", "specimen": "Urine"},
+        {"id": "urine_nitrite", "test": "Nitrite", "value": "Positive", "flag": "abnormal", "specimen": "Urine"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Prostatic abscess with sepsis and urinary-retention risk",
+    "core_concepts": [
+      "A prostatic abscess is an uncommon complication of acute bacterial prostatitis, more likely with diabetes, immunocompromise, instrumentation, or failure to improve on appropriate therapy.",
+      "Persistent fever or rigors, severe perineal or rectal pain, urinary retention, and a fluctuant tender prostate should prompt urgent imaging and sepsis management.",
+      "Obtain urine and blood cultures before antibiotics when this does not delay treatment, then use IV therapy guided by severity, prior exposure, local resistance, renal function, and culture results.",
+      "A multiloculated or clinically significant abscess generally needs urgent urology source-control assessment; drainage approach is individualized rather than automatic."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: persistent high spiking fevers, throbbing rectal pain, and acute retention despite 5 days of antibiotics for prostatitis",
+      "Diabetes, fever despite ciprofloxacin, rigors, rectal pain, retention, and a 3-cm multiloculated collection strongly suggest prostatic abscess.",
+      "Assess vitals, perfusion, urine output, glucose, abdomen and perineum; minimize repeated vigorous prostatic manipulation in acute infection.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming antibiotic failure is simply resistance without imaging for an abscess.",
+      "Giving the same oral antibiotic again without cultures, assessment of adherence/exposure, renal dosing, or source control.",
+      "Treating a tender prostate with retention as uncomplicated cystitis."
+    ],
+    "dangerous_errors": [
+      "Delaying emergency sepsis resuscitation, cultures, IV antimicrobials, and urology consultation.",
+      "Missing Fournier gangrene signs such as rapidly progressive perineal pain, skin discoloration, crepitus, or toxicity.",
+      "Attempting repeated traumatic urethral catheterization in retention; coordinate urinary drainage with urology."
+    ],
+    "management_principles": [
+      "Send to the emergency department/admit, monitor for sepsis, obtain CBC, creatinine/eGFR, electrolytes, lactate, glucose, urinalysis, urine culture, and blood cultures when febrile.",
+      "Obtain urgent pelvic imaging and consult urology for drainage planning and follow-up imaging.",
+      "Start renal-adjusted empiric IV antibiotics after cultures when feasible, then narrow and set duration according to cultures, drainage, and specialist advice.",
+      "Control glucose and provide analgesia and fluids as clinically indicated; reassess urine output and retention."
+    ],
+    "boundaries_and_exceptions": [
+      "Antibiotic selection must account for prior fluoroquinolone exposure, allergy, culture susceptibilities, renal function, and local resistance; antibiotics do not replace drainage when source control is needed.",
+      "Anticoagulant use, thrombocytopenia, and hemodynamic instability affect procedural planning and should be communicated to urology."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: persistent high spiking fevers, throbbing rectal pain, and acute retention despite 5 days of antibiotics for prostatitis\n\n56M diabetic with acute bacterial prostatitis failing ciprofloxacin, presenting with high rigors, fluctuating exquisitely tender swelling on DRE, and transrectal ultrasound demonstrating a 3 cm multiloculated prostatic abscess requiring transperineal aspiration/drainage.",
+    "objective": "Complete vital signs and focused physical examination. Evaluate for pertinent signs.",
+    "assessment": "Prostatic abscess with treatment failure and high risk of urosepsis and obstructive complications.",
+    "plan": "Emergency admission, sepsis care, renal-adjusted IV antibiotics guided by cultures, urgent urology consultation for individualized drainage and safe urinary decompression."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Prostate Abscess Bacterial Complication",
+    "Formulate prioritized differential diagnosis for persistent high spiking fevers, throbbing rectal pain, and acute retention despite 5 days of antibiotics for prostatitis",
+    "Select appropriate laboratory and imaging studies for urology",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Prostatic abscess",
+    "one_liner": "A diabetic man with persistent fever, rigors, rectal pain, retention, and a multiloculated prostatic collection despite antibiotics requires emergency source-control assessment.",
+    "differentials": [
+      "Treatment-refractory acute bacterial prostatitis",
+      "Perirectal or ischiorectal abscess",
+      "Prostate cancer with local infection"
+    ],
+    "red_flags": [
+      "Acute total urinary retention",
+      "Urosepsis with high fever"
+    ],
+    "must_ask": [
+      {
+        "objective": "Response to prior antibiotic treatment",
+        "say": "You mentioned you've been on antibiotics for a prostate infection already — have your fevers and pain gotten any better since starting them?",
+        "domains": [
+          "onset_duration",
+          "pmh"
+        ],
+        "keywords": [
+          "antibiotics",
+          "improved",
+          "worse",
+          "days",
+          "treatment"
+        ]
+      },
+      {
+        "objective": "Rectal pain and difficulty sitting",
+        "say": "Is the pain so severe that it's hard to sit down or have a bowel movement?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "rectal pain",
+          "sitting",
+          "bowel movement",
+          "severe"
+        ]
+      },
+      {
+        "objective": "Urinary retention symptoms",
+        "say": "Are you able to urinate at all right now, or does it feel completely blocked?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "retention",
+          "blocked",
+          "unable to urinate",
+          "straining"
+        ]
+      },
+      {
+        "objective": "Diabetes and immunosuppression risk factors",
+        "say": "Do you have diabetes, and how well controlled has your blood sugar been?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "blood sugar",
+          "immunosuppressed"
+        ]
+      },
+      {
+        "objective": "Systemic sepsis screening",
+        "say": "Are you having ongoing high fevers and shaking chills despite the antibiotics?",
+        "domains": [
+          "associated_symptoms",
+          "concerns"
+        ],
+        "keywords": [
+          "fever",
+          "chills",
+          "rigors",
+          "sepsis",
+          "ongoing"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "104/64",
+      "hr": 110,
+      "rr": 22,
+      "spo2": 98,
+      "temp_c": 39.2
+    },
+    "history": [
+      {
+        "answer": "I've had high fevers that won't go down and severe throbbing pain near my rectum, and since this morning I can't pass any urine.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever started about a week ago, but over the last five days it has become much higher and more intense despite taking antibiotics.",
+        "topic": "Fever onset and duration"
+      },
+      {
+        "answer": "My temperature spikes up over thirty-nine degrees every afternoon, and I get violent shaking chills that make my teeth chatter.",
+        "topic": "Fever pattern and shaking chills"
+      },
+      {
+        "answer": "I took acetaminophen every six hours, but it barely brings my temperature down for an hour before the fever shoots back up.",
+        "topic": "Antipyretic medications and relief"
+      },
+      {
+        "answer": "No, I haven't had any cough, runny nose, sore throat, or shortness of breath.",
+        "topic": "Cough and respiratory symptoms"
+      },
+      {
+        "answer": "I had terrible burning and had to pee constantly for days, but I haven't had any sharp pain in my sides or back.",
+        "topic": "Urinary symptoms and flank pain"
+      },
+      {
+        "answer": "My lower belly feels tight and swollen because my bladder is full, but I have no nausea, vomiting, or diarrhea.",
+        "topic": "Abdominal and digestive symptoms"
+      },
+      {
+        "answer": "No, I haven't had any severe headache, stiff neck, or trouble thinking clearly.",
+        "topic": "Headache and neck stiffness"
+      },
+      {
+        "answer": "No, I don't have any rash, black scabs, tick bites, or painful joints.",
+        "topic": "Skin rash and insect bites"
+      },
+      {
+        "answer": "I soak my sheets when the high fever breaks, but I haven't had chronic night sweats or lost any weight recently.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "No, I haven't felt any lumps or swollen glands in my neck, armpits, or groin.",
+        "topic": "Swollen glands or lumps"
+      },
+      {
+        "answer": "I haven't traveled outside the country recently, gone camping in the woods, or touched stray animals.",
+        "topic": "Travel and outdoor activities"
+      },
+      {
+        "answer": "No one at my home or office has been sick with a fever or any infection.",
+        "topic": "Contact with sick individuals"
+      },
+      {
+        "answer": "No, I have never received chemotherapy, steroid injections, or any medication that weakens the immune system.",
+        "topic": "Chemotherapy and immunosuppressive drugs"
+      },
+      {
+        "answer": "I don't have an artificial heart valve or heart murmur, and I haven't had any dental work done lately.",
+        "topic": "Heart conditions and dental work"
+      },
+      {
+        "answer": "The clinic doctor started me on oral ciprofloxacin five days ago for a prostate infection, but it hasn't helped at all.",
+        "topic": "Recently started medications"
+      },
+      {
+        "answer": "I have been in a monogamous relationship with my wife for twenty-five years, and I've never used recreational drugs or needles.",
+        "topic": "Sexual history and drug use"
+      },
+      {
+        "answer": "I finished five days of ciprofloxacin exactly as prescribed, but my fever got worse and the pain became unbearable.",
+        "topic": "Response to prior antibiotics"
+      },
+      {
+        "answer": "It feels like a deep, throbbing pressure right inside my rectum, and sitting on a chair is agonizing.",
+        "topic": "Rectal pain and sitting difficulty"
+      },
+      {
+        "answer": "My bladder feels completely full and ready to burst, but I cannot push out even a single drop of urine.",
+        "topic": "Urinary retention symptoms"
+      },
+      {
+        "answer": "I've had type 2 diabetes for eight years, and my blood sugar has been running high over three hundred while I've been sick.",
+        "topic": "Diabetes management and control"
+      },
+      {
+        "answer": "I feel completely exhausted, my heart is pounding fast, and I get lightheaded whenever I stand up.",
+        "topic": "Fatigue and systemic symptoms"
+      },
+      {
+        "answer": "I feel like those antibiotic pills completely failed and a pocket of bad infection has built up deep inside.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I'm scared the infection is spreading into my blood because these shaking chills are unbearable, and I might go into septic shock.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I just need someone to drain this swollen area or give me heavy IV antibiotics right now so I can finally pee.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "I have type 2 diabetes, high blood pressure, and mildly elevated cholesterol.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any operations, and I have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril ten milligrams every day for my blood pressure, along with my diabetes pill.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I don't have any known allergies to medicines, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine on holidays, never on a regular basis.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an accountant and live with my wife in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure, but there is no family history of kidney problems or prostate cancer.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Patient appears acutely ill, diaphoretic, flushed, and visibly uncomfortable while sitting.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 104/64 mmHg, heart rate 110 beats/min, respiratory rate 22 breaths/min, temperature 39.2°C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Oropharynx is clear without mucosal erythema, tonsillar enlargement, or exudate.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, supraclavicular, or submandibular lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields without wheezes, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft abdomen with marked distension and exquisite tenderness over the suprapubic area; a tense urinary bladder is palpable up to the umbilicus.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal circumcised penis and scrotum without erythema, swelling, or urethral discharge.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is warm and diaphoretic without rash, petechiae, purpura, or eschar.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full range of motion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Exquisitely tender, asymmetric prostate with a fluctuant focal swelling in the right lobe; examination is limited due to severe pain.",
+        "maneuver": "digital_rectal_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "id": "nephro_018",
+  "system": "nephrology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Taylor",
+  "age": 70,
+  "gender": "male",
+  "chief_complaint": "trouble peeing and lower belly pain",
+  "hpi_details": "70M presents with 2 days of worsening difficulty urinating. Today he has been unable to pass any urine for 12 hours and has severe lower abdominal discomfort and fullness.",
+  "ideas": "thinks his prostate is enlarged",
+  "concerns": "worried his bladder will burst",
+  "expectations": "wants a catheter",
+  "pmh": "BPH (Benign Prostatic Hyperplasia)",
+  "medications": "Tamsulosin, newly started over-the-counter cold medicine (Diphenhydramine)",
+  "social_hx": "Retired",
+  "investigation_events": [
+    {
+      "id": "stat_urinary_retention_workup",
+      "title": "Urgent urinary retention assessment",
+      "order_terms": ["bladder scan", "post-void residual", "BMP", "basic metabolic panel", "renal function", "creatinine", "potassium"],
+      "availability_message": "Bedside bladder scan and urgent renal function results are now available. Bladder decompression should not be delayed while awaiting blood tests.",
+      "results": [
+        {"id": "bladder_volume", "test": "Bedside bladder scan", "value": ">999", "unit": "mL", "flag": "high"},
+        {"id": "creatinine", "test": "Serum creatinine", "value": "2.0", "unit": "mg/dL", "reference_range": "0.7-1.3", "flag": "high"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Urinary Retention",
+    "core_concepts": [
+      "Commonly caused by BPH in older men, often triggered by anticholinergic or sympathomimetic medications (like OTC cold meds).",
+      "Can cause post-renal acute kidney injury (AKI)."
+    ],
+    "diagnostic_clues": [
+      "Inability to void",
+      "Suprapubic pain/fullness",
+      "Recent anticholinergic use"
+    ],
+    "common_misconceptions": [
+      "Assuming anuria is due to a kidney problem (pre-renal/intrinsic) without checking bladder volume."
+    ],
+    "dangerous_errors": [
+      "Failing to decompress the bladder promptly, leading to permanent detrusor damage or severe AKI."
+    ],
+    "management_principles": [
+      "Immediate bladder ultrasound, placement of Foley catheter, check BMP for AKI, stop offending meds."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "70M with BPH presenting with acute inability to void for 12 hours and suprapubic pain after taking cold medicine.",
+    "objective": "Distended, tender suprapubic mass. Bladder scan shows >999 mL.",
+    "assessment": "Acute urinary retention, likely medication-induced superimposed on BPH.",
+    "plan": "STAT Foley catheter placement. Check BMP. Stop diphenhydramine. Follow up with urology."
+  },
+  "learning_objectives": [
+    "Recognize acute urinary retention and identify common medication triggers."
+  ],
+  "teaching": {
+    "diagnosis": "Acute Urinary Retention",
+    "one_liner": "Acute inability to void with a painful, distended bladder in an elderly man, often triggered by anticholinergic medications.",
+    "differentials": [
+      "UTI",
+      "Neurogenic bladder"
+    ],
+    "red_flags": [
+      "Elevated creatinine (post-renal AKI)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset and prior voiding pattern",
+        "say": "When did you last pass urine, and how has your urine stream been recently?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "last urinated",
+          "weak stream"
+        ]
+      },
+      {
+        "objective": "Prostate and BPH history",
+        "say": "Have you had any trouble starting your stream, dribbling, or waking at night to urinate before this?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "BPH",
+          "hesitancy",
+          "nocturia"
+        ]
+      },
+      {
+        "objective": "Medication triggers",
+        "say": "Have you taken any cold or allergy medicine, or other new medications recently?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "anticholinergic",
+          "cold medicine",
+          "decongestant"
+        ]
+      },
+      {
+        "objective": "Pain severity",
+        "say": "How severe is the lower belly pain, and does it come with an urge to void?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "suprapubic pain",
+          "urge"
+        ]
+      },
+      {
+        "objective": "Neurological causes",
+        "say": "Have you had any back pain, leg weakness, or numbness that could point to a nerve problem?",
+        "domains": [
+          "red_flags"
+        ],
+        "keywords": [
+          "back pain",
+          "weakness",
+          "numbness"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/88",
+      "hr": 86,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I haven't been able to pee at all since this morning, and my lower belly is in terrible pain and feels completely full.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My main trouble is that no urine will come out at all, not that it is leaking.",
+        "topic": "Voiding difficulty versus leakage"
+      },
+      {
+        "answer": "It started getting noticeably harder to pee two days ago, and starting twelve hours ago this morning, it stopped coming out entirely.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "Over the past few months I have had to wait a while for the stream to start, and the flow was weak, but I could usually push it out until today.",
+        "topic": "Hesitancy, weak stream, and straining"
+      },
+      {
+        "answer": "Yes, I usually feel like I haven't completely emptied my bladder, and urine often dribbles onto my pants after I finish.",
+        "topic": "Incomplete emptying and dribbling"
+      },
+      {
+        "answer": "I have not passed a single drop of urine for twelve hours, and my lower belly is swollen, tight, and aching intensely.",
+        "topic": "Complete inability to void and lower belly pain"
+      },
+      {
+        "answer": "Usually I go to the bathroom six or seven times during the day and wake up three or four times at night to pee.",
+        "topic": "Daytime frequency and nocturia"
+      },
+      {
+        "answer": "I often get a sudden, strong urge to go where I have to hurry, but I haven't had accidents where urine leaked before I reached the toilet.",
+        "topic": "Urgency and urge incontinence"
+      },
+      {
+        "answer": "No, I never leak when coughing, laughing, sneezing, or lifting heavy objects, and I have never worn pads.",
+        "topic": "Stress incontinence and pad use"
+      },
+      {
+        "answer": "It burned a little bit when I was trying to strain yesterday, but I haven't seen any blood in my urine and I have had no fever or chills.",
+        "topic": "Dysuria, hematuria, and fever"
+      },
+      {
+        "answer": "No, I do not have back pain, leg weakness, numbness, loss of feeling around my bottom, or bowel leakage.",
+        "topic": "Back pain and neurological symptoms"
+      },
+      {
+        "answer": "No, my bowels have been moving regularly, and I had a normal bowel movement yesterday.",
+        "topic": "Constipation"
+      },
+      {
+        "answer": "I usually drink around four glasses of water and one cup of coffee a day, but I stopped drinking fluids today because the fullness is unbearable.",
+        "topic": "Fluid, caffeine, and alcohol intake"
+      },
+      {
+        "answer": "I caught a bad head cold two days ago, so I started taking an over-the-counter nighttime cold medicine containing diphenhydramine for the last two nights.",
+        "topic": "Cold medication and other drugs"
+      },
+      {
+        "answer": "No, I have never had diabetes, a stroke, Parkinson's disease, or any spine surgery.",
+        "topic": "Neurological and spinal history"
+      },
+      {
+        "answer": "No, I have never injured my groin, never had a catheter or urinary procedure, and never had any sexually transmitted infections or urethritis.",
+        "topic": "Trauma and prior urological procedures"
+      },
+      {
+        "answer": "My doctor diagnosed me with an enlarged prostate, or benign prostatic hyperplasia, about three years ago.",
+        "topic": "Prostate and BPH history"
+      },
+      {
+        "answer": "The pain is a severe, constant aching pressure in the middle of my lower belly, about an eight out of ten, and it hurts worse when pressed.",
+        "topic": "Pain severity and character"
+      },
+      {
+        "answer": "I think my enlarged prostate has swollen up so much that it completely shut off the urine passage.",
+        "topic": "Patient's perspective on cause"
+      },
+      {
+        "answer": "The pressure is so unbearable that I am genuinely terrified my bladder is going to burst.",
+        "topic": "Patient's main concern"
+      },
+      {
+        "answer": "Please put in a catheter or tube right away to drain the urine; I desperately need relief.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "Apart from the enlarged prostate, I have mild high blood pressure, but no other chronic illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was a teenager, but I have had no other surgeries and no hospital stays since then.",
+        "topic": "Past surgeries and hospital stays"
+      },
+      {
+        "answer": "I take tamsulosin daily for my prostate, and I started that over-the-counter diphenhydramine cold medicine two nights ago.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I do not have any allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I smoked half a pack a day in my twenties, but I quit completely over thirty years ago.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional beer once or twice a month, and none recently.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired accountant, and I live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had prostate enlargement as he aged, but there is no family history of prostate cancer or kidney failure.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient is an elderly male appearing in marked discomfort, grimacing and holding his lower abdomen.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 142/88 mmHg, pulse 86 beats/min, respiratory rate 18 breaths/min, temperature 36.8°C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Visible fullness and distension in the suprapubic midline with no surgical scars.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "A smooth, firm, tensely distended and tender suprapubic mass is palpable extending halfway up to the umbilicus; no guarding or rigidity elsewhere.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Dullness to percussion over the palpable suprapubic mass, with normal tympany elsewhere in the abdomen.",
+        "maneuver": "abdominal_percussion",
+        "response": "pain"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal anal sphincter tone; symmetrically enlarged, smooth, rubbery prostate with no nodules or tenderness.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal 5/5 motor strength in all muscle groups of the bilateral lower extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch sensation across bilateral lower extremities and normal perianal saddle sensation.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Patellar and Achilles tendon reflexes are 2+ bilaterally, with downward plantar reflexes.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

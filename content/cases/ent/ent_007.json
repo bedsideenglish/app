@@ -1,0 +1,333 @@
+{
+  "id": "ent_007",
+  "system": "otolaryngology (ent)",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Master Green",
+  "age": 6,
+  "gender": "male",
+  "chief_complaint": "chronic nasal obstruction, mouth breathing, snoring, and recurring strep throat episodes requiring adenotonsillectomy evaluation",
+  "hpi_details": "6-year-old boy brought by parents due to chronic loud snoring, restless sleep, frequent gasping/pauses in breathing at night, and daytime mouth breathing with nasal congestion lasting >1 year. In addition, child has suffered 6 documented, culture-positive episodes of Group A Streptococcal pharyngitis over the past 12 months, each requiring 10-day antibiotic courses. Parents note child is tired during the day and has difficulty swallowing large bites of meat.",
+  "ideas": "parents exhausted by loud snoring and constantly missing school for throat infections",
+  "concerns": "parents worried child is not getting oxygen at night during breathing pauses (sleep apnea)",
+  "expectations": "want pediatric ENT evaluation for tonsil and adenoid surgical removal",
+  "pmh": "Recurrent streptococcal tonsillopharyngitis, Pediatric Obstructive Sleep Apnea (OSA)",
+  "medications": "None currently",
+  "social_hx": "1st-grade elementary school student",
+  "clinical_knowledge": {
+    "topic": "Severe Adenotonsillar Hypertrophy (Pediatric OSA + Recurrent Strep) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Severe Adenotonsillar Hypertrophy (Pediatric OSA + Recurrent Strep) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Adenotonsillectomy (T&A) by Pediatric ENT with planned overnight inpatient monitoring for severe OSA (AHI >=10), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: chronic nasal obstruction, mouth breathing, snoring, and recurring strep throat episodes requiring adenotonsillectomy evaluation",
+      "Key HPI features: 6-year-old boy brought by parents due to chronic loud snoring, restless sleep, frequent gasping/pauses in breathing at night, and daytime mouth breathing with nasal congestion lasting >1 year. In addition, child has suffered 6 documented, culture-positive episodes of Group A Streptococcal pharyngitis over the past 12 months, each requiring 10-day antibiotic courses. Parents note child is tired during the day and has difficulty swallowing large bites of meat.",
+      "Objective/Exam findings: Vitals: HR 88, BP 98/62, Weight 22 kg. Facial exam shows classic 'adenoid facies' (open-mouthed posture, elongated face, allergic shiners). Oropharyngeal exam reveals massive bilateral palatine tonsils meeting in the midline ('kissing tonsils' / Grade 4+ tonsillar hypertrophy) that occupy >75% of the oropharyngeal airway without acute purulence. Tympanic membranes show bilateral mild middle ear effusion. Overnight polysomnography (if performed) confirms pediatric Obstructive Sleep Apnea Syndrome with an Apnea-Hypopnea Index (AHI) of 12 events/hour (>=10 events/hr is severe in children).",
+      "Relevant background/PMH: Recurrent streptococcal tonsillopharyngitis, Pediatric Obstructive Sleep Apnea (OSA)",
+      "Current medications: None currently"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Severe Adenotonsillar Hypertrophy (Pediatric OSA + Recurrent Strep).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Simple snoring without OSA without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Witnessed breathing pauses during sleep — significant OSA needing prompt evaluation."
+    ],
+    "management_principles": [
+      "Schedule Adenotonsillectomy (T&A) by Pediatric ENT with planned overnight inpatient monitoring for severe OSA (AHI >=10)",
+      "Meets the pediatric Obstructive Sleep Apnea indication (AHI 12/hour with Grade 4 kissing tonsils causing airway obstruction); 6 strep episodes in 12 months fall short of the Paradise criteria but support the decision",
+      "Paradise criteria for recurrent throat infections (>=7 episodes in 1 year, or >=5 per year for 2 years, documented with culture/fever)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "6-year-old male presenting with a surgical indication for adenotonsillectomy: Pediatric Obstructive Sleep Apnea secondary to adenotonsillar hypertrophy, plus recurrent streptococcal tonsillitis (6 episodes in 12 months, below the Paradise criteria) as a supporting factor.",
+    "objective": "Vitals: HR 88, BP 98/62, Weight 22 kg. Facial exam shows classic 'adenoid facies' (open-mouthed posture, elongated face, allergic shiners). Oropharyngeal exam reveals massive bilateral palatine tonsils meeting in the midline ('kissing tonsils' / Grade 4+ tonsillar hypertrophy) that occupy >75% of the oropharyngeal airway without acute purulence. Tympanic membranes show bilateral mild middle ear effusion. Overnight polysomnography (if performed) confirms pediatric Obstructive Sleep Apnea Syndrome with an Apnea-Hypopnea Index (AHI) of 12 events/hour (>=10 events/hr is severe in children).",
+    "assessment": "Severe Adenotonsillar Hypertrophy causing severe Pediatric Obstructive Sleep Apnea (surgical indication), with Recurrent Streptococcal Tonsillopharyngitis (6 episodes in 12 months, below the Paradise threshold).",
+    "plan": "Schedule Adenotonsillectomy (T&A) by Pediatric ENT with planned overnight inpatient monitoring (PSG AHI 12/hour, severe OSA) for obstructive sleep apnea with Grade 4 kissing tonsils causing significant nocturnal airway obstruction. Six documented infections in one year do not by themselves meet the usual Paradise threshold of >=7 episodes in one year, but support shared decision-making and continued documentation. Counsel parents on post-operative care: critical risk of primary (<24h) and secondary (days 5-10 post-op during eschar sloughing) post-tonsillectomy hemorrhage requiring immediate return to ED if any bright red blood spat up."
+  },
+  "learning_objectives": [
+    "Apply the evidence-based Paradise Clinical Criteria for Tonsillectomy in children with recurrent throat infections (>=7 documented episodes in the past year, >=5 per year for 2 years, or >=3 per year for 3 years)",
+    "Recognize clinical manifestations and polysomnographic thresholds of Pediatric Obstructive Sleep Apnea secondary to adenotonsillar hypertrophy (loud snoring, apnea pauses, adenoid facies, behavioral ADHD-like daytime symptoms)",
+    "Grade palatine tonsillar hypertrophy on the 1 to 4 scale (Grade 1 <25%, Grade 2 25-50%, Grade 3 50-75%, Grade 4 >75% / kissing tonsils)",
+    "Educate parents on post-operative tonsillectomy hemorrhage timelines and emergency protocols (secondary bleed on post-op days 5-10 during fibrin scab sloughing)"
+  ],
+  "teaching": {
+    "diagnosis": "Severe Adenotonsillar Hypertrophy (Pediatric OSA + Recurrent Strep)",
+    "one_liner": "Enlarged tonsils and adenoids block the airway during sleep (causing snoring and breathing pauses) and also harbor recurrent strep infections — the sleep apnea alone is an indication for adenotonsillectomy, even though 6 infections in a year fall just short of the Paradise criteria.",
+    "differentials": [
+      "Simple snoring without OSA",
+      "Allergic rhinitis alone",
+      "Recurrent viral pharyngitis"
+    ],
+    "red_flags": [
+      "Witnessed breathing pauses during sleep — significant OSA needing prompt evaluation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sleep symptoms",
+        "say": "Does he snore loudly, and have you noticed pauses in his breathing at night?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "snoring",
+          "breathing pauses"
+        ]
+      },
+      {
+        "objective": "Daytime symptoms",
+        "say": "Is he tired or having trouble concentrating during the day?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "daytime tiredness"
+        ]
+      },
+      {
+        "objective": "Strep throat frequency",
+        "say": "How many times has he had strep throat confirmed in the past year?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "strep throat",
+          "episodes"
+        ]
+      },
+      {
+        "objective": "Eating difficulty",
+        "say": "Does he have trouble swallowing large bites of food?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "swallowing",
+          "eating"
+        ]
+      },
+      {
+        "objective": "Nasal breathing",
+        "say": "Does he breathe through his mouth most of the time?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "mouth breathing"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "98/62",
+      "hr": 88,
+      "rr": 18,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My son has been constantly breathing through his mouth and snoring really loudly for over a year now, and his nose is always stuffed up.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The snoring and mouth breathing started a little over a year ago, and it has been persistent every single night without going away.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It has been steadily getting worse over the past year rather than coming and going.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "He rarely has runny discharge, just constant dry congestion, and there is never any thick yellow-green phlegm or bad odor.",
+        "topic": "Nasal discharge characteristics"
+      },
+      {
+        "answer": "Both sides of his nose are completely blocked all the time, so he has to keep his mouth open just to breathe.",
+        "topic": "Bilateral nasal obstruction"
+      },
+      {
+        "answer": "No, he has never had bloody discharge, nosebleeds, or numbness around his face.",
+        "topic": "Epistaxis and facial numbness"
+      },
+      {
+        "answer": "He occasionally sneezes or rubs his eyes when the seasons change, but the stuffy nose and mouth breathing happen year-round.",
+        "topic": "Sneezing and itching"
+      },
+      {
+        "answer": "It is constant throughout the year, but his breathing gets noticeably worse at night when he lies flat on his back.",
+        "topic": "Triggers and night worsening"
+      },
+      {
+        "answer": "No, he never complains of pain or heaviness across his cheeks or forehead, and bending forward does not bother him.",
+        "topic": "Facial and sinus pain"
+      },
+      {
+        "answer": "He often says he cannot smell food very well because he cannot breathe through his nose at all.",
+        "topic": "Sense of smell"
+      },
+      {
+        "answer": "He does not have a fever right now, though he gets very high fevers whenever he comes down with strep throat.",
+        "topic": "Fever"
+      },
+      {
+        "answer": "No, he has never had swollen eyes, double vision, severe headaches, or a stiff neck.",
+        "topic": "Eye swelling and neurologic symptoms"
+      },
+      {
+        "answer": "He snores extremely loudly every night, sleeps with his mouth wide open, and frequently pauses his breathing and suddenly gasps for air.",
+        "topic": "Snoring and pauses in breathing"
+      },
+      {
+        "answer": "He tosses and turns all night, sweats in his sleep, and sometimes arches his neck back to keep his airway open.",
+        "topic": "Restless sleep and sleep posture"
+      },
+      {
+        "answer": "He sometimes clears his throat like something is draining down, but he does not have a chronic cough or chest wheezing.",
+        "topic": "Postnasal drip and cough"
+      },
+      {
+        "answer": "No, we have never given him decongestant nasal sprays.",
+        "topic": "Nasal decongestant spray use"
+      },
+      {
+        "answer": "No, he does not have asthma, and he has never had breathing trouble after taking fever or pain medicine.",
+        "topic": "Asthma and painkiller reactions"
+      },
+      {
+        "answer": "No, he has never hurt his nose, had surgery, or had clear fluid dripping out after a head bump.",
+        "topic": "Nasal trauma and past surgery"
+      },
+      {
+        "answer": "No, his dental checkups have been fine, and he has no toothaches or recent dental treatments.",
+        "topic": "Dental history"
+      },
+      {
+        "answer": "No, there is no foul-smelling discharge from one nostril, and he has never pushed any small toys or food up his nose.",
+        "topic": "Nasal foreign body"
+      },
+      {
+        "answer": "He had 6 separate doctor-diagnosed, culture-proven strep throat infections in the past 12 months, and took a full 10-day antibiotic course each time.",
+        "topic": "Strep throat frequency"
+      },
+      {
+        "answer": "He really struggles to swallow large pieces of food like meat, chewing forever and swallowing tiny bites because his tonsils are huge.",
+        "topic": "Eating and swallowing difficulty"
+      },
+      {
+        "answer": "He is always exhausted in the morning, dozes off during the day, and his teacher says he has trouble focusing in class.",
+        "topic": "Daytime sleepiness and school performance"
+      },
+      {
+        "answer": "We are utterly worn out from his loud snoring and having him miss so many days of school from recurrent throat infections.",
+        "topic": "Parental thoughts and impact on life"
+      },
+      {
+        "answer": "We are terrified that his breathing pauses mean his brain is not getting enough oxygen while he sleeps.",
+        "topic": "Parental worries and sleep apnea concerns"
+      },
+      {
+        "answer": "Our pediatrician recommended an ear, nose, and throat evaluation to see if taking out his enlarged tonsils and adenoids is the right step.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "Besides the frequent strep throat episodes and the sleep apnea issues, he has had no other medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had surgery, and he has never been admitted to the hospital overnight.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "He is not taking any medications right now; he finished his last antibiotic course two weeks ago.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known allergies to penicillin, amoxicillin, or any other medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "He was born at 39 weeks by normal vaginal delivery with no complications, and his milestones have all been right on time.",
+        "topic": "Birth and developmental history"
+      },
+      {
+        "answer": "All of his childhood vaccinations are completely up to date according to the national schedule.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "His father has mild seasonal allergies, but nobody in the family has sleep apnea, bleeding problems, or anesthesia complications.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "He is in the first grade of elementary school and lives with my husband, me, and his younger sister; neither of us smokes.",
+        "topic": "Social history and home environment"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Classic adenoid facies with an open-mouthed posture, elongated facial appearance, and allergic shiners under both eyes; the child appears tired but in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 98/62 mmHg, pulse 88 beats/min, respiratory rate 18 breaths/min, body temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No periorbital swelling or erythema; pupils equal and reactive to light with full extraocular eye movements.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Otoscopy reveals bilateral tympanic membranes with mild amber middle ear effusion and dull light reflexes, but no acute redness or bulging.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness on palpation or percussion over the frontal or maxillary sinuses bilaterally.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Mildly congested nasal mucosa without polyps or purulence; oral cavity shows massive bilateral palatine tonsils touching at the midline (Grade 4 kissing tonsils) occupying over 75% of the airway without acute exudates.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Small, non-tender, mobile jugulodigastric lymph nodes palpable bilaterally; no acute cervical lymphadenitis or warm tender masses.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields without wheezing, stridor, or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Body weight is 22 kg, which is around the 50th percentile for a 6-year-old boy, with normal overall physical growth.",
+        "maneuver": "developmental_growth",
+        "response": "none"
+      }
+    ]
+  }
+}

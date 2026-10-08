@@ -1,0 +1,369 @@
+{
+  "id": "pmr_034",
+  "system": "pmr",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lewis",
+  "age": 44,
+  "gender": "female",
+  "chief_complaint": "pounding headache, BP 210/110, T4 SCI with catheter",
+  "hpi_details": "A 44-year-old female presents to the clinic with pounding headache, bp 210/110, t4 sci with catheter. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she is having a brain aneurysm or a burst blood vessel from intense stress because of how violently her head is throbbing.",
+  "concerns": "She is terrified that her sky-high blood pressure will trigger a fatal stroke or a seizure right here in the clinic.",
+  "expectations": "She hopes the doctor will give her an emergency medication to bring her blood pressure down right away and inspect her catheter to find what's wrong.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Autonomic Dysreflexia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Autonomic Dysreflexia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Autonomic dysreflexia is a medical emergency. Immediately sit the person upright, loosen restrictive clothing, monitor blood pressure frequently, and promptly identify and relieve a trigger using trained personnel and local emergency protocols.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: pounding headache, BP 210/110, T4 SCI with catheter",
+      "Key HPI features: A 44-year-old female presents to the clinic with pounding headache, bp 210/110, t4 sci with catheter. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Autonomic Dysreflexia.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Autonomic Dysreflexia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Hypertensive crisis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Systolic BP > 200 mmHg."
+    ],
+    "management_principles": [
+      "Call emergency services or arrange immediate emergency evaluation for severe hypertension or persistent symptoms; sit the patient upright, loosen restrictive clothing, and monitor blood pressure frequently.",
+      "Check for common triggers such as a kinked or obstructed catheter and bowel impaction; do not perform catheter irrigation or rectal examination unless appropriately trained and following a protocol.",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of pounding headache, BP 210/110, T4 SCI with catheter. HPI: autonomic dysreflexia.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Autonomic Dysreflexia.",
+    "assessment": "Condition highly suspicious for Autonomic Dysreflexia.",
+    "plan": "Treat as a medical emergency: call emergency services or arrange immediate emergency evaluation, sit the patient upright, loosen restrictive clothing, and monitor blood pressure frequently. Check for catheter obstruction and bowel impaction using trained personnel and local protocol; do not perform catheter irrigation or rectal examination without appropriate training. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Autonomic Dysreflexia",
+    "Select appropriate diagnostic workup for Autonomic Dysreflexia",
+    "Recognize autonomic dysreflexia as an emergency and initiate safe positioning, monitoring, trigger assessment, and emergency escalation"
+  ],
+  "teaching": {
+    "diagnosis": "Autonomic Dysreflexia",
+    "one_liner": "Potentially life-threatening hypertensive emergency in spinal cord injury at or above T6, triggered by noxious stimuli below the lesion level.",
+    "differentials": [
+      "Hypertensive crisis",
+      "Acute ischemic stroke",
+      "Pheochromocytoma"
+    ],
+    "red_flags": [
+      "Systolic BP > 200 mmHg",
+      "Severe pounding headache",
+      "Reflex bradycardia"
+    ],
+    "must_ask": [
+      {
+        "objective": "Spinal cord injury level",
+        "say": "What is the level of your spinal cord injury?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "level",
+          "injury",
+          "paraplegia",
+          "thoracic"
+        ]
+      },
+      {
+        "objective": "Urinary catheter status",
+        "say": "Is your urinary catheter draining properly, or could it be blocked or kinked?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "catheter",
+          "urine",
+          "bladder",
+          "kinked",
+          "blocked"
+        ]
+      },
+      {
+        "objective": "Bowel routine and impaction",
+        "say": "When was your last bowel movement, and do you feel constipated?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bowel",
+          "constipation",
+          "impaction",
+          "stool"
+        ]
+      },
+      {
+        "objective": "Headache character",
+        "say": "Is this headache sudden and pounding in nature?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "headache",
+          "pounding",
+          "throbbing",
+          "sudden"
+        ]
+      },
+      {
+        "objective": "Sweating and flushing pattern",
+        "say": "Are you sweating or flushing above your spinal injury while feeling cold below it?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sweating",
+          "flushing",
+          "goosebumps",
+          "sweat"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "210/110",
+      "hr": 52,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "My head is pounding intensely like it is about to explode, my face feels burning hot, and I feel completely exhausted.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about an hour ago and built up to this unbearable pounding within fifteen to twenty minutes.",
+        "topic": "Onset of headache"
+      },
+      {
+        "answer": "This started an hour ago, and I have never experienced a headache anywhere near this severe before.",
+        "topic": "Duration and prior headache history"
+      },
+      {
+        "answer": "The pounding is throbbing all over my entire head, especially behind my forehead and across the back of my skull.",
+        "topic": "Location of headache"
+      },
+      {
+        "answer": "It feels like a violent, rhythmic hammer pounding inside my skull, and I would rate the severity a 9 out of 10.",
+        "topic": "Headache character and severity"
+      },
+      {
+        "answer": "It has been continuous and relentlessly pounding since it began while I was sitting at my desk this morning.",
+        "topic": "Course and timing of headache"
+      },
+      {
+        "answer": "Lying down makes the throbbing and pressure much worse, while sitting straight up provides slight relief, though it still hurts terribly.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I did not have any visual sparkles, blind spots, or unusual numbness before the headache began.",
+        "topic": "Aura symptoms"
+      },
+      {
+        "answer": "I feel mildly nauseated from the sheer intensity of the pain, but I haven't vomited and bright lights or sounds don't bother me.",
+        "topic": "Nausea, vomiting, and sensory sensitivity"
+      },
+      {
+        "answer": "No, I don't have tears running down my face, red eyes, a runny nose, or a drooping eyelid.",
+        "topic": "Autonomic cranial symptoms"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, neck stiffness, or skin rashes.",
+        "topic": "Fever, neck stiffness, and rash"
+      },
+      {
+        "answer": "I have not had any slurred speech, confusion, or seizures, and my paralysis below the chest is my baseline from my spinal injury.",
+        "topic": "Neurological deficits and altered consciousness"
+      },
+      {
+        "answer": "My vision feels slightly blurry from the intense head pressure, but I do not have double vision or eye pain.",
+        "topic": "Visual disturbance and eye pain"
+      },
+      {
+        "answer": "No, I don't have any tenderness along my temples, my jaw doesn't hurt when I chew, and my shoulders feel fine.",
+        "topic": "Jaw claudication and muscle aches"
+      },
+      {
+        "answer": "No, I have not bumped my head or suffered any falls or trauma recently.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "I took two 500-milligram acetaminophen tablets about forty minutes ago, but they have not relieved the pain at all.",
+        "topic": "Analgesic use and response"
+      },
+      {
+        "answer": "I didn't drink alcohol, eat aged foods, or experience unusual stress; the pounding started out of nowhere while I was in my chair.",
+        "topic": "Precipitating triggers"
+      },
+      {
+        "answer": "I have never had high blood pressure before; my baseline blood pressure usually runs low, around 90 over 60, and I take no blood pressure pills or blood thinners.",
+        "topic": "Hypertension and medication history"
+      },
+      {
+        "answer": "No one else at home has a headache, and we do not use any gas or kerosene space heaters.",
+        "topic": "Household symptoms and heating exposure"
+      },
+      {
+        "answer": "No, I have never had cancer and I do not have any immune deficiency conditions.",
+        "topic": "History of cancer or immunosuppression"
+      },
+      {
+        "answer": "I sustained a complete T4 spinal cord injury five years ago from a motor vehicle collision, so I have no feeling or movement from my mid-chest down.",
+        "topic": "Spinal cord injury history"
+      },
+      {
+        "answer": "I use an indwelling Foley catheter; when I glanced at it earlier, the tubing seemed twisted and the collection bag was completely empty.",
+        "topic": "Urinary catheter status"
+      },
+      {
+        "answer": "I perform a digital bowel routine every other morning; I missed yesterday's routine, but I had a normal bowel movement two days ago without severe constipation.",
+        "topic": "Bowel habits and constipation"
+      },
+      {
+        "answer": "My face, neck, and chest are flushed and dripping with sweat, but my legs feel completely cold and covered in goosebumps.",
+        "topic": "Sweating and flushing symptoms"
+      },
+      {
+        "answer": "Aside from my paraplegia from the T4 spinal cord injury five years ago, I have no other medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had spinal fusion and stabilization surgery five years ago following my car crash, followed by extensive inpatient rehabilitation.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any daily prescription medications, vitamins, or herbal supplements, only the acetaminophen I tried earlier today.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine, maybe once or twice a month socially.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work remotely as an accountant, and I live in an accessible home with my supportive husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of early heart attacks, aneurysms, high blood pressure, or stroke.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period was two weeks ago, my monthly cycles are regular, and there is no chance I could be pregnant.",
+        "topic": "Menstrual and pregnancy history"
+      },
+      {
+        "answer": "My head is pounding so violently that I honestly thought a blood vessel in my brain was about to burst.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "With my blood pressure over two hundred, I'm terrified I'm about to have a massive stroke or a seizure right here.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I just need you to bring this blood pressure down immediately with medicine and check my catheter to see why this is happening.",
+        "topic": "Patient expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 210/110 mmHg, heart rate is 52 beats per minute, respiratory rate is 16 breaths per minute, oxygen saturation is 98% on room air, and body temperature is 36.7°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient is sitting upright in a wheelchair, visibly uncomfortable and anxious, with prominent facial flushing, heavy forehead diaphoresis, and visible goosebumps along both arms.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Marked flushing and profuse diaphoresis above the T4 dermatomal level; skin below T4 is notably cool, pale, and dry with piloerection.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with smooth passive flexion; Kernig and Brudzinski signs are both absent.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal, round, and briskly reactive to light; fundoscopic examination shows distinct optic disc margins without papilledema, flame hemorrhages, or exudates.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness elicited over the frontal and maxillary sinuses, temporal arteries, or cervical musculature.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact; facial symmetry is preserved without ptosis or facial drooping.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "A round, firm, dull mass is palpable in the midline suprapubic region extending upward, consistent with a distended urinary bladder; rest of the abdomen is soft and non-tender.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "An indwelling Foley catheter is present, but the drainage tubing is acutely kinked and compressed against the wheelchair frame with no urine draining into the collection bag.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Upper extremity motor strength is 5/5 bilaterally; bilateral lower extremities demonstrate 0/5 spastic paraplegia consistent with chronic T4 spinal cord injury.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact sensation to light touch and pinprick down to the T4 dermatome (nipple line); complete sensory loss to all modalities below T4.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps and triceps reflexes are 2+ bilaterally; patellar and Achilles deep tendon reflexes are brisk at 3+ bilaterally with bilateral extensor plantar responses (positive Babinski).",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "id": "urology_005",
+  "system": "urology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Evans",
+  "age": 66,
+  "gender": "male",
+  "chief_complaint": "newly diagnosed localized prostate cancer after elevated PSA and MRI-targeted biopsy, seeking treatment counseling",
+  "hpi_details": "66M asymptomatic male whose PSA rose from 3.1 to 8.4 ng/mL over 18 months; MRI-targeted biopsy has confirmed localized prostate adenocarcinoma. He denies urinary symptoms, bone pain, weight loss, or family history of prostate cancer.",
+  "ideas": "thinks his high PSA is just from getting older or riding his bicycle",
+  "concerns": "anxious about the possibility of prostate cancer and terrified of biopsy complications or incontinence/impotence from surgery",
+  "expectations": "wants thorough counseling regarding modern treatment options and their risks",
+  "pmh": "Hyperlipidemia",
+  "medications": "Atorvastatin 20mg daily",
+  "social_hx": "Architect, non-smoker",
+  "available_results": [
+    {"id": "prostate_cancer_psa_prior", "test": "Prostate-specific antigen", "value": "3.1", "unit": "ng/mL", "reference_range": "0.0-4.0", "flag": "normal", "specimen": "Blood", "collected_at": "18 months before diagnosis"},
+    {"id": "prostate_cancer_psa_current", "test": "Prostate-specific antigen", "value": "8.4", "unit": "ng/mL", "reference_range": "0.0-4.0", "flag": "high", "specimen": "Blood", "collected_at": "Before MRI and biopsy"},
+    {"id": "prostate_mri", "test": "Multiparametric prostate MRI", "value": "1.2 cm PI-RADS 5 lesion in the right peripheral zone; no pelvic nodal or distant metastatic disease", "flag": "abnormal", "collected_at": "Before biopsy"},
+    {"id": "prostate_biopsy", "test": "MRI-targeted prostate biopsy", "value": "Adenocarcinoma in 6 of 12 cores, Gleason 4+3=7, Grade Group 3, up to 50% core involvement", "flag": "abnormal", "collected_at": "Before treatment-counseling visit"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Localized Unfavorable Intermediate-Risk Prostate Adenocarcinoma (cT2a N0 M0, Gleason 4+3=7, Grade Group 3, PSA 8.4) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Localized Unfavorable Intermediate-Risk Prostate Adenocarcinoma (cT2a N0 M0, Gleason 4+3=7, Grade Group 3, PSA 8.4) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes reviewing multidisciplinary treatment options such as radical prostatectomy or radiation with short-course androgen deprivation therapy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: routine screening reveals elevated PSA 8.4 ng/mL and hard nodule on right prostate lobe requiring biopsy counseling",
+      "Key HPI features: 66M asymptomatic male referred by primary care provider after routine annual screening showed a steady rise in Prostate-Specific Antigen (PSA) from 3.1 to 8.4 ng/mL over the past 18 months. Denies urinary symptoms, bone pain, weight loss, or family history of prostate cancer.",
+      "Objective/Exam findings: Vitals: HR 70, BP 126/80. Abdominal exam normal. Digital rectal examination (DRE) reveals a distinct, 1 cm firm, indurated, painless nodule palpable in the right peripheral zone of the prostate gland without fixation to pelvic sidewalls (Clinical Stage cT2a). Multi-parametric MRI (mpMRI) of the prostate demonstrates a 1.2 cm PI-RADS 5 lesion in the right peripheral zone with restricted diffusion and early contrast enhancement. Prostate biopsy via MRI-transrectal ultrasound fusion confirms Prostate Adenocarcinoma in 6 of 12 cores (all right peripheral zone), Gleason Score 4+3 = 7 (Grade Group 3) involving 50% core length. Bone scan and CT pelvis negative for metastases.",
+      "Relevant background/PMH: Hyperlipidemia",
+      "Current medications: Atorvastatin 20mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Localized Unfavored Intermediate-Risk Prostate Adenocarcinoma (cT2a N0 M0, Gleason 4+3=7, Grade Group 3, PSA 8.4).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Urinary tract infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Acute total urinary retention."
+    ],
+    "management_principles": [
+      "Review multidisciplinary treatment options for intermediate-risk localized disease, including surgery versus radiation therapy:",
+      "Radical Prostatectomy (Robot-assisted laparoscopic) with bilateral pelvic lymph node dissection",
+      "External Beam Radiation Therapy (EBRT) plus short-course (4-6 months) Androgen Deprivation Therapy (ADT)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "66M asymptomatic male presenting with elevated/doubling PSA (8.4 ng/mL) and suspicious palpable prostate nodule requiring diagnosis and staging.",
+    "objective": "Vitals: HR 70, BP 126/80. Abdominal exam normal. Digital rectal examination (DRE) reveals a distinct, 1 cm firm, indurated, painless nodule palpable in the right peripheral zone of the prostate gland without fixation to pelvic sidewalls (Clinical Stage cT2a). Multi-parametric MRI (mpMRI) of the prostate demonstrates a 1.2 cm PI-RADS 5 lesion in the right peripheral zone with restricted diffusion and early contrast enhancement. Prostate biopsy via MRI-transrectal ultrasound fusion confirms Prostate Adenocarcinoma in 6 of 12 cores (all right peripheral zone), Gleason Score 4+3 = 7 (Grade Group 3) involving 50% core length. Bone scan and CT pelvis negative for metastases.",
+    "assessment": "Localized Unfavored Intermediate-Risk Prostate Adenocarcinoma (cT2a N0 M0, Gleason 4+3=7, Grade Group 3, PSA 8.4).",
+    "plan": "Review multidisciplinary treatment options for intermediate-risk localized disease: 1. Radical Prostatectomy (Robot-assisted laparoscopic) with bilateral pelvic lymph node dissection. 2. External Beam Radiation Therapy (EBRT) plus short-course (4-6 months) Androgen Deprivation Therapy (ADT). Counsel patient regarding expected side effect profiles: urinary incontinence and erectile dysfunction (higher early risk with surgery) vs bowel toxicity, fatigue, and late erectile decline (with radiation/ADT)."
+  },
+  "learning_objectives": [
+    "Interpret Prostate-Specific Antigen (PSA) kinetics (velocity >0.75 ng/mL/yr, doubling time) and multi-parametric MRI PI-RADS scoring (1 to 5 scale) in risk stratification",
+    "Correlate digital rectal exam findings (peripheral zone indurated nodule) with clinical T-staging (cT1 vs cT2 vs cT3)",
+    "Explain the Gleason grading and ISUP Grade Group (1 to 5) classification systems based on glandular architecture differentiation",
+    "Compare curative intent treatment modalities (Robot-assisted Radical Prostatectomy vs Radiation Therapy plus ADT vs Active Surveillance) based on risk category and patient life expectancy"
+  ],
+  "teaching": {
+    "diagnosis": "Localized Unfavored Intermediate-Risk Prostate Adenocarcinoma (cT2a N0 M0, Gleason 4+3=7, Grade Group 3, PSA 8.4).",
+    "one_liner": "Urology evaluation for patient presenting with routine screening reveals elevated PSA 8.4 ng/mL and hard nodule on right prostate lobe requiring biopsy counseling.",
+    "differentials": [
+      "Benign prostatic hyperplasia",
+      "Chronic prostatitis",
+      "Age-related benign PSA elevation"
+    ],
+    "red_flags": [
+      "Bone pain (possible metastatic disease)",
+      "Acute urinary retention",
+      "New neurological deficits (possible cord compression from vertebral metastasis)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm absence of urinary or systemic symptoms",
+        "say": "Have you had any urinary symptoms, bone pain, or unexplained weight loss?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "urinary",
+          "bone pain",
+          "weight loss"
+        ]
+      },
+      {
+        "objective": "Explore ideas and worries about the PSA rise",
+        "say": "What do you think might be causing your PSA to rise?",
+        "domains": [
+          "ideas"
+        ],
+        "keywords": [
+          "PSA",
+          "screening",
+          "worried"
+        ]
+      },
+      {
+        "objective": "Family history of prostate or other cancers",
+        "say": "Does anyone in your family have a history of prostate cancer or other cancers?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "family",
+          "prostate cancer"
+        ]
+      },
+      {
+        "objective": "Screen for fear about biopsy and treatment side effects",
+        "say": "What worries you most about the biopsy or about treatment side effects like incontinence or impotence?",
+        "domains": [
+          "concerns"
+        ],
+        "keywords": [
+          "biopsy",
+          "incontinence",
+          "impotence",
+          "side effects"
+        ]
+      },
+      {
+        "objective": "Explain the diagnosis and treatment options",
+        "say": "Your biopsy confirmed intermediate-risk prostate cancer, and we should discuss surgery versus radiation with hormone therapy.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "prostatectomy",
+          "radiation",
+          "treatment options"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "126/80",
+      "hr": 70,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I was told my prostate biopsy came back positive for cancer, and I'm here to understand what my treatment options are.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My primary doctor noticed my PSA was creeping up at my routine checkup about a year and a half ago, and it kept rising until they ordered an MRI and biopsy.",
+        "topic": "Discovery of prostate issue"
+      },
+      {
+        "answer": "I have no physical discomfort, pain, or pain when urinating; I feel completely healthy otherwise.",
+        "topic": "Presence of pain or discomfort"
+      },
+      {
+        "answer": "Over the past eighteen months my PSA went from around 3 up to 8.4, but I still have not felt any change in my body.",
+        "topic": "PSA trend and course"
+      },
+      {
+        "answer": "My urine stream is normal, and I don't have to push, strain, or wait for it to start.",
+        "topic": "Urinary stream and hesitancy"
+      },
+      {
+        "answer": "I don't need to run to the bathroom urgently, and I usually wake up at most once a night, which has been my normal for years.",
+        "topic": "Urinary frequency and nocturia"
+      },
+      {
+        "answer": "No, my urine has always looked clear and light yellow; I have never seen any blood or dark discoloration.",
+        "topic": "Blood in the urine"
+      },
+      {
+        "answer": "No, I have never had a burning sensation or pain while passing urine.",
+        "topic": "Pain with urination"
+      },
+      {
+        "answer": "No, I have never had sudden trouble passing urine or needed a catheter.",
+        "topic": "Urinary retention episodes"
+      },
+      {
+        "answer": "No bone aches, hip pain, or back pain at all.",
+        "topic": "Bone or back pain"
+      },
+      {
+        "answer": "No, my weight has been steady, and my appetite has been completely normal.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No numbness, tingling, or weakness in my legs, and my bowel and bladder control are completely normal.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "My PSA was 3.1 about eighteen months ago, then rose to 8.4; after that, I had an MRI and a prostate biopsy that showed cancer on the right side.",
+        "topic": "Previous tests and biopsy"
+      },
+      {
+        "answer": "I cut back a bit on long weekend bike rides just in case the seat was irritating my prostate, but I didn't take any supplements or over-the-counter medicine.",
+        "topic": "Self-management and remedies"
+      },
+      {
+        "answer": "I haven't been exposed to radiation or harsh chemicals; I work in an office designing buildings.",
+        "topic": "Environmental and occupational exposures"
+      },
+      {
+        "answer": "I've been losing sleep worrying about having cancer and what surgery might do to me, but I am still able to work full-time.",
+        "topic": "Impact on daily life and sleep"
+      },
+      {
+        "answer": "I honestly thought the elevated PSA was just normal aging or maybe pressure on my prostate from riding my bicycle on weekends.",
+        "topic": "Patient ideas about elevated PSA"
+      },
+      {
+        "answer": "I am terrified of ending up with leaking urine or losing my erectile function after surgery or radiation.",
+        "topic": "Worries about treatment complications"
+      },
+      {
+        "answer": "I want a clear, unbiased explanation of modern options like surgery and radiation so I can decide what is best for me.",
+        "topic": "Expectations for the consultation"
+      },
+      {
+        "answer": "I have high cholesterol, but no history of high blood pressure, diabetes, or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take atorvastatin 20 milligrams once every evening for my cholesterol.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No one in my family had prostate cancer, and there is no history of breast, ovarian, or colon cancer either.",
+        "topic": "Family history of cancer"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might have a glass or two of wine on the weekend with dinner, but nothing more than that.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an architect and live with my wife in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My wife and I are sexually active, and I have had no issues with erections up until now, which makes me very anxious about treatment side effects.",
+        "topic": "Sexual history and baseline function"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 126/80 mmHg, pulse 70 beats/min, respiratory rate 14 breaths/min, temperature 36.6°C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished, well-groomed male who appears comfortable but mildly anxious; no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended, with no palpable bladder distension, organomegaly, or masses.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal sphincter tone; prostate demonstrates a distinct, 1 cm firm, indurated, non-tender nodule in the right peripheral zone without fixation to the pelvic sidewall.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No spinal or paraspinal tenderness along the thoracic or lumbosacral spine; full painless range of motion.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

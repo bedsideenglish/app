@@ -1,0 +1,319 @@
+{
+  "id": "ps_012",
+  "system": "plastic surgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Campbell",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "painless thickening and cord in palm pulling ring and little fingers into permanent flexion",
+  "hpi_details": "58M of Northern European descent presenting with a several-month history of painless palmar nodule and cord formation causing progressive flexion contracture of the ring finger.",
+  "ideas": "He thinks he strained or tore a tendon in his palm while using heavy power tools in his garage that healed into a stiff, tight knot.",
+  "concerns": "He is worried that his fingers will freeze into a permanent claw and leave him unable to grip his tools at work or hold his grandchild safely.",
+  "expectations": "He hopes the doctor can prescribe a night splint or recommend physical therapy stretches to snap or loosen the cord so his hand opens flat again.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Dupuytren Contracture evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Dupuytren Contracture is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes clinical diagnosis followed by treatment selection based on contracture severity (observation/injection for mild disease, fasciectomy for fixed functional contracture), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: painless thickening and cord in palm pulling ring and little fingers into permanent flexion",
+      "Key HPI features: 58M of Northern European descent presenting with a several-month history of painless palmar nodule and cord formation causing progressive flexion contracture of the ring finger.",
+      "Objective/Exam findings: Vitals normal. Palpable pretendinous cord in the palm extending to the ring finger with an associated flexion contracture of the MCP joint (~30 degrees) and mild PIP involvement. Positive tabletop test. Skin puckering over the nodule, no tenderness, no signs of infection. Neurovascular status intact.",
+      "Relevant background/PMH: No significant chronic medical history",
+      "Current medications: None"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Dupuytren Contracture.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Trigger finger (stenosing tenosynovitis) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Inability to place hand flat on table (Tabletop test positive)."
+    ],
+    "management_principles": [
+      "Diagnosis is clinical based on the characteristic palmar cord/nodule and flexion deformity; imaging is not routinely needed",
+      "For early/mild disease without functional limitation, offer observation or needle aponeurotomy/collagenase injection",
+      "For a fixed contracture with functional limitation (positive tabletop test), refer for surgical fasciectomy or percutaneous needle fasciotomy depending on cord pattern and patient preference",
+      "Screen for associated conditions (diabetes, alcohol use, family history) that may inform prognosis, and counsel on the risk of recurrence."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "58M of Northern European descent presenting with a several-month history of painless palmar nodule and cord formation causing progressive flexion contracture of the ring finger.",
+    "objective": "Vitals normal. Palpable pretendinous cord in the palm extending to the ring finger with an associated flexion contracture of the MCP joint (~30 degrees) and mild PIP involvement. Positive tabletop test. Skin puckering over the nodule, no tenderness, no signs of infection. Neurovascular status intact.",
+    "assessment": "Dupuytren contracture involving the ring finger, a clinical diagnosis based on the characteristic palmar cord/nodule and flexion deformity.",
+    "plan": "Diagnosis is clinical; imaging is not routinely needed. Given the fixed contracture with a positive tabletop test, refer for surgical fasciectomy or percutaneous needle fasciotomy depending on cord pattern and patient preference. Screen for associated risk factors (diabetes, alcohol use, family history) and counsel on the risk of recurrence."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Dupuytren Contracture Fasciectomy",
+    "Formulate prioritized differential diagnosis for painless thickening and cord in palm pulling ring and little fingers into permanent flexion",
+    "Recognize that Dupuytren contracture is a clinical diagnosis and identify functional thresholds (tabletop test) that indicate surgical referral",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Dupuytren Contracture",
+    "one_liner": "Fibroproliferative disease of the palmar fascia causing fixed flexion contracture of the MCP and PIP joints.",
+    "differentials": [
+      "Trigger finger (stenosing tenosynovitis)",
+      "Flexor tendon entrapment",
+      "Camptodactyly"
+    ],
+    "red_flags": [
+      "Inability to place hand flat on table (Tabletop test positive)",
+      "Severe PIP flexion > 30 degrees"
+    ],
+    "must_ask": [
+      {
+        "objective": "Flexion contracture digits involvement",
+        "say": "Are your ring or small fingers pulled inward toward your palm so you cannot straighten them?",
+        "domains": [
+          "character",
+          "location"
+        ],
+        "keywords": [
+          "ring",
+          "pulled",
+          "straighten",
+          "finger",
+          "digits"
+        ]
+      },
+      {
+        "objective": "Palmar nodule and cord palpation",
+        "say": "Do you feel firm, painless bumps or tight cords under the skin of your palm?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "nodule",
+          "cords",
+          "cord",
+          "palm",
+          "bumps"
+        ]
+      },
+      {
+        "objective": "Tabletop test functional check",
+        "say": "Can you lay your hand completely flat face down on a table?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "flat",
+          "table",
+          "lay",
+          "tabletop",
+          "hand"
+        ]
+      },
+      {
+        "objective": "Family history and diathesis",
+        "say": "Does anyone in your family have similar bent fingers or feet cords?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "family",
+          "genetics",
+          "relatives",
+          "bent",
+          "hereditary"
+        ]
+      },
+      {
+        "objective": "Risk factor assessment",
+        "say": "Do you have diabetes, heavy alcohol intake, or liver disease?",
+        "domains": [
+          "pmh",
+          "alcohol"
+        ],
+        "keywords": [
+          "diabetes",
+          "alcohol",
+          "liver",
+          "drinking"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My ring and little fingers on my right hand are bent inward, and I cannot straighten them out.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually several months ago as a small firm knot in my palm, and over time it tightened into a cord that pulled my finger down.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "It is right in the palm of my right hand, extending up toward the base of my ring finger and pulling slightly on the little finger.",
+        "topic": "Location of symptoms"
+      },
+      {
+        "answer": "It feels like a tough, tight cord under the skin that physically tethers my finger down, though there is no pain at all.",
+        "topic": "Character and stiffness"
+      },
+      {
+        "answer": "It has gotten slowly worse over the past few months, curling the finger tighter toward my palm.",
+        "topic": "Progression over time"
+      },
+      {
+        "answer": "Nothing relieves it, and trying to pull or stretch the finger straight feels completely blocked and impossible.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I do not have any numbness, tingling, or pins and needles in my fingers or hand.",
+        "topic": "Associated numbness or tingling"
+      },
+      {
+        "answer": "No, it does not catch, snap, or lock when I move it; it is just held constantly bent.",
+        "topic": "Snapping or locking sensations"
+      },
+      {
+        "answer": "No, it is completely painless, even when I press on the lump or cord.",
+        "topic": "Pain or tenderness"
+      },
+      {
+        "answer": "No fever, chills, unexplained weight loss, or general fatigue whatsoever.",
+        "topic": "Systemic symptoms and red flags"
+      },
+      {
+        "answer": "I have never experienced anything like this before, and this is my first time seeing a doctor for it.",
+        "topic": "Previous episodes and care"
+      },
+      {
+        "answer": "I tried massaging it with lotion and pulling the finger straight, but it did not make any difference.",
+        "topic": "Treatments and home remedies"
+      },
+      {
+        "answer": "No, I have never had any cuts, fractures, or major injuries to that hand.",
+        "topic": "Prior trauma or injury"
+      },
+      {
+        "answer": "It gets in the way when I try to put my hand in my pocket, wash my face, put on driving gloves, or shake someone's hand.",
+        "topic": "Impact on daily activities"
+      },
+      {
+        "answer": "No, I cannot lay my hand flat on a desk at all; the curled finger keeps the palm propped up off the surface.",
+        "topic": "Inability to flatten hand"
+      },
+      {
+        "answer": "Yes, I can clearly feel a hard, thick knot and a tight string-like band under the skin of my palm.",
+        "topic": "Knots or cords in palms"
+      },
+      {
+        "answer": "No, I have not noticed any hard lumps on the soles of my feet or anywhere else on my body.",
+        "topic": "Foot or other body nodules"
+      },
+      {
+        "answer": "I figured I must have strained or torn a tendon in my palm while working with heavy power tools in the garage, and it just scarred down and healed too tight.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "My biggest fear is that my hand will freeze up like this permanently and I won't be able to hold my tools at work or safely pick up my grandchild.",
+        "topic": "Patient main concerns"
+      },
+      {
+        "answer": "I was hoping you could give me a special hand splint or show me some physical therapy stretches to loosen that tight cord so my fingers will flatten out.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I do not have any chronic medical conditions like diabetes, liver disease, or high blood pressure.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might have a single beer once a month socially, but I rarely drink alcohol.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired accountant living with my wife, and I keep active with regular walking and light gardening.",
+        "topic": "Occupation and lifestyle"
+      },
+      {
+        "answer": "My father had curled fingers in his hands when he was older; otherwise, there is no family history of diabetes or chronic disease.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, comfortable, well-nourished gentleman in no acute distress; right hand rests with partial flexion of the ring finger.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 120/78 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, body temperature 36.6 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Skin puckering and small pits over a firm nodule near the distal palmar crease; no redness, warmth, or skin breakdown.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Palpable, non-tender pretendinous palmar cord extending to the ring finger with MCP joint flexion contracture of approximately 30 degrees and mild PIP flexion; positive tabletop test; no joint effusion.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Digital flexion intact and strong; active extension of the right ring finger blocked by the palmar cord, while intrinsic hand muscle strength is fully preserved at 5/5.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Light touch and two-point discrimination intact and symmetric across all digits, including the ring and small fingers.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral radial and ulnar pulses are 2+ and symmetric; capillary refill is brisk and under 2 seconds in all digits.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      }
+    ]
+  }
+}

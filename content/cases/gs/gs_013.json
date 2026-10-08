@@ -1,0 +1,350 @@
+{
+  "id": "gs_013",
+  "system": "general_surgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Allen",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "right lower quadrant abdominal pain and fever",
+  "hpi_details": "45M presents with 12 hours of periumbilical pain that has now migrated to the right lower quadrant, accompanied by nausea, one episode of vomiting, and subjective fever.",
+  "ideas": "thinks it might be appendicitis",
+  "concerns": "worried about needing emergency surgery",
+  "expectations": "wants pain relief and a CT scan",
+  "pmh": "None",
+  "medications": "None",
+  "social_hx": "Non-smoker, drinks occasionally",
+  "investigation_events": [
+    {
+      "id": "urgent_appendicitis_workup",
+      "title": "Urgent appendicitis results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "white blood cell count",
+        "ct abdomen",
+        "ct abdomen and pelvis"
+      ],
+      "availability_message": "The urgent appendicitis results are now available; IV fluids, analgesia, antibiotics, and surgical consultation should not be delayed.",
+      "results": [
+        {
+          "id": "white_blood_cell_count",
+          "test": "White blood cell count",
+          "value": "14.9",
+          "unit": "x10^3/mcL",
+          "reference_range": "4.0-11.0",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "At urgent presentation"
+        },
+        {
+          "id": "ct_appendix",
+          "test": "CT abdomen and pelvis with IV contrast",
+          "value": "Dilated appendix measuring 10 mm with periappendiceal fat stranding; no abscess, perforation, or free air",
+          "flag": "abnormal",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Appendicitis",
+    "core_concepts": [
+      "Classic presentation is periumbilical pain migrating to RLQ.",
+      "Diagnosis is often confirmed with CT scan in adults.",
+      "Treatment is appendectomy."
+    ],
+    "diagnostic_clues": [
+      "RLQ pain",
+      "Nausea/vomiting",
+      "Fever"
+    ],
+    "common_misconceptions": [
+      "Assuming all RLQ pain is appendicitis."
+    ],
+    "dangerous_errors": [
+      "Discharging patient with classic migrating pain without imaging or observation."
+    ],
+    "management_principles": [
+      "NPO, IV fluids, analgesia, antibiotics, surgery consultation."
+    ],
+    "boundaries_and_exceptions": [
+      "Atypical presentations are common."
+    ],
+    "source_refs": [
+      {
+        "title": "SAGES & ACS Evidence-Based Surgical Practice Guidelines",
+        "url": "https://www.facs.org/quality-programs/about-quality/evidence-based-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "45M with migrating RLQ pain, nausea, and fever.",
+    "objective": "T 38.2C, RLQ tenderness with guarding (McBurney's point).",
+    "assessment": "Acute appendicitis.",
+    "plan": "CT abdomen/pelvis, NPO, IV fluids, surgery consult."
+  },
+  "learning_objectives": [
+    "Recognize typical appendicitis.",
+    "Order appropriate imaging."
+  ],
+  "teaching": {
+    "diagnosis": "Acute Appendicitis",
+    "one_liner": "Classic acute appendicitis presenting with migrating RLQ pain, fever, and nausea.",
+    "differentials": [
+      "Gastroenteritis",
+      "Renal colic",
+      "Mesenteric adenitis"
+    ],
+    "red_flags": [
+      "Rigidity indicating perforation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Migration of pain",
+        "say": "Did the pain start around your belly button and then move to your lower right side?",
+        "domains": [
+          "location",
+          "progression"
+        ],
+        "keywords": [
+          "migrate",
+          "moved",
+          "belly button",
+          "right side"
+        ]
+      },
+      {
+        "objective": "Onset and duration",
+        "say": "When exactly did the pain start, and how has it changed since then?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "hours",
+          "started"
+        ]
+      },
+      {
+        "objective": "Associated GI symptoms",
+        "say": "Have you lost your appetite, felt nauseated, or vomited?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "appetite",
+          "nausea",
+          "vomit"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had any fever or chills?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "chills"
+        ]
+      },
+      {
+        "objective": "Aggravating movement",
+        "say": "Does moving, coughing, or pressing on your belly make the pain worse?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "moving",
+          "coughing",
+          "worse"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "125/80",
+      "hr": 88,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 38.2
+    },
+    "history": [
+      {
+        "answer": "My lower right belly hurts really badly, and I have a fever.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about twelve hours ago as a dull stomachache, and it has steadily gotten worse through the night.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It began around my belly button, but after several hours it shifted down to my lower right belly.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "No, it stays right in my lower right stomach and does not travel to my back, shoulder, or groin.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It started as a dull cramp, but now it feels like a constant, sharp ache.",
+        "topic": "Quality of pain"
+      },
+      {
+        "answer": "When it first started it was about a three, but now it is a steady seven out of ten.",
+        "topic": "Severity of pain"
+      },
+      {
+        "answer": "Any movement, walking, or coughing makes it hurt much more. Lying completely still with my legs curled up helps a little bit.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have never had abdominal pain like this before.",
+        "topic": "Prior similar episodes"
+      },
+      {
+        "answer": "I felt very nauseous this morning and vomited once. It was just clear fluid and stomach bile, with no blood in it.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "My last bowel movement was yesterday morning and it was normal. I have not passed any gas in several hours, but I do not have diarrhea.",
+        "topic": "Bowel habits and flatus"
+      },
+      {
+        "answer": "No, there has been no blood in my stool and my bowel movements have not looked black.",
+        "topic": "Blood in stool"
+      },
+      {
+        "answer": "Yes, I have been feeling quite feverish and hot since early this morning, and I had mild chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my eyes and skin have not turned yellow, my urine is not dark, and my stools are normal brown.",
+        "topic": "Jaundice and stool color"
+      },
+      {
+        "answer": "No, I do not have any burning when I pee, no blood in my urine, and I am not peeing more often than usual.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I have not felt dizzy, lightheaded, or like I was going to faint.",
+        "topic": "Dizziness or fainting"
+      },
+      {
+        "answer": "No, I have no chest pain, tightness, or shortness of breath.",
+        "topic": "Chest pain and breathlessness"
+      },
+      {
+        "answer": "I had a normal home dinner with my family yesterday evening, nothing greasy or unusual, and I did not drink any alcohol.",
+        "topic": "Recent food and alcohol"
+      },
+      {
+        "answer": "No, I have not taken any pain relievers or aspirin because I was afraid they might irritate my stomach.",
+        "topic": "Painkillers or aspirin use"
+      },
+      {
+        "answer": "No, I have never had an irregular heartbeat, atrial fibrillation, or any blood vessel disorders.",
+        "topic": "Cardiac or vascular history"
+      },
+      {
+        "answer": "I was wondering if this could be appendicitis because the pain moved to my lower right side.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I am really worried that my appendix might burst and that I might need emergency surgery.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I am hoping you can give me something for this severe pain and do a CT scan to see what is happening.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I do not have any chronic medical conditions like diabetes or high blood pressure.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been admitted to a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any daily prescription medications, over-the-counter pills, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink occasionally, maybe one or two beers a month at social gatherings, and nothing this past week.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work in an office as an IT specialist and live with my wife and two children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of serious gastrointestinal illnesses or early surgical problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 125/80 mmHg, heart rate 88 beats per minute, respiratory rate 16 breaths per minute, body temperature 38.2 degrees Celsius, and oxygen saturation 99% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient appears acutely uncomfortable and lies still on the examination table with hips and knees slightly flexed to reduce abdominal tension.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "The abdomen is flat and symmetric with no distension, visible pulsations, or surgical scars.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bowel sounds are hypoactive throughout all four quadrants, and no vascular bruits are audible.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Marked focal tenderness and voluntary guarding are present in the right lower quadrant, while the remaining quadrants are soft and non-tender without diffuse rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Rebound tenderness is sharply positive in the right lower quadrant and absent in all other quadrants.",
+        "maneuver": "rebound_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "Point tenderness is localized at McBurney point, with a positive Rovsing sign and pain elicited on right psoas stretching.",
+        "maneuver": "appendicitis_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "Murphy sign is negative, with no tenderness or inspiratory arrest during deep palpation of the right upper quadrant.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness is elicited on percussion bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No rectal masses, hemorrhoids, or frank blood are present, though mild tenderness is noted high on the right rectal wall.",
+        "maneuver": "digital_rectal_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

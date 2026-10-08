@@ -1,0 +1,307 @@
+{
+  "id": "ortho_019",
+  "system": "orthopedics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Flores",
+  "age": 42,
+  "gender": "male",
+  "chief_complaint": "chronic pain over lateral elbow worsening with wrist extension and gripping tools",
+  "hpi_details": "42M plumber presenting with point tenderness at lateral humeral epicondyle and pain reproduced by resisted wrist extension with elbow fully extended.",
+  "ideas": "He thinks he pulled a tendon or pinched a nerve in his arm from constantly tightening heavy pipe fittings.",
+  "concerns": "He is worried that his grip will give out permanently and leave him unable to work and earn a living as a plumber.",
+  "expectations": "He hopes to get a supportive elbow brace and strong anti-inflammatory medication so he can finish his plumbing jobs this week.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Lateral epicondylitis (tennis elbow) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Lateral epicondylitis (tennis elbow) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Lateral Epicondylitis Tennis Elbow, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: chronic pain over lateral elbow worsening with wrist extension and gripping tools",
+      "Key HPI features: 42M plumber presenting with point tenderness at lateral humeral epicondyle and pain reproduced by resisted wrist extension with elbow fully extended.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Lateral Epicondylitis Tennis Elbow.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Lateral epicondylitis (tennis elbow).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Radial tunnel syndrome without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Chronic, work-related repetitive strain."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Lateral Epicondylitis Tennis Elbow",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Lateral Epicondylitis Tennis Elbow: chronic pain over lateral elbow worsening with wrist extension and gripping tools. 42M plumber presenting with point tenderness at lateral humeral epicondyle and pain reproduced by resisted wrist extension with elbow fully extended.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Lateral Epicondylitis Tennis Elbow.",
+    "assessment": "Clinical presentation highly suggestive of Lateral Epicondylitis Tennis Elbow.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Lateral Epicondylitis Tennis Elbow. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Lateral Epicondylitis Tennis Elbow",
+    "Formulate prioritized differential diagnosis for chronic pain over lateral elbow worsening with wrist extension and gripping tools",
+    "Select appropriate laboratory and imaging studies for orthopedics",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Lateral epicondylitis (tennis elbow)",
+    "one_liner": "42M plumber with chronic lateral elbow pain worsened by wrist extension and gripping tools.",
+    "differentials": [
+      "Radial tunnel syndrome",
+      "Elbow osteoarthritis",
+      "Cervical radiculopathy"
+    ],
+    "red_flags": [
+      "Chronic, work-related repetitive strain"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the pain location and triggers",
+        "say": "Can you point exactly where it hurts, and does gripping tools make it worse?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "lateral elbow pain",
+          "gripping"
+        ]
+      },
+      {
+        "objective": "Ask about occupational repetitive strain",
+        "say": "How much repetitive gripping or wrist motion does your plumbing work require?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "occupational strain"
+        ]
+      },
+      {
+        "objective": "Assess duration and prior treatments tried",
+        "say": "How long has this been going on, and have you tried anything for it?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "duration",
+          "prior treatment"
+        ]
+      },
+      {
+        "objective": "Screen for neck symptoms to exclude radiculopathy",
+        "say": "Do you have any neck pain or numbness going down your arm?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "cervical radiculopathy screen"
+        ]
+      },
+      {
+        "objective": "Explain the bracing and rehabilitation plan",
+        "say": "We recommend a counterforce brace, stretching exercises, and modifying your grip technique at work.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "counterforce brace",
+          "stretching"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "The outside of my right elbow has been aching for weeks, and it gets really sharp whenever I grip tools or bend my wrist back.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is just my right elbow, right on the bony bump on the outer side. None of my other joints hurt.",
+        "topic": "Location and number of joints"
+      },
+      {
+        "answer": "It started gradually about two months ago and has been getting steadily worse as work picked up.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "Most of the time it is a dull ache, but it turns into a sharp, burning pain whenever I grasp something tightly. I would rate it about a 6 out of 10.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "No, I haven't seen any swelling, redness, or heat around the elbow. It looks completely normal from the outside.",
+        "topic": "Swelling redness or warmth"
+      },
+      {
+        "answer": "My elbow feels a little stiff when I first wake up, but it loosens up in less than five minutes once I move my arm around.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "Resting my arm over the weekend helps calm it down, but the pain flares right back up as soon as I start working with my hands again.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I work as a plumber, and using pipe wrenches, screwdrivers, and carrying heavy pipes makes the pain unbearable. Turning doorknobs or lifting a heavy skillet also hurts.",
+        "topic": "Occupational strain and functional impact"
+      },
+      {
+        "answer": "I tried taking some over-the-counter ibuprofen and putting ice packs on it after work, which took the edge off for an hour or two, but the pain always returns.",
+        "topic": "Prior treatments tried"
+      },
+      {
+        "answer": "No, I never had a direct fall, hit, or pop in my elbow. It just came on from all the heavy wrenching at work.",
+        "topic": "Trauma or injury"
+      },
+      {
+        "answer": "No, my neck feels fine, and I don't have any pain, tingling, or numbness shooting down my arm or into my fingers.",
+        "topic": "Neck symptoms or radiating pain"
+      },
+      {
+        "answer": "No, I have never had pain like this in my elbow before.",
+        "topic": "Prior similar episodes"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my energy is good, and I haven't had any unusual fatigue or weight loss.",
+        "topic": "Fatigue or weight loss"
+      },
+      {
+        "answer": "No, my skin is clear, and I have no rashes, mouth sores, eye redness, or hair loss.",
+        "topic": "Rashes or systemic signs"
+      },
+      {
+        "answer": "No, I do not have any lower back stiffness in the morning, heel pain, or swollen fingers.",
+        "topic": "Back or heel pain"
+      },
+      {
+        "answer": "No, I haven't had any diarrhea, stomach bugs, painful urination, or recent sore throats.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I drink a beer or two on the weekend, but I do not drink heavily, and I don't eat unusual amounts of red meat or take water pills.",
+        "topic": "Alcohol and gout triggers"
+      },
+      {
+        "answer": "No, I have never had any joint injections, surgery on my arms, or taken steroids.",
+        "topic": "Steroids or joint procedures"
+      },
+      {
+        "answer": "I have been married for fifteen years and have only been intimate with my wife, with no new partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I figured I probably pulled a tendon or pinched a nerve from wrenching heavy pipes all day.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm worried that my grip will get so weak that I won't be able to handle my tools and earn a living.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping to get an elbow brace and some strong anti-inflammatories so I can keep working this week.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like diabetes, high blood pressure, or arthritis.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications or daily supplements, just the occasional ibuprofen when my elbow flares up.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I work full-time as an independent plumbing contractor and live in a house with my wife and two kids.",
+        "topic": "Living situation"
+      },
+      {
+        "answer": "My parents are both healthy in their seventies, and there is no family history of rheumatoid arthritis, gout, or autoimmune diseases.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 120/78 mmHg, pulse 72 bpm, respiratory rate 14 breaths/min, temperature 36.7 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Marked focal tenderness over the right lateral humeral epicondyle without joint effusion, warmth, or redness; full active and passive elbow range of motion.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Resisted right wrist extension with the elbow fully extended reproduces sharp pain at the lateral epicondyle; full 5/5 motor strength throughout bilateral upper extremities.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Intact sensation to light touch and pinprick across bilateral upper extremities, including radial, median, and ulnar nerve distributions.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps, brachioradialis, and triceps deep tendon reflexes are 2+ and symmetric bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Full cervical spine range of motion without midline tenderness; Spurling test is negative bilaterally with no radiating arm symptoms.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No rash, psoriatic plaques, subcutaneous nodules, or tophi over the elbows, hands, or extensor surfaces.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

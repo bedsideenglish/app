@@ -1,0 +1,329 @@
+{
+  "id": "pmr_025",
+  "system": "physical medicine & rehabilitation (pm&r)",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Sim",
+  "age": 68,
+  "gender": "female",
+  "chief_complaint": "chronic bilateral knee grinding, pain on stairs, and morning stiffness",
+  "hpi_details": "68F reports 3 years of progressive, deep, aching pain in both knees, worse in the right. Pain worsens with walking and climbing stairs and is relieved by rest. Morning stiffness lasts 15 minutes.",
+  "ideas": "thinks her knee cartilage is worn out",
+  "concerns": "worried about knee replacement surgery",
+  "expectations": "wants physical therapy and joint gel",
+  "pmh": "Hypertension, Mild obesity",
+  "medications": "Amlodipine 5mg daily",
+  "social_hx": "Retired, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Knee Osteoarthritis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Knee Osteoarthritis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Osteoarthritis of the knees, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: chronic bilateral knee grinding, pain on stairs, and morning stiffness",
+      "Key HPI features: 68F reports 3 years of progressive, deep, aching pain in both knees, worse in the right. Pain worsens with walking and climbing stairs and is relieved by rest. Morning stiffness lasts 15 minutes.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Osteoarthritis of the knees.",
+      "Relevant background/PMH: Hypertension, Mild obesity",
+      "Current medications: Amlodipine 5mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Knee Osteoarthritis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Meniscal tear without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Hot swollen joint (septic arthritis risk)."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Osteoarthritis of the knees",
+      ": Recommend low-impact quadriceps strengthening exercises, weight management, and topical NSAID gel (Diclofenac 1%)",
+      "Discuss elective joint replacement indications"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Osteoarthritis of the knees. chronic bilateral knee grinding, pain on stairs, and morning stiffness. 68F reports 3 years of progressive, deep, aching pain in both knees, worse in the right. Pain worsens with walking and climbing stairs and is relieved by rest. Morning stiffness lasts 15 minutes.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Osteoarthritis of the knees.",
+    "assessment": "Clinical presentation highly suggestive of Osteoarthritis of the knees.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Osteoarthritis of the knees. Recommend low-impact quadriceps strengthening exercises, weight management, and topical NSAID gel (Diclofenac 1%). Discuss elective joint replacement indications. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Osteoarthritis of the knees.",
+    "Formulate prioritized differential diagnosis for chronic bilateral knee grinding, pain on stairs, and morning stiffness",
+    "Select appropriate laboratory and imaging studies for physical medicine & rehabilitation (pm&r)",
+    "Implement evidence-based acute and long-term management strategies for Osteoarthritis of the knees."
+  ],
+  "teaching": {
+    "diagnosis": "Knee Osteoarthritis",
+    "one_liner": "Progressive articular cartilage loss causing mechanical joint pain, stiffness, and bony crepitus.",
+    "differentials": [
+      "Meniscal tear",
+      "Pes anserine bursitis",
+      "Gouty arthritis"
+    ],
+    "red_flags": [
+      "Hot swollen joint (septic arthritis risk)",
+      "Joint locking or giving way"
+    ],
+    "must_ask": [
+      {
+        "objective": "Weight-bearing pain relation",
+        "say": "Does your knee ache when walking or going down stairs, and feel better when resting?",
+        "domains": [
+          "aggravating",
+          "relieving"
+        ],
+        "keywords": [
+          "walking",
+          "stairs",
+          "down",
+          "resting",
+          "knee"
+        ]
+      },
+      {
+        "objective": "Gel phenomenon morning stiffness",
+        "say": "Do your knees feel stiff in the morning for less than 30 minutes?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "morning",
+          "stiff",
+          "stiffness",
+          "minutes"
+        ]
+      },
+      {
+        "objective": "Bony crepitus and grinding",
+        "say": "Do you feel or hear a grinding, cracking sound when bending your knee?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "grinding",
+          "cracking",
+          "sound",
+          "crepitus",
+          "bending"
+        ]
+      },
+      {
+        "objective": "Joint effusion swelling history",
+        "say": "Does the knee swell up or feel warm after prolonged physical activity?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "swelling",
+          "swell",
+          "warm",
+          "puffy",
+          "fluid"
+        ]
+      },
+      {
+        "objective": "Deformity assessment",
+        "say": "Have you noticed your knees turning bow-legged over recent years?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "legged",
+          "bow",
+          "alignment",
+          "deformity",
+          "crooked"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "130/82",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Both of my knees have been aching and making grinding noises, especially when I use the stairs.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The pain is in both knees, but my right knee hurts more than my left. None of my other joints bother me.",
+        "topic": "Joint location and symmetry"
+      },
+      {
+        "answer": "It started very gradually about 3 years ago and has slowly become more troublesome over time.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It is a deep, persistent ache, usually around a 4 or 5 out of 10, though it can feel sharper when I step down stairs.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "My knees do not get red or hot, but they can look a little puffy if I walk too much.",
+        "topic": "Joint swelling and warmth"
+      },
+      {
+        "answer": "They feel stiff when I first get out of bed in the morning, but that loosens up in about 15 minutes.",
+        "topic": "Morning stiffness duration"
+      },
+      {
+        "answer": "Walking or climbing makes the aching worse, while sitting down and resting relieves it.",
+        "topic": "Effect of activity and rest"
+      },
+      {
+        "answer": "I can walk and bear weight, but climbing stairs is quite hard, and going downstairs hurts the most.",
+        "topic": "Weight-bearing and functional limits"
+      },
+      {
+        "answer": "I feel and hear a grinding, crackling sensation in both kneecaps whenever I bend my knees.",
+        "topic": "Bony crepitus and grinding"
+      },
+      {
+        "answer": "I have never had a knee injury, fall, or twist.",
+        "topic": "History of trauma"
+      },
+      {
+        "answer": "No, my knees crackle, but they have never caught, locked completely, or given way under me.",
+        "topic": "Joint locking or instability"
+      },
+      {
+        "answer": "They look a bit knobby and slightly bowed outward, but there has been no sudden change in their shape.",
+        "topic": "Joint deformity"
+      },
+      {
+        "answer": "No, this has been a slow and steady ache; I have never had a sudden, agonizing flare-up like gout.",
+        "topic": "Previous acute joint attacks"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "I have not had unusual tiredness, low-grade fevers, or unintended weight loss.",
+        "topic": "Systemic symptoms and weight loss"
+      },
+      {
+        "answer": "No rashes on my face or body, no scaly patches, mouth sores, hair loss, or red, gritty eyes.",
+        "topic": "Skin and systemic autoimmune signs"
+      },
+      {
+        "answer": "No morning lower back stiffness, heel tenderness, or swelling of my fingers and toes.",
+        "topic": "Spine and enthesitis symptoms"
+      },
+      {
+        "answer": "No recent stomach flu, diarrhea, painful urination, discharge, or sore throat.",
+        "topic": "Preceding infections"
+      },
+      {
+        "answer": "I rarely drink alcohol, I do not binge on red meat or shellfish, and I am not taking water pills.",
+        "topic": "Dietary triggers and alcohol"
+      },
+      {
+        "answer": "I have never had cortisone shots, joint fluid drained, or knee surgery, and I do not have artificial joints.",
+        "topic": "Joint injections or surgeries"
+      },
+      {
+        "answer": "I am not currently sexually active, and I have not had any new sexual partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I think the protective cartilage in my knees has simply worn down over the years.",
+        "topic": "Patient ideas on cause"
+      },
+      {
+        "answer": "I am really anxious about whether this means I will eventually need a full knee replacement surgery.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I am hoping to try physical therapy exercises and perhaps a topical gel or cream to manage the pain.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have high blood pressure and I am somewhat overweight, but I do not have diabetes or kidney problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was in my twenties, but no other operations or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take amlodipine 5 milligrams once every morning for my blood pressure.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medicines, foods, or materials.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might have half a glass of wine on holidays, but practically none on a regular basis.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am retired and live with my husband in a two-story home, so climbing stairs has become a daily struggle.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had bad wear-and-tear arthritis in both of her knees, but no one in my family had rheumatoid arthritis or lupus.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, well-appearing, mildly overweight woman sitting comfortably in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 130/82 mmHg, heart rate 72 bpm, respiratory rate 14 breaths/min, temperature 36.6 C, oxygen saturation 98% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild varus deformity and bony enlargement of both knees; palpable coarse crepitus and tenderness along the medial joint lines, worse on the right; no significant effusion, erythema, or warmth; active flexion limited to 115 degrees bilaterally with pain at end-range.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Antalgic gait favoring the right knee with reduced stride length; no unsteadiness or ataxia.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "No skin rashes, psoriatic plaques, tophi, or nail pitting on inspection of hands, elbows, and feet.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal lumbar spine range of motion without spinal tenderness or sacroiliac joint discomfort; straight-leg raise test negative bilaterally.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

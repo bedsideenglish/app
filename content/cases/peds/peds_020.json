@@ -1,0 +1,316 @@
+{
+  "id": "peds_020",
+  "system": "pediatrics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mitchell",
+  "age": 4,
+  "gender": "female",
+  "chief_complaint": "severe ear pain, high fever, and protrusion of the right outer ear with redness and tenderness over the mastoid bone behind the ear",
+  "hpi_details": "4-year-old girl with untreated acute otitis media presenting with postauricular erythema, swelling, tenderness over the mastoid process, and anterior-inferior displacement of the right auricle, requiring IV antibiotics and urgent ENT consultation. Surgical drainage or mastoidectomy may be needed if complications are present or she fails medical treatment.",
+  "ideas": "She thinks the ear infection spread into the tender bone behind the ear because they did not finish the last course of drops.",
+  "concerns": "She is worried her daughter might permanently lose her hearing or need a dangerous operation on her skull.",
+  "expectations": "She hopes to get strong intravenous antibiotics so her daughter will not need surgery.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Pediatric age-appropriate social history",
+  "clinical_knowledge": {
+    "topic": "Acute mastoiditis (complication of otitis media) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute mastoiditis (complication of otitis media) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Acute Otitis Media Complicated by Mastoiditis, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe ear pain, high fever, and protrusion of the right outer ear with redness and tenderness over the mastoid bone behind the ear",
+      "Key HPI features: 4-year-old girl with untreated acute otitis media presenting with postauricular erythema, swelling, tenderness over the mastoid process, and anterior-inferior displacement of the right auricle, requiring IV antibiotics and urgent ENT consultation. Surgical drainage or mastoidectomy may be needed if complications are present or she fails medical treatment.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acute Otitis Media Complicated by Mastoiditis.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute mastoiditis (complication of otitis media).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Uncomplicated otitis media without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Postauricular swelling and erythema."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Acute Otitis Media Complicated by Mastoiditis",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Pediatrics (AAP) Clinical Practice Guidelines",
+        "url": "https://publications.aap.org/pediatrics/pages/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: severe ear pain, high fever, and protrusion of the right outer ear with redness and tenderness over the mastoid bone behind the ear\n\n4-year-old girl with untreated acute otitis media presenting with postauricular erythema, swelling, tenderness over the mastoid process, and anterior-inferior displacement of the right auricle, requiring IV antibiotics and urgent ENT consultation. Surgical drainage or mastoidectomy may be needed if complications are present or she fails medical treatment.",
+    "objective": "Complete vital signs and focused physical examination. Evaluate for pertinent signs.",
+    "assessment": "Clinical presentation highly suggestive of Acute Otitis Media Complicated by Mastoiditis.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Acute Otitis Media Complicated by Mastoiditis. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Otitis Media Complicated by Mastoiditis",
+    "Formulate prioritized differential diagnosis for severe ear pain, high fever, and protrusion of the right outer ear with redness and tenderness over the mastoid bone behind the ear",
+    "Select appropriate laboratory and imaging studies for pediatrics",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Acute mastoiditis (complication of otitis media)",
+    "one_liner": "4-year-old girl with untreated otitis media, now with postauricular erythema, swelling, and anterior displacement of the ear.",
+    "differentials": [
+      "Uncomplicated otitis media",
+      "Preauricular cellulitis/lymphadenitis",
+      "Otitis externa"
+    ],
+    "red_flags": [
+      "Postauricular swelling and erythema",
+      "Protruding/displaced ear",
+      "Tenderness over the mastoid",
+      "Severe headache, neck stiffness, repeated vomiting, confusion, or facial weakness requires emergency escalation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm the recent ear infection history",
+        "say": "Has she had an ear infection recently that wasn't fully treated?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "untreated otitis media"
+        ]
+      },
+      {
+        "objective": "Ask about the ear position and swelling behind the ear",
+        "say": "Have you noticed the ear sticking out more than usual, or swelling behind it?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "postauricular swelling",
+          "ear protrusion"
+        ]
+      },
+      {
+        "objective": "Screen for fever severity",
+        "say": "How high has her fever been, and how long has it lasted?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever"
+        ]
+      },
+      {
+        "objective": "Ask about pain severity and irritability",
+        "say": "How much pain does she seem to be in, and has she been unusually fussy?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "ear pain",
+          "irritability"
+        ]
+      },
+      {
+        "objective": "Explain the urgent IV antibiotic and ENT plan",
+        "say": "This infection has spread to the bone behind her ear, so we need IV antibiotics right away and an urgent ENT specialist evaluation.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "IV antibiotics",
+          "ENT consultation",
+          "mastoidectomy"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "98/62",
+      "hr": 124,
+      "rr": 24,
+      "spo2": 99,
+      "temp_c": 38.9
+    },
+    "history": [
+      {
+        "answer": "My 4-year-old daughter has severe pain in her right ear and a high fever, and the bone behind her ear is red and swollen.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "Her right ear started hurting about five days ago after a mild cold, but the red swelling behind her ear appeared yesterday morning.",
+        "topic": "Onset and side"
+      },
+      {
+        "answer": "It is very severe, and she screams and clutches her right ear constantly, especially at night when she cannot sleep.",
+        "topic": "Pain severity and nocturnal worsening"
+      },
+      {
+        "answer": "Touching or pressing behind her ear makes her cry in pain, but pulling her earlobe doesn't bother her as much, and chewing does not seem to make it worse.",
+        "topic": "Pain on pulling ear or chewing"
+      },
+      {
+        "answer": "A small amount of cloudy yellowish discharge came out of her right ear yesterday, but there was no blood or bad odor.",
+        "topic": "Ear discharge"
+      },
+      {
+        "answer": "She seems to have trouble hearing when we talk softly on her right side, as if that ear is completely blocked.",
+        "topic": "Hearing loss and ear fullness"
+      },
+      {
+        "answer": "She has not mentioned any ringing sounds, and she is walking steadily without any spinning dizziness.",
+        "topic": "Tinnitus and dizziness"
+      },
+      {
+        "answer": "She developed a high fever up to 39 degrees Celsius two days ago, following a runny nose and mild cough last week.",
+        "topic": "Fever and cold symptoms"
+      },
+      {
+        "answer": "Her face looks completely even when she cries or smiles, and I haven't noticed any blisters around or inside her ear.",
+        "topic": "Facial weakness and blisters"
+      },
+      {
+        "answer": "The area behind her right ear is red, warm, and swollen, pushing her ear forward, but she does not have a stiff neck, vomiting, or extreme drowsiness.",
+        "topic": "Swelling behind ear and red flags"
+      },
+      {
+        "answer": "No, she has not been swimming or taking baths where water entered her ears, and I never clean inside her ear with cotton swabs.",
+        "topic": "Water exposure and cotton swabs"
+      },
+      {
+        "answer": "No, she has had no falls, ear trauma, or foreign objects inserted into her ear.",
+        "topic": "Ear trauma and foreign bodies"
+      },
+      {
+        "answer": "No, we have not flown on an airplane or traveled to higher elevations recently.",
+        "topic": "Barotrauma and pressure changes"
+      },
+      {
+        "answer": "No, she does not complain of tooth pain, and her jaw opens and closes normally without clicking.",
+        "topic": "Dental and jaw pain"
+      },
+      {
+        "answer": "She has no sore throat, and she can swallow fluids without difficulty.",
+        "topic": "Throat pain and swallowing"
+      },
+      {
+        "answer": "She had an ear infection three months ago that improved with medicine, but she has not taken any antibiotics for this current illness.",
+        "topic": "Past ear infections"
+      },
+      {
+        "answer": "She has no history of diabetes, immune system problems, or other chronic illnesses.",
+        "topic": "Underlying conditions and immunity"
+      },
+      {
+        "answer": "She has been very irritable, constantly tugging at her right ear and refusing solid food, though she still sips water.",
+        "topic": "Irritability and oral intake"
+      },
+      {
+        "answer": "I think her ear infection spread into the bone behind her ear because we didn't finish all the medicine last time.",
+        "topic": "Parent's thoughts on cause"
+      },
+      {
+        "answer": "I'm terrified that she might permanently lose her hearing or need a dangerous operation on her skull.",
+        "topic": "Parent's concerns"
+      },
+      {
+        "answer": "I'm hoping you can give her some strong IV antibiotics so she won't have to undergo surgery.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "She has no major chronic medical problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She has never had surgery, ear tube placement, or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I gave her children's ibuprofen and acetaminophen for the fever and pain, but she is not taking any other medications or antibiotics.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "She has no known allergies to any medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "She was born full-term through an uncomplicated vaginal delivery with no neonatal complications.",
+        "topic": "Birth and neonatal history"
+      },
+      {
+        "answer": "She has met all developmental milestones on time and is growing along normal percentiles.",
+        "topic": "Growth and development"
+      },
+      {
+        "answer": "Her routine childhood immunizations are completely up to date, including the pneumococcal vaccines.",
+        "topic": "Vaccination status"
+      },
+      {
+        "answer": "She attends daycare three days a week where other toddlers have had colds, and no one smokes in our home or around her.",
+        "topic": "Daycare and environmental exposures"
+      },
+      {
+        "answer": "There is no family history of recurrent ear infections, hearing impairment, or immune deficiencies.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "An irritable, ill-appearing 4-year-old girl clutching the right side of her head, consolable by her mother.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Temperature 38.9°C, pulse 124/min, respiratory rate 24/min, blood pressure 98/62 mmHg, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Erythema, swelling, and marked tenderness over the right mastoid with anterior-inferior displacement of the right auricle; otoscopy reveals an erythematous, bulging right tympanic membrane with obscured landmarks, while the left ear is normal.",
+        "maneuver": "ear_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Reduced behavioral response to conversational and whispered voice on the right side compared to the left; formal tuning fork testing deferred due to age.",
+        "maneuver": "hearing_test",
+        "response": "none"
+      },
+      {
+        "finding": "Mild clear nasal discharge; oral mucosa is moist, posterior oropharynx is clear without tonsillar exudates, and dentition is healthy.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Small, slightly tender right anterior cervical lymph nodes; no fluctuant cervical masses.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Facial symmetry is intact with symmetric smiling, eye closure, and forehead wrinkling; no facial droop or weakness.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with full active and passive flexion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "id": "ps_023",
+  "system": "plastic surgery",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Jin",
+  "age": 32,
+  "gender": "male",
+  "chief_complaint": "painful redness, blisters, and peeling skin on both hands after boiling water spill",
+  "hpi_details": "32M presents with severe pain, blistering, and peeling skin on the back of both hands after boiling water spilled on them 2 hours ago. Skin is red, wet, and extremely tender to touch.",
+  "ideas": "thinks he has severe burns and needs dressings",
+  "concerns": "worried about permanent scarring and hand function",
+  "expectations": "wants burn ointment and pain relief",
+  "pmh": "No significant history",
+  "medications": "None",
+  "social_hx": "Chef, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Thermal Burn Injury evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Thermal Burn Injury is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Partial-Thickness (Second-Degree) Thermal Burn of bilateral hands, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: painful redness, blisters, and peeling skin on both hands after boiling water spill",
+      "Key HPI features: 32M presents with severe pain, blistering, and peeling skin on the back of both hands after boiling water spilled on them 2 hours ago. Skin is red, wet, and extremely tender to touch.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Partial-Thickness (Second-Degree) Thermal Burn of bilateral hands.",
+      "Relevant background/PMH: No significant history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Thermal Burn Injury.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Chemical burn without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Inhalation injury (soot in mouth, hoarseness)."
+    ],
+    "management_principles": [
+      "Assess burn depth, total body surface area, neurovascular status, tetanus status, and hand function; burns involving the hands merit burn-specialist consultation.",
+      "After cooling and cleansing, dressings, analgesia, and any blister management should be selected by a clinician based on depth, contamination, allergies, and local protocol; avoid routine silver sulfadiazine for superficial partial-thickness burns when a better healing dressing is available.",
+      "Begin guided range-of-motion therapy when appropriate and give clear return precautions for infection, worsening pain, numbness, or impaired circulation."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Partial-Thickness (Second-Degree) Thermal Burn of bilateral hands. painful redness, blisters, and peeling skin on both hands after boiling water spill. 32M presents with severe pain, blistering, and peeling skin on the back of both hands after boiling water spilled on them 2 hours ago. Skin is red, wet, and extremely tender to touch.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Partial-Thickness (Second-Degree) Thermal Burn of bilateral hands.",
+    "assessment": "Clinical presentation highly suggestive of Partial-Thickness (Second-Degree) Thermal Burn of bilateral hands.",
+    "plan": "Cool the injury with running water if still within a useful early window; do not apply ice. Assess depth, total body surface area, tetanus status, circulation, and hand function, and obtain burn-specialist input because both hands are involved. Use clinician-selected nonadherent dressings and analgesia, with guided early motion when safe; urgently escalate numbness, pale or cool digits, severe swelling, infection, or breathing symptoms."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Partial-Thickness (Second-Degree) Thermal Burn of bilateral hands.",
+    "Formulate prioritized differential diagnosis for painful redness, blisters, and peeling skin on both hands after boiling water spill",
+    "Select appropriate laboratory and imaging studies for plastic surgery",
+    "Implement evidence-based acute and long-term management strategies for Partial-Thickness (Second-Degree) Thermal Burn of bilateral hands."
+  ],
+  "teaching": {
+    "diagnosis": "Thermal Burn Injury",
+    "one_liner": "Tissue injury caused by heat exposure, requiring assessment of total body surface area (TBSA), depth, and airway involvement.",
+    "differentials": [
+      "Chemical burn",
+      "Electrical burn",
+      "Stevens-Johnson syndrome"
+    ],
+    "red_flags": [
+      "Inhalation injury (soot in mouth, hoarseness)",
+      "Circumferential chest/limb burns"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mechanism and thermal agent",
+        "say": "What caused the burn: an open flame, hot liquid, steam, or chemicals?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "flame",
+          "liquid",
+          "steam",
+          "scald",
+          "heat"
+        ]
+      },
+      {
+        "objective": "Inhalation injury screen",
+        "say": "Were you trapped in an enclosed space, and do you have hoarseness or black soot in your cough?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "enclosed",
+          "trapped",
+          "hoarseness",
+          "soot",
+          "singed"
+        ]
+      },
+      {
+        "objective": "Estimated body surface area",
+        "say": "Which body parts were burned: face, chest, arms, or legs?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "chest",
+          "face",
+          "arms",
+          "legs",
+          "body"
+        ]
+      },
+      {
+        "objective": "Pain and depth assessment",
+        "say": "Are the burned areas extremely painful and blistered, or numb and white?",
+        "domains": [
+          "character",
+          "severity"
+        ],
+        "keywords": [
+          "blistered",
+          "blisters",
+          "painful",
+          "white",
+          "numb"
+        ]
+      },
+      {
+        "objective": "First aid and initial treatment",
+        "say": "Did you cool the burn with clean running water, and what first aid or pain medicine have you used?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "water",
+          "cooling",
+          "first aid",
+          "cool",
+          "pain medicine"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/82",
+      "hr": 88,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I spilled boiling water over both of my hands at work two hours ago, and now the skin is bright red, blistered, and burning terribly.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "A large pot of boiling water slipped while I was moving it on the kitchen stove, splashing directly across the backs of both hands.",
+        "topic": "Mechanism of injury"
+      },
+      {
+        "answer": "It happened about two hours ago, around noon right in the middle of our restaurant lunch rush.",
+        "topic": "Time of injury"
+      },
+      {
+        "answer": "The burn is on the backs of both hands and across my knuckles, covering an area about the size of each palm.",
+        "topic": "Location and burn extent"
+      },
+      {
+        "answer": "It was plain boiling water from cooking pasta, and it splashed on me for just a split second before I pulled away.",
+        "topic": "Burn agent and contact time"
+      },
+      {
+        "answer": "I ran cool tap water over both hands for about ten minutes right after it happened, but I didn't put ice or any creams on them.",
+        "topic": "First aid and cooling"
+      },
+      {
+        "answer": "No, it was just hot water in an open kitchen, not an enclosed room fire, and there was no flame or smoke.",
+        "topic": "Enclosed space or smoke"
+      },
+      {
+        "answer": "No hoarseness, my voice feels normal, and I don't have any shortness of breath or cough.",
+        "topic": "Hoarseness and breathing difficulty"
+      },
+      {
+        "answer": "The pain is an excruciating 8 out of 10 throbbing ache, and every part of the burn is super sensitive—there are no numb spots.",
+        "topic": "Pain severity and sensation"
+      },
+      {
+        "answer": "My fingers feel tight and swollen when I try to bend them, but I can still move them and feel my fingertips normally.",
+        "topic": "Finger movement and numbness"
+      },
+      {
+        "answer": "No, my palms, the undersides of my fingers, and my wrists were completely spared; the burns don't go all the way around.",
+        "topic": "Circumferential burn check"
+      },
+      {
+        "answer": "There was no deep gash or heavy spurting blood, just clear liquid weeping from where the blisters popped.",
+        "topic": "Bleeding or cuts"
+      },
+      {
+        "answer": "No, it was clean boiling tap water from a clean stainless steel cooking pot, with no dirt, rust, or foreign objects.",
+        "topic": "Contamination or foreign material"
+      },
+      {
+        "answer": "No, it wasn't an animal or human bite.",
+        "topic": "Bite injury"
+      },
+      {
+        "answer": "The redness appeared immediately from the heat, but there isn't any foul-smelling yellow pus or red streaks traveling up my arms.",
+        "topic": "Signs of wound infection"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, dizziness, or lightheadedness.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my skin was completely healthy and normal until the spill two hours ago.",
+        "topic": "Chronic wound history"
+      },
+      {
+        "answer": "No, I am on my feet all day working in the kitchen and have never been bedridden or had pressure sores.",
+        "topic": "Prolonged immobility or ulcers"
+      },
+      {
+        "answer": "It was an accidental spill while lifting a heavy pot; nobody assaulted me, and I did not harm myself.",
+        "topic": "Violence or self-harm"
+      },
+      {
+        "answer": "I received a tetanus booster shot about five or six years ago after a minor knife cut at work.",
+        "topic": "Tetanus vaccination status"
+      },
+      {
+        "answer": "I think these are severe second-degree burns and I need medical dressings before they get infected.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I work as a professional chef, so I'm terrified this might cause permanent scarring or ruin my hand mobility and livelihood.",
+        "topic": "Concerns and fears"
+      },
+      {
+        "answer": "I'm hoping you can give me something strong for this pain, apply proper sterile dressings, and tell me how to heal without scars.",
+        "topic": "Expectations of visit"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like diabetes, high blood pressure, or kidney disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I've never been hospitalized for anything.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, steroids, or blood thinners.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medicines, foods, or latex.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink a beer or two on the weekend with friends, but I don't drink heavily.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time as a restaurant chef and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are alive and healthy, and there is no family history of circulatory or skin disorders.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient appears alert and oriented, in visible distress from bilateral hand pain, holding both hands elevated and protected.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 128/82 mmHg, heart rate 88 beats/min, respiratory rate 16 breaths/min, body temperature 36.8°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Nasal vibrissae are intact, and the oral cavity and posterior pharynx show no soot, mucosal erythema, blister formation, or edema.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Auscultation reveals clear breath sounds bilaterally without wheezing, stridor, rhonchi, or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Heart sounds are regular without murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Both dorsal hands demonstrate bright red, wet weeping surfaces with thin-walled bullae, deroofed skin, brisk blanching, and extreme tenderness, sparing the palms and spanning approximately 2% total body surface area.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Radial and ulnar pulses are 2+ bilaterally, and digital capillary refill is brisk at under two seconds in all ten digits.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Two-point discrimination and light touch sensation are intact across all palmar digital surfaces bilaterally, while dorsal burned skin displays marked hyperesthesia.",
+        "maneuver": "sensory_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Active and passive flexion and extension of all digits and wrists are preserved, although full fist formation is limited by dorsal pain and swelling, with no extensor tendon exposure.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

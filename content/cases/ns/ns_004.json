@@ -1,0 +1,317 @@
+{
+  "id": "ns_004",
+  "system": "neurosurgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Davis",
+  "age": 63,
+  "gender": "female",
+  "chief_complaint": "sharp, electric shock-like facial pain triggered by chewing, brushing teeth, and cold breeze",
+  "hpi_details": "63F presents with 3-month history of excruciating, lightning-fast electric shock-like stabs of pain affecting the right cheek, upper lip, and jaw. Episodes last 5-15 seconds and occur dozens of times daily. Pain is reliably triggered by light touch to the face, chewing, drinking cold water, brushing teeth, or feeling a draft of wind.",
+  "ideas": "thinks she has severe dental infection or abscess and already had two molars extracted without relief",
+  "concerns": "terrified to eat or speak because it triggers agonizing shock pain",
+  "expectations": "wants specialized nerve medication or surgical procedure to permanently stop the electric shocks",
+  "pmh": "Osteopenia",
+  "medications": "Calcium/Vitamin D",
+  "social_hx": "Retired nurse, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Trigeminal Neuralgia (Classic Tic Douloureux) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Trigeminal Neuralgia (Classic Tic Douloureux) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Initiate Carbamazepine 100 mg BID, titrating gradually up to 400-600 mg BID as tolerated (monitor CBC and LFTs; check HLA-B*1502 in Asian ancestry), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sharp, electric shock-like facial pain triggered by chewing, brushing teeth, and cold breeze",
+      "Key HPI features: 63F presents with 3-month history of excruciating, lightning-fast electric shock-like stabs of pain affecting the right cheek, upper lip, and jaw. Episodes last 5-15 seconds and occur dozens of times daily. Pain is reliably triggered by light touch to the face, chewing, drinking cold water, brushing teeth, or feeling a draft of wind.",
+      "Objective/Exam findings: Vitals: HR 72, BP 130/80. Facial inspection normal. Neurological examination reveals intact cranial nerves without facial weakness or sustained sensory loss. Light brush of cotton swab over right nasolabial fold instantly triggers a severe 10-second grimacing spasm of right facial pain. High-resolution 3D-FIESTA brain MRI demonstrates neurovascular compression of the right trigeminal nerve root entry zone by an aberrant, tortuous loop of the superior cerebellar artery (SCA).",
+      "Relevant background/PMH: Osteopenia",
+      "Current medications: Calcium/Vitamin D"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Trigeminal Neuralgia (Classic Tic Douloureux).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Dental pulpitis/abscess (already excluded by extraction) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Bilateral pain or younger age of onset — should prompt MRI to exclude multiple sclerosis."
+    ],
+    "management_principles": [
+      "Initiate Carbamazepine 100 mg BID, titrating gradually up to 400-600 mg BID as tolerated (monitor CBC and LFTs; check HLA-B*1502 in Asian ancestry)",
+      "If medical management fails or causes intolerable side effects, refer to neurosurgery for Microvascular Decompression (MVD - Jannetta procedure) of the right trigeminal nerve, or Gamma Knife radiosurgery",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "63F presenting with classic paroxysmal lancinating facial pain restricted to right V2 and V3 trigeminal nerve distributions with cutaneous trigger zones.",
+    "objective": "Vitals: HR 72, BP 130/80. Facial inspection normal. Neurological examination reveals intact cranial nerves without facial weakness or sustained sensory loss. Light brush of cotton swab over right nasolabial fold instantly triggers a severe 10-second grimacing spasm of right facial pain. High-resolution 3D-FIESTA brain MRI demonstrates neurovascular compression of the right trigeminal nerve root entry zone by an aberrant, tortuous loop of the superior cerebellar artery (SCA).",
+    "assessment": "Right Trigeminal Neuralgia (Classic Tic Douloureux) secondary to vascular loop compression.",
+    "plan": "Initiate Carbamazepine 100 mg BID, titrating gradually up to 400-600 mg BID as tolerated (monitor CBC and LFTs; check HLA-B*1502 in Asian ancestry). If medical management fails or causes intolerable side effects, refer to neurosurgery for Microvascular Decompression (MVD - Jannetta procedure) of the right trigeminal nerve, or Gamma Knife radiosurgery."
+  },
+  "learning_objectives": [
+    "Identify clinical criteria distinguishing Trigeminal Neuralgia from dental abscess, temporomandibular joint disorder, and cluster headache",
+    "Explain the neuroanatomical mechanism of vascular compression at the trigeminal root entry zone by the superior cerebellar artery",
+    "Select Carbamazepine as first-line pharmacotherapy and understand required lab monitoring and HLA screening guidelines",
+    "Describe surgical options including Microvascular Decompression (MVD) and ablative rhizotomy procedures"
+  ],
+  "teaching": {
+    "diagnosis": "Trigeminal Neuralgia (Classic Tic Douloureux)",
+    "one_liner": "Compression of the trigeminal nerve by a blood vessel causes brief, electric shock-like facial pain triggered by trivial touch — brushing teeth, chewing, cold air — with pain-free intervals, distinguishing it from a dental problem.",
+    "differentials": [
+      "Dental pulpitis/abscess (already excluded by extraction)",
+      "Temporomandibular joint dysfunction",
+      "Post-herpetic neuralgia",
+      "Multiple sclerosis (if bilateral or young onset)"
+    ],
+    "red_flags": [
+      "Bilateral pain or younger age of onset — should prompt MRI to exclude multiple sclerosis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pain character and duration",
+        "say": "Does the pain feel like an electric shock, lasting just seconds?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "electric shock",
+          "seconds"
+        ]
+      },
+      {
+        "objective": "Triggers",
+        "say": "Does chewing, brushing your teeth, or a cold breeze set it off?",
+        "domains": [
+          "aggravating"
+        ]
+      },
+      {
+        "objective": "Pain-free intervals",
+        "say": "Are you completely pain-free between attacks?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Distribution",
+        "say": "Where exactly is the pain — cheek, upper lip, jaw?",
+        "domains": [
+          "location"
+        ]
+      },
+      {
+        "objective": "Prior dental treatment",
+        "say": "Did the tooth extractions help at all?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "no relief"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "130/80",
+      "hr": 72,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Doctor, I've been getting these terrible electric shock-like pains shooting through the right side of my face.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about three months ago out of nowhere, beginning as sudden sharp twinges that quickly became excruciating.",
+        "topic": "Onset and initial course"
+      },
+      {
+        "answer": "The shocks hit my right cheek, upper lip, and along my right jawline. It has never crossed over to the left side.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "It feels like a sudden bolt of lightning or a sharp electric shock stabbing into my face.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "When a shock hits, it is an unbearable ten out of ten. It is so intense that it makes me freeze in terror.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Each shock lasts only about five to fifteen seconds, but they happen dozens of times every single day.",
+        "topic": "Duration and frequency"
+      },
+      {
+        "answer": "Between the sudden shocks, the pain goes away completely and my face feels totally normal.",
+        "topic": "Pain-free intervals"
+      },
+      {
+        "answer": "Over the past three months, the attacks have become much more frequent and are triggered much more easily.",
+        "topic": "Pain progression over time"
+      },
+      {
+        "answer": "Chewing food, brushing my teeth, washing my face, or even a cold breeze against my cheek triggers an immediate shock.",
+        "topic": "Aggravating factors and triggers"
+      },
+      {
+        "answer": "Nothing really relieves it once it starts. I just have to freeze, stay completely still, and wait for it to pass.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "I tried taking ibuprofen and acetaminophen, but over-the-counter painkillers didn't help at all.",
+        "topic": "Prior medications tried"
+      },
+      {
+        "answer": "I thought I had a bad dental abscess, so I went to the dentist and had two right molars extracted, but it didn't help one bit.",
+        "topic": "Prior dental treatment"
+      },
+      {
+        "answer": "No, my face does not feel numb or tingly at all between the pain episodes.",
+        "topic": "Facial numbness or tingling"
+      },
+      {
+        "answer": "No, my face muscles feel completely normal and I have not had any facial drooping or weakness.",
+        "topic": "Facial weakness or drooping"
+      },
+      {
+        "answer": "No, my vision is completely fine and my right eye does not get red, tear up, or swell.",
+        "topic": "Visual changes or eye redness"
+      },
+      {
+        "answer": "No, I haven't had any headaches, neck stiffness, or dizziness.",
+        "topic": "Headache or neck pain"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I have never had any skin rash, blisters, or cold sores on my face or ears.",
+        "topic": "Skin rash or blisters"
+      },
+      {
+        "answer": "I haven't been trying to diet, but I have lost a few pounds recently because I am terrified to chew my food.",
+        "topic": "Weight loss and appetite"
+      },
+      {
+        "answer": "It is completely ruining my daily routine because I am scared to eat, speak, wash my face, or step outside.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I really believed I had a deep dental infection, which is why I let the dentist pull two of my teeth.",
+        "topic": "Patient ideas regarding cause"
+      },
+      {
+        "answer": "I am terrified of eating or speaking because I dread triggering another unbearable electric shock.",
+        "topic": "Patient concerns and fears"
+      },
+      {
+        "answer": "I really hope you can prescribe a specialized nerve medication or suggest a surgical procedure to stop these shocks permanently.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I was told I have osteopenia a few years ago, but I don't have high blood pressure, diabetes, or any other chronic diseases.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "Other than having those two molars pulled recently, I have never had any surgeries or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I only take daily calcium and vitamin D supplements for my bone density.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications or anything else that I know of.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my entire life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might have a single glass of wine on rare social occasions, but I rarely drink alcohol.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a retired nurse and I live comfortably at home with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of chronic facial pain, nerve disorders, or multiple sclerosis.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 130/80 mmHg, heart rate is 72 beats per minute, respiratory rate is 16 breaths per minute, and temperature is 36.6°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, well-nourished woman sitting still and guarding her right cheek, appearing anxious but in no acute distress at rest.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Facial skin appears normal without redness, swelling, vesicles, or scarring.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is pink and moist, with healing sockets from prior right molar extractions and no signs of dental abscess or mucosal ulceration.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "External auditory canals and tympanic membranes are clear bilaterally without vesicles, erythema, or discharge.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Both temporomandibular joints have smooth range of motion without tenderness, clicking, or swelling.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact, with symmetric facial movements and no motor weakness.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Lightly touching the right nasolabial fold with a cotton swab immediately triggers an agonizing, grimacing spasm of right-sided facial pain, while baseline sensation is otherwise preserved across all three trigeminal branches.",
+        "maneuver": "sensory_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Full 5/5 muscle strength and normal tone in all four extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck without rigidity; Kernig and Brudzinski signs are negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "id": "allergy_034",
+  "system": "allergy",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Hall",
+  "age": 44,
+  "gender": "female",
+  "chief_complaint": "widespread hives, wheezing, and lightheadedness post-sting",
+  "hpi_details": "A 44-year-old female presents to the clinic with widespread hives, wheezing, and lightheadedness post-sting. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks the wasp that stung her was an unusually poisonous species with dangerous venom.",
+  "concerns": "She is terrified that she might pass out and collapse on the floor while she is home alone caring for her young daughter.",
+  "expectations": "She hopes to receive immediate treatment to stop the dizziness and a prescription for an emergency shot pen to keep with her.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Anaphylaxis (wasp sting-triggered) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Anaphylaxis (wasp sting-triggered) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes immediate intramuscular epinephrine (0.3–0.5 mg for most adults), emergency monitoring, and supportive care, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: widespread hives, wheezing, and lightheadedness post-sting",
+      "Key HPI features: A 44-year-old female presents to the clinic with widespread hives, wheezing, and lightheadedness post-sting. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Wasp Sting Anaphylaxis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Anaphylaxis (wasp sting-triggered).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Large local sting reaction (no systemic symptoms) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Wheeze or lightheadedness — this is systemic, not just a local reaction."
+    ],
+    "management_principles": [
+      "Plan for Wasp Sting Anaphylaxis: Immediate intramuscular epinephrine (0.3–0.5 mg for most adults), emergency monitoring, and IV fluids when indicated",
+      "Consult specialist if symptoms worsen"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "World Allergy Organization (WAO) Anaphylaxis & Angioedema Guidelines",
+        "url": "https://www.worldallergy.org/education-and-programs/education/allergic-disease-resource-center/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of widespread hives, wheezing, and lightheadedness post-sting. HPI: systemic mast cell degranulation.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Wasp Sting Anaphylaxis.",
+    "assessment": "Condition highly suspicious for Wasp Sting Anaphylaxis.",
+    "plan": "Plan for Wasp Sting Anaphylaxis: IM Epinephrine 0.3mg immediately, IV fluids, monitoring. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Wasp Sting Anaphylaxis",
+    "Select appropriate diagnostic workup for Wasp Sting Anaphylaxis",
+    "Implement evidence-based management plan: IM Epinephrine 0.3mg immediately, IV fluids, monitoring"
+  ],
+  "teaching": {
+    "diagnosis": "Anaphylaxis (wasp sting-triggered)",
+    "one_liner": "A systemic IgE-mediated reaction to insect venom with hives, wheeze, and lightheadedness after a sting — treated immediately with intramuscular epinephrine.",
+    "differentials": [
+      "Large local sting reaction (no systemic symptoms)",
+      "Vasovagal reaction to the sting",
+      "Toxic reaction to multiple stings"
+    ],
+    "red_flags": [
+      "Wheeze or lightheadedness — this is systemic, not just a local reaction"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sting details and timing",
+        "say": "Where were you stung, and how soon after did symptoms start?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "sting",
+          "wasp",
+          "minutes"
+        ]
+      },
+      {
+        "objective": "Extent of the reaction",
+        "say": "Are the hives all over your body, or just around the sting site?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "all over",
+          "site",
+          "widespread"
+        ]
+      },
+      {
+        "objective": "Breathing and circulation symptoms",
+        "say": "Do you feel wheezy, short of breath, or lightheaded?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "wheeze",
+          "breath",
+          "lightheaded"
+        ]
+      },
+      {
+        "objective": "Prior sting reactions",
+        "say": "Have you ever reacted this way to a sting before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "before",
+          "sting"
+        ]
+      },
+      {
+        "objective": "Epinephrine use",
+        "say": "Do you carry epinephrine, and has it been given?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "epinephrine",
+          "given"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "90/60",
+      "hr": 112,
+      "rr": 24,
+      "spo2": 94,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I was stung by a wasp about thirty minutes ago, and now I'm breaking out in itchy hives all over, my chest feels tight and wheezy, and I feel really dizzy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about twenty to thirty minutes ago right after I was stung on my arm, and the red bumps quickly spread all across my chest, belly, and legs.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The rash covers my entire chest, stomach, back, arms, and thighs, as well as parts of my face and neck.",
+        "topic": "Rash location and distribution"
+      },
+      {
+        "answer": "They look like raised, swollen red welts of different shapes and sizes that turn white when I press on them, with no blisters or scabs.",
+        "topic": "Lesion characteristics"
+      },
+      {
+        "answer": "It is intensely itchy all over my body, but there is no burning pain or numbness.",
+        "topic": "Itching and pain"
+      },
+      {
+        "answer": "New ones keep popping up and merging together continuously since the sting; none of them have faded away yet.",
+        "topic": "Fluctuation of lesions"
+      },
+      {
+        "answer": "My lips and eyelids feel a bit puffy, and my throat feels tight, like I have a lump I can't swallow away.",
+        "topic": "Facial swelling and throat tightness"
+      },
+      {
+        "answer": "Yes, I am short of breath and I can hear a high-pitched whistling sound whenever I breathe out.",
+        "topic": "Shortness of breath and wheezing"
+      },
+      {
+        "answer": "I felt a sudden wave of dizziness and lightheadedness when I stood up, and I feel faint and weak.",
+        "topic": "Dizziness and lightheadedness"
+      },
+      {
+        "answer": "I was stung once on my right forearm by a yellow-and-black wasp while trimming shrubs in my backyard about half an hour ago; the stinger didn't stay in.",
+        "topic": "Sting details"
+      },
+      {
+        "answer": "I was stung once a couple of years ago, but it only caused a quarter-sized red swelling on my hand that cleared up in a day.",
+        "topic": "Prior sting reactions"
+      },
+      {
+        "answer": "No, I have never had an allergic reaction like this before, so I do not have an epinephrine auto-injector and haven't used any medicine today.",
+        "topic": "Epinephrine use and self treatment"
+      },
+      {
+        "answer": "I don't have chills or a fever, but I feel overwhelmingly weak, exhausted, and shaky all over.",
+        "topic": "Fever chills and fatigue"
+      },
+      {
+        "answer": "No, I don't have any sores, blisters, or raw peeling areas inside my mouth, eyes, or private areas.",
+        "topic": "Mucosal involvement"
+      },
+      {
+        "answer": "No, my skin is not peeling off or tender to the touch, and there are no purple spots that stay purple when pressed.",
+        "topic": "Skin peeling and purple spots"
+      },
+      {
+        "answer": "No, I haven't started any new antibiotics, pain relievers, gout pills, or seizure medications recently.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No, I haven't eaten any unusual seafood, nuts, or new foods today; I just had my usual toast and coffee this morning.",
+        "topic": "Dietary triggers"
+      },
+      {
+        "answer": "No new cosmetics, body lotions, laundry detergents, or new jewelry; I was only exposed to the outdoor garden shrubs.",
+        "topic": "Contactants and cosmetics"
+      },
+      {
+        "answer": "No travel, no hiking in deep woods, and no visits to public spas or gyms; just my own backyard.",
+        "topic": "Travel and outdoor exposures"
+      },
+      {
+        "answer": "No one else at home has any rash, itching, or similar symptoms.",
+        "topic": "Household contacts"
+      },
+      {
+        "answer": "No, I don't have a history of asthma, eczema, or severe allergic rhinitis.",
+        "topic": "Allergic conditions history"
+      },
+      {
+        "answer": "No, my joints are not painful or swollen, and my nails look completely normal.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I washed the sting site with tap water right away, but I haven't put any hydrocortisone cream or antifungal ointment on it.",
+        "topic": "Applied ointments"
+      },
+      {
+        "answer": "I have been in a monogamous relationship with my husband for twenty years, and I have no history of genital sores or sexually transmitted infections.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I thought maybe that specific wasp was extra poisonous, because I've never had a bug bite make me feel faint before.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm really scared that I'll faint and collapse while my little girl is alone with me at home.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I hope you can give me something right away to keep me from blacking out, and prescribe an emergency pen I can carry in my bag.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have been generally healthy with no chronic medical conditions like diabetes, hypertension, or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized except when I gave birth to my children.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter painkillers, or herbal supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a glass of wine socially once or twice a month, and none today.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an administrative assistant at an accounting firm and live with my husband and two teenage children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of severe allergies, asthma, autoimmune skin conditions, or sudden unexplained collapse.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period started twelve days ago and was normal; my cycles are regular, my husband had a vasectomy, and there is no chance I am pregnant.",
+        "topic": "Menstrual history and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient appears acutely distressed, diaphoretic, and anxious, with labored breathing and prominent widespread erythema.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 90/60 mmHg, heart rate 112 beats/min, respiratory rate 24 breaths/min, SpO2 94% on ambient air, temperature 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Widespread erythematous, raised, edematous wheals with central pallor across trunk, limbs, and face; single puncture mark on right forearm with surrounding erythema.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral mild conjunctival hyperemia without purulent discharge, petechiae, or scleral icterus.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Mild edema of the uvula and posterior pharyngeal wall without gross airway occlusion; tongue and oral mucosa are moist with no ulcers.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No enlarged, tender, or palpable cervical or supraclavicular lymph nodes.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse bilateral expiratory high-pitched wheezes with mildly prolonged expiratory phase; no inspiratory stridor or basal crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm, crisp S1 and S2, without murmurs, third heart sound, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial and dorsalis pedis pulses are rapid, equal, and mildly thready.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, and non-tender throughout, with normal active bowel sounds and no rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema of the lower extremities; peripheral extremities are warm with capillary refill time under two seconds.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "id": "ps_031",
+  "system": "ps",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Wright",
+  "age": 40,
+  "gender": "male",
+  "chief_complaint": "painless white leathery skin after house fire",
+  "hpi_details": "40-year-old male presents to the ED after being rescued from a house fire. He sustained burns to his entire right arm. The skin on the arm appears stark white, leathery, and dry. It is completely painless to the touch and lacks capillary refill.",
+  "ideas": "He thinks the fire just singed and numbed the tough outer layer of skin, believing that because there is no pain at all, it cannot be a serious burn.",
+  "concerns": "He is terrified that the damage is permanent and that he might lose his right arm or never be able to work with his hand again.",
+  "expectations": "He hopes the doctor can clean it, apply some burn ointment, and bandage it up so he can go check on what is left of his house.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Thermal Burn Injury evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Thermal Burn Injury is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes urgent burn-center evaluation, assessment of total body surface area (TBSA), and early excision/grafting when indicated, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: painless white leathery skin after house fire",
+      "Key HPI features: A 40-year-old male presents to the ED after a house fire with a painless, white, leathery right arm.",
+      "Objective/Exam findings: A dry, insensate, nonblanching eschar of the right upper extremity; assess TBSA, distal perfusion, and inhalation injury.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Thermal Burn Injury.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Chemical burn without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Inhalation injury (soot in mouth, hoarseness)."
+    ],
+    "management_principles": [
+      "Urgent burn-center evaluation; calculate TBSA and provide IV fluid resuscitation when indicated; plan excision and grafting",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "40M presenting with severe burns to the right upper extremity following a structural fire.",
+    "objective": "Right arm reveals dry, inelastic, leathery, pearly white to charred eschar extending circumferentially. Sensation to pinprick is completely absent. No capillary blanching.",
+    "assessment": "Full-thickness (Third-degree) Thermal Burn Injury.",
+    "plan": "Urgently consult or transfer to a burn center. Calculate TBSA and provide IV fluid resuscitation when indicated by burn size and clinical status. Arrange early excision and split-thickness skin grafting. Monitor a circumferential limb burn for vascular compromise requiring escharotomy."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of a full-thickness burn of the upper extremity",
+    "Select appropriate diagnostic workup for a full-thickness burn of the upper extremity",
+    "Implement evidence-based management: burn-center evaluation, TBSA-guided resuscitation, and surgical debridement/grafting when indicated"
+  ],
+  "teaching": {
+    "diagnosis": "Thermal Burn Injury",
+    "one_liner": "Tissue injury caused by heat exposure, requiring assessment of total body surface area (TBSA), depth, and airway involvement.",
+    "differentials": [
+      "Chemical burn",
+      "Electrical burn",
+      "Stevens-Johnson syndrome"
+    ],
+    "red_flags": [
+      "Inhalation injury (soot in mouth, hoarseness)",
+      "Circumferential chest/limb burns"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mechanism and thermal agent",
+        "say": "What caused the burn — open flame, hot liquid, steam, or chemicals?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "flame",
+          "liquid",
+          "steam",
+          "scald",
+          "heat"
+        ]
+      },
+      {
+        "objective": "Inhalation injury screen",
+        "say": "Were you trapped in an enclosed space, and do you have hoarseness or black soot in your cough?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "enclosed",
+          "trapped",
+          "hoarseness",
+          "soot",
+          "singed"
+        ]
+      },
+      {
+        "objective": "Estimated body surface area",
+        "say": "Which body parts were burned — face, chest, arms, or legs?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "chest",
+          "face",
+          "arms",
+          "legs",
+          "body"
+        ]
+      },
+      {
+        "objective": "Pain and depth assessment",
+        "say": "Are the burned areas extremely painful and blistered, or numb and white?",
+        "domains": [
+          "character",
+          "severity"
+        ],
+        "keywords": [
+          "blistered",
+          "blisters",
+          "painful",
+          "white",
+          "numb"
+        ]
+      },
+      {
+        "objective": "First aid fluid resuscitation status",
+        "say": "Did you cool the burn with clean tap water and have you received IV fluids?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "water",
+          "cooling",
+          "fluids",
+          "cool",
+          "saline"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/82",
+      "hr": 98,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I was caught in a house fire about an hour ago, and my entire right arm got badly burned.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "A fire started in my living room, and as I tried to escape through the hall, flames and burning debris caught my right sleeve and arm.",
+        "topic": "Mechanism of injury"
+      },
+      {
+        "answer": "The fire broke out about an hour ago, and the rescue team pulled me out and brought me straight to the emergency room.",
+        "topic": "Timing of injury"
+      },
+      {
+        "answer": "It is on my whole right arm from the shoulder down to my wrist and hand, and only my right arm was burned.",
+        "topic": "Burn location and extent"
+      },
+      {
+        "answer": "There was no dirt, soil, or broken glass in the wound, and no animal bites or puncture injuries.",
+        "topic": "Wound contamination"
+      },
+      {
+        "answer": "No, there is no bleeding or spurting blood at all; the skin looks dry and tightly stretched.",
+        "topic": "Bleeding and hemostasis"
+      },
+      {
+        "answer": "My right hand and fingers feel numb, and my fingers feel stiff and very tight when I try to bend them.",
+        "topic": "Distal sensation and movement"
+      },
+      {
+        "answer": "It was direct flame from the room fire; the paramedics wrapped my arm in a clean dry sheet, but we did not put ice or cold water on it.",
+        "topic": "Thermal agent and first aid"
+      },
+      {
+        "answer": "I was trapped in a smoky hallway for two or three minutes, but I have no trouble breathing, no hoarseness, and I haven't coughed up any black soot.",
+        "topic": "Inhalation injury symptoms"
+      },
+      {
+        "answer": "The white, leathery skin on my right arm does not hurt at all, though I feel a slight sting around the edge near my shoulder.",
+        "topic": "Pain severity and depth"
+      },
+      {
+        "answer": "The burn just happened an hour ago during the fire, so there has been no prior wound care or changes over time.",
+        "topic": "Course of injury"
+      },
+      {
+        "answer": "There is no pus, bad smell, or fever; it is brand new from the fire today.",
+        "topic": "Infection signs"
+      },
+      {
+        "answer": "I am normally fully active and independent, never bedridden or sitting in one place for long periods.",
+        "topic": "Mobility and pressure sores"
+      },
+      {
+        "answer": "I do not have diabetes or poor circulation, and I never get calf cramps when walking.",
+        "topic": "Vascular and diabetes history"
+      },
+      {
+        "answer": "I had a tetanus booster about eight years ago when I cut my finger at work.",
+        "topic": "Tetanus vaccination"
+      },
+      {
+        "answer": "I do not take blood thinners, steroids, or any medications that suppress my immune system, and I eat a regular healthy diet.",
+        "topic": "Medications and immune status"
+      },
+      {
+        "answer": "No, this was purely an accidental house fire from a space heater, not caused by any violence or self-harm.",
+        "topic": "Trauma intent screening"
+      },
+      {
+        "answer": "The paramedics inserted an IV into my left arm in the ambulance and started running fluids into me on the ride over.",
+        "topic": "Fluid resuscitation status"
+      },
+      {
+        "answer": "Since it doesn't hurt at all, I thought the flames just scorched the top layer of skin and numbed it temporarily, so it can't be that bad.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that I might lose my arm or never be able to use my right hand to work again.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping you could just clean it, put some soothing burn ointment and a wrap on it, and let me leave to see what's left of my house.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have never had high blood pressure, diabetes, asthma, or any other chronic medical problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital before today.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription drugs, over-the-counter pills, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medicines, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially, maybe a beer or two on the weekend, but nothing heavy.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an accountant at an office desk, and I live in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of heart disease, diabetes, or other major medical conditions.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/82 mmHg, heart rate 98 beats/min, respiratory rate 18 breaths/min, SpO2 98% on room air, temperature 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, awake male sitting on stretcher with right arm elevated, smelling of smoke, in moderate distress but speaking clearly in full sentences.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Nasal hairs are not singed; oral mucosa and posterior pharynx show no soot, edema, or mucosal burns.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are clear bilaterally with good air entry; no stridor, hoarseness, wheezing, or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Circumferential burn involving the entire right upper extremity with dry, inelastic, leathery, pearly-white to charred eschar; no capillary refill upon firm pressure.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Sensation to light touch and pinprick is completely absent over the right arm and forearm within the eschar area; normal sensation on the left arm.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Right fingers are stiff with restricted active and passive range of motion due to tight skin and edema; left upper extremity has full active motion.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Right radial and ulnar pulses are faint and markedly diminished; left radial and brachial pulses are strong and full at 2+.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Chest wall is symmetric with no burns, chest wall tightness, soot marks, or tenderness to palpation.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      }
+    ]
+  }
+}
