@@ -1,0 +1,311 @@
+{
+  "id": "ortho_011",
+  "system": "orthopedics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Moore",
+  "age": 35,
+  "gender": "male",
+  "chief_complaint": "sudden pop and feeling of being kicked in back of ankle during basketball game",
+  "hpi_details": "35M weekend warrior presenting with inability to push off right foot, palpable gap in Achilles tendon, and positive Thompson squeeze test.",
+  "ideas": "He thinks another player must have kicked him directly in the back of the ankle during the game, tearing a ligament or giving him a severe sprain.",
+  "concerns": "He is worried that he will need major surgery and months of bed rest, leaving him unable to work at his active job or ever run again.",
+  "expectations": "He hopes to be fitted with a supportive walking boot or splint and receive an urgent referral to an orthopedic surgeon.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Achilles tendon rupture evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Achilles tendon rupture is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes prompt immobilization in resting equinus with orthopedic/sports medicine referral for shared decision-making between operative repair and functional rehabilitation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden pop and feeling of being kicked in back of ankle during basketball game",
+      "Key HPI features: 35M weekend warrior presenting with inability to push off right foot, palpable gap in Achilles tendon, and positive Thompson squeeze test.",
+      "Objective/Exam findings: Vitals normal. Palpable gap approximately 2-6 cm proximal to the calcaneal insertion, increased resting dorsiflexion of the affected ankle compared to the other side, positive Thompson (calf squeeze) test with absent plantarflexion, and weak active plantarflexion. Distal pulses and sensation intact.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Achilles tendon rupture.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Achilles tendinopathy (partial tear) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Palpable gap in the tendon."
+    ],
+    "management_principles": [
+      "Immediate immobilization in resting equinus (splint or boot) and non-weight-bearing, with ice and elevation for symptom control",
+      "Confirm the diagnosis clinically (Thompson test, palpable gap) and with ultrasound or MRI if the exam is equivocal",
+      "Refer to orthopedics/sports medicine for shared decision-making between operative repair and functional (early-motion boot) nonoperative management, based on activity level, age, and rerupture risk",
+      "Begin a structured, protocol-driven rehabilitation program regardless of treatment choice to optimize functional recovery."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Achilles Tendon Rupture: sudden pop and feeling of being kicked in back of ankle during basketball game. 35M weekend warrior presenting with inability to push off right foot, palpable gap in Achilles tendon, and positive Thompson squeeze test.",
+    "objective": "Vitals normal. Palpable gap approximately 2-6 cm proximal to the calcaneal insertion, increased resting dorsiflexion of the affected ankle compared to the other side, positive Thompson (calf squeeze) test with absent plantarflexion, and weak active plantarflexion. Distal pulses and sensation intact.",
+    "assessment": "Acute right Achilles tendon rupture.",
+    "plan": "Immobilize the ankle in a splint or boot in resting equinus, non-weight-bearing, with ice and elevation. Obtain ultrasound or MRI if the diagnosis is equivocal. Refer urgently to orthopedics/sports medicine for shared decision-making between operative repair and functional nonoperative management, and begin structured rehabilitation once a treatment path is chosen."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Achilles Tendon Rupture",
+    "Formulate prioritized differential diagnosis for sudden pop and feeling of being kicked in back of ankle during basketball game",
+    "Select appropriate imaging (ultrasound or MRI) when the clinical diagnosis of Achilles rupture is equivocal",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Achilles tendon rupture",
+    "one_liner": "35M weekend athlete with a sudden pop and feeling of being kicked in the back of the ankle, unable to push off, positive Thompson test.",
+    "differentials": [
+      "Achilles tendinopathy (partial tear)",
+      "Calf muscle strain",
+      "Ankle sprain"
+    ],
+    "red_flags": [
+      "Palpable gap in the tendon",
+      "Positive Thompson test",
+      "Inability to push off"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the mechanism and sensation",
+        "say": "Can you describe exactly what you felt—for example, a pop or the feeling of being kicked?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "pop sensation",
+          "mechanism"
+        ]
+      },
+      {
+        "objective": "Assess ability to push off/walk on toes",
+        "say": "Can you stand on your toes or push off with that foot?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "inability to push off"
+        ]
+      },
+      {
+        "objective": "Ask about a palpable gap",
+        "say": "Does it feel like there's a gap or dent in the back of your ankle?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "palpable gap"
+        ]
+      },
+      {
+        "objective": "Ask about prior Achilles symptoms or steroid/fluoroquinolone use",
+        "say": "Have you had prior Achilles pain, or taken steroid injections or certain antibiotics like fluoroquinolones?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "risk factors",
+          "fluoroquinolones"
+        ]
+      },
+      {
+        "objective": "Explain surgical versus conservative treatment options",
+        "say": "We'll discuss whether surgical repair or a cast/boot approach is best for your activity level.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "surgical repair",
+          "immobilization"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I was playing basketball about two hours ago when I felt a loud pop in the back of my right heel, and now I cannot push off or walk on it.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It happened completely out of nowhere two hours ago during a pickup basketball game when I pushed off to sprint down the court.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "The pain is right in the back of my right ankle and lower calf, right along the thick cord behind my heel. It doesn't radiate up to my knee or down into my toes.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "It literally felt like somebody kicked me hard in the back of the leg, followed by a sudden snapping sensation and a dull, aching soreness. I would rate it around six out of ten right now.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "It has been steady since it snapped two hours ago, but the sharpest pain was right at the moment it happened.",
+        "topic": "Course and duration"
+      },
+      {
+        "answer": "Putting any weight on the front of my foot or trying to walk makes it much worse. Resting with my foot propped up takes the edge off.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "My ankle feels swollen and bruised behind the heel, and the back of my ankle feels strangely loose or weak.",
+        "topic": "Associated symptoms"
+      },
+      {
+        "answer": "No, I have had no fever, chills, unintended weight loss, numbness, or tingling anywhere in my leg or foot.",
+        "topic": "Red flag symptoms"
+      },
+      {
+        "answer": "I have never had an injury like this before, and I've never had any pain or problems with my ankles or calves in the past.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "My friends helped me off the court, put an ice bag on it, and gave me a ride straight here. I haven't taken any pain medications yet.",
+        "topic": "Self-treatment and remedies"
+      },
+      {
+        "answer": "I was playing an intense game of basketball after a week of sitting at my desk, but I haven't traveled, eaten anything unusual, or been exposed to any sick contacts.",
+        "topic": "Triggers and exposures"
+      },
+      {
+        "answer": "I can't put full weight on my right leg, so I definitely can't walk normally, drive, or go to work without crutches.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I heard an audible pop, and I turned around right away because I was sure someone had kicked my ankle, but nobody was behind me.",
+        "topic": "Mechanism and sensation"
+      },
+      {
+        "answer": "I completely lost the ability to push off on that foot, and there is no way I can stand up on my right tiptoes.",
+        "topic": "Pushing off and toe walking"
+      },
+      {
+        "answer": "Yes, when I touched the back of my heel earlier, it felt like there was a soft dent or gap in the tendon where it used to be tight.",
+        "topic": "Palpable gap or indentation"
+      },
+      {
+        "answer": "No, I have never had any heel pain, Achilles tendonitis, or any injections into my foot or ankle.",
+        "topic": "Prior Achilles tendon symptoms"
+      },
+      {
+        "answer": "No, I haven't taken any steroid pills or fluoroquinolone antibiotics like ciprofloxacin recently or ever.",
+        "topic": "Steroid or antibiotic use"
+      },
+      {
+        "answer": "I was convinced someone came up behind me and kicked the back of my heel full force while I was jumping for a rebound.",
+        "topic": "Patient ideas about diagnosis"
+      },
+      {
+        "answer": "I'm worried this is going to need major surgery and put me on crutches for six months, which would ruin my job and keep me off the court forever.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get a sturdy walking boot and crutches today, plus a referral to a specialist to tell me if I need surgery.",
+        "topic": "Expectations of visit"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like diabetes, high blood pressure, or gout.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital admissions.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I don't take any prescription drugs, over-the-counter medications, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink one or two beers on weekends socially, nothing heavy.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as a software engineer at a desk job and live in an apartment with my spouse.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Nobody in my family has a history of tendon ruptures, connective tissue disorders, or early joint problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 122/78 mmHg, heart rate 74/min, respiratory rate 14/min, temperature 36.7 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, athletic man sitting comfortably on the examination table with the right shoe and sock removed, appearing mildly uncomfortable when moving the right ankle.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Mild swelling and soft tissue fullness around the posterior right lower calf and ankle, with no visible open wound or gross deformity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Palpable defect and gap approximately 3 to 4 cm proximal to the calcaneal insertion with focal tenderness, and a positive Thompson squeeze test with absent plantarflexion on the right calf.",
+        "maneuver": "calf_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Increased resting dorsiflexion of the right ankle compared to the left, mild tenderness over the retrocalcaneal area, and no knee or forefoot swelling or deformity.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Weak active right ankle plantarflexion against resistance, inability to perform a single-leg heel raise on the right, and preserved dorsiflexion, inversion, and eversion strength.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation across all lower leg dermatomes and the foot bilaterally.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are 2+ and symmetric bilaterally with brisk capillary refill under 2 seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Antalgic gait with inability to push off on the right forefoot and visible limp while avoiding weight-bearing on the right heel.",
+        "maneuver": "coordination_gait",
+        "response": "pain"
+      }
+    ]
+  }
+}

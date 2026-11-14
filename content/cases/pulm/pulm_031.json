@@ -1,0 +1,367 @@
+{
+  "id": "pulm_031",
+  "system": "pulm",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Hernandez",
+  "age": 35,
+  "gender": "male",
+  "chief_complaint": "sudden pleuritic chest pain, severe dyspnea, and tachycardia",
+  "hpi_details": "A 35-year-old male presents to the clinic with sudden pleuritic chest pain, severe dyspnea, and tachycardia. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks he might be having a heart attack or that he severely tore a muscle in his ribcage while lifting weights.",
+  "concerns": "He is worried that he is having a sudden heart attack and won't make it home to his young children.",
+  "expectations": "He hopes to get an immediate electrocardiogram and fast-acting pain relief to confirm his heart is safe.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [{"id":"urgent_pe_testing","title":"Urgent pulmonary embolism results","order_terms":["ctpa","ct pulmonary angiogram","ct pulmonary angiography","ecg","ekg"],"availability_message":"The urgent results are now available and confirm pulmonary embolism; emergency treatment decisions require immediate bleeding-risk and haemodynamic assessment.","results":[{"id":"ctpa","test":"CT pulmonary angiography","value":"Acute segmental emboli in the right lower-lobe pulmonary arteries without CT evidence of right-heart strain","flag":"critical","collected_at":"During emergency assessment"},{"id":"ecg","test":"12-lead ECG","value":"Sinus tachycardia at 112 bpm without acute ischemic changes","flag":"abnormal","collected_at":"During emergency assessment"}]}],
+  "clinical_knowledge": {
+    "topic": "Pulmonary Embolism evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pulmonary Embolism is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Suspected pulmonary embolism requires urgent risk stratification, oxygenation assessment, and clinician-directed imaging and treatment; anticoagulation is considered only after bleeding risk and contraindications are assessed.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden pleuritic chest pain, severe dyspnea, and tachycardia",
+      "Key HPI features: A 35-year-old male presents to the clinic with sudden pleuritic chest pain, severe dyspnea, and tachycardia. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Pulmonary Embolism.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pulmonary Embolism.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Community-acquired pneumonia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe hypoxemia (SpO2 < 90%)."
+    ],
+    "management_principles": [
+      "Send patients with severe dyspnea, hypoxemia, syncope, hypotension, or persistent chest pain for emergency evaluation.",
+      "Use validated pretest-probability assessment and clinician-directed testing (such as D-dimer or CT pulmonary angiography) as appropriate.",
+      "Provide anticoagulation, oxygen, and specialist care only when clinically indicated and supervised."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism (developed in collaboration with the ERS)",
+        "url": "https://doi.org/10.1093/eurheartj/ehz405"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with sudden pleuritic chest pain, severe dyspnea, and tachycardia. Clarify onset, VTE risk factors, leg symptoms, hemoptysis, syncope, and personal or family clotting history.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Pulmonary Embolism.",
+    "assessment": "Condition highly suspicious for Pulmonary Embolism.",
+    "plan": "Arrange emergency evaluation now. Obtain pulse oximetry, ECG, and clinician-directed PE testing based on pretest probability. Give oxygen, anticoagulation, and specialist-directed care only when indicated after assessment of bleeding risk and contraindications."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Pulmonary Embolism",
+    "Select appropriate diagnostic workup for Pulmonary Embolism",
+    "Describe emergency evaluation and clinician-directed management for suspected pulmonary embolism"
+  ],
+  "teaching": {
+    "diagnosis": "Pulmonary Embolism",
+    "one_liner": "Pulmonology case presenting with sudden pleuritic chest pain, severe dyspnea, and tachycardia.",
+    "differentials": [
+      "Acute coronary syndrome",
+      "Pneumothorax",
+      "Musculoskeletal chest pain"
+    ],
+    "red_flags": [
+      "Severe hypoxemia (SpO2 < 90%)",
+      "Massive hemoptysis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sudden onset and pleuritic character of chest pain",
+        "say": "How suddenly did the chest pain and breathlessness start, and does it hurt more when you breathe in?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "sudden",
+          "pleuritic",
+          "onset",
+          "chest pain",
+          "acute"
+        ]
+      },
+      {
+        "objective": "VTE risk factors: immobility, surgery, travel, hormones",
+        "say": "Have you had any long trips, surgery, leg injury, cancer treatment, or hormone medicines such as testosterone recently?",
+        "domains": [
+          "pmh",
+          "living_work"
+        ],
+        "keywords": [
+          "immobility",
+          "surgery",
+          "travel",
+          "hormonal",
+          "VTE risk"
+        ]
+      },
+      {
+        "objective": "Unilateral leg swelling or pain",
+        "say": "Is one of your legs more swollen, warm, or painful than the other?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "leg swelling",
+          "DVT",
+          "unilateral",
+          "calf pain",
+          "warmth"
+        ]
+      },
+      {
+        "objective": "Syncope, lightheadedness, and hemodynamic red flags",
+        "say": "Have you felt faint, dizzy, or like you might pass out?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "syncope",
+          "lightheaded",
+          "hemodynamic",
+          "shock",
+          "faint"
+        ]
+      },
+      {
+        "objective": "Family or personal history of clotting disorders",
+        "say": "Has anyone in your family had blood clots, or have you personally had one before?",
+        "domains": [
+          "family_hx",
+          "pmh"
+        ],
+        "keywords": [
+          "thrombophilia",
+          "family history",
+          "clotting",
+          "prior DVT",
+          "genetic"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 112,
+      "rr": 24,
+      "spo2": 94,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I suddenly got this sharp pain on the right side of my chest, and I can hardly catch my breath while my heart is racing.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started all of a sudden about four hours ago while I was sitting at my desk working. It has been getting steadily worse since then.",
+        "topic": "Onset and activity at onset"
+      },
+      {
+        "answer": "It is mainly on the right side of my chest, just below my nipple line. I can point to the area with my hand.",
+        "topic": "Location of pain"
+      },
+      {
+        "answer": "It feels like a sharp, stabbing pain, especially whenever I try to take a deep breath.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "No, it does not spread to my left arm, neck, jaw, or between my shoulder blades.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "The sharp pain is constant and has not gone away since it began four hours ago.",
+        "topic": "Duration and course"
+      },
+      {
+        "answer": "It started around a 5 out of 10, but right now it feels like a 7 or 8 out of 10.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Walking even a few steps makes my shortness of breath and chest discomfort noticeably worse, and resting does not completely relieve it.",
+        "topic": "Exertion and rest"
+      },
+      {
+        "answer": "Taking a deep breath, coughing, or yawning makes the sharp pain much worse. Leaning forward or changing posture does not make any difference.",
+        "topic": "Effect of breathing and posture"
+      },
+      {
+        "answer": "No, it has nothing to do with food, and I do not have heartburn, sour taste, or pain when swallowing.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "Yes, I feel intensely short of breath and my chest is pounding rapidly, and I have been sweating a little bit from the distress.",
+        "topic": "Breathlessness and palpitations"
+      },
+      {
+        "answer": "I felt lightheaded and dizzy when I stood up quickly earlier, but I have not fainted or passed out.",
+        "topic": "Dizziness and syncope"
+      },
+      {
+        "answer": "I have a dry, irritable cough, but I have not coughed up any blood or phlegm.",
+        "topic": "Cough and hemoptysis"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I have not had a cold, sore throat, runny nose, or flu-like illness recently.",
+        "topic": "Recent viral illness"
+      },
+      {
+        "answer": "My right calf has felt somewhat achy and tight since yesterday, though I did not pay much attention to it at the time.",
+        "topic": "Leg pain and swelling"
+      },
+      {
+        "answer": "I returned from a 12-hour international flight three days ago for a work conference, and I barely stood up the entire time.",
+        "topic": "Travel and prolonged immobility"
+      },
+      {
+        "answer": "No, I have not had any surgery, cast, or bed rest recently.",
+        "topic": "Recent surgery or immobilization"
+      },
+      {
+        "answer": "No, there are no rashes, blisters, or skin changes anywhere on my chest.",
+        "topic": "Skin rash or blisters"
+      },
+      {
+        "answer": "I feel very anxious because I cannot catch my breath, but I do not have numbness or tingling around my lips or fingers.",
+        "topic": "Anxiety and paresthesia"
+      },
+      {
+        "answer": "No, I have not had high blood pressure, diabetes, high cholesterol, and I do not smoke.",
+        "topic": "Cardiovascular risk factors"
+      },
+      {
+        "answer": "No, I have never had chest pain or breathing trouble like this before, and I have never had cardiac tests or stents.",
+        "topic": "Previous chest pain or cardiac history"
+      },
+      {
+        "answer": "No, I have never had a blood clot or rib injury, and I have not lifted anything heavy recently.",
+        "topic": "Trauma or physical strain"
+      },
+      {
+        "answer": "I have never been diagnosed with a blood clot, and as far as I know, no one in my immediate family has had clotting problems.",
+        "topic": "Personal or family clotting history"
+      },
+      {
+        "answer": "I felt this sudden sharp stab when breathing and thought I was having a heart attack or tore a muscle in my chest.",
+        "topic": "Patient ideas and thoughts"
+      },
+      {
+        "answer": "I'm terrified that something is fatally wrong with my heart and that I won't make it back to my kids.",
+        "topic": "Patient worries and concerns"
+      },
+      {
+        "answer": "I want an ECG right away to make sure my heart isn't failing and something strong for this sharp stabbing pain.",
+        "topic": "Expectations of visit"
+      },
+      {
+        "answer": "I have been completely healthy with no chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital admissions.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter painkillers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have one or two glasses of beer once or twice a month socially.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an IT consultant and live with my wife in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are in their 60s and healthy, with no history of early heart attacks, strokes, or lung disease.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 122/78 mmHg in both arms, heart rate is 112 beats per minute, respiratory rate is 24 breaths per minute, oxygen saturation is 94% on room air, and body temperature is 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient appears acutely uncomfortable, mildly diaphoretic, and tachypneic, with mild pallor but no cyanosis.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular veins are flat with normal venous pulsation, and there is no jugular venous distension.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "No chest wall deformity, swelling, or reproducible tenderness over the sternum, ribs, or costochondral joints.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Percussion is resonant and symmetric across all lung fields bilaterally.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are present bilaterally without rales, crackles, wheezing, or pleural friction rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with normal S1 and S2; no audible murmurs, gallops, or pericardial friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and flat without upper quadrant tenderness, guarding, or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No bilateral lower extremity pitting edema.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Mild tenderness upon deep palpation of the right posterior calf; right calf circumference is 1 cm greater than the left, without obvious redness or warmth.",
+        "maneuver": "calf_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No erythema, vesicular eruptions, rashes, or scars along the dermatomes or chest wall.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

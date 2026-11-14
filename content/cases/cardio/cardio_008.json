@@ -1,0 +1,357 @@
+{
+  "id": "cardio_008",
+  "system": "cardiology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Chen",
+  "age": 28,
+  "gender": "female",
+  "chief_complaint": "sudden attacks of rapid pounding heartbeat and dizziness lasting 20 minutes",
+  "hpi_details": "Presents with a 1-year history of sudden-onset, unprovoked episodes of rapid, regular pounding palpitations in her chest. Attacks start abruptly like a switch being flipped and stop just as suddenly. During episodes, she feels lightheaded, anxious, and notices a strong urge to urinate (polyuria) afterwards. Yesterday's attack lasted 25 minutes while sitting at her office desk. Denies chest pain or loss of consciousness.",
+  "ideas": "thinks too much coffee and work stress are causing panic attacks",
+  "concerns": "worried her heart rate is going so fast that her heart will stop beating",
+  "expectations": "wants a monitor to capture the rhythm and advice on how to stop attacks when they start",
+  "pmh": "none, healthy young female",
+  "medications": "combined oral contraceptive pill OD",
+  "social_hx": "drinks 3 cups of coffee daily, non-smoker, accountant, goes to gym 3 times/week",
+  "available_results": [{"id": "ecg_during_attack", "test": "12-lead ECG captured during symptoms", "value": "Regular narrow-complex tachycardia at 180 bpm with retrograde P waves buried in the QRS complexes", "flag": "critical", "collected_at": "During yesterday's episode"}],
+  "clinical_knowledge": {
+    "topic": "Paroxysmal Supraventricular Tachycardia (PSVT) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Paroxysmal Supraventricular Tachycardia (PSVT) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes teaching the patient vagal manoeuvres for acute self-termination of future attacks (modified Valsalva manoeuvre with leg elevation; seek urgent care for chest pain, breathlessness, syncope, or a persistent episode), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden attacks of rapid pounding heartbeat and dizziness lasting 20 minutes",
+      "Key HPI features: Presents with a 1-year history of sudden-onset, unprovoked episodes of rapid, regular pounding palpitations in her chest. Attacks start abruptly like a switch being flipped and stop just as suddenly. During episodes, she feels lightheaded, anxious, and notices a strong urge to urinate (polyuria) afterwards. Yesterday's attack lasted 25 minutes while sitting at her office desk. Denies chest pain or loss of consciousness.",
+      "Objective/Exam findings: During attack: 12-lead ECG shows narrow-complex regular tachycardia at 180 bpm with no visible P waves or retrograde P waves buried in QRS. Between attacks: baseline 12-lead ECG completely normal (check for pre-excitation/delta waves of Wolff-Parkinson-White syndrome). Bloods: thyroid function tests (TSH/T4 to rule out hyperthyroidism), electrolytes, FBC.",
+      "Relevant background/PMH: none, healthy young female",
+      "Current medications: combined oral contraceptive pill OD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Paroxysmal Supraventricular Tachycardia (PSVT).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Atrial fibrillation without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Episodes with chest pain, breathlessness, or collapse."
+    ],
+    "management_principles": [
+      "Teach patient vagal manoeuvres for acute self-termination of future attacks (modified Valsalva manoeuvre with leg elevation; seek urgent care for chest pain, breathlessness, syncope, or a persistent episode)",
+      "Acute hospital protocol if persistent: IV adenosine rapid bolus (6mg -> 12mg -> 12mg) with continuous ECG monitoring",
+      "Outpatient referral to cardiac electrophysiology for consideration of curative catheter ablation"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2015 ACC/AHA/HRS Guideline for the Management of Adult Patients with Supraventricular Tachycardia",
+        "url": "https://professional.heart.org/en/guidelines-statements/supraventricular-tachycardia-guideline"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "28F presents with abrupt-onset, abrupt-termination episodes of rapid regular palpitations accompanied by presyncope and post-attack polyuria. Normal baseline health.",
+    "objective": "During attack: 12-lead ECG shows narrow-complex regular tachycardia at 180 bpm with no visible P waves or retrograde P waves buried in QRS. Between attacks: baseline 12-lead ECG completely normal (check for pre-excitation/delta waves of Wolff-Parkinson-White syndrome). Bloods: thyroid function tests (TSH/T4 to rule out hyperthyroidism), electrolytes, FBC.",
+    "assessment": "Paroxysmal Supraventricular Tachycardia (PSVT) - likely Atrioventricular Nodal Re-entrant Tachycardia (AVNRT) or AVRT. DDx: sinus tachycardia from anxiety/caffeine, atrial flutter with 2:1 block, hyperthyroidism, panic attacks.",
+    "plan": "Teach patient vagal manoeuvres for acute self-termination of future attacks (modified Valsalva manoeuvre with leg elevation; seek urgent care for chest pain, breathlessness, syncope, or a persistent episode). Acute hospital protocol if persistent: IV adenosine rapid bolus (6mg -> 12mg -> 12mg) with continuous ECG monitoring. Outpatient referral to cardiac electrophysiology for consideration of curative catheter ablation. Advise caffeine moderation."
+  },
+  "learning_objectives": [
+    "Differentiate paroxysmal SVT from sinus tachycardia based on abrupt onset/termination mechanics and regular rate >150 bpm",
+    "Explain the physiological mechanism of post-tachycardia polyuria (atrial stretch releasing Atrial Natriuretic Peptide - ANP)",
+    "Instruct the patient on safe and effective execution of the modified Valsalva manoeuvre",
+    "Outline the stepped pharmacological termination protocol using rapid IV adenosine boluses"
+  ],
+  "teaching": {
+    "diagnosis": "Paroxysmal Supraventricular Tachycardia (PSVT)",
+    "one_liner": "An electrical short-circuit that flips the heart into a fast, regular rhythm — starts and stops abruptly, like a switch.",
+    "differentials": [
+      "Atrial fibrillation",
+      "Panic attack",
+      "Sinus tachycardia"
+    ],
+    "red_flags": [
+      "Episodes with chest pain, breathlessness, or collapse"
+    ],
+    "must_ask": [
+      {
+        "objective": "Abrupt onset and offset",
+        "say": "Does it start and stop suddenly, like flicking a switch?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "sudden",
+          "switch",
+          "abrupt"
+        ]
+      },
+      {
+        "objective": "Regularity and rate",
+        "say": "Is the fast beat regular, and roughly how fast does it feel?",
+        "domains": [
+          "character",
+          "severity"
+        ],
+        "keywords": [
+          "regular",
+          "fast",
+          "rate",
+          "beat"
+        ]
+      },
+      {
+        "objective": "Neck pounding",
+        "say": "Do you feel a pounding or fullness in your neck during an episode?",
+        "domains": [
+          "associated_symptoms",
+          "location"
+        ],
+        "keywords": [
+          "neck",
+          "throat",
+          "pounding",
+          "fullness"
+        ]
+      },
+      {
+        "objective": "What ends an episode",
+        "say": "Does anything stop it — holding your breath, coughing, splashing cold water?",
+        "domains": [
+          "relieving"
+        ],
+        "keywords": [
+          "breath",
+          "cough",
+          "cold",
+          "water",
+          "bear",
+          "down"
+        ]
+      },
+      {
+        "objective": "Frequency and duration",
+        "say": "How often do these attacks happen, and how long do they last?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ]
+      },
+      {
+        "objective": "Caffeine and stimulants",
+        "say": "How much coffee or energy drink do you have in a day?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "coffee",
+          "caffeine",
+          "energy",
+          "drink",
+          "cola"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I came to the clinic because I have been having sudden attacks of my heart racing and pounding out of nowhere, and it makes me feel really dizzy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My heart suddenly beats super fast, like it is fluttering at a crazy speed, but it does not feel like it skips beats.",
+        "topic": "Palpitation character and rate"
+      },
+      {
+        "answer": "If I tap it out, it is completely steady and regular, like a tiny jackhammer going very fast.",
+        "topic": "Tapping the heart rhythm"
+      },
+      {
+        "answer": "It starts abruptly like someone flipped an electric switch, and then it suddenly snaps right back to normal when it stops.",
+        "topic": "Onset and offset of episodes"
+      },
+      {
+        "answer": "I have had these episodes for about a year, happening once or twice a month, and yesterday's attack lasted twenty-five minutes while I was at work.",
+        "topic": "Onset, duration, and frequency"
+      },
+      {
+        "answer": "There is no clear trigger because it can happen while I am just sitting quietly, though it seems more frequent when I have work deadlines.",
+        "topic": "Triggering factors"
+      },
+      {
+        "answer": "Nothing specific seems to stop it; I usually just sit down and wait until it suddenly cuts off on its own.",
+        "topic": "Methods to stop episodes"
+      },
+      {
+        "answer": "I felt lightheaded and dizzy during the episode yesterday, but I have never actually passed out or blacked out.",
+        "topic": "Fainting and lightheadedness"
+      },
+      {
+        "answer": "No, I do not have chest pain or trouble catching my breath, just the frightening fast heartbeat.",
+        "topic": "Chest pain and breathlessness"
+      },
+      {
+        "answer": "No, I have not been sensitive to heat, sweating excessively, or losing any weight.",
+        "topic": "Heat intolerance and weight change"
+      },
+      {
+        "answer": "I do not feel unusually tired, and I have not had heavy periods or black stools.",
+        "topic": "Fatigue and bleeding symptoms"
+      },
+      {
+        "answer": "No, I do not get throbbing headaches, cold sweats, or pale skin during the attacks, and I do not get shaky when hungry.",
+        "topic": "Headache, sweating, and pallor"
+      },
+      {
+        "answer": "I feel very nervous and scared when the racing starts, but I do not hyperventilate and my fingers do not go numb.",
+        "topic": "Anxiety and hyperventilation"
+      },
+      {
+        "answer": "No, I have not had a cold, sore throat, or fever recently.",
+        "topic": "Recent fever and illness"
+      },
+      {
+        "answer": "I drink about three cups of coffee every day at the office, but I never drink energy drinks.",
+        "topic": "Caffeine intake"
+      },
+      {
+        "answer": "No, I do not take cold medicines, nasal sprays, diet pills, or asthma inhalers.",
+        "topic": "Decongestants and diet pills"
+      },
+      {
+        "answer": "No, I have never been diagnosed with high blood pressure, a heart condition, or an abnormal heart rhythm.",
+        "topic": "Previous heart problems"
+      },
+      {
+        "answer": "No, nobody in my family has had sudden unexpected death at a young age or heart rhythm problems.",
+        "topic": "Family cardiac history"
+      },
+      {
+        "answer": "Yes, while my heart is racing I can actually feel a very prominent pulsing and pounding in my neck and throat.",
+        "topic": "Neck pounding sensation"
+      },
+      {
+        "answer": "Yes, every time right after the racing stops, I suddenly have to run to the bathroom to pee a lot.",
+        "topic": "Urination after episodes"
+      },
+      {
+        "answer": "I have been wondering if all the coffee I drink and my work stress are triggering some kind of panic attacks.",
+        "topic": "Thoughts on the cause"
+      },
+      {
+        "answer": "I am terrified that my heart is beating so fast that it might just give out and stop beating.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I would like to get a heart monitor to catch what rhythm this is, and learn how I can stop it when it starts.",
+        "topic": "Expectations for this visit"
+      },
+      {
+        "answer": "I have always been completely healthy with no chronic medical problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never stayed overnight in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take a daily combined birth control pill, and I do not take any herbal supplements or other medications.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I do not have any allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink alcohol socially, maybe a glass or two of wine a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an accountant, live alone, and go to the gym three times a week.",
+        "topic": "Occupation and lifestyle"
+      },
+      {
+        "answer": "My last menstrual period was two weeks ago, my cycle is regular on the pill, and there is no chance I am pregnant.",
+        "topic": "Menstrual history and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 74 beats per minute and regular, respiratory rate 14 breaths per minute, body temperature 36.7°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, well-appearing young female resting comfortably with no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor; sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No exophthalmos, lid retraction, or lid lag.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, with no palpable nodules, goiter, or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No resting or postural tremor noted in outstretched hands.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Internal jugular venous pressure is not elevated, and no cannon a-waves are observed.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Chest wall is non-tender with a normal, non-displaced apical impulse.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear vesicular breath sounds bilaterally without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial pulses are regular, symmetric, and normal in volume at 74 beats per minute.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      }
+    ]
+  }
+}

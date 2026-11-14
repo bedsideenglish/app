@@ -1,0 +1,333 @@
+{
+  "id": "obgyn_010",
+  "system": "obstetrics & gynecology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Torres",
+  "age": 25,
+  "gender": "female",
+  "chief_complaint": "high fever, severe lower abdominal pain, purulent cervical discharge, and tender adnexal mass",
+  "hpi_details": "25F presenting with acute pelvic pain, cervical motion tenderness, and transvaginal ultrasound demonstrating a complex, multiloculated 6 cm thick-walled left tubo-ovarian abscess (TOA) requiring admission for IV Cefotetan plus Doxycycline.",
+  "ideas": "She thinks her appendix might have burst or that an ovarian cyst ruptured and caused a massive infection.",
+  "concerns": "She is worried that the severe infection will permanently damage her reproductive organs and leave her unable to have children.",
+  "expectations": "She hopes for immediate intravenous pain relief and antibiotics so that she does not require emergency surgery.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "available_results": [{"id": "tvus", "test": "Transvaginal ultrasound", "value": "Complex multiloculated 6 cm thick-walled left adnexal collection consistent with a tubo-ovarian abscess", "flag": "critical"}],
+  "investigation_events": [{
+    "id": "point_of_care_pregnancy_test",
+    "title": "Point-of-care pregnancy test",
+    "order_terms": ["pregnancy test", "urine hCG", "beta hCG"],
+    "availability_message": "The point-of-care pregnancy test is now available. Sepsis assessment and broad-spectrum antibiotics should not be delayed.",
+    "results": [{"id": "urine_hcg", "test": "Point-of-care urine beta-hCG", "value": "Negative", "flag": "normal"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Tubo-ovarian abscess (complication of pelvic inflammatory disease) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Tubo-ovarian abscess (complication of pelvic inflammatory disease) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Pelvic Inflammatory Disease Tubo-Ovarian Abscess, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: high fever, severe lower abdominal pain, purulent cervical discharge, and tender adnexal mass",
+      "Key HPI features: 25F presenting with acute pelvic pain, cervical motion tenderness, and transvaginal ultrasound demonstrating a complex, multiloculated 6 cm thick-walled left tubo-ovarian abscess (TOA) requiring admission for IV Cefotetan plus Doxycycline.",
+      "Objective/Exam findings: Febrile and tachycardic with lower abdominal tenderness, cervical motion tenderness, purulent cervical discharge, and a tender left adnexal mass. Obtain pregnancy test, CBC, CMP, urinalysis, gonorrhea/chlamydia NAAT, and blood cultures if septic. Transvaginal ultrasound shows a complex multiloculated 6 cm thick-walled left tubo-ovarian abscess.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Tubo-ovarian abscess (complication of pelvic inflammatory disease).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Ovarian torsion without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: High fever."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Pelvic Inflammatory Disease Tubo-Ovarian Abscess",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Pelvic Inflammatory Disease Tubo-Ovarian Abscess: high fever, severe lower abdominal pain, purulent cervical discharge, and tender adnexal mass. 25F presenting with acute pelvic pain, cervical motion tenderness, and transvaginal ultrasound demonstrating a complex, multiloculated 6 cm thick-walled left tubo-ovarian abscess (TOA) requiring admission for IV Cefotetan plus Doxycycline.",
+    "objective": "Febrile and tachycardic with lower abdominal tenderness, cervical motion tenderness, purulent cervical discharge, and a tender left adnexal mass. Obtain pregnancy test, CBC, CMP, urinalysis, gonorrhea/chlamydia NAAT, and blood cultures if septic. Transvaginal ultrasound shows a complex multiloculated 6 cm thick-walled left tubo-ovarian abscess.",
+    "assessment": "Clinical presentation highly suggestive of Pelvic Inflammatory Disease Tubo-Ovarian Abscess.",
+    "plan": "Admit and consult gynecology; assess for sepsis, obtain the indicated tests, provide IV fluids and analgesia, and start parenteral broad-spectrum antibiotics such as cefotetan plus doxycycline per local protocol. Once clinically improved, complete 14 days of doxycycline with anaerobic coverage (for example, metronidazole). Reassess within 48-72 hours; arrange image-guided drainage or operative management for clinical deterioration, suspected rupture, sepsis, or inadequate response. Test and treat sexual partners as indicated and advise abstinence until treatment is completed."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Pelvic Inflammatory Disease Tubo-Ovarian Abscess",
+    "Formulate prioritized differential diagnosis for high fever, severe lower abdominal pain, purulent cervical discharge, and tender adnexal mass",
+    "Select appropriate laboratory and imaging studies for obstetrics & gynecology",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Tubo-ovarian abscess (complication of pelvic inflammatory disease)",
+    "one_liner": "25F with fever, severe pelvic pain, cervical motion tenderness, and a complex 6cm tubo-ovarian abscess on ultrasound.",
+    "differentials": [
+      "Ovarian torsion",
+      "Appendicitis",
+      "Ectopic pregnancy",
+      "Endometritis"
+    ],
+    "red_flags": [
+      "High fever",
+      "Purulent cervical discharge",
+      "Tender adnexal mass >4cm"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the fever pattern",
+        "say": "How high has your fever gone, and when did it start?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "onset"
+        ]
+      },
+      {
+        "objective": "Ask about vaginal discharge",
+        "say": "Have you noticed any unusual vaginal discharge?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "purulent discharge"
+        ]
+      },
+      {
+        "objective": "Screen for sexual history and STI risk",
+        "say": "Do you have a new sexual partner, or any history of sexually transmitted infections?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "STI history",
+          "sexual partners"
+        ]
+      },
+      {
+        "objective": "Assess pain severity and location",
+        "say": "Where exactly is the pain, and how severe is it?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "pelvic pain"
+        ]
+      },
+      {
+        "objective": "Explain need for IV antibiotics and possible drainage",
+        "say": "You'll need IV antibiotics, and if the abscess doesn't improve, drainage may be needed.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "IV antibiotics",
+          "drainage"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "126/78",
+      "hr": 108,
+      "rr": 18,
+      "spo2": 99,
+      "temp_c": 38.8
+    },
+    "history": [
+      {
+        "answer": "I've had a burning fever and really severe pain in my lower belly that has gotten so much worse over the last few days.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about four days ago as a dull ache, but over the last two days it became sharp, constant, and much more severe.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It started across my lower belly and then settled deeply into the lower left side; it hasn't shifted anywhere else.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "No, the pain doesn't shoot to my back, shoulder, or down my legs.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It feels like a deep, throbbing, intense ache that never completely goes away.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "Right now it's about an 8 out of 10, especially when I try to move.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Walking, coughing, or any sudden movement makes it hurt a lot worse, and lying still with my knees up only helps a tiny bit.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "About six months ago I had some mild pelvic cramping and discharge that was treated with pills, but I've never felt pain anywhere near this bad.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I've felt nauseated because of how bad the pain is, but I haven't actually thrown up.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "My bowels have been regular, and I haven't had any diarrhea, constipation, or blood in my stool.",
+        "topic": "Bowel habits and stools"
+      },
+      {
+        "answer": "Yes, I started having shaking chills two days ago, and my fever reached around 38.8 degrees at home.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my eyes haven't turned yellow, my urine isn't dark brown, and my stool isn't pale.",
+        "topic": "Jaundice and stool color"
+      },
+      {
+        "answer": "I don't have burning or stinging when I pee, nor any blood in my urine, though bearing down hurts my pelvis.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I haven't fainted or felt like I was going to pass out.",
+        "topic": "Dizziness and fainting"
+      },
+      {
+        "answer": "Yes, I noticed a thick, yellowish-green vaginal discharge with a foul smell over the past few days, but there has been no bleeding.",
+        "topic": "Vaginal discharge and bleeding"
+      },
+      {
+        "answer": "No, my chest feels fine, and I haven't had any shortness of breath.",
+        "topic": "Chest pain and shortness of breath"
+      },
+      {
+        "answer": "I haven't eaten any greasy foods or drank any alcohol recently, just normal light meals.",
+        "topic": "Recent meals and alcohol"
+      },
+      {
+        "answer": "I took some ibuprofen yesterday, but it didn't give me any relief at all.",
+        "topic": "Pain medication use"
+      },
+      {
+        "answer": "No, I've never had heart palpitations, an irregular rhythm, or any blood clot disorders.",
+        "topic": "Arrhythmia and vascular disease"
+      },
+      {
+        "answer": "I am sexually active with a new male partner for the past three months, and we don't always use condoms.",
+        "topic": "Sexual history and STI risk"
+      },
+      {
+        "answer": "My last period started three weeks ago, and my menstrual cycles are usually regular every 28 days.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "We mostly use the withdrawal method and occasional condoms, so pregnancy might be possible, but I don't think I am pregnant.",
+        "topic": "Contraception and pregnancy possibility"
+      },
+      {
+        "answer": "I have high blood pressure and slightly high cholesterol, which were diagnosed about two years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or stayed overnight in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams every morning for my blood pressure, and no other prescription medications.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I don't smoke cigarettes, vape, or use any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine with friends, but I haven't had any drinks this week.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a graphic designer in an office and live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has high blood pressure, but there is no family history of gynecologic cancers or autoimmune disease.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I thought my appendix was bursting or maybe an ovarian cyst ruptured and caused an infection. I'm terrified that this infection is going to ruin my fertility and mean I can never have children.",
+        "topic": "Patient ideas and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 126/78 mmHg, heart rate 108 beats per minute, respiratory rate 18 breaths per minute, body temperature 38.8 C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetrical, non-distended abdomen with no scars, striae, or dilated veins.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normal bowel sounds heard in all four quadrants with no vascular bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Severe lower abdominal tenderness, most pronounced in the left lower quadrant with voluntary muscle guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Localized rebound tenderness in the left lower quadrant without generalized peritonitis or board-like rigidity.",
+        "maneuver": "rebound_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "No McBurney point tenderness, and negative Rovsing, psoas, and obturator signs.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Negative Murphy sign with no tenderness elicited in the right upper quadrant.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on gentle fist percussion bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Severe cervical motion tenderness, copious purulent cervical discharge, and a distinct, exquisitely tender left adnexal mass.",
+        "maneuver": "pelvic_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

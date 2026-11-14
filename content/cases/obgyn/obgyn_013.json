@@ -1,0 +1,343 @@
+{
+  "id": "obgyn_013",
+  "system": "obstetrics & gynecology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Carter",
+  "age": 23,
+  "gender": "female",
+  "chief_complaint": "severe morning sickness, uterine enlargement greater than dates, and snowstorm pattern on ultrasound at 10 weeks",
+  "hpi_details": "23F at 10 weeks gestation presenting with hyperemesis gravidarum, vaginal bleeding with grape-like vesicles, beta-hCG markedly elevated (>150,000 mIU/mL), and TVUS showing diffuse vesicular snowstorm/honeycomb pattern without fetus requiring suction curettage.",
+  "ideas": "She thinks she might be carrying twins or triplets because her belly has grown so quickly and her nausea is so intense.",
+  "concerns": "She is worried that passing the grape-like tissue means she has lost the baby and will never be able to carry a healthy pregnancy.",
+  "expectations": "She hopes to see her baby's heartbeat on the ultrasound and receive IV fluids to relieve her severe vomiting.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "available_results": [
+    {"id": "quantitative_hcg", "test": "Quantitative beta-hCG", "value": ">150000", "unit": "mIU/mL", "flag": "high"},
+    {"id": "tvus", "test": "Transvaginal ultrasound", "value": "Diffuse vesicular snowstorm-pattern intrauterine tissue without an identifiable fetus", "flag": "abnormal", "note": "Consistent with a complete hydatidiform mole."}
+  ],
+  "clinical_knowledge": {
+    "topic": "Hydatidiform mole (gestational trophoblastic disease) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hydatidiform mole (gestational trophoblastic disease) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Gestational Trophoblastic Disease Hydatidiform Mole, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "At 10 weeks, hyperemesis, vaginal bleeding with passage of grape-like vesicles, and uterine size greater than dates are classic clinical features of a complete mole.",
+      "Markedly elevated quantitative beta-hCG (>150,000 mIU/mL) supports trophoblastic overgrowth and can cause hyperemesis or hyperthyroid symptoms.",
+      "Transvaginal ultrasound showing diffuse echogenic vesicular (snowstorm/honeycomb) intrauterine tissue without a fetus is characteristic of a complete hydatidiform mole.",
+      "Assess hemodynamic status and obtain CBC, blood type/Rh and screen, renal/liver function, and thyroid tests when symptoms or markedly elevated hCG suggest complications."
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hydatidiform mole (gestational trophoblastic disease).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Missed abortion without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Beta-hCG >150,000."
+    ],
+    "management_principles": [
+      "Stabilize active bleeding, dehydration, and severe vomiting; evaluate for anemia, preeclampsia, hyperthyroidism, and other hCG-mediated complications before evacuation.",
+      "Arrange prompt uterine evacuation by suction dilation and curettage with pathology; give Rho(D) immune globulin to an unsensitized Rh-negative patient.",
+      "Obtain a baseline quantitative hCG after evacuation and follow serial hCG to documented remission using the local gestational trophoblastic disease surveillance protocol.",
+      "Counsel on reliable contraception during surveillance and urgently refer to gynecologic oncology for plateauing or rising hCG, which may indicate postmolar gestational trophoblastic neoplasia."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Gestational Trophoblastic Disease Hydatidiform Mole: severe morning sickness, uterine enlargement greater than dates, and snowstorm pattern on ultrasound at 10 weeks. 23F at 10 weeks gestation presenting with hyperemesis gravidarum, vaginal bleeding with grape-like vesicles, beta-hCG markedly elevated (>150,000 mIU/mL), and TVUS showing diffuse vesicular snowstorm/honeycomb pattern without fetus requiring suction curettage.",
+    "objective": "Quantitative beta-hCG exceeds 150,000 mIU/mL, and transvaginal ultrasound shows diffuse vesicular intrauterine tissue without a fetus, consistent with a complete hydatidiform mole. Obtain CBC, blood type and screen, renal/liver tests, thyroid testing when clinically indicated, and baseline chest imaging according to local protocol.",
+    "assessment": "Suspected complete hydatidiform mole with hyperemesis and vaginal bleeding.",
+    "plan": "Stabilize bleeding and hyperemesis, arrange prompt suction dilation and curettage with pathology, and administer Rho(D) immune globulin if Rh-negative. Follow quantitative hCG after evacuation until negative and then at the recommended surveillance interval; advise reliable contraception during surveillance and refer promptly for plateauing or rising hCG suggestive of gestational trophoblastic neoplasia."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Gestational Trophoblastic Disease Hydatidiform Mole",
+    "Formulate prioritized differential diagnosis for severe morning sickness, uterine enlargement greater than dates, and snowstorm pattern on ultrasound at 10 weeks",
+    "Select appropriate laboratory and imaging studies for obstetrics & gynecology",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Hydatidiform mole (gestational trophoblastic disease)",
+    "one_liner": "23F at 10 weeks with hyperemesis, vesicular vaginal bleeding, markedly elevated beta-hCG, and a snowstorm pattern on ultrasound.",
+    "differentials": [
+      "Missed abortion",
+      "Multiple gestation",
+      "Threatened abortion",
+      "Choriocarcinoma"
+    ],
+    "red_flags": [
+      "Beta-hCG >150,000",
+      "Uterine size greater than dates",
+      "Vesicular/grape-like vaginal discharge",
+      "Severe hyperemesis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the vaginal bleeding/discharge",
+        "say": "Have you noticed any grape-like tissue passing with the bleeding?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vesicular discharge",
+          "grape-like tissue"
+        ]
+      },
+      {
+        "objective": "Assess severity of nausea and vomiting",
+        "say": "How severe has your nausea and vomiting been?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "hyperemesis"
+        ]
+      },
+      {
+        "objective": "Ask about uterine size discrepancy awareness",
+        "say": "Has anyone mentioned your belly seems larger than expected for your dates?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "size greater than dates"
+        ]
+      },
+      {
+        "objective": "Screen for hyperthyroid symptoms",
+        "say": "Have you felt your heart racing, or unusually hot and sweaty?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "hyperthyroidism",
+          "palpitations"
+        ]
+      },
+      {
+        "objective": "Explain the need for suction curettage and hCG follow-up",
+        "say": "You'll need a procedure to remove the molar tissue, then we'll monitor your hCG levels closely.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "suction curettage",
+          "hCG follow-up"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "108/68",
+      "hr": 102,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I am ten weeks pregnant, but I have been throwing up nonstop for the past two weeks and cannot keep anything down.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The severe nausea and vomiting began about two weeks ago and has gotten progressively worse every single day.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "I am vomiting six to seven times every day, usually throwing up within ten to twenty minutes after trying to eat or drink.",
+        "topic": "Frequency and relationship to food"
+      },
+      {
+        "answer": "It is mostly clear fluid, stomach acid, and yellowish bile, with no frank blood or coffee-ground material.",
+        "topic": "Character of vomitus"
+      },
+      {
+        "answer": "I feel extremely nauseated first thing in the morning on an empty stomach, but the vomiting is not forceful or projectile.",
+        "topic": "Morning and projectile vomiting"
+      },
+      {
+        "answer": "I have a dull, heavy ache low down in my pelvis, but throwing up does not make that cramping go away.",
+        "topic": "Abdominal pain and cramping"
+      },
+      {
+        "answer": "My bowel movements have been slightly sluggish, but I am still passing gas and definitely do not have any diarrhea.",
+        "topic": "Bowel habits and diarrhea"
+      },
+      {
+        "answer": "I have had no fever, chills, or sweating, and my husband ate the exact same food as me and feels completely fine.",
+        "topic": "Fever and sick contacts"
+      },
+      {
+        "answer": "No, I have not had any severe headaches, neck stiffness, blurry vision, or fainting spells.",
+        "topic": "Neurological and visual symptoms"
+      },
+      {
+        "answer": "No, I have not bumped my head or had any kind of injury recently.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "I can barely keep even small sips of water down, my mouth is parched, and I only urinate once or twice a day with very dark urine.",
+        "topic": "Oral intake and dehydration"
+      },
+      {
+        "answer": "No, I do not have diabetes, I have never taken insulin, and I do not have excessive thirst or urination.",
+        "topic": "Diabetes and osmotic symptoms"
+      },
+      {
+        "answer": "I have not had any chest pain, shortness of breath, or coughing.",
+        "topic": "Chest pain and dyspnea"
+      },
+      {
+        "answer": "I do not drink alcohol, smoke marijuana, or use any recreational drugs, and I have not started any new prescription medications.",
+        "topic": "Substances and new medications"
+      },
+      {
+        "answer": "I have lost about four kilograms over the past two weeks because I cannot keep any food in my stomach.",
+        "topic": "Weight loss"
+      },
+      {
+        "answer": "No, absolutely not; I want to keep food down for the baby, so I would never make myself throw up on purpose.",
+        "topic": "Self-induced vomiting"
+      },
+      {
+        "answer": "Over the last four or five days, I noticed dark brown, prune juice-colored spotting that turned into intermittent bleeding.",
+        "topic": "Vaginal bleeding"
+      },
+      {
+        "answer": "Yesterday, when I wiped, I noticed small, clear, grape-like blisters coming out with the blood.",
+        "topic": "Passage of grape-like tissue"
+      },
+      {
+        "answer": "My lower belly feels unusually swollen and tight, as if I were already four or five months pregnant rather than just ten weeks.",
+        "topic": "Uterine size discrepancy"
+      },
+      {
+        "answer": "My heart sometimes races when I stand up, but I have not had heat intolerance, hand tremors, or unusual sweating.",
+        "topic": "Hyperthyroid symptoms"
+      },
+      {
+        "answer": "My last menstrual period started exactly ten weeks ago, my cycles have always been regular every twenty-eight days, and this is my first pregnancy.",
+        "topic": "Menstrual and obstetric history"
+      },
+      {
+        "answer": "I am married and sexually active with my husband, and we were actively trying to conceive so we were not using contraception.",
+        "topic": "Contraception and sexual history"
+      },
+      {
+        "answer": "I have never had any chronic medical conditions, high blood pressure, or thyroid disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never been admitted to a hospital before.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I only took an over-the-counter prenatal vitamin, but I had to stop taking it several days ago because it made me vomit immediately.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used e-cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink alcohol at all, especially now that I am pregnant.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office administrator and live in an apartment with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no history of pregnancy complications, abnormal pregnancies, or gynecological cancers in my family.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I thought maybe I was having twins or triplets because my stomach got big so fast and the sickness has been so overwhelming.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I'm terrified that passing those strange clusters means my baby is gone and I'll never be able to carry a pregnancy. I really hope you can check for the baby's heartbeat on the ultrasound and give me an IV to stop this constant vomiting.",
+        "topic": "Patient's concerns and expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 108/68 mmHg, heart rate is 102 beats per minute, respiratory rate is 16 breaths per minute, and temperature is 36.8 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa and lips appear dry, with no pharyngeal injection or tonsillar swelling.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Decreased skin turgor with slightly dry skin and a capillary refill time under two seconds.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "The lower abdomen appears visibly fuller and more prominent than expected for a ten-week gestation.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normoactive bowel sounds heard in all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "The uterine fundus is palpable midway between the pubic symphysis and umbilicus, measuring roughly fourteen to sixteen weeks in size, with mild discomfort on deep palpation.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness or involuntary abdominal muscle guarding is elicited.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Speculum examination reveals dark brownish blood and small clusters of translucent grape-like vesicles in the vaginal vault, with a closed external cervical os.",
+        "maneuver": "pelvic_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size and non-tender, with no palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No resting, postural, or action tremor is observed in the outstretched hands.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full range of motion; Kernig and Brudzinski signs are negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

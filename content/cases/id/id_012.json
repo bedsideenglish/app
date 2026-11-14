@@ -1,0 +1,321 @@
+{
+  "id": "id_012",
+  "system": "infectious_disease",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Rodriguez",
+  "age": 40,
+  "gender": "male",
+  "chief_complaint": "high fever, severe headache, and petechial rash starting on wrists and ankles spreading to torso",
+  "hpi_details": "40M camping in North Carolina presenting with triad of fever, headache, and hemorrhagic maculopapular rash involving palms and soles. Requires immediate empiric Doxycycline.",
+  "ideas": "He thinks he had a severe allergic reaction to poison ivy or insect bites while hiking through the woods.",
+  "concerns": "He is worried that the spreading purple spots and severe headache mean he has contracted life-threatening meningitis or blood poisoning.",
+  "expectations": "He hopes to get an immediate injection or prescription medication to relieve his splitting headache and stop the rash from spreading.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "clinical_knowledge": {
+    "topic": "Rocky Mountain Spotted Fever (RMSF) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Rocky Mountain Spotted Fever (RMSF) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes immediate empiric doxycycline started on clinical suspicion alone, without waiting for confirmatory serology, because mortality rises sharply if treatment is delayed past day 5 of illness, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: high fever, severe headache, and petechial rash starting on wrists and ankles spreading to torso",
+      "Key HPI features: 40M camping in North Carolina presenting with triad of fever, headache, and hemorrhagic maculopapular rash involving palms and soles. Requires immediate empiric Doxycycline.",
+      "Objective/Exam findings: Vitals: Temp 39.4C, HR 110, BP 100/64, RR 20. Petechial, hemorrhagic maculopapular rash beginning on the wrists and ankles (involving palms and soles) and spreading centripetally to the trunk; mild hepatosplenomegaly; photophobia; no meningismus. Bloods: Platelets 90,000 /uL (thrombocytopenia), Sodium 128 mmol/L (hyponatremia), AST/ALT mildly elevated, WBC low-normal with left shift. Acute-phase Rickettsia rickettsii serology (IFA) is often negative early in illness — diagnosis is made clinically and treatment should not be delayed for confirmatory testing.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Rocky Mountain Spotted Fever (RMSF).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Meningococcemia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Any delay in starting doxycycline — mortality rises sharply if treatment is delayed past day 5."
+    ],
+    "management_principles": [
+      "Start empiric oral or IV Doxycycline 100mg BID immediately based on clinical suspicion alone — do not wait for serologic confirmation, since delaying treatment past day 5 of illness dramatically increases mortality",
+      "Use doxycycline as first-line therapy regardless of patient age (including young children) for suspected RMSF, since the mortality risk of untreated disease outweighs concerns about dental staining",
+      "Continue doxycycline for a minimum of 5-7 days and for at least 3 days after the fever has resolved, with clear clinical improvement",
+      "Monitor closely for vasculitis-related complications (hypotension/shock, acute kidney injury, encephalitis, DIC); obtain infectious disease consultation and report the case to the public health department, since RMSF is a reportable disease"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: high fever, severe headache, and petechial rash starting on wrists and ankles spreading to torso\n\n40M camping in North Carolina presenting with triad of fever, headache, and hemorrhagic maculopapular rash involving palms and soles. Requires immediate empiric Doxycycline.",
+    "objective": "Vitals: Temp 39.4C, HR 110, BP 100/64, RR 20. Petechial, hemorrhagic maculopapular rash beginning on the wrists and ankles (involving palms and soles) and spreading centripetally to the trunk; mild hepatosplenomegaly; photophobia; no meningismus. Bloods: Platelets 90,000 /uL (thrombocytopenia), Sodium 128 mmol/L (hyponatremia), AST/ALT mildly elevated, WBC low-normal with left shift. Acute-phase Rickettsia rickettsii serology (IFA) is often negative early in illness — diagnosis is made clinically and treatment should not be delayed for confirmatory testing.",
+    "assessment": "Rocky Mountain Spotted Fever (Rickettsia rickettsii) — a clinical diagnosis based on the fever/headache/rash triad and recent tick exposure, requiring immediate empiric doxycycline without awaiting serologic confirmation.",
+    "plan": "1. Start empiric oral or IV Doxycycline 100mg BID immediately based on clinical suspicion alone — do not wait for serologic confirmation, since delaying treatment past day 5 of illness dramatically increases mortality. 2. Use doxycycline as first-line therapy regardless of patient age (including young children) for suspected RMSF, since the mortality risk of untreated disease outweighs concerns about dental staining. 3. Continue doxycycline for a minimum of 5-7 days and for at least 3 days after the fever has resolved, with clear clinical improvement. 4. Monitor closely for vasculitis-related complications (hypotension/shock, acute kidney injury, encephalitis, DIC); obtain infectious disease consultation and report the case to the public health department, since RMSF is a reportable disease."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Rocky Mountain Spotted Fever RMSF",
+    "Formulate prioritized differential diagnosis for high fever, severe headache, and petechial rash starting on wrists and ankles spreading to torso",
+    "Select appropriate laboratory and imaging studies for infectious_disease",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Rocky Mountain Spotted Fever (RMSF)",
+    "one_liner": "A tick-borne rickettsial infection causing the triad of fever, headache, and a rash that classically starts on the wrists and ankles (including palms and soles) and spreads centrally — treated empirically with doxycycline before confirmatory testing returns.",
+    "differentials": [
+      "Meningococcemia",
+      "Lyme disease",
+      "Viral exanthem"
+    ],
+    "red_flags": [
+      "Any delay in starting doxycycline — mortality rises sharply if treatment is delayed past day 5"
+    ],
+    "must_ask": [
+      {
+        "objective": "Tick or outdoor exposure",
+        "say": "Have you been camping or in wooded/grassy areas recently?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "camping",
+          "tick",
+          "woods"
+        ]
+      },
+      {
+        "objective": "Rash location and spread",
+        "say": "Did the rash start on your wrists or ankles, including your palms or soles?",
+        "domains": [
+          "location",
+          "progression"
+        ],
+        "keywords": [
+          "wrists",
+          "ankles",
+          "palms",
+          "soles"
+        ]
+      },
+      {
+        "objective": "Fever and headache",
+        "say": "How severe is the headache, and how high has the fever been?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "headache",
+          "fever"
+        ]
+      },
+      {
+        "objective": "Onset timing",
+        "say": "How many days after possible tick exposure did symptoms start?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Rash character",
+        "say": "Is the rash flat spots, or does it look bruised/hemorrhagic?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "hemorrhagic",
+          "petechial"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "100/64",
+      "hr": 110,
+      "rr": 20,
+      "spo2": 98,
+      "temp_c": 39.4
+    },
+    "history": [
+      {
+        "answer": "I came in because I have a really high fever, a terrible headache, and this red spotted rash that started on my wrists and ankles and is now spreading across my body.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever and headache started about four days ago, and the rash showed up yesterday morning on my wrists and ankles.",
+        "topic": "Fever onset and duration"
+      },
+      {
+        "answer": "My temperature was around 103 degrees at home, and the fever has been constantly high with severe shaking chills.",
+        "topic": "Peak temperature and fever pattern"
+      },
+      {
+        "answer": "I took some extra-strength acetaminophen, but it barely brought the fever down and did nothing for the headache.",
+        "topic": "Fever medication response"
+      },
+      {
+        "answer": "No, I have not had any cough, phlegm, sore throat, or shortness of breath.",
+        "topic": "Respiratory symptoms"
+      },
+      {
+        "answer": "No burning when I urinate, no frequent urination, and no back or flank pain.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "My stomach feels a bit upset and nauseated, but I haven't had any vomiting, diarrhea, or sharp belly pain.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "The headache is pounding and severe behind my eyes, but my neck does not feel stiff and my thinking is clear.",
+        "topic": "Headache and neck stiffness"
+      },
+      {
+        "answer": "The spots started as small pink spots on my wrists, ankles, palms, and soles, and now they are darker and spreading up to my arms, legs, and chest.",
+        "topic": "Rash location and spread"
+      },
+      {
+        "answer": "I haven't noticed any black scab or crusted sore, but my muscles and joints ache all over.",
+        "topic": "Eschar and joint pain"
+      },
+      {
+        "answer": "I have been drenched in sweat when the chills break, but I haven't lost any weight.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "No, I haven't felt any swollen lumps or glands in my neck, armpits, or groin.",
+        "topic": "Lymph node swelling"
+      },
+      {
+        "answer": "I went camping and hiking in the woods in North Carolina about a week and a half ago, and I spent a lot of time walking through tall brush.",
+        "topic": "Outdoor and tick exposure"
+      },
+      {
+        "answer": "None of the friends who camped with me are sick, and nobody at home has a fever.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I have never had cancer, chemotherapy, or taken steroids or immune-suppressing drugs.",
+        "topic": "Immunocompromised status"
+      },
+      {
+        "answer": "I have never had heart valve problems, heart murmurs, or any recent dental work.",
+        "topic": "Heart conditions and dental procedures"
+      },
+      {
+        "answer": "I have not started any new prescription medicines or supplements recently.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "I am in a monogamous relationship, and I have never used intravenous or illicit drugs.",
+        "topic": "Sexual and injection drug history"
+      },
+      {
+        "answer": "I was hiking through thick woods in North Carolina last weekend, so I figured I had a terrible allergic reaction to poison ivy or bug stings.",
+        "topic": "Patient ideas and thoughts"
+      },
+      {
+        "answer": "The headache is unbearable and these dark spots are spreading so quickly that I'm terrified I have meningitis or blood poisoning.",
+        "topic": "Patient concerns and worries"
+      },
+      {
+        "answer": "I was hoping you could give me a shot or some strong medication right away to stop this pounding headache and clear up the rash.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have high blood pressure and mild high cholesterol, but no other chronic medical problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was a teenager, but no other surgeries or hospitalizations.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once a day for my blood pressure.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink a beer or two on the weekend socially, but nothing heavy.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time as an accountant in an office and live with my wife in a suburban home.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure and a heart attack in his sixties, but there is no other serious illness in the family.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature is 39.4°C (102.9°F), heart rate 110 beats per minute, blood pressure 100/64 mmHg, respiratory rate 20 breaths per minute, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild bilateral conjunctival injection with photophobia is present; no icterus is seen.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tympanic membranes are clear bilaterally, and the posterior pharynx is normal without erythema, exudates, or petechiae.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical lymphadenopathy or tenderness.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with no rales, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm without murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft with mild tenderness in the right and left upper quadrants, and the liver and spleen edges are palpable 1 to 2 cm below their respective costal margins.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Maculopapular petechial rash is present on the wrists, ankles, palms, and soles, spreading centripetally to the forearms, legs, and trunk; no black eschar or ticks found.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with a full range of motion; Kernig and Brudzinski signs are both negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

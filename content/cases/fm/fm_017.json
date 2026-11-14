@@ -1,0 +1,335 @@
+{
+  "id": "fm_017",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Martin",
+  "age": 26,
+  "gender": "female",
+  "chief_complaint": "acute dysuria, urinary frequency, urgency, and suprapubic discomfort without fever or flank pain in young woman",
+  "hpi_details": "26F presents with a 2-day history of acute dysuria, urinary frequency, urgency, and suprapubic discomfort without fever or flank pain. Has not yet started any antibiotic treatment.",
+  "ideas": "She thinks she got a bladder irritation from using a public restroom or from not drinking enough water during busy days.",
+  "concerns": "She is worried that the infection will travel up into her kidneys or ruin an upcoming weekend trip with friends.",
+  "expectations": "She hopes to have her urine tested today and get a short course of antibiotics that will stop the burning within hours.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "investigation_events": [
+    {
+      "id": "point_of_care_urinalysis",
+      "title": "Point-of-care urinalysis",
+      "order_terms": [
+        "urinalysis",
+        "urine dipstick",
+        "urine dip",
+        "urine test"
+      ],
+      "availability_message": "The point-of-care urinalysis is now available.",
+      "results": [
+        {
+          "id": "leukocyte_esterase",
+          "test": "Urine leukocyte esterase",
+          "value": "2+",
+          "reference_range": "Negative",
+          "flag": "abnormal",
+          "specimen": "Urine",
+          "collected_at": "During clinic assessment"
+        },
+        {
+          "id": "nitrite",
+          "test": "Urine nitrite",
+          "value": "Positive",
+          "reference_range": "Negative",
+          "flag": "abnormal",
+          "specimen": "Urine",
+          "collected_at": "During clinic assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Uncomplicated Cystitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Uncomplicated Cystitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes urinalysis confirmation followed by a short empiric course of a first-line oral antibiotic, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: acute dysuria, urinary frequency, urgency, and suprapubic discomfort without fever or flank pain in young woman",
+      "Key HPI features: 26F presents with a 2-day history of acute dysuria, urinary frequency, urgency, and suprapubic discomfort without fever or flank pain. Has not yet started any antibiotic treatment.",
+      "Objective/Exam findings: Afebrile with normal vital signs; suprapubic tenderness may be present, but no costovertebral angle tenderness (which would suggest pyelonephritis). Urine dipstick positive for leukocyte esterase and/or nitrites.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Uncomplicated Cystitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Pyelonephritis (would have fever/flank pain) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever or flank pain — suggests the infection has ascended to the kidneys."
+    ],
+    "management_principles": [
+      "Confirm with urine dipstick or urinalysis, then start empiric first-line therapy: nitrofurantoin 100 mg BID x 5 days or trimethoprim-sulfamethoxazole DS BID x 3 days",
+      "Counsel on adequate hydration and to return promptly if fever, flank pain, or worsening symptoms develop, which would suggest pyelonephritis requiring escalation",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Urinary Tract Infection Uncomplicated Cystitis: acute dysuria, urinary frequency, urgency, and suprapubic discomfort without fever or flank pain in young woman. 26F presents with a 2-day history of acute dysuria, urinary frequency, urgency, and suprapubic discomfort without fever or flank pain. Has not yet started any antibiotic treatment.",
+    "objective": "Afebrile, vital signs normal. Mild suprapubic tenderness on exam, no costovertebral angle tenderness. Urine dipstick positive for leukocyte esterase and nitrites.",
+    "assessment": "Acute uncomplicated cystitis.",
+    "plan": "Start empiric first-line antibiotic therapy: nitrofurantoin 100 mg BID x 5 days or trimethoprim-sulfamethoxazole DS BID x 3 days. Advise adequate fluid intake. Counsel to return promptly if fever, flank pain, or worsening symptoms develop, which would suggest pyelonephritis requiring escalation."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Urinary Tract Infection Uncomplicated Cystitis",
+    "Formulate prioritized differential diagnosis for acute dysuria, urinary frequency, urgency, and suprapubic discomfort without fever or flank pain in young woman",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Uncomplicated Cystitis",
+    "one_liner": "A bladder infection in a young, otherwise healthy woman causing burning urination, frequency, and suprapubic discomfort without fever or flank pain — treated empirically with a short course of antibiotics.",
+    "differentials": [
+      "Pyelonephritis (would have fever/flank pain)",
+      "Vaginitis",
+      "Sexually transmitted infection"
+    ],
+    "red_flags": [
+      "Fever or flank pain — suggests the infection has ascended to the kidneys"
+    ],
+    "must_ask": [
+      {
+        "objective": "Dysuria",
+        "say": "Does it burn when you urinate?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Frequency and urgency",
+        "say": "Are you urinating more often than usual?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Fever or flank pain",
+        "say": "Any fever or back pain?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many days have you had these symptoms?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Sexual activity",
+        "say": "Any recent change in sexual activity?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "It burns really badly every time I pee, and I feel like I have to run to the bathroom constantly.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is a sharp, stinging burn that happens while the urine is flowing.",
+        "topic": "Urination pain characteristics"
+      },
+      {
+        "answer": "It started suddenly about two days ago. I had something similar a few years ago that cleared up right away with antibiotics.",
+        "topic": "Onset and prior episodes"
+      },
+      {
+        "answer": "The stinging is there while I go, but the cramping and burn feel worst right at the very end of peeing.",
+        "topic": "Timing of pain"
+      },
+      {
+        "answer": "It looks slightly cloudy and dark, but I have not seen any red or pink blood in it.",
+        "topic": "Urine color and blood"
+      },
+      {
+        "answer": "Yes, my urine definitely has a noticeably stronger, foul odor than usual.",
+        "topic": "Urine odor"
+      },
+      {
+        "answer": "I feel like I need to go every thirty to sixty minutes, and when the urge hits, I have to hurry immediately.",
+        "topic": "Urinary frequency and urgency"
+      },
+      {
+        "answer": "I had to wake up three times last night to use the bathroom, but only a few drops came out each time.",
+        "topic": "Waking to urinate"
+      },
+      {
+        "answer": "The stream starts fine, but it quickly slows down to a dribble and I never feel like my bladder is fully empty.",
+        "topic": "Hesitancy and stream"
+      },
+      {
+        "answer": "I have a constant dull ache and pressure low in my pelvis, right above my pubic bone.",
+        "topic": "Lower abdominal discomfort"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my sides and upper back do not hurt at all.",
+        "topic": "Flank or back pain"
+      },
+      {
+        "answer": "No, I have not had any nausea, vomiting, or loss of appetite.",
+        "topic": "Nausea or vomiting"
+      },
+      {
+        "answer": "No, I do not have any unusual vaginal discharge, odor, or itching.",
+        "topic": "Vaginal discharge or itching"
+      },
+      {
+        "answer": "No, I have never had kidney stones or any kind of kidney trouble.",
+        "topic": "History of kidney stones"
+      },
+      {
+        "answer": "No, I have never had a catheter placed or any procedures done on my urinary tract.",
+        "topic": "Recent urinary procedures"
+      },
+      {
+        "answer": "No, I don't have diabetes or any health conditions that affect my immune system.",
+        "topic": "Chronic conditions or diabetes"
+      },
+      {
+        "answer": "I am sexually active in a monogamous relationship, and my partner and I were intimate three days ago.",
+        "topic": "Recent sexual intercourse"
+      },
+      {
+        "answer": "We use latex condoms consistently every time we have sex.",
+        "topic": "Contraceptive method"
+      },
+      {
+        "answer": "I usually drink three or four cups of water a day, and I do tend to hold my urine when I get busy at work.",
+        "topic": "Fluid intake and habits"
+      },
+      {
+        "answer": "I thought maybe I picked up a bladder bug from a public toilet or irritated things by holding my pee too long at work.",
+        "topic": "Thoughts on cause"
+      },
+      {
+        "answer": "The burning is so intense that I'm terrified it's spreading to my kidneys, and I have a weekend trip coming up that I can't miss.",
+        "topic": "Fears and concerns"
+      },
+      {
+        "answer": "I do not have any chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never stayed in the hospital.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter pills, or herbal supplements, and I have not started any antibiotics.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or latex.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink one or two glasses of wine socially on weekends, if at all.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work at an office desk as an administrative coordinator and live with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has a history of chronic kidney problems, stone disease, or urinary issues.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period started exactly two weeks ago, and my cycles come regularly every twenty-eight days.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "There is no chance of pregnancy; my last period was completely normal and we always use condoms.",
+        "topic": "Possibility of pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 118/76 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, and temperature 36.7 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient is alert, oriented, and in mild pelvic discomfort but without acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "The abdomen is flat and symmetric with no surgical scars, rashes, or visible distention.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bowel sounds are normoactive across all four abdominal quadrants with no abdominal bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tympany is present throughout all quadrants, with no suprapubic dullness suggesting urinary retention or bladder distention.",
+        "maneuver": "abdominal_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "The abdomen is soft without rigidity or rebound tenderness, but there is mild tenderness to palpation directly over the suprapubic area.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No costovertebral angle tenderness is elicited on gentle percussion bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "External genitalia appear normal without erythema, lesions, or abnormal discharge from the urethral meatus or vaginal introitus.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

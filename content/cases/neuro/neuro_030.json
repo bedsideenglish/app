@@ -1,0 +1,317 @@
+{
+  "id": "neuro_030",
+  "system": "neuro",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Mitchell",
+  "age": 32,
+  "gender": "female",
+  "chief_complaint": "sudden slurred speech, facial droop, and hemiplegia",
+  "hpi_details": "A 32-year-old female presents to the clinic with sudden slurred speech, facial droop, and hemiplegia. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks extreme workplace stress and lack of sleep triggered a sudden episode of Bell's palsy that froze up half of her body.",
+  "concerns": "She is worried that the paralysis will be permanent and leave her unable to hold and care for her newborn baby.",
+  "expectations": "She hopes to receive an urgent head scan and an immediate medication that can reverse the facial droop and weakness right away.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "stat_acute_stroke_imaging",
+      "title": "Emergency stroke imaging",
+      "order_terms": ["CT head", "CT brain", "non-contrast CT", "CT angiography", "CTA"],
+      "availability_message": "Emergency CT and CT angiography results are now available. Reperfusion eligibility should be assessed immediately.",
+      "results": [
+        {"id": "ct_head", "test": "Non-contrast CT head", "value": "No intracranial hemorrhage; subtle early ischemic change in the left insular cortex, ASPECTS 9", "flag": "abnormal"},
+        {"id": "cta_head_neck", "test": "CT angiography head and neck", "value": "Left M1 middle cerebral artery occlusion", "flag": "critical"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Ischemic Stroke evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Ischemic Stroke is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Ischemic Stroke: Urgent head CT, IV thrombolysis, mechanical thrombectomy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden slurred speech, facial droop, and hemiplegia",
+      "Key HPI features: A 32-year-old female presents to the clinic with sudden slurred speech, facial droop, and hemiplegia. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Ischemic Stroke.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Ischemic Stroke.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Hypoglycemia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Exact time of onset critical."
+    ],
+    "management_principles": [
+      "Plan for Ischemic Stroke: Urgent head CT, IV thrombolysis, mechanical thrombectomy",
+      "Activate the emergency stroke pathway and consult stroke neurology/neurointervention immediately on presentation; do not wait for symptoms to worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of sudden slurred speech, facial droop, and hemiplegia. HPI: AF, thromboembolism.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Ischemic Stroke.",
+    "assessment": "Condition highly suspicious for Ischemic Stroke.",
+    "plan": "Activate the emergency stroke pathway immediately. Obtain noncontrast head CT (and vascular imaging when indicated) without delaying treatment, determine last-known-well time and thrombolysis eligibility, and give IV thrombolysis only when eligible after hemorrhage is excluded. Evaluate for mechanical thrombectomy when a treatable large-vessel occlusion and appropriate imaging/time criteria are present."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Ischemic Stroke",
+    "Select appropriate diagnostic workup for Ischemic Stroke",
+    "Implement evidence-based management plan: Urgent head CT, IV thrombolysis, mechanical thrombectomy"
+  ],
+  "teaching": {
+    "diagnosis": "Ischemic Stroke",
+    "one_liner": "Sudden slurred speech, facial droop, and one-sided weakness from a blocked brain artery, often from atrial fibrillation, needing urgent thrombolysis evaluation.",
+    "differentials": [
+      "Hypoglycemia"
+    ],
+    "red_flags": [
+      "Exact time of onset critical"
+    ],
+    "must_ask": [
+      {
+        "objective": "Time of onset",
+        "say": "Exactly when did this start?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Symptoms",
+        "say": "Which side is affected?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Atrial fibrillation",
+        "say": "Do you have an irregular heartbeat?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Anticoagulation",
+        "say": "Are you on a blood thinner?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Risk factors",
+        "say": "Any diabetes or high blood pressure?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "138/86",
+      "hr": 88,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "Suddenly, my speech became garbled and the entire right side of my face and body went weak.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is definite weakness; my right arm and leg feel heavy like dead weights, and I also feel a bit of numbness on that side.",
+        "topic": "Nature of symptoms"
+      },
+      {
+        "answer": "It involves the right side of my face, my right arm, and my right leg.",
+        "topic": "Site and distribution"
+      },
+      {
+        "answer": "It happened out of nowhere about two hours ago, around 9:30 this morning; I was completely fine and normal right before that.",
+        "topic": "Onset and last known well"
+      },
+      {
+        "answer": "It started abruptly two hours ago and quickly felt even weaker over the next half hour, along with heavy whole-body tiredness.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "I dropped my coffee cup because my right hand gave out, and I couldn't stand up or walk across the room without leaning on the wall.",
+        "topic": "Functional impairment"
+      },
+      {
+        "answer": "Nothing makes it better or worse; it just happened instantly and has stayed weak since then.",
+        "topic": "Aggravating or relieving factors"
+      },
+      {
+        "answer": "No, I have no neck pain, back pain, or shooting pains down my arms or legs.",
+        "topic": "Neck or back pain"
+      },
+      {
+        "answer": "Yes, my words sound completely slurred and my husband said the right corner of my mouth was sagging; my vision is okay and I have not had spinning or trouble swallowing.",
+        "topic": "Speech, face, and cranial symptoms"
+      },
+      {
+        "answer": "No, my bladder and bowel control are completely normal, and I have normal feeling around my groin.",
+        "topic": "Bowel and bladder function"
+      },
+      {
+        "answer": "No, I have not had shortness of breath, chewing problems, drooping eyelids, or double vision.",
+        "topic": "Bulbar and respiratory symptoms"
+      },
+      {
+        "answer": "No, I have not noticed any muscle twitching, jumping, or shrinking in my limbs.",
+        "topic": "Muscle twitching or wasting"
+      },
+      {
+        "answer": "No, I haven't had a cold, fever, cough, stomach bug, or diarrhea recently.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I occasionally feel my heart flutter or race irregularly for a few minutes, but I've never had high blood pressure, diabetes, high cholesterol, or a diagnosed heart condition.",
+        "topic": "Atrial fibrillation and heart palpitations"
+      },
+      {
+        "answer": "No, I have never been prescribed any blood thinners or anticoagulants.",
+        "topic": "Anticoagulation use"
+      },
+      {
+        "answer": "No, my diet is regular, I've never had stomach surgery, and I don't follow a strict vegan diet.",
+        "topic": "Dietary and nutritional history"
+      },
+      {
+        "answer": "No, I don't take any water pills, steroid medications, or chemotherapy.",
+        "topic": "Medications affecting muscles or nerves"
+      },
+      {
+        "answer": "No, I work at an office desk; I don't do repetitive heavy wrist straining, deep squatting, or lean on my elbows.",
+        "topic": "Occupational and postural strain"
+      },
+      {
+        "answer": "I thought maybe severe burnout and stress caused a sudden case of Bell's palsy that paralyzed my face and side.",
+        "topic": "Patient ideas and thoughts"
+      },
+      {
+        "answer": "I'm terrified that this weakness won't go away and I won't be able to hold or take care of my baby at home.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get an emergency scan of my brain and whatever medicine can restore my face and arm right away.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have always been healthy with no chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgical and hospital history"
+      },
+      {
+        "answer": "I don't take any regular prescription medications, over-the-counter drugs, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a glass of wine socially once or twice a month, and nothing excessive.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an administrative office worker and live at home with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no history of early stroke, aneurysms, or blood clotting disorders in my family.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last period started two weeks ago, my cycles are regular every 28 days, I do not take oral contraceptive pills, and I'm not pregnant.",
+        "topic": "Menstrual and reproductive history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert young woman who appears anxious and speaks with noticeable dysarthria, with visible right facial droop and right arm weakness.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 138/86 mmHg, pulse 88 bpm and irregularly irregular, respiratory rate 16 breaths/min, temperature 36.7°C, oxygen saturation 99% on room air, and fingerstick blood glucose 108 mg/dL.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Irregularly irregular heart rhythm with variable S1 intensity; no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented to person, place, and time; speech is dysarthric and hesitant, but comprehension and repetition are intact.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Right lower facial weakness with flattened nasolabial fold and mouth droop, with preserved forehead wrinkling; visual fields intact without hemianopia, pupils equal and reactive, and extraocular movements full.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Right upper extremity strength grade 2/5 and right lower extremity grade 3/5 with pronator drift; left extremities demonstrate normal 5/5 strength without atrophy or fasciculations.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Decreased sensation to light touch and pinprick throughout the right arm and leg; intact on the left side.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperreflexia (3+) in right biceps, triceps, and patellar reflexes, with positive right Babinski sign (extensor plantar response); left reflexes 2+ with down-going toes.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Unable to perform rapid alternating movements or finger-to-nose testing on the right due to motor weakness; left cerebellar testing is normal, and gait cannot be safely assessed due to hemiplegia.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with no nuchal rigidity, and negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No spinal tenderness, negative Spurling test, and bilateral straight-leg raise tests are negative.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

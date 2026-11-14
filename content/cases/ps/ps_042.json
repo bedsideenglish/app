@@ -1,0 +1,346 @@
+{
+  "id": "ps_042",
+  "system": "ps",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Williams",
+  "age": 68,
+  "gender": "female",
+  "chief_complaint": "painless deep plantar ulcer under first metatarsal head",
+  "hpi_details": "A 68-year-old woman with diabetes presents with a painless deep plantar ulcer beneath the first metatarsal head, with reduced protective sensation suspected.",
+  "ideas": "She thinks the hole under the ball of her foot is just a burst friction blister or an open callus from walking in stiff new garden shoes.",
+  "concerns": "She is worried that the sore might reach the bone and lead to an amputation like her brother went through.",
+  "expectations": "She hopes to receive a strong antibiotic ointment and sterile bandages so the skin can close up quickly.",
+  "pmh": "Type 2 diabetes mellitus with peripheral neuropathy",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Diabetic Foot Ulcer evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Diabetic Foot Ulcer is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Diabetic Foot Ulcer: Wound debridement, off-loading footwear, check arterial flow, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: painless deep plantar ulcer under first metatarsal head",
+      "Key HPI features: A painless deep plantar ulcer beneath the first metatarsal head in a patient with diabetes, concerning for neuropathic ulceration.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Diabetic Foot Ulcer.",
+      "Relevant background/PMH: Type 2 diabetes mellitus with peripheral neuropathy"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Diabetic Foot Ulcer.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Missing limb-threatening infection, critical ischemia, or osteomyelitis before debridement and off-loading."
+    ],
+    "management_principles": [
+      "Plan for Diabetic Foot Ulcer: Wound debridement, off-loading footwear, check arterial flow",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of painless deep plantar ulcer under first metatarsal head. HPI: neuropathy, repetitive pressure.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Diabetic Foot Ulcer.",
+    "assessment": "Condition highly suspicious for Diabetic Foot Ulcer.",
+    "plan": "Assess urgently for infection, ischemia, and osteomyelitis. Debride nonviable tissue when appropriate, provide effective off-loading, assess arterial perfusion, optimize glycemic control, and involve a multidisciplinary diabetic-foot service."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Diabetic Foot Ulcer",
+    "Select appropriate diagnostic workup for Diabetic Foot Ulcer",
+    "Implement evidence-based management plan: Wound debridement, off-loading footwear, check arterial flow"
+  ],
+  "teaching": {
+    "diagnosis": "Diabetic Foot Ulcer",
+    "one_liner": "Plastic and reconstructive surgical case presenting with painless deep plantar ulcer under first metatarsal head.",
+    "differentials": [
+      "Venous stasis ulcer",
+      "Arterial (ischemic) ulcer",
+      "Pressure ulcer of the heel",
+      "Malignant (Marjolin) ulcer"
+    ],
+    "red_flags": [
+      "Fever, rapidly spreading erythema, purulence, crepitus, severe pain, or systemic illness requiring same-day emergency evaluation",
+      "Cool or pale foot, absent pulses, gangrene, or rapidly progressive ulceration suggesting critical ischemia"
+    ],
+    "must_ask": [
+      {
+        "objective": "Duration and progression of the ulcer",
+        "say": "How long has this ulcer been there, and has it gotten deeper?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ],
+        "keywords": [
+          "ulcer",
+          "duration",
+          "deeper",
+          "weeks",
+          "progression"
+        ]
+      },
+      {
+        "objective": "Sensation and pain level",
+        "say": "Can you feel this ulcer at all, or is your foot numb?",
+        "domains": [
+          "character",
+          "severity"
+        ],
+        "keywords": [
+          "sensation",
+          "numb",
+          "pain",
+          "neuropathy",
+          "feel"
+        ]
+      },
+      {
+        "objective": "Diabetes control and history",
+        "say": "How long have you had diabetes, and how well controlled is your blood sugar?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "blood sugar",
+          "control",
+          "duration",
+          "glycemic"
+        ]
+      },
+      {
+        "objective": "Signs of infection",
+        "say": "Is there any redness, swelling, drainage, or odor from the wound?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "redness",
+          "swelling",
+          "drainage",
+          "odor",
+          "infection"
+        ]
+      },
+      {
+        "objective": "Footwear and offloading practices",
+        "say": "What kind of shoes do you wear, and have you been keeping weight off that foot?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "shoes",
+          "footwear",
+          "offloading",
+          "weight",
+          "practices"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/78",
+      "hr": 74,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I noticed an open sore on the bottom of my right foot about three weeks ago, and it just isn't healing.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I don't recall any specific cut or injury, but there was a thick, hardened callus in that spot for months that eventually broke open.",
+        "topic": "Circumstances of injury"
+      },
+      {
+        "answer": "I first noticed the open sore about three weeks ago, and it has gradually grown slightly wider rather than closing up.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is located on the sole of my right foot right under the base of my big toe, roughly the size of a coin, and it looks like a deep crater.",
+        "topic": "Wound location and size"
+      },
+      {
+        "answer": "No, I haven't stepped on any rusty nails, glass, or foreign objects, and no animals or pets have bitten or scratched me.",
+        "topic": "Wound contamination and foreign body"
+      },
+      {
+        "answer": "It hasn't had heavy or spurting bleeding at all, just a bit of clear watery fluid and occasional faint spots of blood on my socks.",
+        "topic": "Bleeding and discharge"
+      },
+      {
+        "answer": "My feet have felt numb and tingly like I'm wearing thick socks for a few years now, but I can still move and wiggle my toes normally.",
+        "topic": "Numbness and toe movement"
+      },
+      {
+        "answer": "No, I haven't burned my foot with hot water, hot packs, or heating pads, and I haven't been near any chemicals or fire.",
+        "topic": "Burn and heat exposure"
+      },
+      {
+        "answer": "Surprisingly, it doesn't hurt at all, even when I stand on it, press directly around it, or walk.",
+        "topic": "Pain level and tenderness"
+      },
+      {
+        "answer": "It has been open for three weeks, and all I've done is wash it with plain tap water and put a regular adhesive bandage over it every morning.",
+        "topic": "Course and prior treatments"
+      },
+      {
+        "answer": "No, I haven't noticed any spreading redness, warmth, bad smell, or thick yellow pus coming from the sore.",
+        "topic": "Signs of infection"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, sweating, or feelings of being sick.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "I walk around my house and do light housework every day, so I'm definitely not bedridden or sitting down all day long.",
+        "topic": "Mobility and prolonged sitting"
+      },
+      {
+        "answer": "I don't get any calf cramping or tightness when I walk, and my feet don't usually feel freezing cold or painful when resting in bed.",
+        "topic": "Calf pain and circulation"
+      },
+      {
+        "answer": "I had a tetanus booster shot about eight years ago after scraping my arm while gardening.",
+        "topic": "Tetanus vaccination status"
+      },
+      {
+        "answer": "I don't take any blood thinners or steroids, and as far as I know, my immune system is normal.",
+        "topic": "Medications affecting wound healing"
+      },
+      {
+        "answer": "No, this is definitely not from any physical violence, abuse, or intentional self-harm.",
+        "topic": "Screening for trauma and safety"
+      },
+      {
+        "answer": "I was told I had type 2 diabetes about twelve years ago, but I haven't been taking diabetes pills regularly or checking my blood sugars for over a year.",
+        "topic": "Diabetes history and glycemic control"
+      },
+      {
+        "answer": "I usually wear flat slip-on shoes or walk barefoot inside my house, and I haven't been using any special cushioned insoles or custom shoes.",
+        "topic": "Footwear and offloading practices"
+      },
+      {
+        "answer": "I don't have any swelling in my legs, bulging veins, or brownish skin discoloration around my ankles.",
+        "topic": "Leg swelling and skin discoloration"
+      },
+      {
+        "answer": "I figured a blister from my stiff new walking shoes must have popped and opened up without me noticing it.",
+        "topic": "Patient perspective and ideas"
+      },
+      {
+        "answer": "I saw my brother lose his foot after a sore got out of hand, and I'm terrified this will end in an amputation.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping you could prescribe a strong healing ointment and bandage it up so it heals quickly on its own.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "Other than my diabetes and the nerve numbness in my feet, I don't have any other chronic medical illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been admitted to a hospital.",
+        "topic": "Past surgical and hospital history"
+      },
+      {
+        "answer": "I am not currently taking any prescribed medications, over-the-counter pills, or health supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medications, foods, or bandages.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a glass of wine socially once or twice a month, and nothing more than that.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am retired, and I live with my husband in a quiet single-story house.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had diabetes and high blood pressure, but no one in my family ever needed an amputation or had serious foot ulcers.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 128/78 mmHg, pulse 74 beats per minute, respiratory rate 16 breaths per minute, body temperature 36.7 degrees Celsius, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished, comfortable 68-year-old female in no acute distress, sitting comfortably without grimacing.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "A 1.5 cm round, punched-out deep ulcer under the right first metatarsal head surrounded by a thick callus, with a clean pink granulation base, no exposed tendon or bone on gentle probing, and no surrounding erythema, fluctuance, crepitus, or purulent drainage.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are 2+ and symmetric bilaterally, feet are warm to touch, and capillary refill time is under 2 seconds in all toes.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Loss of protective sensation to Semmes-Weinstein 10-gram monofilament across the plantar surfaces bilaterally in a stocking distribution, with diminished vibration sense at the first metatarsophalangeal joints.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Motor strength is 5/5 in bilateral toe flexion, toe extension, ankle dorsiflexion, and ankle plantarflexion.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Achilles tendon reflexes are absent bilaterally, while patellar reflexes are 1+ bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema, hemosiderin pigmentation, venous varicosities, or stasis changes on either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Both calves are soft, non-tender, and symmetrical without swelling or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Full range of motion in bilateral ankles and metatarsophalangeal joints without swelling, warmth, or deformity.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

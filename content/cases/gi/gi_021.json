@@ -1,0 +1,443 @@
+{
+  "id": "gi_021",
+  "system": "gastroenterology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Gupta",
+  "age": 66,
+  "gender": "male",
+  "chief_complaint": "shivering chills, yellow skin, and right upper side stomach pain for 24 hours",
+  "hpi_details": "Presents to ER with acute 24-hour history of severe right upper quadrant abdominal pain accompanied by high spiking fevers, violent rigors/shivering, and rapidly developing jaundice. Patient appears unwell, drowsy, and slightly confused according to his son. Has a known history of gallstones but declined elective surgery 2 years ago.",
+  "ideas": "son thinks a gallstone has completely blocked the bile pipe and caused severe poisoning",
+  "concerns": "son is terrified his father is going into septic shock",
+  "expectations": "wants immediate IV antibiotics and an emergency procedure to clear the blockage",
+  "pmh": "cholelithiasis diagnosed on ultrasound 2 years ago, type 2 diabetes mellitus, hypertension",
+  "medications": "metformin 850mg BD, ramipril 5mg OD",
+  "social_hx": "retired shop owner, non-smoker, rare alcohol intake",
+  "investigation_events": [
+    {
+      "id": "stat_ascending_cholangitis_workup",
+      "title": "STAT ascending cholangitis results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "liver function tests",
+        "lfts",
+        "bilirubin",
+        "lactate",
+        "right upper quadrant ultrasound",
+        "ruq ultrasound",
+        "abdominal ultrasound"
+      ],
+      "availability_message": "The STAT sepsis, liver, and biliary ultrasound results are now available; cultures, antibiotics, fluids, and urgent biliary decompression should not be delayed.",
+      "results": [
+        {
+          "id": "white_blood_cell_count",
+          "test": "White blood cell count",
+          "value": "19.6",
+          "unit": "x10^3/mcL",
+          "reference_range": "4.0-11.0",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "total_bilirubin",
+          "test": "Total bilirubin",
+          "value": "7.8",
+          "unit": "mg/dL",
+          "reference_range": "0.2-1.2",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "alkaline_phosphatase",
+          "test": "Alkaline phosphatase",
+          "value": "486",
+          "unit": "U/L",
+          "reference_range": "44-147",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "lactate",
+          "test": "Serum lactate",
+          "value": "4.1",
+          "unit": "mmol/L",
+          "reference_range": "0.5-2.2",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "right_upper_quadrant_ultrasound",
+          "test": "Right-upper-quadrant ultrasound",
+          "value": "Dilated common bile duct measuring 12 mm with an obstructing distal duct stone and intrahepatic biliary dilatation; gallstones present",
+          "flag": "critical",
+          "collected_at": "During emergency assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Ascending Cholangitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Ascending Cholangitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Medical/surgical emergency: Sepsis 6 resuscitation (IV crystalloids, high-flow O2 if hypoxic, blood cultures prior to antibiotics, broad-spectrum IV antibiotics e.g., piperacillin-tazobactam or meropenem, monitor lactate/urine output), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: shivering chills, yellow skin, and right upper side stomach pain for 24 hours",
+      "Key HPI features: Presents to ER with acute 24-hour history of severe right upper quadrant abdominal pain accompanied by high spiking fevers, violent rigors/shivering, and rapidly developing jaundice. Patient appears unwell, drowsy, and slightly confused according to his son. Has a known history of gallstones but declined elective surgery 2 years ago.",
+      "Objective/Exam findings: Vitals: temperature 39.1°C, HR 114, BP 92/58, RR 24. Abdominal exam: tender RUQ with guarding. Scleral icterus visible. Bloods: FBC (neutrophilia), blood cultures x2 sets, LFTs (obstructive pattern: raised bilirubin and ALP > ALT), CRP, urea/creatinine, lactate. Urgent abdominal ultrasound or CT abdomen, progressing to ERCP.",
+      "Relevant background/PMH: cholelithiasis diagnosed on ultrasound 2 years ago, type 2 diabetes mellitus, hypertension",
+      "Current medications: metformin 850mg BD, ramipril 5mg OD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Ascending Cholangitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute suppurative cholecystitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Confusion or drowsiness with fever and jaundice — suggests progression to septic shock (Reynolds pentad)."
+    ],
+    "management_principles": [
+      "Medical/surgical emergency: Sepsis 6 resuscitation (IV crystalloids, high-flow O2 if hypoxic, blood cultures prior to antibiotics, broad-spectrum IV antibiotics e.g., piperacillin-tazobactam or meropenem, monitor lactate/urine output)",
+      "Urgent gastroenterology/surgical consult for emergency biliary decompression via Endoscopic Retrograde Cholangiopancreatography (ERCP) with sphincterotomy/stenting within 24 hours"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "66M with known gallstones presents with Charcot's triad (RUQ pain, fever/rigors, jaundice) progressing toward Reynolds' pentad (plus confusion and hypotension).",
+    "objective": "Vitals: temperature 39.1°C, HR 114, BP 92/58, RR 24. Abdominal exam: tender RUQ with guarding. Scleral icterus visible. Bloods: FBC (neutrophilia), blood cultures x2 sets, LFTs (obstructive pattern: raised bilirubin and ALP > ALT), CRP, urea/creatinine, lactate. Urgent abdominal ultrasound or CT abdomen, progressing to ERCP.",
+    "assessment": "Acute ascending cholangitis (biliary sepsis) likely secondary to choledocholithiasis. DDx: acute suppurative cholecystitis, liver abscess, severe viral/drug hepatitis, mirizzi syndrome.",
+    "plan": "Medical/surgical emergency: Sepsis 6 resuscitation (IV crystalloids, high-flow O2 if hypoxic, blood cultures prior to antibiotics, broad-spectrum IV antibiotics e.g., piperacillin-tazobactam or meropenem, monitor lactate/urine output). Urgent gastroenterology/surgical consult for emergency biliary decompression via Endoscopic Retrograde Cholangiopancreatography (ERCP) with sphincterotomy/stenting within 24 hours."
+  },
+  "learning_objectives": [
+    "Identify Charcot's triad (RUQ pain, fever, jaundice) and Reynolds' pentad indicating life-threatening ascending cholangitis",
+    "Recognise the obstructive LFT profile (predominant alkaline phosphatase and conjugated bilirubin elevation)",
+    "Execute immediate sepsis resuscitation and blood culture acquisition before antibiotic initiation",
+    "Explain the urgent necessity of mechanical biliary decompression via ERCP alongside antibiotic therapy"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Ascending Cholangitis",
+    "one_liner": "A gallstone blocks the bile duct and bacteria multiply upstream, causing the classic triad of right-upper-quadrant pain, fever with rigors, and jaundice — a biliary sepsis emergency.",
+    "differentials": [
+      "Acute suppurative cholecystitis",
+      "Liver abscess",
+      "Severe viral or drug-induced hepatitis"
+    ],
+    "red_flags": [
+      "Confusion or drowsiness with fever and jaundice — suggests progression to septic shock (Reynolds pentad)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Charcot's triad screen",
+        "say": "Have you had pain, fevers with shivering, and yellow skin all together?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "shivering",
+          "jaundice",
+          "rigors"
+        ]
+      },
+      {
+        "objective": "Confusion or drowsiness",
+        "say": "Has your father seemed confused or unusually drowsy?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "confused",
+          "drowsy",
+          "confusion",
+          "sleepy"
+        ]
+      },
+      {
+        "objective": "Known gallstones",
+        "say": "Has he been told before that he has gallstones?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "gallstones",
+          "gallbladder",
+          "diagnosed"
+        ]
+      },
+      {
+        "objective": "Prior surgery declined",
+        "say": "Did he ever have an operation offered for the gallstones, and why wasn't it done?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "surgery",
+          "operation",
+          "declined",
+          "offered"
+        ]
+      },
+      {
+        "objective": "Urine and stool colour",
+        "say": "Has his urine gone darker, or his stools become pale?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "urine",
+          "dark",
+          "stools",
+          "pale"
+        ]
+      },
+      {
+        "objective": "Rigors severity",
+        "say": "Did he have violent shaking or shivering with the fever?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "shaking",
+          "shivering",
+          "rigors",
+          "chills"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "92/58",
+      "hr": 114,
+      "rr": 24,
+      "spo2": 95,
+      "temp_c": 39.1
+    },
+    "history": [
+      {
+        "answer": "I feel burning hot with terrible shaking chills, my right belly hurts badly, and my son says my eyes and skin turned yellow since yesterday.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The high fever began abruptly yesterday morning, about 24 hours ago, and has stayed high since.",
+        "topic": "Fever onset and duration"
+      },
+      {
+        "answer": "My temperature shot up over 39 degrees, and I had violent shivering spells that made my whole body shake and teeth chatter.",
+        "topic": "Fever pattern and rigors"
+      },
+      {
+        "answer": "My son gave me two acetaminophen tablets earlier today, but they barely brought the fever down at all.",
+        "topic": "Antipyretic response"
+      },
+      {
+        "answer": "No, I haven't had any cough, phlegm, sore throat, or shortness of breath.",
+        "topic": "Cough or chest symptoms"
+      },
+      {
+        "answer": "I don't have any pain or burning when I urinate, and my flanks don't hurt, though my urine has turned as dark as iced tea.",
+        "topic": "Urinary symptoms and flank pain"
+      },
+      {
+        "answer": "My bowel movement yesterday looked strangely pale and clay-colored, but I haven't had any diarrhea.",
+        "topic": "Stool color and bowel movements"
+      },
+      {
+        "answer": "It is a constant, severe aching and squeezing pain in my upper right stomach that has steadily worsened since yesterday.",
+        "topic": "Abdominal pain character"
+      },
+      {
+        "answer": "I have been very nauseated and vomited stomach fluid once yesterday evening, but there was no blood in it.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "I have a dull headache from the burning fever, but my neck does not feel stiff or painful to move.",
+        "topic": "Headache and neck stiffness"
+      },
+      {
+        "answer": "I feel very sluggish and drowsy today, and my son noticed I was speaking somewhat confusedly and forgetting things earlier.",
+        "topic": "Drowsiness and confusion"
+      },
+      {
+        "answer": "No, I have no rash, hives, purple spots, or insect bites with dark scabs anywhere.",
+        "topic": "Skin rash and insect bites"
+      },
+      {
+        "answer": "No, none of my joints are swollen, red, or aching.",
+        "topic": "Joint pain"
+      },
+      {
+        "answer": "No drenching night sweats before this began yesterday, and my weight has been completely steady.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "No, I haven't noticed any swollen glands or lumps in my neck, armpits, or groin.",
+        "topic": "Swollen lymph nodes"
+      },
+      {
+        "answer": "No, I have not traveled abroad, gone hiking in tall grass, worked on a farm, or handled any animals.",
+        "topic": "Travel and outdoor activities"
+      },
+      {
+        "answer": "No, nobody in my family or neighborhood has been sick with a fever or stomach bug.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I have never had cancer treatment, chemotherapy, steroids, or any immunosuppressive drugs.",
+        "topic": "Immunosuppressive medications"
+      },
+      {
+        "answer": "No, I don't have an artificial heart valve or heart murmur, and I haven't had any dental work done recently.",
+        "topic": "Heart disease and dental procedures"
+      },
+      {
+        "answer": "No, I haven't started any new prescription drugs, over-the-counter painkillers, or herbal tonics lately.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "I have been in a monogamous marriage for decades, and I have never injected illicit drugs.",
+        "topic": "Sexual history and drug use"
+      },
+      {
+        "answer": "I have had high blood pressure and type 2 diabetes for about ten years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "An ultrasound two years ago showed I had gallstones after I had an episode of stomach cramps.",
+        "topic": "History of gallstones"
+      },
+      {
+        "answer": "The surgeon advised me to remove my gallbladder two years ago, but I declined because my symptoms had settled down.",
+        "topic": "Prior surgeries and hospital stays"
+      },
+      {
+        "answer": "I take metformin 850 milligrams twice daily for my sugar and ramipril 5 milligrams once daily for my blood pressure.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications or antibiotics.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or tobacco in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I almost never drink alcohol, perhaps just half a glass of beer on a rare special occasion once or twice a year.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am a retired convenience store owner, and I live at home with my wife and adult son.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure, but there is no family history of liver disease, jaundice, or gallbladder trouble.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My son is terrified that a loose gallstone has completely blocked my bile duct and caused severe blood poisoning.",
+        "topic": "Ideas and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Ill-appearing, flushed, diaphoretic, lethargic, and mildly confused.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Temperature 39.1°C, heart rate 114 bpm, blood pressure 92/58 mmHg, respiratory rate 24 breaths/min, SpO2 95% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Marked scleral icterus bilaterally with normal pink conjunctivae.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Mucous membranes are dry; pharynx and tonsils are clear without erythema or exudate.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No anterior or posterior cervical lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Clear vesicular breath sounds bilaterally with no crackles, wheezes, or pleural friction rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with distinct S1 and S2; no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Flat abdomen with noticeable cutaneous jaundice; no distension, caput medusae, or surgical scars.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hypoactive bowel sounds audible throughout all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Marked tenderness and involuntary guarding in the right upper quadrant; remainder of abdomen is soft.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Sharp arrest of inspiration upon palpation beneath the right costal margin.",
+        "maneuver": "murphy_sign",
+        "response": "pain"
+      },
+      {
+        "finding": "Liver edge is palpable two centimeters below the costal margin and tender; spleen is not palpable.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on gentle percussion bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Deep jaundice across the torso and limbs with no petechiae, purpura, rash, or eschar.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full passive flexion; Kernig and Brudzinski signs are absent.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

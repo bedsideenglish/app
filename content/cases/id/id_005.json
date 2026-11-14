@@ -1,0 +1,368 @@
+{
+  "id": "id_005",
+  "system": "infectious_disease",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Lopez",
+  "age": 38,
+  "gender": "male",
+  "chief_complaint": "progressive severe headache, confusion, fever, and neck stiffness in HIV patient",
+  "hpi_details": "38M with untreated HIV (CD4 35) presenting with subacute headache and lethargy. High opening pressure on LP, India ink smear positive for encapsulated yeast, positive Cryptococcal antigen.",
+  "ideas": "He thinks his splitting headache and neck soreness are just severe stress migraines triggered by long work hours and lack of sleep.",
+  "concerns": "He is terrified that the unbearable pounding and stiffness mean he has a brain aneurysm that is on the verge of rupturing.",
+  "expectations": "He hopes to get an immediate head scan and strong intravenous pain medication to relieve the agony in his head.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "available_results": [
+    {
+      "id": "cd4_count",
+      "test": "CD4 T-cell count",
+      "value": "35",
+      "unit": "cells/mcL",
+      "reference_range": "500-1500",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "csf_opening_pressure",
+      "test": "CSF opening pressure",
+      "value": "320",
+      "unit": "mmH2O",
+      "reference_range": "60-200",
+      "flag": "critical",
+      "specimen": "CSF"
+    },
+    {
+      "id": "csf_india_ink",
+      "test": "CSF India ink preparation",
+      "value": "Encapsulated budding yeast seen",
+      "reference_range": "No organisms seen",
+      "flag": "critical",
+      "specimen": "CSF"
+    },
+    {
+      "id": "cryptococcal_antigen",
+      "test": "CSF cryptococcal antigen",
+      "value": "Positive, titer 1:2048",
+      "reference_range": "Negative",
+      "flag": "critical",
+      "specimen": "CSF"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Disseminated Cryptococcal Meningitis in AIDS evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Disseminated Cryptococcal Meningitis in AIDS is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes induction antifungal therapy with liposomal amphotericin B plus flucytosine combined with aggressive control of elevated intracranial pressure via serial therapeutic lumbar punctures, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: progressive severe headache, confusion, fever, and neck stiffness in HIV patient",
+      "Key HPI features: 38M with untreated HIV (CD4 35) presenting with subacute headache and lethargy. High opening pressure on LP, India ink smear positive for encapsulated yeast, positive Cryptococcal antigen.",
+      "Objective/Exam findings: Vitals: Temp 38.1C, HR 92, BP 112/70, RR 16. Lethargic but oriented, mild nuchal rigidity, papilledema on fundoscopy, oral thrush; no focal neurological deficits. Bloods: CD4 35 cells/uL, HIV viral load markedly elevated. Lumbar puncture: Opening pressure markedly elevated at 320 mmH2O; CSF WBC mildly elevated at 18 /uL (lymphocyte-predominant); CSF protein 65 mg/dL; CSF glucose 42 mg/dL. India ink smear positive for encapsulated budding yeast; serum/CSF Cryptococcal antigen (CrAg) positive at high titer (1:2048).",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Disseminated Cryptococcal Meningitis in AIDS.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Bacterial meningitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Rising intracranial pressure symptoms (worsening headache, vision changes) — needs therapeutic lumbar punctures."
+    ],
+    "management_principles": [
+      "Start induction therapy with IV Liposomal Amphotericin B (3-4 mg/kg/day) plus oral Flucytosine (25 mg/kg PO q6h) for a minimum of 2 weeks",
+      "Aggressively manage elevated intracranial pressure with serial large-volume therapeutic lumbar punctures, aiming to reduce opening pressure below 20 cmH2O or by at least 50%",
+      "Transition to consolidation therapy with oral Fluconazole 400mg daily for 8 weeks, followed by maintenance/secondary prophylaxis Fluconazole 200mg daily until CD4 > 100 cells/uL for >3 months on suppressive ART",
+      "Defer ART initiation for 4-6 weeks after starting antifungal therapy to reduce the risk of immune reconstitution inflammatory syndrome (IRIS)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: progressive severe headache, confusion, fever, and neck stiffness in HIV patient\n\n38M with untreated HIV (CD4 35) presenting with subacute headache and lethargy. High opening pressure on LP, India ink smear positive for encapsulated yeast, positive Cryptococcal antigen.",
+    "objective": "Vitals: Temp 38.1C, HR 92, BP 112/70, RR 16. Lethargic but oriented, mild nuchal rigidity, papilledema on fundoscopy, oral thrush; no focal neurological deficits. Bloods: CD4 35 cells/uL, HIV viral load markedly elevated. Lumbar puncture: Opening pressure markedly elevated at 320 mmH2O; CSF WBC mildly elevated at 18 /uL (lymphocyte-predominant); CSF protein 65 mg/dL; CSF glucose 42 mg/dL. India ink smear positive for encapsulated budding yeast; serum/CSF Cryptococcal antigen (CrAg) positive at high titer (1:2048).",
+    "assessment": "Disseminated Cryptococcal Meningitis (Cryptococcus neoformans) in AIDS (CD4 35) with markedly elevated intracranial pressure.",
+    "plan": "1. Start induction therapy with IV Liposomal Amphotericin B (3-4 mg/kg/day) plus oral Flucytosine (25 mg/kg PO q6h) for a minimum of 2 weeks. 2. Aggressively manage elevated intracranial pressure with serial large-volume therapeutic lumbar punctures, aiming to reduce opening pressure below 20 cmH2O or by at least 50%. 3. Transition to consolidation therapy with oral Fluconazole 400mg daily for 8 weeks, followed by maintenance/secondary prophylaxis Fluconazole 200mg daily until CD4 > 100 cells/uL for >3 months on suppressive ART. 4. Defer ART initiation for 4-6 weeks after starting antifungal therapy to reduce the risk of immune reconstitution inflammatory syndrome (IRIS)."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Disseminated Cryptococcal Meningitis in AIDS",
+    "Formulate prioritized differential diagnosis for progressive severe headache, confusion, fever, and neck stiffness in HIV patient",
+    "Select appropriate laboratory and imaging studies for infectious_disease",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Disseminated Cryptococcal Meningitis in AIDS",
+    "one_liner": "An opportunistic fungal infection of the meninges in advanced, untreated HIV (CD4 <50), presenting subacutely with headache and lethargy and diagnosed by a very high spinal fluid opening pressure.",
+    "differentials": [
+      "Bacterial meningitis",
+      "Tuberculous meningitis",
+      "CNS toxoplasmosis"
+    ],
+    "red_flags": [
+      "Rising intracranial pressure symptoms (worsening headache, vision changes) — needs therapeutic lumbar punctures"
+    ],
+    "must_ask": [
+      {
+        "objective": "HIV status and CD4 count",
+        "say": "Do you know your HIV status, and are you on antiretroviral treatment?",
+        "domains": [
+          "pmh",
+          "medications"
+        ],
+        "keywords": [
+          "HIV",
+          "CD4",
+          "ART"
+        ]
+      },
+      {
+        "objective": "Headache character and progression",
+        "say": "How has the headache changed over the past days or weeks?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ],
+        "keywords": [
+          "subacute",
+          "worsening"
+        ]
+      },
+      {
+        "objective": "Mental status",
+        "say": "Have you felt more lethargic or had trouble concentrating?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "lethargy",
+          "confusion"
+        ]
+      },
+      {
+        "objective": "Fever and neck stiffness",
+        "say": "Have you had fever or neck stiffness?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Vision changes",
+        "say": "Any changes in your vision?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vision"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "112/70",
+      "hr": 92,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 38.1
+    },
+    "history": [
+      {
+        "answer": "My head has been aching constantly for the past two weeks, and it just keeps getting worse.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about two weeks ago as a dull ache, but it has steadily become much more severe each day.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The pain has been continuous every single day since it began, and I have never experienced a headache like this before.",
+        "topic": "Duration and previous headaches"
+      },
+      {
+        "answer": "It feels like a deep ache all over my entire head, especially towards the back of my head and neck.",
+        "topic": "Pain location"
+      },
+      {
+        "answer": "It is a heavy, throbbing pressure that feels like my head is going to burst, currently around an eight out of ten.",
+        "topic": "Pain quality and severity"
+      },
+      {
+        "answer": "It hurts constantly throughout the day, but it feels noticeably worse when I wake up in the morning.",
+        "topic": "Diurnal variation and timing"
+      },
+      {
+        "answer": "Coughing, bending over, or straining makes the throbbing much sharper, and resting flat in bed does not relieve it.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I did not have any flickering lights, blind spots, or tingling sensations before the headache started.",
+        "topic": "Aura and warning symptoms"
+      },
+      {
+        "answer": "I feel nauseated and bright lights hurt my eyes, but I haven't actually thrown up.",
+        "topic": "Nausea, vomiting, and photophobia"
+      },
+      {
+        "answer": "No, I haven't noticed any eye watering, eye redness, runny nose, or drooping eyelids.",
+        "topic": "Autonomic symptoms"
+      },
+      {
+        "answer": "I've felt feverish for several days, and my neck feels sore and stiff whenever I try to bend it forward.",
+        "topic": "Fever, neck stiffness, and rash"
+      },
+      {
+        "answer": "I've been feeling unusually sleepy, slow to think, and exhausted over the past few days.",
+        "topic": "Mental status and lethargy"
+      },
+      {
+        "answer": "I haven't had any weakness, numbness in my arms or legs, trouble speaking, or seizures.",
+        "topic": "Focal neurological deficits"
+      },
+      {
+        "answer": "Things have looked slightly blurry over the last two days, but I haven't had double vision or sharp eye pain.",
+        "topic": "Vision changes and eye pain"
+      },
+      {
+        "answer": "No, I haven't bumped my head or had any head injuries recently.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "I took over-the-counter acetaminophen a few times this week, but it barely made any difference.",
+        "topic": "Pain medication use"
+      },
+      {
+        "answer": "No, I cannot think of any specific triggers like stress, poor sleep, or foods that brought this on.",
+        "topic": "Headache triggers"
+      },
+      {
+        "answer": "I don't have high blood pressure, and I do not take any blood thinners.",
+        "topic": "Hypertension and anticoagulants"
+      },
+      {
+        "answer": "No one else at home has headaches, and there are no faulty gas heaters or carbon monoxide issues.",
+        "topic": "Environmental and family symptoms"
+      },
+      {
+        "answer": "I was diagnosed with HIV a while ago, but I stopped going to the clinic and stopped taking my medicines, and my immune cell count was very low.",
+        "topic": "HIV status and immune deficiency"
+      },
+      {
+        "answer": "I thought this splitting headache was just a severe migraine from working crazy hours and barely getting any sleep. The pounding in my head is so excruciating that I'm terrified an aneurysm is about to burst in my brain.",
+        "topic": "Patient ideas and concerns"
+      },
+      {
+        "answer": "Other than my HIV diagnosis, I do not have any chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or previous hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications or supplements right now, not even my HIV medications.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe a beer or two occasionally on weekends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time in an office and live alone in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are both alive and healthy, with no history of brain aneurysms, early strokes, or chronic neurological diseases.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I have had male sexual partners in the past, but I have not been sexually active recently.",
+        "topic": "Sexual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature 38.1 C, blood pressure 112/70 mmHg, heart rate 92 beats per minute, respiratory rate 16 breaths per minute, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Appears lethargic and fatigued, lying quietly in bed and squinting slightly against room light.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Lethargic with delayed verbal responses, but fully oriented to person, place, and time.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Mild resistance and discomfort on passive neck flexion; Kernig and Brudzinski signs are equivocal.",
+        "maneuver": "meningeal_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "Bilateral optic disc swelling consistent with papilledema; pupils are equal, round, and reactive to light.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are intact with symmetric facial movements and full extraocular movements.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone with symmetric 5/5 motor strength throughout all four extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation symmetrically across all dermatomes.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes are 2+ and symmetric; plantar responses are flexor bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Finger-to-nose testing is normal without dysmetria, and gait is steady without ataxia.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Confluent white curd-like plaques noted on the buccal mucosa and tongue, easily scraped off.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness over the maxillary or frontal sinuses, and no temporal artery tenderness.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      }
+    ]
+  }
+}

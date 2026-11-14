@@ -1,0 +1,302 @@
+{
+  "id": "obgyn_025",
+  "system": "obstetrics & gynecology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Sim",
+  "age": 22,
+  "gender": "female",
+  "chief_complaint": "white, clumpy vaginal discharge and intense vaginal itching for 4 days",
+  "hpi_details": "22F reports 4 days of intense vaginal itching, burning, and redness. Noticed a thick, white, odorless vaginal discharge that looks like 'cottage cheese.' Denies fever or urinary pain.",
+  "ideas": "thinks she has a yeast infection",
+  "concerns": "uncomfortable and embarrassed by the itching",
+  "expectations": "wants antifungal cream or pill",
+  "pmh": "Recent antibiotic use for strep throat 1 week ago",
+  "medications": "None",
+  "social_hx": "Student, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Vulvovaginal candidiasis (yeast infection) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Vulvovaginal candidiasis (yeast infection) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: white, clumpy vaginal discharge and intense vaginal itching for 4 days",
+      "Key HPI features: 22F reports 4 days of intense vaginal itching, burning, and redness. Noticed a thick, white, odorless vaginal discharge that looks like 'cottage cheese.' Denies fever or urinary pain.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration.",
+      "Relevant background/PMH: Recent antibiotic use for strep throat 1 week ago"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Vulvovaginal candidiasis (yeast infection).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Bacterial vaginosis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: No fever or urinary symptoms (reassuring against PID/UTI)."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration",
+      "Perform a speculum examination and wet mount when diagnosis is uncertain or symptoms are recurrent; candidiasis typically has a normal vaginal pH (<4.5)",
+      "Confirm pseudohyphae on KOH wet mount"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration. white, clumpy vaginal discharge and intense vaginal itching for 4 days. 22F reports 4 days of intense vaginal itching, burning, and redness. Noticed a thick, white, odorless vaginal discharge that looks like 'cottage cheese.' Denies fever or urinary pain.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration.",
+    "assessment": "Clinical presentation highly suggestive of Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration.",
+    "plan": "Perform a speculum examination and wet mount when diagnosis is uncertain or symptoms are recurrent; candidiasis typically has a normal vaginal pH (<4.5). Confirm pseudohyphae on KOH wet mount when tested. Use topical azole therapy if pregnancy is possible or confirmed; oral fluconazole is an option only when pregnancy has been excluded. Provide follow-up and return precautions."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration.",
+    "Formulate prioritized differential diagnosis for white, clumpy vaginal discharge and intense vaginal itching for 4 days",
+    "Select appropriate laboratory and imaging studies for obstetrics & gynecology",
+    "Implement evidence-based acute and long-term management strategies for Vulvovaginal Candidiasis (Yeast Infection) secondary to antibiotic-induced flora alteration."
+  ],
+  "teaching": {
+    "diagnosis": "Vulvovaginal candidiasis (yeast infection)",
+    "one_liner": "22F with 4 days of intense itching, burning, and thick white cottage-cheese discharge after recent antibiotic use.",
+    "differentials": [
+      "Bacterial vaginosis",
+      "Trichomoniasis",
+      "Contact dermatitis",
+      "Atrophic vaginitis"
+    ],
+    "red_flags": [
+      "No fever or urinary symptoms (reassuring against PID/UTI)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the discharge",
+        "say": "Can you describe the discharge — color, consistency, and smell?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "discharge characteristics"
+        ]
+      },
+      {
+        "objective": "Ask about recent antibiotic use",
+        "say": "Have you taken any antibiotics recently?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "antibiotic use"
+        ]
+      },
+      {
+        "objective": "Screen for fever or urinary symptoms",
+        "say": "Do you have any fever or pain with urination?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "dysuria"
+        ]
+      },
+      {
+        "objective": "Ask about recurrence history",
+        "say": "Have you had this kind of infection before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "recurrent yeast infection"
+        ]
+      },
+      {
+        "objective": "Explain the antifungal treatment plan",
+        "say": "We'll prescribe an oral antifungal pill or a topical cream to clear this up.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "fluconazole",
+          "clotrimazole"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I've had this terrible vaginal itching and thick white discharge for the last four days.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started four days ago and has been getting worse, but I've never experienced anything like this before.",
+        "topic": "Onset and prior episodes"
+      },
+      {
+        "answer": "It's thick, white, and clumpy, looking almost like cottage cheese.",
+        "topic": "Discharge characteristics"
+      },
+      {
+        "answer": "There is no smell at all, definitely no fishy odor, and it doesn't get worse after sex.",
+        "topic": "Discharge odor"
+      },
+      {
+        "answer": "The itching is intense and keeps me up at night, and the whole area burns and feels swollen.",
+        "topic": "Itching burning and swelling"
+      },
+      {
+        "answer": "My period was about two weeks ago, so this started right in the middle of my cycle.",
+        "topic": "Relation to menstrual cycle"
+      },
+      {
+        "answer": "I don't have any pain or burning when I urinate.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I haven't noticed any bleeding after intercourse or between my periods.",
+        "topic": "Abnormal vaginal bleeding"
+      },
+      {
+        "answer": "I have no lower belly pain and no fever or chills at all.",
+        "topic": "Abdominal pain and fever"
+      },
+      {
+        "answer": "It felt sore and irritated at the entrance when we tried having sex a few days ago, so we stopped.",
+        "topic": "Pain with intercourse"
+      },
+      {
+        "answer": "I have had one steady boyfriend for the past year, no other partners, and we always use condoms.",
+        "topic": "Sexual activity and protection"
+      },
+      {
+        "answer": "My boyfriend feels completely fine and has no rash, discharge, or burning when he pees.",
+        "topic": "Partner symptoms"
+      },
+      {
+        "answer": "I finished a ten-day course of oral antibiotics for strep throat a week ago, which cleared up my throat.",
+        "topic": "Recent antibiotic use"
+      },
+      {
+        "answer": "I don't douche, I wash with plain water and mild soap, but I do wear tight workout leggings when studying and exercising.",
+        "topic": "Hygiene habits and clothing"
+      },
+      {
+        "answer": "We only rely on male condoms for birth control; I don't take pills or have an IUD.",
+        "topic": "Contraception method"
+      },
+      {
+        "answer": "I received all three doses of the HPV vaccine in high school, and I haven't had a Pap smear yet.",
+        "topic": "Cervical screening and vaccination"
+      },
+      {
+        "answer": "I searched my symptoms online and I think I might have a vaginal yeast infection.",
+        "topic": "Suspected cause"
+      },
+      {
+        "answer": "The itching is so unbearable and embarrassing that I can't concentrate on my classes.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping you can prescribe an antifungal pill or cream to make this go away quickly.",
+        "topic": "Treatment expectations"
+      },
+      {
+        "answer": "I had strep throat about a week ago, but otherwise I've always been completely healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any surgeries and I've never been admitted to the hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I'm not taking any medications right now since finishing the antibiotics for my throat.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used e-cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional beer with friends on weekends, maybe one or two drinks a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I'm a full-time university student and I share an off-campus apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are both healthy, and there is no family history of diabetes or chronic illnesses.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period started on the fourteenth, about two weeks ago, and my cycle is always twenty-eight days.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "I took a home pregnancy test yesterday just in case, and it was completely negative.",
+        "topic": "Possibility of pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/74 mmHg, pulse 72 beats/min, respiratory rate 14 breaths/min, body temperature 36.6 C, oxygen saturation 99% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert young female in no acute cardiopulmonary distress, appearing slightly restless and uncomfortable due to perineal pruritus.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender to light and deep palpation across all quadrants without guarding or suprapubic tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No rebound tenderness in any quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Marked vulvar erythema and mild labial edema with superficial linear excoriations; no vulvar ulcers, vesicles, or discrete lesions.",
+        "maneuver": "genital_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Speculum examination reveals vaginal mucosal erythema with adherent thick white curd-like discharge and a normal nulliparous cervix without purulent exudate or bleeding; bimanual examination elicits no cervical motion tenderness or uterine/adnexal tenderness.",
+        "maneuver": "pelvic_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

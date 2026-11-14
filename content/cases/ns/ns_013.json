@@ -1,0 +1,331 @@
+{
+  "id": "ns_013",
+  "system": "neurosurgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Thompson",
+  "age": 55,
+  "gender": "female",
+  "chief_complaint": "progressive anosmia, insidious personality changes, and frontal headache over 2 years",
+  "hpi_details": "55F presenting with complete loss of smell, apathy, and executive dysfunction with dural tail homogenously enhancing subfrontal extra-axial tumor on MRI.",
+  "ideas": "She thinks her loss of smell is from chronic sinus congestion and her emotional numbness is just stress and depression.",
+  "concerns": "She is worried that she is developing early Alzheimer's disease like her mother did and will become a burden to her family.",
+  "expectations": "She hopes to get a referral to an ear, nose, and throat specialist and a prescription nasal spray to clear her breathing.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "available_results": [{
+    "id": "brain_mri",
+    "test": "Contrast-enhanced brain MRI",
+    "value": "Homogeneously enhancing subfrontal extra-axial mass centered on the olfactory groove with a dural tail",
+    "flag": "abnormal",
+    "note": "Appearance is consistent with an olfactory groove meningioma."
+  }],
+  "clinical_knowledge": {
+    "topic": "Olfactory Groove Meningioma evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Olfactory Groove Meningioma is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Olfactory Groove Meningioma, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: progressive anosmia, insidious personality changes, and frontal headache over 2 years",
+      "Key HPI features: 55F presenting with complete loss of smell, apathy, and executive dysfunction with a dural-tail, homogeneously enhancing subfrontal extra-axial tumor on MRI.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Olfactory Groove Meningioma.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Olfactory Groove Meningioma.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Frontotemporal dementia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Progressive visual changes — signals optic nerve involvement as the tumor grows."
+    ],
+    "management_principles": [
+      "Refer to a skull-base neurosurgical team and obtain contrast MRI review, including assessment of optic apparatus involvement and peritumoral edema.",
+      "Discuss observation with interval MRI for small, asymptomatic, or stable tumors versus resection for symptomatic, enlarging, or visually threatening tumors.",
+      "Consider stereotactic radiation or fractionated radiotherapy for selected residual, recurrent, or unresectable tumors, individualized to size and proximity to optic structures.",
+      "Provide counseling on likely olfactory loss, cognitive recovery, visual monitoring, and treatment risks."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Olfactory Groove Meningioma: progressive anosmia, insidious personality changes, and frontal headache over 2 years. 55F presenting with complete loss of smell, apathy, and executive dysfunction with a dural-tail, homogeneously enhancing subfrontal extra-axial tumor on MRI.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Olfactory Groove Meningioma.",
+    "assessment": "Clinical presentation highly suggestive of Olfactory Groove Meningioma.",
+    "plan": "Refer to a skull-base neurosurgical team and obtain contrast MRI review, including assessment of optic apparatus involvement and peritumoral edema. Discuss observation with interval MRI for small, asymptomatic, or stable tumors versus resection for symptomatic, enlarging, or visually threatening tumors. Consider stereotactic radiation or fractionated radiotherapy for selected residual, recurrent, or unresectable tumors, individualized to size and proximity to optic structures."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Olfactory Groove Meningioma",
+    "Formulate prioritized differential diagnosis for progressive anosmia, insidious personality changes, and frontal headache over 2 years",
+    "Select appropriate laboratory and imaging studies for neurosurgery",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Olfactory Groove Meningioma",
+    "one_liner": "A slow-growing benign tumor at the base of the skull compresses the olfactory nerves and frontal lobes, causing gradual loss of smell and personality changes over years — easily mistaken for depression or normal aging because of how slowly it progresses.",
+    "differentials": [
+      "Frontotemporal dementia",
+      "Depression",
+      "Normal aging-related anosmia"
+    ],
+    "red_flags": [
+      "Progressive visual changes — signals optic nerve involvement as the tumor grows"
+    ],
+    "must_ask": [
+      {
+        "objective": "Smell loss",
+        "say": "Have you lost your sense of smell completely?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "anosmia"
+        ]
+      },
+      {
+        "objective": "Personality changes",
+        "say": "Have people close to you noticed changes in your personality or motivation?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "apathy",
+          "personality"
+        ]
+      },
+      {
+        "objective": "Headache",
+        "say": "Do you have a headache, and where?",
+        "domains": [
+          "location"
+        ],
+        "keywords": [
+          "frontal"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many years has this been developing?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Cognitive changes",
+        "say": "Any difficulty with planning or decision-making?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I completely lost my sense of smell, and my family says my personality has changed over the last couple of years.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started very slowly about two years ago with a gradual loss of smell, and everything has progressively worsened over time.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "I cannot smell anything at all now in either nostril, whether it is food cooking, coffee, or strong perfume.",
+        "topic": "Loss of smell details"
+      },
+      {
+        "answer": "My husband and daughter tell me I have become very passive, indifferent, and emotionally detached from hobbies I used to enjoy.",
+        "topic": "Personality and behavioral changes"
+      },
+      {
+        "answer": "I have a lot of trouble multitasking, organizing my workday, and making decisions that used to be second nature to me.",
+        "topic": "Cognitive and executive function"
+      },
+      {
+        "answer": "I get a dull, persistent aching headache across my forehead that comes and goes for several months now.",
+        "topic": "Headache characteristics"
+      },
+      {
+        "answer": "The ache stays right in the front of my forehead behind my eyes and does not spread to my neck or shoulders.",
+        "topic": "Headache location and radiation"
+      },
+      {
+        "answer": "The frontal headache feels somewhat worse when I bend forward or first wake up, while lying quietly in a dark room slightly relieves it.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "My eyesight seems normal, with no blurry vision, double vision, or loss of side vision that I have noticed.",
+        "topic": "Visual symptoms"
+      },
+      {
+        "answer": "No, I have never had any seizures, convulsions, blackouts, or episodes where I passed out.",
+        "topic": "Seizures and loss of consciousness"
+      },
+      {
+        "answer": "I have not experienced any weakness in my arms or legs, and I have no numbness or tingling anywhere.",
+        "topic": "Limb weakness and numbness"
+      },
+      {
+        "answer": "I do not feel sad, guilty, or depressed; I just feel like I have lost my drive and motivation to get things done.",
+        "topic": "Depression and mood symptoms"
+      },
+      {
+        "answer": "No, my nose is completely clear with no congestion, runny discharge, chronic sinus pain, or nosebleeds.",
+        "topic": "Nasal congestion and discharge"
+      },
+      {
+        "answer": "I have never suffered any significant head injury, fall, or concussion in my life.",
+        "topic": "History of head trauma"
+      },
+      {
+        "answer": "Because my symptoms kept slowly getting worse, my primary doctor ordered a brain MRI scan recently.",
+        "topic": "Previous evaluations and tests"
+      },
+      {
+        "answer": "I tried taking occasional over-the-counter acetaminophen for the headaches, but it only takes the edge off slightly.",
+        "topic": "Self management and pain relievers"
+      },
+      {
+        "answer": "I struggle with complicated duties at my job, and I stopped cooking at home because I cannot smell food burning or boiling over.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I thought my allergies completely wrecked my sinuses and that I was just feeling burned out and depressed.",
+        "topic": "Patient ideas on diagnosis"
+      },
+      {
+        "answer": "I'm terrified that I might have Alzheimer's like my mother had and that I won't be able to take care of myself.",
+        "topic": "Patient concerns and fears"
+      },
+      {
+        "answer": "I was hoping you could refer me to an ENT doctor and give me a strong nasal spray to get my smell back.",
+        "topic": "Patient expectations for visit"
+      },
+      {
+        "answer": "I do not have any chronic medical illnesses like high blood pressure, diabetes, or asthma.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgical procedures and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, regular over-the-counter medicines, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or environmental triggers.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine once or twice a month at social dinners.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an administrative assistant in an office and live at home with my husband and adult daughter.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has a history of brain tumors, neurological conditions, or early dementia.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I went through menopause two years ago at age 53 and have not had any bleeding since then.",
+        "topic": "Menstrual and reproductive history"
+      },
+      {
+        "answer": "I have had no fever, chills, night sweats, or unexplained weight loss.",
+        "topic": "Systemic red flag symptoms"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 120/78 mmHg, heart rate is 72 beats per minute, respiratory rate is 14 breaths per minute, oxygen saturation is 99% on room air, and temperature is 36.6 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient is alert, casually dressed, and in no acute distress, with a notably flat and indifferent facial affect.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Fully oriented to person, place, and date, but exhibits notable apathy, reduced initiation, and difficulty with multi-step executive planning tasks.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Complete bilateral anosmia confirmed on smell testing; extraocular movements are intact without nystagmus, and remaining cranial nerves are intact.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal, round, and reactive to light; visual fields are full to confrontation, and fundoscopy reveals sharp disc margins without papilledema or optic atrophy.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Nasal cavities are clear without mucosal edema, purulent discharge, polyps, or visible obstructive masses; posterior oropharynx is normal.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness elicited upon direct percussion or palpation over the frontal or maxillary sinuses bilaterally.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone bilaterally, with 5/5 strength throughout all proximal and distal muscle groups in the upper and lower extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps, triceps, patellar, and Achilles deep tendon reflexes are 2+ and symmetric; bilateral plantar responses are flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch, pinprick, and vibration sensation throughout all extremities without sensory level or focal deficit.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Finger-to-nose and rapid alternating movements are smooth and accurate bilaterally; gait is steady, and Romberg test is negative.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Full cervical range of motion without neck stiffness; Kernig and Brudzinski signs are negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

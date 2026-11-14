@@ -1,0 +1,400 @@
+{
+  "id": "gi_042",
+  "system": "gi",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Hill",
+  "age": 62,
+  "gender": "female",
+  "chief_complaint": "acute diarrhea and abdominal pain 1 week after completing antibiotics",
+  "hpi_details": "62-year-old female presents with frequent, watery, foul-smelling diarrhea, lower abdominal cramping, and low-grade fever for 3 days. She completed a 10-day course of oral clindamycin for a dental infection one week ago.",
+  "ideas": "She thinks the dental antibiotics wiped out all her good gut bacteria and allowed a common stomach bug to take over.",
+  "concerns": "She is worried that the persistent diarrhea will make her too weak and dehydrated to travel to her daughter's wedding next weekend.",
+  "expectations": "She hopes to get a prescription for a strong anti-diarrheal medicine or medical-grade probiotics so she can stop having to rush to the toilet.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "urgent_c_difficile_workup",
+      "title": "Urgent C. difficile and severity results",
+      "order_terms": [
+        "c difficile test",
+        "c diff test",
+        "stool toxin",
+        "toxin assay",
+        "gdh antigen",
+        "stool test",
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "creatinine",
+        "renal function"
+      ],
+      "availability_message": "The urgent C. difficile assay and severity results are now available; contact precautions and treatment should not be delayed.",
+      "results": [
+        {
+          "id": "c_difficile_gdh",
+          "test": "C. difficile glutamate dehydrogenase antigen",
+          "value": "Positive",
+          "reference_range": "Negative",
+          "flag": "abnormal",
+          "specimen": "Unformed stool",
+          "collected_at": "During urgent assessment"
+        },
+        {
+          "id": "c_difficile_toxin",
+          "test": "C. difficile toxin A/B enzyme immunoassay",
+          "value": "Positive",
+          "reference_range": "Negative",
+          "flag": "critical",
+          "specimen": "Unformed stool",
+          "collected_at": "During urgent assessment"
+        },
+        {
+          "id": "white_blood_cell_count",
+          "test": "White blood cell count",
+          "value": "18.0",
+          "unit": "x10^3/mcL",
+          "reference_range": "4.0-11.0",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "During urgent assessment"
+        },
+        {
+          "id": "creatinine",
+          "test": "Serum creatinine",
+          "value": "1.3",
+          "unit": "mg/dL",
+          "reference_range": "0.6-1.2",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Clostridioides difficile Infection evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Clostridioides difficile Infection is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes ordering a stool C. diff toxin test, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: acute diarrhea and abdominal pain 1 week after completing antibiotics",
+      "Key HPI features: 62-year-old female presents with frequent, watery, foul-smelling diarrhea, lower abdominal cramping, and low-grade fever for 3 days. She completed a 10-day course of oral clindamycin for a dental infection one week ago.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Clostridioides difficile Infection.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Clostridioides difficile Infection.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Antibiotic-associated diarrhoea (non-C. diff) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Ten or more stools a day, or signs of dehydration — features of severe colitis needing urgent review."
+    ],
+    "management_principles": [
+      "Order stool C. diff toxin test, discontinue offending drug, start oral Vancomycin",
+      "Consult specialist if symptoms worsen"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "62F presenting with acute severe watery diarrhea and abdominal cramps one week post-antibiotic therapy.",
+    "objective": "Vitals: Temp 38.0C, HR 110. Abdomen is mildly distended with diffuse lower abdominal tenderness but no rebound or guarding. WBC is elevated (18,000/uL).",
+    "assessment": "Clostridioides difficile Infection (CDI), associated with recent Clindamycin use.",
+    "plan": "Discontinue any unnecessary offending antibiotics. Send stool for C. difficile toxin A/B EIA and PCR. Start oral Vancomycin 125 mg QID or oral Fidaxomicin for 10 days. Implement contact precautions. Avoid anti-motility agents."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Clostridioides difficile Infection",
+    "Select appropriate diagnostic workup for Clostridioides difficile Infection",
+    "Implement evidence-based management plan: Order stool C. diff toxin test, discontinue offending drug, start oral Vancomycin"
+  ],
+  "teaching": {
+    "diagnosis": "Clostridioides difficile Infection",
+    "one_liner": "Antibiotics disrupt the normal gut bacteria, letting C. difficile overgrow and release toxins that cause watery diarrhoea and abdominal pain within days to weeks.",
+    "differentials": [
+      "Antibiotic-associated diarrhoea (non-C. diff)",
+      "Infective gastroenteritis",
+      "Inflammatory bowel disease flare"
+    ],
+    "red_flags": [
+      "Ten or more stools a day, or signs of dehydration — features of severe colitis needing urgent review"
+    ],
+    "must_ask": [
+      {
+        "objective": "Recent antibiotic use",
+        "say": "What antibiotics did you take, and when did you finish them?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "antibiotics",
+          "course",
+          "finished"
+        ]
+      },
+      {
+        "objective": "Diarrhoea frequency and character",
+        "say": "How many times a day are you going, and is it watery?",
+        "domains": [
+          "severity",
+          "character"
+        ],
+        "keywords": [
+          "watery",
+          "frequency",
+          "diarrhea"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever with this?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "chills"
+        ]
+      },
+      {
+        "objective": "Abdominal pain",
+        "say": "Where is the abdominal pain, and what does it feel like?",
+        "domains": [
+          "location",
+          "character"
+        ],
+        "keywords": [
+          "cramping",
+          "abdomen",
+          "pain"
+        ]
+      },
+      {
+        "objective": "Hydration status",
+        "say": "Does your mouth feel dry, or are you feeling weak?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dry",
+          "mouth",
+          "weak",
+          "dizzy"
+        ]
+      },
+      {
+        "objective": "Recent hospitalisation",
+        "say": "Have you been in hospital recently?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "hospital",
+          "admitted"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "110/70",
+      "hr": 110,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 38
+    },
+    "history": [
+      {
+        "answer": "Doctor, I have had terrible watery diarrhea and lower belly cramps for the past three days, and it started about a week after I finished a course of antibiotics.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It began suddenly three days ago, exactly one week after I took my last antibiotic pill, and it has not let up since.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "I am going about seven to eight times a day; it is completely watery and has a really foul, distinct odor.",
+        "topic": "Stool frequency and character"
+      },
+      {
+        "answer": "I have not seen any bright red blood or black tarry stool, just loose watery bowel movements with maybe a little clear mucus.",
+        "topic": "Blood or mucus in stool"
+      },
+      {
+        "answer": "Yes, the stomach cramps and urgency wake me up two or three times during the night to use the bathroom.",
+        "topic": "Nocturnal diarrhea"
+      },
+      {
+        "answer": "The pain is a cramping sensation across my lower abdomen that comes in waves right before I have to go.",
+        "topic": "Abdominal pain and cramping"
+      },
+      {
+        "answer": "I feel a sudden, painful urge to rush to the toilet, and the cramping eases up a little bit right after I move my bowels.",
+        "topic": "Tenesmus and relief after defecation"
+      },
+      {
+        "answer": "I have felt warm and feverish with some chills, and my home thermometer showed around 38 degrees Celsius.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "I feel mildly nauseous from the belly cramps, but I have not vomited at all.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "My mouth feels quite dry and I feel a little dizzy when I stand up quickly, though I have been trying to drink water and broth.",
+        "topic": "Hydration and dizziness"
+      },
+      {
+        "answer": "I haven't eaten any raw seafood, undercooked meats, or buffet food, and my husband eats the same meals at home and feels completely fine.",
+        "topic": "Dietary triggers and sick contacts"
+      },
+      {
+        "answer": "No, I have not traveled anywhere recently, have not been camping, and only drink treated tap water at home.",
+        "topic": "Travel history and water exposure"
+      },
+      {
+        "answer": "I took a ten-day course of oral clindamycin for an infected tooth, which I finished exactly one week ago.",
+        "topic": "Recent antibiotic use"
+      },
+      {
+        "answer": "No, I have not been admitted to any hospital or nursing facility; my dental treatment was done at a local dental clinic.",
+        "topic": "Recent hospitalization"
+      },
+      {
+        "answer": "No, my weight has been steady at around sixty kilograms with no unintentional weight loss.",
+        "topic": "Unintentional weight loss"
+      },
+      {
+        "answer": "No, milk and wheat products have never bothered my stomach, and this came on completely out of the blue.",
+        "topic": "Food intolerances"
+      },
+      {
+        "answer": "I have not had any unusual stress, and my bowel habits were completely regular every morning before this began.",
+        "topic": "Stress and bowel habit changes"
+      },
+      {
+        "answer": "No, I don't have any joint aches, skin rashes, mouth ulcers, or eye pain.",
+        "topic": "Extraintestinal symptoms"
+      },
+      {
+        "answer": "No, I haven't had any heart fluttering, unusual heat intolerance, trembling, or flushing in my face.",
+        "topic": "Hyperthyroid and carcinoid symptoms"
+      },
+      {
+        "answer": "I thought the strong antibiotics from my dentist just threw off my normal gut bacteria and left me with a bad stomach bug.",
+        "topic": "Patient ideas about illness"
+      },
+      {
+        "answer": "I'm terrified that this constant diarrhea will leave me so dehydrated that I won't be able to travel to my daughter's wedding next Saturday.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping you could give me some strong anti-diarrheal medication or probiotics so I can stop running to the bathroom every hour.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have generally been very healthy and do not have any chronic medical conditions like high blood pressure or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital admissions in the past.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not taking any regular medications, over-the-counter pain relievers, or anti-diarrhea pills right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine at social gatherings, maybe once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office administrative assistant and live in an apartment with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Nobody in my family has inflammatory bowel disease, celiac disease, or colon cancer.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient appears fatigued and mildly uncomfortable due to lower abdominal cramps, but is alert and oriented.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 110/70 mmHg, heart rate 110 beats/min, respiratory rate 18 breaths/min, body temperature 38.0°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Sitting blood pressure is 110/70 mmHg with pulse 110 beats/min; standing blood pressure drops to 100/65 mmHg with pulse increasing to 122 beats/min, demonstrating mild orthostasis.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa and tongue appear dry; pharynx is normal without erythema or lesions.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Slightly decreased skin turgor with capillary refill under 2 seconds; no skin rash or jaundice.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is mildly distended and symmetric with no surgical scars or visible peristalsis.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperactive, frequent bowel sounds audible in all four quadrants; no abdominal bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild distension with diffuse lower abdominal tenderness to palpation, but the abdomen is soft without guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness elicited in any abdominal quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal sphincter tone, no hemorrhoids or anal fissures, and watery yellowish stool on the glove with no gross blood.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "id": "neuro_033",
+  "system": "neuro",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Martin",
+  "age": 41,
+  "gender": "male",
+  "chief_complaint": "step-wise cognitive decline with history of multiple strokes",
+  "hpi_details": "A 41-year-old male presents to the clinic with step-wise cognitive decline with history of multiple strokes. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks his repeated mini-strokes left him with stubborn brain fog and exhaustion from overworking himself.",
+  "concerns": "He is worried he will lose his job as an accountant and won't be able to provide for his young family.",
+  "expectations": "He hopes to be prescribed brain-boosting vitamins or medication to clear the mental fog so he can focus at his desk.",
+  "pmh": "Two minor strokes (lacunar infarcts) over the past 2 years with transient right arm weakness and slurred speech (2-day admission for the first); elevated blood pressure, untreated; no surgeries",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Vascular Dementia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Vascular Dementia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Vascular Dementia: Aspirin, optimize blood pressure and lipid control, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: step-wise cognitive decline with history of multiple strokes",
+      "Key HPI features: A 41-year-old male presents to the clinic with step-wise cognitive decline with history of multiple strokes. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Vascular Dementia.",
+      "Relevant background/PMH: two prior minor strokes over the past 2 years, untreated elevated blood pressure, family history of stroke (father, mid-sixties)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Vascular Dementia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Alzheimer's disease (gradual, not stepwise) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: sudden focal neurological deficit, rapidly progressive cognitive decline over weeks, or new urinary incontinence and gait apraxia."
+    ],
+    "management_principles": [
+      "Plan for Vascular Dementia: Aspirin, optimize blood pressure and lipid control",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of step-wise cognitive decline with history of multiple strokes. HPI: lacunar infarcts, vascular risk factors.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Vascular Dementia.",
+    "assessment": "Condition highly suspicious for Vascular Dementia.",
+    "plan": "Plan for Vascular Dementia: Aspirin, optimize blood pressure and lipid control. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Vascular Dementia",
+    "Select appropriate diagnostic workup for Vascular Dementia",
+    "Implement evidence-based management plan: Aspirin, optimize blood pressure and lipid control"
+  ],
+  "teaching": {
+    "diagnosis": "Vascular Dementia",
+    "one_liner": "Stepwise cognitive decline from multiple small strokes (lacunar infarcts), managed by optimizing vascular risk factors.",
+    "differentials": [
+      "Alzheimer's disease (gradual, not stepwise)"
+    ],
+    "red_flags": [
+      "Sudden focal neurological deficit — suggests an acute stroke requiring emergency assessment rather than routine dementia workup",
+      "Rapidly progressive cognitive decline over weeks — raises concern for a reversible or treatable cause (e.g., normal-pressure hydrocephalus, subdural haematoma, CJD)",
+      "New urinary incontinence and gait apraxia — suggests normal-pressure hydrocephalus, a treatable mimic"
+    ],
+    "must_ask": [
+      {
+        "objective": "Decline pattern",
+        "say": "Did the decline happen suddenly in steps, rather than gradually?",
+        "domains": [
+          "progression"
+        ]
+      },
+      {
+        "objective": "Stroke history",
+        "say": "Have you had any strokes before?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Vascular risk factors",
+        "say": "Do you have high blood pressure or diabetes?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Focal symptoms",
+        "say": "Any weakness or vision changes with the decline?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Functional impact",
+        "say": "How is this affecting daily life?",
+        "domains": [
+          "severity"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "146/92",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My memory has been getting noticeably worse over the past few months, and I've also been feeling completely run-down with fatigue.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "Yes, absolutely, you have my full permission to speak with my wife and ask her about what she has noticed.",
+        "topic": "Family interview consent"
+      },
+      {
+        "answer": "My memory problems started about a year ago, and each time I had a minor stroke episode, my thinking took a sudden step down rather than a steady decline.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "I keep misplacing my wallet and house keys, and my wife tells me that I repeat the exact same questions twenty minutes later.",
+        "topic": "Specific memory difficulties"
+      },
+      {
+        "answer": "I struggle to find everyday words in conversation, and managing our household monthly bills has gotten really confusing.",
+        "topic": "Other cognitive difficulties"
+      },
+      {
+        "answer": "I can still dress and bathe myself without trouble, but I have had to stop handling our finances and rely heavily on my wife.",
+        "topic": "Daily functional impact"
+      },
+      {
+        "answer": "No, my alertness stays steady throughout the day; I don't become confused at night or drift in and out of awareness.",
+        "topic": "Fluctuations in alertness"
+      },
+      {
+        "answer": "I've become a bit more quiet and easily frustrated, but I haven't seen or heard anything unusual or suspected anyone of plotting against me.",
+        "topic": "Behavioral and psychiatric symptoms"
+      },
+      {
+        "answer": "I feel discouraged and down about my brain slowing down, but my appetite and sleep schedule have remained normal.",
+        "topic": "Mood sleep and appetite"
+      },
+      {
+        "answer": "My walking feels a bit slower and stiffer than before, but I don't shuffle my feet and I have not had any bladder accidents.",
+        "topic": "Gait changes and incontinence"
+      },
+      {
+        "answer": "No, I haven't hit my head or had any falls, and I don't have any new headaches.",
+        "topic": "Head trauma and headache"
+      },
+      {
+        "answer": "During past stroke episodes, my right arm felt weak and my speech was slurred for a few days, though it mostly cleared up afterwards.",
+        "topic": "Focal weakness and speech"
+      },
+      {
+        "answer": "No, I haven't been sensitive to cold, I don't have constipation, and my weight hasn't changed.",
+        "topic": "Cold intolerance and weight changes"
+      },
+      {
+        "answer": "No fever, chills, cough, or burning pain when urinating.",
+        "topic": "Infection symptoms"
+      },
+      {
+        "answer": "I haven't taken any sleeping pills, strong painkillers, or any new over-the-counter drugs.",
+        "topic": "Recent medication changes"
+      },
+      {
+        "answer": "I was told in the past that my blood pressure ran high, and I've had two small stroke episodes over the last two years.",
+        "topic": "Vascular risk factors and strokes"
+      },
+      {
+        "answer": "I'm terrified I won't be able to keep up at work and might lose my job when my family depends on my paycheck.",
+        "topic": "Safety concerns"
+      },
+      {
+        "answer": "Along with the memory decline, I have been feeling a persistent generalized fatigue almost every day.",
+        "topic": "Associated fatigue"
+      },
+      {
+        "answer": "I just figured having those small strokes took a lot out of me and my brain is completely overworked and exhausted.",
+        "topic": "Patient idea about diagnosis"
+      },
+      {
+        "answer": "I'm terrified I won't be able to keep up at work and might lose my job when my family depends on my paycheck.",
+        "topic": "Patient main concern"
+      },
+      {
+        "answer": "I was hoping you could give me some memory pills or supplements to clear this brain fog so I can think straight again.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "Other than the previous minor stroke episodes and borderline high blood pressure, I haven't had any major chronic illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I stayed in the hospital for two days during my first minor stroke, but I have never had any surgeries.",
+        "topic": "Past surgery and hospitalizations"
+      },
+      {
+        "answer": "I am not currently taking any prescription medications, vitamins, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink one or two beers on social occasions once or twice a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office clerk doing administrative paperwork, and I live at home with my wife and son.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has ever been diagnosed with Alzheimer's disease or any form of dementia.",
+        "topic": "Family history of dementia"
+      },
+      {
+        "answer": "My father had high blood pressure and suffered a stroke in his mid-sixties, but my mother is relatively healthy.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 146/92 mmHg, pulse 74 bpm, respirations 14 breaths/min, temperature 36.6 C, SpO2 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, mildly fatigued and frustrated appearance, in no acute physical distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Scored 23/30 on MoCA with notable deficits in executive function, short-term recall, and processing speed; oriented to person and place, mildly hesitant with date.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils equal and reactive to light; mild subtle right lower facial flattening, extraocular movements intact without visual field deficits.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Slight pronator drift of the right arm with motor strength 5-/5 on the right upper extremity, normal 5/5 strength throughout remainder; no cogwheel rigidity or spasticity.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Brisk deep tendon reflexes on the right side (3+) compared to the left (2+); equivocal plantar response on the right, flexor on the left.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation bilaterally throughout face, trunk, and extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal finger-to-nose testing; gait is slightly shortened and cautious without ataxia, foot dragging, or loss of balance.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "No resting tremor, postural tremor, bradykinesia, or involuntary movements observed.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, with no palpable nodules or goiter.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

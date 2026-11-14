@@ -1,0 +1,340 @@
+{
+  "id": "pulm_029",
+  "system": "pulm",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Johnson",
+  "age": 29,
+  "gender": "male",
+  "chief_complaint": "low-grade fever, dry hacking cough, and diffuse wheezing",
+  "hpi_details": "A 29-year-old male presents to the clinic with low-grade fever, dry hacking cough, and diffuse wheezing. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks he picked up a stubborn viral cough that has been going around his office and settled deep in his chest.",
+  "concerns": "He is worried that coughing non-stop will disrupt his client presentations next week and jeopardize an important project.",
+  "expectations": "He hopes to get a strong prescription cough suppressant and a medical note excusing him from speaking at meetings for a few days.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Atypical Pneumonia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Atypical Pneumonia is essential for appropriate diagnostic workup and treatment.",
+      "Clinical history, severity assessment, and targeted testing must be interpreted together rather than relying on one symptom alone.",
+      "Assess severity, oxygenation, and chest imaging when pneumonia is suspected.",
+      "Management should follow local pathways and account for patient-specific comorbidity and clinical severity."
+    ],
+    "diagnostic_clues": [
+      "Chief complaint: low-grade fever, dry hacking cough, and diffuse wheezing",
+      "Key HPI features: A 29-year-old male presents to the clinic with low-grade fever, dry hacking cough, and diffuse wheezing. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/examination findings: Perform focused examination, vital-sign assessment, and diagnosis-specific investigations.",
+      "Relevant background/PMH: Unremarkable",
+      "Current medications: None"
+    ],
+    "common_misconceptions": [
+      "Assuming a mild or atypical presentation rules out Atypical Pneumonia.",
+      "Relying on a single normal test result to prematurely exclude serious pathology.",
+      "Equating transient symptom improvement with resolution of the underlying condition.",
+      "Failing to consider clinically important alternative diagnoses."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation.",
+      "Prematurely discharging or reassuring the patient before appropriate assessment.",
+      "Starting treatment without considering contraindications, interactions, or organ function.",
+      "Ignoring critical warning signs: Hypoxaemia or severe dyspnoea."
+    ],
+    "management_principles": [
+      "Assess severity, oxygenation, and chest imaging when pneumonia is suspected.",
+      "Use local antimicrobial guidance after considering likely pathogens and patient-specific risk factors.",
+      "Escalate urgently for hypoxaemia, haemodynamic instability, or worsening respiratory distress."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ATS/IDSA Community-Acquired Pneumonia Guideline",
+        "url": "https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: low-grade fever, dry hacking cough, and diffuse wheezing\n\nA 29-year-old male presents to the clinic with low-grade fever, dry hacking cough, and diffuse wheezing. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Obtain full vital signs including oxygen saturation and a focused respiratory examination; use chest imaging or pathogen testing selectively when it will change management or severity is uncertain.",
+    "assessment": "Acute respiratory illness; atypical pneumonia is possible, but viral bronchitis and asthma/reactive airways disease remain important alternatives pending examination and investigations.",
+    "plan": "Assess oxygenation and illness severity before deciding on outpatient care. Provide supportive care and safety-net instructions. If bacterial pneumonia is clinically diagnosed, select antimicrobial treatment under local guidance after checking allergies, pregnancy potential, interacting medicines, and individual risk factors; antibiotics are not routine for uncomplicated viral bronchitis. Arrange urgent emergency assessment for hypoxaemia, severe dyspnoea, confusion, hypotension, chest pain, or clinical deterioration."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Atypical Pneumonia",
+    "Select appropriate diagnostic workup for Atypical Pneumonia",
+    "Implement severity-based evaluation, supportive care, and clinician-directed antimicrobial treatment only when bacterial pneumonia is diagnosed"
+  ],
+  "teaching": {
+    "diagnosis": "Atypical Pneumonia",
+    "one_liner": "Lower respiratory infection with a predominantly dry cough and diffuse respiratory symptoms, often caused by atypical organisms.",
+    "differentials": [
+      "Viral bronchitis",
+      "Asthma exacerbation",
+      "Community-acquired bacterial pneumonia"
+    ],
+    "red_flags": [
+      "Hypoxaemia or severe dyspnoea",
+      "Confusion, hypotension, or clinical deterioration"
+    ],
+    "must_ask": [
+      {
+        "objective": "Low-grade fever and dry cough characteristics",
+        "say": "Is your cough dry, and how high has your fever been?",
+        "domains": [
+          "character",
+          "severity"
+        ],
+        "keywords": [
+          "low-grade fever",
+          "dry cough",
+          "hacking",
+          "temperature",
+          "onset"
+        ]
+      },
+      {
+        "objective": "Extrapulmonary symptoms of atypical infection",
+        "say": "Have you had headache, sore throat, muscle aches, or an upset stomach with this?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "headache",
+          "myalgia",
+          "sore throat",
+          "extrapulmonary",
+          "atypical"
+        ]
+      },
+      {
+        "objective": "Living situation and close-contact exposure",
+        "say": "Do you live in a dormitory, shared housing, or have close contact with a lot of people, like at school or work?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "dormitory",
+          "close contact",
+          "outbreak",
+          "mycoplasma",
+          "crowded"
+        ]
+      },
+      {
+        "objective": "Wheeze and gradual symptom progression",
+        "say": "Has the wheeze been getting gradually worse over days rather than coming on suddenly?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "wheeze",
+          "gradual",
+          "progression",
+          "days",
+          "insidious"
+        ]
+      },
+      {
+        "objective": "Response to prior antibiotics if any",
+        "say": "Have you tried any antibiotics already, and did they help?",
+        "domains": [
+          "medications",
+          "relieving"
+        ],
+        "keywords": [
+          "antibiotics",
+          "response",
+          "beta-lactam",
+          "azithromycin",
+          "treatment"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 84,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "I have had this dry, hacking cough and a low-grade fever that started about a week ago, and it has just been getting worse.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The cough started about seven days ago and has steadily grown more persistent each day.",
+        "topic": "Duration of cough"
+      },
+      {
+        "answer": "It started gradually like a mild scratchy throat and tiredness, and I have never had an illness like this before.",
+        "topic": "Onset and prior episodes"
+      },
+      {
+        "answer": "It is almost completely dry and hacking, with only an occasional speck of clear mucus.",
+        "topic": "Sputum characteristics"
+      },
+      {
+        "answer": "It bothers me throughout the whole day, though the coughing fits disrupt my sleep at night.",
+        "topic": "Diurnal variation and posture"
+      },
+      {
+        "answer": "I get nagging bouts of coughing, but I do not make a whooping noise when breathing in, and I have not vomited from coughing.",
+        "topic": "Paroxysmal cough and whoop"
+      },
+      {
+        "answer": "Talking for a long time or taking a deep breath triggers a fit, but cold air, dust, or animals do not set it off.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "I hear a faint wheezing whistle when I breathe out, and I feel a little winded walking up stairs, but I am not gasping at rest.",
+        "topic": "Wheezing and breathlessness"
+      },
+      {
+        "answer": "My forehead has felt warm with mild chills for the last few days, and my thermometer at home showed around thirty-seven point eight.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, I have never coughed up any blood.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "No, my weight has been completely steady and I have not had drenching night sweats.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "My chest muscles feel sore and tired from coughing so much, but there is no sharp stabbing pain when I take a breath.",
+        "topic": "Chest pain with breathing"
+      },
+      {
+        "answer": "I do not have a runny nose, nasal congestion, or any sensation of mucus dripping down the back of my throat.",
+        "topic": "Nasal symptoms and postnasal drip"
+      },
+      {
+        "answer": "No, I do not get any heartburn, sour fluid in my mouth, or food coming back up.",
+        "topic": "Heartburn and acid regurgitation"
+      },
+      {
+        "answer": "No, I have no shortness of breath when lying flat, and my feet and ankles are not swollen.",
+        "topic": "Orthopnea and leg swelling"
+      },
+      {
+        "answer": "No, I do not take blood pressure medications or any ACE inhibitors.",
+        "topic": "Blood pressure medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes, e-cigarettes, or anything else in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I have never had tuberculosis, and as far as I know, I have never been exposed to anyone with it.",
+        "topic": "Tuberculosis contact"
+      },
+      {
+        "answer": "A couple of coworkers sharing our open-plan office have been coughing with a mild bug over the past two weeks.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I work as a software designer in an office, so I am not exposed to industrial dust, toxic fumes, mold, or birds.",
+        "topic": "Occupational and environmental exposures"
+      },
+      {
+        "answer": "I do not have asthma, eczema, seasonal allergies, or allergic rhinitis.",
+        "topic": "Allergic disease history"
+      },
+      {
+        "answer": "I have had a mild dull headache, slight ear fullness, and all-over muscle fatigue since this illness began.",
+        "topic": "Extrapulmonary symptoms"
+      },
+      {
+        "answer": "I tried some over-the-counter acetaminophen and cold tablets for a couple of days, but they did not help the cough, and I have not taken any antibiotics.",
+        "topic": "Response to prior treatments"
+      },
+      {
+        "answer": "I thought I just caught that lingering dry cough everyone at my office has been passing around. I'm worried this hacking cough will ruin my client presentations next week and make a terrible impression on my boss.",
+        "topic": "Ideas and concerns"
+      },
+      {
+        "answer": "I have always been healthy and have no chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications or herbal supplements right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I only drink one or two beers on weekend social occasions, and never heavily.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I live alone in a residential apartment and work full-time in an IT office.",
+        "topic": "Living situation and occupation"
+      },
+      {
+        "answer": "Both of my parents are healthy with mild high blood pressure, and there is no family history of asthma or lung problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Young man appearing mildly fatigued with intermittent dry coughing, in no acute respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 120/78 mmHg, heart rate 84 beats per minute, respiratory rate 18 breaths per minute, temperature 37.8 degrees Celsius, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Both tympanic membranes are clear with normal light reflexes and no erythema, fluid, or bullae.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Nasal mucosa is pink without rhinorrhea; posterior pharynx shows mild erythema without exudates or cobblestoning.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Percussion is resonant bilaterally across all lung fields without localized dullness.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse faint expiratory wheezes and scattered fine end-inspiratory crackles heard bilaterally; no bronchial breathing.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rhythm with normal first and second heart sounds, no audible murmurs or rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No digital clubbing, cyanosis, or peripheral edema noted on bilateral lower extremities.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

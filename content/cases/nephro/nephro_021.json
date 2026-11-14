@@ -1,0 +1,305 @@
+{
+  "id": "nephro_021",
+  "system": "nephrology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Kim",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "foamy urine and bilateral ankle swelling worsening over 1 month",
+  "hpi_details": "58M diabetic patient reports noticing his urine looks extremely foamy/bubbly for the past month. Recently, both ankles have become swollen, leaving deep dents when socks are removed. Denies shortness of breath.",
+  "ideas": "thinks foam is due to toilet bowl cleaner or fast urination",
+  "concerns": "worried about kidney failure requiring dialysis",
+  "expectations": "wants urine test and swelling medication",
+  "pmh": "Type 2 Diabetes (15 years), Hypertension",
+  "medications": "Metformin 1000mg BID, Amlodipine 5mg daily",
+  "social_hx": "Driver, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Nephrotic Syndrome (likely Diabetic Nephropathy) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Nephrotic Syndrome (likely Diabetic Nephropathy) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management targets the underlying diabetic glomerular injury: optimizing glycemic control and blood pressure, blocking the renin-angiotensin system with an ACE inhibitor or ARB to reduce proteinuria, and confirming the diagnosis before assuming diabetes is the sole cause of nephrotic syndrome.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: foamy urine and bilateral ankle swelling worsening over 1 month",
+      "Key HPI features: 58M diabetic patient reports noticing his urine looks extremely foamy/bubbly for the past month. Recently, both ankles have become swollen, leaving deep dents when socks are removed. Denies shortness of breath.",
+      "Objective/Exam findings: Vitals: BP 148/88, HR 78, RR 16, SpO2 98% on room air, afebrile. 2+ pitting edema of bilateral ankles/lower legs, no periorbital edema, lungs clear to auscultation. Urinalysis: 3+ protein, no blood, no WBCs. Serum albumin 2.8 g/dL.",
+      "Relevant background/PMH: Type 2 Diabetes (15 years), Hypertension",
+      "Current medications: Metformin 1000mg BID, Amlodipine 5mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Nephrotic Syndrome (likely Diabetic Nephropathy).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Heart failure without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Breathlessness — suggests significant fluid overload."
+    ],
+    "management_principles": [
+      "Order urinalysis with microscopy, spot urine protein-to-creatinine ratio, serum albumin, and comprehensive metabolic panel to confirm nephrotic-range proteinuria and assess renal function",
+      "Check 24-hour urine protein or spot protein/creatinine ratio, serum albumin, and lipid panel",
+      "Optimize ACE inhibitor (e.g., Lisinopril) once hyperkalemia and renal function are checked, and start a loop diuretic for symptomatic edema"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "58M with a 15-year history of type 2 diabetes and hypertension presents with 1 month of extremely foamy/bubbly urine and progressive bilateral ankle swelling with pitting edema. Denies shortness of breath.",
+    "objective": "Vitals: BP 148/88, HR 78, RR 16, SpO2 98% on room air, afebrile. 2+ pitting edema of bilateral ankles/lower legs, no periorbital edema, lungs clear to auscultation. Urinalysis: 3+ protein, no blood, no WBCs. Serum albumin 2.8 g/dL.",
+    "assessment": "Nephrotic-range proteinuria and edema in a patient with long-standing type 2 diabetes, most consistent with diabetic nephropathy as the underlying glomerular disease.",
+    "plan": "1. Confirm and quantify proteinuria with a 24-hour urine protein or spot urine protein-to-creatinine ratio; check serum albumin, lipid panel, and comprehensive metabolic panel. 2. Start or optimize an ACE inhibitor (e.g., Lisinopril 10mg daily) for renoprotection, once hyperkalemia and renal function are checked. 3. Start a loop diuretic (e.g., Furosemide 20-40mg daily) for symptomatic edema control. 4. Optimize glycemic control and refer to nephrology if atypical features (significant hematuria, rapid decline in renal function) develop."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Nephrotic Syndrome, likely diabetic nephropathy / glomerulosclerosis.",
+    "Formulate prioritized differential diagnosis for foamy urine and bilateral ankle swelling worsening over 1 month",
+    "Select appropriate laboratory and imaging studies for nephrology",
+    "Implement evidence-based acute and long-term management strategies for Nephrotic Syndrome, likely diabetic nephropathy / glomerulosclerosis."
+  ],
+  "teaching": {
+    "diagnosis": "Nephrotic Syndrome (likely Diabetic Nephropathy)",
+    "one_liner": "Longstanding diabetes damages the glomerular filtration barrier, causing heavy proteinuria that manifests as foamy urine and progressive dependent edema.",
+    "differentials": [
+      "Heart failure",
+      "Other primary glomerular disease"
+    ],
+    "red_flags": [
+      "Breathlessness — suggests significant fluid overload"
+    ],
+    "must_ask": [
+      {
+        "objective": "Urine appearance",
+        "say": "How would you describe the foaminess of your urine?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "foamy",
+          "bubbly"
+        ]
+      },
+      {
+        "objective": "Swelling progression",
+        "say": "How has the ankle swelling changed over the past month?",
+        "domains": [
+          "progression"
+        ]
+      },
+      {
+        "objective": "Diabetes control",
+        "say": "How long have you had diabetes, and how well controlled is it?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "15 years"
+        ]
+      },
+      {
+        "objective": "Breathlessness",
+        "say": "Any shortness of breath?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Blood pressure history",
+        "say": "Do you have high blood pressure?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "148/88",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "My urine has been looking unusually bubbly for the past month, and recently both of my ankles have become really swollen.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The swelling is mainly in both of my ankles and lower legs. My face and stomach haven't swollen.",
+        "topic": "Location of swelling"
+      },
+      {
+        "answer": "The foamy urine started about a month ago, and the ankle swelling crept up gradually over the last two to three weeks.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It gets worse toward the end of the day after I have been sitting and driving, but my face never looks puffy in the morning.",
+        "topic": "Diurnal variation"
+      },
+      {
+        "answer": "Yes, whenever I take off my socks, there are deep indentations around my ankles that stay for quite a while.",
+        "topic": "Pitting edema and sock marks"
+      },
+      {
+        "answer": "I have gained about three kilograms over the last month even though I haven't been eating more.",
+        "topic": "Recent weight gain"
+      },
+      {
+        "answer": "No, neither leg hurts, and there is no redness or heat in my calves.",
+        "topic": "Leg pain or warmth"
+      },
+      {
+        "answer": "I noticed thick white foam that doesn't flush away easily, like soap bubbles. I haven't seen any blood or dark brown color.",
+        "topic": "Urine appearance and foam"
+      },
+      {
+        "answer": "The amount seems fairly normal, maybe slightly less, and I am not waking up unusually often at night to go.",
+        "topic": "Urine output changes"
+      },
+      {
+        "answer": "No, I don't feel short of breath at all, even when I walk up stairs.",
+        "topic": "Shortness of breath"
+      },
+      {
+        "answer": "No, I sleep comfortably on one pillow and never wake up gasping for air.",
+        "topic": "Orthopnea and nighttime breathing"
+      },
+      {
+        "answer": "No, my belly feels normal, my eyes aren't yellow, and I haven't had unusual bruising or bleeding.",
+        "topic": "Abdominal swelling or jaundice"
+      },
+      {
+        "answer": "No, I haven't had a sore throat, runny nose, or skin sores recently.",
+        "topic": "Recent throat or skin infections"
+      },
+      {
+        "answer": "No, I don't feel unusually sensitive to cold, my bowels are regular, and my skin feels normal.",
+        "topic": "Thyroid and constitutional symptoms"
+      },
+      {
+        "answer": "My appetite has been fine, no nausea, vomiting, or diarrhea.",
+        "topic": "Appetite and gastrointestinal symptoms"
+      },
+      {
+        "answer": "No, I haven't had any recent surgeries, long flights, or bed rest.",
+        "topic": "Immobility and thrombosis risk"
+      },
+      {
+        "answer": "I take amlodipine for my blood pressure, but I've been taking the exact same dose for years without this kind of swelling. I don't take painkillers or steroids.",
+        "topic": "Edema-inducing medications"
+      },
+      {
+        "answer": "I have had type 2 diabetes for 15 years and high blood pressure for about 10 years.",
+        "topic": "Diabetes and hypertension history"
+      },
+      {
+        "answer": "My blood sugar runs around 160 to 180, and my last HbA1c a few months ago was 8.1%. I try to watch it, but it hasn't been strictly controlled.",
+        "topic": "Diabetes control"
+      },
+      {
+        "answer": "My blood pressure usually stays around 140 to 150 over 90 when I check it at the pharmacy.",
+        "topic": "Blood pressure control"
+      },
+      {
+        "answer": "I work as a delivery van driver, so I spend long hours sitting behind the wheel. I do tend to eat restaurant food with more salt.",
+        "topic": "Diet and prolonged sitting"
+      },
+      {
+        "answer": "At first I thought maybe someone changed the toilet cleaner or I was just urinating with too much force.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "A colleague told me bubbly urine means kidney failure, and I am really frightened that my kidneys are shutting down and I will need dialysis.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I'm hoping you can check my urine and give me something to get rid of the water in my legs.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "No major surgeries, and I've never been admitted to the hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take metformin 1000 mg twice a day for diabetes and amlodipine 5 mg once a day in the morning. No over-the-counter painkillers or herbal tonics.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications as far as I know.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink one or two glasses of beer once or twice a month at social gatherings.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I live with my wife in an apartment, and I drive a delivery van for work.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had high blood pressure, but no one in my family had kidney disease or needed dialysis.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 148/88 mmHg, heart rate 78 beats/min, respiratory rate 16 breaths/min, temperature 36.7 C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No periorbital edema; conjunctivae are normal pink and sclerae are anicteric.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No jugular venous distension noted at 45 degrees.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Normal heart sounds with regular rhythm; no murmurs, gallops, or S3/S4 sounds.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are clear bilaterally with good air entry; no crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat and soft; no shifting dullness or fluid wave present.",
+        "maneuver": "ascites_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral 2+ pitting edema noted over the ankles and distal shins, leaving noticeable indentations.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are symmetric without localized tenderness, erythema, or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "id": "derm_001",
+  "system": "dermatology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Adams",
+  "age": 42,
+  "gender": "male",
+  "chief_complaint": "rapid onset of painful skin peeling, mucosal erosions across mouth and eyes, and targetoid rash 2 weeks after starting Allopurinol",
+  "hpi_details": "42M presents to emergency department in acute distress with a 3-day history of high fever, flu-like malaise, and burning skin pain. Today developed extensive, painful, sloughing blisters across his face, trunk, and arms. Reports severe burning pain when swallowing with raw, bleeding sores inside his mouth, eyes, and genitals. Started taking Allopurinol 300 mg daily for gout 14 days ago.",
+  "ideas": "in severe agony with raw burning skin and mouth erosions",
+  "concerns": "terrified by rapid skin peeling off like a severe burn",
+  "expectations": "wants immediate pain relief, burn dressings, and emergency hospitalization",
+  "pmh": "Gout, Hypertension",
+  "medications": "Allopurinol 300mg daily (started 2 weeks ago), Lisinopril 10mg daily",
+  "social_hx": "Postal worker, non-smoker",
+  "investigation_events": [
+    {
+      "id": "initial_severity_labs",
+      "title": "Initial SJS/TEN severity laboratory results",
+      "order_terms": ["blood tests", "blood work", "metabolic panel", "electrolytes", "renal function", "bun", "bicarbonate", "glucose", "scorten"],
+      "availability_message": "The initial SJS/TEN severity laboratory results are now available.",
+      "results": [
+        {"id": "bun_initial", "test": "Blood urea nitrogen", "value": "26", "unit": "mg/dL", "reference_range": "7-20", "flag": "high", "specimen": "Blood", "collected_at": "At emergency presentation"},
+        {"id": "bicarbonate_initial", "test": "Serum bicarbonate", "value": "21", "unit": "mmol/L", "reference_range": "22-29", "flag": "low", "specimen": "Blood", "collected_at": "At emergency presentation"},
+        {"id": "glucose_initial", "test": "Serum glucose", "value": "148", "unit": "mg/dL", "reference_range": "70-140", "flag": "high", "specimen": "Blood", "collected_at": "At emergency presentation"},
+        {"id": "creatinine_initial", "test": "Serum creatinine", "value": "1.3", "unit": "mg/dL", "reference_range": "0.7-1.3", "flag": "normal", "specimen": "Blood", "collected_at": "At emergency presentation"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis Overlap evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis Overlap is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes immediate discontinuation of the culprit drug and transfer to a Burn Intensive Care Unit for barrier nursing, ophthalmology co-management, and multidisciplinary supportive care, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: rapid onset of painful skin peeling, mucosal erosions across mouth and eyes, and targetoid rash 2 weeks after starting Allopurinol",
+      "Key HPI features: 42M presents to emergency department in acute distress with a 3-day history of high fever, flu-like malaise, and burning skin pain. Today developed extensive, painful, sloughing blisters across his face, trunk, and arms. Reports severe burning pain when swallowing with raw, bleeding sores inside his mouth, eyes, and genitals. Started taking Allopurinol 300 mg daily for gout 14 days ago.",
+      "Objective/Exam findings: Vitals: HR 122, BP 105/65, Temp 39.1C. Skin examination reveals dusky, violaceous, atypical targetoid macules coalescing over the trunk and extremities. Positive Nikolsky sign (gentle lateral finger pressure on uninvolved skin causes immediate shearing and detachment of the upper epidermis forming a blister). Epidermal detachment currently involves ~18% Total Body Surface Area (TBSA). Severe hemorrhagic crusting and painful erosions involve three mucous membranes: lips/oropharynx, bilateral conjunctivae (severe keratoconjunctivitis), and urethral meatus.",
+      "Relevant background/PMH: Gout, Hypertension",
+      "Current medications: Allopurinol 300mg daily (started 2 weeks ago), Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis Overlap.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Staphylococcal scalded skin syndrome without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Eye involvement — risk of permanent blindness without urgent ophthalmology care."
+    ],
+    "management_principles": [
+      "STAT dermatological and burn emergency",
+      "Immediately discontinue Allopurinol (and all other non-essential drugs)",
+      "Transfer immediately to a verified Burn Intensive Care Unit for specialized barrier nursing, sterile non-adherent dressings, and fluid/electrolyte resuscitation calculated like thermal burns"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: rapid onset of painful skin peeling, mucosal erosions across mouth and eyes, and targetoid rash 2 weeks after starting Allopurinol\n\n42M presents to emergency department in acute distress with a 3-day history of high fever, flu-like malaise, and burning skin pain. Today developed extensive, painful, sloughing blisters across his face, trunk, and arms. Reports severe burning pain when swallowing with raw, bleeding sores inside his mouth, eyes, and genitals. Started taking Allopurinol 300 mg daily for gout 14 days ago.",
+    "objective": "Vitals: HR 122, BP 105/65, Temp 39.1C. Skin examination reveals dusky, violaceous, atypical targetoid macules coalescing over the trunk and extremities. Positive Nikolsky sign (gentle lateral finger pressure on uninvolved skin causes immediate shearing and detachment of the upper epidermis forming a blister). Epidermal detachment currently involves ~18% Total Body Surface Area (TBSA). Severe hemorrhagic crusting and painful erosions involve three mucous membranes: lips/oropharynx, bilateral conjunctivae (severe keratoconjunctivitis), and urethral meatus.",
+    "assessment": "Steven-Johnson Syndrome / Toxic Epidermal Necrolysis Overlap (SJS/TEN Overlap, involving 18% TBSA detachment), secondary to Allopurinol hypersensitivity.",
+    "plan": "STAT dermatological and burn emergency: 1. Immediately discontinue Allopurinol (and all other non-essential drugs). 2. Transfer immediately to a verified Burn Intensive Care Unit for specialized barrier nursing, sterile non-adherent dressings, and fluid/electrolyte resuscitation calculated like thermal burns. 3. Immediate ophthalmology consultation for daily amniotic membrane placement and lubricating drops to prevent permanent blindness/symblepharon. 4. Multidisciplinary supportive care (pain management with opioids, enteral nutrition via NG tube). Consider short-course high-dose IVIG or cyclosporine/etanercept in consultation with specialist."
+  },
+  "learning_objectives": [
+    "Classify severe cutaneous adverse reactions by epidermal detachment percentage (SJS <10% TBSA, SJS/TEN overlap 10-30% TBSA, TEN >30% TBSA)",
+    "Identify high-risk offending pharmacotherapies (Allopurinol, Lamotrigine, Carbamazepine, Phenytoin, Sulfonamides, NSAIDs) and typical latency windows (1-4 weeks)",
+    "Perform and interpret the clinical Nikolsky sign and evaluate mucosal surface involvement (ocular, oral, anogenital)",
+    "Outline emergency burn-unit level supportive resuscitation protocols and urgent ophthalmology consultation mandates to prevent blinding ocular sequelae"
+  ],
+  "teaching": {
+    "diagnosis": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis Overlap",
+    "one_liner": "A severe drug-induced mucocutaneous emergency — here from allopurinol — causing skin sloughing and mucosal erosions in the mouth, eyes, and genitals; the drug must be stopped immediately and the patient managed like a burn victim.",
+    "differentials": [
+      "Staphylococcal scalded skin syndrome",
+      "Erythema multiforme major",
+      "Drug-induced linear IgA disease"
+    ],
+    "red_flags": [
+      "Eye involvement — risk of permanent blindness without urgent ophthalmology care",
+      "Any skin detachment (positive Nikolsky sign)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Causative drug and timeline",
+        "say": "What new medication did you start, and how many days ago?",
+        "domains": [
+          "onset_duration",
+          "medications"
+        ],
+        "keywords": [
+          "allopurinol",
+          "14 days",
+          "started"
+        ]
+      },
+      {
+        "objective": "Mucosal involvement",
+        "say": "Do you have sores in your mouth, eyes, or genital area?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "mouth",
+          "eyes",
+          "genitals"
+        ]
+      },
+      {
+        "objective": "Skin detachment",
+        "say": "Is your skin peeling or blistering anywhere?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "peeling",
+          "sloughing",
+          "blisters"
+        ]
+      },
+      {
+        "objective": "Fever and prodrome",
+        "say": "Did you have a fever or feel flu-like before the rash appeared?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "malaise"
+        ]
+      },
+      {
+        "objective": "Pain severity",
+        "say": "How painful is your skin — like a burn?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "burning",
+          "pain"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "105/65",
+      "hr": 122,
+      "rr": 22,
+      "spo2": 98,
+      "temp_c": 39.1
+    },
+    "history": [
+      {
+        "answer": "Doctor, my skin is peeling off like a severe burn, and my mouth and eyes are covered in agonizing sores.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started three days ago with a fever and body aches, but today large blisters erupted and my skin started falling apart.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It began across my chest and back, and now it has spread over my face, neck, and both arms.",
+        "topic": "Rash distribution"
+      },
+      {
+        "answer": "There are dark purplish target-like spots and huge loose blisters that easily tear open into raw skin.",
+        "topic": "Rash appearance"
+      },
+      {
+        "answer": "It feels like my skin is literally on fire, and the burning pain is unbearable even without touching it.",
+        "topic": "Pain and burning"
+      },
+      {
+        "answer": "No, the spots do not vanish or come and go. They stay, turn dark purple, blister, and peel.",
+        "topic": "Lesion persistence"
+      },
+      {
+        "answer": "I have never experienced anything even remotely like this before.",
+        "topic": "Previous episodes"
+      },
+      {
+        "answer": "Yes, I have had a high fever and felt completely exhausted with terrible chills for the past three days.",
+        "topic": "Fever and malaise"
+      },
+      {
+        "answer": "Yes, my lips and inner mouth are raw and bleeding, my eyes burn constantly, and it hurts terribly when I pee.",
+        "topic": "Mucosal symptoms"
+      },
+      {
+        "answer": "Yes, large sheets of skin are sloughing right off, leaving dark purplish spots that do not fade when pressed.",
+        "topic": "Skin peeling and dark spots"
+      },
+      {
+        "answer": "Swallowing is extremely painful, but my breathing is fine and my tongue and throat are not swollen shut.",
+        "topic": "Breathing and throat swelling"
+      },
+      {
+        "answer": "My doctor prescribed allopurinol 300 milligrams daily for my gout, and I started taking it exactly fourteen days ago.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No, I have not eaten anything unusual, and I haven't used any new soaps, lotions, detergents, or jewelry.",
+        "topic": "Contact and food exposures"
+      },
+      {
+        "answer": "No one in my house or at my workplace has any rash or illness.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I haven't traveled anywhere, haven't been hiking in the woods, and haven't had any bug bites.",
+        "topic": "Bug bites and travel"
+      },
+      {
+        "answer": "No, I do not have a history of asthma, eczema, or allergic rhinitis.",
+        "topic": "Allergy history"
+      },
+      {
+        "answer": "I get gout flares in my big toe, but I have no joint pain right now and my nails look completely normal.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I haven't applied any creams or ointments because my skin is way too raw and painful to touch.",
+        "topic": "Topical treatments tried"
+      },
+      {
+        "answer": "I have been faithfully married for fifteen years, with no outside partners and no history of genital ulcers.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "It is a ten out of ten. The burning agony is the worst pain I have ever felt.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "I have high blood pressure and chronic gout.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was a teenager, but nothing else.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once a day for blood pressure, and I started allopurinol 300 milligrams daily two weeks ago.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have never had any known allergic reactions to medications in the past.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I do not smoke and have never smoked.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I stopped drinking alcohol entirely after my gout diagnosis.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as a mail carrier for the postal service and live with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had gout and hypertension, but nobody in my family has had severe skin conditions.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I feel like my body is being burned alive, and I am terrified that my entire skin is going to peel off and that I will go blind.",
+        "topic": "Ideas and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Patient is in severe acute distress and agony, shivering with extensive skin sloughing and dark patches.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 105/65 mmHg, heart rate is 122 beats per minute, respiratory rate is 22 breaths per minute, oxygen saturation is 98% on room air, and temperature is 39.1°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Dusky violaceous atypical targetoid macules coalescing over trunk and extremities with flaccid blisters, approximately 18% total body surface area epidermal detachment, and positive Nikolsky sign with lateral pressure.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Bilateral conjunctival injection, chemosis, copious discharge, and painful mucosal erosions on the conjunctivae.",
+        "maneuver": "eye_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Severe hemorrhagic crusting on lips and diffuse, tender mucosal sloughing and erosions across the buccal mucosa and palate.",
+        "maneuver": "nose_throat_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Severe painful erosions and denuded mucosa around the urethral meatus and glans.",
+        "maneuver": "genital_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No lymphadenopathy in cervical chains; touching the surrounding skin causes exquisite pain.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Tachycardic rate with regular rhythm; normal S1 and S2 with no murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended without guarding or organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      }
+    ]
+  }
+}

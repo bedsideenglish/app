@@ -1,0 +1,323 @@
+{
+  "id": "allergy_013",
+  "system": "allergy_immunology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Sarah Jenkins",
+  "age": 25,
+  "gender": "female",
+  "chief_complaint": "fever, joint pain, and itchy rash 7 days after starting antibiotics",
+  "hpi_details": "25F presents with 2 days of high fever, severe bilateral knee and wrist arthralgias, and a widespread itchy maculopapular and urticarial rash. She was prescribed oral Cefaclor 7 days ago for a presumed sinus infection. She denies any shortness of breath, lip swelling, or history of similar reactions.",
+  "ideas": "thinks she caught a new virus on top of her sinus infection",
+  "concerns": "worried about the severe joint pain preventing her from walking",
+  "expectations": "wants strong pain medicine for her joints",
+  "pmh": "Asthma (mild, well-controlled)",
+  "medications": "Cefaclor (started 7 days ago), Albuterol PRN",
+  "social_hx": "Teacher, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Serum Sickness-Like Reaction (SSLR)",
+    "core_concepts": [
+      "Serum sickness-like reaction (SSLR) is a delayed drug reaction, often occurring 1-2 weeks after exposure to certain drugs (including cefaclor or penicillins), but unlike true serum sickness is not generally immune-complex mediated.",
+      "Characterized by the classic triad of fever, rash (often urticarial), and arthralgias.",
+      "Unlike true anaphylaxis, it does not involve airway compromise or hypotension.",
+      "Management focuses on discontinuing the offending agent and symptomatic relief with NSAIDs and antihistamines. Corticosteroids may be used in severe cases."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fever, joint pain, and itchy rash 7 days after starting antibiotics",
+      "Key HPI features: 25F presenting with fever, bilateral arthralgias, and urticarial rash 7 days into a course of Cefaclor.",
+      "Objective/Exam findings: Vitals: T 38.5C, HR 98, BP 110/70, RR 16, SpO2 99%. Widespread urticarial/maculopapular rash. Tender, swollen knees and wrists with decreased range of motion. Clear lungs.",
+      "Relevant background/PMH: Asthma",
+      "Current medications: Cefaclor"
+    ],
+    "common_misconceptions": [
+      "Confusing SSLR with IgE-mediated anaphylaxis because of the urticarial rash.",
+      "Assuming joint pain implies an acute autoimmune flare rather than a drug reaction.",
+      "Continuing the offending antibiotic under the mistaken belief it is a viral exanthem."
+    ],
+    "dangerous_errors": [
+      "Failing to discontinue the offending drug.",
+      "Missing signs of true anaphylaxis or severe cutaneous adverse reactions (like SJS/TEN).",
+      "Unnecessary invasive joint aspiration if the clinical picture is classic for SSLR."
+    ],
+    "management_principles": [
+      "IMMEDIATE ACTION: Discontinue the offending medication (Cefaclor).",
+      "Administer NSAIDs for arthralgia and antihistamines for pruritus.",
+      "Consider a short course of oral corticosteroids if symptoms are severe."
+    ],
+    "boundaries_and_exceptions": [
+      "In true serum sickness, immune complexes cause hypocomplementemia and renal involvement, whereas SSLR usually has normal complement and no renal disease.",
+      "Monitoring for signs of systemic involvement (e.g., proteinuria, abnormal LFTs) is important."
+    ],
+    "source_refs": [
+      {
+        "title": "Drug Hypersensitivity - Serum Sickness-Like Reactions",
+        "url": "https://www.uptodate.com/contents/serum-sickness-and-serum-sickness-like-reactions"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "25F presents with 2 days of fever, severe arthralgias, and an itchy rash starting 7 days after initiating Cefaclor for a sinus infection. Denies respiratory distress or mucosal involvement.",
+    "objective": "T 38.5C, HR 98. Exam shows widespread urticarial plaques and swollen, tender wrists/knees. No mucosal sloughing. Lungs clear.",
+    "assessment": "Serum Sickness-Like Reaction (SSLR) secondary to Cefaclor.",
+    "plan": "1. Discontinue Cefaclor immediately. 2. Start Ibuprofen 600mg every 6 hours for joint pain. 3. Cetirizine 10mg daily for rash/itching. 4. Prescribe a 5-day course of Prednisone 40mg daily due to severity of joint pain. 5. Educate patient to avoid Cefaclor in the future and document as an allergy. 6. Follow-up in 48-72 hours."
+  },
+  "learning_objectives": [
+    "Identify the classic timeline (1-2 weeks) and triad (fever, rash, arthralgia) of SSLR",
+    "Differentiate SSLR from IgE-mediated immediate hypersensitivity",
+    "Implement correct management by stopping the offending drug and providing symptomatic care"
+  ],
+  "teaching": {
+    "diagnosis": "Serum Sickness-Like Reaction (SSLR)",
+    "one_liner": "A delayed drug reaction causing fever, rash, and joint pain, typically a week after starting a new medication.",
+    "differentials": [
+      "Viral exanthem with arthropathy",
+      "Acute rheumatic fever",
+      "Systemic lupus erythematosus (SLE) flare"
+    ],
+    "red_flags": [
+      "Airway compromise or hypotension (suggests anaphylaxis)",
+      "Mucosal involvement or blistering (suggests SJS/TEN)",
+      "Significant proteinuria or hematuria (suggests true serum sickness with renal involvement)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Timing of medication exposure",
+        "say": "When exactly did you start taking the antibiotic?",
+        "domains": [
+          "onset_duration",
+          "pmh"
+        ],
+        "keywords": [
+          "start",
+          "antibiotic",
+          "cefaclor",
+          "when",
+          "days"
+        ]
+      },
+      {
+        "objective": "Rule out airway compromise",
+        "say": "Have you had any trouble breathing or swelling in your throat?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "breathing",
+          "throat",
+          "swelling",
+          "airway"
+        ]
+      },
+      {
+        "objective": "Identify mucosal involvement",
+        "say": "Do you have any sores or blisters in your mouth or eyes?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "mouth",
+          "eyes",
+          "sores",
+          "blisters",
+          "ulcers"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "110/70",
+      "hr": 98,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 38.5
+    },
+    "history": [
+      {
+        "answer": "I started taking antibiotics a week ago, but two days ago I came down with a high fever, terrible joint pain, and an itchy rash all over.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever started abruptly 2 days ago and has stayed high since then.",
+        "topic": "Onset and duration of fever"
+      },
+      {
+        "answer": "My temperature reached 38.5 degrees Celsius at home, and I have been shivering with chills.",
+        "topic": "Peak temperature and fever pattern"
+      },
+      {
+        "answer": "I took acetaminophen yesterday, but the fever barely budged and returned quickly.",
+        "topic": "Antipyretic use and response"
+      },
+      {
+        "answer": "My sinus congestion from last week has mostly cleared up, and I do not have a cough, sore throat, or shortness of breath.",
+        "topic": "Respiratory symptoms"
+      },
+      {
+        "answer": "I have no pain with urination, no need to pee more often, and no back or flank pain.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No nausea, vomiting, stomach pain, or diarrhea.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "I have a mild feverish headache, but no severe headache, neck stiffness, or confusion.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "Red, raised, itchy hives broke out all over my body two days ago, and my wrists and knees are swollen and ache terribly.",
+        "topic": "Rash and joint pain"
+      },
+      {
+        "answer": "No, I haven't noticed any insect bites, tick bites, or black scabs on my skin.",
+        "topic": "Bug bites and eschar"
+      },
+      {
+        "answer": "I haven't had drenching night sweats or unintended weight loss.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "I haven't felt any swollen lumps in my neck, underarms, or groin.",
+        "topic": "Swollen lymph nodes"
+      },
+      {
+        "answer": "I haven't traveled out of the country recently, haven't been hiking or in tall grass, and haven't touched unusual animals.",
+        "topic": "Travel and outdoor exposure"
+      },
+      {
+        "answer": "No one in my family or at school has had a fever, rash, or joint swelling.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I have never had chemotherapy, radiation, or taken immunosuppressants or steroids.",
+        "topic": "Immunosuppression and chemotherapy"
+      },
+      {
+        "answer": "I don't have any heart disease or artificial valves, and I haven't had any dental work or procedures done recently.",
+        "topic": "Heart condition and dental procedures"
+      },
+      {
+        "answer": "A doctor prescribed oral Cefaclor 7 days ago for a sinus infection, and I have been taking it twice a day.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "I am in a monogamous relationship, have no new sexual partners, and have never injected drugs.",
+        "topic": "Sensitive history"
+      },
+      {
+        "answer": "No, my lips, tongue, and throat feel normal, and I have no difficulty breathing or swallowing.",
+        "topic": "Airway and facial swelling"
+      },
+      {
+        "answer": "No, I don't have any ulcers in my mouth, eyes, or private areas, and my skin is not blistering or peeling off.",
+        "topic": "Mucosal sores and blistering"
+      },
+      {
+        "answer": "I was wondering if I somehow caught a completely new viral infection right on top of my sinus infection.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I'm really worried because the pain in my knees and wrists is so agonizing that I can barely stand up or walk.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I'm hoping to get some strong pain relief for my joints so I can walk and sleep.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I have mild asthma, but it is well controlled and rarely bothers me.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "Just the Cefaclor prescribed a week ago, and an albuterol inhaler that I use only occasionally if my chest feels tight.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have never had an allergic reaction to any food or medication before this.",
+        "topic": "Drug and food allergies"
+      },
+      {
+        "answer": "I do not smoke cigarettes or use e-cigarettes.",
+        "topic": "Smoking status"
+      },
+      {
+        "answer": "I only drink a glass of wine on occasional weekends.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an elementary school teacher and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has autoimmune diseases, rheumatoid arthritis, or kidney problems.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last period started 2 weeks ago, my cycles are regular every 28 days, we use condoms, and I am definitely not pregnant.",
+        "topic": "Menstrual and pregnancy history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert young female appearing uncomfortable and fatigued due to joint pain and itchy rash.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Temperature 38.5 C, blood pressure 110/70 mmHg, heart rate 98 beats/min, respiratory rate 16 breaths/min, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is moist and pink without ulcers, mucosal sloughing, or lip and tongue swelling; posterior pharynx is clear.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical lymphadenopathy or tenderness palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with normal air entry and no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal S1 and S2 with regular rate and rhythm; no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended with no organomegaly or guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full range of motion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Widespread erythematous maculopapular and urticarial plaques on the trunk and extremities; no blisters, skin peeling, petechiae, or eschar.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral wrists and knees exhibit mild periarticular swelling, warmth, and marked tenderness with decreased active range of motion due to pain.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

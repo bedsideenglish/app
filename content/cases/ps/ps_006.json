@@ -1,0 +1,341 @@
+{
+  "id": "ps_006",
+  "system": "plastic surgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Foster",
+  "age": 33,
+  "gender": "male",
+  "chief_complaint": "mandibular angle fracture with malocclusion after physical assault requiring open reduction internal fixation",
+  "hpi_details": "33M brought to ED after being struck in the left jaw with a blunt object during an altercation outside a bar last night. Complains of severe left jaw pain, inability to close his teeth together normally (malocclusion), lower lip numbness, and bleeding from the gums around his lower left molar. Denies loss of consciousness.",
+  "ideas": "thinks his jaw is broken and dislocated because his teeth don't align when biting down",
+  "concerns": "worried about permanent chin numbness and wired jaws preventing him from eating solids for months",
+  "expectations": "wants surgical realignment of his jaw with titanium plates so he can return to work without wired teeth if possible",
+  "pmh": "No prior medical history",
+  "medications": "None",
+  "social_hx": "Construction worker, social drinker, non-smoker",
+  "investigation_events": [{
+    "id": "mandibular_fracture_ct",
+    "title": "Emergency maxillofacial CT",
+    "order_terms": ["maxillofacial CT", "facial CT", "CT face", "CT mandible"],
+    "availability_message": "The emergency maxillofacial CT result is now available. Continue airway surveillance and urgent maxillofacial surgical management.",
+    "results": [{"id": "maxillofacial_ct", "test": "Maxillofacial CT", "value": "Displaced left mandibular-angle fracture through the third-molar socket and displaced right parasymphyseal fracture, with malalignment of the dental arch", "flag": "critical"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Bilateral Mandibular Fractures (Left Angle and Right Parasymphysis) with traumatic dental occlusion disruption evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Bilateral Mandibular Fractures (Left Angle and Right Parasymphysis) with traumatic dental occlusion disruption is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Admit to plastic/maxillofacial surgery, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: mandibular angle fracture with malocclusion after physical assault requiring open reduction internal fixation",
+      "Key HPI features: 33M brought to ED after being struck in the left jaw with a blunt object during an altercation outside a bar last night. Complains of severe left jaw pain, inability to close his teeth together normally (malocclusion), lower lip numbness, and bleeding from the gums around his lower left molar. Denies loss of consciousness.",
+      "Objective/Exam findings: Vitals: HR 86, BP 128/80. Facial exam shows step-off deformity and localized swelling over the left mandibular angle and right parasymphysis (contralateral ring fracture phenomenon). Intraoral exam reveals gross step-off in occlusal plane between 2nd and 3rd left lower molars with mucosal laceration and gingival bleeding. Left mental nerve distribution (lower lip and chin) shows decreased sensation. Facial CT scan with 3D reconstructions confirms a displaced left mandibular angle fracture involving the 3rd molar socket, paired with a right mandibular parasymphyseal fracture.",
+      "Relevant background/PMH: No prior medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Bilateral Mandibular Fractures (Left Angle and Right Parasymphysis) with traumatic dental occlusion disruption.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Flap ischemia or tissue necrosis."
+    ],
+    "management_principles": [
+      "Admit to plastic/maxillofacial surgery",
+      "Start IV Clindamycin or Ampicillin-Sulbactam given intraoral communication (compound fracture)",
+      "Operating room intervention: perform Open Reduction and Internal Fixation (ORIF) using titanium load-sharing rigid miniplates and screws via intraoral vestibular and transbuccal approaches, utilizing temporary intraoperative Maxillomandibular Fixation (MMF / arch bars) to establish premorbid anatomical occlusion during plating"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: mandibular angle fracture with malocclusion after physical assault requiring open reduction internal fixation\n\n33M brought to ED after being struck in the left jaw with a blunt object during an altercation outside a bar last night. Complains of severe left jaw pain, inability to close his teeth together normally (malocclusion), lower lip numbness, and bleeding from the gums around his lower left molar. Denies loss of consciousness.",
+    "objective": "Vitals: HR 86, BP 128/80. Facial exam shows step-off deformity and localized swelling over the left mandibular angle and right parasymphysis (contralateral ring fracture phenomenon). Intraoral exam reveals gross step-off in occlusal plane between 2nd and 3rd left lower molars with mucosal laceration and gingival bleeding. Left mental nerve distribution (lower lip and chin) shows decreased sensation. Facial CT scan with 3D reconstructions confirms a displaced left mandibular angle fracture involving the 3rd molar socket, paired with a right mandibular parasymphyseal fracture.",
+    "assessment": "Bilateral Mandibular Fractures (Left Angle and Right Parasymphysis) with traumatic dental occlusion disruption.",
+    "plan": "Prioritize airway, cervical-spine, and associated-trauma assessment, then obtain maxillofacial imaging and specialist review. Use analgesia, tetanus prophylaxis, and antibiotics only as indicated after allergy history, contamination assessment, and local protocol review. ORIF and temporary occlusal fixation are considered when fracture pattern, displacement, occlusion, and medical stability support operative treatment."
+  },
+  "learning_objectives": [
+    "Identify clinical hallmarks of mandibular fractures (step-off deformity, gross dental malocclusion, sublingual hematoma, mental nerve numbness)",
+    "Understand the 'ring concept' of the mandible where trauma often produces paired counter-coup fractures (e.g., angle plus contralateral parasymphysis/condyle)",
+    "Explain the principles of establishing absolute premorbid dental occlusion via temporary Maxillomandibular Fixation (MMF) before applying rigid titanium fixation plates",
+    "Compare biomechanical load-bearing vs load-sharing rigid internal fixation techniques in facial trauma reconstruction"
+  ],
+  "teaching": {
+    "diagnosis": "Bilateral Mandibular Fractures (Left Angle and Right Parasymphysis) with traumatic dental occlusion disruption.",
+    "one_liner": "Plastic and reconstructive surgical case presenting with mandibular angle fracture with malocclusion after physical assault requiring open reduction internal fixation.",
+    "differentials": [
+      "Isolated dental or alveolar fracture without mandibular body involvement",
+      "Temporomandibular joint dislocation",
+      "Zygomaticomaxillary complex fracture",
+      "Soft tissue laceration without underlying fracture"
+    ],
+    "red_flags": [
+      "Airway compromise, uncontrolled oral bleeding, or inability to manage secretions",
+      "New confusion, vomiting, focal neurologic symptoms, or worsening facial swelling after trauma"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mechanism and timing of trauma",
+        "say": "How exactly did you injure your jaw, and when did this happen?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "assault",
+          "jaw",
+          "injury",
+          "when",
+          "mechanism"
+        ]
+      },
+      {
+        "objective": "Loss of consciousness or other injuries",
+        "say": "Did you lose consciousness or hit your head at all?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "consciousness",
+          "head",
+          "injury",
+          "loc",
+          "concussion"
+        ]
+      },
+      {
+        "objective": "Malocclusion and numbness assessment",
+        "say": "Do your teeth feel like they fit together normally, and is your lip or chin numb?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "occlusion",
+          "teeth",
+          "numbness",
+          "lip",
+          "chin"
+        ]
+      },
+      {
+        "objective": "Bleeding and airway symptoms",
+        "say": "Are you having any trouble breathing or swallowing, or bleeding from your gums?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "bleeding",
+          "gums",
+          "airway",
+          "swallowing",
+          "breathing"
+        ]
+      },
+      {
+        "objective": "Alcohol use and prior facial trauma",
+        "say": "Had you been drinking alcohol before this happened, and have you had facial injuries before?",
+        "domains": [
+          "alcohol",
+          "pmh"
+        ],
+        "keywords": [
+          "alcohol",
+          "drinking",
+          "prior",
+          "facial",
+          "trauma"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/80",
+      "hr": 86,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I got hit hard in the jaw outside a bar last night, and now my lower face is throbbing and my teeth don't fit together at all.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It happened suddenly around midnight last night when a guy hit me in the jaw during a fight outside the pub.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "The sharpest pain is on the back corner of my left jaw, but the right side of my chin is really sore too.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "It is a severe, pounding pain that feels like an eight out of ten, and any tiny movement makes it shoot up.",
+        "topic": "Pain quality and severity"
+      },
+      {
+        "answer": "The pain and swelling started right after the hit and have stayed consistently bad all night.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "Trying to talk, chew, or close my mouth makes it much worse, while holding an ice pack against it barely takes the edge off.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "My bite is completely off, and only my back teeth touch on one side while the rest don't line up.",
+        "topic": "Teeth alignment and bite"
+      },
+      {
+        "answer": "My lower lip and the left half of my chin feel totally numb, kind of like when you get numbed at the dentist.",
+        "topic": "Numbness and sensory changes"
+      },
+      {
+        "answer": "There was bleeding from the gum right behind my lower left back tooth after the blow, and I still taste blood.",
+        "topic": "Mouth bleeding"
+      },
+      {
+        "answer": "My breathing is completely fine, and I can swallow my saliva, though swallowing strains my jaw muscles and hurts.",
+        "topic": "Airway and swallowing"
+      },
+      {
+        "answer": "I did not pass out or lose consciousness at all, and I have had no nausea, vomiting, or dizziness.",
+        "topic": "Loss of consciousness and head injury"
+      },
+      {
+        "answer": "My vision is clear with no double vision or blurriness, but my lower cheek and jaw are very puffy.",
+        "topic": "Vision and facial changes"
+      },
+      {
+        "answer": "My neck feels completely normal, and I don't have any other scrapes, bruises, or pain anywhere else on my body.",
+        "topic": "Neck and other injuries"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or sweating.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I have never had any jaw problems, fractures, or broken facial bones before this.",
+        "topic": "Prior facial trauma"
+      },
+      {
+        "answer": "I held an ice pack against my face and took an over-the-counter ibuprofen pill earlier, but it didn't help much.",
+        "topic": "Self-care and medications tried"
+      },
+      {
+        "answer": "A guy swung at me with some kind of blunt club or pipe and caught me right on the side of my lower jaw.",
+        "topic": "Trauma mechanism and details"
+      },
+      {
+        "answer": "I can't chew any solid food, talking is difficult, and the pain kept me awake all night.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I think my jaw is broken and dislocated because my bite is totally crooked.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I am worried that this numbness in my lower lip might be permanent, and I'm scared my mouth will have to be wired shut for months.",
+        "topic": "Patient concerns and fears"
+      },
+      {
+        "answer": "I'm hoping the doctors can fix the jaw with surgical plates so I don't have my teeth wired together and can get back to work.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I don't have any chronic illnesses or medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery, and I've never been admitted to a hospital before.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I don't take any regular prescription medications, herbal remedies, or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medicines, latex, or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I don't smoke cigarettes, use e-cigarettes, or use any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially on weekends; I had about two beers last night before the altercation started.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a construction worker, and I live in an apartment with my girlfriend.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There are no major inherited medical conditions or bone disorders in my family.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 128/80 mmHg, heart rate is 86 beats per minute, respiratory rate is 16 breaths per minute, and oxygen saturation is 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert young male in moderate discomfort, holding an ice pack against his swollen lower left jaw, with speech mildly muffled by guarded mouth movement.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and fully oriented to person, place, and time, with normal attention and clear speech content.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Palpable step-off deformity and tender localized swelling along the left mandibular angle and right mandibular parasymphysis, without overlying skin lacerations.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "A gross step-off in the occlusal plane between the lower left second and third molars with mucosal laceration and active gingival oozing, but no loose avulsed teeth or airway compromise.",
+        "maneuver": "nose_throat_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Decreased sensation to light touch and pinprick over the left lower lip and chin in the left mental nerve distribution, with intact facial symmetry and facial motor strength.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral pupils are equal, round, and reactive to light with intact extraocular movements and no subconjunctival hemorrhage or orbital rim step-off.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral external auditory canals are clear without blood, and both tympanic membranes are intact without hemotympanum.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No midline cervical spine tenderness, no step-off deformity along the posterior neck, and no palpable cervical lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      }
+    ]
+  }
+}

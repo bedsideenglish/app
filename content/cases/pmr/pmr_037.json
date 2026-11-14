@@ -1,0 +1,321 @@
+{
+  "id": "pmr_037",
+  "system": "pmr",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. King",
+  "age": 53,
+  "gender": "male",
+  "chief_complaint": "burning pain, shiny blue skin, swelling in hand post-cast",
+  "hpi_details": "A 53-year-old male presents to the clinic with burning pain, shiny blue skin, swelling in hand post-cast. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks his cast was wrapped way too tightly and cut off the blood supply or caused a deep bone infection in his hand.",
+  "concerns": "He is terrified that the purplish color and burning pain mean gangrene is setting in and his hand will have to be amputated.",
+  "expectations": "He hopes to get strong pain medication so he can tolerate touching his hand and an ultrasound scan to make sure there is no blood clot.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Complex Regional Pain Syndrome evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Complex Regional Pain Syndrome is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Management requires confirmation of the clinical diagnosis and exclusion of infection, vascular compromise, and other causes. Early graded functional use, desensitization, and rehabilitation are central; medication or procedures require individualized specialist assessment.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: burning pain, shiny blue skin, swelling in hand post-cast",
+      "Key HPI features: A 53-year-old male presents to the clinic with burning pain, shiny blue skin, swelling in hand post-cast. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Complex Regional Pain Syndrome.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Complex Regional Pain Syndrome.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue strain without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe progressive motor deficit."
+    ],
+    "management_principles": [
+      "Exclude infection, vascular compromise, and other mimics before treatment; use graded functional rehabilitation and desensitization when tolerated.",
+      "Refer promptly to pain or rehabilitation specialists for diagnostic uncertainty, severe functional limitation, or inadequate progress; consider medication or sympathetic blocks only after individualized assessment.",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of burning pain, shiny blue skin, swelling in hand post-cast. HPI: CRPS Type I.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Complex Regional Pain Syndrome.",
+    "assessment": "Condition highly suspicious for Complex Regional Pain Syndrome.",
+    "plan": "Exclude infection, vascular compromise, and other mimics before treatment; use graded functional rehabilitation and desensitization when tolerated. Refer promptly to pain or rehabilitation specialists for diagnostic uncertainty, severe functional limitation, or inadequate progress; consider medication or sympathetic blocks only after individualized assessment. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Complex Regional Pain Syndrome",
+    "Select appropriate diagnostic workup for Complex Regional Pain Syndrome",
+    "Implement safe, graded rehabilitation after excluding mimics and use medication or procedures only after specialist assessment"
+  ],
+  "teaching": {
+    "diagnosis": "Complex Regional Pain Syndrome",
+    "one_liner": "Physical medicine presentation involving burning pain, shiny blue skin, swelling in hand post-cast.",
+    "differentials": [
+      "Cellulitis or soft tissue infection",
+      "Deep vein thrombosis",
+      "Post-immobilization joint stiffness"
+    ],
+    "red_flags": [
+      "Fever, spreading redness, warmth, or drainage suggesting infection",
+      "A cold, pale, pulseless hand or rapidly worsening weakness or numbness"
+    ],
+    "must_ask": [
+      {
+        "objective": "Temporal relationship to inciting injury",
+        "say": "When did this pain start compared to your fracture and the time your cast was removed?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "cast",
+          "fracture",
+          "onset",
+          "removed",
+          "weeks"
+        ]
+      },
+      {
+        "objective": "Pain character and allodynia",
+        "say": "Is the pain a burning sensation, and does it get triggered by something as light as air or fabric touching your skin?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "burning",
+          "allodynia",
+          "touch",
+          "air",
+          "triggered"
+        ]
+      },
+      {
+        "objective": "Skin color and temperature changes",
+        "say": "Have you noticed your hand changing color, like turning blue or red, or feeling colder than the other side?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "color",
+          "blue",
+          "red",
+          "temperature",
+          "cold"
+        ]
+      },
+      {
+        "objective": "Swelling and trophic changes",
+        "say": "Has the hand been swollen, or have you noticed changes in your skin, hair, or nail growth?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "swelling",
+          "shiny",
+          "hair",
+          "nail",
+          "trophic"
+        ]
+      },
+      {
+        "objective": "Functional limitation and stiffness",
+        "say": "How much is this affecting your ability to move or use your hand for daily tasks?",
+        "domains": [
+          "impact",
+          "functional"
+        ],
+        "keywords": [
+          "stiffness",
+          "function",
+          "grip",
+          "use",
+          "range of motion"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "125/80",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "Ever since my cast was removed, my right hand has been burning intensely, swelling up, and turning a shiny bluish color.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I noticed the swelling and a mild burning feeling right after my cast was taken off two weeks ago, and it has become steadily worse each day.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The burning pain covers my entire right hand, from my wrist all the way into the tips of my fingers, without radiating up into my neck or shoulder.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "It feels like a constant, scorching fire or severe sunburn on my hand, and I would rate the severity around an 8 out of 10.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "Even the slightest brush of my shirt sleeve or a cool breeze across my hand triggers unbearable agony.",
+        "topic": "Sensitivity to light touch"
+      },
+      {
+        "answer": "I slipped on ice about eight weeks ago and fractured my right wrist, so I was in a short arm cast for six weeks until it was removed two weeks ago.",
+        "topic": "Triggering injury and cast"
+      },
+      {
+        "answer": "My hand looks purplish-blue and shiny compared to my normal hand, and it often feels unusually sweaty and cooler to the touch.",
+        "topic": "Skin color and temperature changes"
+      },
+      {
+        "answer": "The whole hand is puffy, especially around the back of my hand and knuckles, and the skin looks stretched and glossy.",
+        "topic": "Swelling and trophic changes"
+      },
+      {
+        "answer": "My fingers feel extremely stiff, and I can barely bend them into a loose fist because of the tightness and burning.",
+        "topic": "Stiffness and functional limitation"
+      },
+      {
+        "answer": "Moving my fingers, touching anything, or letting the hand hang down makes the throbbing and burning much worse, and keeping it gently elevated gives only slight relief.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, there are no open sores, cuts, drainage, or pus coming from my hand.",
+        "topic": "Discharge or open wounds"
+      },
+      {
+        "answer": "No, my fingers are not pale, white, or suddenly paralyzed, although they are very stiff and painful to move.",
+        "topic": "Sudden numbness or severe weakness"
+      },
+      {
+        "answer": "Yes, I have been feeling worn out and fatigued lately, mostly because the continuous burning pain keeps waking me up at night.",
+        "topic": "Associated fatigue"
+      },
+      {
+        "answer": "I cannot use my right hand to type, hold a mug, or get dressed, and the relentless pain makes it almost impossible to sleep through the night.",
+        "topic": "Impact on daily life and sleep"
+      },
+      {
+        "answer": "No, I have never experienced anything like this burning pain or swelling before in my life.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I tried taking over-the-counter ibuprofen and acetaminophen, but they hardly took the edge off the burning.",
+        "topic": "Self-treatment and medications tried"
+      },
+      {
+        "answer": "I think that cast was put on way too tightly and ended up cutting off the blood flow or causing an infection in the bone.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "Looking at how purple and swollen my hand is, I'm terrified that gangrene is setting in and they're going to have to take my hand off.",
+        "topic": "Patient main concern"
+      },
+      {
+        "answer": "I just want some strong pain medicine so I can bear having my hand touched, and a scan to check for a blood clot.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I have always been healthy with no history of high blood pressure, diabetes, or nerve problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an uncomplicated appendectomy twenty years ago, and I have never had any other surgeries or hospitalizations.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any regular prescription medications, over-the-counter drugs, or herbal supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I do not have any known allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I have a glass of beer once or twice a month at social gatherings, nothing more.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office accountant and live with my wife and teenage daughter in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of chronic pain syndromes, autoimmune disorders, or vascular diseases.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 125/80 mmHg, pulse 78 beats/min, respiratory rate 16 breaths/min, body temperature 36.7 C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, middle-aged male in mild distress, protectively guarding his right forearm and cradling his right hand against his chest.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Right hand and wrist demonstrate diffuse non-pitting swelling, shiny tight skin with bluish-mottled discoloration, and increased sweating compared to the normal left hand.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Marked allodynia and hyperalgesia to light touch with a cotton swab and pinprick over the dorsum and palm of the right hand without a single dermatomal cut-off.",
+        "maneuver": "sensory_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Diffuse tenderness across the right wrist and metacarpophalangeal joints with severely restricted active and passive finger flexion and extension due to severe burning pain.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Right hand grip and finger extension are severely reduced secondary to pain and stiffness, while proximal upper limb strength is preserved at 5/5.",
+        "maneuver": "motor_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Radial and ulnar pulses are 2+ and symmetric bilaterally, with capillary refill under 2 seconds in all fingertips.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable epitrochlear, axillary, or cervical lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "id": "opht_024",
+  "system": "ophthalmology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Yoon",
+  "age": 32,
+  "gender": "male",
+  "chief_complaint": "severe eye pain, watering, and light sensitivity after being poked in the eye",
+  "hpi_details": "32M presents with severe right eye pain, constant tearing, and photophobia that started immediately after his 2-year-old toddler accidentally poked him in the right eye with a finger.",
+  "ideas": "thinks his eye is scratched or damaged",
+  "concerns": "in significant discomfort with eye squinted shut",
+  "expectations": "wants pain drops and eye examination",
+  "pmh": "No significant history",
+  "medications": "None",
+  "social_hx": "Office manager, non-smoker",
+  "investigation_events": [{
+    "id": "same_day_corneal_abrasion_exam",
+    "title": "Fluorescein corneal examination",
+    "order_terms": ["fluorescein", "cobalt blue", "corneal stain", "corneal exam"],
+    "availability_message": "The fluorescein examination result is now available after assessment excluded an open-globe injury.",
+    "results": [{"id": "fluorescein", "test": "Fluorescein examination, right eye", "value": "4 x 2 mm linear epithelial defect with bright fluorescein uptake; no stromal infiltrate and negative Seidel test", "flag": "abnormal"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Corneal abrasion evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Corneal abrasion is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Corneal Abrasion of the right eye, superficial epithelial defect, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe eye pain, watering, and light sensitivity after being poked in the eye",
+      "Key HPI features: 32M presents with severe right eye pain, constant tearing, and photophobia that started immediately after his 2-year-old toddler accidentally poked him in the right eye with a finger.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Corneal Abrasion of the right eye, superficial epithelial defect.",
+      "Relevant background/PMH: No significant history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Corneal abrasion.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Corneal foreign body without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Any whitish infiltrate under the defect would suggest infection rather than simple abrasion."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Corneal Abrasion of the right eye, superficial epithelial defect",
+      "Perform fluorescein staining under cobalt blue light (visualize green epithelial scratch, confirm no infiltrate)",
+      "Provide topical erythromycin ointment and oral analgesia; consider a short-course cycloplegic only for clinically significant traumatic iritis or photophobia"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Corneal Abrasion of the right eye, superficial epithelial defect. severe eye pain, watering, and light sensitivity after being poked in the eye. 32M presents with severe right eye pain, constant tearing, and photophobia that started immediately after his 2-year-old toddler accidentally poked him in the right eye with a finger.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Corneal Abrasion of the right eye, superficial epithelial defect.",
+    "assessment": "Clinical presentation highly suggestive of Corneal Abrasion of the right eye, superficial epithelial defect.",
+    "plan": "Check visual acuity, pupil shape/reactivity, and fluorescein staining under cobalt-blue light to identify an epithelial defect and exclude an infiltrate. Provide topical erythromycin ointment and oral analgesia; consider a short-course cycloplegic only for clinically significant traumatic iritis or photophobia. Do not patch. Urgently refer for reduced vision, an irregular pupil, hyphema, suspected penetrating injury, or an infiltrate."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Corneal Abrasion of the right eye, superficial epithelial defect.",
+    "Formulate prioritized differential diagnosis for severe eye pain, watering, and light sensitivity after being poked in the eye",
+    "Select appropriate laboratory and imaging studies for ophthalmology",
+    "Implement evidence-based acute and long-term management strategies for Corneal Abrasion of the right eye, superficial epithelial defect."
+  ],
+  "teaching": {
+    "diagnosis": "Corneal abrasion",
+    "one_liner": "32M with sudden severe eye pain, tearing, and photophobia immediately after his toddler poked him in the eye.",
+    "differentials": [
+      "Corneal foreign body",
+      "Traumatic iritis",
+      "Corneal ulcer"
+    ],
+    "red_flags": [
+      "Any whitish infiltrate under the defect would suggest infection rather than simple abrasion",
+      "Reduced vision, an irregular pupil, hyphema, or suspected penetrating injury requires urgent ophthalmology assessment"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm the mechanism of injury",
+        "say": "Can you describe exactly what touched your eye and how?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "mechanism of injury"
+        ]
+      },
+      {
+        "objective": "Assess pain and photophobia severity",
+        "say": "How bad is the pain, and does light make it worse?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "pain",
+          "photophobia"
+        ]
+      },
+      {
+        "objective": "Screen for vision change",
+        "say": "Has your vision been affected at all?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vision change"
+        ]
+      },
+      {
+        "objective": "Ask about foreign body sensation",
+        "say": "Does it feel like something is still stuck in your eye?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "foreign body sensation"
+        ]
+      },
+      {
+        "objective": "Explain fluorescein staining and treatment",
+        "say": "We'll use a dye to check for a scratch on your cornea, then treat with antibiotic ointment — no patching needed.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "fluorescein stain",
+          "no patching"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My two-year-old son accidentally poked me right in my right eye with his finger, and now it hurts terribly, keeps watering, and I can barely open it.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It happened about two hours ago while we were playing on the floor in the living room.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is only in my right eye; my left eye feels completely normal.",
+        "topic": "Affected eye"
+      },
+      {
+        "answer": "The pain is severe, about an eight out of ten, and it feels like a constant sharp burning and scratching sensation.",
+        "topic": "Pain severity and character"
+      },
+      {
+        "answer": "Yes, it feels exactly like a piece of grit or sand is trapped under my eyelid every time I blink.",
+        "topic": "Foreign body sensation"
+      },
+      {
+        "answer": "The whole white of my right eye turned red right after it happened, especially around the colored part.",
+        "topic": "Eye redness pattern"
+      },
+      {
+        "answer": "It looks a bit blurry because my eye keeps filling up with tears, but when I wipe them away my actual vision seems okay.",
+        "topic": "Vision change or blurriness"
+      },
+      {
+        "answer": "Yes, light really hurts and makes my eye throb, so I have to keep it clamped shut in bright areas.",
+        "topic": "Sensitivity to light"
+      },
+      {
+        "answer": "No, I haven't seen any colored halos or rings around lights, and I don't have a headache or feel sick to my stomach.",
+        "topic": "Halos headache or nausea"
+      },
+      {
+        "answer": "It has just been clear, watery tears streaming down constantly; there is no thick yellowish pus or sticky crust.",
+        "topic": "Discharge and tearing"
+      },
+      {
+        "answer": "No, it doesn't itch at all; it just burns and hurts.",
+        "topic": "Eye itching"
+      },
+      {
+        "answer": "My eyelid feels a little swollen from all the tearing and squinting, but there are no painful bumps or crusty rims on the lid.",
+        "topic": "Eyelid swelling or lumps"
+      },
+      {
+        "answer": "Blinking is very painful because of the scratching, but moving my eye deep in the socket doesn't cause any extra ache.",
+        "topic": "Pain moving the eye"
+      },
+      {
+        "answer": "No, I am not seeing double at all.",
+        "topic": "Double vision"
+      },
+      {
+        "answer": "No, I feel fine otherwise and haven't had any fever, chills, or body aches.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I haven't had a cold, sore throat, or cough, and nobody around me at home or work has an eye infection.",
+        "topic": "Recent cold or illness"
+      },
+      {
+        "answer": "No, I have never worn contact lenses or glasses; my eyesight has always been good.",
+        "topic": "Contact lens use"
+      },
+      {
+        "answer": "It was just my toddler's little fingernail poking me; no metal, wood shavings, glass, or chemicals got into my eye.",
+        "topic": "Trauma and chemical exposure"
+      },
+      {
+        "answer": "No, I don't suffer from seasonal allergies, hay fever, asthma, or eczema.",
+        "topic": "Allergies or eczema"
+      },
+      {
+        "answer": "I work on a computer at the office, but I've never had dry eyes or dry mouth issues before today.",
+        "topic": "Dry eyes or strain"
+      },
+      {
+        "answer": "No, I don't have any morning back stiffness, swollen joints, mouth sores, or bowel trouble.",
+        "topic": "Joint pain or stiffness"
+      },
+      {
+        "answer": "No, I have never had cold sores, shingles, or any rash or blisters on my face or forehead.",
+        "topic": "Facial rash or blisters"
+      },
+      {
+        "answer": "No, I don't take blood thinners, and I haven't had any heavy coughing, vomiting, or straining.",
+        "topic": "Blood thinners and straining"
+      },
+      {
+        "answer": "I have never had eye surgery, glaucoma, cataracts, or any serious eye problems in the past.",
+        "topic": "Prior eye conditions"
+      },
+      {
+        "answer": "I think his fingernail must have scratched or scraped the surface of my eyeball.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I'm in a lot of misery with this pain and watering, so I was hoping you could examine it and give me numbing drops or medication to relieve the pain.",
+        "topic": "Patient concerns and expectations"
+      },
+      {
+        "answer": "I have no past medical illnesses, high blood pressure, or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter painkillers, or eye drops.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional beer on weekends, maybe one or two a week at most.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an office manager, and I live with my wife and our two-year-old son.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Nobody in my family has glaucoma, blindness, or chronic eye diseases.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient appears in moderate distress, holding a tissue over his right eye and squinting with noticeable blepharospasm and tearing.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 122/78 mmHg, heart rate 74 beats/min, respiratory rate 14 breaths/min, oxygen saturation 99% on room air, and temperature 36.6 °C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The right eye demonstrates diffuse conjunctival and ciliary injection with clear lacrimation and no subconjunctival hemorrhage; the left eye is clear and quiet.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Visual acuity is 20/25 in the right eye (improving after blinking) and 20/20 in the left eye; pupils are equal, round, and reactive; fluorescein staining under cobalt-blue light reveals a 4 x 2 mm linear corneal epithelial defect on the right eye with no stromal infiltrate and a negative Seidel test; upper eyelid eversion shows no retained foreign body.",
+        "maneuver": "eye_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Periorbital and facial skin is intact with no erythema, edema, vesicular lesions, or bruising.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Extraocular eye movements are full in both eyes without diplopia, and facial sensation across all trigeminal branches is intact.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      }
+    ]
+  }
+}

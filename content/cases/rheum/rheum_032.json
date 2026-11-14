@@ -1,0 +1,329 @@
+{
+  "id": "rheum_032",
+  "system": "rheum",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Williams",
+  "age": 38,
+  "gender": "female",
+  "chief_complaint": "joint pain, sausage digits (dactylitis), and scaling skin rash",
+  "hpi_details": "A 38-year-old female presents to the clinic with joint pain, sausage digits (dactylitis), and scaling skin rash. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks her skin patches are severe dry eczema and her swollen fingers were caused by an insect bite or poor circulation.",
+  "concerns": "She is worried that her fingers will become permanently disfigured and swollen, making her unable to wear her wedding ring or do fine handiwork.",
+  "expectations": "She hopes to receive a strong topical ointment for the rash and anti-inflammatory medicine to reduce the finger swelling.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Psoriatic Arthritis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Psoriatic Arthritis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Disease-modifying therapy is selected by a rheumatology clinician according to peripheral, axial, enthesitis, skin, eye, and bowel involvement; methotrexate and biologics require safety screening and monitoring.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: joint pain, sausage digits (dactylitis), and scaling skin rash",
+      "Key HPI features: A 38-year-old female presents to the clinic with joint pain, sausage digits (dactylitis), and scaling skin rash. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Psoriatic Arthritis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Psoriatic Arthritis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Rheumatoid arthritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Missing septic arthritis in an acutely hot swollen joint or urgent inflammatory eye disease with a painful red photophobic eye or vision change."
+    ],
+    "management_principles": [
+      "Refer to rheumatology and coordinate dermatologic care; use clinician-directed conventional DMARD or biologic therapy based on disease domains and severity",
+      "Before methotrexate or biologic therapy, assess pregnancy intentions, infection history, tuberculosis and hepatitis B/C status, vaccinations, blood counts, liver and renal function; monitor as directed",
+      "Avoid methotrexate in pregnancy and do not start or continue biologic therapy during a serious active infection without specialist guidance",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Rheumatology (ACR) Clinical Guidance",
+        "url": "https://rheumatology.org/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with joint pain, sausage digits (dactylitis), a scaling skin rash, and enthesopathy in the setting of psoriasis.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Psoriatic Arthritis.",
+    "assessment": "Condition highly suspicious for Psoriatic Arthritis.",
+    "plan": "Plan for Psoriatic Arthritis: Methotrexate or biologic agents, dermatological care. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Psoriatic Arthritis",
+    "Select appropriate diagnostic workup for Psoriatic Arthritis",
+    "Implement evidence-based management plan: Methotrexate or biologic agents, dermatological care"
+  ],
+  "teaching": {
+    "diagnosis": "Psoriatic Arthritis",
+    "one_liner": "An inflammatory arthritis occurring in patients with psoriasis, causing dactylitis ('sausage digits'), enthesitis, and joint pain alongside a scaling skin rash.",
+    "differentials": [
+      "Rheumatoid arthritis",
+      "Gout",
+      "Reactive arthritis"
+    ],
+    "red_flags": [
+      "A hot, markedly swollen joint with fever or systemic illness (possible septic arthritis)",
+      "Painful red photophobic eye or new visual symptoms (possible uveitis)",
+      "New weakness, numbness, or bowel/bladder changes with severe spinal pain"
+    ],
+    "must_ask": [
+      {
+        "objective": "Skin history",
+        "say": "Do you have psoriasis, or a scaling skin rash?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "psoriasis"
+        ]
+      },
+      {
+        "objective": "Dactylitis",
+        "say": "Have any of your fingers or toes swollen up entirely, like a sausage?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "dactylitis",
+          "sausage"
+        ]
+      },
+      {
+        "objective": "Joint pain pattern",
+        "say": "Which joints are affected?",
+        "domains": [
+          "location"
+        ]
+      },
+      {
+        "objective": "Nail changes",
+        "say": "Any changes to your nails, like pitting?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does psoriasis or arthritis run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      },
+      {
+        "objective": "Inflammatory back and eye symptoms",
+        "say": "Do you have prolonged morning back stiffness, a painful red eye, light sensitivity, or vision changes?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Treatment safety",
+        "say": "Could you be pregnant or planning pregnancy, and have you had recurrent infections, tuberculosis exposure, hepatitis, or liver disease?",
+        "domains": [
+          "medications",
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "My fingers have swollen up like sausages and several joints are aching, and I've developed this dry, flaky skin rash on my elbows.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is mostly in my right index finger, my left middle finger, and my right knee. It does not seem evenly balanced on both sides.",
+        "topic": "Location and pattern of joint pain"
+      },
+      {
+        "answer": "The joint soreness and swelling started gradually about four weeks ago and have been slowly getting worse.",
+        "topic": "Onset and course of symptoms"
+      },
+      {
+        "answer": "It feels like a persistent, throbbing ache that sits around a 4 or 5 out of 10, but pinching or gripping makes it sharp.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "Yes, my affected fingers are puffy and feel slightly warm to touch, but they are not bright red or burning hot.",
+        "topic": "Joint swelling, warmth, and redness"
+      },
+      {
+        "answer": "My hands and knee feel very stiff when I get out of bed in the morning, and it usually takes more than an hour to loosen up.",
+        "topic": "Morning stiffness duration"
+      },
+      {
+        "answer": "Staying still or resting makes the stiffness worse, whereas gentle movement and taking a warm shower help me move better.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "It is hard to button my blouse, chop vegetables, or open jars with these puffy fingers, and bending my right knee aches.",
+        "topic": "Functional limitations"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or night sweats at all.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I haven't had any injuries, sprains, popping sensations, or feelings that my knee was locking or giving way.",
+        "topic": "History of trauma or injury"
+      },
+      {
+        "answer": "No, I have never had painful swollen joints or sudden attacks like this in the past.",
+        "topic": "Previous joint episodes"
+      },
+      {
+        "answer": "I have felt unusually tired and worn out over the last few weeks, but I haven't had chills or lost any weight.",
+        "topic": "Fatigue and weight changes"
+      },
+      {
+        "answer": "I developed thick, scaly reddish patches on my elbows and hairline a few months ago, but I don't have facial rashes, mouth sores, hair loss, or dry eyes.",
+        "topic": "Skin rash and autoimmune symptoms"
+      },
+      {
+        "answer": "My lower back feels quite stiff when I first get out of bed, and the back of my left heel gets sore and tender when I walk.",
+        "topic": "Spine and heel pain"
+      },
+      {
+        "answer": "No, I have not had any diarrhea, burning when I urinate, unusual discharge, or sore throats recently.",
+        "topic": "Infection and gastrointestinal symptoms"
+      },
+      {
+        "answer": "I don't eat an unusual amount of red meat or seafood, I don't drink heavily, and I have never taken water pills.",
+        "topic": "Diet and gout risk factors"
+      },
+      {
+        "answer": "No, I have never taken steroids or immunosuppressive drugs, and I've never had joint injections or joint surgery.",
+        "topic": "Prior steroid use or joint procedures"
+      },
+      {
+        "answer": "I have been in a mutually monogamous relationship with my husband for eight years, with no other sexual partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "Yes, I recently noticed small dented pits on several of my fingernails, and one nail seems to be pulling away from the nail bed.",
+        "topic": "Fingernail changes"
+      },
+      {
+        "answer": "No, my eyes are not red, painful, or sensitive to light, and my vision has been completely normal.",
+        "topic": "Eye redness and visual changes"
+      },
+      {
+        "answer": "No, I don't have any numbness, tingling, weakness in my legs, or loss of bowel or bladder control.",
+        "topic": "Neurological and spinal red flags"
+      },
+      {
+        "answer": "I thought my skin was just flaring up with dry eczema, and maybe a spider bite or poor circulation made my fingers swell like sausages.",
+        "topic": "Patient ideas and beliefs"
+      },
+      {
+        "answer": "I'm really worried that my fingers will stay deformed like this and I'll never be able to put my wedding ring back on.",
+        "topic": "Patient concerns and worries"
+      },
+      {
+        "answer": "I'm hoping to get a stronger medicated cream for my skin and some pills to bring down the puffiness in my fingers.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I don't have any liver disease or history of tuberculosis, though my husband and I may want another child in a year or two, so I want to know about medicine safety.",
+        "topic": "Treatment safety and pregnancy considerations"
+      },
+      {
+        "answer": "I have generally been very healthy with no major past illnesses or chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "No, I have never had any surgeries and I've never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription drugs, over-the-counter painkillers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or materials.",
+        "topic": "Drug and other allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe one glass of wine once or twice a month at dinner.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office administrator at a logistics company, and I live with my husband and our six-year-old daughter.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has had plaque psoriasis on her elbows and knees for many years, but no one in my family has had severe crippling arthritis that I know of.",
+        "topic": "Family history of psoriasis or arthritis"
+      },
+      {
+        "answer": "My last menstrual period started two weeks ago, my cycles are regular every twenty-eight days, and there is no possibility I am pregnant right now.",
+        "topic": "Menstrual and reproductive history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 118/74 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.7 degrees Celsius, and oxygen saturation 99% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient is alert, comfortable at rest, and in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Well-demarcated erythematous plaques with silvery scales are visible over both extensor elbows and along the occipital hairline; multiple fingernails exhibit distinct pitting and distal onycholysis without subcutaneous nodules or tophi.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Marked fusiform swelling of the entire right second and left third digits consistent with dactylitis, with tenderness and synovitis at the distal interphalangeal joints; mild effusion and joint-line tenderness over the right knee, with reduced flexion range of motion in the affected digits due to pain.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Tenderness is elicited on palpation over the insertion of the left Achilles tendon without swelling; no midline spinal tenderness, and straight-leg raise testing is negative bilaterally.",
+        "maneuver": "spine_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Both conjunctivae and sclerae are clear and white without injection, discharge, or photophobia, and extraocular movements are full.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "The patient ambulates independently with a subtle antalgic limp favoring the right lower extremity.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

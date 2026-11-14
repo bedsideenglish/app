@@ -1,0 +1,385 @@
+{
+  "id": "em_021",
+  "system": "emergency medicine",
+  "difficulty": "beginner",
+  "eval_template": "emergency_encounter",
+  "care_setting": "emergency_department",
+  "patient_name": "Mr. Park",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "sudden burning chest pain after eating spicy food, worse when lying flat",
+  "hpi_details": "45M presents to the ED with 2 hours of burning retrosternal chest pain that started after eating hot wings. Pain is worse when lying flat and relieved by sitting up and antacids. Denies sweating or jaw pain.",
+  "ideas": "worried he is having a heart attack",
+  "concerns": "anxious to get a rapid ECG",
+  "expectations": "wants pain relief and reassurance",
+  "pmh": "Hypertension, Gastroesophageal reflux disease",
+  "medications": "Amlodipine 5mg daily",
+  "social_hx": "Sales manager, non-smoker",
+  "investigation_events": [
+    {
+      "id": "initial_ecg",
+      "title": "Initial 12-lead ECG",
+      "order_terms": [
+        "ecg",
+        "ekg",
+        "12-lead",
+        "electrocardiogram"
+      ],
+      "availability_message": "The initial 12-lead ECG is now available.",
+      "results": [
+        {
+          "id": "ecg_initial",
+          "test": "12-lead ECG",
+          "value": "Normal sinus rhythm at 78 bpm; no ST-segment elevation, depression, or new T-wave inversion",
+          "flag": "normal",
+          "collected_at": "10 minutes after arrival"
+        }
+      ]
+    },
+    {
+      "id": "serial_troponin",
+      "title": "Serial high-sensitivity troponin T",
+      "order_terms": [
+        "troponin",
+        "cardiac biomarkers",
+        "cardiac enzymes"
+      ],
+      "availability_message": "The serial high-sensitivity troponin T results are now available.",
+      "results": [
+        {
+          "id": "troponin_t_initial",
+          "test": "High-sensitivity troponin T",
+          "value": "7",
+          "unit": "ng/L",
+          "reference_range": "0-14",
+          "flag": "normal",
+          "specimen": "Blood",
+          "collected_at": "At arrival"
+        },
+        {
+          "id": "troponin_t_2_hour",
+          "test": "High-sensitivity troponin T",
+          "value": "7",
+          "unit": "ng/L",
+          "reference_range": "0-14",
+          "flag": "normal",
+          "specimen": "Blood",
+          "collected_at": "2 hours after the initial sample",
+          "note": "No interval rise"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "GERD-related Chest Pain (Atypical Chest Pain) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of GERD-related Chest Pain (Atypical Chest Pain) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden burning chest pain after eating spicy food, worse when lying flat",
+      "Key HPI features: 45M presents to the ED with 2 hours of burning retrosternal chest pain that started after eating hot wings. Pain is worse when lying flat and relieved by sitting up and antacids. Denies sweating or jaw pain.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome.",
+      "Relevant background/PMH: Hypertension, Gastroesophageal reflux disease",
+      "Current medications: Amlodipine 5mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out GERD-related Chest Pain (Atypical Chest Pain).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute coronary syndrome (must be excluded first) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Any radiation to jaw/arm, diaphoresis, or exertional trigger — reconsider cardiac cause."
+    ],
+    "management_principles": [
+      "Obtain an immediate 12-lead ECG (confirm normal, no ST-T changes) and check troponin to evaluate for Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome",
+      "Treat suspected reflux after an initial acute-coronary-syndrome evaluation; symptom response to antacids or a GI cocktail does not exclude cardiac ischemia"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome. sudden burning chest pain after eating spicy food, worse when lying flat. 45M presents to the ED with 2 hours of burning retrosternal chest pain that started after eating hot wings. Pain is worse when lying flat and relieved by sitting up and antacids. Denies sweating or jaw pain.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome.",
+    "assessment": "Clinical presentation highly suggestive of Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome.",
+    "plan": "Obtain an immediate ECG and evaluate for acute coronary syndrome using risk-appropriate serial troponin testing and clinical risk stratification. A normal initial ECG, troponin, or response to antacids does not by itself exclude ischemia. Once a serious cardiac cause is appropriately excluded, treat suspected reflux with antacid/acid-suppression therapy and arrange outpatient follow-up; provide return precautions for exertional pain, radiation, dyspnea, diaphoresis, or worsening symptoms."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome.",
+    "Formulate prioritized differential diagnosis for sudden burning chest pain after eating spicy food, worse when lying flat",
+    "Select appropriate laboratory and imaging studies for emergency medicine",
+    "Implement evidence-based acute and long-term management strategies for Atypical Chest Pain, likely Gastroesophageal Reflux (GERD) flare, ruling out acute coronary syndrome."
+  ],
+  "teaching": {
+    "diagnosis": "GERD-related Chest Pain (Atypical Chest Pain)",
+    "one_liner": "Reflux of stomach acid causes burning retrosternal pain that worsens lying flat and improves sitting up or with antacids — diagnosed only after a normal ECG and troponin exclude a cardiac cause first.",
+    "differentials": [
+      "Acute coronary syndrome (must be excluded first)",
+      "Esophageal spasm",
+      "Peptic ulcer disease"
+    ],
+    "red_flags": [
+      "Any radiation to jaw/arm, diaphoresis, or exertional trigger — reconsider cardiac cause"
+    ],
+    "must_ask": [
+      {
+        "objective": "Relationship to food and position",
+        "say": "Did the pain start after eating spicy food, and is it worse lying flat?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "spicy food",
+          "lying flat"
+        ]
+      },
+      {
+        "objective": "Relief with antacids/sitting up",
+        "say": "Does sitting up or taking an antacid help?",
+        "domains": [
+          "relieving"
+        ],
+        "keywords": [
+          "antacid",
+          "sitting up"
+        ]
+      },
+      {
+        "objective": "Cardiac-mimicking symptoms",
+        "say": "Any sweating or pain radiating to your jaw or arm?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sweating",
+          "jaw",
+          "arm"
+        ]
+      },
+      {
+        "objective": "Character",
+        "say": "Does it feel like burning, rather than pressure or squeezing?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Prior GERD history",
+        "say": "Have you had reflux or heartburn before?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "134/84",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I came to the emergency room because I have this terrible burning pain in my chest that started right after dinner.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It hit me suddenly about two hours ago, right after I finished eating a plate of spicy hot wings.",
+        "topic": "Onset and trigger"
+      },
+      {
+        "answer": "It is right in the center of my chest, right behind my breastbone.",
+        "topic": "Pain location"
+      },
+      {
+        "answer": "It feels like a fierce burning heat, like someone poured acid right down the middle of my chest.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "No, it stays right in the middle of my chest and does not travel to my left arm, jaw, neck, or back.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It has been burning continuously without stopping for the past two hours.",
+        "topic": "Duration and pattern"
+      },
+      {
+        "answer": "Right now it is around a 6 out of 10, but it was easily an 8 before I tried taking some antacids.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "It did not start while working out or walking, and moving around does not make it better or worse.",
+        "topic": "Effect of exertion"
+      },
+      {
+        "answer": "It gets significantly worse when I lie flat on my back, and it eases up when I sit upright.",
+        "topic": "Positional changes"
+      },
+      {
+        "answer": "It started right after eating spicy wings, and I felt a sour, acidic taste wash up into the back of my mouth.",
+        "topic": "Relationship to food and reflux"
+      },
+      {
+        "answer": "Sitting straight up helps, and I chewed some over-the-counter antacid tablets at home which took the edge off slightly.",
+        "topic": "Relief with antacids"
+      },
+      {
+        "answer": "No, food goes down normally and it does not hurt to swallow, just the burning in my chest.",
+        "topic": "Difficulty swallowing"
+      },
+      {
+        "answer": "No cold sweats, clamminess, nausea, or vomiting at all.",
+        "topic": "Sweating and nausea"
+      },
+      {
+        "answer": "No, I am not short of breath, lightheaded, or feeling like I might pass out.",
+        "topic": "Shortness of breath and dizziness"
+      },
+      {
+        "answer": "Taking a deep breath or coughing does not change the pain, and pressing on my chest does not make it hurt.",
+        "topic": "Breathing and chest wall pressure"
+      },
+      {
+        "answer": "No fever, chills, cough, or phlegm.",
+        "topic": "Fever or cough"
+      },
+      {
+        "answer": "No, I have been feeling completely well without any recent cold, flu, or sore throat.",
+        "topic": "Recent viral illness"
+      },
+      {
+        "answer": "No swelling or soreness in my legs, and I have not had any recent surgery, bed rest, or long flights.",
+        "topic": "Leg swelling and travel history"
+      },
+      {
+        "answer": "No rash, redness, or blisters anywhere on my chest or back.",
+        "topic": "Rash or skin changes"
+      },
+      {
+        "answer": "I felt very anxious because the pain was so intense I feared it was a heart attack, but no tingling or hyperventilating.",
+        "topic": "Anxiety and panic symptoms"
+      },
+      {
+        "answer": "I am really worried that I might be having a heart attack, so I would really like an electrocardiogram right away.",
+        "topic": "Patient ideas and concerns"
+      },
+      {
+        "answer": "I hope to get this burning pain relieved quickly and make sure my heart is completely safe.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have had occasional heartburn in the past, but I have never had an episode this severe or frightening.",
+        "topic": "Prior episodes and cardiac history"
+      },
+      {
+        "answer": "No, I have not had any chest trauma, hard impacts, or heavy lifting workouts recently.",
+        "topic": "Chest trauma or strain"
+      },
+      {
+        "answer": "I have high blood pressure and acid reflux disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never stayed overnight in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take amlodipine five milligrams once a day for my blood pressure, and I took some antacid tablets an hour ago.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I do not have any allergies to medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used tobacco.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might drink one or two beers on a weekend socially, but nothing heavy.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as a sales manager and live at home with my wife and kids.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents both have hypertension, but no one in my family has had early heart attacks or heart disease.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 134/84 mmHg, pulse 78 beats per minute, respiratory rate 16 breaths per minute, oxygen saturation 99% on room air, and temperature 36.7°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and sitting upright looking uncomfortable, with no diaphoresis, pallor, or respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "No rash, erythema, or vesicular eruptions across the chest wall.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pulse is not elevated, with no jugular venous distension.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric chest wall expansion without tenderness or reproduction of pain on palpation of the sternum or costochondral joints.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, without murmurs, third heart sound, or pericardial friction rub.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion notes symmetrically across all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Clear vesicular breath sounds bilaterally without wheezing, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft abdomen with mild tenderness to deep palpation in the epigastric region, without guarding or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No peripheral pitting edema in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Both calves are soft, symmetric, and non-tender without swelling or cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

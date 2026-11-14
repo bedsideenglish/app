@@ -1,0 +1,302 @@
+{
+  "id": "nephro_029",
+  "system": "nephrology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Campbell",
+  "age": 29,
+  "gender": "male",
+  "chief_complaint": "recurrent gross hematuria following upper respiratory infection",
+  "hpi_details": "A 29-year-old male presents with a third episode of gross, cola-colored hematuria in the past year, this time appearing within a day of developing a sore throat and nasal congestion. The hematuria resolves on its own after a few days between episodes, and he otherwise feels well, denying joint pain, rash, or abdominal pain.",
+  "ideas": "He thinks the severe cold spread into his urinary tract or that coughing hard broke a blood vessel down there.",
+  "concerns": "He is worried he might have bladder cancer like his uncle did, especially with the dark blood returning multiple times.",
+  "expectations": "He hopes to get a urine test and some strong antibiotics today so this infection finally stops flaring up.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "point_of_care_urinalysis",
+      "title": "Urinalysis with microscopy",
+      "order_terms": ["urinalysis", "urine microscopy", "urine test"],
+      "availability_message": "The urinalysis and microscopy results are now available. Additional protein quantification and specialist testing remain follow-up investigations.",
+      "results": [
+        {"id": "urinalysis", "test": "Urinalysis with microscopy", "value": "2+ blood, trace protein, and a few red blood cell casts", "flag": "abnormal"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "IgA Nephropathy evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of IgA Nephropathy is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management centers on confirming the diagnosis and optimizing supportive care with blood pressure and proteinuria control (ACEi/ARB); routine corticosteroids are reserved for selected high-risk patients after optimized supportive therapy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: recurrent gross hematuria following upper respiratory infection",
+      "Key HPI features: A 29-year-old male presents with a third episode of gross, cola-colored hematuria in the past year, this time appearing within a day of developing a sore throat and nasal congestion. The hematuria resolves on its own after a few days between episodes, and he otherwise feels well, denying joint pain, rash, or abdominal pain.",
+      "Objective/Exam findings: Vitals: BP 128/82, HR 74, afebrile. Mild pharyngeal erythema consistent with recent URI. No rash, no joint swelling, no peripheral edema. Urinalysis: 2+ blood, few RBC casts, trace protein. Serum creatinine and complement levels normal.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out IgA Nephropathy.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Post-streptococcal glomerulonephritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Rising creatinine or heavy proteinuria."
+    ],
+    "management_principles": [
+      "Optimize supportive care with an ACE inhibitor or ARB for blood pressure and proteinuria control, and monitor protein excretion",
+      "Consult nephrology; consider corticosteroids only in selected high-risk patients after optimized supportive therapy, not routinely",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "29M presents with a third episode of gross, cola-colored hematuria in the past year, this time appearing within a day of developing a sore throat and nasal congestion. The hematuria resolves on its own after a few days between episodes. Denies joint pain, rash, or abdominal pain.",
+    "objective": "Vitals: BP 128/82, HR 74, afebrile. Mild pharyngeal erythema consistent with recent URI. No rash, no joint swelling, no peripheral edema. Urinalysis: 2+ blood, few RBC casts, trace protein. Serum creatinine and complement levels normal.",
+    "assessment": "Recurrent synpharyngitic gross hematuria with RBC casts and normal complement levels, classic for IgA nephropathy.",
+    "plan": "Confirm diagnosis and risk-stratify with urinalysis, kidney function, quantified proteinuria, and nephrology assessment; biopsy is often needed when the diagnosis or prognosis is uncertain. Optimize supportive therapy with blood-pressure/proteinuria control. Do not use systemic corticosteroids routinely; consider them only in selected high-risk patients after optimized supportive care and specialist review."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of IgA Nephropathy",
+    "Select appropriate diagnostic workup for IgA Nephropathy",
+    "Implement evidence-based management plan: ACEi/ARB, monitor protein excretion, steroid trial if severe"
+  ],
+  "teaching": {
+    "diagnosis": "IgA Nephropathy",
+    "one_liner": "IgA immune complex deposition in the glomerular mesangium causes recurrent visible blood in the urine, classically within a day or two of an upper respiratory infection.",
+    "differentials": [
+      "Post-streptococcal glomerulonephritis",
+      "Thin basement membrane disease"
+    ],
+    "red_flags": [
+      "Rising creatinine or heavy proteinuria"
+    ],
+    "must_ask": [
+      {
+        "objective": "Timing relative to infection",
+        "say": "Does the blood appear within a day or two of a cold?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Recurrence",
+        "say": "How many times has this happened?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Between-episode health",
+        "say": "Do you feel normal between episodes?",
+        "domains": [
+          "progression"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does kidney disease run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      },
+      {
+        "objective": "Blood pressure",
+        "say": "Do you have high blood pressure?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/82",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I caught a cold yesterday, and starting this morning my urine turned dark red like cola.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "This started earlier today. It's actually the third time this has happened over the past year, and the previous episodes went away on their own after three or four days.",
+        "topic": "Onset and previous episodes"
+      },
+      {
+        "answer": "It looks dark brown and cola-colored, not bright red, and I haven't seen any blood clots.",
+        "topic": "Urine color and clots"
+      },
+      {
+        "answer": "The dark color is present throughout the entire time I pee, from start to finish.",
+        "topic": "Timing in urine stream"
+      },
+      {
+        "answer": "No, I haven't felt any pain when the blood appears or while urinating.",
+        "topic": "Pain with hematuria"
+      },
+      {
+        "answer": "No, I don't have any pain in my flank, back, or groin area.",
+        "topic": "Flank or groin pain"
+      },
+      {
+        "answer": "No burning sensation when I urinate, and I am not going to the bathroom more frequently or urgently than usual.",
+        "topic": "Dysuria and urinary frequency"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my stream is strong and normal, with no trouble starting or feeling like urine is left behind.",
+        "topic": "Hesitancy and weak stream"
+      },
+      {
+        "answer": "No swelling in my eyelids or legs, no frothy bubbles in the toilet, and the total amount of urine seems normal.",
+        "topic": "Swelling and urinary volume"
+      },
+      {
+        "answer": "My sore throat and runny nose started yesterday, and the cola-colored urine appeared within twenty-four hours. I haven't had any skin infections or sores.",
+        "topic": "Timing relative to infection"
+      },
+      {
+        "answer": "No rashes, no joint pain or swelling, and no cough or coughing up blood.",
+        "topic": "Rash, joint pain, or cough"
+      },
+      {
+        "answer": "No, my weight has been completely steady and I have not felt unusually fatigued.",
+        "topic": "Weight loss and fatigue"
+      },
+      {
+        "answer": "No nosebleeds, no bleeding gums, and I don't bruise easily.",
+        "topic": "Bleeding tendency or bruising"
+      },
+      {
+        "answer": "No, I do not take aspirin, blood thinners, or any medications that affect clotting.",
+        "topic": "Blood thinning medications"
+      },
+      {
+        "answer": "No intense workouts lately, no trauma or blows to my back, and I haven't eaten beets or taken rifampin.",
+        "topic": "Strenuous exercise, trauma, or foods"
+      },
+      {
+        "answer": "I work in an office, so I haven't had any exposure to industrial dyes, rubber, or toxic chemicals.",
+        "topic": "Occupational chemical exposure"
+      },
+      {
+        "answer": "Between these episodes I feel completely healthy and normal, and my urine clears up completely.",
+        "topic": "Health between episodes"
+      },
+      {
+        "answer": "My blood pressure has always been normal whenever I've had checkups.",
+        "topic": "Past blood pressure"
+      },
+      {
+        "answer": "I thought maybe this awful cold spread down to my bladder, or I strained so hard coughing that I burst a blood vessel.",
+        "topic": "Patient's thoughts on cause"
+      },
+      {
+        "answer": "I'm terrified this might actually be bladder cancer like my uncle had, since seeing that dark blood keep coming back really scares me.",
+        "topic": "Patient's main concern"
+      },
+      {
+        "answer": "I'm hoping you can check my urine and give me a course of strong antibiotics so this stops happening every time I catch a bug.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I have no history of chronic medical conditions, kidney disease, or kidney stones.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not taking any prescription drugs, over-the-counter pain relievers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known drug allergies.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, about one or two beers on occasion.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work an office job in IT and live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Nobody in my family has kidney disease, kidney failure, dialysis, or early hearing problems.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/82 mmHg, heart rate 74 beats per minute, afebrile at 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild pharyngeal erythema without tonsillar exudate; nasal mucosa is mildly congested.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender throughout, with no palpable mass or suprapubic fullness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial edema or periorbital puffiness noted.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "No purpura, petechiae, ecchymoses, or active rashes on the skin.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No swelling, warmth, tenderness, or limitation of motion in peripheral joints.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Prostate is normal in size, smooth, and non-tender without palpable nodules.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

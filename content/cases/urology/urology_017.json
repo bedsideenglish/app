@@ -1,0 +1,328 @@
+{
+  "id": "urology_017",
+  "system": "urology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Garcia",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "recurrent gross blood in urine, hypertension, and bilateral massive flank cysts on ultrasound",
+  "hpi_details": "A 45-year-old man with an affected first-degree relative has hypertension and ultrasound showing markedly enlarged kidneys with numerous bilateral cysts. He has intermittent visible hematuria with flank discomfort, but no fever, dysuria, clots, trauma, or reduced urine output.",
+  "ideas": "thinks the hematuria may be from polycystic kidney disease",
+  "concerns": "He is terrified of ending up on dialysis or needing an early kidney transplant like his father did.",
+  "expectations": "wants to understand the cause of bleeding, kidney prognosis, and safe treatment options",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Autosomal Dominant Polycystic Kidney Disease (ADPKD) evaluation and management",
+    "core_concepts": [
+      "ADPKD is an inherited disorder with progressive bilateral renal cysts, hypertension, hematuria, nephrolithiasis, cyst infection, and risk of chronic kidney disease.",
+      "Visible hematuria may follow cyst hemorrhage or stone passage, but it still requires assessment for urinary infection, obstruction, and urothelial or renal malignancy according to risk and persistence.",
+      "Assess blood pressure, serum creatinine/eGFR, electrolytes, urinalysis with microscopy and culture when infection is possible, urine protein/albumin, and imaging appropriate to hematuria and renal function.",
+      "Blood-pressure management and kidney-protective follow-up are central; tolvaptan is considered only by nephrology for selected adults at risk of rapid progression, after contraindication and liver-monitoring review."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: recurrent gross blood in urine, hypertension, and bilateral massive flank cysts on ultrasound",
+      "Family history plus numerous bilateral renal cysts and enlarged kidneys strongly support ADPKD.",
+      "Intermittent visible hematuria and flank discomfort can result from cyst hemorrhage, stones, infection, or a separate urinary-tract source.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Attributing every episode of gross hematuria to a ruptured cyst without considering stones, infection, anticoagulation, or malignancy.",
+      "Starting antibiotics for hematuria alone without symptoms and testing supporting infection.",
+      "Assuming tolvaptan is appropriate for every person with ADPKD."
+    ],
+    "dangerous_errors": [
+      "Missing clot retention, anuria/oliguria, acute kidney injury, hemodynamic instability, or severe uncontrolled pain during a hematuria episode.",
+      "Delaying urgent assessment of fever or rigors with flank pain, which may represent cyst infection or pyelonephritis.",
+      "Ignoring sudden severe headache or focal neurologic symptoms that need emergency evaluation for possible intracranial hemorrhage."
+    ],
+    "management_principles": [
+      "Check hemodynamic status, renal function, urinalysis, medication and anticoagulant use; tailor hematuria imaging and urology referral to findings and cancer risk.",
+      "Treat hypertension with a kidney-appropriate regimen and monitor eGFR, albuminuria, electrolytes, and cardiovascular risk with nephrology.",
+      "Use oral hydration and simple analgesia when safe for a stable suspected cyst bleed; avoid nephrotoxic NSAIDs in impaired kidney function and give return precautions.",
+      "Discuss genetic counseling and screening considerations for family members; evaluate intracranial aneurysm risk based on personal or family history and specialist guidance."
+    ],
+    "boundaries_and_exceptions": [
+      "ACE inhibitor choice and dose depend on blood pressure, potassium, creatinine, and bilateral renal-artery disease risk; reassess renal function after initiation or titration.",
+      "Tolvaptan requires specialist selection, counseling about polyuria and hydration, and ongoing liver-function monitoring; it is contraindicated in pregnancy and requires contraceptive counseling for patients who could become pregnant."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2025 Clinical Practice Guideline for ADPKD",
+        "url": "https://kdigo.org/guidelines/adpkd/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "45-year-old man with an affected first-degree relative, hypertension, enlarged multicystic kidneys, intermittent gross hematuria, and flank discomfort. He denies fever, dysuria, clots, trauma, and reduced urine output.",
+    "objective": "Obtain vitals, blood pressure, CBC, creatinine/eGFR, electrolytes, urinalysis with microscopy, urine culture when indicated, urine albumin/protein, and hematuria-directed imaging appropriate to renal function. Review anticoagulants and examine for volume status and flank tenderness.",
+    "assessment": "ADPKD is likely. Cyst hemorrhage is possible, but visible hematuria also requires evaluation for stone disease, infection, obstruction, and malignancy based on clinical course and risk.",
+    "plan": "Arrange nephrology follow-up for blood-pressure and kidney-function management and urology evaluation if hematuria persists, recurs, or has concerning features. Consider disease-modifying therapy only after specialist risk assessment. Send urgently for clots with retention, anuria, AKI, fever/rigors, instability, severe pain, or neurologic red flags."
+  },
+  "learning_objectives": [
+    "Recognize ADPKD and evaluate gross hematuria without prematurely attributing it to a cyst",
+    "Formulate prioritized differential diagnosis for recurrent gross blood in urine, hypertension, and bilateral massive flank cysts on ultrasound",
+    "Select appropriate laboratory and imaging studies for urology",
+    "Plan kidney-protective follow-up and appropriate emergency escalation"
+  ],
+  "teaching": {
+    "diagnosis": "Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+    "one_liner": "An inherited disorder marked by progressive bilateral renal cyst formation, presenting with hypertension, flank pain or hematuria from cyst hemorrhage/rupture, and eventual progression toward chronic kidney disease.",
+    "differentials": [
+      "Simple renal cysts",
+      "Acquired cystic kidney disease from chronic renal failure",
+      "Renal cell carcinoma with cystic degeneration"
+    ],
+    "red_flags": [
+      "Infected renal cyst or pyelonephritis (fever, chills, flank pain)",
+      "Sudden severe headache suggestive of ruptured intracranial (berry) aneurysm"
+    ],
+    "must_ask": [
+      {
+        "objective": "Family history of polycystic kidney disease",
+        "say": "Does anyone in your family have polycystic kidney disease, or has anyone needed dialysis or a kidney transplant?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "family",
+          "polycystic",
+          "dialysis",
+          "transplant",
+          "kidney"
+        ]
+      },
+      {
+        "objective": "Hematuria and cyst rupture symptoms",
+        "say": "Have you noticed blood in your urine, and did it come on suddenly with flank pain?",
+        "domains": [
+          "associated_symptoms",
+          "character"
+        ],
+        "keywords": [
+          "blood",
+          "hematuria",
+          "rupture",
+          "flank pain",
+          "sudden"
+        ]
+      },
+      {
+        "objective": "Hypertension history and control",
+        "say": "Have you been told you have high blood pressure, and if so, how well is it controlled?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "hypertension",
+          "blood pressure",
+          "controlled",
+          "medication"
+        ]
+      },
+      {
+        "objective": "Extrarenal manifestations - liver cysts, aneurysms, headaches",
+        "say": "Have you ever had a sudden severe headache, or been told you have cysts in your liver?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "headache",
+          "aneurysm",
+          "liver cysts",
+          "sudden severe"
+        ]
+      },
+      {
+        "objective": "Recurrent UTIs and flank pain pattern",
+        "say": "Have you had recurrent urinary infections or chronic flank discomfort from the cysts?",
+        "domains": [
+          "associated_symptoms",
+          "pmh"
+        ],
+        "keywords": [
+          "uti",
+          "recurrent",
+          "flank",
+          "chronic",
+          "discomfort"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "148/92",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I've been seeing blood in my urine off and on for the past couple of weeks, so I came in to get it checked out.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It first started about two weeks ago. It seemed to clear up after two days, but then it came back again three days ago.",
+        "topic": "Onset and recurrence"
+      },
+      {
+        "answer": "The urine looks pinkish-red, like diluted cranberry juice or black tea. I haven't seen any thick blood clots or fleshy tissue in it.",
+        "topic": "Urine color and clots"
+      },
+      {
+        "answer": "The reddish color is there throughout my entire stream from start to finish.",
+        "topic": "Timing in stream"
+      },
+      {
+        "answer": "I don't have any burning or pain while actually passing urine. I just have a dull ache in my back.",
+        "topic": "Pain with urination"
+      },
+      {
+        "answer": "I have a heavy, dull ache in both sides of my lower back and flanks. It doesn't shoot down toward my groin or testicles.",
+        "topic": "Flank pain and radiation"
+      },
+      {
+        "answer": "No, I don't feel sudden urges to run to the toilet, and I'm not urinating more often than usual.",
+        "topic": "Urinary frequency and urgency"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "My stream is normal, and I don't have any trouble starting or feeling like urine is left behind.",
+        "topic": "Stream and bladder emptying"
+      },
+      {
+        "answer": "No, I haven't noticed any swelling in my face or legs, and my urine amount seems normal without any foam.",
+        "topic": "Swelling and urine output"
+      },
+      {
+        "answer": "No, I haven't had a sore throat, runny nose, or skin infection in the past month.",
+        "topic": "Preceding infections"
+      },
+      {
+        "answer": "No, I haven't had any rashes, joint swelling, coughing, or coughing up blood.",
+        "topic": "Systemic symptoms"
+      },
+      {
+        "answer": "I haven't had any unintended weight loss, and my energy level has been fine.",
+        "topic": "Weight loss and fatigue"
+      },
+      {
+        "answer": "No nosebleeds, bleeding gums when brushing my teeth, or easy bruising.",
+        "topic": "Bleeding tendency"
+      },
+      {
+        "answer": "No, I don't take aspirin, warfarin, or any other blood-thinning pills.",
+        "topic": "Blood thinners"
+      },
+      {
+        "answer": "I haven't had any blows to my back, haven't done strenuous workouts recently, and haven't eaten beets or taken red medications.",
+        "topic": "Trauma exercise and diet"
+      },
+      {
+        "answer": "I've never had kidney stones or that kind of severe cramping flank pain before.",
+        "topic": "History of kidney stones"
+      },
+      {
+        "answer": "At a workplace health checkup last month, the nurse said my blood pressure was high at around 150 over 90, but I haven't started medications yet.",
+        "topic": "Hypertension history"
+      },
+      {
+        "answer": "No, I don't get severe or sudden thunderclap headaches, and my vision has been completely normal.",
+        "topic": "Headaches and aneurysm symptoms"
+      },
+      {
+        "answer": "My belly feels somewhat full and bloated on both sides, but I haven't had stomach pain or yellowing of my skin.",
+        "topic": "Abdominal fullness and liver cysts"
+      },
+      {
+        "answer": "No, I have never had a urinary tract or kidney infection before.",
+        "topic": "Recurrent urinary tract infections"
+      },
+      {
+        "answer": "I watched my father suffer through dialysis for years, and I'm terrified that seeing blood means my own kidneys are failing early.",
+        "topic": "Patient ideas and concerns"
+      },
+      {
+        "answer": "Other than the high blood pressure noticed last month, I have no history of chronic medical illness.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not currently taking any prescription drugs, over-the-counter painkillers, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional beer with friends once or twice a month.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work as an office accountant at a financial firm, so I have no exposure to industrial dyes, rubber, or toxic chemicals.",
+        "topic": "Occupational history"
+      },
+      {
+        "answer": "My father was diagnosed with polycystic kidney disease in his forties and ended up needing dialysis, which is why I am so concerned.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is elevated at 148/92 mmHg, pulse 74 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.7 degrees Celsius, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No periorbital edema; conjunctivae are normal without pallor and sclerae are anicteric.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is mildly distended at both flanks with no surgical scars, caput medusae, or visible pulsations.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral large, firm, non-tender lobulated flank masses are palpable; bladder is not distended and there is no abdominal guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild tenderness elicited on bilateral costovertebral angle percussion without severe sharp distress.",
+        "maneuver": "cva_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "No pretibial or ankle edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "No petechiae, ecchymoses, purpura, or active cutaneous rashes.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal sphincter tone; prostate is smooth, non-tender, and normal in size without palpable nodules.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

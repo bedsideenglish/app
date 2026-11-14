@@ -1,0 +1,327 @@
+{
+  "id": "derm_008",
+  "system": "dermatology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Harris",
+  "age": 68,
+  "gender": "female",
+  "chief_complaint": "rapidly spreading, exquisitely tender, warm, fiery red plaque with raised sharply demarcated borders across right cheek and ear (Erysipelas)",
+  "hpi_details": "68F presents with 24-hour rapid onset of a bright red, swollen, hot, and painful rash spreading across her right cheek, nose, and over her right ear (pinna). Experienced high shaking chills and headache 6 hours before the rash appeared. Rash is extremely tender and feels raised and firm to touch. Patient has mild baseline swelling in her right leg and diabetes.",
+  "ideas": "thinks she caught a severe facial skin infection or shingles",
+  "concerns": "feeling extremely lethargic, feverish, and scared by how fast the redness is moving across her face",
+  "expectations": "wants immediate IV antibiotics and pain relief",
+  "pmh": "Type 2 Diabetes Mellitus, Lymphedema of right leg",
+  "medications": "Metformin 1000mg BID",
+  "social_hx": "Retired librarian, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Facial Erysipelas evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Facial Erysipelas is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes admitting to general medicine/dermatology given facial localization, high fever, and diabetes, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: rapidly spreading, exquisitely tender, warm, fiery red plaque with raised sharply demarcated borders across right cheek and ear (Erysipelas)",
+      "Key HPI features: 68F presents with 24-hour rapid onset of a bright red, swollen, hot, and painful rash spreading across her right cheek, nose, and over her right ear (pinna). Experienced high shaking chills and headache 6 hours before the rash appeared. Rash is extremely tender and feels raised and firm to touch. Patient has mild baseline swelling in her right leg and diabetes.",
+      "Objective/Exam findings: Vitals: HR 115, BP 122/76, Temp 39.3C. Facial exam demonstrates a brilliant fiery-red, tense, indurated, warm plaque involving the right malar cheek, bridging across the nasal bridge to the left inner cheek, and extending onto the right pinna (auricle) (Milian's ear sign positive: the cartilaginous pinna has very little subcutaneous fat, so its involvement supports superficial dermal/lymphatic erysipelas rather than deep cellulitis; involvement of the fibrofatty earlobe alone would not be discriminating). The border between infected and normal skin is sharply demarcated, raised, and step-like. Right submandibular lymphadenopathy present.",
+      "Relevant background/PMH: Type 2 Diabetes Mellitus, Lymphedema of right leg",
+      "Current medications: Metformin 1000mg BID"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Facial Erysipelas.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Cellulitis (less sharply demarcated) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: High fever with rapid spread across the face — risk of orbital or intracranial spread."
+    ],
+    "management_principles": [
+      "Admit to general medicine/dermatology given facial localization, high fever, and diabetes",
+      "Initiate parenteral IV antibiotics targeting streptococci: IV Penicillin G (2-4 million units q4h) or IV Cefazolin (1g q8h) until fever and erythema resolve, then transition to oral Penicillin V or Cephalexin to complete a 10-14 day course",
+      "Provide cool saline compresses and elevate head of bed"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: rapidly spreading, exquisitely tender, warm, fiery red plaque with raised sharply demarcated borders across right cheek and ear (Erysipelas)\n\n68F presents with 24-hour rapid onset of a bright red, swollen, hot, and painful rash spreading across her right cheek, nose, and over her right ear (pinna). Experienced high shaking chills and headache 6 hours before the rash appeared. Rash is extremely tender and feels raised and firm to touch. Patient has mild baseline swelling in her right leg and diabetes.",
+    "objective": "Vitals: HR 115, BP 122/76, Temp 39.3C. Facial exam demonstrates a brilliant fiery-red, tense, indurated, warm plaque involving the right malar cheek, bridging across the nasal bridge to the left inner cheek, and extending onto the right pinna (auricle) (Milian's ear sign positive: the cartilaginous pinna has very little subcutaneous fat, so its involvement supports superficial dermal/lymphatic erysipelas rather than deep cellulitis; involvement of the fibrofatty earlobe alone would not be discriminating). The border between infected and normal skin is sharply demarcated, raised, and step-like. Right submandibular lymphadenopathy present.",
+    "assessment": "Facial Erysipelas (St. Anthony's Fire) with systemic inflammatory response, secondary to Group A Beta-Hemolytic Streptococcus (Streptococcus pyogenes).",
+    "plan": "Admit to general medicine/dermatology given facial localization, high fever, and diabetes. Initiate parenteral IV antibiotics targeting streptococci: IV Penicillin G (2-4 million units q4h) or IV Cefazolin (1g q8h) until fever and erythema resolve, then transition to oral Penicillin V or Cephalexin to complete a 10-14 day course. Provide cool saline compresses and elevate head of bed."
+  },
+  "learning_objectives": [
+    "Differentiate Erysipelas (superficial dermal/lymphatic infection, sharply demarcated raised borders, bright fiery redness, sudden onset with rigors, caused overwhelmingly by Group A Beta-Hemolytic Streptococcus) from Cellulitis (deep subcutaneous tissue infection, ill-defined indistinct borders, pinkish erythema, slower onset, caused by both Strep and Staph aureus)",
+    "Evaluate Milian's ear sign (involvement of the cartilaginous pinna/auricle, which has very little subcutaneous fat, favours erysipelas over cellulitis; involvement of the fibrofatty earlobe alone is not specific)",
+    "Select targeted narrow-spectrum beta-lactam therapy (Penicillin G, Amoxicillin, or Cefazolin) for streptococcal erysipelas without unnecessarily over-covering for MRSA unless purulence or trauma is present",
+    "Identify predisposing risk factors for recurrent lower extremity erysipelas/cellulitis (lymphedema, tinea pedis interdigital fissures, chronic venous insufficiency) and implement prophylaxis protocols"
+  ],
+  "teaching": {
+    "diagnosis": "Facial Erysipelas",
+    "one_liner": "A superficial bacterial skin infection, typically Group A Streptococcus, causing a rapidly spreading, sharply demarcated, fiery-red, tender plaque on the face — treated with IV antibiotics given the location and systemic symptoms.",
+    "differentials": [
+      "Cellulitis (less sharply demarcated)",
+      "Herpes zoster (dermatomal, vesicular)",
+      "Contact dermatitis"
+    ],
+    "red_flags": [
+      "High fever with rapid spread across the face — risk of orbital or intracranial spread"
+    ],
+    "must_ask": [
+      {
+        "objective": "Speed of onset",
+        "say": "How quickly did this redness spread across your face — over hours?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "rapid",
+          "hours"
+        ]
+      },
+      {
+        "objective": "Border characteristics",
+        "say": "Does the redness have a sharp, raised edge?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "sharp",
+          "raised",
+          "demarcated"
+        ]
+      },
+      {
+        "objective": "Prodromal symptoms",
+        "say": "Did you have chills or a headache before the rash appeared?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "chills",
+          "headache"
+        ]
+      },
+      {
+        "objective": "Pain and warmth",
+        "say": "Is the area very painful and hot to touch?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Diabetes and risk factors",
+        "say": "Do you have diabetes or any leg swelling problems?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diabetes",
+          "lymphedema"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/76",
+      "hr": 115,
+      "rr": 20,
+      "spo2": 98,
+      "temp_c": 39.3
+    },
+    "history": [
+      {
+        "answer": "My right cheek and ear suddenly became red, swollen, and terribly painful yesterday, and the redness is spreading fast.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about 24 hours ago as a small red patch on my right cheek, and it has spread across my nose and ear within hours.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "About six hours before the redness appeared, I had severe shivering chills and a pounding headache.",
+        "topic": "Prodromal symptoms"
+      },
+      {
+        "answer": "The redness covers my right cheek, the bridge of my nose, a bit of my left cheek, and my whole right ear.",
+        "topic": "Rash location and spread"
+      },
+      {
+        "answer": "The skin feels swollen, tight, and firm, with a distinct raised ridge right where the red skin meets the normal skin.",
+        "topic": "Border and texture"
+      },
+      {
+        "answer": "It feels like my face is burning, and it is excruciatingly tender even if my hair lightly brushes against it.",
+        "topic": "Pain and burning sensation"
+      },
+      {
+        "answer": "No, it does not itch at all, and there is no flaking or peeling.",
+        "topic": "Itching or scaling"
+      },
+      {
+        "answer": "No, I haven't seen any blisters, water bumps, or crusting on the rash.",
+        "topic": "Blisters or crusts"
+      },
+      {
+        "answer": "No, it hasn't faded or come and gone at all; it has just been steadily expanding.",
+        "topic": "Fluctuation of rash"
+      },
+      {
+        "answer": "No, I have never had a severe skin infection or rash like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "Yes, I've had a high fever since yesterday with shaking chills, and I feel completely exhausted.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, I do not have any sores, ulcers, or redness in my mouth, eyes, or private areas.",
+        "topic": "Mucous membrane lesions"
+      },
+      {
+        "answer": "No, the skin isn't peeling or sloughing off, and there are no purple or dark blood spots.",
+        "topic": "Skin peeling or dark spots"
+      },
+      {
+        "answer": "No shortness of breath, wheezing, throat tightness, or swelling in my lips or tongue.",
+        "topic": "Breathing and airway symptoms"
+      },
+      {
+        "answer": "No, I haven't started any new prescription medications, antibiotics, or painkillers recently.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "No, I haven't switched facial cleansers, cosmetics, detergents, or worn new jewelry.",
+        "topic": "Contact with new products"
+      },
+      {
+        "answer": "No one at home is sick, and nobody around me has had a fever or skin rash.",
+        "topic": "Household sick contacts"
+      },
+      {
+        "answer": "No bug or tick bites that I noticed, and I haven't been hiking in the woods or traveling.",
+        "topic": "Bug bites or travel"
+      },
+      {
+        "answer": "No, I have no history of asthma, eczema, or allergic rhinitis.",
+        "topic": "History of allergic conditions"
+      },
+      {
+        "answer": "No joint aches, joint swelling, or changes in my fingernails.",
+        "topic": "Joint pain or nail changes"
+      },
+      {
+        "answer": "I tried putting a cold wet cloth on my face, but it hurt too much to touch, so I didn't apply any creams or ointments.",
+        "topic": "Topical treatments tried"
+      },
+      {
+        "answer": "I am not sexually active and have never had any genital sores.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I was worried this could be shingles or a severe bacterial infection that might damage my face.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I feel so feverish and sick, and I am terrified that the redness is going to spread into my right eye.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I hope you can give me strong IV antibiotics right away and something to relieve this burning pain.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have type 2 diabetes and chronic lymphedema in my right leg.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my gallbladder removed about twenty years ago, but no other surgeries or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take metformin 1000 milligrams twice a day for my diabetes.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink alcohol, maybe half a glass of wine once a year on holidays.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am a retired librarian, and I live at home with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had diabetes and high blood pressure, but no one had severe skin infections or autoimmune diseases.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I went through menopause over fifteen years ago and have not had any bleeding since.",
+        "topic": "Menopausal status"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 122/76 mmHg, heart rate 115 beats/min, respiratory rate 20 breaths/min, temperature 39.3°C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient appears acutely ill, flushed, and fatigued, grimacing with facial discomfort.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "A fiery red, tense, indurated plaque with sharply demarcated, raised borders covers the right malar cheek and nasal bridge; exquisitely tender to touch.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Erythema and edema extend continuously from the cheek onto the right pinna (auricle), including the earlobe, while the external auditory canal and tympanic membrane appear normal.",
+        "maneuver": "ear_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Extraocular movements are intact without pain or proptosis, pupils are equal and reactive, and conjunctivae are clear.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is moist and pink without ulcers, vesicles, or pharyngeal exudate.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Enlarged, tender right submandibular lymph node measuring approximately 1.5 cm is palpable; no other cervical lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Chronic non-pitting edema of the right lower leg consistent with baseline lymphedema, with no acute redness or warmth.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

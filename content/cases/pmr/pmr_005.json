@@ -1,0 +1,335 @@
+{
+  "id": "pmr_005",
+  "system": "physical medicine & rehabilitation (pm&r)",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Evans",
+  "age": 35,
+  "gender": "male",
+  "chief_complaint": "excruciating electric shock pain radiating down posterior leg below knee, numbness, and positive straight leg raise (L5/S1 Lumbar Radiculopathy)",
+  "hpi_details": "35M warehouse worker presents with 3 weeks of severe lower back pain and sharp, burning, `electric shock-like` pain shooting down the back of his left buttock, down the posterior thigh, through the calf, and into the outer border of his left foot and little toe. Pain started abruptly after lifting a 75-pound crate while twisting. Pain is aggravated dramatically by sitting, coughing, sneezing, or bending forward, and relieved slightly by lying flat on his back with pillows under his knees. Reports mild numbness along the outer edge of his left foot.",
+  "ideas": "in severe shooting leg pain and unable to sit in a chair or drive to work",
+  "concerns": "terrified he needs major emergency spine fusion surgery right away",
+  "expectations": "wants MRI scan immediately, physical therapy, and strong nerve pain medication",
+  "pmh": "No prior lumbar issues",
+  "medications": "Over-the-counter ibuprofen 400mg (minimal relief)",
+  "social_hx": "Warehouse logistics specialist, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Lumbar Radiculopathy (Sciatica) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Lumbar Radiculopathy (Sciatica) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes conservative therapy with NSAIDs, neuropathic agents, and directional preference physical therapy while remaining active, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: excruciating electric shock pain radiating down posterior leg below knee, numbness, and positive straight leg raise (L5/S1 Lumbar Radiculopathy)",
+      "Key HPI features: 35M warehouse worker presents with 3 weeks of severe lower back pain and sharp, burning, `electric shock-like` pain shooting down the back of his left buttock, down the posterior thigh, through the calf, and into the outer border of his left foot and little toe. Pain started abruptly after lifting a 75-pound crate while twisting. Pain is aggravated dramatically by sitting, coughing, sneezing, or bending forward, and relieved slightly by lying flat on his back with pillows under his knees. Reports mild numbness along the outer edge of his left foot.",
+      "Objective/Exam findings: Vitals: HR 78, BP 124/80. Lumbar spine exam shows loss of normal lordosis with paraspinal muscle spasm. Straight Leg Raise (SLR / Lasegue sign) is strongly POSITIVE on the left side at 35 degrees (reproducing sharp shooting pain down the leg below the knee; crossed straight leg raise is negative). Neurological examination of lower extremities reveals: 1. Motor: Ankle Plantarflexion (S1 - Gastrocnemius/Soleus tested via single-leg heel raises) shows mild weakness 4/5; Ankle Dorsiflexion (L4/L5) and Great Toe Extension (L5) are completely normal 5/5. 2. Reflexes: Left Achilles tendon reflex (S1) is ABSENT (0/4), right Achilles is normal 2+; bilateral patellar reflexes (L4) intact. 3. Sensory: hypoesthesia along the lateral aspect of the left foot and 5th toe (S1 dermatome). NO saddle anesthesia, bowel/bladder incontinence, or bilateral leg weakness (excluding Cauda Equina Syndrome).",
+      "Relevant background/PMH: No prior lumbar issues",
+      "Current medications: Over-the-counter ibuprofen 400mg (minimal relief)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Lumbar Radiculopathy (Sciatica).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Lumbar spinal stenosis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Cauda equina syndrome (saddle anesthesia, bowel/bladder incontinence)."
+    ],
+    "management_principles": [
+      "Conservative PM&R management (First line for acute radiculopathy without progressive motor deficit or cauda equina syndrome, as >80% resolve spontaneously over 6-8 weeks via disc resorption): initiate short-course NSAIDs (Meloxicam 15 mg daily) combined with a neuropathic agent (Gabapentin 300 mg PO TID or Pregabalin 75 mg BID)",
+      "Physical Therapy: prescribe directional preference physical therapy (McKenzie extension exercises, core stabilization, and neural mobilization)",
+      "Strongly advise against strict bed rest; encourage remaining active within pain tolerance"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "35M presenting with acute unilateral sciatica / radicular pain following mechanical flexion-rotation lifting strain, distribution classic for S1 root compression.",
+    "objective": "Vitals: HR 78, BP 124/80. Lumbar spine exam shows loss of normal lordosis with paraspinal muscle spasm. Straight Leg Raise (SLR / Lasegue sign) is strongly POSITIVE on the left side at 35 degrees (reproducing sharp shooting pain down the leg below the knee; crossed straight leg raise is negative). Neurological examination of lower extremities reveals: 1. Motor: Ankle Plantarflexion (S1 - Gastrocnemius/Soleus tested via single-leg heel raises) shows mild weakness 4/5; Ankle Dorsiflexion (L4/L5) and Great Toe Extension (L5) are completely normal 5/5. 2. Reflexes: Left Achilles tendon reflex (S1) is ABSENT (0/4), right Achilles is normal 2+; bilateral patellar reflexes (L4) intact. 3. Sensory: hypoesthesia along the lateral aspect of the left foot and 5th toe (S1 dermatome). NO saddle anesthesia, bowel/bladder incontinence, or bilateral leg weakness (excluding Cauda Equina Syndrome).",
+    "assessment": "Left S1 Lumbar Radiculopathy secondary to acute L5-S1 Posterolateral Herniated Nucleus Pulposus (Disc Herniation).",
+    "plan": "In the absence of cauda equina features or progressive motor deficit, begin conservative care with activity within tolerance and rehabilitation-guided directional-preference, core, and neural-mobility exercises; avoid prolonged bed rest. Analgesics should be selected only after renal, gastrointestinal, cardiovascular, sedating-medication, and other safety review. Obtain urgent assessment for saddle sensory change, bowel/bladder dysfunction, or progressive weakness. MRI, epidural injection, and surgical referral are conditional on the examination, duration/severity, response to conservative care, and specialist assessment."
+  },
+  "learning_objectives": [
+    "Correlate specific lumbar nerve root compression levels with their signature dermatomal sensory loss, myotomal motor weakness, and reflex changes (L4: anterior thigh/knee pain, quadriceps/ankle dorsiflexion weakness, diminished patellar reflex; L5: lateral leg/dorsal foot pain, great toe extension weakness EHL, normal reflexes; S1: posterior thigh/calf/lateral foot pain, ankle plantarflexion weakness, diminished/absent Achilles reflex)",
+    "Perform and interpret provocative nerve root tension tests including Straight Leg Raise (SLR sensitive for L4-S1 between 30-70 degrees) and Crossed Straight Leg Raise (highly specific for large central/axillary disc herniations)",
+    "Enforce evidence-based clinical guidelines recommending 6 to 8 weeks of conservative PM&R management (McKenzie physical therapy, NSAIDs, neuropathic drugs) prior to ordering lumbar MRI or surgical referral in the absence of red flags",
+    "Identify absolute surgical emergencies / red flags requiring STAT lumbar MRI and urgent neurosurgical decompression (Cauda Equina Syndrome: saddle anesthesia, bowel/bladder retention or incontinence, progressive bilateral lower extremity weakness)"
+  ],
+  "teaching": {
+    "diagnosis": "Lumbar Radiculopathy (Sciatica)",
+    "one_liner": "Compression or inflammation of a lumbar nerve root causing sharp radiating leg pain, numbness, and motor weakness.",
+    "differentials": [
+      "Lumbar spinal stenosis",
+      "Piriformis syndrome",
+      "Trochanteric bursitis"
+    ],
+    "red_flags": [
+      "Cauda equina syndrome (saddle anesthesia, bowel/bladder incontinence)",
+      "Progressive foot drop"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pain radiation pathway",
+        "say": "Does the pain shoot down past your knee into your foot or toes?",
+        "domains": [
+          "radiation",
+          "location"
+        ],
+        "keywords": [
+          "shoot",
+          "radiate",
+          "foot",
+          "toes",
+          "thigh"
+        ]
+      },
+      {
+        "objective": "Aggravating maneuvers (coughing/sitting)",
+        "say": "Does coughing, sneezing, or sitting down make the leg pain much worse?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "coughing",
+          "sneezing",
+          "sitting",
+          "cough",
+          "sit"
+        ]
+      },
+      {
+        "objective": "Cauda equina red flag screen",
+        "say": "Have you noticed any numbness around your buttocks or loss of bowel or bladder control?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bladder",
+          "bowel",
+          "numbness",
+          "saddle",
+          "incontinence"
+        ]
+      },
+      {
+        "objective": "Straight leg raise maneuver history",
+        "say": "Does raising your straight leg while lying flat trigger the shooting pain?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "raising",
+          "straight",
+          "lift",
+          "leg"
+        ]
+      },
+      {
+        "objective": "Motor weakness evaluation",
+        "say": "Do you feel weakness when walking on your heels or toes?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "weakness",
+          "heels",
+          "walking",
+          "weak"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/80",
+      "hr": 78,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I've had terrible lower back pain for the past three weeks, and an electric shock pain keeps shooting all the way down my left leg into my foot.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It starts in my lower back and left buttock, shoots down the back of my thigh and calf, and goes right into the outer edge of my left foot and pinky toe.",
+        "topic": "Pain location and radiation"
+      },
+      {
+        "answer": "It started suddenly three weeks ago when I lifted a heavy 75-pound crate at work while twisting my body.",
+        "topic": "Onset and trigger"
+      },
+      {
+        "answer": "It feels like a severe, sharp, burning electric shock shooting down my leg. It's an eight or nine out of ten at its worst.",
+        "topic": "Pain quality and severity"
+      },
+      {
+        "answer": "Sitting in a chair, coughing, sneezing, or bending forward makes it flare up horribly. It eases up a bit only when I lie flat on my back with pillows propping up my knees.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "It doesn't wake me up throbbing at night as long as I stay in that specific position with my knees bent, but any movement in bed can trigger a jolt.",
+        "topic": "Pain at rest or night"
+      },
+      {
+        "answer": "My back is stiff for a few minutes when I first get out of bed, but it doesn't stay stiff for half an hour, and moving around doesn't make it better.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "The outer border of my left foot and my little toe feel numb and tingly. My left ankle also feels a bit weak when I try to push off the ball of that foot.",
+        "topic": "Numbness, tingling, or weakness"
+      },
+      {
+        "answer": "No, the area between my legs and around my bottom feels completely normal. I have normal control over my bladder and bowels with no accidents or trouble going.",
+        "topic": "Saddle sensation and bowel or bladder function"
+      },
+      {
+        "answer": "Bending forward definitely makes the shooting pain much worse, and walking is painful, but sitting down doesn't make it better—sitting is actually the worst position.",
+        "topic": "Symptoms when walking or bending forward"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, unintentional weight loss, or drenching night sweats.",
+        "topic": "Fever, weight loss, or night sweats"
+      },
+      {
+        "answer": "No, I have never had cancer or any tumors.",
+        "topic": "History of cancer"
+      },
+      {
+        "answer": "No, I haven't had any recent infections, back injections, or surgeries, and I have never used intravenous drugs.",
+        "topic": "Recent infections, spine procedures, or IV drugs"
+      },
+      {
+        "answer": "No, I've never taken steroids, I've never been told I have weak bones, and I haven't had any falls or other accidents.",
+        "topic": "Steroid use, bone density, or falls"
+      },
+      {
+        "answer": "No, I don't have any belly pain, pulsing sensations in my stomach, or blood or burning when I urinate.",
+        "topic": "Abdominal pain, urinary changes, or pulsations"
+      },
+      {
+        "answer": "No, my eyes aren't red or painful, my heels don't hurt, and I don't have any skin rashes or joint swelling.",
+        "topic": "Eye inflammation, heel pain, or rash"
+      },
+      {
+        "answer": "I've been taking over-the-counter ibuprofen 400 milligrams, but it barely takes the edge off.",
+        "topic": "Pain medications tried"
+      },
+      {
+        "answer": "I work in a warehouse, and right now I can't drive to work, lift anything, or even sit in a normal desk chair.",
+        "topic": "Impact on work and daily activities"
+      },
+      {
+        "answer": "I think I tore something or slipped a disc in my lower spine when I hoisted that heavy crate.",
+        "topic": "Patient's perspective on the cause"
+      },
+      {
+        "answer": "I'm terrified that my spine is permanently damaged and that I'll need urgent emergency spinal fusion surgery.",
+        "topic": "Main concern or fear"
+      },
+      {
+        "answer": "I'm hoping to get an MRI to see what's pinched, start physical therapy, and get some stronger nerve medication so I can function.",
+        "topic": "Expectations for today's visit"
+      },
+      {
+        "answer": "I've been healthy and have never had back trouble or spine problems before this.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any surgeries or stayed in a hospital.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "Just the ibuprofen 400 milligrams as needed, nothing else.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications or anything else.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a beer socially once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a logistics specialist in a warehouse doing heavy lifting, and I live with my wife in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are both healthy in their sixties with no history of spine disorders, arthritis, or cancer.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 124/80 mmHg, heart rate 78 beats/min, respiratory rate 14 breaths/min, and temperature 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Loss of normal lumbar lordosis with left paraspinal muscle spasm; straight leg raise test on the left is positive at 35 degrees reproducing sharp shooting leg pain below the knee, while crossed straight leg raise is negative.",
+        "maneuver": "spine_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Lumbar forward flexion and extension are markedly restricted due to pain, while lateral bending is mildly limited on the left.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Left ankle plantarflexion strength is 4/5 with difficulty performing single-leg heel raises, while ankle dorsiflexion and great toe extension are 5/5 bilaterally.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Left Achilles tendon reflex is absent (0/4), right Achilles reflex is normal (2+), and bilateral patellar reflexes are intact (2+).",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Hypoesthesia to light touch is present along the lateral border of the left foot and fifth toe, with intact sensation in all other lower extremity dermatomes.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal perianal sensation, intact anal wink, and normal resting and voluntary anal sphincter tone.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on either side.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, with no palpable pulsatile abdominal aortic mass or organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Antalgic gait favoring the left leg with inability to perform repeated toe walking on the left side, but normal heel walking.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

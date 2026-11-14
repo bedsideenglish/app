@@ -1,0 +1,301 @@
+{
+  "id": "derm_022",
+  "system": "dermatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Cho",
+  "age": 45,
+  "gender": "female",
+  "chief_complaint": "greasy yellow scales and redness on scalp, eyebrows, and sides of nose",
+  "hpi_details": "45F reports chronic, itchy red patches covered with greasy, yellowish scales on her scalp, eyebrows, nasolabial folds, and chest. Symptoms are worse during stressful weeks.",
+  "ideas": "thinks she has severe dandruff or facial eczema",
+  "concerns": "bothered by embarrassing scales on her face",
+  "expectations": "wants medicated shampoo and creams",
+  "pmh": "Mild anxiety",
+  "medications": "None",
+  "social_hx": "Teacher, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Seborrheic Dermatitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Seborrheic Dermatitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes an evidence-based diagnostic and therapeutic protocol for Seborrheic Dermatitis, likely Malassezia reactive, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: greasy yellow scales and redness on scalp, eyebrows, and sides of nose",
+      "Key HPI features: 45F reports chronic, itchy red patches covered with greasy, yellowish scales on her scalp, eyebrows, nasolabial folds, and chest. Symptoms are worse during stressful weeks.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Seborrheic Dermatitis, likely Malassezia reactive.",
+      "Relevant background/PMH: Mild anxiety"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Seborrheic Dermatitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Psoriasis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: New, severe, or treatment-refractory seborrheic dermatitis in an adult — screen for HIV infection."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Seborrheic Dermatitis, likely Malassezia reactive: prescribe topical Ketoconazole 2% shampoo and low-potency topical hydrocortisone cream for facial lesions",
+      "Recommend stress management"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Seborrheic Dermatitis, likely Malassezia reactive. greasy yellow scales and redness on scalp, eyebrows, and sides of nose. 45F reports chronic, itchy red patches covered with greasy, yellowish scales on her scalp, eyebrows, nasolabial folds, and chest. Symptoms are worse during stressful weeks.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Seborrheic Dermatitis, likely Malassezia reactive.",
+    "assessment": "Clinical presentation highly suggestive of Seborrheic Dermatitis, likely Malassezia reactive.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Seborrheic Dermatitis, likely Malassezia reactive. Prescribe topical Ketoconazole 2% shampoo and low-potency topical hydrocortisone cream for facial lesions. Recommend stress management. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Seborrheic Dermatitis, likely Malassezia reactive.",
+    "Formulate prioritized differential diagnosis for greasy yellow scales and redness on scalp, eyebrows, and sides of nose",
+    "Select appropriate laboratory and imaging studies for dermatology",
+    "Implement evidence-based acute and long-term management strategies for Seborrheic Dermatitis, likely Malassezia reactive."
+  ],
+  "teaching": {
+    "diagnosis": "Seborrheic Dermatitis",
+    "one_liner": "A Malassezia-reactive inflammatory condition causing greasy, yellowish, itchy scale on the scalp, eyebrows, nasolabial folds, and chest, often worse with stress.",
+    "differentials": [
+      "Psoriasis",
+      "Atopic dermatitis",
+      "Tinea faciei"
+    ],
+    "red_flags": [
+      "New, severe, or treatment-refractory seborrheic dermatitis in an adult — screen for HIV infection",
+      "Signs of secondary bacterial or fungal superinfection (oozing, pain, spreading redness, fever)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Scale character",
+        "say": "Is the scale greasy and yellow?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Distribution",
+        "say": "Where is it — scalp, eyebrows, sides of your nose, chest?",
+        "domains": [
+          "location"
+        ]
+      },
+      {
+        "objective": "Itching",
+        "say": "Is it itchy?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Stress trigger",
+        "say": "Does stress seem to make it worse?",
+        "domains": [
+          "aggravating"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I've been dealing with these greasy, yellowish flakes and red patches on my scalp and eyebrows that won't go away.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "This problem has been coming and going for about two years, but it became much worse over the last two weeks.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The rash is on my scalp, my eyebrows, the sides of my nose, and there is also a patch in the middle of my chest.",
+        "topic": "Location and distribution"
+      },
+      {
+        "answer": "They are red patches covered with greasy, yellowish flakes that peel off easily.",
+        "topic": "Lesion appearance and texture"
+      },
+      {
+        "answer": "It itches quite a bit, especially on my head and around my nose, but it doesn't really hurt or burn.",
+        "topic": "Itching and discomfort"
+      },
+      {
+        "answer": "No, the spots don't vanish in a few hours like hives; they stay in the exact same places all day.",
+        "topic": "Fluctuation of individual spots"
+      },
+      {
+        "answer": "I've had milder bouts in past winters, and over-the-counter anti-dandruff shampoo helped slightly back then, but nothing has helped this time.",
+        "topic": "Previous episodes and treatment"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, body aches, or fatigue.",
+        "topic": "Fever and systemic symptoms"
+      },
+      {
+        "answer": "No, my mouth, eyes, and private areas are completely normal with no blisters, sores, or irritation.",
+        "topic": "Mucosal involvement"
+      },
+      {
+        "answer": "No, my skin is not sloughing off, and I don't have any dark purple spots or tender bruises.",
+        "topic": "Skin peeling and purple spots"
+      },
+      {
+        "answer": "No, my lips and tongue haven't swollen, and I haven't had any trouble breathing or swallowing.",
+        "topic": "Facial swelling and breathing difficulty"
+      },
+      {
+        "answer": "No, I haven't started any new prescription drugs, antibiotics, or pain medicines.",
+        "topic": "New medications"
+      },
+      {
+        "answer": "No, I haven't switched my skincare products, soaps, makeup, or detergents, and I don't wear costume jewelry.",
+        "topic": "Contact with new products"
+      },
+      {
+        "answer": "No, nobody at home or in my classrooms has a rash or any severe itching.",
+        "topic": "Sick contacts and family rash"
+      },
+      {
+        "answer": "No, I haven't been hiking, had any bug bites, or traveled anywhere recently.",
+        "topic": "Outdoor exposure and bug bites"
+      },
+      {
+        "answer": "No, I have never had asthma, allergic rhinitis, or eczema as a child.",
+        "topic": "Personal atopic history"
+      },
+      {
+        "answer": "No, my joints don't ache or swell, and my nails look smooth without any pitting or lifting.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I tried using regular moisturizers and dabbed a little over-the-counter hydrocortisone cream on my face, but the flakes kept returning.",
+        "topic": "Applied ointments and remedies"
+      },
+      {
+        "answer": "I have been happily married for fifteen years and have never had genital sores or any sexually transmitted infections.",
+        "topic": "Sexual history and genital sores"
+      },
+      {
+        "answer": "It definitely flares up whenever I am under a lot of stress at school, like during exam grading periods, and during dry cold weather.",
+        "topic": "Stress and worsening factors"
+      },
+      {
+        "answer": "I was thinking it might just be really severe dandruff or perhaps some kind of facial eczema.",
+        "topic": "Patient's perspective on cause"
+      },
+      {
+        "answer": "As a teacher standing in front of students all day, having greasy yellow scales all over my face is terribly embarrassing.",
+        "topic": "Patient's main concern"
+      },
+      {
+        "answer": "I am hoping you can prescribe a medicated shampoo and cream to clear up the redness and flaking.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have mild anxiety, which I manage with relaxation exercises, but I have no other medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, regular over-the-counter drugs, or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or materials.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine on special occasions, maybe once or twice a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as a middle school teacher, and I live with my husband and our two children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no history of psoriasis, severe eczema, or skin diseases in my family.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My periods are regular every twenty-eight days with my last one two weeks ago, and there is no possibility of pregnancy.",
+        "topic": "Menstrual and reproductive history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, well-groomed female in no acute distress with visible flaking across the eyebrows and forehead.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 72/min, respiratory rate 14/min, temperature 36.6 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Erythematous patches with overlying greasy, yellowish scales on the scalp, eyebrows, bilateral nasolabial folds, and presternal chest, without skin detachment or purpura.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Mild retroauricular erythema and fine scale bilaterally without external canal discharge or tenderness.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink and non-injected, and sclerae are anicteric without discharge or lid margin inflammation.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa is pink and moist without ulcerations, mucosal plaques, or pharyngeal injection.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable anterior or posterior cervical, submandibular, or occipital lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Fingernails and toenails are smooth without pitting, oil drop discolorations, or onycholysis; joints show no swelling or tenderness.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

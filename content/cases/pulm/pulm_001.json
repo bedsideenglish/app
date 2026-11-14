@@ -1,0 +1,349 @@
+{
+  "id": "pulm_001",
+  "system": "pulmonology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Roberts",
+  "age": 65,
+  "gender": "male",
+  "chief_complaint": "worsening shortness of breath and productive cough for 5 days",
+  "hpi_details": "baseline dyspnoea (GOLD 2 COPD), acutely worse over 5 days, increased sputum (yellow-green, increased volume), low-grade fever 37.8°C, no haemoptysis, using rescue inhaler every 2 hours",
+  "ideas": "thinks it is another chest infection like he gets every winter",
+  "concerns": "worried he might need to go to hospital as he lives alone",
+  "expectations": "wants antibiotics and something to help him breathe",
+  "pmh": "COPD diagnosed 5 years ago, previous smoker, no hospitalisation for COPD in 2 years",
+  "medications": "tiotropium 18mcg OD, salmeterol/fluticasone 50/500mcg BD, salbutamol 100mcg PRN",
+  "social_hx": "ex-smoker (quit 5 years ago, 40 pack-years), retired plumber, lives alone, no pets",
+  "clinical_knowledge": {
+    "topic": "Acute exacerbation of COPD",
+    "core_concepts": [
+      "A COPD exacerbation is an acute worsening of respiratory symptoms, but pneumonia, pulmonary embolism, pneumothorax, and acute heart failure can mimic or aggravate it.",
+      "If the patient is hypoxemic, oxygen should be controlled and the response monitored rather than given without a target or reassessment.",
+      "Short-acting bronchodilators and a short course of systemic corticosteroid are common treatments; antibiotics are selected for clinical indications rather than every exacerbation automatically.",
+      "Increased work of breathing or impaired gas exchange should prompt assessment for ventilatory support, including non-invasive ventilation when appropriate."
+    ],
+    "diagnostic_clues": [
+      "Known COPD with worsening breathlessness, cough, and sputum",
+      "Substantial smoking exposure",
+      "Acute change from baseline symptoms",
+      "Features suggesting an infective trigger while still requiring assessment for mimics"
+    ],
+    "common_misconceptions": [
+      "More oxygen is not always better in a patient at risk of hypercapnic respiratory failure.",
+      "Purulent sputum does not remove the need to assess severity and alternative diagnoses.",
+      "Antibiotics are not automatic for every COPD exacerbation."
+    ],
+    "dangerous_errors": [
+      "Giving uncontrolled oxygen without monitoring in a patient at risk of carbon-dioxide retention",
+      "Missing impending ventilatory failure or delaying escalation despite worsening work of breathing",
+      "Assuming all acute breathlessness in COPD is an exacerbation and ignoring a dangerous mimic"
+    ],
+    "management_principles": [
+      "Assess severity, oxygenation, work of breathing, gas exchange, comorbidities, and need for hospital monitoring.",
+      "Use controlled oxygen when hypoxemic and reassess with appropriate clinical and laboratory measurements.",
+      "Use bronchodilators, corticosteroids, antibiotics, and ventilatory support according to severity and clinical indications."
+    ],
+    "boundaries_and_exceptions": [
+      "Exact oxygen targets, antibiotic selection, steroid regimen, and admission criteria depend on blood gases, comorbidities, allergies, local resistance, and local protocol.",
+      "A patient without hypoxemia does not receive oxygen solely because COPD is present."
+    ],
+    "source_refs": [
+      {
+        "title": "Global Initiative for Chronic Obstructive Lung Disease 2026 Report",
+        "url": "https://goldcopd.org/2026-gold-report-and-pocket-guide/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "65M with known COPD, 5-day acute exacerbation with increased dyspnoea, purulent sputum, and low-grade fever. Using rescue inhaler Q2h.",
+    "objective": "O2 saturation, RR, HR, CXR, FEV1 if able, sputum culture, ABG if severe, FBC, CRP.",
+    "assessment": "Acute exacerbation of COPD (AECOPD), likely infective trigger. DDx: pneumonia, pneumothorax, PE, decompensated heart failure.",
+    "plan": "Urgently assess severity and need for hospital monitoring. If hypoxemic, provide clinician-directed controlled oxygen with a documented target and reassessment; use bronchodilators and consider systemic corticosteroids or antibiotics only when clinically indicated after examination, blood gases, imaging, and local guidance. Escalate promptly for respiratory distress, worsening gas exchange, or concern for pneumonia, PE, pneumothorax, or cardiac ischemia."
+  },
+  "learning_objectives": [
+    "Assess AECOPD severity using clinical markers",
+    "Distinguish AECOPD from pneumonia, PE, cardiac failure",
+    "Review inhaler technique and adherence",
+    "Incorporate social circumstances into management plan"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Exacerbation of COPD",
+    "one_liner": "Acute worsening of respiratory symptoms beyond normal day-to-day variations in a patient with underlying COPD, triggered by infection or air pollution.",
+    "differentials": [
+      "Congestive heart failure exacerbation",
+      "Pulmonary embolism",
+      "Pneumonia"
+    ],
+    "red_flags": [
+      "Acute hypercapnic respiratory failure (pH < 7.35, PaCO2 > 45)",
+      "Use of accessory muscles at rest or severe breathlessness at rest",
+      "New chest pain, syncope, haemoptysis, unilateral leg swelling, or sudden deterioration suggesting PE, ACS, pneumothorax, or another emergency"
+    ],
+    "must_ask": [
+      {
+        "objective": "Anthonisen criteria - Sputum purulence and volume",
+        "say": "Have you noticed your phlegm becoming thicker, greener, or increasing in amount?",
+        "domains": [
+          "character",
+          "progression"
+        ],
+        "keywords": [
+          "phlegm",
+          "sputum",
+          "thicker",
+          "green",
+          "amount"
+        ]
+      },
+      {
+        "objective": "Exertional dyspnea and orthopnea",
+        "say": "Are you getting short of breath even while resting or propping up on extra pillows at night?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "shortness",
+          "breath",
+          "pillows",
+          "resting",
+          "propping"
+        ]
+      },
+      {
+        "objective": "Rescue inhaler responsiveness",
+        "say": "Is your quick-relief salbutamol inhaler working as well as usual or failing to give relief?",
+        "domains": [
+          "medications",
+          "relieving"
+        ],
+        "keywords": [
+          "inhaler",
+          "salbutamol",
+          "relief",
+          "working",
+          "reliever"
+        ]
+      },
+      {
+        "objective": "Smoking history quantifying",
+        "say": "How many packs of cigarettes did you smoke per day and for how long?",
+        "domains": [
+          "smoking"
+        ],
+        "keywords": [
+          "packs",
+          "cigarettes",
+          "smoking",
+          "tobacco",
+          "smoker"
+        ]
+      },
+      {
+        "objective": "Prior intubation or NIV history",
+        "say": "Have you ever been admitted to the ICU or placed on a breathing machine for your lungs?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "machine",
+          "bipap",
+          "intubated",
+          "ventilation",
+          "intensive"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "130/80",
+      "hr": 102,
+      "rr": 24,
+      "spo2": 89,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "Doctor, I've been getting more and more short of breath and coughing up a lot of thick phlegm over the past five days.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about five days ago like a common head cold, but my breathing has steadily gotten worse each day.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "Normally I can walk down the street without trouble, but now I get winded just walking to the bathroom or putting on clothes.",
+        "topic": "Severity and walking tolerance"
+      },
+      {
+        "answer": "The breathlessness is constant throughout the day and feels just like the chest infections I usually catch during the winter.",
+        "topic": "Course and previous episodes"
+      },
+      {
+        "answer": "I am coughing up two or three tablespoons of thick phlegm every day, and it turned from clear to dark yellowish-green.",
+        "topic": "Sputum volume and color"
+      },
+      {
+        "answer": "I had a low fever of 37.8 degrees yesterday and felt a bit chilly, but I haven't had severe shaking chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "I can still sleep flat on my single pillow without feeling smothered, and I don't wake up at night gasping for breath.",
+        "topic": "Orthopnea and nighttime waking"
+      },
+      {
+        "answer": "Yes, I can hear a high-pitched wheezing sound in my chest whenever I breathe out.",
+        "topic": "Wheezing and whistling sounds"
+      },
+      {
+        "answer": "Moving around makes my breathing worse, while sitting still helps slightly but does not clear it completely.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I don't have any tightness, pressure, or sharp pain in my chest when I breathe in.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "My heart feels like it is racing a bit, but it is not skipping beats and I haven't felt faint or dizzy.",
+        "topic": "Palpitations and dizziness"
+      },
+      {
+        "answer": "No, I have not seen any blood in my phlegm.",
+        "topic": "Coughing up blood"
+      },
+      {
+        "answer": "No, my feet and legs are not swollen at all, and my weight has been steady.",
+        "topic": "Leg swelling and weight gain"
+      },
+      {
+        "answer": "No, neither leg is swollen or sore, and I haven't been on any long flights or had surgery recently.",
+        "topic": "Calf pain and clot risks"
+      },
+      {
+        "answer": "I feel tired from all the coughing, but my stools are normal brown and I have had no bleeding anywhere.",
+        "topic": "Fatigue and bleeding"
+      },
+      {
+        "answer": "I feel somewhat anxious because I can't catch my breath, but my fingers and mouth are not tingling or numb.",
+        "topic": "Tingling and panic symptoms"
+      },
+      {
+        "answer": "I have been using my blue salbutamol inhaler every two hours, but it only gives me a little relief for about half an hour.",
+        "topic": "Rescue inhaler use and response"
+      },
+      {
+        "answer": "No, I have never needed a breathing tube or a mask machine in the intensive care unit.",
+        "topic": "Prior intubation or ventilator use"
+      },
+      {
+        "answer": "I worked as a plumber for thirty years around construction dust, but I don't have any birds, pets, or mold at home.",
+        "topic": "Occupational and home exposures"
+      },
+      {
+        "answer": "No, I don't take beta-blockers, aspirin, or anti-inflammatory pain relievers.",
+        "topic": "High-risk medications"
+      },
+      {
+        "answer": "I think this is another chest infection flaring up, just like the ones I get every winter.",
+        "topic": "Thoughts about the illness"
+      },
+      {
+        "answer": "I live alone, so I'm really worried this might get so bad that I'll have to be admitted to the hospital.",
+        "topic": "Concerns and living situation"
+      },
+      {
+        "answer": "I was hoping you could give me antibiotics to clear the infection and something stronger to help me breathe easier.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I was diagnosed with COPD five years ago, but I don't have high blood pressure, diabetes, or heart disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was twenty, and I haven't stayed in the hospital for my chest in two years.",
+        "topic": "Past hospitalizations and surgeries"
+      },
+      {
+        "answer": "I take tiotropium once every morning and use the purple salmeterol-fluticasone inhaler twice a day.",
+        "topic": "Current prescription inhalers"
+      },
+      {
+        "answer": "I take an over-the-counter multivitamin every day, but no other herbal remedies or supplements.",
+        "topic": "Supplements and nonprescription drugs"
+      },
+      {
+        "answer": "No, I don't have any allergies to medications or foods.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I smoked one pack a day for forty years, but I quit completely five years ago when I was diagnosed with COPD.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink one or two cans of beer on the weekend, but nothing more than that.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I live alone in a single-story house, but my daughter lives nearby and visits to help out.",
+        "topic": "Home situation and support"
+      },
+      {
+        "answer": "My father passed away from a stroke in his seventies and my mother had arthritis, but there is no asthma or early heart disease in my family.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 130/80 mmHg, pulse is 102 beats per minute, respiratory rate is 24 breaths per minute, body temperature is 37.8°C, and oxygen saturation is 89% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient is alert, sitting upright with mild respiratory distress, pursed-lip breathing, and tachypnea, without central or peripheral cyanosis or digital clubbing.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink and sclerae are non-icteric bilaterally.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Internal jugular venous pulsation is not elevated, measuring less than 3 cm above the sternal angle at 45 degrees.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Increased anteroposterior chest diameter is noted with mild intercostal retractions, symmetric respiratory excursion, and no chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperresonance to percussion is present diffusely across both lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral breath sounds are diminished with a prolonged expiratory phase, generalized expiratory wheezing, and coarse bibasilar crackles that partially clear with coughing.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with distant heart sounds, and no audible murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema is present over the lower extremities bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Both calves are soft, non-tender, and symmetric in girth without erythema or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

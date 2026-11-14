@@ -1,0 +1,347 @@
+{
+  "id": "ns_011",
+  "system": "neurosurgery",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Baker",
+  "age": 52,
+  "gender": "male",
+  "chief_complaint": "sudden excruciating headache, bilateral visual loss, ophthalmoplegia, and cardiovascular collapse",
+  "hpi_details": "52M with known pituitary macroadenoma presenting with acute tumor hemorrhage causing bitemporal blindness, CN III palsy, and acute adrenal insufficiency requiring stress-dose steroids.",
+  "ideas": "He thinks his known pituitary tumor has suddenly ruptured or turned into an aggressive malignant cancer.",
+  "concerns": "He is worried that his sudden loss of sight is permanent and that he will never be able to see his family again.",
+  "expectations": "He hopes for urgent emergency surgery or injections to relieve the pressure on his optic nerves and restore his vision.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "available_results": [{
+    "id": "known_pituitary_macroadenoma",
+    "test": "Prior sellar MRI",
+    "value": "Pituitary macroadenoma",
+    "flag": "abnormal",
+    "collected_at": "Before today's encounter"
+  }],
+  "investigation_events": [{
+    "id": "stat_pituitary_apoplexy_mri",
+    "title": "Emergency sellar MRI",
+    "order_terms": ["sellar MRI", "pituitary MRI", "MRI sella", "MRI brain"],
+    "availability_message": "The emergency sellar MRI result is now available. IV fluids and stress-dose hydrocortisone must not be delayed for imaging or hormone results.",
+    "results": [{"id": "sellar_mri", "test": "MRI of the sellar region", "value": "Acute hemorrhage and infarction within the known pituitary macroadenoma, with optic chiasm compression and left cavernous sinus extension", "flag": "critical"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Pituitary Apoplexy evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pituitary Apoplexy is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management prioritizes resuscitation and immediate glucocorticoid replacement for suspected adrenal insufficiency, with urgent endocrine and neurosurgical assessment, adapted to clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden excruciating headache, bilateral visual loss, ophthalmoplegia, and cardiovascular collapse",
+      "Key HPI features: 52M with known pituitary macroadenoma presenting with acute tumor hemorrhage causing bitemporal blindness, CN III palsy, and acute adrenal insufficiency requiring stress-dose steroids.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Pituitary Apoplexy Acute Crisis.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pituitary Apoplexy.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Subarachnoid hemorrhage without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as hypotension or collapse suggesting adrenal crisis; give stress-dose glucocorticoids immediately after drawing blood for cortisol if doing so does not delay treatment."
+    ],
+    "management_principles": [
+      "Stabilize airway, breathing, circulation, and hypotension; give intravenous fluids and stress-dose hydrocortisone immediately when adrenal insufficiency is suspected.",
+      "Obtain serum cortisol and pituitary laboratory studies before glucocorticoids only if this does not delay treatment; obtain urgent MRI of the sellar region when stable.",
+      "Urgently involve endocrinology, ophthalmology, and neurosurgery; consider prompt transsphenoidal decompression for severe or deteriorating visual or neurologic deficits.",
+      "Monitor fluid balance, electrolytes, glucose, and visual and neurologic status in a high-acuity setting."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Pituitary Apoplexy Acute Crisis: sudden excruciating headache, bilateral visual loss, ophthalmoplegia, and cardiovascular collapse. 52M with known pituitary macroadenoma presenting with acute tumor hemorrhage causing bitemporal blindness, CN III palsy, and acute adrenal insufficiency requiring stress-dose steroids.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Pituitary Apoplexy Acute Crisis.",
+    "assessment": "Clinical presentation highly suggestive of Pituitary Apoplexy Acute Crisis.",
+    "plan": "Stabilize airway, breathing, circulation, and hypotension; give intravenous fluids and stress-dose hydrocortisone immediately when adrenal insufficiency is suspected. Obtain serum cortisol and pituitary laboratory studies before glucocorticoids only if this does not delay treatment; obtain urgent MRI of the sellar region when stable. Urgently involve endocrinology, ophthalmology, and neurosurgery; consider prompt transsphenoidal decompression for severe or deteriorating visual or neurologic deficits. Monitor fluid balance, electrolytes, glucose, and visual and neurologic status in a high-acuity setting."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Pituitary Apoplexy Acute Crisis",
+    "Formulate prioritized differential diagnosis for sudden excruciating headache, bilateral visual loss, ophthalmoplegia, and cardiovascular collapse",
+    "Select appropriate laboratory and imaging studies for neurosurgery",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Pituitary Apoplexy",
+    "one_liner": "Sudden hemorrhage or infarction into a pituitary tumor can cause severe headache, sudden vision loss, eye movement paralysis, and life-threatening cortisol deficiency from acute pituitary failure; give stress-dose glucocorticoids immediately when adrenal crisis is suspected.",
+    "differentials": [
+      "Subarachnoid hemorrhage",
+      "Cavernous sinus thrombosis",
+      "Bacterial meningitis"
+    ],
+    "red_flags": [
+      "Hypotension or collapse suggesting adrenal crisis requires immediate stress-dose glucocorticoids; do not wait for imaging"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset and severity",
+        "say": "How suddenly did the headache and vision loss start?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Vision symptoms",
+        "say": "How has your vision changed; are the sides of your vision affected?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "bitemporal",
+          "vision loss"
+        ]
+      },
+      {
+        "objective": "Eye movement",
+        "say": "Can you move your eyes normally, or is one eye stuck?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "double vision",
+          "eye movement"
+        ]
+      },
+      {
+        "objective": "Known pituitary tumor",
+        "say": "Have you been told you have a pituitary tumor before?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Weakness and dizziness",
+        "say": "Do you feel weak or lightheaded, like you might faint?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "82/54",
+      "hr": 112,
+      "rr": 20,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "About three hours ago, I suddenly got the worst headache of my life, my side vision went completely black, and I collapsed.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It hit me out of nowhere like a lightning bolt, reaching maximum agony in just a few seconds.",
+        "topic": "Onset pattern"
+      },
+      {
+        "answer": "It started three hours ago and hasn't let up at all. I have never experienced anything even close to this painful before.",
+        "topic": "Duration and previous headaches"
+      },
+      {
+        "answer": "The pain is severe all over the front of my head, but it feels like it is exploding right behind my eyes.",
+        "topic": "Pain location"
+      },
+      {
+        "answer": "It is a crushing, splitting agony that feels like my head is tearing apart, easily a ten out of ten.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "It hit suddenly around mid-morning while I was working at my desk, and the agony has remained relentless and constant.",
+        "topic": "Timing and daily pattern"
+      },
+      {
+        "answer": "Any slight movement of my head makes the throbbing worse, and absolutely nothing relieves it.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, there were no flashing lights, zigzags, or warning sensations before the headache hit.",
+        "topic": "Preceding aura"
+      },
+      {
+        "answer": "Yes, I felt intensely sick to my stomach and threw up twice shortly after the headache struck.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "No, my eyes are not watering and I have no runny nose or nasal congestion.",
+        "topic": "Eye watering and nasal symptoms"
+      },
+      {
+        "answer": "I don't think I have a fever, but my neck feels stiff and sore when I try to bend it forward.",
+        "topic": "Fever and neck stiffness"
+      },
+      {
+        "answer": "My arms and legs are not paralyzed or numb, but I feel overwhelmingly weak and exhausted all over.",
+        "topic": "Weakness and numbness"
+      },
+      {
+        "answer": "The outer half of my vision in both eyes went dark like tunnel vision, and when I open my eyes things look double.",
+        "topic": "Vision loss and double vision"
+      },
+      {
+        "answer": "My left eyelid is drooping shut, and I cannot move my left eye properly to look up or toward my nose.",
+        "topic": "Eye movement and drooping eyelid"
+      },
+      {
+        "answer": "I felt intensely dizzy, broke out into a cold sweat, and completely collapsed to the floor when I tried to stand up.",
+        "topic": "Dizziness and collapse"
+      },
+      {
+        "answer": "Yes, I was diagnosed with a non-functioning pituitary tumor about six months ago, and doctors were just monitoring it with yearly scans.",
+        "topic": "Known pituitary tumor"
+      },
+      {
+        "answer": "No, my temples are not tender to touch, and my jaw does not hurt when I chew.",
+        "topic": "Temporal tenderness and jaw pain"
+      },
+      {
+        "answer": "No, I have not had any falls, bumps, or injuries to my head.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "A colleague gave me two ibuprofen pills right after it started, but they didn't help at all.",
+        "topic": "Pain medication use"
+      },
+      {
+        "answer": "No, I was not stressed or sleep-deprived, and nothing unusual happened before it hit.",
+        "topic": "Headache triggers"
+      },
+      {
+        "answer": "No, I do not have high blood pressure, and I don't take aspirin, warfarin, or any other blood thinners.",
+        "topic": "Hypertension and blood thinners"
+      },
+      {
+        "answer": "No, everyone else at home and in my office is completely fine, and we don't have any gas heating issues.",
+        "topic": "Carbon monoxide and exposures"
+      },
+      {
+        "answer": "No, I have never had cancer, I don't have HIV, and I do not take any medications that lower my immune system.",
+        "topic": "Cancer and immune status"
+      },
+      {
+        "answer": "I thought the tumor they found in my head might have burst open or suddenly turned into aggressive cancer.",
+        "topic": "Thoughts on cause"
+      },
+      {
+        "answer": "I'm terrified that I've gone completely blind for good and won't ever see my family's faces again.",
+        "topic": "Concerns about condition"
+      },
+      {
+        "answer": "I'm hoping the doctors can operate immediately or give me medication to take the pressure off my eyes and bring my sight back.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "Aside from the pituitary tumor discovered six months ago, I have had no major medical illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been hospitalized before.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or health supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or anything else.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine once or twice a month, and haven't had any alcohol recently.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office accountant and live with my wife and two children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents have mild high blood pressure, but no one in my family has had brain tumors, aneurysms, or sudden blindness.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 82/54 mmHg, heart rate is 112 beats per minute, respiratory rate is 20 breaths per minute, oxygen saturation is 98% on room air, and body temperature is 36.8 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient appears acutely ill, pale, diaphoretic, and lethargic, lying supine with eyes closed in severe distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Conscious but lethargic and slow to respond due to severe pain; fully oriented to person, place, and time.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Confrontation visual fields demonstrate complete bitemporal hemianopia; fundoscopic examination shows normal optic discs without papilledema.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Complete left oculomotor nerve palsy with severe ptosis, dilated left pupil sluggishly reactive to light, and paralysis of left eye adduction, elevation, and depression; right eye movements and other cranial nerves are intact.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Mild resistance and neck pain on passive neck flexion; Kernig and Brudzinski signs are negative.",
+        "maneuver": "meningeal_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "No tenderness over the frontal or maxillary sinuses; temporal arteries are non-tender, soft, and normally pulsatile bilaterally.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Motor strength is 5/5 throughout both upper and lower extremities with normal muscle tone.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Sensation to light touch and pinprick is completely intact bilaterally across all dermatomes.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes are 2+ symmetrically in biceps, triceps, patellar, and Achilles tendons; bilateral plantar responses are flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Radial and dorsalis pedis pulses are rapid, weak, and thready bilaterally; extremities are cool with capillary refill delayed at 3 seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      }
+    ]
+  }
+}

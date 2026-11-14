@@ -1,0 +1,355 @@
+{
+  "id": "psych_036",
+  "system": "psych",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Garcia",
+  "age": 50,
+  "gender": "female",
+  "chief_complaint": "fear of abandonment, unstable identity, wrist cutting",
+  "hpi_details": "A 50-year-old woman presents to the clinic with fear of abandonment, unstable identity, and wrist cutting. She describes this as a pattern she has lived with since her late teens — intense and unstable relationships, chronic emptiness, and repeated self-injury around separations — which has flared again over the past few weeks since her partner moved out, accompanied by generalized fatigue.",
+  "ideas": "She thinks she has a fundamental defect that makes her impossible to love and dooms every relationship she cares about.",
+  "concerns": "She is worried that the unbearable emptiness since her partner walked out will push her to cut too deep during a breakdown.",
+  "expectations": "She hopes to be connected with a counselor who will not abandon her and to receive medication to dull the crushing emotional agony.",
+  "pmh": "Long-standing pattern of unstable relationships, chronic emptiness, and recurrent self-harm dating back to late adolescence; several brief contacts with mental health services, no psychiatric admission",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Borderline Personality evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Borderline Personality is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Borderline Personality: Dialectical Behavior Therapy (DBT) and collaborative safety planning, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fear of abandonment, unstable identity, wrist cutting",
+      "Key HPI features: A 50-year-old woman presents to the clinic with fear of abandonment, unstable identity, and wrist cutting. She describes this as a pattern she has lived with since her late teens — intense and unstable relationships, chronic emptiness, and repeated self-injury around separations — which has flared again over the past few weeks since her partner moved out, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Borderline Personality.",
+      "Relevant background/PMH: Long-standing pattern of unstable relationships, chronic emptiness, and recurrent self-harm dating back to late adolescence; several brief contacts with mental health services, no psychiatric admission"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Borderline Personality.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Adjustment disorder without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Acute suicidal or homicidal ideation."
+    ],
+    "management_principles": [
+      "Plan for Borderline Personality: Dialectical Behavior Therapy (DBT), collaborative safety plan, and urgent risk assessment for self-harm",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of fear of abandonment, unstable identity, wrist cutting. HPI: borderline personality disorder.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Borderline Personality.",
+    "assessment": "Condition highly suspicious for Borderline Personality.",
+    "plan": "Perform urgent suicide and self-harm risk assessment; arrange emergency evaluation if risk is imminent. Begin Dialectical Behavior Therapy (DBT) and develop a collaborative safety plan."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Borderline Personality Disorder, including the DSM-5 requirement for an enduring, pervasive pattern with onset traceable to adolescence or early adulthood rather than a new onset in later life",
+    "Select appropriate diagnostic workup for Borderline Personality",
+    "Implement evidence-based management plan: Dialectical Behavior Therapy (DBT), collaborative safety plan, and self-harm risk assessment"
+  ],
+  "teaching": {
+    "diagnosis": "Borderline Personality",
+    "one_liner": "Psychiatric evaluation for patient presenting with fear of abandonment, unstable identity, wrist cutting.",
+    "differentials": [
+      "Bipolar II disorder",
+      "Major depressive disorder",
+      "PTSD",
+      "Substance use disorder"
+    ],
+    "red_flags": [
+      "Acute suicidal or homicidal ideation",
+      "Severe self-neglect"
+    ],
+    "must_ask": [
+      {
+        "objective": "Self-harm intent and safety",
+        "say": "Can you tell me about the cutting — was it to cope with feelings or to end your life?",
+        "domains": [
+          "concerns",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "cutting",
+          "self-harm",
+          "cope",
+          "suicide",
+          "wrist"
+        ]
+      },
+      {
+        "objective": "Fear of abandonment",
+        "say": "Do you have an intense fear of people close to you leaving?",
+        "domains": [
+          "ideas",
+          "concerns"
+        ],
+        "keywords": [
+          "abandonment",
+          "fear",
+          "leaving",
+          "alone",
+          "reject"
+        ]
+      },
+      {
+        "objective": "Identity and relationship instability",
+        "say": "Do your feelings about yourself or others shift quickly and dramatically?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "unstable",
+          "identity",
+          "relationships",
+          "shifting",
+          "dramatically"
+        ]
+      },
+      {
+        "objective": "Impulsivity when distressed",
+        "say": "Do you act impulsively, like with spending or substance use, when you're upset?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "impulsive",
+          "spending",
+          "substances",
+          "upset",
+          "reckless"
+        ]
+      },
+      {
+        "objective": "Chronic emptiness and anger control",
+        "say": "Do you often feel empty inside, or have trouble controlling your anger?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "empty",
+          "anger",
+          "control",
+          "chronic",
+          "rage"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I've been feeling overwhelmed and deeply depressed, and a couple of days ago I ended up cutting my wrist again after my partner left me.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My low mood flared intensely about three weeks ago right after my partner moved out, though my feelings fluctuate wildly throughout every day.",
+        "topic": "Onset and course of low mood"
+      },
+      {
+        "answer": "Three weeks ago, my partner packed their bags and walked out after an argument, which completely shattered me.",
+        "topic": "Triggering event"
+      },
+      {
+        "answer": "I haven't been able to enjoy anything lately. Everything feels empty and pointless right now.",
+        "topic": "Loss of interest and pleasure"
+      },
+      {
+        "answer": "It takes me hours to fall asleep because my mind races with panic, but in the mornings I struggle to get out of bed.",
+        "topic": "Sleep changes"
+      },
+      {
+        "answer": "My appetite has dropped significantly over the past three weeks, and I think I've lost about two kilograms.",
+        "topic": "Appetite and weight changes"
+      },
+      {
+        "answer": "I feel constantly drained and fatigued, and my concentration is so poor that I can barely focus on work or reading.",
+        "topic": "Fatigue and concentration"
+      },
+      {
+        "answer": "I feel completely worthless and broken, like everything that goes wrong in my relationships is entirely my fault.",
+        "topic": "Guilt and worthlessness"
+      },
+      {
+        "answer": "I feel emotionally agitated and restless inside, pacing back and forth whenever the wave of panic hits.",
+        "topic": "Psychomotor agitation or slowing"
+      },
+      {
+        "answer": "I made several shallow cuts on my left wrist two days ago with a razor blade. It was not to end my life, but to release the unbearable emotional agony inside.",
+        "topic": "Wrist cutting and self-harm intent"
+      },
+      {
+        "answer": "I have had passing thoughts that maybe not waking up would end the pain, but I do not want to die and have no plan or intention to commit suicide.",
+        "topic": "Suicidal ideation and plan"
+      },
+      {
+        "answer": "My sister checks on me every evening, and I genuinely want to learn how to heal and stop destroying my life.",
+        "topic": "Protective factors and safety"
+      },
+      {
+        "answer": "I'm terrified that one night the pain and emptiness will get so bad that I'll cut too deep and bleed to death all alone.",
+        "topic": "Fear of abandonment"
+      },
+      {
+        "answer": "My relationships are always turbulent. I tend to see people as either perfect angels or completely heartless, and my feelings switch in an instant.",
+        "topic": "Relationship instability"
+      },
+      {
+        "answer": "I have never known who I truly am. My sense of self, career goals, and values keep shifting depending on who I am around.",
+        "topic": "Identity instability"
+      },
+      {
+        "answer": "There is a profound, aching void inside my chest that has been there for as long as I can remember.",
+        "topic": "Chronic emptiness"
+      },
+      {
+        "answer": "I struggle with intense, explosive anger over minor slights, and I say awful things that I immediately regret once I calm down.",
+        "topic": "Anger control"
+      },
+      {
+        "answer": "When I am distressed, I do reckless things without thinking, like spending money I don't have, binge eating, or cutting myself.",
+        "topic": "Impulsivity when distressed"
+      },
+      {
+        "answer": "I don't have intrusive flashbacks or nightmares of a life-threatening trauma.",
+        "topic": "Trauma and PTSD symptoms"
+      },
+      {
+        "answer": "No, I have never had times where I felt unusually high, needed almost no sleep, or felt grandiose.",
+        "topic": "Elevated mood or mania"
+      },
+      {
+        "answer": "No, I have never heard voices, seen things that weren't there, or felt that anyone was persecuting me.",
+        "topic": "Hallucinations and delusions"
+      },
+      {
+        "answer": "This crisis has disrupted my entire routine. I called in sick to work all week and have barely left my apartment.",
+        "topic": "Impact on daily functioning"
+      },
+      {
+        "answer": "No, I haven't had cold intolerance, coarse hair, or constipation.",
+        "topic": "Thyroid symptoms"
+      },
+      {
+        "answer": "I have struggled with emotional volatility, turbulent relationships, and self-harm since my late teens, but I have no other chronic medical illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have attended brief counseling sessions and seen a psychiatrist a couple of times over the years, but I have never been admitted to a psychiatric hospital.",
+        "topic": "Past psychiatric treatment"
+      },
+      {
+        "answer": "I had an uncomplicated appendectomy in my early twenties, but no other surgeries or hospitalizations.",
+        "topic": "Past surgery and hospital stays"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter medicines, or supplements right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I do not smoke cigarettes or use any nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe a glass of wine once or twice a month, and I do not use illicit drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "I work as an administrative assistant at an office, and I live alone in an apartment now that my partner has left.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My cycles have become somewhat irregular over the past year, and my last menstrual period was about two months ago. I am not pregnant.",
+        "topic": "Menstrual and reproductive history"
+      },
+      {
+        "answer": "My mother struggled with severe chronic depression and mood swings, but there is no family history of completed suicide or bipolar disorder.",
+        "topic": "Family psychiatric history"
+      },
+      {
+        "answer": "I feel like there's something fundamentally broken inside me that makes me impossible to love and drives everyone away.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that one night the pain and emptiness will get so bad that I'll cut too deep and bleed to death all alone.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get a referral to a long-term therapist who won't give up on me and something to take the edge off this agonizing pain.",
+        "topic": "Patient expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, heart rate 74 beats per minute, respiratory rate 14 breaths per minute, temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Neatly dressed woman appearing anxious and tearful with normal psychomotor activity; maintains fair eye contact.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and fully oriented; speech normal in rate and rhythm; mood is depressed and affect is labile; no delusions or perceptual disturbances; fair insight.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple superficial, healing linear incised wounds on the volar left wrist without signs of infection, alongside older healed scars; tender to direct palpation.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor; sclerae are non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and without palpable nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezes, rhonchi, or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

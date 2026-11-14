@@ -1,0 +1,349 @@
+{
+  "id": "obgyn_002",
+  "system": "obstetrics & gynecology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Baker",
+  "age": 26,
+  "gender": "female",
+  "chief_complaint": "sudden excruciating right lower quadrant pelvic pain, syncope, vaginal spotting, and positive pregnancy test with hypotension",
+  "hpi_details": "26F presents with 3-hour history of severe, sharp right lower quadrant abdominal/pelvic pain that caused her to faint (syncope) while walking to the bathroom. Reports 6 weeks of amenorrhea since last normal menstrual period accompanied by light brown vaginal spotting for the past 3 days. Complains of right shoulder tip pain when lying flat.",
+  "ideas": "thinks she has appendicitis or had a miscarriage that caused internal bleeding",
+  "concerns": "in severe pain and feeling extremely faint and dizzy when sitting up",
+  "expectations": "wants immediate ultrasound, IV fluids, and emergency surgery to stop the internal bleeding",
+  "pmh": "History of Chlamydia pelvic inflammatory disease 3 years ago treated successfully",
+  "medications": "None",
+  "social_hx": "Graphic designer, non-smoker",
+  "investigation_events": [{
+    "id": "stat_ruptured_ectopic_workup",
+    "title": "Emergency pregnancy test and transvaginal ultrasound",
+    "order_terms": ["pregnancy test", "urine hCG", "beta hCG", "transvaginal ultrasound", "TVUS", "pelvic ultrasound"],
+    "availability_message": "Point-of-care pregnancy testing and emergency ultrasound results are now available. Resuscitation and operative transfer must not be delayed.",
+    "results": [
+      {"id": "urine_hcg", "test": "Point-of-care urine beta-hCG", "value": "Positive", "flag": "abnormal"},
+      {"id": "tvus", "test": "Transvaginal ultrasound", "value": "No intrauterine gestational sac; 3.8 cm right adnexal complex mass with peripheral vascularity and large-volume echogenic free fluid extending to Morison pouch", "flag": "critical", "note": "Consistent with ruptured right ectopic pregnancy and hemoperitoneum."}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Ruptured ectopic pregnancy with hemoperitoneum evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Ruptured ectopic pregnancy with hemoperitoneum is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes STAT gynecological surgical emergency: immediately transfer to operating room for emergency exploratory Laparoscopy vs Laparotomy, right salpingectomy (or salpingostomy if contralateral tube damaged/fertility desired and stable), and evacuation of hemoperitoneum, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden excruciating right lower quadrant pelvic pain, syncope, vaginal spotting, and positive pregnancy test with hypotension",
+      "Key HPI features: 26F presents with 3-hour history of severe, sharp right lower quadrant abdominal/pelvic pain that caused her to faint (syncope) while walking to the bathroom. Reports 6 weeks of amenorrhea since last normal menstrual period accompanied by light brown vaginal spotting for the past 3 days. Complains of right shoulder tip pain when lying flat.",
+      "Objective/Exam findings: Vitals: HR 126, BP 86/52 (orthostatic drop), SpO2 98%. Abdomen distended with severe tenderness, guarding, and rebound tenderness over right lower quadrant. Positive Kehr sign (referred right shoulder tip pain secondary to hemoperitoneum irritating subphrenic diaphragm). Pelvic exam reveals marked cervical motion tenderness and right adnexal fullness with excruciating tenderness. Point-of-care urine beta-hCG positive. STAT Transvaginal Ultrasound (TVUS) reveals NO intrauterine gestational sac, a 3.8 cm right adnexal complex mass with peripheral vascular ring of fire Doppler flow, and a large volume of echogenic free fluid (hemoperitoneum) filling the cul-de-sac and tracking up into the hepatorenal Morison pouch.",
+      "Relevant background/PMH: History of Chlamydia pelvic inflammatory disease 3 years ago treated successfully"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Ruptured ectopic pregnancy with hemoperitoneum.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Ruptured ovarian cyst without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Syncope."
+    ],
+    "management_principles": [
+      "STAT gynecological surgical emergency: immediately transfer to operating room for emergency exploratory Laparoscopy vs Laparotomy, right salpingectomy (or salpingostomy if contralateral tube damaged/fertility desired and stable), and evacuation of hemoperitoneum",
+      "Establish two large-bore IVs (14-16 gauge), type and crossmatch 4 units packed RBCs, and initiate rapid Type O-negative / crossmatched blood transfusion and crystalloid resuscitation en route to OR",
+      "Methotrexate is strictly contraindicated given ruptured state and hemodynamic collapse"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "26F with 6-week amenorrhea and prior PID history presenting with acute ruptured ectopic pregnancy triad: abdominal pain, vaginal bleeding, and hemodynamic syncope.",
+    "objective": "Vitals: HR 126, BP 86/52 (orthostatic drop), SpO2 98%. Abdomen distended with severe tenderness, guarding, and rebound tenderness over right lower quadrant. Positive Kehr sign (referred right shoulder tip pain secondary to hemoperitoneum irritating subphrenic diaphragm). Pelvic exam reveals marked cervical motion tenderness and right adnexal fullness with excruciating tenderness. Point-of-care urine beta-hCG positive. STAT Transvaginal Ultrasound (TVUS) reveals NO intrauterine gestational sac, a 3.8 cm right adnexal complex mass with peripheral vascular ring of fire Doppler flow, and a large volume of echogenic free fluid (hemoperitoneum) filling the cul-de-sac and tracking up into the hepatorenal Morison pouch.",
+    "assessment": "Ruptured Right Tubal Ectopic Pregnancy with Hemoperitoneum and Hemodynamic Instability (Class III Hemorrhagic Shock).",
+    "plan": "STAT gynecological surgical emergency: immediately transfer to operating room for emergency exploratory Laparoscopy vs Laparotomy, right salpingectomy (or salpingostomy if contralateral tube damaged/fertility desired and stable), and evacuation of hemoperitoneum. Establish two large-bore IVs (14-16 gauge), type and crossmatch 4 units packed RBCs, and initiate rapid Type O-negative / crossmatched blood transfusion and crystalloid resuscitation en route to OR. Methotrexate is strictly contraindicated given ruptured state and hemodynamic collapse."
+  },
+  "learning_objectives": [
+    "Identify the clinical triad of ectopic pregnancy (amenorrhea, abdominal pain, vaginal bleeding) and red flag signs of rupture (syncope, hypotension, shoulder tip pain via Kehr sign)",
+    "Correlate transvaginal ultrasound findings (empty uterine cavity with beta-hCG above discriminatory zone 1500-2000 mIU/mL, adnexal mass, echogenic free fluid) with ruptured tubal pregnancy",
+    "Understand why medical management with intramuscular Methotrexate is absolutely contraindicated in ruptured ectopic pregnancy with hemodynamic instability or adnexal mass >3.5-4.0 cm with fetal heartbeat",
+    "Outline emergency surgical priorities: rapid operating room transfer for laparoscopic/open salpingectomy coupled with aggressive blood product resuscitation"
+  ],
+  "teaching": {
+    "diagnosis": "Ruptured ectopic pregnancy with hemoperitoneum",
+    "one_liner": "26F with 6 weeks amenorrhea, sharp RLQ pain, syncope, and shoulder-tip pain — classic ruptured ectopic triad plus Kehr sign.",
+    "differentials": [
+      "Ruptured ovarian cyst",
+      "Appendicitis",
+      "Ovarian torsion",
+      "Miscarriage"
+    ],
+    "red_flags": [
+      "Syncope",
+      "Shoulder-tip pain (Kehr sign)",
+      "Hypotension",
+      "Severe sudden pelvic pain"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm last menstrual period and pregnancy status",
+        "say": "When was your last period, and have you taken a pregnancy test?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "LMP",
+          "pregnancy test"
+        ]
+      },
+      {
+        "objective": "Elicit syncope details",
+        "say": "You mentioned you fainted — can you tell me more about that?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "syncope",
+          "faint"
+        ]
+      },
+      {
+        "objective": "Screen for referred shoulder pain (Kehr sign)",
+        "say": "Do you feel any pain in your shoulder, especially when lying flat?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "shoulder pain",
+          "Kehr sign"
+        ]
+      },
+      {
+        "objective": "Ask about vaginal bleeding",
+        "say": "Have you had any vaginal spotting or bleeding?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vaginal bleeding",
+          "spotting"
+        ]
+      },
+      {
+        "objective": "Review risk factors for ectopic pregnancy",
+        "say": "Have you ever had a pelvic infection or surgery on your tubes?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "PID",
+          "tubal surgery"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "86/52",
+      "hr": 126,
+      "rr": 22,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "Doctor, my lower right belly suddenly started hurting terribly a few hours ago, and I actually passed out when I tried walking to the bathroom.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The severe pain started suddenly about three hours ago, and it hit me all at once without warning.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It is down in my lower right belly, and it has stayed right there the whole time rather than moving from anywhere else.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "My right shoulder tip starts hurting terribly whenever I lie completely flat on my back.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It is a sharp, stabbing, and constant tearing pain that does not ease up.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "I would rate it a nine or ten out of ten; it is the worst pain I have ever felt.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Moving around makes my belly hurt much worse, and lying flat makes my right shoulder throb, so I feel completely helpless.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have never had sudden, severe pain like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I feel very nauseated from the intense pain, but I haven't actually thrown up.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "My bowel movements have been normal, and I haven't had any diarrhea, constipation, or blood in my stool.",
+        "topic": "Bowel habits and stool"
+      },
+      {
+        "answer": "No, I haven't had any fever or chills today.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my eyes look normal, my skin hasn't turned yellow, and my urine is its usual light yellow color.",
+        "topic": "Jaundice and stool color"
+      },
+      {
+        "answer": "No, it does not burn when I pee, and I haven't seen any blood in my urine.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "Yes, about two hours ago I felt extremely dizzy and completely blacked out for a few seconds on my way to the bathroom.",
+        "topic": "Dizziness and syncope"
+      },
+      {
+        "answer": "I have noticed light brown vaginal spotting for the past three days, but it wasn't like a normal period.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "No, I don't have any chest pressure, palpitations, or trouble breathing, though breathing deeply catches when my belly hurts.",
+        "topic": "Chest pain and breathlessness"
+      },
+      {
+        "answer": "I only had a small bowl of oatmeal this morning, and I haven't had any alcohol to drink.",
+        "topic": "Food intake and alcohol"
+      },
+      {
+        "answer": "No, I haven't taken any aspirin, ibuprofen, or painkillers for this.",
+        "topic": "Painkillers or aspirin"
+      },
+      {
+        "answer": "No, I've never had heart palpitations, an irregular heartbeat, or any blood vessel problems.",
+        "topic": "Heart disease and arrhythmias"
+      },
+      {
+        "answer": "My last normal period was about six weeks ago, so my period is around two weeks late now.",
+        "topic": "Last menstrual period and cycle"
+      },
+      {
+        "answer": "I took a home urine pregnancy test yesterday because my period was late, and it came back positive.",
+        "topic": "Pregnancy possibility"
+      },
+      {
+        "answer": "My partner and I use condoms, but we haven't always used them consistently, and I don't take birth control pills.",
+        "topic": "Contraception"
+      },
+      {
+        "answer": "Yes, I am in a monogamous relationship with my boyfriend, and I have never had an IUD inserted or had surgery on my tubes.",
+        "topic": "Sexual and reproductive history"
+      },
+      {
+        "answer": "I had a chlamydia pelvic infection about three years ago, but my doctor gave me antibiotics and it completely cleared up.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "No, I have never had any surgeries or needed to stay overnight in a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I don't have any allergies to medicines, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking"
+      },
+      {
+        "answer": "I only have an occasional glass of wine socially once or twice a month, but none recently.",
+        "topic": "Alcohol"
+      },
+      {
+        "answer": "I work as a graphic designer and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Nobody in my family has a history of bowel disease, aneurysms, or early heart problems.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I was worried that my appendix might have burst, or maybe I had a miscarriage that caused internal bleeding.",
+        "topic": "Patient ideas on cause"
+      },
+      {
+        "answer": "I feel so lightheaded that I feel like I'm going to pass out again, and I'm terrified that something inside me is bleeding.",
+        "topic": "Main concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Pale, diaphoretic young female lying flat in severe acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 86/52 mmHg, pulse 126 beats/min, respiratory rate 22 breaths/min, body temperature 36.8°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Marked conjunctival pallor with no scleral icterus.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is mildly distended without surgical scars or skin lesions.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hypoactive bowel sounds heard in all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Severe tenderness and involuntary muscular guarding over the right lower quadrant and suprapubic area.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked rebound tenderness across the lower abdomen, most pronounced in the right lower quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "Positive McBurney point tenderness, but severe voluntary guarding limits psoas and obturator maneuver evaluation.",
+        "maneuver": "appendicitis_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "No tenderness to percussion over either costovertebral angle.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Marked cervical motion tenderness and right adnexal fullness with exquisite tenderness; small amount of dark blood in vaginal vault.",
+        "maneuver": "pelvic_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

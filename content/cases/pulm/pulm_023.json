@@ -1,0 +1,337 @@
+{
+  "id": "pulm_023",
+  "system": "pulmonology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Sullivan",
+  "age": 55,
+  "gender": "male",
+  "chief_complaint": "severe shortness of breath, chest pain, and coughing up blood 4 weeks after starting chemotherapy",
+  "hpi_details": "55-year-old male with a history of advanced non-small cell lung cancer presenting via emergency ambulance with acute, severe, rapidly worsening shortness of breath over the past 24 hours. Accompanied by right-sided pleuritic chest pain and coughing up fresh blood-streaked sputum (haemoptysis). Four weeks ago, he began systemic outpatient chemotherapy combined with immunotherapy. Has felt increasingly weak and immobilized, spending most of the past 2 weeks resting in bed at home due to cancer fatigue. His wife noticed his right leg looking slightly puffy and swollen yesterday morning. On arrival, he is extremely distressed, gasping for air while sitting upright, and complains of lightheadedness.",
+  "ideas": "thinks his lung cancer has suddenly doubled in size overnight blocking off his main windpipe",
+  "concerns": "terrified he is dying from respiratory failure and wants to know if the chemotherapy caused a blood clot",
+  "expectations": "wants immediate high-pressure oxygen, urgent CT scans, and emergency blood thinning injections",
+  "pmh": "metastatic adenocarcinoma of the right lung diagnosed 2 months ago, hypertension",
+  "medications": "carboplatin/pemetrexed/pembrolizumab chemotherapy regimen, amlodipine 5mg OD, prophylactic ondansetron",
+  "social_hx": "ex-smoker (40 pack-years, quit 2 months ago), zero alcohol, retired engineer, bedbound secondary to fatigue",
+  "investigation_events": [{"id":"cancer_associated_pe_workup","title":"STAT cancer-associated PE results","order_terms":["ctpa","ct pulmonary angiogram","ct pulmonary angiography","bedside echo","echocardiogram","troponin","platelet count","cbc","creatinine","renal function"],"availability_message":"The STAT results confirm high-risk pulmonary embolism with right-heart strain; oxygenation support and PE/ICU consultation should not be delayed.","results":[{"id":"ctpa","test":"CT pulmonary angiography","value":"Saddle embolus across the main pulmonary artery bifurcation with extensive bilateral pulmonary-artery clot burden","flag":"critical","collected_at":"During emergency assessment"},{"id":"bedside_echo","test":"Bedside echocardiogram","value":"Severe right-ventricular dilatation, RV:LV ratio 1.3, systolic dysfunction, and septal flattening","flag":"critical","collected_at":"During emergency assessment"},{"id":"troponin","test":"High-sensitivity troponin I","value":"186","unit":"ng/L","reference_range":"<20","flag":"critical","specimen":"Blood","collected_at":"At emergency presentation"},{"id":"platelets","test":"Platelet count","value":"118","unit":"x10^9/L","reference_range":"150-400","flag":"low","specimen":"Blood","collected_at":"At emergency presentation"},{"id":"creatinine","test":"Serum creatinine","value":"1.0","unit":"mg/dL","reference_range":"0.7-1.3","flag":"normal","specimen":"Blood","collected_at":"At emergency presentation"}]}],
+  "clinical_knowledge": {
+    "topic": "Acute Pulmonary Embolism evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Pulmonary Embolism is essential for appropriate diagnostic workup and treatment.",
+      "Clinical history, severity assessment, and targeted testing must be interpreted together rather than relying on one symptom alone.",
+      "Stabilize oxygenation and circulation, then assess haemodynamic risk and right-ventricular strain.",
+      "Management should follow local pathways and account for patient-specific comorbidity and clinical severity."
+    ],
+    "diagnostic_clues": [
+      "Chief complaint: severe shortness of breath, chest pain, and coughing up blood 4 weeks after starting chemotherapy",
+      "Key HPI features: 55-year-old male with a history of advanced non-small cell lung cancer presenting via emergency ambulance with acute, severe, rapidly worsening shortness of breath over the past 24 hours. Accompanied by right-sided pleuritic chest pain and coughing up fresh blood-streaked sputum (haemoptysis). Four weeks ago, he began systemic outpatient chemotherapy combined with immunotherapy. Has felt increasingly weak and immobilized, spending most of the past 2 weeks resting in bed at home due to cancer fatigue. His wife noticed his right leg looking slightly puffy and swollen yesterday morning. On arrival, he is extremely distressed, gasping for air while sitting upright, and complains of lightheadedness.",
+      "Objective/examination findings: Perform focused examination, vital-sign assessment, and diagnosis-specific investigations.",
+      "Relevant background/PMH: metastatic adenocarcinoma of the right lung diagnosed 2 months ago, hypertension",
+      "Current medications: carboplatin/pemetrexed/pembrolizumab chemotherapy regimen, amlodipine 5mg OD, prophylactic ondansetron"
+    ],
+    "common_misconceptions": [
+      "Assuming a mild or atypical presentation rules out Acute Pulmonary Embolism.",
+      "Relying on a single normal test result to prematurely exclude serious pathology.",
+      "Equating transient symptom improvement with resolution of the underlying condition.",
+      "Failing to consider clinically important alternative diagnoses."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation.",
+      "Prematurely discharging or reassuring the patient before appropriate assessment.",
+      "Starting treatment without considering contraindications, interactions, or organ function.",
+      "Ignoring critical warning signs: Hypotension or shock."
+    ],
+    "management_principles": [
+      "Stabilize oxygenation and circulation, then assess haemodynamic risk and right-ventricular strain.",
+      "Obtain urgent CTPA when appropriate; do not delay anticoagulation in a high-probability patient when imaging is delayed and bleeding risk permits.",
+      "Select anticoagulation with attention to cancer, renal function, thrombocytopenia, and drug interactions."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "European Society of Cardiology Guidelines: Acute Pulmonary Embolism",
+        "url": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Pulmonary-Embolism-Diagnosis-and-Management-of"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: severe shortness of breath, chest pain, and coughing up blood 4 weeks after starting chemotherapy\n\n55-year-old male with a history of advanced non-small cell lung cancer presenting via emergency ambulance with acute, severe, rapidly worsening shortness of breath over the past 24 hours. Accompanied by right-sided pleuritic chest pain and coughing up fresh blood-streaked sputum (haemoptysis). Four weeks ago, he began systemic outpatient chemotherapy combined with immunotherapy. Has felt increasingly weak and immobilized, spending most of the past 2 weeks resting in bed at home due to cancer fatigue. His wife noticed his right leg looking slightly puffy and swollen yesterday morning. On arrival, he is extremely distressed, gasping for air while sitting upright, and complains of lightheadedness.",
+    "objective": "Vitals: severe tachypnoea RR 32, marked tachycardia HR 126, severe hypoxaemia O2 sat 84% on room air (improving to 92% on 15L non-rebreather mask), BP 108/68 mmHg. Physical exam: right calf swollen (measured +3.5 cm larger than left), warm, and tender along deep vein. Chest auscultation: diminished breath sounds over right lower lung base with pleural rub. Calculate Two-Level Wells Score: Active cancer (1 point) + Bedridden recently >3 days (1.5 points) + Clinical signs of DVT (3 points) + PE #1 diagnosis or equally likely (3 points) + HR >100 (1.5 points) -> Total Wells Score = 10.0 points (High Risk / PE Likely). In this high-probability, unstable-appearing presentation, do not use D-dimer to rule out PE; arrange urgent CTPA if safe for transfer, or bedside echocardiography/leg ultrasound if too unstable. 12-lead ECG: sinus tachycardia, S1Q3T3 pattern, and right precordial T-wave inversions. Bloods: FBC, U&Es, coagulation, baseline troponin (elevated indicating right ventricular myocardial injury), and arterial blood gas. CTPA: confirms large saddle pulmonary embolism straddling the main pulmonary artery bifurcation with extensive occlusive clots extending into both right and left pulmonary arteries. Bedside echocardiogram: confirms severe right ventricular dilation (RV:LV ratio >1.3), RV systolic dysfunction, and septal flattening.",
+    "assessment": "Acute Submassive (Intermediate-High Risk) Pulmonary Embolism with acute right ventricular strain and myocardial necrosis, secondary to cancer-associated thrombosis (Trousseau syndrome / hypercoagulability of malignancy exacerbated by chemotherapy and immobilization). DDx: acute malignant pericardial effusion / cardiac tamponade (ruled out by echo), acute post-obstructive pneumonia, pneumothorax, chemotherapy-induced pneumonitis.",
+    "plan": "Immediate emergency medical stabilization: give supplemental oxygen, urgently involve senior emergency/PE and ICU teams, and admit to a monitored high-dependency setting for continuous ECG and blood-pressure observation. Start therapeutic anticoagulation promptly only after a clinician assesses active haemoptysis, platelet count, renal function, interactions, and other bleeding contraindications; in this potentially deteriorating patient, parenteral anticoagulation is generally preferred initially because it can be rapidly adjusted. Select longer-term LMWH or a DOAC with oncology/haematology input after bleeding-risk assessment. If systolic BP falls below 90 mmHg, shock develops, or there is other haemodynamic collapse, activate ICU/interventional PE pathways immediately to assess reperfusion (systemic thrombolysis, catheter-directed treatment, or thrombectomy); the choice must balance the major bleeding risk."
+  },
+  "learning_objectives": [
+    "Calculate and interpret the Two-Level Wells Score (>4 points High Risk) in active oncology patients mandating direct transition to CTPA without D-dimer",
+    "Identify the prothrombotic pathophysiology of cancer-associated thrombosis (Trousseau syndrome exacerbated by chemotherapy and immobilization)",
+    "Select evidence-based anticoagulation for cancer-associated thrombosis (LMWH or DOACs apixaban/rivaroxaban) while screening for luminal bleeding risks",
+    "Monitor continuous hemodynamic and echocardiographic parameters to catch submassive-to-massive PE progression requiring immediate thrombolytic/interventional rescue"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Pulmonary Embolism",
+    "one_liner": "Acute thromboembolism of the pulmonary arteries causing pleuritic chest pain, hypoxaemia, right-heart strain, and possible haemodynamic collapse.",
+    "differentials": [
+      "Malignant pericardial effusion or tamponade",
+      "Pneumothorax",
+      "Post-obstructive pneumonia"
+    ],
+    "red_flags": [
+      "Hypotension or shock",
+      "Syncope or worsening hypoxaemia"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sudden onset dyspnea and pleuritic chest pain",
+        "say": "How suddenly did the breathlessness and chest pain start, and does the pain worsen with breathing?",
+        "domains": [
+          "onset_duration",
+          "location"
+        ],
+        "keywords": [
+          "sudden",
+          "pleuritic",
+          "chest pain",
+          "dyspnea",
+          "acute"
+        ]
+      },
+      {
+        "objective": "VTE risk factors: immobility and active malignancy",
+        "say": "Have you been mostly resting in bed lately, and how is your cancer treatment going?",
+        "domains": [
+          "pmh",
+          "aggravating"
+        ],
+        "keywords": [
+          "immobility",
+          "malignancy",
+          "cancer",
+          "VTE risk",
+          "bedbound"
+        ]
+      },
+      {
+        "objective": "Unilateral leg swelling suggesting DVT",
+        "say": "Has one of your legs been more swollen or painful than the other?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "leg swelling",
+          "DVT",
+          "unilateral",
+          "calf",
+          "deep vein thrombosis"
+        ]
+      },
+      {
+        "objective": "Haemoptysis and hemodynamic instability signs",
+        "say": "Have you felt lightheaded or faint along with coughing up blood?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "haemoptysis",
+          "lightheaded",
+          "syncope",
+          "hemodynamic",
+          "instability"
+        ]
+      },
+      {
+        "objective": "Recent chemotherapy and central line exposure",
+        "say": "Have you had any central lines placed or recent chemotherapy that could increase clotting risk?",
+        "domains": [
+          "medications",
+          "pmh"
+        ],
+        "keywords": [
+          "chemotherapy",
+          "central line",
+          "clotting",
+          "thrombosis risk",
+          "immunotherapy"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "108/68",
+      "hr": 126,
+      "rr": 32,
+      "spo2": 84,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I suddenly became terribly short of breath and my chest started hurting yesterday, and now I'm coughing up blood.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started abruptly about twenty-four hours ago and has gotten progressively worse by the hour.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "I am struggling to breathe even while resting completely still in bed; I can barely catch my breath to speak.",
+        "topic": "Severity of breathlessness"
+      },
+      {
+        "answer": "The breathlessness has been constant and worsening without any breaks, and I have never felt anything like this before.",
+        "topic": "Course and past episodes"
+      },
+      {
+        "answer": "I cannot lie flat at all because I feel like I'm suffocating, though I haven't woken up gasping in the middle of the night.",
+        "topic": "Orthopnea and nocturnal dyspnea"
+      },
+      {
+        "answer": "Taking a breath in or moving even a little bit makes the pain and breathing much worse, and nothing gives me relief.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I haven't heard any wheezing or whistling sounds when I breathe.",
+        "topic": "Wheezing or stridor"
+      },
+      {
+        "answer": "I've had a dry cough that turned painful, but I haven't had any fever or chills.",
+        "topic": "Cough, sputum, and fever"
+      },
+      {
+        "answer": "It is a sharp, stabbing pain on the right side of my chest that catches every time I try to inhale deeply.",
+        "topic": "Chest pain characteristics"
+      },
+      {
+        "answer": "My heart feels like it is racing wildly in my chest and I feel dizzy and lightheaded, though I haven't passed out.",
+        "topic": "Palpitations, dizziness, or fainting"
+      },
+      {
+        "answer": "Yes, just this morning I began coughing up phlegm streaked with fresh red blood.",
+        "topic": "Coughing up blood"
+      },
+      {
+        "answer": "My left leg looks normal, and I haven't had any general swelling in both ankles or recent weight gain.",
+        "topic": "Bilateral leg swelling and weight gain"
+      },
+      {
+        "answer": "My wife noticed my right calf looked swollen yesterday morning, and I've been stuck in bed resting for the last two weeks due to extreme fatigue.",
+        "topic": "Unilateral leg swelling and immobility"
+      },
+      {
+        "answer": "I have felt utterly exhausted from my cancer treatments, but I haven't noticed black tarry stools or abnormal bleeding elsewhere.",
+        "topic": "Fatigue, pallor, and bleeding"
+      },
+      {
+        "answer": "I don't have tingling around my mouth or fingers, but I am terrified because I cannot breathe.",
+        "topic": "Tingling and anxiety"
+      },
+      {
+        "answer": "I have never had asthma, COPD, a heart attack, or congestive heart failure.",
+        "topic": "Underlying cardiopulmonary conditions"
+      },
+      {
+        "answer": "I have an implanted port in my chest and began outpatient chemotherapy and immunotherapy about four weeks ago.",
+        "topic": "Chemotherapy and central line"
+      },
+      {
+        "answer": "I take my blood pressure medication, anti-nausea pills, and my cancer chemo; I do not take beta-blockers, aspirin, or anti-inflammatory painkillers.",
+        "topic": "Medication-related dyspnea triggers"
+      },
+      {
+        "answer": "I'm terrified that my lung cancer has doubled in size overnight and is choking off my windpipe.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I feel like I am dying from suffocation, and I'm deeply worried that the chemotherapy might have caused a blood clot.",
+        "topic": "Patient concerns and fears"
+      },
+      {
+        "answer": "I was diagnosed with advanced non-small cell adenocarcinoma in my right lung two months ago, and I have high blood pressure.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I stayed in the hospital two months ago for tests and a biopsy to stage my lung cancer, but I have never had major surgery.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take amlodipine five milligrams once daily for my blood pressure, ondansetron as needed for nausea, and receive IV carboplatin, pemetrexed, and pembrolizumab.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known drug allergies.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I smoked a pack of cigarettes a day for forty years, but I quit completely two months ago when I received my cancer diagnosis.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink any alcohol.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired engineer living with my wife, but lately I have been bedbound at home because of severe cancer-related fatigue.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure, but no one in my family has had blood clots, pulmonary embolisms, or premature heart disease.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 108/68 mmHg, heart rate 126 beats per minute, respiratory rate 32 breaths per minute, oxygen saturation 84% on room air, temperature 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "In severe acute respiratory distress, gasping for air while sitting upright, diaphoresis, and visibly anxious.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Mild conjunctival pallor with mild peripheral duskiness; sclerae are anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Elevated jugular venous pulsation at approximately 4 cm above the sternal angle with prominent waves.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Marked tachypnea with intercostal retractions and accessory muscle use; no chest wall tenderness or subcutaneous crepitus.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetrical resonance to percussion across all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Diminished breath sounds at the right lung base accompanied by an audible pleural friction rub; no crackles or wheezing.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Marked tachycardia with regular rhythm, an accentuated pulmonic component of the second heart sound (loud P2), and no murmurs or third heart sound.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No edema over the left lower leg; asymmetric swelling isolated to the right lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Right calf is warm, noticeably swollen measuring 3.5 cm greater in circumference than the left, with exquisite tenderness along the deep posterior calf veins.",
+        "maneuver": "calf_exam",
+        "response": "pain"
+      }
+    ]
+  }
+}

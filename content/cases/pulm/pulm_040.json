@@ -1,0 +1,345 @@
+{
+  "id": "pulm_040",
+  "system": "pulm",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Miller",
+  "age": 62,
+  "gender": "female",
+  "chief_complaint": "chronic cough producing copious purulent foul-smelling sputum",
+  "hpi_details": "A 62-year-old female presents to the clinic with chronic cough producing copious purulent foul-smelling sputum. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks some food or dust went down the wrong pipe weeks ago and is festering in her lungs, or that a sinus infection is draining foul fluid into her chest.",
+  "concerns": "She is worried that the awful smell and the sheer volume of phlegm will disgust her family and prevent her from attending church and social gatherings.",
+  "expectations": "She hopes to have her sputum tested and receive an effective antibiotic or rinse that will eliminate the foul odor and heavy mucus.",
+  "pmh": "Severe whooping cough and pneumonia at about age 5; recurrent chest infections; otherwise unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Bronchiectasis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Bronchiectasis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Bronchiectasis requires confirmation, evaluation for an underlying cause, sputum-directed assessment during exacerbations, and an individualized airway-clearance plan.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: chronic cough producing copious purulent foul-smelling sputum",
+      "Key HPI features: A 62-year-old female presents to the clinic with chronic cough producing copious purulent foul-smelling sputum. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Bronchiectasis.",
+      "Relevant background/PMH: Severe whooping cough and pneumonia at about age 5; recurrent chest infections; otherwise unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Bronchiectasis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Community-acquired pneumonia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe hypoxemia (SpO2 < 90%)."
+    ],
+    "management_principles": [
+      "Arrange respiratory evaluation, appropriate imaging, and sputum testing when infection is suspected.",
+      "Use airway-clearance techniques and antibiotics only according to an individualized clinician plan and microbiology results when available.",
+      "Escalate urgently for severe hypoxemia, respiratory distress, sepsis features, or massive hemoptysis."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": []
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of chronic cough producing copious purulent foul-smelling sputum. HPI: cough for over 6 months, worse over the last 3 weeks; severe whooping cough and pneumonia at about age 5; recurrent chest infections once or twice a year; no personal or family history of cystic fibrosis.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Bronchiectasis.",
+    "assessment": "Condition highly suspicious for Bronchiectasis.",
+    "plan": "Arrange respiratory evaluation, imaging, and sputum testing when infection is suspected. Use airway-clearance techniques and antibiotics only according to an individualized clinician plan and microbiology results when available. Escalate for severe hypoxemia, respiratory distress, sepsis features, or massive hemoptysis."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Bronchiectasis",
+    "Select appropriate diagnostic workup for Bronchiectasis",
+    "Describe cause-directed evaluation and individualized airway-clearance and antibiotic plans for bronchiectasis"
+  ],
+  "teaching": {
+    "diagnosis": "Bronchiectasis",
+    "one_liner": "Pulmonology case presenting with chronic cough producing copious purulent foul-smelling sputum.",
+    "differentials": [
+      "Chronic obstructive pulmonary disease",
+      "Cystic fibrosis",
+      "Allergic bronchopulmonary aspergillosis"
+    ],
+    "red_flags": [
+      "Severe hypoxemia (SpO2 < 90%)",
+      "Massive hemoptysis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sputum volume, purulence, and chronicity",
+        "say": "How much sputum do you cough up daily, and has it always been this thick and foul-smelling?",
+        "domains": [
+          "character",
+          "severity"
+        ],
+        "keywords": [
+          "sputum",
+          "purulent",
+          "foul-smelling",
+          "volume",
+          "chronic"
+        ]
+      },
+      {
+        "objective": "Frequency of respiratory infections and antibiotic use",
+        "say": "How often do you get chest infections that need antibiotics?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "infections",
+          "antibiotics",
+          "recurrent",
+          "exacerbations",
+          "frequency"
+        ]
+      },
+      {
+        "objective": "Childhood illness or underlying cause of bronchiectasis",
+        "say": "Did you have any serious lung infections as a child, or do you have conditions like rheumatoid arthritis?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "childhood infection",
+          "cause",
+          "underlying",
+          "rheumatoid",
+          "aetiology"
+        ]
+      },
+      {
+        "objective": "Haemoptysis and breathlessness on exertion",
+        "say": "Have you noticed blood in the sputum or breathlessness when you're active?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "haemoptysis",
+          "breathlessness",
+          "exertion",
+          "blood",
+          "activity"
+        ]
+      },
+      {
+        "objective": "Screen for cystic fibrosis and ciliary dysfunction risk factors",
+        "say": "Has anyone in your family had cystic fibrosis or chronic sinus problems?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "cystic fibrosis",
+          "ciliary",
+          "family history",
+          "sinusitis",
+          "genetic"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 96,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I have had a long-standing cough for months, but recently it has become much worse and I've been bringing up huge amounts of thick, bad-smelling, yellowish-green phlegm.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I have had a nagging cough for well over six months, but over the last three weeks it has intensified and the phlegm has gotten significantly heavier.",
+        "topic": "Duration of cough"
+      },
+      {
+        "answer": "It didn't start with a simple cold this time; the heavy phlegm just crept up on me and has been steadily building over recent weeks.",
+        "topic": "Onset and trigger"
+      },
+      {
+        "answer": "I cough up nearly half a cup of thick, greenish-yellow, foul-smelling phlegm every single day, especially right after waking up.",
+        "topic": "Sputum characteristics"
+      },
+      {
+        "answer": "It is definitely worst first thing in the morning and whenever I lie flat in bed, which makes the phlegm pool up and triggers coughing fits.",
+        "topic": "Diurnal and postural variation"
+      },
+      {
+        "answer": "I do have prolonged bouts of coughing trying to clear the thick mucus, but I don't make a whooping sound and I haven't vomited from coughing.",
+        "topic": "Paroxysms and whooping"
+      },
+      {
+        "answer": "Lying flat makes it much worse, and cold outdoor air or dusty environments irritate my chest, but nothing really stops the phlegm from building up.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "I do feel somewhat short of breath when I walk briskly or climb a flight of stairs, but I haven't noticed any whistling or wheezing sounds in my chest.",
+        "topic": "Wheezing and dyspnea"
+      },
+      {
+        "answer": "No, I haven't had any high fever or chills, though I have been feeling unusually tired and run-down lately.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, I haven't coughed up any bright red blood or noticed blood streaks in the phlegm.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "No, my weight has been stable and I haven't had any drenching night sweats.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "I don't have sharp, stabbing chest pain when breathing in, just a dull soreness across my ribcage from coughing so hard.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "No runny nose, chronic congestion, or sensation of liquid dripping down the back of my throat.",
+        "topic": "Rhinorrhea and post-nasal drip"
+      },
+      {
+        "answer": "No heartburn, sour acid coming up into my mouth, or frequent throat clearing.",
+        "topic": "Heartburn and acid reflux"
+      },
+      {
+        "answer": "No, I don't have swelling in my ankles or legs, and I don't need extra pillows because of heart failure.",
+        "topic": "Orthopnea and edema"
+      },
+      {
+        "answer": "No, I don't take any blood pressure medicines like ACE inhibitors, and I've never taken regular prescription pills for blood pressure.",
+        "topic": "Blood pressure medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "No, I have never had tuberculosis, and I haven't been in contact with anyone who has had active tuberculosis.",
+        "topic": "Tuberculosis exposure"
+      },
+      {
+        "answer": "No one at home or among my friends and acquaintances has a cough or respiratory infection.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "I am retired from an administrative desk job, and my home is clean with no mold, chemical fumes, industrial dust, or birds.",
+        "topic": "Environmental and occupational exposures"
+      },
+      {
+        "answer": "No history of allergic rhinitis, asthma, or atopic dermatitis.",
+        "topic": "Allergic diseases"
+      },
+      {
+        "answer": "I tend to get recurrent chest infections once or twice a year that require antibiotics from my clinic doctor to clear up.",
+        "topic": "Frequent chest infections"
+      },
+      {
+        "answer": "When I was about five years old, I had a very severe case of whooping cough followed by a bad bout of pneumonia that kept me sick for several weeks.",
+        "topic": "Childhood respiratory infections"
+      },
+      {
+        "answer": "No one in my family has cystic fibrosis, and I've never had chronic sinus problems, ear drainage, or fertility issues.",
+        "topic": "Cystic fibrosis and ciliary screening"
+      },
+      {
+        "answer": "I wondered if I swallowed some food down the wrong way a while back and it's been rotting in my chest, or if it's severe sinus drainage.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "The smell is so foul and there's so much phlegm that I'm mortified people around me will notice and think I have something revolting or contagious.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I hope you can test this phlegm and prescribe something strong to dry up the mucus and get rid of this awful smell.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "Aside from that severe childhood lung infection, I have had no major medical illnesses or chronic diseases.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was twenty-five, but no other surgeries or hospitalizations since then.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter drugs, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or other substances.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I only have an occasional glass of wine at family gatherings or dinners, maybe once or twice a month.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I live in a comfortable apartment with my husband, and we don't keep any pets.",
+        "topic": "Living situation"
+      },
+      {
+        "answer": "My parents both lived into their eighties with mild hypertension, and there is no family history of chronic lung disease or early respiratory failure.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert and comfortable at rest without acute respiratory distress, cyanosis, or audible stridor.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 124/78 mmHg, heart rate 76 beats/min, respiratory rate 16 breaths/min, temperature 36.8°C, oxygen saturation 96% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Nasal mucosa is pink without polyps or purulent discharge; posterior pharynx is clear without erythema, exudates, or post-nasal drip.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, submandibular, or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric chest wall expansion without retractions, deformities, or localized chest tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant to percussion symmetrically across all lung zones without dullness or hyperresonance.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Coarse crackles audible over both lung bases that partially clear after coughing, accompanied by low-pitched rhonchi; no wheezes or stridor.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild clubbing present in the fingernails; no pitting edema in the pretibial areas or ankles.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

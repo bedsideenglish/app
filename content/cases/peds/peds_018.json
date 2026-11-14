@@ -1,0 +1,340 @@
+{
+  "id": "peds_018",
+  "system": "pediatrics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Smith",
+  "age": 2,
+  "gender": "female",
+  "chief_complaint": "absence of meaningful speech words, lack of eye contact, and repetitive hand-flapping behaviors in 2-year-old toddler",
+  "hpi_details": "24-month-old toddler brought for delay in communication, failure to respond to name, lack of joint attention or pointing, and repetitive lining up of toys scoring high risk on the M-CHAT questionnaire requiring comprehensive developmental multidisciplinary therapy.",
+  "ideas": "She thinks her daughter might have fluid trapped in her ears or trouble hearing since she ignores her name.",
+  "concerns": "She is worried her daughter will never be able to speak or make friends when she starts preschool next year.",
+  "expectations": "She hopes to get a hearing test scheduled and a referral to a speech therapist.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Pediatric age-appropriate social history",
+  "available_results": [{"id": "prior_mchat_r", "test": "M-CHAT-R autism screening", "value": "12/20", "reference_range": "0-2 low risk; 8-20 high risk", "flag": "abnormal", "collected_at": "Before today's encounter"}],
+  "clinical_knowledge": {
+    "topic": "Autism spectrum disorder evaluation (developmental delay) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Autism spectrum disorder evaluation (developmental delay) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Developmental Delay Autism Spectrum Evaluation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: absence of meaningful speech words, lack of eye contact, and repetitive hand-flapping behaviors in 2-year-old toddler",
+      "Key HPI features: 24-month-old toddler brought for delay in communication, failure to respond to name, lack of joint attention or pointing, and repetitive lining up of toys scoring high risk on the M-CHAT questionnaire requiring comprehensive developmental multidisciplinary therapy.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Developmental Delay Autism Spectrum Evaluation.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Autism spectrum disorder evaluation (developmental delay).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Hearing loss without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Failure to respond to name."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Developmental Delay Autism Spectrum Evaluation",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Developmental Delay Autism Spectrum Evaluation: absence of meaningful speech words, lack of eye contact, and repetitive hand-flapping behaviors in 2-year-old toddler. 24-month-old toddler brought for delay in communication, failure to respond to name, lack of joint attention or pointing, and repetitive lining up of toys scoring high risk on the M-CHAT questionnaire requiring comprehensive developmental multidisciplinary therapy.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Developmental Delay Autism Spectrum Evaluation.",
+    "assessment": "Clinical presentation highly suggestive of Developmental Delay Autism Spectrum Evaluation.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Developmental Delay Autism Spectrum Evaluation. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Developmental Delay Autism Spectrum Evaluation",
+    "Formulate prioritized differential diagnosis for absence of meaningful speech words, lack of eye contact, and repetitive hand-flapping behaviors in 2-year-old toddler",
+    "Select appropriate laboratory and imaging studies for pediatrics",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Autism spectrum disorder evaluation (developmental delay)",
+    "one_liner": "24-month-old toddler with absence of meaningful words, poor eye contact, and repetitive behaviors, scoring high risk on M-CHAT.",
+    "differentials": [
+      "Hearing loss",
+      "Global developmental delay from another cause",
+      "Language delay alone without autism features"
+    ],
+    "red_flags": [
+      "Failure to respond to name",
+      "Lack of joint attention/pointing",
+      "Regression of previously acquired skills would be especially concerning"
+    ],
+    "must_ask": [
+      {
+        "objective": "Ask about response to name and eye contact",
+        "say": "Does she respond when you call her name, and does she make eye contact with you?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "response to name",
+          "eye contact"
+        ]
+      },
+      {
+        "objective": "Ask about pointing and joint attention",
+        "say": "Does she point to show you things she's interested in?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "joint attention",
+          "pointing"
+        ]
+      },
+      {
+        "objective": "Ask about repetitive behaviors",
+        "say": "Have you noticed repetitive movements, like hand-flapping, or lining up toys?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "repetitive behaviors"
+        ]
+      },
+      {
+        "objective": "Screen for hearing concerns",
+        "say": "Has her hearing ever been tested, and does she seem to hear normal sounds?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "hearing screen"
+        ]
+      },
+      {
+        "objective": "Explain the multidisciplinary evaluation plan",
+        "say": "We recommend a comprehensive evaluation with developmental specialists, and early therapy services can make a real difference.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "multidisciplinary evaluation",
+          "early intervention"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "96/60",
+      "hr": 105,
+      "rr": 24,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "We brought our two-year-old daughter in because she is not speaking any words yet and rarely makes eye contact with us.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "We first noticed around eighteen months that she was not saying words or looking at us, and her daycare teacher also pointed it out last month.",
+        "topic": "Onset and first noticed"
+      },
+      {
+        "answer": "Her height and weight have always tracked along the fiftieth percentile on her checkups, and she has grown steadily.",
+        "topic": "Past growth and weight records"
+      },
+      {
+        "answer": "She was born full term at thirty-nine weeks weighing 3.2 kilograms without any complications, infections, or newborn intensive care stays.",
+        "topic": "Birth and neonatal history"
+      },
+      {
+        "answer": "She eats standard toddler meals and drinks whole milk, but she can be quite picky and gets distressed if foods touch each other.",
+        "topic": "Feeding and dietary habits"
+      },
+      {
+        "answer": "No, she has never had chronic diarrhea, stomach pain, blood in her stool, frequent infections, or trouble breathing.",
+        "topic": "Chronic medical symptoms"
+      },
+      {
+        "answer": "She has never had vomiting, seizures, abnormal eye movements, excessive thirst, extreme sensitivity to cold, or constipation.",
+        "topic": "Neurological and endocrine signs"
+      },
+      {
+        "answer": "She rolled over at four months, sat independently at seven months, and walked at twelve months, though she still struggles to use a spoon.",
+        "topic": "Gross and fine motor milestones"
+      },
+      {
+        "answer": "She babbled a little as an infant, but she does not say single words like mama or dada and does not understand simple spoken requests.",
+        "topic": "Speech and language development"
+      },
+      {
+        "answer": "She avoids making eye contact when we talk to her, and she rarely turns around or responds when we call her name.",
+        "topic": "Eye contact and response to name"
+      },
+      {
+        "answer": "She does not point to show us things she wants, and she does not look where we point or copy our gestures.",
+        "topic": "Pointing and joint attention"
+      },
+      {
+        "answer": "She flaps her hands when she gets excited or upset, and she repeatedly lines up her toy cars in straight rows for hours.",
+        "topic": "Repetitive behaviors and hand flapping"
+      },
+      {
+        "answer": "She passed her newborn hearing screening, has never had an ear infection, and reacts immediately to sounds like crinkling snack wrappers.",
+        "topic": "Hearing and ear infections"
+      },
+      {
+        "answer": "No, she has never lost any words or motor skills that she previously knew, she just never developed them.",
+        "topic": "Loss of developmental skills"
+      },
+      {
+        "answer": "There is no family history of autism, speech delay, genetic syndromes, or intellectual disability on either side.",
+        "topic": "Family history of developmental delay"
+      },
+      {
+        "answer": "She has never taken steroids, stimulants, or any long-term prescription medications.",
+        "topic": "Medications affecting growth"
+      },
+      {
+        "answer": "My husband and I are her primary caregivers, she sleeps well through the night, and we limit television and tablet screens to under an hour daily.",
+        "topic": "Caregiving environment and screen time"
+      },
+      {
+        "answer": "I wondered if she might just have trouble hearing us or fluid stuck in her ears since she doesn't turn when I call her name.",
+        "topic": "Parental thoughts on diagnosis"
+      },
+      {
+        "answer": "I'm so worried that she won't be able to talk or make friends when she starts preschool next year.",
+        "topic": "Parental concerns and worries"
+      },
+      {
+        "answer": "I was hoping to get her hearing tested today and get a referral to a speech therapist who can help her talk.",
+        "topic": "Expectations for today's visit"
+      },
+      {
+        "answer": "She has no chronic medical conditions and has never been diagnosed with any illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She has never had surgery and has never been admitted to a hospital.",
+        "topic": "Past surgical history and hospitalizations"
+      },
+      {
+        "answer": "She does not take any daily medications, over-the-counter syrups, or herbal remedies, just a standard multivitamin.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "She has no known allergies to medications, foods, or environmental triggers.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "Neither of us smokes, and she is never exposed to secondhand cigarette smoke.",
+        "topic": "Secondhand smoke exposure"
+      },
+      {
+        "answer": "No, she has never had any contact with alcohol, and no one drinks around her.",
+        "topic": "Alcohol exposure"
+      },
+      {
+        "answer": "She lives in an apartment with both of us, and she attends a small neighborhood daycare three mornings a week.",
+        "topic": "Living situation and home environment"
+      },
+      {
+        "answer": "Both parents are healthy, my height is 165 centimeters and my husband is 178 centimeters, with no chronic conditions in our families.",
+        "topic": "General family medical history"
+      },
+      {
+        "answer": "Her vaccinations are completely up to date according to the national pediatric schedule.",
+        "topic": "Immunization history"
+      },
+      {
+        "answer": "At daycare, her teachers say she plays alone beside other children rather than with them, and she has not been exposed to any infectious illnesses.",
+        "topic": "Daycare interactions and exposures"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 96/60 mmHg, heart rate 105 beats per minute, respiratory rate 24 breaths per minute, temperature 36.8°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert toddler playing quietly on the floor without dysmorphic facial features, low-set ears, or webbed neck.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Height is 86 cm (50th percentile), weight is 12.0 kg (50th percentile), and head circumference is 48 cm (50th percentile).",
+        "maneuver": "developmental_growth",
+        "response": "none"
+      },
+      {
+        "finding": "Child avoids eye contact, does not respond when her name is called, displays repetitive hand-flapping, and produces no spoken words.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral tympanic membranes are pearly gray, translucent, and intact without middle ear effusion or signs of inflammation.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Alert to environmental noises like paper rustling, but demonstrates no orientation or behavioral response to spoken voice commands.",
+        "maneuver": "hearing_test",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, and smooth without palpable masses or nodules.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, and no murmurs, gallops, or rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, and non-tender without hepatosplenomegaly or palpable masses.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal female external genitalia consistent with prepubertal Tanner stage 1.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and symmetric active limb movements in all four extremities with age-appropriate muscle tone.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes are 2+ and symmetric bilaterally in both upper and lower extremities with down-going plantars.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Steady, independent toddler gait without ataxia, toe-walking, or focal neurologic deficit.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

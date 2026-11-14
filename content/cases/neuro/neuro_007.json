@@ -1,0 +1,332 @@
+{
+  "id": "neuro_007",
+  "system": "neurology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Bradley",
+  "age": 51,
+  "gender": "male",
+  "chief_complaint": "sudden explosive headache like being hit with a baseball bat 2 hours ago",
+  "hpi_details": "Presents via emergency ambulance with a 2-hour history of an instantaneous, blinding, 10/10 thunderclap headache that reached peak intensity within 5 seconds while lifting weights at the gym. Describes it as 'the worst headache of my entire life, like someone struck the back of my head with a sledgehammer.' Accompanied immediately by forceful vomiting, photophobia, and stiff neck. Experienced brief 30-second loss of consciousness at onset, now alert but drowsy and complaining of agonizing neck and occipital pain.",
+  "ideas": "thinks a major blood vessel ruptured inside his brain while straining with heavy weights",
+  "concerns": "terrified that he will re-bleed and die within the next hour",
+  "expectations": "wants immediate emergency pain relief and emergency brain surgery",
+  "pmh": "hypertension (poorly controlled), family history of sudden cerebral stroke (father died at age 55 from brain haemorrhage), adult polycystic kidney disease in family",
+  "medications": "losartan 50mg OD (intermittent adherence)",
+  "social_hx": "smoker 30 pack-years, drinks 10 units/week, financial trader",
+  "investigation_events": [
+    {
+      "id": "stat_subarachnoid_hemorrhage_workup",
+      "title": "Emergency CT and cerebral angiography",
+      "order_terms": ["CT head", "CT brain", "non-contrast CT", "CT angiography", "CTA", "cerebral angiography"],
+      "availability_message": "Emergency CT and CT angiography results are now available. Blood-pressure control and neurosurgical transfer should not be delayed.",
+      "results": [
+        {"id": "ct_head", "test": "Non-contrast CT brain", "value": "Diffuse acute subarachnoid hemorrhage centered in the basal cisterns and left Sylvian fissure", "flag": "critical"},
+        {"id": "cta_head", "test": "CT angiography of the head", "value": "7 mm ruptured left posterior communicating artery aneurysm", "flag": "critical"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Spontaneous Subarachnoid Hemorrhage (ruptured aneurysm) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Spontaneous Subarachnoid Hemorrhage (ruptured aneurysm) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Neurosurgical emergency: immediate transfer/referral to neurosurgical center for urgent aneurysm endovascular coiling or surgical clipping within 24 hours to prevent fatal re-bleeding, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden explosive headache like being hit with a baseball bat 2 hours ago",
+      "Key HPI features: Presents via emergency ambulance with a 2-hour history of an instantaneous, blinding, 10/10 thunderclap headache that reached peak intensity within 5 seconds while lifting weights at the gym. Describes it as 'the worst headache of my entire life, like someone struck the back of my head with a sledgehammer.' Accompanied immediately by forceful vomiting, photophobia, and stiff neck. Experienced brief 30-second loss of consciousness at onset, now alert but drowsy and complaining of agonizing neck and occipital pain.",
+      "Objective/Exam findings: Vitals: BP 185/105 mmHg, HR 98. Neurological exam: marked nuchal rigidity/neck stiffness, positive Kernig's and Brudzinski's signs, photophobia. Check for focal neurological deficits or cranial nerve palsies (e.g., painful third nerve palsy with blown pupil suggests enlarging posterior communicating artery aneurysm). Immediate emergency non-contrast CT Brain (has >98% sensitivity for subarachnoid blood within first 6 hours; hyperdense blood seen in basal cisterns and Sylvian fissures). If CT is negative beyond 6 hours: perform mandatory lumbar puncture at 12 hours post-symptom onset (check for elevated opening pressure, uniformly blood-stained CSF across all tubes without clearing, and spectrophotometry confirming bilirubin xanthochromia). Urgent CT Angiography (CTA) or Digital Subtraction Angiography (DSA) of cerebral vessels.",
+      "Relevant background/PMH: hypertension (poorly controlled), family history of sudden cerebral stroke (father died at age 55 from brain haemorrhage), adult polycystic kidney disease in family",
+      "Current medications: losartan 50mg OD (intermittent adherence)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Spontaneous Subarachnoid Hemorrhage (ruptured aneurysm).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Reversible cerebral vasoconstriction syndrome (RCVS) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Loss of consciousness at onset — indicates a more severe bleed with higher mortality risk."
+    ],
+    "management_principles": [
+      "Neurosurgical emergency: immediate transfer/referral to neurosurgical center for urgent aneurysm endovascular coiling or surgical clipping within 24 hours to prevent fatal re-bleeding",
+      "Strict bed rest in quiet darkened room with head elevated 30 degrees",
+      "Initiate oral nimodipine 60mg every 4 hours for 21 days (calcium channel blocker specifically proven to prevent delayed cerebral vasospasm and secondary ischaemic stroke)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "51M hypertensive smoker presents with acute thunderclap headache reaching maximum intensity in <5 seconds post-exertion, accompanied by syncope, vomiting, and meningismus.",
+    "objective": "Vitals: BP 185/105 mmHg, HR 98. Neurological exam: marked nuchal rigidity/neck stiffness, positive Kernig's and Brudzinski's signs, photophobia. Check for focal neurological deficits or cranial nerve palsies (e.g., painful third nerve palsy with blown pupil suggests enlarging posterior communicating artery aneurysm). Immediate emergency non-contrast CT Brain (has >98% sensitivity for subarachnoid blood within first 6 hours; hyperdense blood seen in basal cisterns and Sylvian fissures). If CT is negative beyond 6 hours: perform mandatory lumbar puncture at 12 hours post-symptom onset (check for elevated opening pressure, uniformly blood-stained CSF across all tubes without clearing, and spectrophotometry confirming bilirubin xanthochromia). Urgent CT Angiography (CTA) or Digital Subtraction Angiography (DSA) of cerebral vessels.",
+    "assessment": "Spontaneous Subarachnoid Haemorrhage (SAH) secondary to ruptured intracranial saccular (berry) aneurysm. DDx: reversible cerebral vasoconstriction syndrome (RCVS), cerebral venous sinus thrombosis, pituitary apoplexy, acute bacterial meningitis, cervical artery dissection.",
+    "plan": "Neurosurgical emergency: immediate transfer/referral to neurosurgical center for urgent aneurysm endovascular coiling or surgical clipping within 24 hours to prevent fatal re-bleeding. Strict bed rest in quiet darkened room with head elevated 30 degrees. Initiate oral nimodipine 60mg every 4 hours for 21 days (calcium channel blocker specifically proven to prevent delayed cerebral vasospasm and secondary ischaemic stroke). Strict blood pressure control (maintain systolic BP <160 mmHg using IV labetalol or nicardipine). Adequate IV opioid analgesia and antiemetics."
+  },
+  "learning_objectives": [
+    "Define the diagnostic threshold of a true thunderclap headache: sudden explosive onset reaching maximal intensity within seconds",
+    "Explain the mandatory diagnostic pathway: non-contrast CT brain followed by 12-hour lumbar puncture with xanthochromia screening if CT negative",
+    "Recognise the life-saving role of oral nimodipine for 21 days in preventing delayed cerebral vasospasm",
+    "Execute rapid emergency neurosurgical escalation while strictly managing blood pressure and intracranial pressure"
+  ],
+  "teaching": {
+    "diagnosis": "Spontaneous Subarachnoid Hemorrhage (ruptured aneurysm)",
+    "one_liner": "A ruptured berry aneurysm bleeds into the space around the brain, causing an instantaneous 'worst headache of my life,' vomiting, and brief loss of consciousness — a neurosurgical emergency needing the aneurysm secured within 24 hours to prevent fatal re-bleeding.",
+    "differentials": [
+      "Reversible cerebral vasoconstriction syndrome (RCVS)",
+      "Cerebral venous sinus thrombosis",
+      "Pituitary apoplexy",
+      "Cervical artery dissection"
+    ],
+    "red_flags": [
+      "Loss of consciousness at onset — indicates a more severe bleed with higher mortality risk"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset speed and trigger",
+        "say": "What were you doing when this started, and how quickly did it become the worst headache ever?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "lifting weights",
+          "instant"
+        ]
+      },
+      {
+        "objective": "Loss of consciousness",
+        "say": "Did you actually pass out, even briefly?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "loss of consciousness"
+        ]
+      },
+      {
+        "objective": "Associated symptoms",
+        "say": "Any vomiting, neck stiffness, or sensitivity to light?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does anyone in your family have brain aneurysms, sudden strokes, or polycystic kidney disease?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "aneurysm",
+          "polycystic kidney"
+        ]
+      },
+      {
+        "objective": "Blood pressure history",
+        "say": "How well controlled has your blood pressure been?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "185/105",
+      "hr": 98,
+      "rr": 18,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My head suddenly exploded about two hours ago while I was at the gym. It feels like someone struck the back of my head with a baseball bat, and I can't bear the agony.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It struck instantaneously out of nowhere and peaked within five seconds. I was right in the middle of lifting heavy weights when it hit me like a sledgehammer.",
+        "topic": "Onset speed"
+      },
+      {
+        "answer": "It has been pounding relentlessly for the past two hours without stopping. I have never experienced a headache anything like this before in my entire life.",
+        "topic": "Duration and prior headaches"
+      },
+      {
+        "answer": "It started violently at the back of my head and neck, but now my entire head feels like it is bursting open.",
+        "topic": "Location of headache"
+      },
+      {
+        "answer": "It is an explosive, tearing agony, a full ten out of ten. It is by far the worst pain I have ever felt.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "It hasn't eased up for even a second since it struck. The agony has stayed at maximum intensity the whole time.",
+        "topic": "Pain pattern and persistence"
+      },
+      {
+        "answer": "Any slight movement, bending my neck, or even room lighting makes it so much worse. Nothing has brought even the slightest relief.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, there was no warning at all—no flashing lights, zigzag lines, blind spots, or tingling before it hit.",
+        "topic": "Aura or warning symptoms"
+      },
+      {
+        "answer": "Yes, I threw up violently right after it struck, and I still feel extremely sick to my stomach. The room lights hurt my eyes terribly.",
+        "topic": "Nausea vomiting and photophobia"
+      },
+      {
+        "answer": "No, I haven't had any tearing, eye redness, droopy eyelids, or runny nose.",
+        "topic": "Autonomic symptoms"
+      },
+      {
+        "answer": "My neck is completely stiff and it hurts agonizingly when I try to bend it forward. I don't feel feverish at all, and I haven't noticed any rash.",
+        "topic": "Fever neck stiffness and rash"
+      },
+      {
+        "answer": "Yes, right when it hit, my vision went completely black and I passed out for about thirty seconds. I woke up on the gym floor, but no one saw me shaking or having a seizure.",
+        "topic": "Loss of consciousness and seizures"
+      },
+      {
+        "answer": "No, I can move both of my arms and legs normally, and I don't have any numbness, tingling, or slurred speech.",
+        "topic": "Weakness numbness and speech"
+      },
+      {
+        "answer": "The light hurts my eyes terribly, but my vision is not blurred and I'm not seeing double.",
+        "topic": "Visual changes and eye pain"
+      },
+      {
+        "answer": "No, the sides of my temples aren't tender to touch, and I haven't had pain while chewing or aching in my shoulders and hips.",
+        "topic": "Temporal tenderness and jaw claudication"
+      },
+      {
+        "answer": "No, I didn't hit my head beforehand; the explosive headache struck first, and then I collapsed onto the gym mat.",
+        "topic": "Recent head trauma"
+      },
+      {
+        "answer": "I haven't taken any pain medication today. Normally, I almost never take painkillers because I don't suffer from headaches.",
+        "topic": "Analgesic use"
+      },
+      {
+        "answer": "I was straining hard during a heavy weightlifting set at the gym when it exploded. I was well hydrated and had not had any alcohol today.",
+        "topic": "Triggers and activity at onset"
+      },
+      {
+        "answer": "No, I was working out with my gym partner who feels completely fine, and nobody else around me has a headache.",
+        "topic": "Carbon monoxide exposure"
+      },
+      {
+        "answer": "No, I have never had cancer, and I don't have any immune problems or take immunosuppressive drugs.",
+        "topic": "History of cancer or immunosuppression"
+      },
+      {
+        "answer": "I honestly believe a major blood vessel ruptured inside my brain while I was straining with the weights.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I am terrified that the bleeding will start again and I will die here within the next hour.",
+        "topic": "Patient main concern"
+      },
+      {
+        "answer": "Please give me strong medication to stop this unbearable agony, and get me into brain surgery immediately if something burst.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have high blood pressure, which was diagnosed a few years ago, but no other chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was in my twenties, but I haven't had any other surgeries or hospitalizations.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am prescribed losartan 50 milligrams once daily for my high blood pressure, but honestly, I often forget to take it.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medicines.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have smoked about a pack of cigarettes a day for thirty years.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink about ten units of alcohol a week, mostly beer or wine on weekends. I have never used cocaine or any illicit drugs.",
+        "topic": "Alcohol and recreational drugs"
+      },
+      {
+        "answer": "I work as a financial trader, and I live at home with my wife and two children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father died suddenly at age fifty-five from a brain hemorrhage, and several relatives on his side of the family have adult polycystic kidney disease.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 185/105 mmHg, heart rate 98/min, respiratory rate 18/min, temperature 36.8°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Middle-aged man lying curled on the stretcher in agonizing distress, shielding his eyes from ambient room light, and holding the back of his head.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert but drowsy and lethargic, oriented to person, place, and time, with delayed verbal responses secondary to severe head and neck pain.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Marked nuchal rigidity with severe resistance to passive neck flexion; Kernig and Brudzinski signs are both positive bilaterally.",
+        "maneuver": "meningeal_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked photophobia elicited with light; pupils 3 mm bilaterally, round and reactive to light; fundoscopic examination reveals sharp optic disc margins without papilledema or pre-retinal hemorrhages.",
+        "maneuver": "eye_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Cranial nerves II through XII intact without ptosis, third nerve palsy, or facial asymmetry; extraocular movements are full bilaterally without diplopia.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone; motor strength is 5/5 across all major muscle groups in both upper and lower extremities without pronator drift.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact sensation to light touch and pinprick symmetrically across all dermatomes and trigeminal divisions.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes 2+ and symmetric throughout; bilateral plantar responses are flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Frontal and maxillary sinuses non-tender to percussion; temporal arteries are soft, non-tender, and pulsatile bilaterally.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      }
+    ]
+  }
+}

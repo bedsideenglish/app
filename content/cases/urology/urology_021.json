@@ -1,0 +1,359 @@
+{
+  "id": "urology_021",
+  "system": "urology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Park",
+  "age": 65,
+  "gender": "male",
+  "chief_complaint": "difficulty urinating, weak urine stream, and waking up 4 times at night",
+  "hpi_details": "65M reports 1 year of progressive difficulty starting his urine stream (hesitancy), a weak and spraying stream, feeling that his bladder is not completely empty, and needing to wake up 4 times nightly to urinate.",
+  "ideas": "thinks it is a normal prostate enlargement of aging",
+  "concerns": "worried about prostate cancer",
+  "expectations": "wants prostate check and medication",
+  "pmh": "Hypertension",
+  "medications": "Amlodipine 5mg daily",
+  "social_hx": "Retired, non-smoker",
+  "investigation_events": [
+    {
+      "id": "bph_urinalysis",
+      "title": "Urinalysis",
+      "order_terms": ["urinalysis", "urine dip", "urine test", "ua"],
+      "availability_message": "The urinalysis result is now available.",
+      "results": [
+        {"id": "urine_leukocyte_esterase", "test": "Leukocyte esterase", "value": "Negative", "flag": "normal", "specimen": "Urine"},
+        {"id": "urine_nitrite", "test": "Nitrite", "value": "Negative", "flag": "normal", "specimen": "Urine"},
+        {"id": "urine_blood", "test": "Blood", "value": "Negative", "flag": "normal", "specimen": "Urine"}
+      ]
+    },
+    {
+      "id": "bph_post_void_residual",
+      "title": "Post-void residual bladder scan",
+      "order_terms": ["post void residual", "pvr", "bladder scan", "residual urine"],
+      "availability_message": "The post-void residual measurement is now available.",
+      "results": [
+        {"id": "post_void_residual", "test": "Post-void residual", "value": "164", "unit": "mL", "reference_range": "<100", "flag": "high"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Benign Prostatic Hyperplasia (BPH) evaluation and management",
+    "core_concepts": [
+      "BPH is a common cause of male lower urinary tract symptoms, but symptoms do not establish prostate enlargement or exclude cancer, stricture, infection, bladder dysfunction, or medication effects.",
+      "Assess symptom severity and bother (for example, IPSS), fluid/caffeine intake, nocturia contributors, hematuria, dysuria, neurologic symptoms, constipation, and drugs that can worsen retention; perform abdominal examination and DRE.",
+      "Urinalysis is part of the initial assessment; use post-void residual, uroflowmetry, renal function testing, PSA, imaging, or cystoscopy selectively when results will change management or complications are suspected.",
+      "Shared treatment choices include watchful waiting and lifestyle measures, alpha-blocker therapy for prompt symptom relief, and a 5-alpha-reductase inhibitor for men with demonstrable enlargement who accept delayed benefit and sexual adverse effects."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: difficulty urinating, weak urine stream, and waking up 4 times at night",
+      "Key HPI features: 65M reports 1 year of progressive difficulty starting his urine stream (hesitancy), a weak and spraying stream, feeling that his bladder is not completely empty, and needing to wake up 4 times nightly to urinate.",
+      "Objective/Exam findings: Obtain vital signs; assess for palpable bladder, neurologic deficits, and DRE findings; obtain urinalysis. Measure post-void residual and creatinine when retention, recurrent UTI, stones, hematuria, or renal impairment is suspected.",
+      "Relevant background/PMH: Hypertension",
+      "Current medications: Amlodipine 5mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Benign Prostatic Hyperplasia (BPH).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Prostate adenocarcinoma without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Missing acute urinary retention, fever/systemic illness, severe suprapubic pain, or an obstructed infected urinary tract; these need urgent assessment and bladder drainage when indicated.",
+      "Overlooking gross hematuria, recurrent infection, stones, hydronephrosis, renal dysfunction, abnormal DRE, bone pain, or neurologic deficits that warrant urgent/specialist evaluation.",
+      "Starting an alpha-blocker without counseling about dizziness, orthostatic hypotension, syncope, falls, and interaction with antihypertensives or PDE5 inhibitors; Mr. Park takes amlodipine.",
+      "Failing to ask about planned cataract surgery before tamsulosin, or to counsel on 5-alpha-reductase-inhibitor sexual/mood adverse effects and PSA suppression."
+    ],
+    "management_principles": [
+      "Stratify by symptom bother, IPSS, complications, DRE, urinalysis, and selective PVR/renal function; discuss PSA only after shared decision-making because it informs cancer risk and can guide 5-ARI use.",
+      "For nonbothersome uncomplicated symptoms, offer fluid timing, reduced evening alcohol/caffeine, constipation management, and follow-up rather than mandatory medication.",
+      "If medication is chosen, review blood pressure and fall risk before an alpha-blocker; consider combination therapy only when prostate enlargement and progression risk justify it.",
+      "Refer to urology for recurrent retention, recurrent UTI, gross hematuria, bladder stones, hydronephrosis/renal impairment, suspected cancer/stricture, refractory symptoms, or procedural discussion."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Benign Prostatic Hyperplasia (BPH) causing bladder outlet obstruction. difficulty urinating, weak urine stream, and waking up 4 times at night. 65M reports 1 year of progressive difficulty starting his urine stream (hesitancy), a weak and spraying stream, feeling that his bladder is not completely empty, and needing to wake up 4 times nightly to urinate.",
+    "objective": "Obtain vital signs, abdominal examination for a distended bladder, focused neurologic examination and DRE; obtain urinalysis. Check PVR and renal function if retention or complications are suspected; use PSA and further testing selectively after counseling.",
+    "assessment": "Clinical presentation highly suggestive of Benign Prostatic Hyperplasia (BPH) causing bladder outlet obstruction.",
+    "plan": "Quantify symptoms and exclude infection/complications. Discuss lifestyle changes and shared medication options. If an alpha-blocker is appropriate, counsel Mr. Park about orthostatic symptoms and additive blood-pressure lowering with amlodipine; ask about cataract surgery. Arrange urology review for complicated, refractory, or suspicious findings, and seek urgent care for inability to void, fever/systemic illness, severe pain, or hematuria."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Benign Prostatic Hyperplasia (BPH) causing bladder outlet obstruction.",
+    "Formulate prioritized differential diagnosis for difficulty urinating, weak urine stream, and waking up 4 times at night",
+    "Select appropriate laboratory and imaging studies for urology",
+    "Implement evidence-based acute and long-term management strategies for Benign Prostatic Hyperplasia (BPH) causing bladder outlet obstruction."
+  ],
+  "teaching": {
+    "diagnosis": "Benign Prostatic Hyperplasia (BPH)",
+    "one_liner": "Non-malignant enlargement of the prostate gland leading to lower urinary tract symptoms (LUTS) and urinary retention.",
+    "differentials": [
+      "Prostate adenocarcinoma",
+      "Urethral stricture",
+      "Neurogenic bladder"
+    ],
+    "red_flags": [
+      "Acute total urinary retention",
+      "Hydronephrosis with renal failure"
+    ],
+    "must_ask": [
+      {
+        "objective": "Voiding symptoms - Hesitancy and weak stream",
+        "say": "Do you have to wait or strain before urine starts coming out, and is the stream weak?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "strain",
+          "stream",
+          "weak",
+          "hesitancy",
+          "dribbling"
+        ]
+      },
+      {
+        "objective": "Storage symptoms - Nocturia and frequency",
+        "say": "How many times do you wake up at night to urinate?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "night",
+          "urinate",
+          "nocturia",
+          "frequency",
+          "waking"
+        ]
+      },
+      {
+        "objective": "Sensation of incomplete emptying",
+        "say": "After finishing urination, do you still feel like your bladder is not completely empty?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "empty",
+          "bladder",
+          "incomplete",
+          "residual",
+          "emptying"
+        ]
+      },
+      {
+        "objective": "Urgency and urge incontinence",
+        "say": "Do you get sudden powerful urges to urinate that are hard to hold?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "urges",
+          "hold",
+          "urgency",
+          "urgent",
+          "leakage"
+        ]
+      },
+      {
+        "objective": "Current BPH medication screening",
+        "say": "Are you taking medications like tamsulosin or finasteride for your prostate?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "tamsulosin",
+          "finasteride",
+          "prostate",
+          "medications",
+          "pills"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/82",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I've been having trouble peeing with a weak stream, and I have to wake up four times every night to use the bathroom.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My main trouble is that the urine just doesn't come out easily when I try. It doesn't leak out on its own, but starting it is very hard.",
+        "topic": "Difficulty voiding versus leaking"
+      },
+      {
+        "answer": "It started gradually about a year ago, and it has been slowly getting worse over time.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "I have to stand there and wait before the stream starts, and it comes out weak and sprays. I also have to push and strain to keep it flowing.",
+        "topic": "Hesitancy, stream, and straining"
+      },
+      {
+        "answer": "Even when I finish, it feels like my bladder is not empty. When I pull up my pants, a few drops keep dribbling out.",
+        "topic": "Incomplete emptying and dribbling"
+      },
+      {
+        "answer": "No, urine still comes out whenever I try, so it has never stopped completely. My lower belly doesn't hurt or feel swollen.",
+        "topic": "Total retention and bladder pain"
+      },
+      {
+        "answer": "During the day, I have to go every two to three hours. At night, I wake up about four times to urinate, which leaves me tired.",
+        "topic": "Daytime frequency and nocturia"
+      },
+      {
+        "answer": "Sometimes the urge to pee comes on very suddenly. But I have always managed to make it to the bathroom without leaking.",
+        "topic": "Urgency and urge leaking"
+      },
+      {
+        "answer": "No, I have never leaked urine when coughing, sneezing, laughing, or lifting heavy objects.",
+        "topic": "Leaking with coughing or lifting"
+      },
+      {
+        "answer": "I don't leak enough to need pads. The biggest disruption is that waking up four times every night ruins my sleep.",
+        "topic": "Pad use and daily life"
+      },
+      {
+        "answer": "No, it doesn't burn or sting when I pee, and my urine has never looked red or brown. I haven't had any fevers or chills either.",
+        "topic": "Dysuria, blood, or fever"
+      },
+      {
+        "answer": "No back pain at all, and no weakness or numbness in my legs. My bowel movements are normal and feeling down there is fine.",
+        "topic": "Back pain and numbness"
+      },
+      {
+        "answer": "My bowel movements are regular once every morning, and I don't suffer from constipation.",
+        "topic": "Bowel habits and constipation"
+      },
+      {
+        "answer": "I drink about four or five cups of water a day and one cup of coffee in the morning. I cut back on fluids in the evening, but I still wake up to pee.",
+        "topic": "Fluid intake and evening drinks"
+      },
+      {
+        "answer": "No, I haven't taken any over-the-counter cold medicines, allergy pills, or water pills recently.",
+        "topic": "Cold medicines or other drugs"
+      },
+      {
+        "answer": "No, I have never been diagnosed with diabetes, a stroke, Parkinson's disease, or had any spine surgeries.",
+        "topic": "Neurological and spine history"
+      },
+      {
+        "answer": "No, I have never had an injury to my groin, never had a catheter put into my bladder, and never had a urinary infection.",
+        "topic": "Pelvic trauma and urethral history"
+      },
+      {
+        "answer": "I haven't taken any medications for my prostate before. This is my first time seeing a doctor about this problem.",
+        "topic": "Current prostate medications"
+      },
+      {
+        "answer": "I figured my prostate was simply getting larger because of old age.",
+        "topic": "Thoughts about the condition"
+      },
+      {
+        "answer": "My biggest worry is whether these symptoms could mean I have prostate cancer.",
+        "topic": "Worries and concerns"
+      },
+      {
+        "answer": "I was diagnosed with high blood pressure about five years ago, but nothing else.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospital stays"
+      },
+      {
+        "answer": "I take amlodipine five milligrams once every morning for my blood pressure. I don't take any herbal remedies or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications or foods.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I don't drink alcohol, except for maybe half a glass of beer once or twice a year on special occasions.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I am retired from my office job and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had an enlarged prostate in his seventies, but no one in my family has ever had prostate cancer.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My erections are not as firm as they used to be, but I don't have any pain or discharge.",
+        "topic": "Sexual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/82 mmHg, heart rate 72 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.7 degrees Celsius, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The abdomen is flat and symmetrical with no visible distension, scars, or suprapubic bulging.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "The abdomen is soft and non-tender without guarding, and the urinary bladder is not palpably distended above the pubic symphysis.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Tympanitic percussion note throughout the abdomen with no suprapubic dullness.",
+        "maneuver": "abdominal_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal circumcised male external genitalia without urethral discharge, meatal stenosis, or penile lesions.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Smooth, symmetrically enlarged, firm, and non-tender prostate without discrete nodules or induration; normal resting anal sphincter tone.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Motor strength is grade 5/5 across all lower extremity muscle groups bilaterally.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation in lower extremities and perianal saddle distribution.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal 2+ patellar and Achilles deep tendon reflexes bilaterally with plantar reflex flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

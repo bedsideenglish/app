@@ -1,0 +1,304 @@
+{
+  "id": "fm_010",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Miller",
+  "age": 48,
+  "gender": "male",
+  "chief_complaint": "elevated blood pressure 160/98 discovered on routine checkup without headache or vision changes",
+  "hpi_details": "48M presents for a routine visit after his blood pressure was found elevated on today's check-in vitals: 160/98 mmHg, confirmed on a repeat reading after 10 minutes of quiet rest. He reports feeling entirely well and denies headache, chest pain, shortness of breath, or visual changes. He admits to a high-sodium diet (frequent fast food, adds salt to most meals) and exercises only occasionally. He has never been told his blood pressure was high before and has never taken blood pressure medication.",
+  "ideas": "assumed his blood pressure was fine since he has never had symptoms",
+  "concerns": "He is worried that having numbers this high means he will have to take prescription medication every single day for the rest of his life.",
+  "expectations": "He hopes the doctor will let him try cutting down on salty foods and exercising before prescribing any pills.",
+  "pmh": "No prior diagnoses (presenting for first evaluation of elevated blood pressure)",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Stage 2 Hypertension (newly diagnosed, asymptomatic) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Stage 2 Hypertension (newly diagnosed, asymptomatic) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management for newly diagnosed Stage 2 Hypertension emphasizes immediate initiation of lifestyle modification (DASH diet, sodium restriction, weight loss, exercise) together with dual first-line antihypertensive pharmacotherapy (e.g., an ACE inhibitor or ARB plus a calcium channel blocker), since BP more than 20/10 mmHg above the <130/80 mmHg goal rarely responds adequately to monotherapy alone.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: elevated blood pressure 160/98 discovered on routine checkup without headache or vision changes",
+      "Key HPI features: 48M presents for a routine visit after his blood pressure was found elevated on today's check-in vitals: 160/98 mmHg, confirmed on a repeat reading after 10 minutes of quiet rest. He reports feeling entirely well and denies headache, chest pain, shortness of breath, or visual changes. He admits to a high-sodium diet (frequent fast food, adds salt to most meals) and exercises only occasionally. He has never been told his blood pressure was high before and has never taken blood pressure medication.",
+      "Objective/Exam findings: Vitals: BP 160/98 mmHg (confirmed on repeat measurement after 10 minutes seated rest: 158/96 mmHg), HR 76, RR 16, BMI 29.4 kg/m2. Cardiovascular exam: regular rate and rhythm, no murmurs, no S3/S4 gallop, no carotid bruits. Fundoscopic exam: no arteriovenous nicking, hemorrhages, or papilledema (excluding hypertensive retinopathy/emergency). Peripheral pulses 2+ and symmetric bilaterally, no lower extremity edema. No abdominal bruits (excluding renal artery stenosis). Baseline labs (Comprehensive Metabolic Panel, fasting lipid panel, urinalysis) and 12-lead ECG ordered for end-organ and secondary-cause screening.",
+      "Relevant background/PMH: No prior diagnoses (presenting for first evaluation of elevated blood pressure)",
+      "Current medications: None"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Stage 2 Hypertension (newly diagnosed, asymptomatic).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to White coat hypertension (would need home monitoring to confirm) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Headache, chest pain, or vision changes — would suggest hypertensive emergency needing urgent care."
+    ],
+    "management_principles": [
+      "Confirm the diagnosis with a repeat in-office BP reading and, when feasible, out-of-office confirmation (home BP monitoring or 24-hour ambulatory BP monitoring) before committing to lifelong pharmacotherapy.",
+      "Since BP (160/98) is more than 20/10 mmHg above the <130/80 mmHg goal, initiate dual first-line combination therapy immediately rather than monotherapy: an ACE inhibitor or ARB (e.g., Lisinopril 10 mg PO daily) plus a dihydropyridine calcium channel blocker (e.g., Amlodipine 5 mg PO daily), per ACC/AHA guidelines for Stage 2 Hypertension.",
+      "Order baseline end-organ and secondary-cause screening labs: Comprehensive Metabolic Panel (renal function, potassium), fasting lipid panel, urinalysis, and a 12-lead ECG for LVH; perform a fundoscopic exam to exclude hypertensive retinopathy.",
+      "Prescribe intensive lifestyle counseling in parallel: DASH diet, sodium restriction <1.5 g/day, weight loss, at least 150 minutes/week of aerobic exercise, and limiting alcohol intake."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "48M presenting for a routine visit found to have asymptomatic Stage 2 Hypertension (BP 160/98, confirmed on repeat measurement), without headache, chest pain, dyspnea, or visual changes. No prior history of hypertension or antihypertensive medication use.",
+    "objective": "Vitals: BP 160/98 mmHg (confirmed on repeat measurement after 10 minutes seated rest: 158/96 mmHg), HR 76, RR 16, BMI 29.4 kg/m2. Cardiovascular exam: regular rate and rhythm, no murmurs, no S3/S4 gallop, no carotid bruits. Fundoscopic exam: no arteriovenous nicking, hemorrhages, or papilledema. Peripheral pulses 2+ and symmetric bilaterally, no lower extremity edema. No abdominal bruits. Baseline labs (Comprehensive Metabolic Panel, fasting lipid panel, urinalysis) and 12-lead ECG ordered.",
+    "assessment": "Newly Diagnosed Stage 2 Hypertension (BP 160/98), asymptomatic, without evidence of hypertensive emergency or end-organ damage on today's exam.",
+    "plan": "1. Confirm diagnosis with repeat in-office reading (already confirmed today) and arrange home blood pressure monitoring for ongoing tracking. 2. Initiate dual first-line antihypertensive combination therapy given BP more than 20/10 mmHg above goal: Lisinopril 10 mg PO daily plus Amlodipine 5 mg PO daily, targeting <130/80 mmHg. 3. Order baseline labs (Comprehensive Metabolic Panel, fasting lipid panel, urinalysis) and a 12-lead ECG to screen for end-organ damage and secondary causes. 4. Intensive lifestyle counseling: DASH diet, sodium restriction <1.5 g/day, weight loss, 150 minutes/week aerobic exercise, and alcohol moderation. 5. Recheck blood pressure and a basic metabolic panel (renal function/potassium) in 2-4 weeks to assess response and medication tolerance."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hypertension Stage 1 and 2 Management",
+    "Formulate prioritized differential diagnosis for elevated blood pressure 160/98 discovered on routine checkup without headache or vision changes",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Stage 2 Hypertension (newly diagnosed, asymptomatic)",
+    "one_liner": "Blood pressure this high found incidentally on a routine check, without any symptoms — 'silent' hypertension still damages arteries and organs over time, so lifestyle changes plus starting two first-line medications together is standard for this severity.",
+    "differentials": [
+      "White coat hypertension (would need home monitoring to confirm)",
+      "Secondary hypertension (renal, endocrine causes)"
+    ],
+    "red_flags": [
+      "Headache, chest pain, or vision changes — would suggest hypertensive emergency needing urgent care"
+    ],
+    "must_ask": [
+      {
+        "objective": "Symptom check",
+        "say": "Do you have any headaches, chest pain, or vision changes?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "How the finding was made",
+        "say": "Was this found on a routine check, and was it confirmed on a repeat measurement?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Lifestyle factors",
+        "say": "How much salt do you eat, and how much do you exercise?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does high blood pressure or stroke run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      },
+      {
+        "objective": "Concerns about medication",
+        "say": "What worries you about needing to take medication for this?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "160/98",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I came in today because the nurse took my blood pressure during my routine checkup and told me it was high, around 160 over 98.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The nurse checked it first when I arrived and got 160 over 98, then let me sit quietly for about ten minutes and rechecked it, but it was still 158 over 96.",
+        "topic": "Circumstances of discovery"
+      },
+      {
+        "answer": "I had a checkup a couple of years ago and my blood pressure was completely normal. No doctor or nurse has ever told me it was high before today.",
+        "topic": "Comparison with past checkups"
+      },
+      {
+        "answer": "I followed the fasting instructions for the blood tests, did not feel unusually anxious, and had no coffee, cigarettes, or cold medicine this morning. I did not do any heavy exercise today either.",
+        "topic": "Measurement conditions"
+      },
+      {
+        "answer": "I do not have a blood pressure monitor at home and have not checked it anywhere else recently.",
+        "topic": "Home blood pressure monitoring"
+      },
+      {
+        "answer": "I feel completely fine overall. I have not had any headaches, daytime exhaustion, excessive thirst, or increased urination.",
+        "topic": "General symptoms"
+      },
+      {
+        "answer": "No, I have not had any chest tightness, heart fluttering, or shortness of breath even when walking up stairs.",
+        "topic": "Chest pain or shortness of breath"
+      },
+      {
+        "answer": "My vision has been completely clear with no blurring or blind spots, and I have not had any weakness, numbness, or trouble talking.",
+        "topic": "Vision changes and neurologic symptoms"
+      },
+      {
+        "answer": "I have not noticed any blood or foam in my urine, and I have had no swelling in my legs, ankles, or face.",
+        "topic": "Kidney and urinary symptoms"
+      },
+      {
+        "answer": "No kidney stones, bone aches, constipation, or feeling unusually cold or sluggish.",
+        "topic": "Endocrine and systemic symptoms"
+      },
+      {
+        "answer": "No fever, chills, night sweats, unexpected weight loss, swollen glands, or coughing up blood.",
+        "topic": "Constitutional and red flag symptoms"
+      },
+      {
+        "answer": "I do not have any burning, difficulty starting urination, or weak stream, and I have never had prostate infections. I also did not ride a bicycle or engage in sexual activity right before the exam.",
+        "topic": "Urinary and prostate history"
+      },
+      {
+        "answer": "I do not get sudden spells of sweating, pounding heartbeats, or severe trembling. I also do not snore heavily, wake up gasping for air, or feel weak in my muscles.",
+        "topic": "Secondary hypertension clues"
+      },
+      {
+        "answer": "I do not take any over-the-counter pain relievers like ibuprofen, nasal decongestants, cold syrups, or steroid medications.",
+        "topic": "Medications affecting blood pressure"
+      },
+      {
+        "answer": "I eat fast food several times a week and tend to add salt to most of my meals. I also drink regular sodas a few times a week.",
+        "topic": "Dietary habits"
+      },
+      {
+        "answer": "I sit at a desk all day for work and only go for occasional walks, so I do not get much regular exercise. I have also gained about ten pounds over the last few years.",
+        "topic": "Exercise and weight changes"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products, and I have never been exposed to industrial dust or asbestos at work.",
+        "topic": "Smoking and occupational exposure"
+      },
+      {
+        "answer": "I have never broken any bones or noticed myself getting shorter, and I have never taken steroid pills.",
+        "topic": "Bone health and fracture history"
+      },
+      {
+        "answer": "I have never had tuberculosis, do not know anyone with active tuberculosis, and do not take any immune-suppressing drugs.",
+        "topic": "Tuberculosis and immune status"
+      },
+      {
+        "answer": "My father had high blood pressure and suffered a heart attack in his late sixties, but no one in my family had heart disease at a young age, stroke, kidney failure, or early cancer.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I assumed my blood pressure was perfectly fine because I feel healthy and have never had any symptoms at all.",
+        "topic": "Patient ideas and perspective"
+      },
+      {
+        "answer": "I'm worried that this means I'll be stuck taking blood pressure pills every single day for the rest of my life.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping we could just focus on diet and exercise changes first before putting me on any medication.",
+        "topic": "Expectations of the visit"
+      },
+      {
+        "answer": "I am open to whatever is necessary, but I do wonder if starting blood pressure medication means I will have to take pills every day for the rest of my life.",
+        "topic": "Concerns about medication"
+      },
+      {
+        "answer": "I have never had any chronic medical conditions, high blood pressure, diabetes, or high cholesterol before.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgical operations and have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, regular over-the-counter medicines, vitamins, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or environmental triggers.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I drink alcohol only socially, perhaps one or two bottles of beer once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office manager sitting at a computer all day, and I live with my wife and our two teenage children.",
+        "topic": "Occupation and living situation"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 160/98 mmHg in the right arm and 158/96 mmHg in the left arm; heart rate 76 beats per minute, respiratory rate 16 breaths per minute, body mass index 29.4 kg/m2.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Fundoscopic examination reveals sharp optic disc margins with no papilledema, arteriovenous nicking, hemorrhages, or exudates.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, supraclavicular, or submandibular lymphadenopathy is palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender without nodules or audible bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, S3 or S4 gallops, or carotid bruits.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal active bowel sounds heard throughout; no renal artery or abdominal aortic bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-tender; no hepatomegaly, splenomegaly, or palpable masses.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial, femoral, dorsalis pedis, and posterior tibial pulses are 2+ and symmetric bilaterally with no radiofemoral delay.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Normal spinal alignment without thoracic kyphosis or midline spinous process tenderness.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema or calf swelling in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

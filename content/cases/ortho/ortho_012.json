@@ -1,0 +1,324 @@
+{
+  "id": "ortho_012",
+  "system": "orthopedics",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Nguyen",
+  "age": 27,
+  "gender": "female",
+  "chief_complaint": "popping sensation during twisting injury followed by knee locking and joint line pain",
+  "hpi_details": "27F soccer player presenting with right knee joint line tenderness, mechanical locking, and positive McMurray and Apley grind tests.",
+  "ideas": "She thinks she violently twisted her knee while pivoting on the field, causing a piece of loose cartilage to pop out of place or badly spraining her joint.",
+  "concerns": "She is worried that her knee suddenly locking up will cause her to collapse while walking down stairs and that she won't be able to return to playing sports.",
+  "expectations": "She hopes to get an order for an MRI of her knee, a supportive knee brace to prevent it from locking, and a doctor's note for light duties at work.",
+  "pmh": "No significant past medical history",
+  "medications": "None",
+  "social_hx": "Plays recreational soccer, non-smoker",
+  "investigation_events": [{
+    "id": "same_day_knee_radiographs",
+    "title": "Knee radiographs",
+    "order_terms": ["knee x-ray", "knee radiograph", "knee films"],
+    "availability_message": "The knee radiographs are now available. MRI remains a follow-up investigation to characterize the suspected meniscal tear.",
+    "results": [{"id": "knee_xray", "test": "Right knee radiographs", "value": "Small joint effusion without acute fracture, dislocation, or radiopaque loose body", "flag": "abnormal"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Medial meniscal tear of the right knee evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Medial meniscal tear of the right knee is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes initial conservative care with orthopedic/sports medicine referral for MRI-guided decision between meniscal repair and partial meniscectomy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: popping sensation during twisting injury followed by knee locking and joint line pain",
+      "Key HPI features: 27F soccer player presenting with right knee joint line tenderness, mechanical locking, and positive McMurray and Apley grind tests.",
+      "Objective/Exam findings: Vitals normal. Medial joint line tenderness, positive McMurray test, positive Apley grind test, small-to-moderate knee effusion, and limited terminal extension consistent with mechanical locking. Ligamentous exam (Lachman, drawer, varus/valgus stress) stable with no laxity.",
+      "Relevant background/PMH: No significant past medical history",
+      "Current medications: None"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Medial meniscal tear of the right knee.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to ACL tear without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Mechanical locking (inability to fully extend the knee)."
+    ],
+    "management_principles": [
+      "Obtain knee radiographs to exclude fracture or loose body, followed by MRI to characterize tear pattern and size",
+      "Initial conservative care: rest, ice, NSAIDs as needed, activity modification, and crutches if locking limits weight-bearing",
+      "Refer to orthopedics/sports medicine for definitive management: arthroscopic meniscal repair for peripheral (vascular) tears versus partial meniscectomy for central (avascular) or degenerative tears, based on MRI findings",
+      "Structured physical therapy to restore range of motion and strength regardless of the treatment pathway chosen."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Meniscal Tear Medial Knee: popping sensation during twisting injury followed by knee locking and joint line pain. 27F soccer player presenting with right knee joint line tenderness, mechanical locking, and positive McMurray and Apley grind tests.",
+    "objective": "Vitals normal. Medial joint line tenderness, positive McMurray test, positive Apley grind test, small-to-moderate knee effusion, and limited terminal extension consistent with mechanical locking. Ligamentous exam (Lachman, drawer, varus/valgus stress) stable with no laxity.",
+    "assessment": "Right medial meniscal tear.",
+    "plan": "Obtain knee radiographs to exclude fracture or loose body, followed by MRI to characterize the tear. Begin conservative measures (rest, ice, NSAIDs, activity modification, crutches if locking limits weight-bearing) and refer to orthopedics/sports medicine for definitive management (meniscal repair versus partial meniscectomy depending on tear location) with structured physical therapy."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Meniscal Tear Medial Knee",
+    "Formulate prioritized differential diagnosis for popping sensation during twisting injury followed by knee locking and joint line pain",
+    "Select appropriate imaging (radiographs, MRI) to characterize a suspected meniscal tear",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Medial meniscal tear of the right knee",
+    "one_liner": "27F soccer player with a popping sensation during a twisting injury, followed by knee locking and joint line pain.",
+    "differentials": [
+      "ACL tear",
+      "MCL sprain",
+      "Loose body in the joint"
+    ],
+    "red_flags": [
+      "Mechanical locking (inability to fully extend the knee)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the mechanism of injury",
+        "say": "Can you describe how you twisted your knee?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "twisting mechanism"
+        ]
+      },
+      {
+        "objective": "Ask about mechanical locking",
+        "say": "Does your knee ever get stuck or lock so you can't fully straighten it?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "mechanical locking"
+        ]
+      },
+      {
+        "objective": "Ask about swelling timeline",
+        "say": "Did the swelling happen immediately, or over the next day?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "swelling timeline"
+        ]
+      },
+      {
+        "objective": "Assess joint line tenderness location",
+        "say": "Can you point to exactly where it hurts most on your knee?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "joint line tenderness"
+        ]
+      },
+      {
+        "objective": "Explain the MRI and treatment plan",
+        "say": "We'll get an MRI to look at the meniscus, and depending on the tear, treatment ranges from physical therapy to arthroscopic surgery.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "MRI",
+          "arthroscopic surgery"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I twisted my right knee playing soccer two days ago, and now it hurts on the inside and feels like it locks up when I try to straighten it.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It is only in my right knee, right along the inner side of the joint. None of my other joints hurt.",
+        "topic": "Location and symmetry"
+      },
+      {
+        "answer": "It started suddenly two days ago on Sunday afternoon during my soccer match, and it has stayed painful since then.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is an aching, sharp pain inside the knee that is about a 6 out of 10 normally, but jumps to an 8 when it catches.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "I noticed some mild swelling and puffiness around the knee the morning after the game, but no redness or hot feeling.",
+        "topic": "Joint swelling and warmth"
+      },
+      {
+        "answer": "It didn't swell up immediately on the field; the swelling crept up gradually over that evening and the next morning.",
+        "topic": "Swelling timeline"
+      },
+      {
+        "answer": "It feels stiff in the morning when I get out of bed, but that is mostly because of the swelling and catching rather than lasting for hours.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "Twisting, squatting, or trying to straighten the leg completely makes it much worse. Resting with my leg up and putting an ice pack on it helps a bit.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I can limp and bear some weight on my toes, but going down stairs or walking normally is very difficult because it catches.",
+        "topic": "Functional limitation and weight bearing"
+      },
+      {
+        "answer": "I planted my right foot and twisted to change direction, and I felt and heard a distinct pop inside my knee.",
+        "topic": "Mechanism of injury and popping sound"
+      },
+      {
+        "answer": "Yes, the knee physically gets stuck and locked before I can straighten it all the way out, like something is caught inside.",
+        "topic": "Mechanical locking"
+      },
+      {
+        "answer": "It hasn't buckled or given out completely, but I feel nervous putting my full weight down because of the locking pain.",
+        "topic": "Instability or giving way"
+      },
+      {
+        "answer": "It hurts most right along the seam on the inner edge of my knee joint when I press there.",
+        "topic": "Location of tenderness"
+      },
+      {
+        "answer": "No, I have never had an injury or pain in this knee before.",
+        "topic": "Previous joint episodes"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweating.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No unusual fatigue, low-grade fevers, or unintended weight loss.",
+        "topic": "Constitutional symptoms"
+      },
+      {
+        "answer": "No skin rashes, mouth sores, hair loss, or red and dry eyes.",
+        "topic": "Skin or mucosal symptoms"
+      },
+      {
+        "answer": "No morning back stiffness, heel pain, or swollen fingers or toes.",
+        "topic": "Back or heel symptoms"
+      },
+      {
+        "answer": "No recent diarrhea, burning when I urinate, unusual discharge, or sore throat.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I have not had binge drinking or heavy meat and seafood meals, and I don't take water pills.",
+        "topic": "Dietary triggers and alcohol"
+      },
+      {
+        "answer": "I have never had steroid injections, joint aspirations, or any kind of knee surgery.",
+        "topic": "Previous joint procedures"
+      },
+      {
+        "answer": "I have been with my steady partner for three years and have had no new sexual partners.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I twisted awkwardly while cutting on the soccer pitch, and I felt something pop and catch like a piece of cartilage slipped out of its groove.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm really scared that my knee will catch and buckle while I'm walking down stairs, and that I'll need invasive surgery and never play soccer again.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'd like to get an MRI scheduled to see what's caught inside, a good knee brace to keep it from locking up, and a note for work.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like high blood pressure, diabetes, or rheumatoid arthritis.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery or stayed in a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I took some over-the-counter ibuprofen yesterday, but I don't take any regular prescription medications or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink occasionally in social settings, maybe a glass of beer once or twice a month.",
+        "topic": "Alcohol history"
+      },
+      {
+        "answer": "I work as an office administrator, play recreational soccer on weekends, and live in an apartment with a roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no history of early arthritis, gout, or autoimmune disorders in my family.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last period was two weeks ago, my cycles are regular every 28 days, we use condoms reliably, and I'm not pregnant.",
+        "topic": "Menstrual history and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 118/76 mmHg, heart rate 72 beats per minute, respiratory rate 14 breaths per minute, temperature 36.7°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert young female seated comfortably on the examination table, holding her right knee in slight flexion to avoid discomfort.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Right knee reveals mild swelling with a small-to-moderate effusion, point tenderness along the medial joint line, limited terminal extension due to mechanical locking, positive McMurray and Apley grind tests, and stable cruciate and collateral ligaments without laxity; left knee is unremarkable.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Antalgic gait favoring the right leg, with reluctance to fully extend the right knee during the stance phase.",
+        "maneuver": "coordination_gait",
+        "response": "pain"
+      },
+      {
+        "finding": "No erythema, malar rash, psoriatic plaques, tophi, or nail pitting observed.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal spinal curvature without tenderness, full lumbar range of motion, and negative straight leg raise bilaterally.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

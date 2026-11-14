@@ -1,0 +1,326 @@
+{
+  "id": "peds_014",
+  "system": "pediatrics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Johnson",
+  "age": 0,
+  "gender": "female",
+  "chief_complaint": "tachypnea and grunting immediately after elective Cesarean delivery without labor in full-term infant",
+  "hpi_details": "2-hour-old term infant born via elective C-section without labor, presenting with respiratory rate 75 and mild grunting shortly after birth.",
+  "ideas": "She thinks her baby has leftover fluid in her lungs because she was delivered quickly by Cesarean section without going through labor.",
+  "concerns": "She is worried that her baby has a severe lung defect and will be taken away to the neonatal intensive care unit.",
+  "expectations": "She hopes the doctor can check her breathing, give her a little oxygen if needed, and confirm she can stay in the room by her bedside.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Pediatric age-appropriate social history",
+  "investigation_events": [{
+    "id": "newborn_tachypnea_radiograph",
+    "title": "Chest radiograph for persistent newborn tachypnea",
+    "order_terms": ["chest x-ray", "chest radiograph", "CXR"],
+    "availability_message": "The chest radiograph result is now available. Continue supportive care and reassess for infection or an alternate diagnosis if the course is atypical.",
+    "results": [{"id": "chest_radiograph", "test": "Chest radiograph", "value": "Hyperinflation with prominent perihilar interstitial markings and fluid in the interlobar fissures; no focal air-space consolidation", "flag": "abnormal"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Transient tachypnea of the newborn (TTN) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Transient tachypnea of the newborn (TTN) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes supportive respiratory care with close monitoring while excluding pneumonia, RDS, and congenital heart disease, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: tachypnea and grunting immediately after elective Cesarean delivery without labor in full-term infant",
+      "Key HPI features: 2-hour-old term infant born via elective C-section without labor, presenting with respiratory rate 75 and mild grunting shortly after birth.",
+      "Objective/Exam findings: RR 75-80 with mild subcostal/intercostal retractions, grunting, and nasal flaring. Oxygen saturation 90-93% on room air, improving with blow-by oxygen. Breath sounds clear bilaterally, no crackles. Heart sounds normal, no murmur. Well-perfused, capillary refill under 2 seconds.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Transient tachypnea of the newborn (TTN).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Neonatal pneumonia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Persistent or worsening respiratory distress beyond 24-48 hours would suggest an alternate diagnosis."
+    ],
+    "management_principles": [
+      "Provide supportive respiratory care (supplemental oxygen or nasal CPAP) titrated to maintain adequate oxygen saturation",
+      "Obtain a chest radiograph and consider CBC/blood cultures with a low threshold for empiric antibiotics if neonatal pneumonia or sepsis cannot be confidently excluded",
+      "Monitor respiratory rate, work of breathing, and feeding tolerance closely in a special care nursery; most cases resolve within 24-72 hours",
+      "Reassess for an alternate diagnosis (pneumonia, RDS, congenital heart disease, persistent pulmonary hypertension) if distress persists or worsens beyond 48-72 hours."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Pediatrics (AAP) Clinical Practice Guidelines",
+        "url": "https://publications.aap.org/pediatrics/pages/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "2-hour-old term female infant born via elective C-section without labor, presenting with respiratory rate 75 and mild grunting shortly after birth.",
+    "objective": "RR 75-80 with mild subcostal/intercostal retractions, grunting, and nasal flaring. Oxygen saturation 90-93% on room air, improving with blow-by oxygen. Breath sounds clear bilaterally, no crackles. Heart sounds normal, no murmur. Well-perfused, capillary refill under 2 seconds.",
+    "assessment": "Findings consistent with transient tachypnea of the newborn, most likely related to delayed clearance of fetal lung fluid after elective Cesarean delivery without labor; pneumonia, RDS, and congenital heart disease should be excluded.",
+    "plan": "Provide supportive respiratory care (supplemental oxygen or nasal CPAP as needed), monitor closely in a special care nursery, and obtain a chest radiograph with a low threshold for CBC/blood cultures and empiric antibiotics if pneumonia or sepsis cannot be confidently excluded. Reassess frequently; symptoms typically resolve within 24-72 hours, and persistence beyond that should prompt evaluation for an alternate diagnosis."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Transient Tachypnea of the Newborn TTN",
+    "Formulate prioritized differential diagnosis for tachypnea and grunting immediately after elective Cesarean delivery without labor in full-term infant",
+    "Select appropriate imaging and labs (chest radiograph, CBC/blood culture) to exclude pneumonia and sepsis in a tachypneic newborn",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Transient tachypnea of the newborn (TTN)",
+    "one_liner": "2-hour-old term infant born via elective C-section without labor, with tachypnea and mild grunting.",
+    "differentials": [
+      "Neonatal pneumonia",
+      "Respiratory distress syndrome (more common in preterm)",
+      "Congenital heart disease"
+    ],
+    "red_flags": [
+      "Persistent or worsening respiratory distress beyond 24-48 hours would suggest an alternate diagnosis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm the delivery mode and absence of labor",
+        "say": "Was the baby born by planned C-section before labor started?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "elective cesarean",
+          "no labor"
+        ]
+      },
+      {
+        "objective": "Characterize the breathing pattern",
+        "say": "How fast is she breathing, and do you notice any grunting sounds?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "tachypnea",
+          "grunting"
+        ]
+      },
+      {
+        "objective": "Ask about feeding ability",
+        "say": "Is she able to feed despite the fast breathing?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "feeding ability"
+        ]
+      },
+      {
+        "objective": "Reassure about the expected time course",
+        "say": "This condition typically improves within 24 to 48 hours as extra fluid clears from her lungs.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "expected resolution",
+          "reassurance"
+        ]
+      },
+      {
+        "objective": "Explain the supportive CPAP treatment",
+        "say": "We'll support her breathing with gentle nasal pressure support (CPAP) until this resolves on its own.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "nasal CPAP",
+          "supportive care"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "64/40",
+      "hr": 148,
+      "rr": 76,
+      "spo2": 91,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "She was born just two hours ago, and the nurses noticed she was breathing very fast and making little grunting noises right away.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "Her rapid breathing started right after delivery, within her first few minutes of life, and has stayed fast ever since.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "She breathes fast even while resting quietly in the warmer, panting like she is running a race without any break.",
+        "topic": "Breathing difficulty at rest"
+      },
+      {
+        "answer": "She breathes rapidly and continuously, without pausing or gasping, and she grunts softly every few breaths.",
+        "topic": "Breathing pattern and grunting"
+      },
+      {
+        "answer": "She was delivered by scheduled elective Cesarean section at thirty-nine weeks without any labor or contractions beforehand.",
+        "topic": "Delivery mode and labor"
+      },
+      {
+        "answer": "We have held off on breastfeeding or bottle feeding because she is breathing too fast, and the nurses told us feeding might cause her to choke.",
+        "topic": "Feeding ability"
+      },
+      {
+        "answer": "No, she is not wheezing or making high-pitched whistling sounds, just rapid panting and that soft grunting sound when she breathes out.",
+        "topic": "Wheezing or whistling sounds"
+      },
+      {
+        "answer": "No, she does not have a cough, runny nose, or fever at all.",
+        "topic": "Cough, sputum, or fever"
+      },
+      {
+        "answer": "Her lips and tongue look pink, though her fingers and toes were slightly blue right after birth before turning pink under blow-by oxygen.",
+        "topic": "Cyanosis or color change"
+      },
+      {
+        "answer": "She does not look limp or floppy; she moves her arms and legs normally and cries when handled.",
+        "topic": "Lethargy and activity level"
+      },
+      {
+        "answer": "No, there has been no blood from her mouth or nose.",
+        "topic": "Bloody secretions"
+      },
+      {
+        "answer": "No, her legs, face, and belly look completely normal with no swelling.",
+        "topic": "Swelling or puffiness"
+      },
+      {
+        "answer": "I wondered if she still has birth fluid trapped in her chest because she was born by C-section and didn't get squeezed through the birth canal.",
+        "topic": "Parent's thoughts on cause"
+      },
+      {
+        "answer": "I'm really worried that there is something wrong with her heart or lungs and that you'll have to take her away to the intensive care unit.",
+        "topic": "Parent's main concern"
+      },
+      {
+        "answer": "I'm hoping you can check her breathing, give her a little oxygen, and let me keep her here in my room with me.",
+        "topic": "Expectations of care"
+      },
+      {
+        "answer": "All prenatal ultrasound scans and maternal lab screenings were completely normal throughout the pregnancy.",
+        "topic": "Prenatal care and ultrasound findings"
+      },
+      {
+        "answer": "The membranes were ruptured surgically during the C-section, and the amniotic fluid was completely clear with no meconium or foul odor.",
+        "topic": "Amniotic fluid and membranes"
+      },
+      {
+        "answer": "The mother did not have any fever, chills, urinary infections, or premature rupture of membranes before the delivery.",
+        "topic": "Maternal infections or fever"
+      },
+      {
+        "answer": "Maternal Group B Strep screening done at thirty-six weeks was negative.",
+        "topic": "Group B Streptococcus status"
+      },
+      {
+        "answer": "She was born at thirty-nine weeks and two days gestation weighing three point three kilograms, which is right at the fiftieth percentile.",
+        "topic": "Birth weight and gestational age"
+      },
+      {
+        "answer": "Her Apgar scores were eight at one minute and nine at five minutes.",
+        "topic": "Apgar scores"
+      },
+      {
+        "answer": "She has no known chronic illnesses or congenital conditions discovered during pregnancy or at delivery.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "Aside from the Cesarean delivery two hours ago, she has had no procedures or surgeries.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "She has not received any medications yet, only standard eye ointment and vitamin K right after birth.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No maternal medications were taken during pregnancy other than prenatal vitamins and iron supplements.",
+        "topic": "Maternal medications"
+      },
+      {
+        "answer": "There are no known drug allergies.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "No one smokes at home, and neither parent has ever used tobacco or electronic cigarettes.",
+        "topic": "Parental smoking"
+      },
+      {
+        "answer": "Neither parent uses alcohol or recreational drugs.",
+        "topic": "Parental alcohol or drug use"
+      },
+      {
+        "answer": "There is no family history of neonatal lung diseases, congenital heart anomalies, or early infant deaths.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature 36.8°C, heart rate 148 beats per minute, respiratory rate 76 breaths per minute, blood pressure 64/40 mmHg, and oxygen saturation 91% on room air improving to 98% on low-flow blow-by oxygen.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Full-term newborn infant lying in the warmer, alert, displaying tachypnea, mild intercostal and subcostal retractions, intermittent expiratory grunting, and mild nasal flaring without central cyanosis.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Nares patent bilaterally with visible intermittent nasal flaring; oral mucosa is pink and moist with no secretions or clefts.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric chest rise with mild subcostal and intercostal retractions; no clavicular fracture, deformity, or subcutaneous emphysema on palpation.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral breath sounds are clear and symmetric with good air entry throughout all lung fields, with no crackles, wheezes, or stridor.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal S1 and S2 with regular rate and rhythm, no murmurs, gallops, or clicks heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, with a normal clamp-sealed umbilical cord and no palpable organomegaly or masses.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Pink throughout with mild acrocyanosis, no central cyanosis, warm skin, and brisk capillary refill under 2 seconds.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral brachial and femoral pulses are strong, equal, and symmetric with no delay.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No peripheral edema, deformities, or asymmetry in the upper or lower extremities.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

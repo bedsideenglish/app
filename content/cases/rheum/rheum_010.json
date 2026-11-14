@@ -1,0 +1,287 @@
+{
+  "id": "rheum_010",
+  "system": "rheumatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Anderson",
+  "age": 76,
+  "gender": "male",
+  "chief_complaint": "sudden painful swelling and warmth of right knee in elderly patient",
+  "hpi_details": "76M presenting with 2 days of sudden painful swelling, warmth, and redness of the right knee, with associated low-grade fever.",
+  "ideas": "He thinks he had a severe attack of gout after eating a rich steak dinner over the weekend, or that he twisted his knee without realizing it.",
+  "concerns": "He is worried that he has a dangerous joint infection that could permanently destroy his knee and leave him unable to walk.",
+  "expectations": "He hopes the doctor will drain the fluid from his swollen knee and give him a cortisone shot for immediate pain relief.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "investigation_events": [{"id":"acute_knee_aspiration","title":"Urgent synovial-fluid results","order_terms":["arthrocentesis","joint aspiration","aspirate the knee","synovial fluid","crystal analysis"],"availability_message":"The immediate synovial-fluid microscopy is now available; final culture remains pending.","results":[{"id":"synovial_cell_count","test":"Synovial-fluid leukocyte count","value":"28,000","unit":"cells/uL","reference_range":"<200","flag":"critical","specimen":"Synovial fluid","collected_at":"During urgent assessment"},{"id":"synovial_crystals","test":"Synovial-fluid crystal analysis","value":"Rhomboid-shaped, weakly positively birefringent calcium pyrophosphate crystals","flag":"abnormal","specimen":"Synovial fluid","collected_at":"During urgent assessment"},{"id":"gram_stain","test":"Synovial-fluid Gram stain","value":"No organisms seen","flag":"normal","specimen":"Synovial fluid","collected_at":"During urgent assessment"}]}],
+  "clinical_knowledge": {
+    "topic": "Pseudogout (CPPD Arthritis) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pseudogout (CPPD Arthritis) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes urgent arthrocentesis to exclude septic arthritis before confirming and treating CPPD, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden painful swelling and warmth of right knee in elderly patient",
+      "Key HPI features: 76M presenting with 2 days of sudden painful swelling, warmth, and redness of the right knee, with associated low-grade fever.",
+      "Objective/Exam findings: Temperature mildly elevated. Knee exam shows a moderate effusion, warmth, erythema, and severely restricted range of motion due to pain. No overlying skin break or cellulitis. Other joints normal. No tophi.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pseudogout (CPPD Arthritis).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Gout without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever with joint swelling — must exclude septic arthritis."
+    ],
+    "management_principles": [
+      "Exclude septic arthritis first with urgent arthrocentesis (cell count, Gram stain/culture) before attributing acute monoarthritis to CPPD, especially with fever present",
+      "Confirm CPPD with polarized light microscopy showing rhomboid, positively birefringent crystals, and radiographs for chondrocalcinosis",
+      "Treat the acute flare with NSAIDs, colchicine, or intra-articular corticosteroid injection, individualized by renal function, comorbidities, and infection risk",
+      "Screen for underlying metabolic causes (hyperparathyroidism, hemochromatosis, hypomagnesemia) if recurrent or occurring at an atypical age."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Rheumatology (ACR) Clinical Guidance",
+        "url": "https://rheumatology.org/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "76M presenting with 2 days of sudden painful swelling, warmth, and redness of the right knee, with associated low-grade fever.",
+    "objective": "Temperature mildly elevated. Knee exam shows a moderate effusion, warmth, erythema, and severely restricted range of motion due to pain. No overlying skin break or cellulitis. Other joints normal.",
+    "assessment": "Acute right knee monoarthritis in an elderly patient; septic arthritis must be excluded before attributing to CPPD (pseudogout) or gout.",
+    "plan": "Perform urgent arthrocentesis with synovial fluid cell count, Gram stain/culture, and polarized light microscopy for crystals before starting treatment; send blood cultures if infection is suspected. If CPPD is confirmed without infection, treat the flare with NSAIDs, colchicine, or intra-articular corticosteroid injection individualized to comorbidities, obtain knee radiographs for chondrocalcinosis, and screen for underlying metabolic causes given the presentation."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Pseudogout CPPD Acute Knee Monoarthritis",
+    "Formulate prioritized differential diagnosis for sudden painful swelling and warmth of right knee in elderly patient",
+    "Select appropriate arthrocentesis studies (cell count, Gram stain/culture, polarized microscopy) to distinguish septic arthritis, gout, and CPPD",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Pseudogout (CPPD Arthritis)",
+    "one_liner": "Deposition of calcium pyrophosphate crystals in a joint — most often the knee in older adults — causing acute painful synovitis, distinguished from gout by rhomboid, positively birefringent crystals and chondrocalcinosis on X-ray.",
+    "differentials": [
+      "Gout",
+      "Septic arthritis",
+      "Osteoarthritis flare"
+    ],
+    "red_flags": [
+      "Fever with joint swelling — must exclude septic arthritis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Joint location and onset",
+        "say": "Which joint is affected, and how suddenly did it start?",
+        "domains": [
+          "location",
+          "onset_duration"
+        ],
+        "keywords": [
+          "knee",
+          "sudden"
+        ]
+      },
+      {
+        "objective": "Character of swelling",
+        "say": "How swollen and warm is the joint?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Prior similar episodes",
+        "say": "Has this happened before, in this or another joint?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Age and risk factors",
+        "say": "Do you have any other joint or metabolic conditions?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "138/82",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "Doctor, my right knee suddenly became swollen, red, and terribly painful two days ago, and it feels burning hot.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "Only my right knee is swollen and hurting; the left knee and all my other joints feel completely fine.",
+        "topic": "Joint location and symmetry"
+      },
+      {
+        "answer": "It started abruptly two mornings ago and reached peak pain and swelling within several hours.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It is an intense, throbbing ache that I would rate an 8 out of 10, especially whenever I try to bend it.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "Yes, the knee puffed up very fast, and the skin over it turned red and feels quite hot to the touch.",
+        "topic": "Swelling warmth and redness"
+      },
+      {
+        "answer": "It stays stiff throughout the entire day because of the swelling, not just when I first get out of bed.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "Trying to bend the knee or walk makes the pain unbearable, while keeping it completely still and resting helps slightly.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I cannot bear weight on my right leg at all, so I have to limp heavily and support myself on furniture.",
+        "topic": "Walking and weight bearing"
+      },
+      {
+        "answer": "I felt warm and flushed yesterday, and my thermometer showed a low fever around 37.8 degrees, but I have not had shaking chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, I did not twist or bump it, hear any pop, or feel the knee give way or lock up.",
+        "topic": "Trauma and mechanical symptoms"
+      },
+      {
+        "answer": "No, this is the very first time anything like this has ever happened to my knees or any other joint.",
+        "topic": "Prior joint episodes"
+      },
+      {
+        "answer": "I feel a little worn out because the pain kept me up, but I have not had drenching night sweats or lost weight.",
+        "topic": "Constitutional symptoms"
+      },
+      {
+        "answer": "No, I have no skin rashes, mouth ulcers, hair loss, or red and dry eyes.",
+        "topic": "Skin or autoimmune symptoms"
+      },
+      {
+        "answer": "No, I have no stiffness or pain in my lower back, buttocks, or heels.",
+        "topic": "Back and heel pain"
+      },
+      {
+        "answer": "No, I haven't had any stomach bug or diarrhea, burning with urination, or throat irritation recently.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "No, I haven't been drinking heavily or eating lots of shellfish or red meat, and I don't take water pills.",
+        "topic": "Diet and gout triggers"
+      },
+      {
+        "answer": "I have never had injections, fluid drawn, or surgeries on that knee, and I don't take steroids or immunosuppressants.",
+        "topic": "Joint procedures or steroids"
+      },
+      {
+        "answer": "I have been married to my wife for over forty years with no outside partners, and I have never had a sexually transmitted infection.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I thought I must have triggered a bad gout attack from eating a steak dinner over the weekend, or maybe I twisted my knee.",
+        "topic": "Thoughts on cause"
+      },
+      {
+        "answer": "I'm really worried there's a serious infection in my joint that could ruin my knee for good and leave me stuck in a wheelchair.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping you could drain this fluid to relieve the pressure and give me a shot or some strong medicine so I can put weight on my leg again.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have high blood pressure and slightly elevated cholesterol, both of which have been well controlled for years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "No, I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take Lisinopril 10 milligrams once every morning for my blood pressure; I haven't taken any supplements or painkillers recently.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have a glass of wine socially once or twice a month, and had nothing to drink this week.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time as an administrative office manager and live in an apartment with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents had high blood pressure, but there is no history of gout, rheumatoid arthritis, or other joint problems in my family.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Elderly male in moderate discomfort due to right knee pain, seated comfortably while keeping the right leg slightly bent.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 138/82 mmHg, heart rate 78 beats/min, respiratory rate 16 breaths/min, temperature 37.8°C, oxygen saturation 98% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Right knee demonstrates a moderate joint effusion, palpable warmth, erythema, and marked tenderness along the joint lines, with active and passive range of motion severely restricted by pain; other joints are normal without tophi.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No overlying skin breaks, cellulitis, psoriatic plaques, malar rash, or subcutaneous tophi over the extensor surfaces or digits.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Antalgic gait with marked avoidance of weight-bearing on the right lower extremity.",
+        "maneuver": "coordination_gait",
+        "response": "pain"
+      },
+      {
+        "finding": "No peripheral pitting edema in either lower extremity; swelling is strictly confined to the right knee joint capsule.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "psych_013",
+  "system": "psychiatry",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Jones",
+  "age": 38,
+  "gender": "female",
+  "chief_complaint": "intermittent manic episodes combined with chronic continuous auditory hallucinations and delusions persisting during euthymic periods",
+  "hpi_details": "She presents with decreased need for sleep and euphoric mood. Over the past 2 years, she has also had auditory hallucinations and delusions, including command voices, that continued for months when she reports a stable mood. Clarify the timing and duration of mood and psychotic symptoms with collateral history.",
+  "ideas": "She is unsure whether the voices are part of a mood disorder or a psychotic disorder.",
+  "concerns": "She is frightened by the command voices and their effect on her safety and relationships.",
+  "expectations": "She wants to understand what is happening and receive urgent help if she cannot stay safe.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Schizoaffective Disorder, Bipolar Type: evaluation and management",
+    "core_concepts": [
+      "Schizoaffective disorder requires a major mood episode concurrent with schizophrenia-spectrum symptoms and at least 2 weeks of delusions or hallucinations without a major mood episode; longitudinal history and collateral information are essential.",
+      "Current mania can impair judgment and decision-making capacity. Assess sleep, agitation, impulsivity, psychosis, ability to meet basic needs, and need for involuntary or voluntary emergency care according to local law.",
+      "Command hallucinations require direct assessment of content, intent, ability to resist commands, access to means, and risk to self or others.",
+      "Acute treatment is guided by severity and safety and usually includes antipsychotic treatment; mood stabilizer selection and monitoring require individualized medical review."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: intermittent manic episodes combined with chronic continuous auditory hallucinations and delusions persisting during euthymic periods",
+      "Key HPI features: decreased need for sleep and euphoric mood with a two-year history of hallucinations and delusions reportedly persisting for months during euthymia; command content needs immediate clarification.",
+      "Objective/Exam findings: assess vital signs, mental status, agitation, thought process, insight, judgment, capacity, hydration and nutrition, neurological findings, and substance use.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Schizoaffective disorder can be diagnosed from a cross-sectional interview without establishing the longitudinal relationship between mood and psychosis.",
+      "Psychosis during any mood episode proves schizoaffective disorder; bipolar I disorder with psychotic features remains an important differential.",
+      "All hallucinations are psychiatric without considering intoxication, withdrawal, delirium, neurological disease, or medication effects.",
+      "A patient with mania and psychosis always has capacity to refuse urgent assessment."
+    ],
+    "dangerous_errors": [
+      "Failing to clarify whether command voices instruct self-harm, suicide, violence, or dangerous acts, and whether the patient can resist them.",
+      "Missing delirium, intoxication, alcohol or sedative withdrawal, severe agitation, exhaustion, dehydration, or inability to care for self.",
+      "Discharging a manic or psychotic patient with impaired capacity, unreliable safety planning, or imminent risk without emergency psychiatric evaluation.",
+      "Starting lithium without appropriate baseline and ongoing renal, thyroid, pregnancy, interaction, toxicity, and serum-level monitoring."
+    ],
+    "management_principles": [
+      "Perform an urgent safety and capacity assessment, obtain collateral information when possible, and use emergency psychiatric pathways when risk or inability to care for self is present.",
+      "Establish longitudinal mood and psychosis chronology; evaluate substance, medication, neurological, endocrine, and other medical contributors with targeted testing.",
+      "Treat acute mania and psychosis in psychiatric care with an antipsychotic and, when indicated, a mood stabilizer; choose medicines according to history, pregnancy potential, comorbidities, and adverse-effect risks.",
+      "Monitor metabolic effects and movement disorders for antipsychotics; if lithium is used, monitor levels, renal and thyroid function, interactions, hydration, and toxicity symptoms."
+    ],
+    "boundaries_and_exceptions": [
+      "The reported history supports consideration of schizoaffective disorder but does not establish it without confirming duration and timing; diagnose cautiously and revise as longitudinal data emerge.",
+      "Pregnancy, renal or thyroid disease, interacting medicines, and unreliable follow-up can change medication selection and level of care."
+    ],
+    "source_refs": [
+      {
+        "title": "American Psychiatric Association (APA) Practice Guidelines",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "38-year-old woman with decreased need for sleep and euphoric mood, plus a two-year history of hallucinations and delusions reportedly lasting for months when mood was stable. Command-voice content, intent, ability to resist, suicidal or violent thoughts, substance use, and functional capacity require immediate assessment.",
+    "objective": "Obtain vital signs and a full mental-status examination including agitation, thought process, insight, judgment, and capacity. Assess nutrition, hydration, neurological signs, pregnancy potential, substance use, and targeted medical causes.",
+    "assessment": "Acute mania with psychosis. Consider schizoaffective disorder, bipolar I disorder with psychotic features, schizophrenia-spectrum disorder, substance-induced psychosis, delirium, and medical or neurological causes; confirm longitudinal chronology and collateral history.",
+    "plan": "Arrange same-day emergency psychiatric assessment if command hallucinations create danger, capacity is impaired, severe mania or psychosis prevents safe outpatient care, or there is inability to care for self. Treat acute symptoms in psychiatric care; monitor antipsychotic adverse effects and, if lithium is selected, levels, renal and thyroid function, interactions, and toxicity."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Schizoaffective Disorder Bipolar Type",
+    "Formulate prioritized differential diagnosis for intermittent manic episodes combined with chronic continuous auditory hallucinations and delusions persisting during euthymic periods",
+    "Assess command hallucinations, capacity, and immediate risk to self or others",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Schizoaffective Disorder, Bipolar Type (provisional)",
+    "one_liner": "A longitudinal diagnosis to consider when manic episodes coexist with schizophrenia-spectrum symptoms and psychosis also persists for at least two weeks without a major mood episode.",
+    "differentials": [
+      "Bipolar I with psychotic features",
+      "Substance-induced psychosis",
+      "Schizoaffective disorder, bipolar type",
+      "Schizophrenia-spectrum disorder",
+      "Delirium or medical/neurological psychosis"
+    ],
+    "red_flags": [
+      "Command auditory hallucinations",
+      "Severe paranoia with threat to self/others"
+    ],
+    "must_ask": [
+      {
+        "objective": "Auditory hallucination screen",
+        "say": "Do you hear voices or sounds that other people around you cannot hear?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "voices",
+          "hearing",
+          "sounds",
+          "voice",
+          "hallucinations"
+        ]
+      },
+      {
+        "objective": "Persecutory or grandiose delusion screen",
+        "say": "Do you feel that people are watching, spying, or trying to harm you?",
+        "domains": [
+          "ideas",
+          "concerns"
+        ],
+        "keywords": [
+          "spying",
+          "watching",
+          "harm",
+          "conspiracy",
+          "delusions"
+        ]
+      },
+      {
+        "objective": "Thought broadcasting or insertion",
+        "say": "Do you ever feel like your mind is being broadcasted aloud or controlled by outside forces?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "broadcast",
+          "inserted",
+          "mind",
+          "forces",
+          "controlling"
+        ]
+      },
+      {
+        "objective": "Substance use screening",
+        "say": "Have you been using cannabis, amphetamines, or hallucinogens recently?",
+        "domains": [
+          "substances"
+        ],
+        "keywords": [
+          "cannabis",
+          "weed",
+          "drugs",
+          "amphetamines",
+          "substances"
+        ]
+      },
+      {
+        "objective": "Social withdrawal and functional decline",
+        "say": "Have you isolated yourself from friends or stopped attending work or school?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "isolated",
+          "withdrawn",
+          "school",
+          "friends",
+          "work"
+        ]
+      },
+      {
+        "objective": "Command hallucination safety",
+        "say": "What do the voices tell you to do? Have they told you to hurt yourself or anyone else, and do you feel able to resist them?",
+        "domains": [
+          "safety"
+        ],
+        "keywords": [
+          "commands",
+          "hurt",
+          "yourself",
+          "anyone else",
+          "resist"
+        ]
+      },
+      {
+        "objective": "Mania severity and capacity",
+        "say": "How much have you slept, and have you been spending impulsively, taking risks, or felt unable to manage food, housing, or daily needs?",
+        "domains": [
+          "associated_symptoms",
+          "living_work"
+        ],
+        "keywords": [
+          "sleep",
+          "spending",
+          "risks",
+          "food",
+          "daily needs"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 88,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I keep hearing strange voices talking to me, and for the last few days my mind has been racing with boundless energy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The voices and strange beliefs began about two years ago, but this surge of racing thoughts and reduced sleep started suddenly five days ago.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "I hear two distinct voices speaking to each other and critiquing what I do every day, though I have never seen visions or shadows.",
+        "topic": "Hallucination content and frequency"
+      },
+      {
+        "answer": "Occasionally a voice tells me to step outside or jump into traffic, but I recognize that is dangerous and I have resisted doing it.",
+        "topic": "Command hallucinations and safety"
+      },
+      {
+        "answer": "I often feel like neighbors are watching me through apartment vents, and sometimes I feel like my thoughts are leaking out for others to hear.",
+        "topic": "Paranoid and persecutory delusions"
+      },
+      {
+        "answer": "Over the past few days, I feel like I have been chosen for a special cosmic purpose that regular people cannot grasp.",
+        "topic": "Grandiose delusions"
+      },
+      {
+        "answer": "I still shower and dress myself, but I have pulled away from friends and have missed work twice this week because my head is so busy.",
+        "topic": "Daily functioning and social withdrawal"
+      },
+      {
+        "answer": "I have only been sleeping two to three hours a night for five days, yet I wake up feeling completely electrified and ecstatic.",
+        "topic": "Decreased sleep and elevated mood"
+      },
+      {
+        "answer": "My thoughts are jumping quickly from one idea to the next, and my sister told me I am speaking much faster than usual.",
+        "topic": "Pressured speech and racing thoughts"
+      },
+      {
+        "answer": "Two days ago I spent three thousand dollars on electronic gadgets I do not need, but I have not driven recklessly or had risky sexual encounters.",
+        "topic": "Impulsive behavior and spending"
+      },
+      {
+        "answer": "Yes, even during several months last year when my mood was completely stable and normal, the voices and feeling of being monitored never went away.",
+        "topic": "Symptoms during stable mood"
+      },
+      {
+        "answer": "About a year and a half ago, I had a period of about a month where I felt sluggish, sad, and unmotivated, but it gradually passed.",
+        "topic": "Previous depressive episodes"
+      },
+      {
+        "answer": "I do not want to die and have never tried to harm myself, but hearing those command voices scares me deeply.",
+        "topic": "Suicidal thoughts and self-harm"
+      },
+      {
+        "answer": "I have no thoughts of hurting anyone else, I do not own any weapons, and I have never been physically aggressive.",
+        "topic": "Homicidal ideation and aggression"
+      },
+      {
+        "answer": "I realize other people cannot hear these voices, and I am scared about what is happening to my mind and want medical help to stay safe.",
+        "topic": "Insight and treatment goals"
+      },
+      {
+        "answer": "I have never used methamphetamine, marijuana, ecstasy, or any street drugs, and I have never taken steroid medications.",
+        "topic": "Substance and steroid use"
+      },
+      {
+        "answer": "I have never seen a psychiatrist before, so I have never taken mood stabilizers or antipsychotic pills.",
+        "topic": "Past psychiatric medications"
+      },
+      {
+        "answer": "No, I have not had any severe headaches, seizures, episodes of blacking out, or confusion.",
+        "topic": "Headache and neurological symptoms"
+      },
+      {
+        "answer": "I have had no fever, chills, heart palpitations, night sweats, or unexplained weight loss.",
+        "topic": "Fever and physical symptoms"
+      },
+      {
+        "answer": "There was no specific crisis or major life trauma before this started; it just seems to have built up over time.",
+        "topic": "Stressors and triggers"
+      },
+      {
+        "answer": "I have no chronic medical conditions like high blood pressure, diabetes, or thyroid disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my tonsils taken out in grade school, but I have never had any surgeries or hospital admissions as an adult.",
+        "topic": "Past surgery and hospitalizations"
+      },
+      {
+        "answer": "I do not take any daily prescription drugs, over-the-counter medicines, or dietary supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I do not have any known allergies to medications or foods.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic vapes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have a glass of wine on rare occasions, and I have not had any alcohol in over a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I live by myself in an apartment and work as an administrative assistant, though staying focused at work has been difficult.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My maternal aunt was diagnosed with bipolar disorder, but no one in my family has schizophrenia or has attempted suicide.",
+        "topic": "Family psychiatric history"
+      },
+      {
+        "answer": "My last period started two weeks ago on my usual twenty-eight-day cycle, and I have never been pregnant or given birth.",
+        "topic": "Menstrual and obstetric history"
+      },
+      {
+        "answer": "I am not currently sexually active, have not had a partner in over a year, and there is no chance of pregnancy.",
+        "topic": "Sexual history and contraception"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 124/78 mmHg, pulse 88 beats per minute, respiratory rate 16 breaths per minute, temperature 36.8 degrees Celsius, and oxygen saturation 99% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "She is alert, neatly dressed, and energetic, maintaining intense eye contact with mild psychomotor restlessness and intermittent brief pauses as if attending to internal stimuli.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Speech is rapid and pressured, mood is elevated, thought process shows tangentiality and flight of ideas with persecutory and grandiose content, auditory hallucinations are present, and she demonstrates partial insight with willingness to accept psychiatric evaluation.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal, round, and reactive to light, extraocular movements are full without nystagmus, and facial movements and sensation are intact bilaterally.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone throughout, with 5/5 strength in all upper and lower extremities and no focal motor deficits.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps, patellar, and Achilles reflexes are 2+ and symmetrical bilaterally, with downward plantar responses.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Finger-to-nose and rapid alternating movements are intact, and her gait is brisk, upright, and steady without ataxia.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender, with no palpable nodules or audible bruit.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is warm and dry, with no needle track marks, rashes, diaphoresis, or signs of self-inflicted harm.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

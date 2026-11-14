@@ -1,0 +1,343 @@
+{
+  "id": "nephro_022",
+  "system": "nephrology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Lee",
+  "age": 65,
+  "gender": "female",
+  "chief_complaint": "generalized weakness, decreased urination, and nausea 4 days after severe diarrhea",
+  "hpi_details": "65F presents with severe exhaustion, nausea, and dark, sparse urine (oliguria) for the past 2 days. Had severe watery diarrhea 4 days ago after eating suspect seafood and could not keep fluids down.",
+  "ideas": "thinks she has persistent stomach flu or dehydration",
+  "concerns": "worried about permanent kidney damage",
+  "expectations": "wants IV fluids to flush kidneys",
+  "pmh": "Hypertension, Osteoarthritis",
+  "medications": "Lisinopril 20mg daily, Ibuprofen 400mg TID (taken for joint pain)",
+  "social_hx": "Retired, non-smoker",
+  "investigation_events": [
+    {
+      "id": "urgent_volume_depletion_aki_workup",
+      "title": "Urgent volume depletion and kidney injury assessment",
+      "order_terms": ["BMP", "basic metabolic panel", "renal function", "BUN", "creatinine", "urine sodium", "fractional excretion of sodium", "FeNa"],
+      "availability_message": "Urgent serum and urine renal indices are now available. Cautious IV rehydration should not be delayed in this clinically volume-depleted patient.",
+      "results": [
+        {"id": "bun", "test": "Blood urea nitrogen", "value": "55", "unit": "mg/dL", "reference_range": "7-20", "flag": "high"},
+        {"id": "creatinine", "test": "Serum creatinine", "value": "2.8", "unit": "mg/dL", "reference_range": "0.6-1.1", "flag": "high", "note": "Baseline creatinine is 1.0 mg/dL."},
+        {"id": "fena", "test": "Fractional excretion of sodium", "value": "0.6", "unit": "%", "reference_range": "<1% suggests sodium-avid physiology", "flag": "low"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Prerenal Acute Kidney Injury (volume depletion) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Prerenal Acute Kidney Injury (volume depletion) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management prioritizes immediately holding nephrotoxic and renin-angiotensin-blocking agents (ACE inhibitors, NSAIDs) that impair renal autoregulation during volume depletion, followed by cautious volume repletion guided by urine output and renal function trends.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: generalized weakness, decreased urination, and nausea 4 days after severe diarrhea",
+      "Key HPI features: 65F presents with severe exhaustion, nausea, and dark, sparse urine (oliguria) for the past 2 days. Had severe watery diarrhea 4 days ago after eating suspect seafood and could not keep fluids down.",
+      "Objective/Exam findings: Vitals: BP 98/62, HR 108, orthostatic drop of ~20 mmHg systolic on standing, afebrile. Dry mucous membranes, poor skin turgor. Labs: BUN 55 mg/dL, Creatinine 2.8 mg/dL (baseline 1.0), BUN:Cr ratio >20:1, FeNa <1%, urine sodium <20 mEq/L.",
+      "Relevant background/PMH: Hypertension, Osteoarthritis",
+      "Current medications: Lisinopril 20mg daily, Ibuprofen 400mg TID (taken for joint pain)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Prerenal Acute Kidney Injury (volume depletion).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute tubular necrosis (if prerenal injury persists untreated) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Confusion or very low blood pressure — suggests more severe volume depletion."
+    ],
+    "management_principles": [
+      "Check BUN, creatinine, electrolytes, and urine studies (FeNa, urine sodium) to confirm a prerenal etiology",
+      "Hold Lisinopril and Ibuprofen immediately",
+      "Administer cautious IV hydration"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: generalized weakness, decreased urination, and nausea 4 days after severe diarrhea\n\n65F presents with severe exhaustion, nausea, and dark, sparse urine (oliguria) for the past 2 days. Had severe watery diarrhea 4 days ago after eating suspect seafood and could not keep fluids down.",
+    "objective": "Vitals: BP 98/62, HR 108, orthostatic drop of ~20 mmHg systolic on standing, afebrile. Dry mucous membranes, poor skin turgor. Labs: BUN 55 mg/dL, Creatinine 2.8 mg/dL (baseline 1.0), BUN:Cr ratio >20:1, FeNa <1%, urine sodium <20 mEq/L.",
+    "assessment": "Prerenal AKI due to severe volume depletion from watery diarrhea, exacerbated by continued Lisinopril and NSAID use, which impair renal autoregulation in the setting of hypovolemia.",
+    "plan": "Hold Lisinopril and Ibuprofen immediately. Administer cautious IV hydration. Monitor creatinine, BUN, and urine output. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Prerenal Acute Kidney Injury (AKI) exacerbated by Lisinopril and NSAID use in setting of volume depletion.",
+    "Formulate prioritized differential diagnosis for generalized weakness, decreased urination, and nausea 4 days after severe diarrhea",
+    "Select appropriate laboratory and imaging studies for nephrology",
+    "Implement evidence-based acute and long-term management strategies for Prerenal Acute Kidney Injury (AKI) exacerbated by Lisinopril and NSAID use in setting of volume depletion."
+  ],
+  "teaching": {
+    "diagnosis": "Prerenal Acute Kidney Injury (volume depletion)",
+    "one_liner": "Severe fluid loss from diarrhea reduces blood flow to the kidneys, and continuing an ACE inhibitor or NSAID during this state worsens the injury — treated by holding those drugs and cautious rehydration.",
+    "differentials": [
+      "Acute tubular necrosis (if prerenal injury persists untreated)",
+      "Sepsis-associated AKI"
+    ],
+    "red_flags": [
+      "Confusion or very low blood pressure — suggests more severe volume depletion"
+    ],
+    "must_ask": [
+      {
+        "objective": "Diarrhea history",
+        "say": "Tell me about the diarrhea — how severe, and what do you think caused it?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "diarrhea",
+          "seafood"
+        ]
+      },
+      {
+        "objective": "Fluid intake and tolerance",
+        "say": "Have you been able to keep fluids down?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Urine output",
+        "say": "How has your urination changed?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "oliguria"
+        ]
+      },
+      {
+        "objective": "Medications",
+        "say": "Are you taking any blood pressure pills or pain relievers?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "lisinopril",
+          "ibuprofen"
+        ]
+      },
+      {
+        "objective": "Weakness and dizziness",
+        "say": "Do you feel weak or dizzy, especially standing up?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "98/62",
+      "hr": 108,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "Doctor, I've had terrible watery diarrhea for the past four days, and for the last two days I've barely made any urine and feel completely exhausted.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The diarrhea hit me four days ago, and over the last two days I've only urinated once or twice a day in tiny amounts, barely a few spoonfuls each time.",
+        "topic": "Onset and urine output changes"
+      },
+      {
+        "answer": "It started after I ate some raw seafood four days ago; I had over ten episodes of watery diarrhea a day and vomited twice, so I could barely keep water down.",
+        "topic": "Diarrhea and fluid intake"
+      },
+      {
+        "answer": "Yes, my mouth feels like sandpaper and I've been desperately thirsty, but whenever I try to drink water I feel nauseated.",
+        "topic": "Thirst and dry mouth"
+      },
+      {
+        "answer": "I get extremely lightheaded and my vision darkens every time I try to sit up or stand out of bed.",
+        "topic": "Dizziness upon standing"
+      },
+      {
+        "answer": "The little urine I did pass was very dark brown, like strong black tea, but I didn't see blood or foam in it.",
+        "topic": "Urine color and characteristics"
+      },
+      {
+        "answer": "No, there is no pain or burning when I urinate, and my lower belly does not feel full or bloated at all.",
+        "topic": "Dysuria and urinary retention"
+      },
+      {
+        "answer": "No, I don't have any pain in my back or flanks, and I've never had kidney stones before.",
+        "topic": "Flank pain and stone history"
+      },
+      {
+        "answer": "No, my legs and face haven't swollen at all, and I have not felt short of breath.",
+        "topic": "Edema and breathing difficulty"
+      },
+      {
+        "answer": "I've been feeling persistent nausea and lost my appetite since the diarrhea started, but no itching, hiccups, or confusion.",
+        "topic": "Nausea and uremic symptoms"
+      },
+      {
+        "answer": "My heart has been beating really fast in my chest, and my arms and legs feel heavy and completely drained of energy.",
+        "topic": "Palpitations and muscle weakness"
+      },
+      {
+        "answer": "No, I haven't had any fever or chills, skin rash, or bloody phlegm.",
+        "topic": "Fever rash and systemic symptoms"
+      },
+      {
+        "answer": "No, I haven't had a sore throat, runny nose, or any skin boils or infections recently.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "No, I haven't done heavy exercise, had any falls, or remained immobilized on the floor.",
+        "topic": "Muscle pain trauma or immobility"
+      },
+      {
+        "answer": "No, I haven't had any CT scans, dye injections, or procedures recently.",
+        "topic": "Recent contrast studies or procedures"
+      },
+      {
+        "answer": "I take Lisinopril 20 milligrams every morning for high blood pressure, and I take Ibuprofen 400 milligrams three times a day for my arthritic knees, which I continued taking even while sick.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I have never had heart failure, liver cirrhosis, or any kidney problems in the past.",
+        "topic": "Past organ disease history"
+      },
+      {
+        "answer": "No, I have never had any pelvic cancers, pelvic surgery, or radiation therapy.",
+        "topic": "Pelvic conditions and radiation history"
+      },
+      {
+        "answer": "I have had high blood pressure for ten years and osteoarthritis in both knees for five years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was twenty-five, but no other surgeries or hospitalizations.",
+        "topic": "Past surgical and hospital history"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might have a glass of wine on holidays, but I haven't had any alcohol in months.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired teacher and live with my husband in a quiet apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure and passed away from a stroke in his eighties, but no one in my family had kidney disease.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I went through menopause around age fifty-two and haven't had any vaginal bleeding since.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "I thought this might just be a lingering stomach flu with severe dehydration from the bad seafood.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I'm really frightened that my kidneys have shut down and suffered permanent damage because I stopped peeing.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I was hoping you could give me IV fluids to rehydrate me and flush out my kidneys so they start working again.",
+        "topic": "Patient's expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Lethargic, ill-appearing elderly female lying in bed with dry lips and sunken eyes.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 98/62 mmHg, heart rate 108 beats/min, respiratory rate 18 breaths/min, body temperature 36.7°C, SpO2 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Supine blood pressure 98/62 mmHg with pulse 108 beats/min drops to 78/50 mmHg with pulse 126 beats/min upon standing, accompanied by lightheadedness.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Pale, very dry oral mucosa with cracked lips and a dry, furrowed tongue; pharynx is clear.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Flat neck veins with jugular venous pressure below 5 cm H2O, not visible even at 30 degrees.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm without murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without crackles, wheezes, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft, non-distended, mildly tender diffusely without guarding or rebound tenderness; no suprapubic distension or palpable bladder.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Tympanic throughout with dullness absent above the symphysis pubis; no shifting dullness.",
+        "maneuver": "abdominal_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No peripheral edema in bilateral lower extremities.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Significantly decreased skin turgor with delayed skin recoil lasting over 3 seconds on the clavicle and forearm; no rash.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral Heberden and Bouchard nodes on distal and proximal interphalangeal joints without acute erythema, warmth, or active effusion.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented to person, place, and time, though responding with mild psychomotor slowing due to fatigue.",
+        "maneuver": "mental_status",
+        "response": "none"
+      }
+    ]
+  }
+}

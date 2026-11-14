@@ -1,0 +1,315 @@
+{
+  "id": "opht_004",
+  "system": "ophthalmology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Davis",
+  "age": 75,
+  "gender": "female",
+  "chief_complaint": "chronic progressive central vision distortion, straight lines appearing wavy (metamorphopsia), and central blind spot (Age-Related Macular Degeneration)",
+  "hpi_details": "75F presents with 4 months of progressive blurred and distorted central vision in her right eye. She notices when reading that words appear missing or blurred in the center of the page. Last week, while looking at door frames and bathroom tile grid lines, she noticed that straight lines looked wavy and crooked (metamorphopsia). Peripheral vision remains sharp and clear. She denies eye pain or redness.",
+  "ideas": "frustrated because she can no longer read books or recognize grandchildren's faces straight on",
+  "concerns": "worried she is going completely blind across her entire visual field",
+  "expectations": "wants specialized retinal eye injections or laser treatment to fix her central vision",
+  "pmh": "Hypertension, 40 pack-year smoking history",
+  "medications": "Lisinopril 10mg daily, AREDS2 eye multivitamins",
+  "social_hx": "Retired secretary, active smoker",
+  "investigation_events": [{
+    "id": "same_day_macular_oct",
+    "title": "Macular optical coherence tomography",
+    "order_terms": ["OCT", "optical coherence tomography", "macular scan", "macular OCT"],
+    "availability_message": "The macular OCT result is now available.",
+    "results": [{"id": "macular_oct", "test": "OCT of the right macula", "value": "Subretinal and intraretinal fluid with retinal pigment epithelial elevation from active choroidal neovascularization", "flag": "abnormal"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Neovascular (wet) age-related macular degeneration evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Neovascular (wet) age-related macular degeneration is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes urgent intravitreal Anti-VEGF injection therapy to halt neovascular leakage and preserve vision, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: chronic progressive central vision distortion, straight lines appearing wavy (metamorphopsia), and central blind spot (Age-Related Macular Degeneration)",
+      "Key HPI features: 75F presents with 4 months of progressive blurred and distorted central vision in her right eye. She notices when reading that words appear missing or blurred in the center of the page. Last week, while looking at door frames and bathroom tile grid lines, she noticed that straight lines looked wavy and crooked (metamorphopsia). Peripheral vision remains sharp and clear. She denies eye pain or redness.",
+      "Objective/Exam findings: Vitals: HR 74, BP 138/82. Visual acuity: Right eye 20/100 (with eccentric viewing); Left eye 20/40. Amsler grid testing confirms central metamorphopsia (wavy/distorted grid lines) and a central scotoma in the right eye. Dilated fundoscopic examination reveals extensive bilateral yellow subretinal drusen and retinal pigment epithelium (RPE) mottling. In the right foveal/macular area, there is a subretinal grayish-green choroidal neovascular membrane surrounded by subretinal hemorrhage, lipid exudates, and subretinal fluid accumulation. Optical Coherence Tomography (OCT) of right macula confirms subretinal and intraretinal fluid pockets with RPE elevation secondary to active Choroidal Neovascularization (CNV).",
+      "Relevant background/PMH: Hypertension, 40 pack-year smoking history",
+      "Current medications: Lisinopril 10mg daily, AREDS2 eye multivitamins"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Neovascular (wet) age-related macular degeneration.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Dry (non-exudative) AMD without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: New/worsening metamorphopsia (rapid progression concerning for wet AMD)."
+    ],
+    "management_principles": [
+      "Urgent referral to Retinal Specialist for immediate intravitreal Anti-VEGF injection therapy (Ranibizumab, Aflibercept, or Bevacizumab administered monthly or via treat-and-extend protocol) to halt choroidal neovascular vessel leakage, stabilize subretinal fluid, and preserve/restore central visual acuity",
+      "Counsel patient to immediately cease cigarette smoking (major modifiable progression risk factor) and continue daily AREDS2 antioxidant vitamin supplementation (containing Lutein/Zeaxanthin, avoiding beta-carotene due to lung cancer risk in smokers)",
+      "Provide home Amsler grid for daily self-monitoring of left eye"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "75F smoker presenting with progressive central visual distortion (metamorphopsia) and central scotoma characteristic of Neovascular (Wet) Age-Related Macular Degeneration.",
+    "objective": "Vitals: HR 74, BP 138/82. Visual acuity: Right eye 20/100 (with eccentric viewing); Left eye 20/40. Amsler grid testing confirms central metamorphopsia (wavy/distorted grid lines) and a central scotoma in the right eye. Dilated fundoscopic examination reveals extensive bilateral yellow subretinal drusen and retinal pigment epithelium (RPE) mottling. In the right foveal/macular area, there is a subretinal grayish-green choroidal neovascular membrane surrounded by subretinal hemorrhage, lipid exudates, and subretinal fluid accumulation. Optical Coherence Tomography (OCT) of right macula confirms subretinal and intraretinal fluid pockets with RPE elevation secondary to active Choroidal Neovascularization (CNV).",
+    "assessment": "Neovascular (Wet / Exudative) Age-Related Macular Degeneration of the Right Eye, superimposed on bilateral Dry AMD.",
+    "plan": "1. Urgent referral to Retinal Specialist for immediate intravitreal Anti-VEGF injection therapy (Ranibizumab, Aflibercept, or Bevacizumab administered monthly or via treat-and-extend protocol) to halt choroidal neovascular vessel leakage, stabilize subretinal fluid, and preserve/restore central visual acuity. 2. Counsel patient to immediately cease cigarette smoking (major modifiable progression risk factor) and continue daily AREDS2 antioxidant vitamin supplementation (containing Lutein/Zeaxanthin, avoiding beta-carotene due to lung cancer risk in smokers). Provide home Amsler grid for daily self-monitoring of left eye."
+  },
+  "learning_objectives": [
+    "Differentiate Non-Exudative (Dry) AMD (characterised by subretinal drusen, RPE atrophy, gradual progression) from Exudative (Wet / Neovascular) AMD (characterised by choroidal neovascular membranes CNV, subretinal hemorrhage/exudate, rapid central visual distortion)",
+    "Perform and interpret Amsler grid testing to identify central metamorphopsia (wavy lines) and central scotomas",
+    "Understand the diagnostic role of Optical Coherence Tomography (OCT) in detecting subretinal/intraretinal fluid in wet AMD",
+    "Outline evidence-based treatment regimens: Intravitreal Anti-VEGF injections for Wet AMD and AREDS2 antioxidant formulations plus smoking cessation for intermediate Dry AMD"
+  ],
+  "teaching": {
+    "diagnosis": "Neovascular (wet) age-related macular degeneration",
+    "one_liner": "75F smoker with 4 months of progressive central vision distortion and wavy lines (metamorphopsia) in the right eye.",
+    "differentials": [
+      "Dry (non-exudative) AMD",
+      "Central serous chorioretinopathy",
+      "Macular hole",
+      "Diabetic macular edema"
+    ],
+    "red_flags": [
+      "New/worsening metamorphopsia (rapid progression concerning for wet AMD)",
+      "Central scotoma",
+      "Heavy smoking history"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the visual distortion",
+        "say": "Have straight lines, like door frames, started looking wavy or bent?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "metamorphopsia",
+          "wavy lines"
+        ]
+      },
+      {
+        "objective": "Ask about central vs peripheral vision",
+        "say": "Is it your central vision or side vision that's affected?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "central scotoma"
+        ]
+      },
+      {
+        "objective": "Assess rate of progression",
+        "say": "Has this gotten noticeably worse over the past days or weeks?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "progression rate"
+        ]
+      },
+      {
+        "objective": "Ask about smoking history",
+        "say": "How much and how long have you been smoking?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "smoking history"
+        ]
+      },
+      {
+        "objective": "Explain anti-VEGF injection therapy",
+        "say": "We need an urgent retina specialist referral for injections into the eye that can stop the abnormal blood vessel leakage.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "anti-VEGF",
+          "intravitreal injection"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "138/82",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "The vision in my right eye has become very blurry in the center over the past few months, and lately straight lines look all crooked and wavy.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The blurriness in the middle of my right eye started gradually about four months ago, but the wavy distortion came on noticeably over this past week.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is only in my right eye; when I cover my right eye, my left eye sees straight and clear.",
+        "topic": "Affected eye"
+      },
+      {
+        "answer": "No, it does not come and go or black out for minutes at a time. The blurriness and distortion have been constant and steady.",
+        "topic": "Transient vision loss"
+      },
+      {
+        "answer": "The edges of my vision are fine, but right in the center words are blurry or missing when I read, and door frames and bathroom tiles look completely wavy.",
+        "topic": "Visual distortion and blind spot"
+      },
+      {
+        "answer": "Reading up close is much harder because the center words vanish, but seeing faces straight on at a distance is also blurry. Getting updated reading glasses a month ago did not help at all.",
+        "topic": "Distance versus near vision"
+      },
+      {
+        "answer": "No, I do not have halos around lights or terrible glare, though I stopped driving at night because reading street signs straight ahead became too difficult.",
+        "topic": "Glare, halos, and night driving"
+      },
+      {
+        "answer": "No, I haven't noticed any flashing lights, sudden dark floaters, or a dark curtain pulling across my view.",
+        "topic": "Flashes, floaters, or curtain"
+      },
+      {
+        "answer": "No, I do not see double images. Things just look warped and bent right in the center.",
+        "topic": "Double vision"
+      },
+      {
+        "answer": "No, my eyelids are not drooping, it does not get worse in the evening, and I have no trouble chewing or swallowing.",
+        "topic": "Drooping eyelids or muscle weakness"
+      },
+      {
+        "answer": "No, my eyes do not hurt at all, moving them causes no discomfort, and they haven't been red.",
+        "topic": "Eye pain or redness"
+      },
+      {
+        "answer": "No new headaches, my temples are not tender to the touch, my jaw does not ache when I chew, and I have no shoulder stiffness.",
+        "topic": "Headache and temporal pain"
+      },
+      {
+        "answer": "No weakness or numbness in my arms or legs, no slurred speech, and no dizziness.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, I have not bumped my head or had any injury to my eyes.",
+        "topic": "Recent trauma"
+      },
+      {
+        "answer": "I have had high blood pressure for about ten years, well controlled on my pill. I have never had diabetes, and my last eye checkup was about a year ago.",
+        "topic": "Hypertension and diabetes history"
+      },
+      {
+        "answer": "No, I have never had an irregular heartbeat, atrial fibrillation, or clogged neck arteries.",
+        "topic": "Cardiovascular risk factors"
+      },
+      {
+        "answer": "I was told a few years ago that I had early dry age-related changes in both eyes, but I have never had cataracts, glaucoma, high myopia, or eye surgery.",
+        "topic": "Prior eye conditions or surgeries"
+      },
+      {
+        "answer": "No, I do not take steroid pills, hydroxychloroquine, tuberculosis medications, or any medications known to harm vision.",
+        "topic": "Vision-altering medications"
+      },
+      {
+        "answer": "My late mother developed macular degeneration in her eighties, but no one in my family has ever had glaucoma.",
+        "topic": "Family history of eye diseases"
+      },
+      {
+        "answer": "It has made reading books nearly impossible and I struggle to recognize my grandchildren's faces straight on. Thankfully, I have not had any falls.",
+        "topic": "Impact on daily activities"
+      },
+      {
+        "answer": "My side vision is still completely clear and wide open. It is only the bullseye right in the center of my right eye that is distorted.",
+        "topic": "Central versus peripheral vision"
+      },
+      {
+        "answer": "I feel so frustrated because I cannot read my books or see my grandchildren's smiles when looking directly at them.",
+        "topic": "Patient's understanding and ideas"
+      },
+      {
+        "answer": "I am terrified that this will spread across my whole eye and make me go completely blind.",
+        "topic": "Fears and concerns"
+      },
+      {
+        "answer": "I heard there are specialized eye injections or laser treatments that can stop leaking vessels in the retina, and I am hoping I can get those to save my central vision.",
+        "topic": "Expectations for treatment"
+      },
+      {
+        "answer": "I only have high blood pressure, which was diagnosed about ten years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was a teenager, but I have had no other surgeries or hospitalizations.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams every morning for my blood pressure, and I take AREDS2 eye vitamin supplements daily.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no allergies to any medications.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I currently smoke about one pack a day and have smoked for around 40 years.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional glass of red wine on holidays, maybe once or twice a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a retired legal secretary. I live independently in an apartment near my daughter and grandchildren.",
+        "topic": "Occupation and living situation"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 138/82 mmHg, heart rate 74 beats per minute, respiratory rate 14 breaths per minute, oxygen saturation 98% on room air, and body temperature 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, pleasant elderly female sitting comfortably, in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae are white and anicteric bilaterally; conjunctivae are clear with no injection, discharge, or ciliary flush.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Visual acuity is 20/100 right eye with eccentric viewing and 20/40 left eye; Amsler grid reveals central wavy distortion and central scotoma in the right eye; pupils are equal and reactive without afferent defect; dilated fundoscopy reveals extensive bilateral drusen and a right foveal grayish-green neovascular membrane with subretinal hemorrhage and fluid.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Extraocular movements are full and smooth in all directions without limitation, nystagmus, diplopia, or ptosis.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral superficial temporal arteries are soft, normally pulsatile, and non-tender without nodularity or thickening.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      }
+    ]
+  }
+}

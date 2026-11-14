@@ -1,0 +1,333 @@
+{
+  "id": "urology_001",
+  "system": "urology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Master Adams",
+  "age": 16,
+  "gender": "male",
+  "chief_complaint": "abrupt onset of excruciating right scrotal pain, swelling, and nausea waking him from sleep 2 hours ago",
+  "hpi_details": "16M high school student awakened at 04:00 AM by sudden, agonizing right testicle pain radiating into his lower abdomen and right groin. Accompanied by two episodes of vomiting and severe nausea. Denies dysuria, urethral discharge, or recent trauma. Brought directly to emergency department at 06:00 AM.",
+  "ideas": "in severe distress holding groin, terrified his testicle is dying",
+  "concerns": "worried about losing his testicle and future fertility",
+  "expectations": "wants immediate pain relief and emergency surgical intervention to save his testicle",
+  "pmh": "No prior medical history",
+  "medications": "None",
+  "social_hx": "High school sophomore, non-smoker",
+  "available_results": [
+    {"id": "torsion_doppler", "test": "Color Doppler scrotal ultrasound", "value": "Enlarged heterogeneous right testis with complete absence of intratesticular arterial and venous flow; normal left testicular flow", "flag": "abnormal", "collected_at": "Immediately before surgical consultation"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Testicular Torsion evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Testicular Torsion is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes STAT urological surgical emergency: bypass any further diagnostic delays and immediately transfer patient to operating room for emergency bilateral scrotal exploration, right testicular surgical detorsion, evaluation of viability, and bilateral orchiopexy (three-point fixation of both testes to tunica dartos to prevent contralateral torsion), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: abrupt onset of excruciating right scrotal pain, swelling, and nausea waking him from sleep 2 hours ago",
+      "Key HPI features: 16M high school student awakened at 04:00 AM by sudden, agonizing right testicle pain radiating into his lower abdomen and right groin. Accompanied by two episodes of vomiting and severe nausea. Denies dysuria, urethral discharge, or recent trauma. Brought directly to emergency department at 06:00 AM.",
+      "Objective/Exam findings: Vitals: HR 115, BP 135/82, Temp 36.9C. Right hemiscrotum is markedly swollen, erythematous, and exquisitely tender to palpation. Right testis is high-riding and oriented transversely (bell-clapper deformity posture). Cremasteric reflex is completely absent on the right (stroking inner thigh fails to elevate right testis); present on left. Elevation of right scrotum does not relieve pain (Prehn sign negative). Color Doppler scrotal ultrasound reveals enlarged, heterogeneous right testis with complete absence of intratesticular arterial and venous blood flow compared to normal flow in left testis.",
+      "Relevant background/PMH: No prior medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Testicular Torsion.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute epididymitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Absent cremasteric reflex."
+    ],
+    "management_principles": [
+      "STAT urological surgical emergency: bypass any further diagnostic delays and immediately transfer patient to operating room for emergency bilateral scrotal exploration, right testicular surgical detorsion, evaluation of viability, and bilateral orchiopexy (three-point fixation of both testes to tunica dartos to prevent contralateral torsion)",
+      "If manual bedside detorsion (turning right testis outward like opening a book) is attempted while waiting for OR, surgery is still mandatory for permanent bilateral fixation",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "16M presenting with acute-onset unilateral scrotal emergency within 2 hours of symptom onset, classic for testicular torsion.",
+    "objective": "Vitals: HR 115, BP 135/82, Temp 36.9C. Right hemiscrotum is markedly swollen, erythematous, and exquisitely tender to palpation. Right testis is high-riding and oriented transversely (bell-clapper deformity posture). Cremasteric reflex is completely absent on the right (stroking inner thigh fails to elevate right testis); present on left. Elevation of right scrotum does not relieve pain (Prehn sign negative). Color Doppler scrotal ultrasound reveals enlarged, heterogeneous right testis with complete absence of intratesticular arterial and venous blood flow compared to normal flow in left testis.",
+    "assessment": "Acute Right Testicular Torsion with complete vascular ischemia (within 6-hour viability window).",
+    "plan": "STAT urological surgical emergency: bypass any further diagnostic delays and immediately transfer patient to operating room for emergency bilateral scrotal exploration, right testicular surgical detorsion, evaluation of viability, and bilateral orchiopexy (three-point fixation of both testes to tunica dartos to prevent contralateral torsion). If manual bedside detorsion (turning right testis outward like opening a book) is attempted while waiting for OR, surgery is still mandatory for permanent bilateral fixation."
+  },
+  "learning_objectives": [
+    "Recognize critical time-sensitive nature of acute testicular torsion (<6 hours = 90-100% salvage rate; >12-24 hours = high infarction/orchiectomy rate)",
+    "Identify physical exam hallmarks distinguishing testicular torsion from acute epididymitis (absent cremasteric reflex, high-riding transverse lie vs positive cremasteric reflex and relief with elevation)",
+    "Understand the pathognomonic ultrasound finding of absent intratesticular arterial Doppler flow",
+    "Explain why bilateral surgical orchiopexy is mandatory even when torsion is unilateral (due to congenital bilateral bell-clapper deformity)"
+  ],
+  "teaching": {
+    "diagnosis": "Testicular Torsion",
+    "one_liner": "Surgical emergency caused by twisting of the spermatic cord, producing acute testicular ischemia.",
+    "differentials": [
+      "Acute epididymitis",
+      "Torsion of testicular appendage",
+      "Inguinal hernia strangulation"
+    ],
+    "red_flags": [
+      "Absent cremasteric reflex",
+      "High-riding horizontal testis (Bell-clapper deformity)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sudden severe pain onset",
+        "say": "Did this severe pain in your scrotum start suddenly, waking you up or while resting?",
+        "domains": [
+          "onset_duration",
+          "character"
+        ],
+        "keywords": [
+          "scrotum",
+          "scrotal",
+          "suddenly",
+          "resting",
+          "pain"
+        ]
+      },
+      {
+        "objective": "Associated nausea and vomiting",
+        "say": "Along with the testicular pain, have you vomited or felt sick to your stomach?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vomited",
+          "nausea",
+          "vomit",
+          "sick",
+          "stomach"
+        ]
+      },
+      {
+        "objective": "Physical elevation non-relief (Prehn sign)",
+        "say": "Does gently lifting your scrotum ease the pain, or does it stay severe?",
+        "domains": [
+          "relieving"
+        ],
+        "keywords": [
+          "lifting",
+          "ease",
+          "relief",
+          "elevating",
+          "testis"
+        ]
+      },
+      {
+        "objective": "Trauma or exertion history",
+        "say": "Did you suffer any hit or trauma to your groin area before the pain started?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "trauma",
+          "hit",
+          "groin",
+          "sports",
+          "injury"
+        ]
+      },
+      {
+        "objective": "Fever and dysuria screen",
+        "say": "Do you have a fever or burning when you urinate?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "burning",
+          "urinate",
+          "fevers",
+          "dysuria"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "135/82",
+      "hr": 115,
+      "rr": 20,
+      "spo2": 99,
+      "temp_c": 36.9
+    },
+    "history": [
+      {
+        "answer": "My right testicle suddenly started hurting terribly out of nowhere and woke me up from sleep. It is swollen and hurts so bad that I threw up twice.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The pain hit me completely out of the blue around 4:00 AM this morning and woke me straight out of sleep.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "It is all on my right side, right in my right testicle.",
+        "topic": "Location of pain"
+      },
+      {
+        "answer": "It is an excruciating, severe twisting agony, easily a ten out of ten.",
+        "topic": "Pain severity and character"
+      },
+      {
+        "answer": "The pain shoots up from my right testicle into my right groin and the lower part of my belly.",
+        "topic": "Pain radiation"
+      },
+      {
+        "answer": "No, I have never had any pain like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "Yes, I felt intensely sick to my stomach right after the pain started and threw up twice this morning.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "My right scrotum swelled up quickly after the pain began, and the swelling stays the same whether I stand up or lie down.",
+        "topic": "Positional changes and swelling"
+      },
+      {
+        "answer": "It does not just feel heavy; it is a severe, constant tearing pain, and moving or standing makes it even worse.",
+        "topic": "Heaviness or standing aggravation"
+      },
+      {
+        "answer": "No, I never had any painless lump or hardness there before today.",
+        "topic": "Painless testicular lump"
+      },
+      {
+        "answer": "No, I do not have any burning when I pee, I am not peeing more often, and there is no discharge from my penis.",
+        "topic": "Urinary symptoms and discharge"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweats.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "The skin on the right side of my scrotum looks red and swollen, but there are no blisters or bad smells.",
+        "topic": "Scrotal skin changes"
+      },
+      {
+        "answer": "No, I was not hit or injured down there, and I was not exercising; I was just asleep in bed.",
+        "topic": "Trauma or physical exertion"
+      },
+      {
+        "answer": "No, I have not had any swollen glands near my ears, mumps, or recent viral infections.",
+        "topic": "Recent mumps or salivary swelling"
+      },
+      {
+        "answer": "Both of my testicles have always been down in the scrotum normally, and I have never had surgery down there.",
+        "topic": "Undescended testicle or surgery"
+      },
+      {
+        "answer": "No, I have not had any weight loss, back pain, cough, or breast enlargement.",
+        "topic": "Weight loss and systemic symptoms"
+      },
+      {
+        "answer": "No, I have never been sexually active.",
+        "topic": "Sexual activity"
+      },
+      {
+        "answer": "No, I have never had a urinary catheter, scope, or any procedure done.",
+        "topic": "Recent urinary procedures"
+      },
+      {
+        "answer": "Lifting or supporting my testicle does not help at all; in fact, touching it makes the agony even worse.",
+        "topic": "Lifting or supporting scrotum"
+      },
+      {
+        "answer": "I am terrified that the blood supply is cut off and my testicle is dying inside.",
+        "topic": "Thoughts on cause"
+      },
+      {
+        "answer": "I am so scared that I might lose my testicle and won't be able to have children later in life.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I need this awful pain stopped right away and whatever emergency surgery is needed to save my testicle.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have always been completely healthy with no medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or stays in the hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications or anything else.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or vaped.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "No, I do not drink any alcohol.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a high school sophomore and live at home with my parents.",
+        "topic": "Living situation and schooling"
+      },
+      {
+        "answer": "My parents and sister are all healthy, and no one in my family has had testicular problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The patient is an adolescent male lying in severe distress, clutching his right groin, pale and visibly diaphoretic from pain.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 135/82 mmHg, heart rate is 115 beats per minute, respiratory rate is 20 breaths per minute, oxygen saturation is 99% on room air, and temperature is 36.9°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Soft abdomen with mild right lower quadrant tenderness radiating from the groin, but no involuntary guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No inguinal bulge, impulse on cough, or tenderness over the external inguinal rings bilaterally.",
+        "maneuver": "hernia_exam",
+        "response": "none"
+      },
+      {
+        "finding": "The right hemiscrotum is markedly swollen, erythematous, and exquisitely tender with a high-riding, transversely oriented right testis; elevating the testis does not relieve pain (negative Prehn sign), transillumination is negative, and the left testis is normal.",
+        "maneuver": "genital_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Right cremasteric reflex is completely absent with no elevation of the right testis upon stroking the inner right thigh, whereas the left cremasteric reflex is normal.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      }
+    ]
+  }
+}

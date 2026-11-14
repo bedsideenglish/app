@@ -1,0 +1,363 @@
+{
+  "id": "cardio_004",
+  "system": "cardiology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Whitaker",
+  "age": 75,
+  "gender": "male",
+  "chief_complaint": "fainted while walking up a hill and chest tightness on exertion",
+  "hpi_details": "Presents with a 6-month history of progressive shortness of breath when climbing stairs or walking uphill. Yesterday, while carrying groceries up a steep street, experienced tight retrosternal chest discomfort and suddenly lost consciousness for approximately 30 seconds (exertional syncope). Recovered spontaneously with no post-ictal confusion or tongue biting. Denies palpitations or symptoms at rest.",
+  "ideas": "thinks his blood pressure pills made his blood pressure drop too low while walking",
+  "concerns": "worried he might faint while crossing a busy road or fall down stairs",
+  "expectations": "wants his blood pressure medications adjusted and an ECG check",
+  "pmh": "hypertension x15 years, hypercholesterolaemia, mild osteoarthritis of knees",
+  "medications": "ramipril 10mg OD, amlodipine 5mg OD, atorvastatin 40mg ON",
+  "social_hx": "ex-smoker (quit at age 50), drinks 4 units/week, retired civil engineer, lives with wife",
+  "investigation_events": [{"id": "transthoracic_echocardiogram", "title": "Transthoracic echocardiogram", "order_terms": ["transthoracic echocardiogram", "transthoracic echo", "tte", "echocardiogram", "cardiac ultrasound"], "availability_message": "The transthoracic echocardiogram report is now available.", "results": [
+    {"id": "aortic_valve_area", "test": "Aortic valve area", "value": "0.7", "unit": "cm2", "reference_range": ">1.5", "flag": "critical", "collected_at": "Today's echocardiogram"},
+    {"id": "aortic_mean_gradient", "test": "Mean aortic valve gradient", "value": "52", "unit": "mmHg", "reference_range": "Severe: >=40", "flag": "critical", "collected_at": "Today's echocardiogram"},
+    {"id": "aortic_peak_velocity", "test": "Peak aortic jet velocity", "value": "4.6", "unit": "m/s", "reference_range": "Severe: >=4.0", "flag": "critical", "collected_at": "Today's echocardiogram"},
+    {"id": "left_ventricular_ef", "test": "Left ventricular ejection fraction", "value": "58", "unit": "%", "reference_range": "55-70", "flag": "normal", "collected_at": "Today's echocardiogram"}
+  ]}],
+  "clinical_knowledge": {
+    "topic": "Severe Aortic Stenosis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Severe Aortic Stenosis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes avoidance of hypotension; use nitrates or other vasodilators only cautiously with monitoring when clinically necessary in severe AS, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fainted while walking up a hill and chest tightness on exertion",
+      "Key HPI features: Presents with a 6-month history of progressive shortness of breath when climbing stairs or walking uphill. Yesterday, while carrying groceries up a steep street, experienced tight retrosternal chest discomfort and suddenly lost consciousness for approximately 30 seconds (exertional syncope). Recovered spontaneously with no post-ictal confusion or tongue biting. Denies palpitations or symptoms at rest.",
+      "Objective/Exam findings: Check vitals (narrow pulse pressure e.g., 110/85 mmHg). Cardiac auscultation: harsh, crescendo-decrescendo ejection systolic murmur best heard at the right second intercostal space, radiating to both carotid arteries. Slow-rising, sustained carotid pulse ('pulsus parvus et tardus') and sustained apex beat. ECG (left ventricular hypertrophy with strain pattern). Transthoracic echocardiogram (TTE).",
+      "Relevant background/PMH: hypertension x15 years, hypercholesterolaemia, mild osteoarthritis of knees",
+      "Current medications: ramipril 10mg OD, amlodipine 5mg OD, atorvastatin 40mg ON"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Severe Aortic Stenosis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Hypertrophic cardiomyopathy without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Syncope on exertion — a marker of severe stenosis and sudden-death risk."
+    ],
+    "management_principles": [
+      "Avoid hypotension; use nitrates or other vasodilators only cautiously with monitoring when clinically necessary in severe AS",
+      "Urgent cardiology referral for urgent transthoracic echocardiogram to quantify aortic valve area and mean gradient",
+      "Workup for Surgical Aortic Valve Replacement (SAVR) vs Transcatheter Aortic Valve Implantation (TAVI)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease",
+        "url": "https://professional.heart.org/en/guidelines-statements/valvular-heart-disease-guideline"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "75M with HTN presents with exertional syncope, exertional angina, and progressive dyspnoea over 6 months. No post-ictal features. Spontaneous recovery.",
+    "objective": "Check vitals (narrow pulse pressure e.g., 110/85 mmHg). Cardiac auscultation: harsh, crescendo-decrescendo ejection systolic murmur best heard at the right second intercostal space, radiating to both carotid arteries. Slow-rising, sustained carotid pulse ('pulsus parvus et tardus') and sustained apex beat. ECG (left ventricular hypertrophy with strain pattern). Transthoracic echocardiogram (TTE).",
+    "assessment": "Severe calcific aortic valve stenosis with cardinal triad symptoms (syncope, angina, dyspnoea). DDx: vasovagal syncope, orthostatic hypotension from antihypertensives, cardiac arrhythmia (complete heart block/VT), hypertrophic cardiomyopathy.",
+    "plan": "Avoid hypotension; use nitrates or other vasodilators only cautiously with monitoring when clinically necessary in severe AS. Urgent cardiology referral for urgent transthoracic echocardiogram to quantify aortic valve area and mean gradient. Workup for Surgical Aortic Valve Replacement (SAVR) vs Transcatheter Aortic Valve Implantation (TAVI). Advise to avoid strenuous exertion until evaluated."
+  },
+  "learning_objectives": [
+    "Elicit the classical symptom triad of severe aortic stenosis: exertional dyspnoea, exertional angina, and exertional syncope",
+    "Identify classical physical signs: slow-rising pulse, narrow pulse pressure, and ejection systolic murmur radiating to carotids",
+    "Explain the hemodynamic contraindication of aggressive vasodilators/nitrates in fixed left ventricular outflow tract obstruction",
+    "Outline the comparative indications for Surgical Aortic Valve Replacement vs Transcatheter Aortic Valve Implantation in elderly patients"
+  ],
+  "teaching": {
+    "diagnosis": "Severe Aortic Stenosis",
+    "one_liner": "A calcified valve throttles blood leaving the heart. Syncope, angina and breathlessness on exertion are its cardinal triad.",
+    "differentials": [
+      "Hypertrophic cardiomyopathy",
+      "Coronary artery disease",
+      "Vasovagal syncope"
+    ],
+    "red_flags": [
+      "Syncope on exertion — a marker of severe stenosis and sudden-death risk"
+    ],
+    "must_ask": [
+      {
+        "objective": "Syncope and its relation to exertion",
+        "say": "Did you faint while you were exerting yourself, or at rest?",
+        "domains": [
+          "aggravating",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "faint",
+          "exert",
+          "walking",
+          "uphill",
+          "exercise"
+        ]
+      },
+      {
+        "objective": "Exertional chest tightness",
+        "say": "Do you get chest tightness when you walk up a hill?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "tight",
+          "chest",
+          "uphill",
+          "walk"
+        ]
+      },
+      {
+        "objective": "Exertional breathlessness",
+        "say": "How far can you walk on the flat before you have to stop for breath?",
+        "domains": [
+          "severity",
+          "progression"
+        ],
+        "keywords": [
+          "walk",
+          "breath"
+        ]
+      },
+      {
+        "objective": "Progression over time",
+        "say": "Has this been getting worse over months, or did it come on suddenly?",
+        "domains": [
+          "progression",
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Known murmur",
+        "say": "Has a doctor ever told you that you have a heart murmur?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "murmur",
+          "heart",
+          "sound",
+          "valve"
+        ]
+      },
+      {
+        "objective": "The patient's own worry",
+        "say": "What are you most worried this might be?",
+        "domains": [
+          "concerns",
+          "ideas"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "110/85",
+      "hr": 72,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I passed out yesterday while walking up a hill carrying groceries, and my chest has been feeling really tight whenever I exert myself.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I was walking up a steep street near my home carrying two heavy grocery bags when I suddenly blacked out.",
+        "topic": "Situation and posture at collapse"
+      },
+      {
+        "answer": "It happened right in the middle of walking uphill while pushing myself, not while sitting or lying down.",
+        "topic": "Exertion during onset"
+      },
+      {
+        "answer": "I did not have any nausea, cold sweats, or muffled hearing beforehand, but my vision went dark for just a second right before I went down.",
+        "topic": "Warning signs before collapse"
+      },
+      {
+        "answer": "Right before I passed out, I felt a heavy squeezing tightness in the middle of my chest and was gasping for air, but I did not feel any heart flutters.",
+        "topic": "Symptoms immediately before collapse"
+      },
+      {
+        "answer": "It feels like a tight, heavy band squeezing right behind my breastbone, lasting a few minutes until I stop walking and rest.",
+        "topic": "Characteristics of chest tightness"
+      },
+      {
+        "answer": "Over the past six months, I have noticed that climbing a single flight of stairs or walking up slight inclines leaves me breathless much sooner than it used to.",
+        "topic": "Progression of shortness of breath"
+      },
+      {
+        "answer": "No, I haven't had any racing heartbeat, skipped beats, or palpitations.",
+        "topic": "Palpitations or heart fluttering"
+      },
+      {
+        "answer": "I feel completely fine when I am sitting in my chair or resting in bed, with no chest pressure or breathing trouble at rest.",
+        "topic": "Symptoms at rest"
+      },
+      {
+        "answer": "No, I was not standing still for a long time, not in a hot stuffy place, not startled, and I was not coughing or straining to pass urine.",
+        "topic": "Situational triggers"
+      },
+      {
+        "answer": "A neighbour who was walking past saw me fall and said I was unconscious on the ground for about thirty seconds.",
+        "topic": "Duration of unconsciousness"
+      },
+      {
+        "answer": "My neighbour told me my body did not twitch or go rigid at all, and I did not bite my tongue or lose control of my bladder.",
+        "topic": "Seizure symptoms and incontinence"
+      },
+      {
+        "answer": "I woke up right away and immediately recognized my neighbour and knew where I was, with no grogginess or confusion.",
+        "topic": "Recovery after fainting"
+      },
+      {
+        "answer": "I scraped my right knee and elbow on the pavement, but I did not hit my head.",
+        "topic": "Injuries from the fall"
+      },
+      {
+        "answer": "No, I haven't had any one-sided arm or leg weakness, slurred speech, facial drooping, severe headache, or vision changes.",
+        "topic": "Focal neurological symptoms"
+      },
+      {
+        "answer": "This is the very first time in my life that I have ever lost consciousness or fainted.",
+        "topic": "Previous fainting episodes"
+      },
+      {
+        "answer": "No, I haven't had any vomiting, loose stools, or poor fluid intake, and my bowel movements are their usual brown with no black or bloody stools.",
+        "topic": "Dehydration and gastrointestinal bleeding"
+      },
+      {
+        "answer": "I do not have diabetes and do not use insulin, and I had eaten a proper breakfast a couple of hours before walking.",
+        "topic": "Diabetes and food intake"
+      },
+      {
+        "answer": "I have been taking the exact same blood pressure tablets for years without any recent changes or new prescriptions.",
+        "topic": "Recent medication changes"
+      },
+      {
+        "answer": "I have never had a heart attack or heart failure, though a doctor did mention hearing a faint heart murmur a few years back during a routine check.",
+        "topic": "Prior heart disease or murmur"
+      },
+      {
+        "answer": "I wonder if my blood pressure pills might be making my blood pressure drop too low when I walk up hills.",
+        "topic": "Patient's own idea"
+      },
+      {
+        "answer": "I am really frightened that I might black out again while crossing a busy street or fall down the stairs at home.",
+        "topic": "Patient's main concern"
+      },
+      {
+        "answer": "I was hoping you could check my blood pressure medication doses and run an electrocardiogram to check my heart.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I have had high blood pressure for about fifteen years, high cholesterol, and some mild osteoarthritis in both of my knees.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take ramipril ten milligrams and amlodipine five milligrams once each morning, and atorvastatin forty milligrams once each night.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medicines, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I used to smoke about a pack a day, but I quit completely twenty-five years ago when I turned fifty.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink about three or four units of alcohol a week, usually just a couple of beers over the weekend.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired civil engineer and I live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both my parents lived into their eighties and died of natural causes, with no history of sudden unexplained deaths or early heart problems in the family.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 110/85 mmHg showing a narrow pulse pressure, heart rate is 72 beats per minute and regular, respiratory rate is 16 breaths per minute, oxygen saturation is 98% on room air, and body temperature is 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 110/84 mmHg lying and 108/82 mmHg standing, showing no significant orthostatic drop or postural tachycardia.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Alert elderly male sitting comfortably in no acute distress, with minor superficial abrasions on the right elbow and right knee, and no head trauma.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucous membranes are moist, pharynx is non-erythematous, and the tongue shows no lateral lacerations or bite marks.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pulsation is visible 2 cm above the sternal angle at 45 degrees, without pathological elevation.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Sustained, non-displaced apical impulse palpated in the left 5th intercostal space at the midclavicular line, with a palpable systolic thrill at the right second intercostal space.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Harsh crescendo-decrescendo ejection systolic murmur of grade 4/6 intensity loudest at the right upper sternal border radiating to both carotid arteries, accompanied by a soft single S2 and an audible S4 gallop.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Carotid pulses are diminished in amplitude and slow-rising bilaterally, and radial and femoral pulses are symmetric without radiofemoral delay.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Vesicular breath sounds are clear to auscultation bilaterally across all lung zones, with no crackles, wheezes, or pleural friction rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema, cyanosis, or clubbing observed in the bilateral lower extremities.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Patient is fully awake, alert, and oriented to person, place, and time, with intact immediate and remote memory.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact with symmetric facial grimace and normal extraocular movements.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Motor bulk and tone are normal, with 5/5 muscle power symmetrically in all four extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

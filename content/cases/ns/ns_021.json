@@ -1,0 +1,310 @@
+{
+  "id": "ns_021",
+  "system": "neurosurgery",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Tak",
+  "age": 38,
+  "gender": "male",
+  "chief_complaint": "sharp shooting pain down the back of right leg to foot after lifting heavy box",
+  "hpi_details": "38M warehouse worker reports sudden onset of sharp, electric-shock-like pain shooting from his right buttock down the back of his thigh and calf to his outer foot. Started yesterday after lifting a heavy box.",
+  "ideas": "thinks he has a herniated disc or pinched nerve",
+  "concerns": "worried about permanent nerve damage and work disability",
+  "expectations": "wants MRI and pain medication",
+  "pmh": "No prior back issues",
+  "medications": "None",
+  "social_hx": "Warehouse worker, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Right S1 Lumbar Radiculopathy evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Right S1 Lumbar Radiculopathy is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Right S1 Lumbar Radiculopathy secondary to herniated disc, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sharp shooting pain down the back of right leg to foot after lifting heavy box",
+      "Key HPI features: 38M warehouse worker reports sudden onset of sharp, electric-shock-like pain shooting from his right buttock down the back of his thigh and calf to his outer foot. Started yesterday after lifting a heavy box.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Right S1 Lumbar Radiculopathy secondary to herniated disc.",
+      "Relevant background/PMH: No prior back issues"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Right S1 Lumbar Radiculopathy.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Piriformis syndrome without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Bladder/bowel changes."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Right S1 Lumbar Radiculopathy secondary to herniated disc",
+      "Perform a straight-leg raise test",
+      "Assess S1 sensation, ankle plantarflexion, and Achilles reflex"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with sharp shooting pain down the back of the right leg to the foot after lifting a heavy box. This 38-year-old warehouse worker reports sudden, electric-shock-like pain from the right buttock down the back of the thigh and calf to the outer foot, beginning yesterday.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Right S1 Lumbar Radiculopathy secondary to herniated disc.",
+    "assessment": "Clinical presentation highly suggestive of Right S1 Lumbar Radiculopathy secondary to herniated disc.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Right S1 Lumbar Radiculopathy secondary to herniated disc. Perform straight leg raise test. Assess S1 sensation, ankle plantarflexion, and Achilles reflex. Recommend NSAIDs as appropriate, activity modification, and physical therapy. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Right S1 Lumbar Radiculopathy secondary to herniated disc.",
+    "Formulate prioritized differential diagnosis for sharp shooting pain down the back of right leg to foot after lifting heavy box",
+    "Select appropriate laboratory and imaging studies for neurosurgery",
+    "Implement evidence-based acute and long-term management strategies for Right S1 Lumbar Radiculopathy secondary to herniated disc."
+  ],
+  "teaching": {
+    "diagnosis": "Right S1 Lumbar Radiculopathy",
+    "one_liner": "A herniated disc compresses the S1 nerve root after heavy lifting, causing sciatica shooting down the back of the leg to the outer foot.",
+    "differentials": [
+      "Piriformis syndrome"
+    ],
+    "red_flags": [
+      "Bladder/bowel changes"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset",
+        "say": "Did this start after lifting a heavy box?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Pain radiation",
+        "say": "Does the pain go down the back of your leg to your foot?",
+        "domains": [
+          "radiation"
+        ]
+      },
+      {
+        "objective": "Weakness",
+        "say": "Any weakness pushing off with your foot?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Numbness",
+        "say": "Any numbness in your foot?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Red flags",
+        "say": "Any bladder or bowel changes?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "126/82",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I have this terrible sharp, shooting pain going from my right buttock all the way down the back of my leg to my foot.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It starts deep in my right buttock and shoots straight down the back of my thigh and calf, into the outside of my right foot and little toe.",
+        "topic": "Pain location and radiation"
+      },
+      {
+        "answer": "It started suddenly yesterday afternoon right as I was lifting a heavy box off the floor at work.",
+        "topic": "Onset and trigger"
+      },
+      {
+        "answer": "It feels like a sharp, electric shock that zaps down the leg, around an 8 out of 10 at its worst.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "Bending forward, sitting down, or coughing makes the pain shoot worse, but lying flat on my back with a pillow under my knees eases it slightly.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "It does not wake me up spontaneously at night as long as I do not turn or move, and resting flat takes the edge off.",
+        "topic": "Night pain and rest"
+      },
+      {
+        "answer": "My lower back feels a bit stiff when I first get out of bed for maybe five minutes, but it does not last half an hour and exercise definitely does not help.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "Yes, I have numbness and tingling along the outer edge of my right foot and my pinky toe.",
+        "topic": "Numbness and tingling"
+      },
+      {
+        "answer": "My right foot feels slightly weak and awkward when I try to push off the floor or walk on my toes.",
+        "topic": "Muscle weakness"
+      },
+      {
+        "answer": "No, I have had no trouble controlling my urine or bowel movements, and no leakage or retention.",
+        "topic": "Bowel and bladder symptoms"
+      },
+      {
+        "answer": "No, the sensation around my groin and private area feels completely normal.",
+        "topic": "Perianal and saddle sensation"
+      },
+      {
+        "answer": "Walking causes pain, but sitting down or bending forward makes the shooting pain much worse rather than better.",
+        "topic": "Walking and posture changes"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, night sweats, or unexplained weight loss.",
+        "topic": "Fever and systemic symptoms"
+      },
+      {
+        "answer": "No, I have never had cancer or any tumors.",
+        "topic": "History of cancer"
+      },
+      {
+        "answer": "No, I have not had any recent infections, spinal procedures, injections, or illnesses, and I have never used intravenous drugs.",
+        "topic": "Recent infections and procedures"
+      },
+      {
+        "answer": "No, I have never taken steroid pills, I do not have weak bones, and I have not had any falls.",
+        "topic": "Steroid use and bone health"
+      },
+      {
+        "answer": "No belly pain, no pulsing sensation in my stomach, and no burning or blood when I pee.",
+        "topic": "Abdominal and urinary symptoms"
+      },
+      {
+        "answer": "No eye redness or pain, no heel pain, no chronic diarrhea, and no skin rashes.",
+        "topic": "Extraskeletal symptoms"
+      },
+      {
+        "answer": "I took a couple of ibuprofen tablets yesterday evening, but they barely took the edge off the shooting pain.",
+        "topic": "Pain medication tried"
+      },
+      {
+        "answer": "I work in a warehouse doing heavy lifting, loading, and bending all day, and I am very stressed about missing work.",
+        "topic": "Job posture and stress"
+      },
+      {
+        "answer": "I think I might have slipped a disc or pinched a nerve in my back when lifting that box.",
+        "topic": "Belief about cause"
+      },
+      {
+        "answer": "I am terrified that this could cause permanent nerve damage and leave me disabled from working.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I was hoping to get an MRI to see what is damaged in my back and get some strong pain medication.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have always been healthy and have never had back trouble or chronic illnesses before.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgery and hospitalizations"
+      },
+      {
+        "answer": "I do not take any regular prescription medications or supplements, just the ibuprofen I tried yesterday.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medicines, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I do not smoke, and I have never smoked.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional beer on the weekends with friends, nothing heavy.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work full-time as a warehouse stocker, and I live in an apartment with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are both healthy in their sixties with only mild high blood pressure, and no one has spine problems or cancer.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Patient is an alert, muscular male who appears uncomfortable and shifts his weight to avoid sitting on his right buttock.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 126/82 mmHg, pulse 76 beats per minute, respiratory rate 16 breaths per minute, temperature 36.8°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild tenderness over the right lumbosacral paraspinal musculature, and passive straight leg raise on the right reproduces shooting electric pain down the posterior leg at 40 degrees.",
+        "maneuver": "spine_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Active lumbar flexion is markedly restricted and provokes sharp pain radiating down the right leg, while extension and lateral bending are mildly restricted.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Right ankle plantarflexion strength is 4/5, whereas bilateral hip flexion, knee extension, knee flexion, ankle dorsiflexion, and great toe extension are all 5/5.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Decreased sensation to light touch and pinprick along the right lateral foot and fifth digit, with normal sensation throughout all other dermatomes.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Right Achilles deep tendon reflex is diminished at 1+, while the left Achilles reflex and bilateral patellar reflexes are 2+, with bilateral flexor plantar responses.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Normal resting anal sphincter tone with intact voluntary contraction and preserved perianal sensation.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-tender without guarding, rigidity, or palpable pulsatile masses.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness elicited with gentle percussion over either costovertebral angle.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Gait is antalgic with reduced stance phase on the right, and the patient has difficulty toe walking on the right side while heel walking is preserved.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

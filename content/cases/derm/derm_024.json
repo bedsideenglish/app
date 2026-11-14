@@ -1,0 +1,310 @@
+{
+  "id": "derm_024",
+  "system": "dermatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Yoon",
+  "age": 24,
+  "gender": "male",
+  "chief_complaint": "annular scaly red plaque with raised borders on the arm",
+  "hpi_details": "24M athlete reports a circular, red, scaly skin patch on his left forearm that has been expanding for 2 weeks. The patch has a raised, scaly outer border with a clearer normal-appearing center.",
+  "ideas": "thinks he has ringworm from the gym",
+  "concerns": "worried about spreading it to teammates",
+  "expectations": "wants antifungal ointment",
+  "pmh": "No significant history",
+  "medications": "None",
+  "social_hx": "Wrestler, non-smoker",
+  "investigation_events": [
+    {
+      "id": "lesion_koh_prep",
+      "title": "KOH preparation of the active border",
+      "order_terms": ["koh", "potassium hydroxide", "skin scraping", "fungal scraping", "fungal test"],
+      "availability_message": "The KOH preparation result is now available.",
+      "results": [
+        {"id": "tinea_corporis_koh", "test": "Potassium hydroxide preparation", "value": "Branching septate hyphae seen", "flag": "abnormal", "specimen": "Scale from active lesion border"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Tinea Corporis (Ringworm) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Tinea Corporis (Ringworm) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes an evidence-based diagnostic and therapeutic protocol for Tinea Corporis (Ringworm), superficial dermatophyte infection, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: annular scaly red plaque with raised borders on the arm",
+      "Key HPI features: 24M athlete reports a circular, red, scaly skin patch on his left forearm that has been expanding for 2 weeks. The patch has a raised, scaly outer border with a clearer normal-appearing center.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Tinea Corporis (Ringworm), superficial dermatophyte infection.",
+      "Relevant background/PMH: No significant history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Tinea Corporis (Ringworm).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Nummular eczema without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: No improvement (or worsening) after appropriate topical antifungal therapy — reconsider the diagnosis or ask about prior topical steroid use masking findings."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Tinea Corporis (Ringworm), superficial dermatophyte infection: perform potassium hydroxide (KOH) prep (look for septate hyphae)",
+      "Prescribe topical Terbinafine or Clotrimazole cream BID for 2 weeks"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: annular scaly red plaque with raised borders on the arm\n\n24M athlete reports a circular, red, scaly skin patch on his left forearm that has been expanding for 2 weeks. The patch has a raised, scaly outer border with a clearer normal-appearing center.",
+    "objective": "Complete vital signs and focused physical examination. Evaluate for pertinent signs.",
+    "assessment": "Clinical presentation highly suggestive of Tinea Corporis (Ringworm), superficial dermatophyte infection.",
+    "plan": "Perform potassium hydroxide (KOH) prep (look for septate hyphae). Prescribe topical Terbinafine or Clotrimazole cream BID for 2 weeks. Avoid topical steroids. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Tinea Corporis (Ringworm), superficial dermatophyte infection.",
+    "Formulate prioritized differential diagnosis for annular scaly red plaque with raised borders on the arm",
+    "Select appropriate laboratory and imaging studies for dermatology",
+    "Implement evidence-based acute and long-term management strategies for Tinea Corporis (Ringworm), superficial dermatophyte infection."
+  ],
+  "teaching": {
+    "diagnosis": "Tinea Corporis (Ringworm)",
+    "one_liner": "A superficial dermatophyte fungal infection causing an expanding annular plaque with an active, scaly raised border and central clearing — confirmed by KOH prep and treated with topical antifungals, never steroids alone.",
+    "differentials": [
+      "Nummular eczema",
+      "Pityriasis rosea (herald patch)",
+      "Erythema migrans (Lyme disease)"
+    ],
+    "red_flags": [
+      "No improvement (or worsening) after appropriate topical antifungal therapy — reconsider the diagnosis or ask about prior topical steroid use masking findings",
+      "Deep, boggy, follicular nodules (Majocchi granuloma) — needs oral antifungal therapy",
+      "Widespread or recurrent disease — screen for diabetes or immunocompromise"
+    ],
+    "must_ask": [
+      {
+        "objective": "Border and center appearance",
+        "say": "Does the patch have a raised, scaly outer edge with a clearer center?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "raised border",
+          "central clearing"
+        ]
+      },
+      {
+        "objective": "Growth pattern",
+        "say": "Has it been expanding outward?",
+        "domains": [
+          "progression"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long has this been going on?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "weeks"
+        ]
+      },
+      {
+        "objective": "Exposure source",
+        "say": "Have you been in contact with gym equipment, mats, or animals?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "gym"
+        ]
+      },
+      {
+        "objective": "Itching",
+        "say": "Is it itchy?",
+        "domains": [
+          "character"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 68,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I noticed a round red rash on my left forearm about two weeks ago, and it has been slowly spreading outward.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started two weeks ago as a tiny red spot and has gradually enlarged into a ring.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is only on the inside of my left forearm. There are no other spots anywhere else on my body.",
+        "topic": "Location and distribution"
+      },
+      {
+        "answer": "It forms a circle with a raised, reddish, flaky border, while the center looks almost like normal skin.",
+        "topic": "Rash appearance and border"
+      },
+      {
+        "answer": "It itches a little bit, particularly after I get sweaty at practice, but it does not hurt or burn.",
+        "topic": "Itching or pain"
+      },
+      {
+        "answer": "No, it stays right there on my arm and does not fade away or move to other spots.",
+        "topic": "Transient or shifting lesions"
+      },
+      {
+        "answer": "I have never had anything like this happen to my skin before.",
+        "topic": "Previous skin problems"
+      },
+      {
+        "answer": "No fever, chills, fatigue, or generalized body aches at all.",
+        "topic": "Fever or body aches"
+      },
+      {
+        "answer": "No sores, ulcers, or irritation inside my mouth, eyes, or private areas.",
+        "topic": "Mucosal sores or redness"
+      },
+      {
+        "answer": "No, my skin is not peeling off or blistering, and I have no dark purple spots.",
+        "topic": "Skin peeling or bruising"
+      },
+      {
+        "answer": "No swelling of my lips or face, and no trouble breathing, throat tightness, or dizziness.",
+        "topic": "Swelling or breathing difficulties"
+      },
+      {
+        "answer": "I have not started any new prescription pills, antibiotics, or pain medicines.",
+        "topic": "Recent medications"
+      },
+      {
+        "answer": "No new soaps, detergents, skin lotions, or metal jewelry have touched my arm.",
+        "topic": "Contact with irritants"
+      },
+      {
+        "answer": "A couple of guys on my wrestling team had similar circular itchy spots a few weeks back.",
+        "topic": "Teammate and contact symptoms"
+      },
+      {
+        "answer": "I wrestle on the gym mats almost every day, but I have not been out hiking or bitten by ticks or bugs.",
+        "topic": "Gym and outdoor exposure"
+      },
+      {
+        "answer": "I have never had eczema, asthma, or hay fever.",
+        "topic": "Personal allergy history"
+      },
+      {
+        "answer": "My joints feel fine, and my fingernails and toenails look totally normal without any pits or discoloration.",
+        "topic": "Joint pain or nail changes"
+      },
+      {
+        "answer": "I have not applied any creams, hydrocortisone, or antifungal ointments yet because I wanted a doctor to look at it first.",
+        "topic": "Applied creams or treatments"
+      },
+      {
+        "answer": "I am in a monogamous relationship, and neither of us has ever had any genital sores or ulcers.",
+        "topic": "Sexual history and genital ulcers"
+      },
+      {
+        "answer": "I think I might have caught ringworm from the wrestling mats or someone at the gym.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I am really worried that I might spread it to my teammates during contact practice.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I am hoping you can prescribe an antifungal ointment so it clears up fast and I can practice again.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have never had any major medical illnesses or chronic conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital.",
+        "topic": "Past surgeries or hospitalizations"
+      },
+      {
+        "answer": "I do not take any prescription medications, over-the-counter drugs, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications or foods.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any nicotine or vape products.",
+        "topic": "Smoking status"
+      },
+      {
+        "answer": "I only drink a beer socially once or twice a month, never heavily.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a college student and varsity wrestler living in a student apartment on campus.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Nobody in my family has psoriasis, eczema, or other recurrent skin conditions.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Well-nourished, athletic young man in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 120/78 mmHg, pulse 68 bpm, respiratory rate 14 breaths/min, temperature 36.7 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Single 4-centimeter circular erythematous annular plaque on the volar left forearm with a raised scaly active border and central clearing; no follicular nodules, crusting, or secondary lesions on the trunk, scalp, or interdigital spaces.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae pink and sclerae anicteric without injection, discharge, or lesions.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa pink and moist without erythema, erosions, or ulcerations.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "No swelling, warmth, or tenderness in the wrists, elbows, or hand joints.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

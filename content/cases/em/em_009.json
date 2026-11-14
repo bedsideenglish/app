@@ -1,0 +1,344 @@
+{
+  "id": "em_009",
+  "system": "emergency medicine",
+  "difficulty": "beginner",
+  "eval_template": "emergency_encounter",
+  "care_setting": "emergency_department",
+  "patient_name": "Master Irwin",
+  "age": 4,
+  "gender": "male",
+  "chief_complaint": "sudden barky seal-like cough, inspiratory stridor at rest, intercostal retractions, and steeple sign on neck X-ray (Viral Croup / Laryngotracheobronchitis)",
+  "hpi_details": "4-year-old boy brought to pediatric ED at 02:00 AM after waking up suddenly struggling to breathe. Had a mild runny nose and low-grade fever for 2 days. Tonight developed a loud, harsh, barking cough that sounds exactly like a seal (`barking seal cough`), accompanied by a high-pitched squeaking noise when breathing in (inspiratory stridor). Child is sitting up, anxious, and breathing fast with his chest pulling in deeply between the ribs with each breath.",
+  "ideas": "frightened and crying, clinging to mother while coughing loudly",
+  "concerns": "mother terrified child is choking to death or suffocating",
+  "expectations": "wants immediate breathing treatment to open up his windpipe",
+  "pmh": "Normal childhood history, fully vaccinated",
+  "medications": "None",
+  "social_hx": "Preschooler",
+  "available_results": [
+    {
+      "id": "neck_radiograph_prearrival",
+      "test": "AP soft-tissue neck X-ray",
+      "value": "Symmetric subglottic tracheal narrowing (steeple sign); epiglottis is normal",
+      "flag": "abnormal",
+      "collected_at": "Before the encounter",
+      "note": "Already obtained; croup is primarily a clinical diagnosis and treatment should not be delayed for imaging"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Viral Croup (Laryngotracheobronchitis) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Viral Croup (Laryngotracheobronchitis) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes STAT pediatric ED respiratory management: administer dexamethasone 0.6 mg/kg immediately, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden barky seal-like cough, inspiratory stridor at rest, intercostal retractions, and steeple sign on neck X-ray (Viral Croup / Laryngotracheobronchitis)",
+      "Key HPI features: 4-year-old boy brought to pediatric ED at 02:00 AM after waking up suddenly struggling to breathe. Had a mild runny nose and low-grade fever for 2 days. Tonight developed a loud, harsh, barking cough that sounds exactly like a seal (`barking seal cough`), accompanied by a high-pitched squeaking noise when breathing in (inspiratory stridor). Child is sitting up, anxious, and breathing fast with his chest pulling in deeply between the ribs with each breath.",
+      "Objective/Exam findings: Vitals: HR 136, RR 38, Temp 37.8C, SpO2 95% on room air. Child exhibits moderate respiratory distress with audible inspiratory stridor at rest and visible suprasternal and intercostal retractions. Westley Croup Score: 5 (Moderate Croup). Soft tissue PA/lateral neck X-ray (if performed, though diagnosis is primarily clinical) demonstrates classic symmetric subglottic tracheal narrowing and edema below the vocal cords forming the pathognomonic 'Steeple Sign'. Epiglottis appears normal and thin.",
+      "Relevant background/PMH: Normal childhood history, fully vaccinated"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Viral Croup (Laryngotracheobronchitis).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Epiglottitis (more toxic-appearing, drooling) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Stridor at rest with chest retractions — indicates moderate-severe croup needing racemic epinephrine."
+    ],
+    "management_principles": [
+      "Administer single high-dose oral (or IV/IM) Dexamethasone 0.6 mg/kg immediately (exerts profound anti-inflammatory effect on subglottic mucosal edema within 2-4 hours, reducing hospitalization rates)",
+      "For moderate-to-severe croup with stridor at rest and retractions, administer nebulized racemic epinephrine (0.5 mL of 2.25% solution diluted in normal saline)",
+      "Mandatory observation: keep child under continuous clinical monitoring in ED for at least 3-4 hours post-racemic epinephrine administration to watch for rebound stridor"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "4-year-old boy presenting with sudden nocturnal onset of a barking seal-like cough and inspiratory stridor at rest, following two days of mild coryza and low-grade fever, classic for Viral Croup (Laryngotracheobronchitis).",
+    "objective": "Vitals: HR 136, RR 38, Temp 37.8C, SpO2 95% on room air. Child exhibits moderate respiratory distress with audible inspiratory stridor at rest and visible suprasternal and intercostal retractions. Westley Croup Score: 5 (Moderate Croup). Soft tissue PA/lateral neck X-ray (if performed, though diagnosis is primarily clinical) demonstrates classic symmetric subglottic tracheal narrowing and edema below the vocal cords forming the pathognomonic 'Steeple Sign'. Epiglottis appears normal and thin.",
+    "assessment": "Moderate Viral Croup (Laryngotracheobronchitis), secondary to Parainfluenza Virus Type 1.",
+    "plan": "STAT pediatric ED respiratory management: 1. Administer single high-dose Oral (or IV/IM) Dexamethasone 0.6 mg/kg immediately (exerts profound anti-inflammatory effect on subglottic mucosal edema within 2-4 hours, reducing hospitalization rates). 2. For moderate-to-severe croup with stridor at rest and retractions, immediately administer Nebulized Racemic Epinephrine (0.5 mL of 2.25% solution diluted in normal saline) which provides rapid alpha-adrenergic vasoconstriction, shrinking subglottic airway edema within 10-30 minutes. 3. Mandatory observation: keep child under continuous clinical monitoring in ED for at least 3-4 hours post-racemic epinephrine administration to watch for 'rebound phenomenon' (return of severe stridor as epinephrine wears off prior to dexamethasone peak onset)."
+  },
+  "learning_objectives": [
+    "Recognize clinical features distinguishing Viral Croup / Laryngotracheobronchitis (barking seal-like cough, inspiratory stridor, subglottic steeple sign, age 6 months - 5 years, Parainfluenza etiology) from Epiglottitis (toxic appearance, drooling, dysphagia, distress, sitting in tripod position, thumbprint sign, Haemophilus influenzae type b etiology)",
+    "Execute evidence-based pharmacological treatment for Croup: universal single-dose corticosteroid (Dexamethasone 0.6 mg/kg) combined with Nebulized Racemic Epinephrine for any patient demonstrating stridor at rest or moderate/severe respiratory retractions",
+    "Understand the absolute necessity of maintaining a 3-to-4 hour observation window following racemic epinephrine nebulization to monitor for rebound subglottic mucosal edema before allowing safe ED discharge",
+    "Provide calm, supportive, minimal-handling environments for pediatric airway emergencies to prevent agitation-induced increases in airflow turbulence and subglottic resistance"
+  ],
+  "teaching": {
+    "diagnosis": "Viral Croup (Laryngotracheobronchitis)",
+    "one_liner": "A viral infection causing swelling of the upper airway in young children, producing a classic barking 'seal-like' cough and inspiratory stridor, worse at night — treated with steroids and, if stridor is present at rest, nebulized epinephrine.",
+    "differentials": [
+      "Epiglottitis (more toxic-appearing, drooling)",
+      "Foreign body aspiration",
+      "Bacterial tracheitis"
+    ],
+    "red_flags": [
+      "Stridor at rest with chest retractions — indicates moderate-severe croup needing racemic epinephrine"
+    ],
+    "must_ask": [
+      {
+        "objective": "Cough character",
+        "say": "Does the cough sound like a barking seal?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "barking",
+          "seal"
+        ]
+      },
+      {
+        "objective": "Stridor at rest",
+        "say": "Do you hear a squeaking noise when he breathes in, even when he's calm?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "stridor",
+          "at rest"
+        ]
+      },
+      {
+        "objective": "Preceding cold symptoms",
+        "say": "Did he have a runny nose or mild fever before this started?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "cold",
+          "runny nose"
+        ]
+      },
+      {
+        "objective": "Breathing effort",
+        "say": "Is his chest pulling in with each breath?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "retractions"
+        ]
+      },
+      {
+        "objective": "Onset timing",
+        "say": "What time did the barking cough start?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "95/60",
+      "hr": 136,
+      "rr": 38,
+      "spo2": 95,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "My four-year-old son woke up suddenly in the middle of the night coughing with a loud barking sound, and he is really struggling to breathe.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "He had a mild runny nose for two days, but this terrible cough and breathing trouble started suddenly tonight around midnight.",
+        "topic": "Cough duration"
+      },
+      {
+        "answer": "It is a very loud, harsh, barking cough that sounds exactly like a seal barking.",
+        "topic": "Cough character"
+      },
+      {
+        "answer": "He had a runny nose, mild congestion, and a low fever for the past two days, but it seemed like just a simple cold until tonight.",
+        "topic": "Preceding cold symptoms"
+      },
+      {
+        "answer": "He was sleeping peacefully and then woke up suddenly around midnight coughing loudly and gasping for air.",
+        "topic": "Onset timing"
+      },
+      {
+        "answer": "Yes, every time he breathes in, there is a loud, high-pitched squeaking sound coming from his throat even when he sits still.",
+        "topic": "Stridor at rest"
+      },
+      {
+        "answer": "He is breathing very fast, and you can see his chest and the base of his neck pulling in deeply with every breath.",
+        "topic": "Breathing effort and retractions"
+      },
+      {
+        "answer": "No, it is a completely dry and harsh bark; he has not coughed up any phlegm or mucus.",
+        "topic": "Sputum or phlegm"
+      },
+      {
+        "answer": "He coughs in loud bursts, but he does not make a whooping gasp at the end and has not vomited from coughing.",
+        "topic": "Paroxysmal coughing and vomiting"
+      },
+      {
+        "answer": "His breathing and squeaking get much louder and worse whenever he cries or gets upset.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "He has had a low-grade fever around 37.8 degrees Celsius for the last two days, but no severe shaking chills.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, there has been no blood at all in his saliva or cough.",
+        "topic": "Blood in cough"
+      },
+      {
+        "answer": "No, he was not eating or playing with small toys before bed, and there was no sudden choking incident.",
+        "topic": "Choking or foreign body"
+      },
+      {
+        "answer": "No, he is not drooling, and he was able to swallow water earlier without difficulty.",
+        "topic": "Drooling or swallowing difficulty"
+      },
+      {
+        "answer": "He has not said his chest hurts, but he is clutching at me because he is scared and struggling to catch his breath.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "Yes, he had clear nasal drainage and a mildly congested nose starting two days ago.",
+        "topic": "Nose and throat symptoms"
+      },
+      {
+        "answer": "No, he has never had heartburn, spitting up, or acid reflux problems.",
+        "topic": "Heartburn or reflux"
+      },
+      {
+        "answer": "He refuses to lie down flat in bed because it makes him feel like he cannot breathe, so he sits upright.",
+        "topic": "Effect of lying flat"
+      },
+      {
+        "answer": "No, he has never taken blood pressure pills or any medications like that.",
+        "topic": "Blood pressure medication"
+      },
+      {
+        "answer": "No one smokes in our household or around him.",
+        "topic": "Secondhand smoke exposure"
+      },
+      {
+        "answer": "No, he has never been around anyone with tuberculosis.",
+        "topic": "Tuberculosis exposure"
+      },
+      {
+        "answer": "A couple of children in his preschool classroom had runny noses and colds this past week.",
+        "topic": "Sick contacts at school"
+      },
+      {
+        "answer": "No, there are no fumes, dust, mold, or chemical exposures at home.",
+        "topic": "Environmental exposures"
+      },
+      {
+        "answer": "No, he does not have asthma, eczema, or food allergies.",
+        "topic": "History of allergies"
+      },
+      {
+        "answer": "He is terrified, crying, and clinging tightly to me because he cannot catch his breath.",
+        "topic": "Child emotional state"
+      },
+      {
+        "answer": "I am terrified that his windpipe is closing up and that he is suffocating.",
+        "topic": "Mother concerns"
+      },
+      {
+        "answer": "I want him to receive an immediate breathing treatment to open up his airway so he can breathe safely.",
+        "topic": "Expectations for care"
+      },
+      {
+        "answer": "He has always been a healthy child with no chronic medical conditions or previous breathing problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had any surgeries and has never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "He is not taking any prescription medicines, over-the-counter drugs, or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He does not have any known allergies to medicines.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "He lives at home in an apartment with his father, me, and his seven-year-old sister.",
+        "topic": "Living situation"
+      },
+      {
+        "answer": "There is no family history of asthma, lung disease, or serious chronic illnesses.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "He was born full-term by an uncomplicated normal vaginal delivery and went home with me on time.",
+        "topic": "Birth history"
+      },
+      {
+        "answer": "His growth and development have always been normal, and all of his childhood immunizations are fully up to date.",
+        "topic": "Growth and vaccination history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Anxious four-year-old child sitting upright and clinging to his mother, exhibiting audible inspiratory stridor at rest and a loud barking cough.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 95/60 mmHg, heart rate 136 bpm, respiratory rate 38 breaths/min, body temperature 37.8°C, and oxygen saturation 95% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Clear nasal discharge and mild pharyngeal erythema without tonsillar enlargement, exudates, or uvular deviation.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Small, mobile, non-tender anterior cervical lymph nodes bilaterally; no supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Visible suprasternal and intercostal retractions during inspiration; no thoracic cage deformities or chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric resonance to percussion throughout both lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Harsh transmitted upper-airway inspiratory stridor heard loudest over the neck and trachea, with clear peripheral lung fields and no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardia with regular rhythm, normal S1 and S2 heart sounds, and no audible murmurs or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Warm extremities with capillary refill under two seconds, no peripheral cyanosis, no digital clubbing, and no edema.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

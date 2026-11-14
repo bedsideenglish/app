@@ -1,0 +1,373 @@
+{
+  "id": "fm_011",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Moore",
+  "age": 55,
+  "gender": "male",
+  "chief_complaint": "routine cholesterol screening reveals LDL 168 mg/dL and 10-year ASCVD risk of 12.5% in 55-year-old smoker",
+  "hpi_details": "55M presents for review of cholesterol labs drawn at his annual physical. He feels entirely well and denies chest pain, dyspnea, or leg pain with walking. He has smoked about one pack of cigarettes per day for the past 30 years and has tried to quit twice without success. He eats a diet high in red meat and fried food, exercises only occasionally, and drinks socially. His father had a heart attack at age 60. He has never taken cholesterol medication before.",
+  "ideas": "assumed his cholesterol was fine since he has never had any symptoms",
+  "concerns": "He is worried that he is following directly in his father's footsteps, who suffered a heart attack at age sixty.",
+  "expectations": "He hopes for actionable dietary guidance and support to help him quit smoking before committing to long-term medication.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Current smoker (1 pack/day for 30 years, has attempted to quit twice), sedentary lifestyle, occasional alcohol use",
+  "available_results": [
+    {
+      "id": "total_cholesterol",
+      "test": "Total cholesterol",
+      "value": "248",
+      "unit": "mg/dL",
+      "reference_range": "<200",
+      "flag": "high",
+      "specimen": "Fasting blood"
+    },
+    {
+      "id": "ldl_cholesterol",
+      "test": "LDL cholesterol",
+      "value": "168",
+      "unit": "mg/dL",
+      "reference_range": "<100",
+      "flag": "high",
+      "specimen": "Fasting blood"
+    },
+    {
+      "id": "hdl_cholesterol",
+      "test": "HDL cholesterol",
+      "value": "38",
+      "unit": "mg/dL",
+      "reference_range": ">=40",
+      "flag": "low",
+      "specimen": "Fasting blood"
+    },
+    {
+      "id": "triglycerides",
+      "test": "Triglycerides",
+      "value": "165",
+      "unit": "mg/dL",
+      "reference_range": "<150",
+      "flag": "high",
+      "specimen": "Fasting blood"
+    },
+    {
+      "id": "ascvd_risk",
+      "test": "Calculated 10-year ASCVD risk",
+      "value": "12.5",
+      "unit": "%",
+      "reference_range": "<7.5",
+      "flag": "high",
+      "collected_at": "Calculated before counseling"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Hyperlipidemia with elevated ASCVD risk evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hyperlipidemia with elevated ASCVD risk is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management for intermediate ASCVD risk (10-year risk 7.5-19.9%) emphasizes shared decision-making about initiating moderate-to-high intensity statin therapy, weighing risk-enhancing factors (e.g., metabolic syndrome, persistently elevated LDL >=160 mg/dL, family history of premature ASCVD) alongside smoking cessation and lifestyle counseling, per ACC/AHA cholesterol guidelines.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: routine cholesterol screening reveals LDL 168 mg/dL and 10-year ASCVD risk of 12.5% in 55-year-old smoker",
+      "Key HPI features: 55M presents for review of cholesterol labs drawn at his annual physical. He feels entirely well and denies chest pain, dyspnea, or leg pain with walking. He has smoked about one pack of cigarettes per day for the past 30 years and has tried to quit twice without success. He eats a diet high in red meat and fried food, exercises only occasionally, and drinks socially. His father had a heart attack at age 60. He has never taken cholesterol medication before.",
+      "Objective/Exam findings: Vitals: BP 132/84, HR 78, BMI 27.6 kg/m2. Cardiovascular exam: regular rate and rhythm, no murmurs, no carotid bruits, peripheral pulses 2+ and symmetric bilaterally (no evidence of peripheral arterial disease). No xanthomas, xanthelasma, or corneal arcus on exam. Fasting Lipid Panel: Total Cholesterol 248 mg/dL, LDL 168 mg/dL, HDL 38 mg/dL, Triglycerides 165 mg/dL. Calculated 10-year ASCVD (Pooled Cohort Equations) risk score: 12.5% (intermediate risk).",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hyperlipidemia with elevated ASCVD risk.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Familial hypercholesterolemia (if very high LDL or early family history) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Chest pain or exertional symptoms — would suggest existing coronary disease needing urgent workup."
+    ],
+    "management_principles": [
+      "Calculate the 10-year ASCVD risk using the Pooled Cohort Equations (or a newer validated calculator); at intermediate risk (7.5-19.9%), engage in shared decision-making about statin initiation, factoring in risk-enhancing factors such as metabolic syndrome, persistently elevated LDL >=160 mg/dL, and family history of premature ASCVD (smoking is already an input to the risk score, not a separate risk enhancer).",
+      "Initiate moderate-intensity statin therapy (Atorvastatin 20 mg or Rosuvastatin 10 mg daily) targeting a 30-49% LDL reduction; high-intensity therapy (Atorvastatin 40-80 mg) is generally reserved for 10-year risk >=20%. Risk enhancers (here LDL >=160 mg/dL if persistent, and low HDL with raised triglycerides and BP suggesting metabolic syndrome) favor starting a statin; current smoking is already counted in the risk score.",
+      "Strongly counsel and offer pharmacologic support (varenicline, nicotine replacement therapy, or bupropion) for smoking cessation, since continued smoking is a major modifiable ASCVD risk factor independent of statin therapy.",
+      "Recommend a Mediterranean-style diet and regular aerobic exercise, and recheck a fasting lipid panel in 4-12 weeks after starting therapy to assess response and adherence."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "55M presenting for review of an elevated LDL (168 mg/dL) found on routine screening, with an intermediate calculated 10-year ASCVD risk of 12.5%. Currently asymptomatic without chest pain, dyspnea, or claudication; significant smoking history (1 pack/day x 30 years).",
+    "objective": "Vitals: BP 132/84, HR 78, BMI 27.6 kg/m2. Cardiovascular exam: regular rate and rhythm, no murmurs, no carotid bruits, peripheral pulses 2+ and symmetric bilaterally (no evidence of peripheral arterial disease). No xanthomas, xanthelasma, or corneal arcus on exam. Fasting Lipid Panel: Total Cholesterol 248 mg/dL, LDL 168 mg/dL, HDL 38 mg/dL, Triglycerides 165 mg/dL. Calculated 10-year ASCVD (Pooled Cohort Equations) risk score: 12.5% (intermediate risk).",
+    "assessment": "Hyperlipidemia (LDL 168 mg/dL) with Intermediate 10-Year ASCVD Risk (12.5%), with current tobacco use as a major modifiable risk factor.",
+    "plan": "1. Shared decision-making regarding statin initiation given intermediate ASCVD risk with risk-enhancing factors (LDL >=160 mg/dL, features of metabolic syndrome): start moderate-to-high intensity statin therapy (Atorvastatin 20-40 mg PO daily), targeting at least a 30-49% LDL reduction. 2. Strongly recommend smoking cessation with pharmacologic support (varenicline, nicotine replacement therapy, or bupropion) and counseling/quitline referral. 3. Lifestyle counseling: Mediterranean-style diet, reducing saturated fat and red meat intake, and at least 150 minutes/week of aerobic exercise. 4. Recheck fasting lipid panel and liver function in 4-12 weeks to assess response and tolerability; screen for statin-associated muscle symptoms."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hyperlipidemia Statin Risk Assessment",
+    "Formulate prioritized differential diagnosis for routine cholesterol screening reveals LDL 168 mg/dL and 10-year ASCVD risk of 12.5% in 55-year-old smoker",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Hyperlipidemia with elevated ASCVD risk",
+    "one_liner": "Elevated LDL cholesterol found on routine screening in a smoker, where the decision to start a statin is guided by the calculated 10-year cardiovascular risk score, not the cholesterol number alone.",
+    "differentials": [
+      "Familial hypercholesterolemia (if very high LDL or early family history)",
+      "Secondary dyslipidemia (hypothyroidism, diabetes)"
+    ],
+    "red_flags": [
+      "Chest pain or exertional symptoms — would suggest existing coronary disease needing urgent workup"
+    ],
+    "must_ask": [
+      {
+        "objective": "Smoking history",
+        "say": "How much and how long have you smoked?",
+        "domains": [
+          "smoking"
+        ]
+      },
+      {
+        "objective": "Symptom check",
+        "say": "Any chest pain or shortness of breath?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Family history",
+        "say": "Does heart disease or high cholesterol run in your family?",
+        "domains": [
+          "family_hx"
+        ]
+      },
+      {
+        "objective": "Diet",
+        "say": "What does your typical diet look like?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Concerns about statins",
+        "say": "What have you heard about statins that concerns you?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "132/84",
+      "hr": 78,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I'm here because the clinic called me after my routine checkup and said my cholesterol came back high.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I had blood drawn at my annual physical a couple of weeks ago, and they told me my bad cholesterol was 168.",
+        "topic": "Screening test details"
+      },
+      {
+        "answer": "In past checkups, my doctors always said my numbers were borderline or fine, so this is the first time it was flagged as high.",
+        "topic": "Previous screening comparison"
+      },
+      {
+        "answer": "I fasted for twelve hours overnight before the blood draw, though I did smoke a cigarette right before heading into the clinic.",
+        "topic": "Circumstances during screening"
+      },
+      {
+        "answer": "I haven't rechecked my cholesterol or blood pressure anywhere else since that test.",
+        "topic": "Home measurements or rechecks"
+      },
+      {
+        "answer": "I feel completely fine with no headaches, unusual fatigue, excessive thirst, or changes in how often I pee.",
+        "topic": "Associated general symptoms"
+      },
+      {
+        "answer": "I don't have any chest pain, chest tightness, or trouble breathing, even when I climb stairs.",
+        "topic": "Chest and breathing symptoms"
+      },
+      {
+        "answer": "My legs feel fine and I don't get any calf pain or cramping when I walk.",
+        "topic": "Walking and leg symptoms"
+      },
+      {
+        "answer": "I haven't had any vision changes, dizziness, one-sided weakness, or trouble with my speech.",
+        "topic": "Neurological symptom check"
+      },
+      {
+        "answer": "I haven't noticed any cold intolerance, unexplained weight gain, chronic constipation, or bone aches.",
+        "topic": "Endocrine and metabolic symptoms"
+      },
+      {
+        "answer": "No fevers, chills, night sweats, unexpected weight loss, or swollen glands.",
+        "topic": "General red flag symptoms"
+      },
+      {
+        "answer": "I have no pain with urination, no blood in my urine, and no difficulty emptying my bladder.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "I haven't had muscle cramps, heart palpitations, heavy sweating spells, or loud snoring at night.",
+        "topic": "Secondary causes and symptoms"
+      },
+      {
+        "answer": "I don't take any steroids, anti-inflammatory painkillers, water pills, or cold medicines.",
+        "topic": "Medications affecting cholesterol"
+      },
+      {
+        "answer": "I eat a lot of red meat and fried food, and I rarely eat vegetables or salads.",
+        "topic": "Diet and nutrition"
+      },
+      {
+        "answer": "I live a pretty sedentary life and only get light exercise once in a while.",
+        "topic": "Physical activity level"
+      },
+      {
+        "answer": "I've smoked about a pack of cigarettes a day for the past thirty years.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I tried quitting twice before on my own using willpower, but I ended up starting again within a couple of weeks each time.",
+        "topic": "Smoking cessation attempts"
+      },
+      {
+        "answer": "I work at an office desk all day, so I've never been exposed to asbestos, dust, or industrial chemicals.",
+        "topic": "Occupational exposures"
+      },
+      {
+        "answer": "I've never broken any bones, lost height, or taken steroid medications long term.",
+        "topic": "Bone health and fractures"
+      },
+      {
+        "answer": "I've never had tuberculosis, haven't been around anyone sick with it, and have a healthy immune system.",
+        "topic": "Infectious exposure history"
+      },
+      {
+        "answer": "My father had a heart attack when he was sixty years old, but no one in my family had strokes or early heart disease.",
+        "topic": "Family cardiovascular history"
+      },
+      {
+        "answer": "I've never taken cholesterol pills before, and I'm worried about potential side effects and having to take medication for the rest of my life.",
+        "topic": "Concerns about cholesterol medication"
+      },
+      {
+        "answer": "I assumed my cholesterol was totally fine because I have never felt sick or had any symptoms.",
+        "topic": "Thoughts on the condition"
+      },
+      {
+        "answer": "I'm really scared that I'm headed down the exact same road as my dad, who had a sudden heart attack when he was only sixty.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I was hoping to leave with a realistic diet plan and something to help me finally kick the cigarettes before we talk about statins.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like diabetes or high blood pressure.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had surgery and I've never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I don't take any prescription drugs, over-the-counter medicines, or dietary supplements.",
+        "topic": "Current medications and supplements"
+      },
+      {
+        "answer": "I don't have any allergies to medications or foods.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I drink socially on weekends, usually just two or three beers.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an office manager and live with my wife.",
+        "topic": "Occupation and living situation"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 132/84 mmHg, heart rate is 78 beats per minute, respiratory rate is 14 breaths per minute, oxygen saturation is 98% on room air, and temperature is 36.7 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-appearing, mildly overweight male resting comfortably in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal and reactive to light, with no corneal arcus or xanthelasma identified.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, submandibular, or supraclavicular lymphadenopathy noted.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, and non-tender without palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, and no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields without wheezes, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-tender with no hepatomegaly, splenomegaly, or palpable masses.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Carotid, radial, femoral, and dorsalis pedis pulses are 2+ and symmetric bilaterally with no carotid or femoral bruits.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No tendon xanthomas over the Achilles tendons or hands, and no eruptive xanthomas on the skin.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal spinal curvature without kyphosis or tenderness to palpation along the spine.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema observed in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Smooth, symmetric, normal-sized prostate without tenderness or palpable nodules.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

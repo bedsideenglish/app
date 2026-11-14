@@ -1,0 +1,325 @@
+{
+  "id": "pmr_033",
+  "system": "pmr",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Mitchell",
+  "age": 41,
+  "gender": "male",
+  "chief_complaint": "arm/elbow clenched tightly, spastic catch on passive stretch",
+  "hpi_details": "A 41-year-old male with residual right-sided weakness after a prior stroke presents with gradually worsening elbow-flexor tightness and a velocity-dependent catch on passive stretch. The stiffness interferes with hand hygiene and dressing; he denies sudden new weakness, facial droop, or speech difficulty.",
+  "ideas": "He thinks the muscles and tendons in his elbow are shrinking and knotting up because he hasn't been stretching them enough since his stroke.",
+  "concerns": "He is worried that his clenched fingers will dig into his palm and cause a skin infection, or that he will lose the ability to dress himself.",
+  "expectations": "He hopes to get muscle-relaxing injections or medication and targeted stretching exercises so he can open his hand to wash it.",
+  "pmh": "Prior stroke with residual right-sided weakness",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Post-Stroke Spastic Hemiplegia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Post-Stroke Spastic Hemiplegia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Management begins with identifying reversible triggers, setting functional goals, and using positioning, splinting, and therapist-guided range-of-motion. Consider focal botulinum toxin injection for function-limiting focal spasticity after specialist assessment.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: arm/elbow clenched tightly, spastic catch on passive stretch",
+      "Key HPI features: A 41-year-old male presents to the clinic with arm/elbow clenched tightly, spastic catch on passive stretch. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Post-Stroke Spasticity.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Post-Stroke Spastic Hemiplegia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Parkinsonian rigidity without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe flexor contractures."
+    ],
+    "management_principles": [
+      "Assess for pain, infection, skin breakdown, constipation, or bladder problems that may worsen spasticity, and use therapist-guided positioning, splinting, and range-of-motion.",
+      "Refer to rehabilitation medicine or neurology for function-limiting spasticity, contracture, or consideration of focal botulinum toxin; urgent evaluation is required for sudden new focal deficits.",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient with prior stroke and residual right-sided weakness has gradually worsening elbow-flexor tightness and a velocity-dependent catch on passive stretch that limits hygiene and dressing; no sudden new focal deficits.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Post-Stroke Spasticity.",
+    "assessment": "Condition highly suspicious for Post-Stroke Spasticity.",
+    "plan": "Assess reversible spasticity triggers and use therapist-guided positioning, splinting, and range-of-motion. Refer to rehabilitation medicine or neurology for function-limiting spasticity, contracture, or consideration of focal botulinum toxin. Seek urgent evaluation for sudden new focal deficits. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Post-Stroke Spasticity",
+    "Select appropriate diagnostic workup for Post-Stroke Spasticity",
+    "Implement a goal-directed spasticity plan with therapist-guided stretching and conditional specialist treatment"
+  ],
+  "teaching": {
+    "diagnosis": "Post-Stroke Spastic Hemiplegia",
+    "one_liner": "Upper motor neuron lesion following stroke causing velocity-dependent hypertonia and muscle spasms.",
+    "differentials": [
+      "Parkinsonian rigidity",
+      "Joint contracture",
+      "Cerebral palsy spasticity"
+    ],
+    "red_flags": [
+      "Severe flexor contractures",
+      "Skin breakdown in palmar creases",
+      "Sudden new weakness, facial droop, speech difficulty, or severe new headache"
+    ],
+    "must_ask": [
+      {
+        "objective": "Spasticity severity and velocity dependence",
+        "say": "Does your arm or leg feel tight and snap back when you try to straighten it quickly?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "tight",
+          "straighten",
+          "snap",
+          "stiff",
+          "muscle"
+        ]
+      },
+      {
+        "objective": "Functional impact on hygiene and dressing",
+        "say": "Does the stiffness interfere with washing your palm or putting on clothes?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "dressing",
+          "washing",
+          "palm",
+          "hygiene",
+          "clothes"
+        ]
+      },
+      {
+        "objective": "Painful spasms frequency",
+        "say": "Do you experience sudden, painful muscle spasms in your leg at night?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "spasms",
+          "spasm",
+          "cramp",
+          "painful",
+          "night"
+        ]
+      },
+      {
+        "objective": "Current antispasmodic therapy",
+        "say": "Are you taking medications like baclofen or have you received Botox injections?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "baclofen",
+          "botox",
+          "medication",
+          "injection"
+        ]
+      },
+      {
+        "objective": "Stroke history and timeline",
+        "say": "When did your stroke occur and how has the stiffness progressed since then?",
+        "domains": [
+          "pmh",
+          "progression"
+        ],
+        "keywords": [
+          "stroke",
+          "infarction",
+          "hemorrhage",
+          "onset"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 72,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Ever since my stroke, my right arm has had some weakness, but recently my elbow and hand have been curling up tight and stiffening up.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The stiffness started creeping in about two months ago and has been gradually getting tighter and tighter over the past few weeks.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is located in my right arm, primarily keeping my right elbow bent and my wrist and fingers curled toward my chest.",
+        "topic": "Location of stiffness"
+      },
+      {
+        "answer": "It feels like a continuous, tight muscle knot or clamp that strongly resists whenever I try to straighten the arm.",
+        "topic": "Character of stiffness"
+      },
+      {
+        "answer": "If I or someone else tries to pull the arm straight quickly, it suddenly catches and locks up, but it gives way if stretched very slowly.",
+        "topic": "Speed of movement effect"
+      },
+      {
+        "answer": "I get sudden, painful muscle cramps or spasms about three or four times a day, particularly when I yawn or get startled.",
+        "topic": "Frequency of spasms"
+      },
+      {
+        "answer": "The muscles feel constantly fatigued and achy from clenching, but there is no deep bone or joint ache.",
+        "topic": "Pain and discomfort"
+      },
+      {
+        "answer": "Cold temperatures, stress, and moving suddenly make it tighter, whereas a warm bath and slow, gentle stretching loosen it slightly.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I have been experiencing generalized fatigue because doing everyday tasks takes so much extra effort, but my left side feels completely normal.",
+        "topic": "Associated symptoms"
+      },
+      {
+        "answer": "No, I have not experienced any sudden new weakness, facial droop, numbness, speech difficulties, or sudden severe headaches.",
+        "topic": "Sudden new neurological deficits"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, the skin in my palm and elbow crease has not cracked or developed sores, though it gets sweaty and hard to clean.",
+        "topic": "Skin breakdown or sores"
+      },
+      {
+        "answer": "I had an ischemic stroke eight months ago that caused weakness on my right side, and I spent two months doing inpatient rehabilitation.",
+        "topic": "Stroke history and timeline"
+      },
+      {
+        "answer": "I am not currently taking any muscle relaxants or prescription medications for this muscle tightness.",
+        "topic": "Current spasticity medications"
+      },
+      {
+        "answer": "I tried doing the home stretching exercises my therapist taught me, but the arm has become too tight for me to open it on my own.",
+        "topic": "Treatments tried so far"
+      },
+      {
+        "answer": "It has become very difficult to wash my right armpit and palm, and putting on a shirt or buttoning clothes is a huge struggle.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "I am currently on medical leave from my office desk job, and the muscle tightness occasionally wakes me up if I roll onto my right side.",
+        "topic": "Impact on work and sleep"
+      },
+      {
+        "answer": "My rehabilitation therapist mentioned that muscle tightness called spasticity can happen after a stroke, so I think that might be what this is.",
+        "topic": "Patient understanding of condition"
+      },
+      {
+        "answer": "I'm scared that my fingers will dig so hard into my palm that the skin breaks and gets infected, or that I won't be able to dress myself anymore.",
+        "topic": "Patient main worries"
+      },
+      {
+        "answer": "I was hoping there is a muscle-relaxing injection or pill you can give me so I can open my hand enough to clean it.",
+        "topic": "Expectations for today visit"
+      },
+      {
+        "answer": "Aside from the stroke eight months ago and the weakness it left on my right side, I have no other chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I was hospitalized for two weeks when the stroke occurred followed by rehab, but I have never had any surgeries.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter drugs, or dietary supplements at this time.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I have no known allergies to any medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink one or two beers on social occasions once or twice a month, but nothing heavy.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office accountant and live in an apartment with my wife, who helps assist me with meals and hygiene.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure and passed away from a stroke in his late seventies, while my mother is alive and healthy.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, heart rate 72 bpm, respiratory rate 16 breaths per minute, temperature 36.6 C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, comfortable at rest, sitting with the right upper extremity held in adduction, elbow flexion, and wrist pronation.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils equal and reactive, extraocular movements intact, mild residual right lower facial flattening from prior stroke, speech clear, and tongue midline.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Increased muscle tone with clasp-knife spasticity in right elbow flexors and finger flexors; strength is 4/5 throughout the right side and 5/5 on the left.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Velocity-dependent catch upon rapid passive extension of the right elbow, but full passive range of motion is achieved with slow stretch without fixed contractures.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperactive deep tendon reflexes at right biceps and patella (3+) with an extensor plantar response on the right; normal 2+ reflexes on the left.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Skin in the right palmar creases, antecubital fossa, and axilla is clean and intact without maceration, erythema, or breakdown.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Mild right hemiparetic circumducting gait with reduced right arm swing; no ataxia noted on the left side.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "No resting tremor, cogwheel rigidity, fasciculations, or involuntary movements noted.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      }
+    ]
+  }
+}

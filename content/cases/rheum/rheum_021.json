@@ -1,0 +1,289 @@
+{
+  "id": "rheum_021",
+  "system": "rheumatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Kwon",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "acute excruciating pain, redness, and swelling in the right big toe joint",
+  "hpi_details": "45M presents with sudden onset of severe, throbbing pain in his right first metatarsophalangeal joint that woke him up in the middle of the night. The joint is swollen, warm, and extremely red.",
+  "ideas": "thinks he stubbed his toe or has a bad infection",
+  "concerns": "worried about permanent joint damage",
+  "expectations": "wants immediate pain relief",
+  "pmh": "Hypertension, Hyperlipidemia",
+  "medications": "Hydrochlorothiazide 25mg daily, Atorvastatin 20mg daily",
+  "social_hx": "Chef, drinks beer, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Acute Gouty Arthritis (Podagra) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Gouty Arthritis (Podagra) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Acute Gouty Arthritis (Podagra), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: acute excruciating pain, redness, and swelling in the right big toe joint",
+      "Key HPI features: 45M presents with sudden onset of severe, throbbing pain in his right first metatarsophalangeal joint that woke him up in the middle of the night. The joint is swollen, warm, and extremely red.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acute Gouty Arthritis (Podagra).",
+      "Relevant background/PMH: Hypertension, Hyperlipidemia",
+      "Current medications: Hydrochlorothiazide 25mg daily, Atorvastatin 20mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Gouty Arthritis (Podagra).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Septic arthritis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever — must rule out septic arthritis."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Acute Gouty Arthritis (Podagra)",
+      "Acute-flare treatment (an NSAID, colchicine, or glucocorticoid) must be selected by a clinician after checking renal, gastrointestinal, cardiovascular, drug-interaction, pregnancy, and infection risks.",
+      "Discuss alcohol/diet and, with the prescribing clinician, whether hydrochlorothiazide remains appropriate; do not change antihypertensives independently."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Rheumatology (ACR) Clinical Guidance",
+        "url": "https://rheumatology.org/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Acute Gouty Arthritis (Podagra). acute excruciating pain, redness, and swelling in the right big toe joint. 45M presents with sudden onset of severe, throbbing pain in his right first metatarsophalangeal joint that woke him up in the middle of the night. The joint is swollen, warm, and extremely red.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Acute Gouty Arthritis (Podagra).",
+    "assessment": "Clinical presentation highly suggestive of Acute Gouty Arthritis (Podagra).",
+    "plan": "Assess vital signs and examine for an effusion or cellulitis. If septic arthritis is plausible, arrange urgent arthrocentesis with synovial cell count, Gram stain, culture, and crystal analysis. A clinician should select flare therapy after renal, gastrointestinal, cardiovascular, interaction, and infection-risk review; do not self-start treatment or change blood-pressure medicines. Discuss lifestyle measures and follow-up for recurrent flares/urate-lowering therapy."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Gouty Arthritis (Podagra).",
+    "Formulate prioritized differential diagnosis for acute excruciating pain, redness, and swelling in the right big toe joint",
+    "Select appropriate laboratory and imaging studies for rheumatology",
+    "Implement evidence-based acute and long-term management strategies for Acute Gouty Arthritis (Podagra)."
+  ],
+  "teaching": {
+    "diagnosis": "Acute Gouty Arthritis (Podagra)",
+    "one_liner": "Sudden deposition of uric acid crystals in the first metatarsophalangeal joint causing excruciating pain, redness, and swelling, often precipitated by diuretics like hydrochlorothiazide.",
+    "differentials": [
+      "Septic arthritis",
+      "Cellulitis",
+      "Trauma"
+    ],
+    "red_flags": [
+      "Fever — must rule out septic arthritis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset",
+        "say": "Did this wake you up suddenly at night?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Joint appearance",
+        "say": "How red, warm, and swollen is the toe?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Medications",
+        "say": "Are you taking a water pill for your blood pressure?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "hydrochlorothiazide",
+          "diuretic"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Prior episodes",
+        "say": "Has this happened before?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "134/84",
+      "hr": 80,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My right big toe suddenly became swollen, bright red, and excruciatingly painful in the middle of the night.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The pain and swelling are only at the base of my right big toe. None of my other joints are affected.",
+        "topic": "Location and affected joints"
+      },
+      {
+        "answer": "It woke me up around three this morning with sudden severe pain that peaked within just a couple of hours.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "It is a severe, throbbing pain, easily a nine or ten out of ten. Even having a bedsheet touch it is agonizing.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "Yes, the joint is puffy, bright red, and radiates heat when I put my hand near it.",
+        "topic": "Redness, warmth, and swelling"
+      },
+      {
+        "answer": "It does not feel like morning stiffness; it just hurts constantly and throbbed all night without stopping.",
+        "topic": "Morning stiffness"
+      },
+      {
+        "answer": "Any pressure, walking, or slight movement makes it unbearable. Resting with it elevated helps slightly, but the throbbing persists.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I cannot put any weight on my right toe at all. I had to limp in here leaning on my heel and left leg.",
+        "topic": "Walking and weight bearing"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweating.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "I did not twist it or hear any pop. I wondered if I stubbed it without realizing, but there are no cuts or bruises.",
+        "topic": "Trauma or injury"
+      },
+      {
+        "answer": "No, I have never experienced an episode of severe joint pain or swelling like this before.",
+        "topic": "Prior joint flares"
+      },
+      {
+        "answer": "No, I haven't noticed any unusual fatigue, night sweats, or unintended weight loss.",
+        "topic": "Systemic symptoms"
+      },
+      {
+        "answer": "No skin rashes, mouth ulcers, hair loss, eye redness, or dryness in my eyes or mouth.",
+        "topic": "Rashes, sores, and eye symptoms"
+      },
+      {
+        "answer": "No, my back and heels feel fine, and my entire fingers or toes have never swollen up like sausages.",
+        "topic": "Spine, heel, and tendon pain"
+      },
+      {
+        "answer": "No, I haven't had any diarrhea, painful urination, discharge, or recent sore throats.",
+        "topic": "Recent infectious illnesses"
+      },
+      {
+        "answer": "I had two pints of beer and a large grilled steak late last night after finishing my kitchen shift.",
+        "topic": "Diet and alcohol triggers"
+      },
+      {
+        "answer": "No, I don't take steroid pills or immunosuppressants, and I have never had injections or surgery in my joints.",
+        "topic": "Immunosuppressants and joint procedures"
+      },
+      {
+        "answer": "I have been in a faithful, monogamous marriage with my wife for fifteen years, with no other sexual partners.",
+        "topic": "Recent sexual history"
+      },
+      {
+        "answer": "I thought I might have stubbed my toe badly during the night or developed a severe infection in the joint.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I am really worried that this intense inflammation might cause permanent joint damage.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I am hoping to get immediate medication or treatment to take this excruciating pain away.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have high blood pressure and high cholesterol, which were diagnosed about three years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was a teenager, but no other operations or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take hydrochlorothiazide 25 milligrams and atorvastatin 20 milligrams once every morning.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medicines, foods, or materials.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink two to three beers several nights a week, usually after late-night kitchen shifts.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work on my feet as a head chef at a busy restaurant, and I live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure and suffered from recurrent painful joint attacks in his feet that he called gout.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 134/84 mmHg, pulse 80 bpm, respiratory rate 16 breaths/min, body temperature 36.8°C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient is alert, visibly uncomfortable from right foot pain, and protective of the right big toe.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Marked erythema, warmth, tense swelling, and extreme tenderness over the right first metatarsophalangeal joint with range of motion severely limited by pain; other joints are normal without synovitis or deformity.",
+        "maneuver": "joint_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Overlying skin of the right first metatarsophalangeal joint is taut, erythematous, and warm without tophi, nodules, psoriatic plaques, or nail pitting.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Antalgic gait with marked avoidance of weight-bearing on the right forefoot.",
+        "maneuver": "coordination_gait",
+        "response": "pain"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are 2+ and symmetric bilaterally with capillary refill under two seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Prominent localized soft tissue swelling around the right first metatarsophalangeal joint with no bilateral lower extremity pitting edema.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

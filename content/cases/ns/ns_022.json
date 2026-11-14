@@ -1,0 +1,337 @@
+{
+  "id": "ns_022",
+  "system": "neurosurgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Yeo",
+  "age": 74,
+  "gender": "female",
+  "chief_complaint": "progressive confusion, balance problems, and headache 3 weeks after a minor fall",
+  "hpi_details": "74F presents with 2 weeks of progressive mild confusion, difficulty walking (unsteadiness), and a constant dull headache. Daughter recalls her mother fell and bumped her head 3 weeks ago but felt fine initially.",
+  "ideas": "daughter worried her mother is developing rapid dementia or had a stroke",
+  "concerns": "worried about brain surgery in an elderly patient",
+  "expectations": "wants head CT scan",
+  "pmh": "Hypertension, Atrial fibrillation",
+  "medications": "Amlodipine 5mg daily, Warfarin 2mg daily",
+  "social_hx": "Retired, non-smoker",
+  "investigation_events": [{
+    "id": "urgent_subdural_hematoma_workup",
+    "title": "Urgent head CT and anticoagulation assessment",
+    "order_terms": ["CT head", "CT brain", "non-contrast CT", "INR", "coagulation", "clotting"],
+    "availability_message": "Urgent head CT and INR results are now available. Neurosurgical assessment should proceed without delay.",
+    "results": [
+      {"id": "ct_head", "test": "Non-contrast CT head", "value": "Left convexity crescentic hypodense subdural collection measuring 1.6 cm with 7 mm rightward midline shift", "flag": "critical"},
+      {"id": "inr", "test": "International normalized ratio", "value": "3.0", "reference_range": "2.0-3.0 therapeutic", "flag": "abnormal", "note": "An INR of 3.0 on warfarin is dangerous in a patient with intracranial hemorrhage. Hold warfarin and urgently reverse anticoagulation (4-factor PCC plus IV vitamin K) in discussion with neurosurgery."}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "Chronic Subdural Hematoma evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Chronic Subdural Hematoma is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: progressive confusion, balance problems, and headache 3 weeks after a minor fall",
+      "Key HPI features: 74F presents with 2 weeks of progressive mild confusion, difficulty walking (unsteadiness), and a constant dull headache. Daughter recalls her mother fell and bumped her head 3 weeks ago but felt fine initially.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation.",
+      "Relevant background/PMH: Hypertension, Atrial fibrillation",
+      "Current medications: Amlodipine 5mg daily, Warfarin 2mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Chronic Subdural Hematoma.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Dementia progression without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: declining consciousness or anticoagulant use, which require urgent CT imaging and reversal of anticoagulation rather than being attributed to progressive dementia."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation",
+      "Order urgent non-contrast head CT (look for a crescent-shaped hypodense collection)",
+      "Check INR and coagulation panel"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "A 74-year-old woman presents with progressive confusion, balance problems, and headache after a minor fall 3 weeks ago. She has had 2 weeks of mild confusion, unsteadiness, and a constant dull headache; her daughter reports that she initially felt well after bumping her head.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation.",
+    "assessment": "Clinical presentation highly suggestive of Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation. Order urgent non-contrast head CT (look for crescent-shaped hypodense collection). Check INR and coagulation panel. Refer to neurosurgery for burr hole drainage. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation.",
+    "Formulate prioritized differential diagnosis for progressive confusion, balance problems, and headache 3 weeks after a minor fall",
+    "Select appropriate laboratory and imaging studies for neurosurgery",
+    "Implement evidence-based acute and long-term management strategies for Chronic Subdural Hematoma (SDH), likely exacerbated by anticoagulation."
+  ],
+  "teaching": {
+    "diagnosis": "Chronic Subdural Hematoma",
+    "one_liner": "A slow bleed under the skull after a minor fall weeks earlier, especially in an anticoagulated patient, causing progressive confusion and unsteadiness.",
+    "differentials": [
+      "Dementia progression"
+    ],
+    "red_flags": [
+      "Rapidly declining level of consciousness or GCS",
+      "New focal neurological deficit",
+      "Ongoing anticoagulation (warfarin), which increases bleeding risk and may require urgent reversal",
+      "Signs of raised intracranial pressure (vomiting, unequal pupils)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Fall history",
+        "say": "Did your mother fall and hit her head recently?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Anticoagulation",
+        "say": "Is she taking a blood thinner?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Symptom progression",
+        "say": "How has her confusion and walking changed?",
+        "domains": [
+          "progression"
+        ]
+      },
+      {
+        "objective": "Headache",
+        "say": "Does she have a constant headache?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many weeks has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "138/82",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "My mother has been getting increasingly confused, unsteady on her feet, and complaining of a headache over the last couple of weeks.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "Before this started, she was completely sharp and independent, cooked her own meals, and had no memory trouble or dementia.",
+        "topic": "Baseline cognition and daily functioning"
+      },
+      {
+        "answer": "It began about two weeks ago and has been slowly, steadily getting worse each day without fluctuating much.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "She has been unusually drowsy, takes several seconds to answer questions, and often mixes up the date and where she is.",
+        "topic": "Alertness and orientation"
+      },
+      {
+        "answer": "No, she has not seen or heard anything unusual, and she does not have any hallucinations or paranoia.",
+        "topic": "Hallucinations or behavioral changes"
+      },
+      {
+        "answer": "She had a minor fall three weeks ago and bumped her head, but she got right up, felt fine, and never passed out.",
+        "topic": "Head trauma and fall history"
+      },
+      {
+        "answer": "Yes, she takes a prescription blood thinner called warfarin every single day for her irregular heartbeat.",
+        "topic": "Anticoagulant use"
+      },
+      {
+        "answer": "She has been wobbling and losing her balance for two weeks, and her right arm seems a little clumsier than usual.",
+        "topic": "Weakness and walking difficulty"
+      },
+      {
+        "answer": "Her face looks fairly symmetric to me and her words are not slurred, though she speaks noticeably slower than normal.",
+        "topic": "Facial droop and speech changes"
+      },
+      {
+        "answer": "She has had a constant, dull headache for the past two weeks, but she has not had any nausea or vomiting.",
+        "topic": "Headache and vomiting"
+      },
+      {
+        "answer": "No, she has never had convulsions, whole-body twitching, staring spells, or tongue biting.",
+        "topic": "Seizures and staring spells"
+      },
+      {
+        "answer": "No, she has not had any urinary or bowel accidents.",
+        "topic": "Urinary or bowel incontinence"
+      },
+      {
+        "answer": "No fever or chills at all, and she has had no cough, burning with urination, or foul-smelling urine.",
+        "topic": "Fever and infection symptoms"
+      },
+      {
+        "answer": "No, her neck is not stiff at all and normal indoor light does not bother her eyes.",
+        "topic": "Neck stiffness and photophobia"
+      },
+      {
+        "answer": "She does not have diabetes, she has been eating regular meals, and she does not have excessive thirst or frequent urination.",
+        "topic": "Diabetes and hypoglycemia risk"
+      },
+      {
+        "answer": "She is drinking fluids adequately and eating well, with no vomiting, diarrhea, or drop in how much she urinates.",
+        "topic": "Hydration and oral intake"
+      },
+      {
+        "answer": "No, she has not started any sleeping pills, painkillers, muscle relaxants, or new prescription drugs lately.",
+        "topic": "Recent medication changes"
+      },
+      {
+        "answer": "She does not drink any alcohol, and there is no chance she took extra pills by mistake.",
+        "topic": "Alcohol use and overdose risk"
+      },
+      {
+        "answer": "She has not mentioned any blurred or double vision.",
+        "topic": "Vision changes and double vision"
+      },
+      {
+        "answer": "We do not use indoor gas heaters, and nobody else living in or visiting the home has felt unwell.",
+        "topic": "Carbon monoxide and toxic exposures"
+      },
+      {
+        "answer": "She has never had liver cirrhosis or kidney disease, and her skin and eyes are not yellow.",
+        "topic": "Liver and kidney disease history"
+      },
+      {
+        "answer": "She has never had depression, psychiatric illness, or any episode like this in the past.",
+        "topic": "Past psychiatric history"
+      },
+      {
+        "answer": "I am really scared that she might have had a small stroke, or that she is suddenly developing rapid dementia.",
+        "topic": "Daughter thoughts and ideas"
+      },
+      {
+        "answer": "I am deeply worried about the possibility of brain surgery, especially considering her older age and blood thinner.",
+        "topic": "Daughter concerns"
+      },
+      {
+        "answer": "I really hope she can get a brain CT scan today so we can find out exactly what is causing this.",
+        "topic": "Daughter expectations"
+      },
+      {
+        "answer": "She has had high blood pressure for ten years and atrial fibrillation for the past five years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She had an appendectomy when she was a teenager, but no other surgeries or hospitalizations since then.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "She takes amlodipine 5 milligrams once daily and warfarin 2 milligrams once daily.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "She has no known allergies to any medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "She has never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "She does not drink alcohol at all.",
+        "topic": "Alcohol history"
+      },
+      {
+        "answer": "She is a retired schoolteacher who lives alone in an apartment, but I live down the street and visit her daily.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of early dementia, strokes, or bleeding disorders.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 138/82 mmHg, heart rate 76 beats per minute irregularly irregular, respiratory rate 16 breaths per minute, body temperature 36.7 C, oxygen saturation 98% on ambient air, and capillary fingerstick glucose 108 mg/dL.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Elderly woman appearing mildly lethargic and slow to respond, but sitting comfortably without acute distress or abnormal breath odors.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Glasgow Coma Scale 14 with eye opening 4, verbal response 4, motor response 6; oriented to person but disoriented to exact date and hospital clinic, with mildly reduced attention span.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Faint, non-tender healing contusion on the left frontal scalp without active swelling, laceration, or bony step-off.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal, round, and reactive to light at 3 mm bilaterally; extraocular movements are full without nystagmus; mild flattening of the right nasolabial fold without tongue deviation or bite marks.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Motor strength grade 4+/5 in the right arm and right leg with mild pronator drift, and grade 5/5 throughout the left upper and lower extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact and symmetric sensation to light touch across all four extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes 2+ bilaterally, with an equivocal to extensor right plantar reflex and a normal downward flexor left plantar response.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Finger-to-nose coordination is intact bilaterally, but gait is cautious, wide-based, and unsteady, requiring contact guard assistance.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is fully supple with no nuchal rigidity; Kernig and Brudzinski signs are both negative.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Irregularly irregular rhythm with normal first and second heart sounds; no murmurs, rubs, or gallops appreciated.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended, with normal active bowel sounds and no organomegaly or ascites.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      }
+    ]
+  }
+}

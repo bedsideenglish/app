@@ -1,0 +1,324 @@
+{
+  "id": "derm_005",
+  "system": "dermatology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Master Evans",
+  "age": 7,
+  "gender": "male",
+  "chief_complaint": "honey-colored crusted erosions around mouth and nostrils in a 7-year-old boy (Impetigo Contagiosa)",
+  "hpi_details": "7-year-old boy brought by mother with a 5-day history of a spreading rash around his mouth and nose. Started as small red pimples and blisters that quickly burst, leaving behind moist, raw red patches covered with a thick, golden, 'honey-colored' crust. Lesions are mildly itchy and child constantly scratches them, causing new patches to appear on his chin and fingers. No fever or systemic illness.",
+  "ideas": "mother thinks it is a cold sore or bad food allergy rash from eating strawberries",
+  "concerns": "mother worried because the rash is spreading across his face and fingers rapidly",
+  "expectations": "wants antibiotic ointment and note for school clearing him to return",
+  "pmh": "Normal childhood history",
+  "medications": "None",
+  "social_hx": "2nd-grade student",
+  "clinical_knowledge": {
+    "topic": "Non-Bullous Impetigo evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Non-Bullous Impetigo is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes topical antibiotic therapy with crust removal and hygiene counseling, escalating to oral antibiotics for widespread or bullous disease, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: honey-colored crusted erosions around mouth and nostrils in a 7-year-old boy (Impetigo Contagiosa)",
+      "Key HPI features: 7-year-old boy brought by mother with a 5-day history of a spreading rash around his mouth and nose. Started as small red pimples and blisters that quickly burst, leaving behind moist, raw red patches covered with a thick, golden, 'honey-colored' crust. Lesions are mildly itchy and child constantly scratches them, causing new patches to appear on his chin and fingers. No fever or systemic illness.",
+      "Objective/Exam findings: Vitals: HR 84, Temp 36.8C. Perioral, perinasal, and dorsal hand skin examination reveals multiple confluent, shallow, erythematous erosions covered by distinctive adherent, golden-yellow ('honey-colored') crusts. No intact large bullae (excluding bullous impetigo). Regional submandibular lymphadenopathy present and mildly tender. Systemic exam completely normal.",
+      "Relevant background/PMH: Normal childhood history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Non-Bullous Impetigo.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Herpes simplex virus infection (cold sore) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever or spreading redness — suggests progression to cellulitis, needing oral antibiotics."
+    ],
+    "management_principles": [
+      "Localized therapy: for localized non-bullous impetigo with limited lesions, prescribe topical Mupirocin 2% ointment (or Retapamulin 1% ointment) applied to all affected areas TID for 5-7 days",
+      "Hygiene instructions: gently wash crusted areas with warm soapy water to remove crusts before ointment application; enforce strict handwashing and short fingernails to prevent autoinoculation",
+      "School exclusion counseling: child is highly contagious and must remain home from school/daycare until 24 hours after initiating topical antibiotic therapy"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: honey-colored crusted erosions around mouth and nostrils in a 7-year-old boy (Impetigo Contagiosa)\n\n7-year-old boy brought by mother with a 5-day history of a spreading rash around his mouth and nose. Started as small red pimples and blisters that quickly burst, leaving behind moist, raw red patches covered with a thick, golden, 'honey-colored' crust. Lesions are mildly itchy and child constantly scratches them, causing new patches to appear on his chin and fingers. No fever or systemic illness.",
+    "objective": "Vitals: HR 84, Temp 36.8C. Perioral, perinasal, and dorsal hand skin examination reveals multiple confluent, shallow, erythematous erosions covered by distinctive adherent, golden-yellow ('honey-colored') crusts. No intact large bullae (excluding bullous impetigo). Regional submandibular lymphadenopathy present and mildly tender. Systemic exam completely normal.",
+    "assessment": "Non-Bullous Impetigo Contagiosa secondary to Staphylococcus aureus and/or Group A Beta-Hemolytic Streptococcus (Streptococcus pyogenes).",
+    "plan": "1. Localized therapy: for localized non-bullous impetigo with limited lesions, prescribe topical Mupirocin 2% ointment (or Retapamulin 1% ointment) applied to all affected areas TID for 5-7 days. 2. Hygiene instructions: gently wash crusted areas with warm soapy water to remove crusts before ointment application; enforce strict handwashing and short fingernails to prevent autoinoculation. 3. School exclusion counseling: child is highly contagious and must remain home from school/daycare until 24 hours after initiating topical antibiotic therapy. (If lesions become widespread or bullous, prescribe oral Cephalexin or Dicloxacillin)."
+  },
+  "learning_objectives": [
+    "Recognize the pathognomonic clinical appearance of Non-Bullous Impetigo (adherent golden 'honey-colored' crusting over shallow facial/extremity erosions)",
+    "Differentiate Non-Bullous Impetigo (S. aureus or Group A Strep) from Bullous Impetigo (exclusively S. aureus producing exfoliative toxin A causing fragile clear flaccid bullae with collarette of scale)",
+    "Select appropriate topical antibiotic regimens (Mupirocin or Retapamulin ointment) for localized disease vs oral beta-lactamase-resistant penicillins/cephalosporins (Cephalexin) for widespread infection",
+    "Provide clear infection control and school return guidelines (excludable until 24 hours after starting effective antimicrobial therapy)"
+  ],
+  "teaching": {
+    "diagnosis": "Non-Bullous Impetigo",
+    "one_liner": "A superficial bacterial skin infection, common in children, causing small blisters that quickly burst and dry into a characteristic golden 'honey-colored' crust around the mouth and nose.",
+    "differentials": [
+      "Herpes simplex virus infection (cold sore)",
+      "Contact dermatitis",
+      "Bullous impetigo"
+    ],
+    "red_flags": [
+      "Fever or spreading redness — suggests progression to cellulitis, needing oral antibiotics"
+    ],
+    "must_ask": [
+      {
+        "objective": "Crust appearance",
+        "say": "Does the rash have a golden, honey-colored crust?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "honey-colored",
+          "golden crust"
+        ]
+      },
+      {
+        "objective": "Onset and spread",
+        "say": "How did this start, and has it spread to other areas?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ],
+        "keywords": [
+          "spreading",
+          "new patches"
+        ]
+      },
+      {
+        "objective": "Itching and scratching",
+        "say": "Is it itchy, and has he been scratching it?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "itchy",
+          "scratching"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Has he had a fever?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Contact with others",
+        "say": "Has he been in close contact with anyone with a similar rash?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "100/65",
+      "hr": 84,
+      "rr": 18,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My son developed a raw rash with yellow crusts around his mouth and nose over the past five days.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started five days ago as small red bumps around his mouth that turned into tiny blisters and popped, turning into these thick yellow crusts.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It began right around his lips and nose, but now it has spread down to his chin and onto the backs of his fingers.",
+        "topic": "Location and distribution"
+      },
+      {
+        "answer": "They look like red raw patches covered in thick, sticky golden honey-colored crusts.",
+        "topic": "Crust and lesion appearance"
+      },
+      {
+        "answer": "He says the sores itch a bit, but they do not really hurt unless he picks at them, and there was no pain before the rash appeared.",
+        "topic": "Itching and pain"
+      },
+      {
+        "answer": "He scratches them constantly throughout the day, and everywhere his fingers touch, new sores seem to pop up a day or two later.",
+        "topic": "Scratching and autoinoculation"
+      },
+      {
+        "answer": "No, the sores stay in the same place and form crusts; they do not come and go within a few hours like hives.",
+        "topic": "Fluctuation of lesions"
+      },
+      {
+        "answer": "No, his skin has always been smooth and clear, and he has never had sores like this before.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "No, he has had no fever, chills, fatigue, or body aches at all; he has been acting and playing normally.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, his lips, gums, tongue, and the inside of his mouth look totally clean, and his eyes are not red or sore.",
+        "topic": "Mucous membrane involvement"
+      },
+      {
+        "answer": "No, the skin is not peeling off in sheets, and there are no dark purple spots that fail to fade when pressed.",
+        "topic": "Skin peeling and purpura"
+      },
+      {
+        "answer": "No, his lips and tongue are not swollen, and he has had no trouble breathing, wheezing, or throat tightness.",
+        "topic": "Facial swelling and breathing"
+      },
+      {
+        "answer": "He has not taken any new prescription medications, antibiotics, or pain relievers recently.",
+        "topic": "Recent medications"
+      },
+      {
+        "answer": "He ate fresh strawberries last weekend, so I wondered if this was a bad strawberry allergy or maybe a cold sore, but he had no other symptoms.",
+        "topic": "Food and contact triggers"
+      },
+      {
+        "answer": "I noticed one of his classmates had a scabby sore on his face last week, and they sit together during art class.",
+        "topic": "Sick contacts and school exposure"
+      },
+      {
+        "answer": "No, we have not been hiking, he has not had any bug bites, and we have not traveled or visited a public swimming pool.",
+        "topic": "Bug bites and outdoor exposure"
+      },
+      {
+        "answer": "He has never had eczema, asthma, or hay fever, and he does not have sensitive skin.",
+        "topic": "History of atopy"
+      },
+      {
+        "answer": "No, his joints are completely fine with no swelling, and his fingernails look entirely normal.",
+        "topic": "Joint pain and nail changes"
+      },
+      {
+        "answer": "I tried putting a little petroleum jelly and hydrocortisone cream on it two days ago, but it did not help and the crusts kept spreading.",
+        "topic": "Topical treatments tried"
+      },
+      {
+        "answer": "I was wondering if this could be a cold sore from a virus, or maybe an allergic reaction to strawberries.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I am really worried because it is spreading so quickly across his face and onto his fingers.",
+        "topic": "Parent concerns"
+      },
+      {
+        "answer": "I was hoping you could give us an antibiotic ointment to clear it up and a doctor's note so he can safely go back to school.",
+        "topic": "Parent expectations"
+      },
+      {
+        "answer": "He has been completely healthy with no chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had surgery and has never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "He does not take any regular prescription medicines, over-the-counter drugs, or daily supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known allergies to medicines, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "No one smokes inside our house or around him.",
+        "topic": "Secondhand smoke exposure"
+      },
+      {
+        "answer": "He is a seven-year-old child, so alcohol does not apply.",
+        "topic": "Alcohol exposure"
+      },
+      {
+        "answer": "He is in the second grade in elementary school and lives at home with me, his father, and his younger sister.",
+        "topic": "Living situation and school"
+      },
+      {
+        "answer": "Neither my husband, my daughter, nor I have any skin sores or rashes right now, and there is no family history of skin disease.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "He was born full-term by normal spontaneous vaginal delivery without any complications.",
+        "topic": "Birth history"
+      },
+      {
+        "answer": "He has grown well along his normal percentiles and his childhood vaccinations are completely up to date.",
+        "topic": "Growth and vaccinations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 100/65 mmHg, pulse 84 beats per minute, respiratory rate 18 breaths per minute, temperature 36.8°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, comfortable, well-nourished boy interacting normally with his mother, without acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae anicteric and conjunctivae clear, without injection, exudate, or discharge.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Oral mucosa, tongue, and posterior pharynx are pink and moist without erosions, vesicles, ulcers, or erythema; nasal mucosa is pink without mucosal lesions.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral submandibular lymph nodes are mildly enlarged, mobile, and mildly tender to palpation, with no cervical or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Multiple confluent, shallow erythematous erosions covered with thick, adherent golden-yellow honey-colored crusts around the mouth, nostrils, chin, and dorsal fingers; no large bullae, target lesions, or generalized rash.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal chest expansion with clear and equal breath sounds bilaterally, with no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, and non-tender, with no hepatosplenomegaly or masses.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Age-appropriate physical growth and developmental milestones with normal height and weight percentiles.",
+        "maneuver": "developmental_growth",
+        "response": "none"
+      }
+    ]
+  }
+}

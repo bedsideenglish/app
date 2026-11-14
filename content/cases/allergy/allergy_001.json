@@ -1,0 +1,344 @@
+{
+  "id": "allergy_001",
+  "system": "allergy_immunology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Green",
+  "age": 19,
+  "gender": "male",
+  "chief_complaint": "sudden throat swelling, difficulty breathing, widespread hives, and dizziness after eating pad thai",
+  "hpi_details": "19M brought by ambulance with rapid onset of diffuse, intensely itchy raised red hives (urticaria) across his face, torso, and arms, accompanied by swelling of his lips and tongue (angioedema), severe throat tightness/hoarseness, wheezing, and lightheadedness within 15 minutes of eating Pad Thai containing crushed peanuts at a restaurant.",
+  "ideas": "thinks he is having a fatal peanut allergy reaction after accidental exposure",
+  "concerns": "terrified because his throat is closing up and he can barely breathe or swallow",
+  "expectations": "wants immediate epinephrine injections and IV medications",
+  "pmh": "Known peanut allergy diagnosed in childhood (forgot auto-injector at home), mild asthma",
+  "medications": "Albuterol inhaler PRN",
+  "social_hx": "College student, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Anaphylaxis (food-triggered) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Anaphylaxis (food-triggered) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes LIFE-THREATENING MEDICAL EMERGENCY, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden throat swelling, difficulty breathing, widespread hives, and dizziness after eating pad thai",
+      "Key HPI features: 19M brought by ambulance with rapid onset of diffuse, intensely itchy raised red hives (urticaria) across his face, torso, and arms, accompanied by swelling of his lips and tongue (angioedema), severe throat tightness/hoarseness, wheezing, and lightheadedness within 15 minutes of eating Pad Thai containing crushed peanuts at a restaurant.",
+      "Objective/Exam findings: Vitals: HR 134, BP 82/46 (hypotensive), RR 28, SpO2 89% on room air. Diffuse erythematous wheals/urticaria, severe angioedema of lips and tongue, inspiratory stridor, diffuse expiratory wheezing bilaterally. Patient is diaphoric and lethargic.",
+      "Relevant background/PMH: Known peanut allergy diagnosed in childhood (forgot auto-injector at home), mild asthma",
+      "Current medications: Albuterol inhaler PRN"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Anaphylaxis (food-triggered).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Vasovagal (fainting) reaction without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Throat tightness, stridor, or voice change."
+    ],
+    "management_principles": [
+      "LIFE-THREATENING MEDICAL EMERGENCY",
+      "CRITICAL FIRST-LINE ACTION: Immediately inject Epinephrine 0.5 mL of 1:1,000 (1 mg/mL solution) INTRAMUSCULARLY into the anterolateral thigh (vastus lateralis)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "World Allergy Organization (WAO) Anaphylaxis & Angioedema Guidelines",
+        "url": "https://www.worldallergy.org/education-and-programs/education/allergic-disease-resource-center/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "19M with known peanut anaphylaxis presenting in acute severe IgE-mediated anaphylactic shock involving mucocutaneous, respiratory, and cardiovascular systems post-ingestion.",
+    "objective": "Vitals: HR 134, BP 82/46 (hypotensive), RR 28, SpO2 89% on room air. Diffuse erythematous wheals/urticaria, severe angioedema of lips and tongue, inspiratory stridor, diffuse expiratory wheezing bilaterally. Patient is diaphoric and lethargic.",
+    "assessment": "Acute Severe Anaphylactic Shock precipitated by peanut allergen exposure.",
+    "plan": "LIFE-THREATENING MEDICAL EMERGENCY. 1. CRITICAL FIRST-LINE ACTION: Immediately inject Epinephrine 0.5 mg (0.5 mL of 1:1,000 / 1 mg/mL solution) INTRAMUSCULARLY into the anterolateral thigh (vastus lateralis). Repeat IM Epinephrine every 5-10 minutes if refractory or hypotensive. 2. Place patient in recumbent/supine position with legs elevated (do NOT allow patient to stand abruptly due to empty vena cava syndrome risk). 3. High-flow oxygen via non-rebreather mask and rapid IV Normal Saline bolus (1-2 Liters). 4. Administer second-line adjunctive therapies: IV Diphenhydramine 50mg and IV Famotidine 20mg for cutaneous symptoms; corticosteroids do not reliably prevent biphasic reactions and must not delay epinephrine or other resuscitation. 5. Admit for 12-24 hour observation; prescribe two epinephrine auto-injectors on discharge."
+  },
+  "learning_objectives": [
+    "Enforce IM Epinephrine into anterolateral thigh as the absolute immediate first-line treatment for anaphylaxis",
+    "Recognize multi-organ criteria (skin + respiratory/cardiovascular/GI) defining clinical anaphylaxis",
+    "Implement correct supine positioning with leg elevation to prevent lethal supine-to-standing cardiac collapse",
+    "Differentiate immediate life-saving epinephrine from delayed second-line antihistamine/corticosteroid adjuncts"
+  ],
+  "teaching": {
+    "diagnosis": "Anaphylaxis (food-triggered)",
+    "one_liner": "A life-threatening, whole-body allergic reaction — skin plus airway or circulation involvement — that needs intramuscular epinephrine immediately, not just antihistamines.",
+    "differentials": [
+      "Vasovagal (fainting) reaction",
+      "Panic attack",
+      "Food-borne (scombroid) poisoning"
+    ],
+    "red_flags": [
+      "Throat tightness, stridor, or voice change",
+      "Wheeze or shortness of breath",
+      "Dizziness or low blood pressure — any of these means epinephrine now, not 'wait and see'"
+    ],
+    "must_ask": [
+      {
+        "objective": "What was eaten and when symptoms started",
+        "say": "What did you eat, and how soon after did you notice your throat feel tight?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "ate",
+          "food",
+          "pad thai",
+          "peanut",
+          "minutes"
+        ]
+      },
+      {
+        "objective": "Airway and breathing symptoms",
+        "say": "Is it hard to breathe or swallow right now, or does your voice sound different?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "breathe",
+          "swallow",
+          "voice",
+          "wheeze",
+          "stridor"
+        ]
+      },
+      {
+        "objective": "Skin findings",
+        "say": "Do you have hives or itching all over your body?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "hives",
+          "itchy",
+          "rash",
+          "swelling"
+        ]
+      },
+      {
+        "objective": "Known allergy and prior reactions",
+        "say": "Have you had a reaction like this before, and do you carry an epinephrine auto-injector?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "allergy",
+          "epipen",
+          "epinephrine",
+          "before"
+        ]
+      },
+      {
+        "objective": "Circulatory symptoms",
+        "say": "Do you feel dizzy or like you might faint?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dizzy",
+          "faint",
+          "lightheaded"
+        ]
+      },
+      {
+        "objective": "The patient's own fear",
+        "say": "What are you most afraid is happening right now?",
+        "domains": [
+          "concerns"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "82/46",
+      "hr": 134,
+      "rr": 28,
+      "spo2": 89,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My throat is swelling shut and I can barely breathe, please help me!",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started suddenly about twenty minutes ago, right after I ate lunch at a restaurant, and it has gotten worse very fast.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "I am gasping for air even while sitting completely still; I cannot catch my breath at all.",
+        "topic": "Severity and dyspnea at rest"
+      },
+      {
+        "answer": "It has been continuously worsening without any relief; I had an allergic reaction once as a child, but it was never this severe.",
+        "topic": "Course and previous episodes"
+      },
+      {
+        "answer": "Lying flat makes me feel like I am choking to death, and this did not start while I was asleep.",
+        "topic": "Orthopnea and nocturnal symptoms"
+      },
+      {
+        "answer": "I ate Pad Thai with crushed peanuts about fifteen minutes before everything started swelling up.",
+        "topic": "Food and exposure triggers"
+      },
+      {
+        "answer": "Yes, my chest is wheezing loudly and my throat makes a high-pitched squeaking noise whenever I try to breathe in.",
+        "topic": "Wheezing and stridor"
+      },
+      {
+        "answer": "No cough, no phlegm, and I haven't had any fever or chills.",
+        "topic": "Cough, sputum, and fever"
+      },
+      {
+        "answer": "My chest feels tight and constricted from struggling to breathe, but there is no crushing or stabbing heart pain.",
+        "topic": "Chest pain or tightness"
+      },
+      {
+        "answer": "My heart is racing like crazy and I feel very dizzy and faint, like the room is spinning.",
+        "topic": "Palpitations and dizziness"
+      },
+      {
+        "answer": "No, I have not coughed up any blood.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "No, my legs and feet are not swollen at all, and my weight has been completely steady.",
+        "topic": "Leg swelling and weight gain"
+      },
+      {
+        "answer": "No leg pain, swelling, recent surgeries, long road trips, or airplane flights.",
+        "topic": "Unilateral leg pain and travel"
+      },
+      {
+        "answer": "No black tarry stools, unusual bleeding, or easy bruising.",
+        "topic": "Bleeding and black stools"
+      },
+      {
+        "answer": "I feel terrified because my airway feels closed off, but my fingers and lips are not tingling.",
+        "topic": "Anxiety and tingling"
+      },
+      {
+        "answer": "Red, raised hives broke out all over my face, chest, and arms right after eating, and they itch intensely.",
+        "topic": "Skin rash and itching"
+      },
+      {
+        "answer": "My lips and tongue feel huge and swollen, and it is almost impossible to swallow my spit.",
+        "topic": "Lip and tongue swelling"
+      },
+      {
+        "answer": "I have a known peanut allergy diagnosed when I was six, but I accidentally left my EpiPen in my dorm room.",
+        "topic": "Known allergy and auto-injector"
+      },
+      {
+        "answer": "I am terrified that my airway is going to shut completely and that I am going to die from this peanut reaction.",
+        "topic": "Patient concern and fear"
+      },
+      {
+        "answer": "I used two puffs of my albuterol inhaler ten minutes ago, but it did not help open my throat or chest at all.",
+        "topic": "Inhaler use and response"
+      },
+      {
+        "answer": "Aside from mild asthma and my peanut allergy, I do not have any other medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had surgery and have never been admitted to a hospital.",
+        "topic": "Past surgical and hospitalization history"
+      },
+      {
+        "answer": "Only my albuterol rescue inhaler as needed; I do not take any daily prescription medications or supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, only peanuts.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have not taken any aspirin, ibuprofen, blood pressure medications, or any new pills.",
+        "topic": "Medication triggers"
+      },
+      {
+        "answer": "I have never smoked cigarettes, used tobacco, or vaped.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink an occasional beer on weekends, but I have not had any alcohol today.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a first-year college student and I live in a university residence hall.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has mild eczema, but no one in my family has serious heart or lung disease.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Heart rate 134 beats per minute, blood pressure 82/46 mmHg, respiratory rate 28 breaths per minute, oxygen saturation 89% on room air, and temperature 36.6°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Diaphoretic, lethargic young male in marked respiratory distress, sitting upright and struggling to speak.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Severe angioedema with pronounced swelling of the lips, tongue, and uvula, accompanied by audible inspiratory stridor.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse erythematous wheals and urticaria across the face, neck, anterior torso, and arms.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Prominent accessory muscle use with suprasternal and intercostal retractions; no chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion notes symmetrically throughout both lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse expiratory wheezing bilaterally with transmitted upper airway inspiratory stridor.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Marked sinus tachycardia with regular rhythm, normal S1 and S2, and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Flat jugular veins with no jugular venous distension.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or ankle pitting edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Calves are symmetric, soft, non-tender, and without unilateral swelling, erythema, or cord.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

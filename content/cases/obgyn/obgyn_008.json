@@ -1,0 +1,365 @@
+{
+  "id": "obgyn_008",
+  "system": "obstetrics & gynecology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Harris",
+  "age": 38,
+  "gender": "female",
+  "chief_complaint": "severe right upper quadrant pain, hemolysis, elevated liver enzymes, and low platelets (HELLP Syndrome) at 34 weeks gestation",
+  "hpi_details": "38F G2P1 at 34 weeks gestation presents to labor and delivery triage with 12 hours of agonizing, constant right upper quadrant (RUQ) and epigastric pain radiating to her back, accompanied by nausea and dark coffee-colored vomiting. Patient feels extremely weak and reports dark tea-colored urine.",
+  "ideas": "thinks she has severe food poisoning or a gallbladder attack from fatty meal",
+  "concerns": "worried because her blood pressure is 175/110 and her upper stomach pain is unbearable",
+  "expectations": "wants immediate relief from RUQ pain and reassurance about baby's condition",
+  "pmh": "Chronic hypertension on Methyldopa",
+  "medications": "Methyldopa 500mg BID",
+  "social_hx": "Bank manager, non-smoker",
+  "investigation_events": [{
+    "id": "stat_hellp_labs",
+    "title": "Emergency HELLP syndrome laboratory assessment",
+    "order_terms": ["CBC", "platelet", "hemolysis labs", "LDH", "liver enzymes", "AST", "ALT", "coagulation", "fibrinogen"],
+    "availability_message": "STAT HELLP laboratory results are now available. Magnesium, blood-pressure treatment, blood-product preparation, and delivery must not be delayed.",
+    "results": [
+      {"id": "hemoglobin", "test": "Hemoglobin", "value": "9.2", "unit": "g/dL", "reference_range": "12.0-15.5", "flag": "low", "note": "Recent baseline was 12.4 g/dL."},
+      {"id": "ldh", "test": "Lactate dehydrogenase", "value": "1150", "unit": "U/L", "reference_range": "140-280", "flag": "high"},
+      {"id": "platelets", "test": "Platelet count", "value": "42000", "unit": "/uL", "reference_range": "150000-400000", "flag": "critical"},
+      {"id": "ast", "test": "AST", "value": "380", "unit": "U/L", "reference_range": "10-40", "flag": "high"},
+      {"id": "alt", "test": "ALT", "value": "410", "unit": "U/L", "reference_range": "7-56", "flag": "high"},
+      {"id": "blood_smear", "test": "Peripheral blood smear", "value": "Numerous schistocytes", "flag": "abnormal"}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "HELLP syndrome evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of HELLP syndrome is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes STAT obstetric emergency with seizure prophylaxis, blood pressure control, and immediate delivery given severe multisystem maternal morbidity, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe right upper quadrant pain, hemolysis, elevated liver enzymes, and low platelets (HELLP Syndrome) at 34 weeks gestation",
+      "Key HPI features: 38F G2P1 at 34 weeks gestation presents to labor and delivery triage with 12 hours of agonizing, constant right upper quadrant (RUQ) and epigastric pain radiating to her back, accompanied by nausea and dark coffee-colored vomiting. Patient feels extremely weak and reports dark tea-colored urine.",
+      "Objective/Exam findings: Vitals: HR 105, BP 178/112 mmHg, Temp 36.9C. Marked tenderness to palpation over right upper quadrant and epigastrium without peritoneal signs or Murphy sign. Fetal heart tracing shows baseline 145 bpm with decreased variability and occasional late decelerations. STAT Labs confirm classic HELLP triad: 1. Hemolysis: Hemoglobin dropped from 12.4 to 9.2 g/dL, schistocytes/burr cells on peripheral smear, LDH markedly elevated at 1,150 U/L, Indirect Bilirubin 2.4 mg/dL, Haptoglobin undetectable (<10 mg/dL). 2. Elevated Liver enzymes: AST 380 U/L, ALT 410 U/L. 3. Low Platelets: Platelet count severely depressed at 42,000 /uL. Coagulation profile normal (fibrinogen 380 mg/dL, excluding overt DIC).",
+      "Relevant background/PMH: Chronic hypertension on Methyldopa",
+      "Current medications: Methyldopa 500mg BID"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out HELLP syndrome.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Acute fatty liver of pregnancy without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe RUQ/epigastric pain."
+    ],
+    "management_principles": [
+      "STAT obstetric emergency requiring seizure prophylaxis, blood pressure control, and immediate delivery given severe multisystem maternal morbidity",
+      "Initiate IV Magnesium Sulfate loading (4g) and continuous infusion (2g/hr) for seizure prophylaxis",
+      "Administer IV Labetalol or Hydralazine to strictly maintain blood pressure < 160/105 mmHg (preventing maternal stroke and hepatic subcapsular hematoma rupture)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "38F G2P1 at 34 weeks presenting with severe epigastric/RUQ pain, dark urine, and acute hypertension highly concerning for HELLP syndrome.",
+    "objective": "Vitals: HR 105, BP 178/112 mmHg, Temp 36.9C. Marked tenderness to palpation over right upper quadrant and epigastrium without peritoneal signs or Murphy sign. Fetal heart tracing shows baseline 145 bpm with decreased variability and occasional late decelerations. STAT Labs confirm classic HELLP triad: 1. Hemolysis: Hemoglobin dropped from 12.4 to 9.2 g/dL, schistocytes/burr cells on peripheral smear, LDH markedly elevated at 1,150 U/L, Indirect Bilirubin 2.4 mg/dL, Haptoglobin undetectable (<10 mg/dL). 2. Elevated Liver enzymes: AST 380 U/L, ALT 410 U/L. 3. Low Platelets: Platelet count severely depressed at 42,000 /uL. Coagulation profile normal (fibrinogen 380 mg/dL, excluding overt DIC).",
+    "assessment": "HELLP Syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets) at 34 weeks gestation with severe maternal hypertension and right hepatic lobe capsular distension.",
+    "plan": "STAT obstetric emergency: 1. Initiate IV Magnesium Sulfate loading (4g) and continuous infusion (2g/hr) for seizure prophylaxis. 2. Administer IV Labetalol or Hydralazine to strictly maintain blood pressure < 160/105 mmHg (preventing maternal stroke and hepatic subcapsular hematoma rupture). 3. Given gestational age >= 34 weeks and severe maternal multisystem morbidity (platelets < 50k, liver enzyme elevation >10x), immediate delivery is mandatory without waiting for 48-hour steroid latency. Type and crossmatch 4 units platelets/PRBCs; perform immediate delivery (vaginal if cervix favorable and rapid labor expected, otherwise urgent Cesarean delivery with general anesthesia if platelets < 50k preclude epidural)."
+  },
+  "learning_objectives": [
+    "Memorize diagnostic laboratory triad of HELLP Syndrome: Hemolysis (schistocytes, LDH >600 U/L, low haptoglobin, bilirubin >1.2), Elevated Liver enzymes (AST/ALT > twice upper limit), and Low Platelets (<100,000 /uL)",
+    "Correlate severe right upper quadrant/epigastric pain in HELLP syndrome with stretching/microhemorrhage of Glisson's capsule surrounding the liver and danger of hepatic subcapsular rupture",
+    "Understand why epidural/spinal neuraxial anesthesia is contraindicated when maternal platelet count drops below 50,000-70,000 /uL due to spinal epidural hematoma risk",
+    "Outline the definitive obstetric management rule: immediate delivery after maternal stabilization in HELLP syndrome occurring at >= 34 weeks gestation"
+  ],
+  "teaching": {
+    "diagnosis": "HELLP syndrome",
+    "one_liner": "38F at 34 weeks with chronic hypertension presenting with severe RUQ/epigastric pain, dark urine, and coffee-ground emesis.",
+    "differentials": [
+      "Acute fatty liver of pregnancy",
+      "Cholecystitis",
+      "Viral hepatitis",
+      "TTP/HUS"
+    ],
+    "red_flags": [
+      "Severe RUQ/epigastric pain",
+      "Dark/tea-colored urine (hemolysis)",
+      "Coffee-ground emesis",
+      "Severe hypertension (175/110)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the RUQ/epigastric pain",
+        "say": "Can you point to where the pain is, and does it go to your back?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "RUQ pain",
+          "epigastric pain"
+        ]
+      },
+      {
+        "objective": "Ask about urine color change",
+        "say": "Have you noticed your urine looking darker than usual?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dark urine",
+          "hemolysis"
+        ]
+      },
+      {
+        "objective": "Screen for visual changes and headache",
+        "say": "Any headaches or changes in your vision?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "headache",
+          "visual changes"
+        ]
+      },
+      {
+        "objective": "Review baseline hypertension control",
+        "say": "Have you been taking your blood pressure medication regularly?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "methyldopa",
+          "hypertension control"
+        ]
+      },
+      {
+        "objective": "Explain need for immediate delivery",
+        "say": "Because your labs show HELLP syndrome, we need to stabilize you and proceed to delivery soon.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "immediate delivery",
+          "stabilization"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "178/112",
+      "hr": 105,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.9
+    },
+    "history": [
+      {
+        "answer": "I am 34 weeks pregnant, and I have had agonizing, constant pain in my upper right stomach and chest for the past twelve hours. It is getting unbearable, and I have been vomiting dark stuff.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The pain started suddenly about twelve hours ago, right around midnight, and it has not let up for a single moment since.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "It is right under my right ribcage and across the center of my upper stomach, and it shoots straight through to my mid-back.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "It feels like an intense, heavy, unrelenting pressure tearing inside me, completely constant rather than coming and going in waves.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "I would rate it a nine or ten out of ten. It has steadily worsened over the morning to the point where I cannot sit still.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "Nothing relieves it at all, whether I lie down, stand, or change positions. Taking antacids did not help one bit.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I have never felt any pain like this in my entire life, not even during my first pregnancy.",
+        "topic": "Previous similar pain"
+      },
+      {
+        "answer": "I have thrown up three or four times this morning. The last two episodes looked like dark brown coffee grounds.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "I had a normal bowel movement yesterday morning, and I have had no diarrhea, constipation, or dark black stools.",
+        "topic": "Bowel habits and stool color"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or cold sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "My husband said the whites of my eyes looked slightly yellow this morning, and my skin feels pale and clammy.",
+        "topic": "Jaundice and skin changes"
+      },
+      {
+        "answer": "When I used the bathroom this morning, my urine looked dark brown like iced tea, but it does not hurt or sting when I pee.",
+        "topic": "Urinary symptoms and urine color"
+      },
+      {
+        "answer": "I feel terribly weak, lightheaded, and shaky, especially whenever I attempt to get out of bed.",
+        "topic": "Dizziness and weakness"
+      },
+      {
+        "answer": "No, I have not seen any vaginal bleeding, bloody spotting, or watery fluid leaking from below.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "I do not have chest pain or trouble catching my breath, just the severe ache boring into my upper back.",
+        "topic": "Chest pain or shortness of breath"
+      },
+      {
+        "answer": "I had a slice of leftover pepperoni pizza around eight last night, and I have not had any alcohol throughout this pregnancy.",
+        "topic": "Recent meals and alcohol"
+      },
+      {
+        "answer": "I took an acetaminophen tablet around dawn hoping it would help, but it did nothing. I have not taken any ibuprofen or aspirin.",
+        "topic": "Pain medications taken"
+      },
+      {
+        "answer": "No, I have never had irregular heartbeats, flutterings, or any diagnosed heart rhythm problems.",
+        "topic": "Heart conditions and arrhythmias"
+      },
+      {
+        "answer": "I have had a throbbing band-like headache across my forehead all morning, and my eyesight has been somewhat blurry with floating spots.",
+        "topic": "Headache and visual symptoms"
+      },
+      {
+        "answer": "The baby has seemed much quieter and moved less than usual this morning, which is worrying me to death.",
+        "topic": "Fetal movements"
+      },
+      {
+        "answer": "I have chronic high blood pressure that usually stays around 130 over 80 on my pills, but the triage nurse just told me it is 178 over 112 today.",
+        "topic": "Baseline blood pressure control"
+      },
+      {
+        "answer": "At first, I wondered if I got severe food poisoning from that pizza or if my gallbladder flared up from greasy food.",
+        "topic": "Thoughts on cause"
+      },
+      {
+        "answer": "I am terrified because my blood pressure is through the roof, this stomach pain is unbearable, and I need to know if my baby is okay.",
+        "topic": "Main concerns and worries"
+      },
+      {
+        "answer": "I was diagnosed with chronic hypertension about four years ago, but I have no history of liver disease, kidney trouble, or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had a normal vaginal delivery three years ago without complications, and I have never had any surgeries or major hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take methyldopa 500 milligrams twice a day for my blood pressure, along with standard daily prenatal vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I never drink alcohol, and I have never used illicit drugs.",
+        "topic": "Alcohol and substance use"
+      },
+      {
+        "answer": "I work as a bank manager, and I live at home with my husband and our three-year-old daughter.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has hypertension, but there is no family history of preeclampsia, liver disorders, or blood bleeding problems.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I am 34 weeks pregnant with my second child, and my first pregnancy and delivery three years ago were completely uncomplicated.",
+        "topic": "Obstetric and menstrual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 178/112 mmHg, pulse 105 beats per minute, respiratory rate 18 breaths per minute, and temperature 36.9 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient appears acutely distressed, pale, and diaphoretic, clutching her upper abdomen.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae demonstrate mild icteric staining, and palpebral conjunctivae show pale mucosa.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rate with regular rhythm; normal S1 and S2 without murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields without rales, rhonchi, or wheezing.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Gravid abdomen consistent with third trimester gestation, moving with respiration, with no surgical scars or visible distension.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normoactive bowel sounds present in all four quadrants with no abdominal bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Marked tenderness on palpation over the right upper quadrant and epigastrium, without voluntary guarding or muscular rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness in any quadrant of the abdomen.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Absence of inspiratory arrest during deep palpation of the right upper quadrant below the costal margin.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness elicited on gentle percussion of either flank.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Two-plus bilateral pitting edema noted over the pretibial regions and ankles.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Brisk patellar deep tendon reflexes graded at three-plus bilaterally with two beats of unsustained clonus.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

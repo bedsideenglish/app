@@ -1,0 +1,312 @@
+{
+  "id": "opht_039",
+  "system": "opht",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. White",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "dark curtain curtain shadow pulling across vision, flashes",
+  "hpi_details": "58-year-old myopic male presents with acute onset of a 'dark curtain' pulling across his inferior visual field in the right eye. Prior to this, he noticed sudden flashes of light (photopsia) and a new shower of floaters in the same eye yesterday.",
+  "ideas": "He thinks severe eye strain or a dense clump of floaters is casting a heavy shadow across his vision.",
+  "concerns": "He is worried that the encroaching dark shadow will completely cover his visual field and leave him permanently blind in that eye.",
+  "expectations": "He hopes to be evaluated by an eye specialist immediately and receive urgent treatment to save his sight.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [{
+    "id": "stat_retinal_detachment_exam",
+    "title": "Emergency dilated retinal examination",
+    "order_terms": ["dilated fundus exam", "dilated retinal exam", "ophthalmoscopy", "scleral depression"],
+    "availability_message": "The emergency retinal examination is now available. Retinal-surgeon referral should proceed immediately.",
+    "results": [{"id": "fundus_exam", "test": "Dilated fundus examination", "value": "Superior horseshoe retinal tear with an elevated undulating rhegmatogenous retinal detachment extending toward the macula", "flag": "critical"}]
+  }],
+  "clinical_knowledge": {
+    "topic": "Retinal detachment evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Retinal detachment is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management is same-day emergency referral to an ophthalmologist/retinal surgeon, who selects the repair (pneumatic retinopexy, scleral buckle, or vitrectomy); any head positioning is specialist-directed and must not delay referral.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: dark curtain curtain shadow pulling across vision, flashes",
+      "Key HPI features: A 59-year-old male presents to the clinic with dark curtain curtain shadow pulling across vision, flashes. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Retinal Detachment.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Retinal detachment.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Posterior vitreous detachment without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Progressive curtain/shadow."
+    ],
+    "management_principles": [
+      "A suspected retinal detachment requires same-day emergency ophthalmology/retina assessment; do not delay referral for positioning instructions or attempt to select definitive surgery outside specialist care",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "58M with high myopia presenting with acute photopsia, floaters, and an advancing shadow in the right visual field.",
+    "objective": "Visual acuity decreased in right eye. Confrontation reveals inferior visual field defect. Dilated fundus exam reveals a superior horseshoe retinal tear with an associated elevated, undulating, pale, detached retina.",
+    "assessment": "Rhegmatogenous Retinal Detachment.",
+    "plan": "OPHTHALMOLOGIC EMERGENCY. Immediate referral to a retinal surgeon for pneumatic retinopexy, scleral buckle, or pars plana vitrectomy."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Retinal Detachment",
+    "Select appropriate diagnostic workup for Retinal Detachment",
+    "Implement evidence-based management plan: recognize retinal detachment as an ophthalmic emergency and arrange immediate same-day referral to a retinal surgeon"
+  ],
+  "teaching": {
+    "diagnosis": "Retinal detachment",
+    "one_liner": "Patient with a dark curtain shadow pulling across their vision along with flashes of light.",
+    "differentials": [
+      "Posterior vitreous detachment",
+      "Vitreous hemorrhage",
+      "Migraine aura"
+    ],
+    "red_flags": [
+      "Progressive curtain/shadow",
+      "New flashes and floaters"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the shadow progression",
+        "say": "Where did the shadow start, and is it spreading toward your center vision?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "curtain",
+          "progression"
+        ]
+      },
+      {
+        "objective": "Ask about flashes and floaters",
+        "say": "Did you notice flashes of light or new floaters before this?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "flashes",
+          "floaters"
+        ]
+      },
+      {
+        "objective": "Confirm painless nature",
+        "say": "Is there any pain in the eye?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "painless"
+        ]
+      },
+      {
+        "objective": "Ask about risk factors",
+        "say": "Are you nearsighted, or have you had eye surgery or trauma?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "myopia",
+          "prior eye surgery"
+        ]
+      },
+      {
+        "objective": "Explain urgency and same-day referral",
+        "say": "This is an emergency — I'm arranging for you to be seen by a retina specialist today, so please don't delay.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "urgent referral",
+          "retina specialist"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 74,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Doctor, it feels like a dark curtain or shadow is slowly pulling down across the lower part of my right eye.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The dark curtain started early this morning and has been slowly spreading downward, but I noticed bright flashes and floating black spots starting yesterday afternoon.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is only in my right eye. When I cover my left eye, the bottom half is blocked out, but my left eye sees completely normally.",
+        "topic": "Laterality and covered-eye check"
+      },
+      {
+        "answer": "No, it has been constant and progressive since it appeared this morning; it has not resolved or come and gone.",
+        "topic": "Transience and duration"
+      },
+      {
+        "answer": "It looks like a dark, solid curtain or veil creeping across the bottom half of my vision. Straight lines don't look wavy yet, but everything in that lower area is obstructed.",
+        "topic": "Visual field defect pattern"
+      },
+      {
+        "answer": "Both near and far are blocked in that lower portion. I have not changed my prescription recently; I have just worn strong glasses for severe nearsightedness for many years.",
+        "topic": "Distance versus near vision"
+      },
+      {
+        "answer": "No, I haven't noticed any glare or rings around lights, and night driving was normal until this curtain appeared today.",
+        "topic": "Glare, halos, and night driving"
+      },
+      {
+        "answer": "Yes, yesterday afternoon I suddenly saw arcs of flashing light like camera flashes, followed by a shower of floating black dots, and then the dark curtain started creeping in today.",
+        "topic": "Flashes, floaters, and curtain shadow"
+      },
+      {
+        "answer": "No, I have not had any double vision at all.",
+        "topic": "Double vision"
+      },
+      {
+        "answer": "No, my eyelids are not drooping, and I have no tiredness or difficulty chewing or swallowing.",
+        "topic": "Ptosis and systemic weakness"
+      },
+      {
+        "answer": "No, there is no pain at all, no aching when I move my eyes, and no redness.",
+        "topic": "Eye pain and redness"
+      },
+      {
+        "answer": "No headaches, no tenderness over my temples, no pain in my jaw when chewing, and no stiffness in my shoulders or hips.",
+        "topic": "Headache, temple pain, and jaw claudication"
+      },
+      {
+        "answer": "No, I have had no weakness or numbness in my arms or legs, no slurred speech, and no dizziness.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, I have not had any trauma, bumps, or injuries to my head or eyes.",
+        "topic": "Eye or head trauma"
+      },
+      {
+        "answer": "I do not have high blood pressure or diabetes, and I haven't had a dilated eye checkup in several years.",
+        "topic": "Diabetes and hypertension"
+      },
+      {
+        "answer": "No, I have never had irregular heartbeats like atrial fibrillation or any blocked blood vessels in my neck.",
+        "topic": "Cardiovascular risk factors"
+      },
+      {
+        "answer": "I have had severe nearsightedness with thick glasses since childhood, but I've never been diagnosed with glaucoma and have never had cataract or eye surgery.",
+        "topic": "Ocular history and high myopia"
+      },
+      {
+        "answer": "No, I do not take steroids, hydroxychloroquine, or any regular medications.",
+        "topic": "High-risk medications"
+      },
+      {
+        "answer": "Nobody in my family has had glaucoma or macular degeneration, though my brother is also very nearsighted.",
+        "topic": "Family history of eye diseases"
+      },
+      {
+        "answer": "I couldn't drive here today because my lower vision is blocked, and walking down stairs is difficult, but I haven't had any falls.",
+        "topic": "Impact on daily life and fall history"
+      },
+      {
+        "answer": "I thought maybe a bad clump of eye floaters or heavy strain from my computer was blocking out part of my vision.",
+        "topic": "Patient's thoughts on cause"
+      },
+      {
+        "answer": "I'm terrified that this dark curtain is going to spread over my whole eye and leave me completely blind.",
+        "topic": "Patient's main concerns"
+      },
+      {
+        "answer": "I'm hoping an eye specialist can look at it right away today and do whatever is necessary to save my sight.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "Aside from my high myopia, I have no chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I don't take any prescription medicines, over-the-counter drugs, or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or materials.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially on occasion, perhaps a glass of beer once or twice a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office accountant and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of significant hereditary or eye illnesses; my parents lived into old age without major eye disease.",
+        "topic": "General family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 122/78 mmHg, heart rate 74 beats per minute, respiratory rate 14 breaths per minute, temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, comfortable-appearing male wearing strong myopic glasses, in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae white without injection or ciliary flush; conjunctivae pink and clear bilaterally.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Visual acuity is 20/60 in the right eye (no improvement with pinhole) and 20/20 in the left eye; confrontation reveals an inferior visual field defect in the right eye; pupils equal with a subtle right relative afferent pupillary defect; dilated funduscopy reveals a superior horseshoe retinal tear with an elevated, undulating, pale detached retina extending inferiorly toward the macula.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral superficial temporal arteries are non-tender, soft, and normally pulsatile without thickening or nodularity.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Extraocular movements are full and smooth in all directions without diplopia or pain; no ptosis, facial droop, or other cranial nerve deficits.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      }
+    ]
+  }
+}

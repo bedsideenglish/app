@@ -1,0 +1,314 @@
+{
+  "id": "peds_021",
+  "system": "pediatrics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Master Park",
+  "age": 3,
+  "gender": "male",
+  "chief_complaint": "sudden barking cough, squeaking breath noise, and low-grade fever at night",
+  "hpi_details": "3-year-old boy brought to ED at midnight due to sudden onset of a loud, barking cough that sounds like a seal. Had a runny nose for 2 days. Mother noticed a high-pitched sound when he breathes in (stridor).",
+  "ideas": "mother terrified child is choking or suffocating",
+  "concerns": "anxious about emergency breathing treatment",
+  "expectations": "wants immediate relief for his breathing",
+  "pmh": "Normal childhood history",
+  "medications": "None",
+  "social_hx": "Preschooler, fully vaccinated",
+  "clinical_knowledge": {
+    "topic": "Croup (laryngotracheobronchitis), parainfluenza evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Croup (laryngotracheobronchitis), parainfluenza is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Laryngotracheobronchitis (Croup), parainfluenza etiology, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden barking cough, squeaking breath noise, and low-grade fever at night",
+      "Key HPI features: 3-year-old boy brought to ED at midnight due to sudden onset of a loud, barking cough that sounds like a seal. Had a runny nose for 2 days. Mother noticed a high-pitched sound when he breathes in (stridor).",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Laryngotracheobronchitis (Croup), parainfluenza etiology.",
+      "Relevant background/PMH: Normal childhood history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Croup (laryngotracheobronchitis), parainfluenza.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Epiglottitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Stridor at rest would indicate moderate-to-severe croup requiring epinephrine."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Laryngotracheobronchitis (Croup), parainfluenza etiology",
+      ": Assess Westley Croup Score",
+      "Administer dexamethasone 0.6 mg/kg orally, intramuscularly, or intravenously (maximum 10 mg); use local pediatric protocol"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Laryngotracheobronchitis (Croup), parainfluenza etiology. sudden barking cough, squeaking breath noise, and low-grade fever at night. 3-year-old boy brought to ED at midnight due to sudden onset of a loud, barking cough that sounds like a seal. Had a runny nose for 2 days. Mother noticed a high-pitched sound when he breathes in (stridor).",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Laryngotracheobronchitis (Croup), parainfluenza etiology.",
+    "assessment": "Clinical presentation highly suggestive of Laryngotracheobronchitis (Croup), parainfluenza etiology.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Laryngotracheobronchitis (Croup), parainfluenza etiology. Assess Westley Croup Score. Administer oral Dexamethasone 0.6mg/kg. Provide nebulized racemic epinephrine if stridor at rest present. Observe in ED. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Laryngotracheobronchitis (Croup), parainfluenza etiology.",
+    "Formulate prioritized differential diagnosis for sudden barking cough, squeaking breath noise, and low-grade fever at night",
+    "Select appropriate laboratory and imaging studies for pediatrics",
+    "Implement evidence-based acute and long-term management strategies for Laryngotracheobronchitis (Croup), parainfluenza etiology."
+  ],
+  "teaching": {
+    "diagnosis": "Croup (laryngotracheobronchitis), parainfluenza",
+    "one_liner": "3-year-old boy with sudden barking cough, stridor, and low-grade fever at night after 2 days of URI symptoms.",
+    "differentials": [
+      "Epiglottitis",
+      "Foreign body aspiration",
+      "Bacterial tracheitis"
+    ],
+    "red_flags": [
+      "Stridor at rest would indicate moderate-to-severe croup requiring epinephrine",
+      "Drooling, tripod positioning, toxic appearance, cyanosis, lethargy, or markedly increased work of breathing requires immediate emergency airway assessment"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the cough sound",
+        "say": "Does his cough sound like a seal barking?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "barking cough"
+        ]
+      },
+      {
+        "objective": "Ask about the stridor timing",
+        "say": "Do you hear the high-pitched breathing sound only when he's upset, or even when calm?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "stridor at rest vs agitation"
+        ]
+      },
+      {
+        "objective": "Ask about prior similar episodes",
+        "say": "Has he had episodes like this before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "recurrent croup"
+        ]
+      },
+      {
+        "objective": "Assess vaccination status",
+        "say": "Is he up to date on all his vaccines?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "vaccination status"
+        ]
+      },
+      {
+        "objective": "Explain the steroid dose and observation plan",
+        "say": "We'll give him a dose of steroid medicine to reduce the swelling, and depending on severity, possibly a nebulizer, then observe him for a few hours.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "dexamethasone",
+          "racemic epinephrine"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "96/62",
+      "hr": 116,
+      "rr": 28,
+      "spo2": 98,
+      "temp_c": 38
+    },
+    "history": [
+      {
+        "answer": "He suddenly woke up coughing around midnight, and his cough sounds like a barking seal.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The loud barking cough started very suddenly tonight about two hours ago.",
+        "topic": "Duration and onset of cough"
+      },
+      {
+        "answer": "He had a mild runny nose and slight congestion for the past two days, but nothing like this.",
+        "topic": "Preceding cold symptoms"
+      },
+      {
+        "answer": "It is a loud, harsh, barking sound that sounds like a seal or a dog.",
+        "topic": "Cough sound and character"
+      },
+      {
+        "answer": "The squeaking sound happens when he takes a breath in, especially when he cries or gets upset.",
+        "topic": "Inspiratory stridor and timing"
+      },
+      {
+        "answer": "No, he has never had an episode of barking cough or breathing difficulty before.",
+        "topic": "Prior similar episodes"
+      },
+      {
+        "answer": "His cough is dry and tight, with no sputum or phlegm coming up.",
+        "topic": "Sputum and phlegm"
+      },
+      {
+        "answer": "It started in the middle of the night, and his breathing always sounds worse when he is lying down asleep.",
+        "topic": "Timing and nighttime worsening"
+      },
+      {
+        "answer": "He does not have fits of non-stop coughing, and he has not vomited or made a whooping sound after coughing.",
+        "topic": "Paroxysmal coughing and vomiting"
+      },
+      {
+        "answer": "His breathing gets noisier and harder when he cries, but walking out into the cool night air seemed to ease it a little bit.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "He seems to work harder to breathe, but I do not hear any chest wheezing like an asthma attack.",
+        "topic": "Wheezing and shortness of breath"
+      },
+      {
+        "answer": "He felt a bit warm earlier tonight, and his temperature was 38.0 degrees Celsius when I checked it.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, he has not coughed up any blood at all.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "No, he was asleep in his crib when this started, and he was not playing with small toys or eating anything small.",
+        "topic": "Foreign body aspiration or choking"
+      },
+      {
+        "answer": "No, he is not drooling, and he was able to swallow a little water without pain or trouble.",
+        "topic": "Drooling and swallowing difficulty"
+      },
+      {
+        "answer": "Yes, he has had a clear runny nose and a slightly stuffy nose for the past two days.",
+        "topic": "Runny nose and congestion"
+      },
+      {
+        "answer": "He has not complained of chest pain, though he looks startled and clutches his neck when coughing.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "No, he has not had any weight loss or drenching night sweats.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "No, he does not have sour regurgitation, heartburn, or persistent throat clearing.",
+        "topic": "Acid reflux and throat clearing"
+      },
+      {
+        "answer": "No, his legs and ankles are completely normal with no swelling.",
+        "topic": "Leg swelling"
+      },
+      {
+        "answer": "A couple of children in his daycare classroom had runny noses and mild coughs this past week.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "He has no past medical problems and has always been a healthy child.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had surgery and has never been admitted to a hospital.",
+        "topic": "Past hospitalizations and surgeries"
+      },
+      {
+        "answer": "He does not take any regular medications; I only gave him one dose of children's acetaminophen tonight for his fever.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He does not have any known allergies to medicines, foods, or seasonal triggers.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "There is no family history of asthma, reactive airway disease, or chronic lung conditions.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "He was born at full term without any birth complications or oxygen support.",
+        "topic": "Birth history"
+      },
+      {
+        "answer": "His growth and developmental milestones have all been completely on track.",
+        "topic": "Growth and development"
+      },
+      {
+        "answer": "He has received all recommended childhood vaccines on schedule, including his Hib and pneumococcal shots.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "He attends a preschool program three days a week and lives at home with both parents, where no one smokes.",
+        "topic": "Daycare and environmental exposures"
+      },
+      {
+        "answer": "I was terrified he was suffocating, and I am anxious to know what breathing medication he needs to get relief right away.",
+        "topic": "Parent concerns and expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert 3-year-old boy sitting comfortably on his mother's lap, producing a harsh seal-like barking cough and audible inspiratory stridor when agitated, with no cyanosis or drooling.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Temperature 38.0 C, heart rate 116 beats per minute, respiratory rate 28 breaths per minute, blood pressure 96/62 mmHg, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild erythema of the posterior pharynx and clear rhinorrhea; no tonsillar exudate, uvula midline, and no excessive pooling of saliva.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Shotty, non-tender anterior cervical lymph nodes bilaterally; trachea midline with no masses.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Mild suprasternal and subcostal retractions noted during inspiration; symmetrical chest excursion without localized tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion notes throughout all lung fields bilaterally.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Audible inspiratory stridor transmitted from the upper airway; bilateral lung fields are clear with good air entry and no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No clubbing or cyanosis of fingernails, and no lower extremity edema; warm peripheries with capillary refill under 2 seconds.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

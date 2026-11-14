@@ -1,0 +1,329 @@
+{
+  "id": "id_038",
+  "system": "id",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Smith",
+  "age": 56,
+  "gender": "female",
+  "chief_complaint": "sore throat, high fever, tonsillar exudates, no cough",
+  "hpi_details": "A 56-year-old female presents to the clinic with sore throat, high fever, tonsillar exudates, no cough. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she caught a severe throat flu or picked up a bad viral ulcer from being worn down.",
+  "concerns": "She is worried her throat will swell shut so severely that she will suffocate or choke on her own saliva.",
+  "expectations": "She hopes to receive a numbing throat gargle and a course of antibiotics so she can swallow solid food again.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "point_of_care_rapid_strep",
+      "title": "Point-of-care rapid strep test",
+      "order_terms": [
+        "rapid strep test",
+        "rapid strep",
+        "strep test",
+        "group a strep test"
+      ],
+      "availability_message": "The point-of-care rapid strep result is now available.",
+      "results": [
+        {
+          "id": "rapid_strep",
+          "test": "Rapid group A streptococcal antigen",
+          "value": "Positive",
+          "reference_range": "Negative",
+          "flag": "abnormal",
+          "specimen": "Throat swab",
+          "collected_at": "During clinic assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Streptococcal Pharyngitis (Strep Throat) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Streptococcal Pharyngitis (Strep Throat) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Acute Pharyngitis: Oral Penicillin V or Amoxicillin for 10 days to prevent RF, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sore throat, high fever, tonsillar exudates, no cough",
+      "Key HPI features: A 56-year-old female presents to the clinic with sore throat, high fever, tonsillar exudates, no cough. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Vitals: Temp 38.7C, HR 100, BP 124/78. Tonsils erythematous and enlarged with white-yellow exudate, tender anterior cervical lymphadenopathy, no cough, lungs clear. Centor score 4 (fever, exudate, tender adenopathy, no cough). Rapid strep antigen test positive.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Streptococcal Pharyngitis (Strep Throat).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Viral pharyngitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Difficulty swallowing saliva or muffled voice — suggests peritonsillar abscess."
+    ],
+    "management_principles": [
+      "Plan for Acute Pharyngitis: Oral Penicillin V or Amoxicillin for 10 days to prevent RF",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: sore throat, high fever, tonsillar exudates, no cough\n\nA 56-year-old female presents to the clinic with sore throat, high fever, tonsillar exudates, no cough. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Vitals: Temp 38.7C, HR 100, BP 124/78. Tonsils erythematous and enlarged with white-yellow exudate, tender anterior cervical lymphadenopathy, no cough, lungs clear. Centor score 4 (fever, exudate, tender adenopathy, no cough). Rapid strep antigen test positive.",
+    "assessment": "Acute Streptococcal Pharyngitis, Centor score 4 with positive rapid antigen test confirming Group A Streptococcus.",
+    "plan": "Use a rapid antigen detection test or throat culture to confirm group A streptococcal infection before treatment in adults when testing is indicated. Treat confirmed infection with penicillin V or amoxicillin for an appropriate course; provide symptomatic care and reassess for airway or deep-neck-space complications if symptoms worsen."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Acute Pharyngitis",
+    "Select appropriate diagnostic workup for Acute Pharyngitis",
+    "Implement evidence-based management plan: Oral Penicillin V or Amoxicillin for 10 days to prevent RF"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Streptococcal Pharyngitis (Strep Throat)",
+    "one_liner": "Group A Streptococcus infection of the throat causing severe sore throat, high fever, and tonsillar exudates without a cough — treated with penicillin to prevent rheumatic fever.",
+    "differentials": [
+      "Viral pharyngitis",
+      "Infectious mononucleosis",
+      "Peritonsillar abscess"
+    ],
+    "red_flags": [
+      "Difficulty swallowing saliva or muffled voice — suggests peritonsillar abscess"
+    ],
+    "must_ask": [
+      {
+        "objective": "Absence of cough",
+        "say": "Do you have a cough along with the sore throat, or just the throat pain?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "no cough"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "How high has your fever been?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Swallowing",
+        "say": "Is it painful to swallow?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Tonsil appearance",
+        "say": "Have you noticed any white patches on your tonsils?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "exudate",
+          "white patches"
+        ]
+      },
+      {
+        "objective": "Neck lymph nodes",
+        "say": "Are the glands in your neck tender?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 100,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 38.7
+    },
+    "history": [
+      {
+        "answer": "I've had a severe sore throat and a high fever for the past two days, and it feels like it's getting worse.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The pain started suddenly two days ago as a scratchy feeling, and by yesterday it became intensely painful and burning.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "On a scale of one to ten, the pain is easily an eight, and it hurts evenly on both sides of my throat.",
+        "topic": "Pain severity and location"
+      },
+      {
+        "answer": "Swallowing food or liquids is excruciating, but I can still swallow my saliva and I'm not drooling.",
+        "topic": "Swallowing difficulty and drooling"
+      },
+      {
+        "answer": "No, my breathing is completely normal, and my voice hasn't changed or become muffled at all.",
+        "topic": "Breathing difficulty and voice changes"
+      },
+      {
+        "answer": "I can open my mouth normally, though stretching it wide makes the back of my throat ache.",
+        "topic": "Difficulty opening mouth"
+      },
+      {
+        "answer": "Yes, I developed a high fever yesterday that reached 38.7 degrees Celsius, along with shivering chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, I do not have any cough, runny nose, nasal congestion, or red eyes.",
+        "topic": "Cough and cold symptoms"
+      },
+      {
+        "answer": "Yes, the front of my neck right under my jaw is swollen and very sore when I touch it.",
+        "topic": "Neck swelling and tenderness"
+      },
+      {
+        "answer": "I looked in the bathroom mirror with a flashlight and saw my tonsils look bright red with white patches on them.",
+        "topic": "Tonsil appearance"
+      },
+      {
+        "answer": "No, I haven't noticed any skin rashes, redness, or rough sandpaper feelings anywhere.",
+        "topic": "Skin rash"
+      },
+      {
+        "answer": "I've been feeling completely exhausted and wiped out, but I don't have any belly pain or discomfort on my left side.",
+        "topic": "Fatigue and abdominal pain"
+      },
+      {
+        "answer": "No, the pain stays right in my throat and doesn't shoot up into either of my ears.",
+        "topic": "Ear pain"
+      },
+      {
+        "answer": "My seven-year-old grandson was diagnosed with strep throat last week, and I babysat him two days before this started.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I rarely get sore throats or tonsil infections as an adult.",
+        "topic": "Previous pharyngitis episodes"
+      },
+      {
+        "answer": "No, I don't have acid reflux, heartburn, throat clearing, or feelings of a lump in my throat.",
+        "topic": "Heartburn and chronic throat symptoms"
+      },
+      {
+        "answer": "I have been in a monogamous marriage with my husband for thirty years, with no new partners or oral sexual exposures.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "I don't have any chronic medical illnesses like diabetes, kidney problems, or immune system disorders.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an uncomplicated appendectomy twenty years ago, and I have never had any other surgeries or hospitalizations.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I took acetaminophen 500 mg yesterday and this morning, which took the edge off my fever slightly, but nothing else.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or latex, and I have taken penicillin in the past without problems.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink a glass of wine on social occasions once or twice a month, but no heavy alcohol.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as an elementary school librarian and live at home with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My parents are both in their eighties with hypertension, but there is no family history of serious recurrent infections or heart disease.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I went through menopause five years ago, so I have not had a period since then and there is no chance of pregnancy.",
+        "topic": "Menstrual and reproductive history"
+      },
+      {
+        "answer": "I thought I just caught a really bad throat flu or that the white spots are ulcers from being run down.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm terrified that my throat will swell completely shut and I won't even be able to breathe.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get some strong numbing spray and antibiotics today so I can finally swallow food without excruciating pain.",
+        "topic": "Patient expectations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, heart rate 100 beats/min, respiratory rate 16 breaths/min, body temperature 38.7°C, SpO2 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient appears fatigued and flushed with acute discomfort from throat pain, but shows no respiratory distress, stridor, or drooling.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral tonsils are swollen and erythematous with yellow-white exudates; the uvula is midline without peritonsillar bulging or asymmetry.",
+        "maneuver": "nose_throat_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Tender, enlarged anterior cervical lymph nodes bilaterally; no posterior cervical, occipital, or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "pain"
+      },
+      {
+        "finding": "Both tympanic membranes are pearly gray, translucent, and intact with normal landmarks and no erythema.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, rhonchi, or stridor.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with normal S1 and S2; no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender throughout, and non-distended without guarding or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Spleen and liver are not palpable below the costal margins, with no left upper quadrant tenderness.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No scarlatiniform sandpaper rash, petechiae, or skin lesions noted anywhere on the body.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

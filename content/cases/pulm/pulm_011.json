@@ -1,0 +1,356 @@
+{
+  "id": "pulm_011",
+  "system": "pulmonology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Sullivan",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "progressive breathlessness walking up hills, dry cough, and fevers 4 weeks after moving to a farmhouse",
+  "hpi_details": "4-week history of progressive shortness of breath when walking up hills and climbing stairs, accompanied by a dry, hacking, non-productive cough, low-grade evening fevers, drenching night sweats, and profound flu-like fatigue. Symptoms characteristically worsen 4 to 6 hours after spending time cleaning his recently purchased damp stone farmhouse and working inside the moldy, poorly ventilated grain hayloft. Noticeably feels much better and breathes easier during weekends spent away in the city. Denies wheezing, purulent sputum, haemoptysis, or chest pain. Never smoked cigarettes.",
+  "ideas": "thinks inhaling mold spores from the old hayloft has caused a severe allergic lung reaction",
+  "concerns": "worried he will have to sell his dream farmhouse if his lungs cannot tolerate the rural environment",
+  "expectations": "wants specific blood tests to confirm mold allergy and steroid tablets to clear his breathing",
+  "pmh": "none, healthy non-smoker",
+  "medications": "paracetamol PRN for evening fevers",
+  "social_hx": "never smoked, drinks socially, self-employed architect recently moved to rural farmhouse with moldy hayloft",
+  "clinical_knowledge": {
+    "topic": "Hypersensitivity pneumonitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of hypersensitivity pneumonitis is essential for identifying and eliminating the causative antigen.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Antigen avoidance is the cornerstone of management: avoid entering the moldy hayloft while evaluation is underway and use qualified environmental assessment or remediation when appropriate.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: progressive breathlessness walking up hills, dry cough, and fevers 4 weeks after moving to a farmhouse",
+      "Key HPI features: 4-week history of progressive shortness of breath when walking up hills and climbing stairs, accompanied by a dry, hacking, non-productive cough, low-grade evening fevers, drenching night sweats, and profound flu-like fatigue. Symptoms characteristically worsen 4 to 6 hours after spending time cleaning his recently purchased damp stone farmhouse and working inside the moldy, poorly ventilated grain hayloft. Noticeably feels much better and breathes easier during weekends spent away in the city. Denies wheezing, purulent sputum, haemoptysis, or chest pain. Never smoked cigarettes.",
+      "Objective/Exam findings: Vitals: low-grade fever 37.8°C, tachypnoea (RR 22), O2 sat 93% on room air dropping to 88% on exertion. Auscultation: fine end-inspiratory crackles ('squeaks') heard over the mid and upper lung fields bilaterally without wheeze. Bloods: peripheral blood leukocytosis, CRP and ESR elevated. CRITICAL SPECIFIC SEROLOGY: check serum Serum Avian and Mold Precipitins (Specific IgG antibodies) -> positive high titres of IgG against thermophilic Actinomycetes (Micropolyspora faeni / Saccharopolyspora rectivirgula) or Aspergillus species. Spirometry / PFTs: Restrictive defect (reduced FVC, normal/high FEV1/FVC ratio) coupled with significantly reduced DLCO (impaired alveolar gas transfer). High-Resolution CT (HRCT) Chest: reveals widespread, bilateral, poorly defined centrilobular ground-glass nodules, mosaic attenuation, and characteristic air-trapping on expiratory scans with upper/mid zone predominance. Bronchoscopy with Bronchoalveolar Lavage (BAL): demonstrates marked T-lymphocytic pleocytosis (lymphocytes >30-50% of total cell count with low CD4/CD8 ratio <1.0).",
+      "Relevant background/PMH: none, healthy non-smoker",
+      "Current medications: paracetamol PRN for evening fevers"
+    ],
+    "common_misconceptions": [
+      "Assuming that normal or near-normal spirometry excludes hypersensitivity pneumonitis in a patient with a convincing exposure history.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Treating a positive serum antigen-specific IgG result as diagnostic without integrating exposure history, imaging, physiology, and exclusion of alternatives."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring progressive hypoxaemia or respiratory failure despite antigen avoidance."
+    ],
+    "management_principles": [
+      "Avoid the suspected antigen while evaluation is underway and arrange environmental assessment or remediation when appropriate.",
+      "Refer for respiratory or interstitial-lung-disease assessment; corticosteroids may be considered by the treating clinician for selected patients after infection and alternative diagnoses are assessed.",
+      "Monitor symptoms, oxygenation, and pulmonary function with timing individualized by the treating team; repeat imaging when clinically indicated."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ATS/JRS/ALAT Clinical Practice Guideline: Diagnosis of Hypersensitivity Pneumonitis",
+        "url": "https://www.atsjournals.org/doi/10.1164/rccm.202005-2032ST"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "45M non-smoker presents with 4-week subacute exertional dyspnoea, dry cough, and flu-like fevers 4-6 hours after exposure to a moldy hayloft/farmhouse, with clear improvement away from home.",
+    "objective": "Vitals: low-grade fever 37.8°C, tachypnoea (RR 22), O2 sat 93% on room air dropping to 88% on exertion. Auscultation: fine end-inspiratory crackles ('squeaks') heard over the mid and upper lung fields bilaterally without wheeze. Bloods: peripheral blood leukocytosis, CRP and ESR elevated. CRITICAL SPECIFIC SEROLOGY: check serum Serum Avian and Mold Precipitins (Specific IgG antibodies) -> positive high titres of IgG against thermophilic Actinomycetes (Micropolyspora faeni / Saccharopolyspora rectivirgula) or Aspergillus species. Spirometry / PFTs: Restrictive defect (reduced FVC, normal/high FEV1/FVC ratio) coupled with significantly reduced DLCO (impaired alveolar gas transfer). High-Resolution CT (HRCT) Chest: reveals widespread, bilateral, poorly defined centrilobular ground-glass nodules, mosaic attenuation, and characteristic air-trapping on expiratory scans with upper/mid zone predominance. Bronchoscopy with Bronchoalveolar Lavage (BAL): demonstrates marked T-lymphocytic pleocytosis (lymphocytes >30-50% of total cell count with low CD4/CD8 ratio <1.0).",
+    "assessment": "Subacute Hypersensitivity Pneumonitis (Extrinsic Allergic Alveolitis -> Farmer's Lung / Moldy Hayloft lung). DDx: Idiopathic Pulmonary Fibrosis (occurs in older adults, lower/subpleural honeycombing on HRCT without ground-glass or mold exposure), Sarcoidosis (shows bilateral hilar lymphadenopathy on HRCT and elevated CD4/CD8 ratio >3.5 on BAL), atypical pneumonia, asthma (shows obstructive spirometry and wheeze).",
+    "plan": "Avoid the suspected moldy-hayloft exposure and arrange respiratory or interstitial-lung-disease assessment. Because exertional saturation falls to 88%, obtain urgent clinical review and seek emergency care for worsening breathlessness, low oxygen levels at rest, cyanosis, confusion, or respiratory distress. The treating clinician should determine whether oxygen, corticosteroids, environmental remediation, and follow-up testing are appropriate."
+  },
+  "learning_objectives": [
+    "Link delayed (4-6 hour post-exposure) flu-like symptoms and restrictive dyspnoea with organic dust exposure (moldy hayloft/birds)",
+    "Interpret HRCT showing upper/mid zone centrilobular ground-glass nodules and BAL showing marked lymphocytic pleocytosis (>30%)",
+    "Explain that serum antigen-specific IgG supports exposure history but does not independently confirm hypersensitivity pneumonitis",
+    "Emphasize antigen avoidance and clinician-directed follow-up to limit ongoing lung injury"
+  ],
+  "teaching": {
+    "diagnosis": "Hypersensitivity Pneumonitis",
+    "one_liner": "An immune-mediated interstitial lung disease caused by inhaled antigens, often presenting with cough, exertional dyspnoea, and exposure-related symptoms.",
+    "differentials": [
+      "Idiopathic pulmonary fibrosis",
+      "Sarcoidosis",
+      "Atypical pneumonia"
+    ],
+    "red_flags": [
+      "Progressive hypoxaemia",
+      "Respiratory failure"
+    ],
+    "must_ask": [
+      {
+        "objective": "Antigen exposure history",
+        "say": "Do symptoms worsen after exposure to birds, mould, damp buildings, hay, or grain dust?",
+        "domains": [
+          "aggravating",
+          "social_hx"
+        ],
+        "keywords": [
+          "birds",
+          "mould",
+          "damp",
+          "hay",
+          "grain dust"
+        ]
+      },
+      {
+        "objective": "Exposure-response pattern",
+        "say": "Do you feel better when you are away from the farmhouse or workplace?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "away",
+          "weekend",
+          "farmhouse",
+          "workplace",
+          "improvement"
+        ]
+      },
+      {
+        "objective": "Timing after exposure",
+        "say": "How long after an exposure do cough, fever, or breathlessness begin?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "timing",
+          "hours",
+          "exposure",
+          "cough",
+          "fever"
+        ]
+      },
+      {
+        "objective": "Prior occupational and environmental exposures",
+        "say": "What jobs, hobbies, animals, or water-damaged environments have you been exposed to?",
+        "domains": [
+          "social_hx",
+          "exposures"
+        ],
+        "keywords": [
+          "job",
+          "hobby",
+          "animals",
+          "water damage",
+          "environment"
+        ]
+      },
+      {
+        "objective": "Severity and hypoxaemia screen",
+        "say": "Are you short of breath at rest, or have you noticed blue lips, confusion, or rapidly worsening symptoms?",
+        "domains": [
+          "severity",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "rest",
+          "blue lips",
+          "confusion",
+          "worsening",
+          "rapid"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 88,
+      "rr": 22,
+      "spo2": 93,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "I have been feeling short of breath and dealing with a nagging dry cough and evening fevers for the past four weeks.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about four weeks ago, right after I moved into an old stone farmhouse.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "I get winded just walking up hills or climbing a single flight of stairs, though I can catch my breath when resting.",
+        "topic": "Severity of breathlessness"
+      },
+      {
+        "answer": "It has been getting steadily worse over the month, especially after days I spend doing renovation work.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "Yes, whenever I go away to the city for the weekend, my breathing gets much easier and the fever disappears.",
+        "topic": "Improvement away from home"
+      },
+      {
+        "answer": "My breathing feels worst and the chills kick in roughly four to six hours after I clean the hayloft.",
+        "topic": "Timing after hayloft exposure"
+      },
+      {
+        "answer": "I have been cleaning out a damp stone farmhouse and clearing out a very moldy, dusty grain hayloft.",
+        "topic": "Mold and dampness exposure"
+      },
+      {
+        "answer": "I can sleep flat on one pillow without any trouble, and I do not wake up gasping for air at night.",
+        "topic": "Orthopnea and nocturnal dyspnea"
+      },
+      {
+        "answer": "It is a persistent dry, hacking cough that does not bring up any phlegm or mucus.",
+        "topic": "Cough and sputum"
+      },
+      {
+        "answer": "I develop low-grade fevers in the evening and wake up with drenching night sweats that soak my shirt.",
+        "topic": "Fever and night sweats"
+      },
+      {
+        "answer": "No, I have not heard any wheezing or whistling noises when I breathe.",
+        "topic": "Wheezing or whistling"
+      },
+      {
+        "answer": "No, I have not had any chest tightness, pressure, or sharp pain when breathing.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "No, my heart has not been racing or fluttering, and I have not had any lightheadedness or fainting spells.",
+        "topic": "Palpitations and dizziness"
+      },
+      {
+        "answer": "No, I have never coughed up any blood.",
+        "topic": "Coughing up blood"
+      },
+      {
+        "answer": "No, my legs and ankles have not swollen, and my weight has been steady.",
+        "topic": "Leg swelling and weight gain"
+      },
+      {
+        "answer": "No pain or swelling in either calf, and I have not had any recent surgery, bed rest, or long flights.",
+        "topic": "Deep vein thrombosis risks"
+      },
+      {
+        "answer": "I feel totally drained and exhausted like I have the flu, but I have had no unusual bleeding or black stools.",
+        "topic": "Fatigue and bleeding signs"
+      },
+      {
+        "answer": "No, I do not get any tingling or numbness around my mouth or fingers, and I do not feel panicked.",
+        "topic": "Hyperventilation symptoms"
+      },
+      {
+        "answer": "No, I have never had asthma, bronchitis, or heart problems, and I have never used an inhaler.",
+        "topic": "Prior cardiopulmonary disease"
+      },
+      {
+        "answer": "I do not keep any birds or household pets, and I have never had workplace exposure to asbestos or stone dust.",
+        "topic": "Other environmental exposures"
+      },
+      {
+        "answer": "I suspect inhaling mold spores and dust from the old hayloft has caused an allergic reaction in my lungs.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I am really worried I will have to sell my dream farmhouse if my lungs cannot tolerate living there.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I am hoping you can run blood tests for mold allergy and give me some steroid pills to open up my lungs.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I have always been in good health and do not have any chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any operations or stayed overnight in a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I only take paracetamol every now and then when the evening fevers make me feel uncomfortable.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not take blood pressure tablets, aspirin, heart pills, or regular anti-inflammatory drugs.",
+        "topic": "Medication review"
+      },
+      {
+        "answer": "No, I have no known allergies to any medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink socially on occasion, maybe a beer or a glass of wine once or twice a week.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a self-employed architect working from home, and I live with my partner in our rural farmhouse.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no family history of lung fibrosis, asthma, or premature heart disease.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, pulse 88 beats per minute, respiratory rate 22 breaths per minute, temperature 37.8°C, and oxygen saturation 93% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild tachypnea at rest with subtle intercostal retractions, but no central cyanosis or acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Pink palpebral conjunctivae without pallor, and clear non-icteric sclerae.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pulse is not elevated, measuring 2 cm above the sternal angle at 45 degrees.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric chest expansion with normal tactile fremitus and no chest wall tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Percussion note is resonant bilaterally across all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Fine end-inspiratory crackles and occasional high-pitched squeaks over the mid and upper lung fields bilaterally, without wheezes.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rhythm with normal S1 and S2, and no murmurs, gallops, friction rubs, or third heart sound.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting or non-pitting edema noted in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral calves are symmetrical, non-tender, and without swelling, warmth, or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Warm and dry skin with no rashes, petechiae, peripheral cyanosis, or digital clubbing.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

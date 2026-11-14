@@ -1,0 +1,343 @@
+{
+  "id": "fm_018",
+  "system": "family medicine",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Harris",
+  "age": 42,
+  "gender": "female",
+  "chief_complaint": "fatigue, weight gain, cold intolerance, and elevated TSH 12.4 uIU/mL during follow-up of Hashimoto thyroiditis",
+  "hpi_details": "42F presenting with persistent primary hypothyroidism requiring adjustment of daily Levothyroxine dose and precise counseling on morning empty-stomach administration with 6-week TSH re-check.",
+  "ideas": "She thinks her thyroid pill has lost its effectiveness or that taking it with her morning breakfast is blocking it from working.",
+  "concerns": "She is worried that her relentless exhaustion and weight gain will prevent her from keeping up with her demanding job.",
+  "expectations": "She hopes the doctor will adjust her prescription dose and explain why her energy levels haven't improved.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "available_results": [
+    {
+      "id": "tsh",
+      "test": "TSH",
+      "value": "12.4",
+      "unit": "mIU/L",
+      "reference_range": "0.4-4.0",
+      "flag": "high",
+      "specimen": "Blood"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Hypothyroidism (Levothyroxine dose titration) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hypothyroidism (Levothyroxine dose titration) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes reviewing adherence and administration technique before titrating the levothyroxine dose, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fatigue, weight gain, cold intolerance, and elevated TSH 12.4 uIU/mL during follow-up of Hashimoto thyroiditis",
+      "Key HPI features: 42F presenting with persistent primary hypothyroidism requiring adjustment of daily Levothyroxine dose and precise counseling on morning empty-stomach administration with 6-week TSH re-check.",
+      "Objective/Exam findings: Vital signs typically normal; may show bradycardia, dry skin, or delayed reflex relaxation if undertreated. TSH 12.4 uIU/mL (elevated), confirming inadequate replacement.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hypothyroidism (Levothyroxine dose titration).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Medication non-adherence without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe lethargy, hypothermia, bradycardia, or altered mental status — myxedema coma is a medical emergency."
+    ],
+    "management_principles": [
+      "Increase levothyroxine dose incrementally (typically by 12.5-25 mcg/day) after confirming adherence and correct administration technique",
+      "Counsel on taking levothyroxine on an empty stomach, 30-60 minutes before breakfast, separated from calcium, iron, and antacids, and recheck TSH in 6 weeks",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Hypothyroidism Levothyroxine Dose Titration: fatigue, weight gain, cold intolerance, and elevated TSH 12.4 uIU/mL during follow-up of Hashimoto thyroiditis. 42F presenting with persistent primary hypothyroidism requiring adjustment of daily Levothyroxine dose and precise counseling on morning empty-stomach administration with 6-week TSH re-check.",
+    "objective": "Vital signs stable, no bradycardia. TSH 12.4 uIU/mL (elevated), consistent with under-replacement. No signs of myxedema.",
+    "assessment": "Hashimoto thyroiditis, inadequately controlled on current levothyroxine dose.",
+    "plan": "Increase levothyroxine dose incrementally after confirming adherence and correct administration technique (empty stomach, 30-60 minutes before breakfast, separated from calcium/iron/antacids). Recheck TSH in 6 weeks."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hypothyroidism Levothyroxine Dose Titration",
+    "Formulate prioritized differential diagnosis for fatigue, weight gain, cold intolerance, and elevated TSH 12.4 uIU/mL during follow-up of Hashimoto thyroiditis",
+    "Select appropriate laboratory and imaging studies for family medicine",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Hypothyroidism (Levothyroxine dose titration)",
+    "one_liner": "A known Hashimoto's patient whose TSH is still elevated, meaning her current levothyroxine dose is too low — the fix is dose adjustment plus checking that she's taking it correctly (empty stomach, away from other supplements).",
+    "differentials": [
+      "Medication non-adherence",
+      "Malabsorption interfering with levothyroxine",
+      "Progression of underlying thyroiditis"
+    ],
+    "red_flags": [
+      "Severe lethargy, hypothermia, bradycardia, or altered mental status — myxedema coma is a medical emergency",
+      "New chest pain or palpitations after starting/increasing levothyroxine, especially in an older or cardiac patient — risk of precipitating angina or arrhythmia",
+      "Symptoms of coexisting adrenal insufficiency — must be treated before starting thyroid hormone to avoid precipitating an adrenal crisis"
+    ],
+    "must_ask": [
+      {
+        "objective": "Symptom recurrence",
+        "say": "Have your fatigue, weight gain, or cold intolerance come back?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Medication timing",
+        "say": "How and when are you taking your thyroid medication?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "empty stomach",
+          "morning"
+        ]
+      },
+      {
+        "objective": "Interfering substances",
+        "say": "Are you taking iron, calcium, or antacids close to your thyroid pill?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Adherence",
+        "say": "Have you missed any doses recently?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Duration since last check",
+        "say": "When was your last thyroid level checked?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/82",
+      "hr": 68,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.4
+    },
+    "history": [
+      {
+        "answer": "I have been feeling constantly exhausted and gaining weight over the past few months, even though I take my thyroid medicine every single morning.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It feels like a profound lack of energy and general sluggishness throughout my whole body, not muscle weakness or sudden sleepiness.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It started gradually about three months ago and has gotten progressively worse without any sudden trigger.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "It has become difficult to stay productive at work, and even resting all weekend does not restore my energy.",
+        "topic": "Impact on daily life and rest"
+      },
+      {
+        "answer": "The sluggishness lasts all day, but it is hardest in the morning when I struggle to get out of bed.",
+        "topic": "Diurnal variation"
+      },
+      {
+        "answer": "I sleep about eight hours a night but still wake up unrefreshed; my husband tells me I do not snore or gasp for air.",
+        "topic": "Sleep quality and snoring"
+      },
+      {
+        "answer": "I feel frustrated by having so little energy, but I am not feeling depressed, I enjoy spending time with my family, and I have no thoughts of self-harm.",
+        "topic": "Mood and interest"
+      },
+      {
+        "answer": "I have not had dizziness, fainting, or shortness of breath, and my stools look normal brown with no black or bloody color.",
+        "topic": "Dizziness and stool changes"
+      },
+      {
+        "answer": "My periods have become noticeably heavier and last a couple of days longer than usual over the past few cycles.",
+        "topic": "Menstrual flow and duration"
+      },
+      {
+        "answer": "No, I have not had any unusual skin bruising, gum bleeding, or frequent nosebleeds.",
+        "topic": "Easy bruising and bleeding"
+      },
+      {
+        "answer": "I occasionally feel mild pins and needles in my fingers, but no persistent numbness or weakness in my hands or feet.",
+        "topic": "Numbness and tingling"
+      },
+      {
+        "answer": "Yes, I have become very sensitive to cold rooms, gained about four kilograms without eating more, my skin feels dry, and I have been constipated.",
+        "topic": "Cold intolerance, weight, and bowels"
+      },
+      {
+        "answer": "No, I do not have excessive thirst, and I am not urinating more often than usual.",
+        "topic": "Thirst and urination frequency"
+      },
+      {
+        "answer": "My skin has not turned dark, I do not feel lightheaded when I stand up, and my appetite has actually been slightly decreased.",
+        "topic": "Skin darkening, lightheadedness, and appetite"
+      },
+      {
+        "answer": "My skin feels somewhat dry and flaky, but I do not have severe itching, taste alterations, or changes in how much urine I pass.",
+        "topic": "Skin itching and urinary changes"
+      },
+      {
+        "answer": "No, I have had no fever, no chills, no night sweats, and definitely no unintentional weight loss.",
+        "topic": "Fever, night sweats, and weight loss"
+      },
+      {
+        "answer": "I have not noticed shortness of breath when walking or climbing stairs, and my legs and ankles have not swollen.",
+        "topic": "Shortness of breath and leg swelling"
+      },
+      {
+        "answer": "Work can have busy periods, but my stress level is typical; I have one cup of coffee in the morning and do not drink alcohol.",
+        "topic": "Stress, workload, and caffeine"
+      },
+      {
+        "answer": "My fatigue, weight, and cold sensitivity had been well controlled for about two years, but these same symptoms returned over the last three months.",
+        "topic": "Symptom recurrence"
+      },
+      {
+        "answer": "I take my levothyroxine tablet right when I sit down to breakfast in the morning, washing it down with coffee or milk.",
+        "topic": "Medication timing"
+      },
+      {
+        "answer": "I started taking a calcium with vitamin D supplement every morning with my breakfast right around the time I take my thyroid pill.",
+        "topic": "Interfering supplements"
+      },
+      {
+        "answer": "I am very consistent and take my thyroid medication every single morning without missing any doses.",
+        "topic": "Medication adherence"
+      },
+      {
+        "answer": "My thyroid blood test was last checked about six months ago, and my doctor said the level was in the normal target range then.",
+        "topic": "Duration since last thyroid check"
+      },
+      {
+        "answer": "I have Hashimoto thyroiditis diagnosed three years ago, along with high blood pressure and mild high cholesterol.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgical and hospital history"
+      },
+      {
+        "answer": "I take levothyroxine 50 micrograms daily and lisinopril 10 milligrams daily, along with the morning calcium supplement.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I do not drink alcohol.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as an office accountant and live with my husband in a house; my home life is supportive and calm.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother also has an underactive thyroid, but no one in my family has had early heart disease, kidney trouble, or cancer.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last period started two weeks ago, I have no chance of being pregnant, and my husband had a vasectomy several years ago.",
+        "topic": "Last menstrual period and contraception"
+      },
+      {
+        "answer": "I feel like my thyroid medicine isn't doing anything anymore, or maybe having it with my morning latte is messing it up. I'm so exhausted that I'm worried I won't be able to perform at my job or stay awake to take care of my family.",
+        "topic": "Ideas and concerns"
+      },
+      {
+        "answer": "I'm hoping you can bump up my dose and help me figure out why I'm still feeling so drained.",
+        "topic": "Expectations for today's visit"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 128/82 mmHg, heart rate 68 beats/min, respiratory rate 14 breaths/min, temperature 36.4°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure is 126/80 mmHg upon standing with heart rate 72 beats/min; no orthostatic drop.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, oriented, mildly fatigued appearance with clear speech; no periorbital puffiness or signs of myxedema.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are pink without pallor; sclerae are non-icteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, supraclavicular, or axillary lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is mildly diffusely enlarged, firm, and non-tender; no discrete nodules or bruits noted.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Lungs are clear to auscultation bilaterally with normal breath sounds; no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is cool and mildly dry on the forearms and shins; no hyperpigmentation or coarse thickened plaques.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial or pedal pitting edema bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps, triceps, and patellar reflexes are 2+; Achilles tendon reflex shows mild delayed relaxation phase bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

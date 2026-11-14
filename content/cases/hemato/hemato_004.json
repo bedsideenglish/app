@@ -1,0 +1,403 @@
+{
+  "id": "hemato_004",
+  "system": "hematology_oncology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Lewis",
+  "age": 42,
+  "gender": "female",
+  "chief_complaint": "fever, confusion, dark urine, and purple skin spots",
+  "hpi_details": "42F presenting with classical pentad: microangiopathic hemolytic anemia with schistocytes, thrombocytopenia, neurological deficits, renal injury, and fever. ADAMTS13 <5%.",
+  "ideas": "She thinks she contracted an aggressive systemic virus or developed a severe adverse reaction to her blood pressure pills.",
+  "concerns": "She is worried that the sudden confusion means she is having mini-strokes that will permanently impair her ability to work and care for her young children.",
+  "expectations": "She hopes to receive emergency blood tests right away and an intravenous drip to flush the toxins out and clear her thinking.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "available_results": [
+    {
+      "id": "hemoglobin",
+      "test": "Hemoglobin",
+      "value": "8.1",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "platelets",
+      "test": "Platelet count",
+      "value": "12",
+      "unit": "x10^3/mcL",
+      "reference_range": "150-400",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "peripheral_smear",
+      "test": "Peripheral blood smear",
+      "value": "Numerous schistocytes",
+      "flag": "critical",
+      "specimen": "Blood"
+    },
+    {
+      "id": "ldh",
+      "test": "Lactate dehydrogenase",
+      "value": "890",
+      "unit": "U/L",
+      "reference_range": "140-280",
+      "flag": "high",
+      "specimen": "Blood"
+    },
+    {
+      "id": "haptoglobin",
+      "test": "Serum haptoglobin",
+      "value": "<8",
+      "unit": "mg/dL",
+      "reference_range": "30-200",
+      "flag": "low",
+      "specimen": "Blood"
+    },
+    {
+      "id": "inr",
+      "test": "INR",
+      "value": "1.0",
+      "reference_range": "0.8-1.2",
+      "flag": "normal",
+      "specimen": "Blood"
+    },
+    {
+      "id": "creatinine",
+      "test": "Serum creatinine",
+      "value": "1.4",
+      "unit": "mg/dL",
+      "reference_range": "0.6-1.2",
+      "flag": "high",
+      "specimen": "Blood"
+    },
+    {
+      "id": "adamts13_activity",
+      "test": "ADAMTS13 activity",
+      "value": "<5",
+      "unit": "%",
+      "reference_range": ">=50",
+      "flag": "critical",
+      "specimen": "Blood",
+      "note": "Previously obtained result; plasma exchange should not be delayed while awaiting this test in a new suspected episode"
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Thrombotic Thrombocytopenic Purpura (TTP) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Thrombotic Thrombocytopenic Purpura (TTP) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes urgent initiation of therapeutic plasma exchange (PLEX) plus corticosteroids, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fever, confusion, dark urine, and purple skin spots",
+      "Key HPI features: 42F presenting with classical pentad: microangiopathic hemolytic anemia with schistocytes, thrombocytopenia, neurological deficits, renal injury, and fever. ADAMTS13 <5%.",
+      "Objective/Exam findings: Vitals: Temp 38.2C, HR 102, BP 148/92. Pallor, scattered petechiae and purpura on lower extremities, mild scleral icterus. Neurologic exam notable for intermittent confusion without focal deficits. Bloods: Hemoglobin 8.1 g/dL, Platelets 12,000/uL, LDH markedly elevated at 890 U/L, undetectable haptoglobin, indirect hyperbilirubinemia. Peripheral blood smear shows numerous schistocytes. PT/PTT/fibrinogen normal (helps distinguish from DIC). Creatinine mildly elevated at 1.4 mg/dL. ADAMTS13 activity <5%, confirming the diagnosis.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Thrombotic Thrombocytopenic Purpura (TTP).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Hemolytic uremic syndrome (HUS) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Any neurological symptoms (confusion, seizure, weakness) — mandates urgent plasma exchange."
+    ],
+    "management_principles": [
+      "Urgent initiation of therapeutic plasma exchange (PLEX) within hours of suspected diagnosis — do not delay for ADAMTS13 confirmation",
+      "Start high-dose corticosteroids (e.g., methylprednisolone 1g IV daily) concurrently with PLEX",
+      "Avoid platelet transfusion unless there is life-threatening hemorrhage, as it can worsen microthrombosis",
+      "Urgent hematology consultation; consider caplacizumab or rituximab for refractory or relapsing disease"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "42F presenting with fever, confusion, dark urine, and purple skin spots. Reports the classical pentad of microangiopathic hemolytic anemia with schistocytes, thrombocytopenia, neurological deficits, renal injury, and fever. ADAMTS13 <5%.",
+    "objective": "Vitals: Temp 38.2C, HR 102, BP 148/92. Pallor, scattered petechiae and purpura on lower extremities, mild scleral icterus. Neurologic exam notable for intermittent confusion without focal deficits. Bloods: Hemoglobin 8.1 g/dL, Platelets 12,000/uL, LDH markedly elevated at 890 U/L, undetectable haptoglobin, indirect hyperbilirubinemia. Peripheral blood smear shows numerous schistocytes. PT/PTT/fibrinogen normal (helps distinguish from DIC). Creatinine mildly elevated at 1.4 mg/dL. ADAMTS13 activity <5%, confirming the diagnosis.",
+    "assessment": "Thrombotic Thrombocytopenic Purpura (TTP), confirmed by severe ADAMTS13 deficiency (<5%) with the classic pentad of microangiopathic hemolytic anemia, thrombocytopenia, neurologic changes, renal injury, and fever.",
+    "plan": "1. Urgent initiation of therapeutic plasma exchange (PLEX) within hours of suspected diagnosis — do not delay for ADAMTS13 confirmation. 2. Start high-dose corticosteroids (e.g., methylprednisolone 1g IV daily) concurrently with PLEX. 3. Avoid platelet transfusion unless there is life-threatening hemorrhage, as it can worsen microthrombosis. 4. Urgent hematology consultation; consider caplacizumab or rituximab for refractory or relapsing disease."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Thrombotic Thrombocytopenic Purpura TTP",
+    "Formulate prioritized differential diagnosis for fever, confusion, dark urine, and purple skin spots",
+    "Select appropriate laboratory studies to confirm TTP, including ADAMTS13 activity and peripheral smear for schistocytes",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Thrombotic Thrombocytopenic Purpura (TTP)",
+    "one_liner": "A deficiency of ADAMTS13 lets clumps of von Willebrand factor form microclots throughout the body, causing the classic pentad of hemolytic anemia, low platelets, neurological changes, kidney injury, and fever — a hematologic emergency treated with plasma exchange.",
+    "differentials": [
+      "Hemolytic uremic syndrome (HUS)",
+      "DIC (disseminated intravascular coagulation)",
+      "Severe pre-eclampsia/HELLP syndrome"
+    ],
+    "red_flags": [
+      "Any neurological symptoms (confusion, seizure, weakness) — mandates urgent plasma exchange"
+    ],
+    "must_ask": [
+      {
+        "objective": "Neurological symptoms",
+        "say": "Have you had any confusion, headache, or trouble speaking?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "confusion",
+          "headache",
+          "speaking"
+        ]
+      },
+      {
+        "objective": "Bleeding and bruising",
+        "say": "Have you noticed any unusual bruising or purple spots on your skin?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "bruising",
+          "purple spots",
+          "petechiae"
+        ]
+      },
+      {
+        "objective": "Urine color",
+        "say": "Has your urine looked dark, like tea or cola?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dark urine"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever"
+        ]
+      },
+      {
+        "objective": "Onset",
+        "say": "How quickly did all of this come on?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "148/92",
+      "hr": 102,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 38.2
+    },
+    "history": [
+      {
+        "answer": "I've had a fever and felt confused over the last couple of days, and I noticed my urine turned very dark along with strange purple spots on my legs.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever and dark urine started about three days ago, and the confusion and purple spots showed up yesterday.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "My fever has been around 38.2 degrees Celsius with shaking chills, and it has been pretty constant since it began.",
+        "topic": "Fever pattern and chills"
+      },
+      {
+        "answer": "I took acetaminophen yesterday, but my temperature barely came down and went right back up.",
+        "topic": "Antipyretic response"
+      },
+      {
+        "answer": "No, I have not had any cough, phlegm, sore throat, or trouble breathing.",
+        "topic": "Respiratory symptoms"
+      },
+      {
+        "answer": "No, I do not have any burning when I urinate, frequent urination, or flank pain.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "My urine turned very dark brownish, almost like black tea or cola, starting about three days ago.",
+        "topic": "Urine color"
+      },
+      {
+        "answer": "No, I have not had any abdominal pain, nausea, vomiting, or diarrhea.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "I have felt foggy and confused on and off since yesterday, though I don't have a severe headache or stiff neck.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "I noticed tiny red dots and purple patches on my shins and ankles yesterday, even though I did not hurt myself.",
+        "topic": "Bleeding and skin spots"
+      },
+      {
+        "answer": "No, I have not been bitten by ticks or bugs, I have no dark scabs, and my joints do not ache.",
+        "topic": "Bug bites and joint pain"
+      },
+      {
+        "answer": "No, I have not had drenching night sweats or unexplained weight loss.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "No, I have not felt any swollen glands or lumps in my neck, armpits, or groin.",
+        "topic": "Swollen lymph nodes"
+      },
+      {
+        "answer": "No, I have not traveled out of the country recently, spent time in the woods or fields, or handled stray animals.",
+        "topic": "Travel and outdoor exposure"
+      },
+      {
+        "answer": "No one at home or work has been sick with a fever or similar symptoms.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I have never received chemotherapy, and I do not take steroids or any medications that weaken the immune system.",
+        "topic": "Chemotherapy and immunosuppressants"
+      },
+      {
+        "answer": "No, I do not have artificial heart valves or heart disease, and I have not had any dental procedures recently.",
+        "topic": "Heart condition and dental procedures"
+      },
+      {
+        "answer": "No, I have not started any new prescription medications or over-the-counter drugs recently.",
+        "topic": "Recent medication changes"
+      },
+      {
+        "answer": "I am in a faithful monogamous marriage, and I have never used illicit drugs or shared needles.",
+        "topic": "Sexual history and substance use"
+      },
+      {
+        "answer": "I have high blood pressure and mild high cholesterol, both diagnosed about three years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "No, I have never had any surgeries and I have never been hospitalized before.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once a day for my blood pressure; I don't take any herbal remedies or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I do not have any known allergies to medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe a single glass of wine on occasional weekends.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work full-time as an office manager and live in an apartment with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure, but there is no family history of blood disorders, bleeding problems, or kidney disease.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period was two weeks ago, and my periods are always regular every twenty-eight days.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "We use condoms for birth control, and there is no possibility that I am pregnant.",
+        "topic": "Contraception and pregnancy possibility"
+      },
+      {
+        "answer": "I thought I just caught a terrible viral bug or had a bad reaction to my blood pressure medication that's clouding my head. I'm terrified that this confusion means I'm suffering mini-strokes and won't be able to care for my kids or keep my job.",
+        "topic": "Patient ideas and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 148/92 mmHg, heart rate 102 beats/min, respiratory rate 18 breaths/min, body temperature 38.2°C, and oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Marked conjunctival pallor bilaterally with mild icteric discoloration of both sclerae.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Oropharynx is clear without mucosal erythema, petechiae, tonsillar exudate, or bleeding.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical, submandibular, or supraclavicular lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are clear bilaterally throughout all lung fields without wheezes, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rate with regular rhythm; normal S1 and S2 without audible cardiac murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, and non-tender to light and deep palpation across all quadrants without guarding or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Liver edge and spleen tip are not palpable below the costal margins.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally on gentle percussion.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Multiple non-blanching petechiae and purpuric macules scattered over both lower extremities; no eschars, skin ulcers, or signs of cellulitis.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full passive range of motion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient shows intermittent cognitive slowing and confusion regarding time, but has fluent speech and no focal motor or sensory deficits.",
+        "maneuver": "mental_status",
+        "response": "none"
+      }
+    ]
+  }
+}

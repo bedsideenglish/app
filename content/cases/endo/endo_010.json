@@ -1,0 +1,378 @@
+{
+  "id": "endo_010",
+  "system": "endocrinology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Jenkins",
+  "age": 62,
+  "gender": "female",
+  "chief_complaint": "kidney stones, bone pain, fatigue, and depression found on routine checkup",
+  "hpi_details": "62F found to have persistent hypercalcemia on routine lab work. Reports 2-year history of recurrent calcium oxalate nephrolithiasis, diffuse bone aches, constipation, lethargy, and mild depression ('bones, stones, abdominal groans, and psychic moans').",
+  "ideas": "thinks her kidney stones are just from drinking tap water",
+  "concerns": "worried her bone pain is due to osteoporosis or cancer",
+  "expectations": "wants to get rid of her kidney stones and feel energetic again",
+  "pmh": "Recurrent nephrolithiasis, osteopenia, hypertension",
+  "medications": "Chlorthalidone 25mg daily (recently stopped)",
+  "social_hx": "Retired teacher, non-smoker",
+  "available_results": [
+    {"id":"calcium","test":"Total serum calcium","value":"11.8","unit":"mg/dL","reference_range":"8.6-10.2","flag":"high","specimen":"Blood"},
+    {"id":"ionized_calcium","test":"Ionized calcium","value":"1.48","unit":"mmol/L","reference_range":"1.12-1.32","flag":"high","specimen":"Blood"},
+    {"id":"phosphate","test":"Serum phosphate","value":"2.1","unit":"mg/dL","reference_range":"2.5-4.5","flag":"low","specimen":"Blood"},
+    {"id":"intact_pth","test":"Intact parathyroid hormone","value":"145","unit":"pg/mL","reference_range":"15-65","flag":"high","specimen":"Blood"},
+    {"id":"urine_calcium","test":"24-hour urine calcium","value":"386","unit":"mg/24 h","reference_range":"100-300","flag":"high","specimen":"Urine"},
+    {"id":"distal_radius_dexa","test":"DXA distal one-third radius T-score","value":"-2.8","reference_range":">-2.5","flag":"low"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Primary Hyperparathyroidism evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Primary Hyperparathyroidism is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Perform parathyroid localization imaging (Sestamibi scan + neck ultrasound), adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: kidney stones, bone pain, fatigue, and depression found on routine checkup",
+      "Key HPI features: 62F found to have persistent hypercalcemia on routine lab work. Reports 2-year history of recurrent calcium oxalate nephrolithiasis, diffuse bone aches, constipation, lethargy, and mild depression ('bones, stones, abdominal groans, and psychic moans').",
+      "Objective/Exam findings: Vitals: HR 70, BP 138/84. Exam unremarkable except mild epigastric tenderness. Bloods: Serum total Calcium 11.8 mg/dL, Ionized Calcium elevated, Phosphate low (2.1 mg/dL), Intact PTH inappropriately elevated (145 pg/mL), 25-OH Vitamin D normal. 24-hour urine calcium elevated (>300 mg/day). DEXA scan shows osteoporosis at distal radius.",
+      "Relevant background/PMH: Recurrent nephrolithiasis, osteopenia, hypertension",
+      "Current medications: Chlorthalidone 25mg daily (recently stopped)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Primary Hyperparathyroidism.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Malignancy-associated hypercalcemia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe confusion or very high calcium — hypercalcemic crisis needing urgent hydration."
+    ],
+    "management_principles": [
+      "Perform parathyroid localization imaging (Sestamibi scan + neck ultrasound)",
+      "Refer to endocrine surgery for parathyroidectomy",
+      "Encourage adequate oral hydration and avoid loop/thiazide diuretic shifts until surgical evaluation"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Endocrine Society Clinical Practice Guideline: Primary Hyperparathyroidism",
+        "url": "https://www.endocrine.org/clinical-practice-guidelines/primary-hyperparathyroidism"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "62F found to have persistent hypercalcemia on routine lab work. Reports 2-year history of recurrent calcium oxalate nephrolithiasis, diffuse bone aches, constipation, lethargy, and mild depression ('bones, stones, abdominal groans, and psychic moans').",
+    "objective": "Vitals: HR 70, BP 138/84. Exam unremarkable except mild epigastric tenderness. Bloods: Serum total Calcium 11.8 mg/dL, Ionized Calcium elevated, Phosphate low (2.1 mg/dL), Intact PTH inappropriately elevated (145 pg/mL), 25-OH Vitamin D normal. 24-hour urine calcium elevated (>300 mg/day). DEXA scan shows osteoporosis at distal radius.",
+    "assessment": "Primary Hyperparathyroidism secondary to solitary parathyroid adenoma.",
+    "plan": "Perform parathyroid localization imaging (Sestamibi scan + neck ultrasound). Refer to endocrine surgery for parathyroidectomy. Encourage adequate oral hydration and avoid thiazide diuretics, which can worsen hypercalcemia."
+  },
+  "learning_objectives": [
+    "Identify classic clinical manifestations of primary hyperparathyroidism",
+    "Interpret lab profile (elevated calcium, low phosphate, elevated intact PTH)",
+    "Differentiate primary hyperparathyroidism from familial hypocalciuric hypercalcemia (FHH)",
+    "List surgical indications for asymptomatic primary hyperparathyroidism"
+  ],
+  "teaching": {
+    "diagnosis": "Primary Hyperparathyroidism",
+    "one_liner": "A parathyroid adenoma overproduces PTH, causing the classic tetrad of 'bones, stones, abdominal groans, and psychiatric overtones' — bone pain, kidney stones, constipation, and depression from chronic hypercalcemia.",
+    "differentials": [
+      "Malignancy-associated hypercalcemia",
+      "Vitamin D toxicity",
+      "Familial hypocalciuric hypercalcemia"
+    ],
+    "red_flags": [
+      "Severe confusion or very high calcium — hypercalcemic crisis needing urgent hydration"
+    ],
+    "must_ask": [
+      {
+        "objective": "Kidney stone history",
+        "say": "How many kidney stones have you had, and over what time period?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "kidney stones",
+          "recurrent"
+        ]
+      },
+      {
+        "objective": "Bone pain",
+        "say": "Where is the bone pain, and how would you describe it?",
+        "domains": [
+          "location",
+          "character"
+        ]
+      },
+      {
+        "objective": "GI and mood symptoms",
+        "say": "Have you had constipation or felt low in mood?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "constipation",
+          "depression"
+        ]
+      },
+      {
+        "objective": "Fatigue",
+        "say": "How would you describe your energy level?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "How the finding was made",
+        "say": "Was the high calcium found on a routine blood test?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "138/84",
+      "hr": 70,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I came in because the clinic called after my routine health checkup and told me that my calcium level was high.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "They ran my routine annual blood tests last week, and the doctor told me my calcium was eleven point eight, which is above normal.",
+        "topic": "Abnormal test results"
+      },
+      {
+        "answer": "They told me my calcium was borderline high at last year's checkup too, but no one looked into it back then.",
+        "topic": "Previous checkup results"
+      },
+      {
+        "answer": "I fasted overnight for twelve hours, drank only plain water, and was feeling rested without any recent cold or heavy workouts.",
+        "topic": "Circumstances of test"
+      },
+      {
+        "answer": "I check my blood pressure at home sometimes and it usually runs around 130 to 140 over 80, but I haven't rechecked my calcium.",
+        "topic": "Home monitoring"
+      },
+      {
+        "answer": "I have been feeling constantly exhausted and drained for the past year or two, even when I get a full night of sleep.",
+        "topic": "Fatigue and energy level"
+      },
+      {
+        "answer": "No, I haven't had any unusual headaches, blurred vision, or changes in my eyesight.",
+        "topic": "Headache and vision changes"
+      },
+      {
+        "answer": "Yes, I feel thirsty all the time lately and I find myself waking up two or three times every night to urinate.",
+        "topic": "Thirst and urination"
+      },
+      {
+        "answer": "My weight has remained steady around 60 kilograms, and while my appetite is slightly lower, I haven't had significant weight loss.",
+        "topic": "Weight change and appetite"
+      },
+      {
+        "answer": "No, I have not had any chest tightness, shortness of breath, or heart fluttering.",
+        "topic": "Chest pain or breathlessness"
+      },
+      {
+        "answer": "No, I have not experienced any weakness on one side, numbness, facial drooping, or slurred speech.",
+        "topic": "Focal neurologic symptoms"
+      },
+      {
+        "answer": "I have had two episodes of kidney stones over the past two years, and passing them was excruciatingly painful.",
+        "topic": "Kidney stones"
+      },
+      {
+        "answer": "I have deep, dull aching in my bones, mostly in my forearms, lower legs, and hips, which has been bothering me for months.",
+        "topic": "Bone and joint aches"
+      },
+      {
+        "answer": "I have been terribly constipated for over a year, only going once every three or four days and feeling uncomfortably bloated.",
+        "topic": "Bowel habits and constipation"
+      },
+      {
+        "answer": "I frequently get a mild dull ache in the upper part of my stomach, though it never gets severe.",
+        "topic": "Abdominal discomfort"
+      },
+      {
+        "answer": "I've been feeling down, irritable, and mentally foggy for months, which is really out of character for me.",
+        "topic": "Mood and cognitive changes"
+      },
+      {
+        "answer": "No, I have not had any fevers, chills, drenching night sweats, or cough.",
+        "topic": "Fever chills and sweats"
+      },
+      {
+        "answer": "No, I haven't noticed any lumps or swellings in my neck, armpits, or anywhere else.",
+        "topic": "Lumps and swollen glands"
+      },
+      {
+        "answer": "My thighs feel somewhat weak when standing up from low chairs, but I haven't had muscle spasms or cramps.",
+        "topic": "Muscle weakness and cramps"
+      },
+      {
+        "answer": "No, I am not unusually sensitive to cold, and my skin and hair have seemed normal.",
+        "topic": "Cold sensitivity and thyroid"
+      },
+      {
+        "answer": "I was taking a water pill called chlorthalidone 25 milligrams daily for high blood pressure, but my doctor stopped it recently after the blood test.",
+        "topic": "Prescription medications"
+      },
+      {
+        "answer": "I do not take any calcium pills, vitamin D supplements, antacids, or herbal remedies.",
+        "topic": "Over-the-counter supplements"
+      },
+      {
+        "answer": "I eat fairly healthy meals, but I started drinking lots of tap water because I thought it would help flush out kidney stones.",
+        "topic": "Dietary habits and hydration"
+      },
+      {
+        "answer": "I try to walk around the park three times a week, but lately my fatigue makes it tough to keep up.",
+        "topic": "Exercise and daily activity"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Tobacco and smoking"
+      },
+      {
+        "answer": "I worked as a middle school teacher until I retired, so I was never exposed to chemical dust or asbestos.",
+        "topic": "Work and dust exposure"
+      },
+      {
+        "answer": "I might have a sip of wine once or twice a year during celebrations, but essentially I don't drink alcohol.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I have never fractured a bone, but a bone scan two years ago showed mild thinning called osteopenia.",
+        "topic": "Fractures and bone density"
+      },
+      {
+        "answer": "I reached menopause twelve years ago when I was fifty, and I have never used hormone replacement therapy.",
+        "topic": "Menopause and hormone therapy"
+      },
+      {
+        "answer": "No, I have never had tuberculosis and I have never been in close contact with anyone who had it.",
+        "topic": "Tuberculosis history"
+      },
+      {
+        "answer": "Aside from the recurrent kidney stones, osteopenia, and high blood pressure, I haven't had any chronic illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had shockwave treatment two years ago to break up a kidney stone, but I've never had major surgery or hospitalizations.",
+        "topic": "Past surgeries and admissions"
+      },
+      {
+        "answer": "I don't have any known allergies to drugs, foods, or materials.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "My parents had high blood pressure in their older years, but no one in my family had kidney stones, calcium issues, or endocrine tumors.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I live in an apartment with my husband, and my adult children live nearby.",
+        "topic": "Living situation"
+      },
+      {
+        "answer": "I was wondering if all the mineral-heavy tap water I drink caused the calcium buildup and my kidney stones.",
+        "topic": "Ideas about cause"
+      },
+      {
+        "answer": "Because my bones ache so much, I've been terrified that I have advanced osteoporosis or even bone cancer.",
+        "topic": "Fears and concerns"
+      },
+      {
+        "answer": "I really hope we can treat whatever is causing these stones and body aches so I can get my energy back.",
+        "topic": "Expectations for visit"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 138/84 mmHg, heart rate 70 beats/min, respiratory rate 14 breaths/min, body temperature 36.7 °C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, mildly fatigued female sitting comfortably in no acute distress; height 158 cm, weight 60 kg, BMI 24.0 kg/m².",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, supraclavicular, or axillary lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, smooth, non-tender, and without palpable nodules or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with normal respiratory effort and no wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, rubs, or carotid bruits.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat and symmetric without scars, distension, or visible pulsations.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normoactive to slightly hypoactive bowel sounds heard in all four quadrants; no abdominal bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Soft with mild tenderness on deep palpation in the epigastric region; no guarding or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No hepatomegaly or splenomegaly; liver edge is smooth and non-tender.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal thoracic and lumbar spinal curvature without kyphosis; no midline spine or paraspinal tenderness.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pretibial edema or calf swelling in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Radial, femoral, and dorsalis pedis pulses are 2+ and symmetric bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented to person, place, and time, with mildly sluggish psychomotor responses but intact concentration and memory.",
+        "maneuver": "mental_status",
+        "response": "none"
+      }
+    ]
+  }
+}

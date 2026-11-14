@@ -1,0 +1,325 @@
+{
+  "id": "allergy_022",
+  "system": "allergy & immunology",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Pyo",
+  "age": 34,
+  "gender": "female",
+  "chief_complaint": "sneezing, itchy runny nose, and watery eyes worsening every spring",
+  "hpi_details": "34F reports 3 years of severe sneezing, clear runny nose (rhinorrhea), nasal congestion, and intensely itchy, watery eyes that recur every spring. Symptoms are worst when spending time outdoors.",
+  "ideas": "thinks she has seasonal pollen allergy or hay fever",
+  "concerns": "bothered by constant sneezing and tiredness from over-the-counter pills",
+  "expectations": "wants nose sprays and stronger allergy medication",
+  "pmh": "Mild asthma",
+  "medications": "Albuterol PRN",
+  "social_hx": "Teacher, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Seasonal Allergic Rhinitis (Hay Fever) evaluation and management",
+    "core_concepts": [
+      "Allergic rhinitis is an IgE-mediated inflammatory response of the nasal mucosa to inhaled allergens, causing sneezing, clear rhinorrhea, nasal congestion, and itching.",
+      "Seasonal (hay fever) rhinitis is driven by outdoor aeroallergens such as tree, grass, or weed pollen and follows a predictable seasonal pattern, distinguishing it from perennial triggers like dust mite or pet dander.",
+      "Allergic conjunctivitis (itchy, watery eyes) frequently co-occurs because the conjunctiva shares the same allergen exposure and immune pathway as the nasal mucosa.",
+      "First-line therapy is a daily intranasal corticosteroid, often combined with a non-sedating second-generation oral antihistamine; allergen avoidance and environmental control support pharmacologic treatment."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sneezing, itchy runny nose, and watery eyes worsening every spring",
+      "Key HPI features: 34F reports 3 years of severe sneezing, clear runny nose (rhinorrhea), nasal congestion, and intensely itchy, watery eyes that recur every spring. Symptoms are worst when spending time outdoors.",
+      "Objective/Exam findings: Pale, boggy nasal turbinates with clear discharge; conjunctival injection with clear tearing. Lungs clear unless asthma is also active.",
+      "Relevant background/PMH: Mild asthma",
+      "Current medications: Albuterol PRN"
+    ],
+    "common_misconceptions": [
+      "Assuming daytime sleepiness is simply from poor sleep rather than a side effect of sedating first-generation antihistamines.",
+      "Treating allergic rhinitis with oral decongestants alone, which do not address the underlying itch or sneezing and carry cardiovascular risks with prolonged use.",
+      "Overlooking coexisting mild asthma when counseling on allergic rhinitis, even though the 'one airway' concept means treating both improves overall control.",
+      "Misattributing symptoms exclusively to perennial (dust mite/pet) allergic rhinitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Unilateral symptoms or nosebleeds (suggests a non-allergic cause)."
+    ],
+    "management_principles": [
+      "Recommend a daily intranasal corticosteroid spray (e.g., fluticasone) as first-line therapy.",
+      "Add a non-sedating oral antihistamine (e.g., cetirizine) for breakthrough sneezing, itching, or ocular symptoms.",
+      "Counsel on allergen avoidance measures and review whether comorbid mild asthma also needs step-up control.",
+      "Refer to Allergy/Immunology for skin or serum IgE testing if symptoms are refractory or the diagnosis is unclear."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Allergic Rhinitis and its Impact on Asthma (ARIA) Guidelines",
+        "url": "https://www.whiar.org/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "34F reports 3 years of severe sneezing, clear runny nose (rhinorrhea), nasal congestion, and intensely itchy, watery eyes that recur every spring. Symptoms are worst when spending time outdoors.",
+    "objective": "Pale, boggy nasal turbinates with clear discharge; conjunctival injection with clear tearing. Lungs clear, no wheeze today.",
+    "assessment": "Seasonal allergic rhinitis (hay fever), with mild comorbid asthma.",
+    "plan": "1. Start a daily intranasal corticosteroid spray (fluticasone). 2. Add a non-sedating oral antihistamine (cetirizine) for breakthrough symptoms. 3. Counsel on pollen avoidance measures (keep windows closed, shower after outdoor exposure). 4. Refer to Allergy/Immunology for skin testing if symptoms remain refractory."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of seasonal allergic rhinitis (pollinosis).",
+    "Formulate a prioritized differential diagnosis for sneezing, itchy runny nose, and watery eyes worsening every spring",
+    "Select appropriate testing (e.g., allergen skin/IgE testing) for suspected seasonal allergic rhinitis",
+    "Implement evidence-based acute and long-term management strategies for seasonal allergic rhinitis."
+  ],
+  "teaching": {
+    "diagnosis": "Seasonal Allergic Rhinitis (Hay Fever)",
+    "one_liner": "An IgE-mediated reaction to seasonal pollen causing sneezing, clear rhinorrhea, congestion, and itchy watery eyes each spring.",
+    "differentials": [
+      "Perennial (dust mite/pet) allergic rhinitis",
+      "Non-allergic (vasomotor) rhinitis",
+      "Viral upper respiratory infection"
+    ],
+    "red_flags": [
+      "Unilateral symptoms or nosebleeds (suggests a non-allergic cause)"
+    ],
+    "must_ask": [
+      {
+        "objective": "Seasonal pattern",
+        "say": "Does this happen every year at the same time, like spring?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "every year",
+          "spring",
+          "season"
+        ]
+      },
+      {
+        "objective": "Nasal and eye symptoms",
+        "say": "Do you get a runny nose, sneezing, and itchy, watery eyes together?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sneezing",
+          "itchy eyes",
+          "watery"
+        ]
+      },
+      {
+        "objective": "Outdoor trigger",
+        "say": "Are your symptoms worse when you're outdoors?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "outdoor",
+          "outside",
+          "worse"
+        ]
+      },
+      {
+        "objective": "Background asthma",
+        "say": "Do you also have asthma or wheezing?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "asthma"
+        ]
+      },
+      {
+        "objective": "Current treatment and its effect",
+        "say": "What have you tried so far, and how well has it worked?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "antihistamine",
+          "spray",
+          "tried"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "Every spring, I suffer from severe sneezing, an itchy runny nose, and watery eyes that just keep getting worse.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "This flare-up started about two weeks ago when the weather warmed up, but I have had this exact same problem every spring for the past three years.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "The symptoms have been constant and slowly worsening over the past two weeks, without any breaks or sudden worsening.",
+        "topic": "Course and progression"
+      },
+      {
+        "answer": "The discharge from my nose is completely clear and watery, never thick, yellow, green, or foul-smelling.",
+        "topic": "Nasal discharge characteristics"
+      },
+      {
+        "answer": "Both sides of my nose are blocked up, though sometimes one side feels stuffier than the other when I lie down.",
+        "topic": "Laterality and nasal congestion"
+      },
+      {
+        "answer": "No, I haven't had any bloody nose, blood in the mucus, or any numbness in my cheeks or face.",
+        "topic": "Nosebleeds and facial numbness"
+      },
+      {
+        "answer": "Yes, I sneeze repeatedly in bursts, my nose and palate itch intensely, and my eyes are red, watery, and constantly itchy.",
+        "topic": "Sneezing and itchy eyes"
+      },
+      {
+        "answer": "It is definitely worse outdoors around trees and pollen, especially on breezy mornings.",
+        "topic": "Triggers and timing"
+      },
+      {
+        "answer": "No, I do not have any aching or heaviness in my forehead or cheeks, and bending forward doesn't make it hurt.",
+        "topic": "Facial pain and pressure"
+      },
+      {
+        "answer": "My nose is so clogged up that I can't smell things as well as usual, but it is not completely gone.",
+        "topic": "Sense of smell"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or body aches.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, my eyesight is completely normal, I don't see double, and I haven't had severe headaches or eye swelling.",
+        "topic": "Vision changes and headache"
+      },
+      {
+        "answer": "I have to breathe through my mouth at night because of the stuffiness, but I don't snore loudly or gasp for air.",
+        "topic": "Sleep and snoring"
+      },
+      {
+        "answer": "I feel some fluid trickling down the back of my throat making me clear it, but I haven't had a bad cough or chest wheezing.",
+        "topic": "Postnasal drip and cough"
+      },
+      {
+        "answer": "No, I have never tried any over-the-counter nasal decongestant sprays or nose drops.",
+        "topic": "Nasal decongestant spray use"
+      },
+      {
+        "answer": "I have mild asthma, but taking pain relievers like aspirin or ibuprofen has never caused breathing trouble or stuffed up my nose.",
+        "topic": "Asthma and aspirin sensitivity"
+      },
+      {
+        "answer": "No, I have never injured my nose or head, and I've never had any nose or sinus surgery.",
+        "topic": "Nasal trauma and surgery"
+      },
+      {
+        "answer": "No, I haven't had any tooth pain, tooth infections, or recent dental work.",
+        "topic": "Recent dental problems"
+      },
+      {
+        "answer": "Other than my mild asthma, I've never had eczema, but my mother has had bad seasonal allergies for years.",
+        "topic": "History of atopic diseases"
+      },
+      {
+        "answer": "I tried taking over-the-counter allergy pills, but they barely help and make me feel terribly drowsy and sluggish all day.",
+        "topic": "Current allergy treatment response"
+      },
+      {
+        "answer": "I think it's seasonal hay fever from pollen, and I'm really troubled by how tired the allergy pills make me while I'm trying to teach.",
+        "topic": "Patient thoughts and concerns"
+      },
+      {
+        "answer": "I'm hoping to get a prescription nasal spray and a stronger allergy medicine that won't make me sleepy.",
+        "topic": "Expectations for today's visit"
+      },
+      {
+        "answer": "I was diagnosed with mild asthma back in college, but I don't have any other chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my wisdom teeth taken out ten years ago, but I've never had any major surgery or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I use an albuterol inhaler once in a while when my chest feels tight, and lately I've taken over-the-counter allergy tablets.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications that I know of.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used electronic cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional glass of wine when dining out, maybe once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I teach at a local school, and I live in a clean apartment with no pets, carpeting, or water leaks.",
+        "topic": "Occupation and home environment"
+      },
+      {
+        "answer": "My mother suffers from seasonal allergies, and my father has high blood pressure.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last period started two weeks ago, and my cycles come regularly every 28 days.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "My husband and I use condoms every time.",
+        "topic": "Contraceptive method"
+      },
+      {
+        "answer": "No, there is no chance that I am pregnant.",
+        "topic": "Possibility of pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 118/76 mmHg, pulse 72 beats per minute, respiratory rate 14 breaths per minute, temperature 36.6°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral conjunctival injection and watery tearing without purulent discharge or scleral icterus.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No periorbital swelling, extraocular movements are full and conjugate without pain or diplopia, and visual acuity is intact.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral pale, boggy inferior turbinates with profuse clear watery discharge; nasal septum is midline without polyps, and posterior pharynx is clear without cobblestoning or tonsillar enlargement.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness upon palpation or percussion over the frontal and maxillary sinuses bilaterally.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally with good air entry and no wheezes, crackles, or rhonchi today.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable anterior or posterior cervical lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      }
+    ]
+  }
+}

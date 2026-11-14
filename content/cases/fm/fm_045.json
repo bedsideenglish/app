@@ -1,0 +1,301 @@
+{
+  "id": "fm_045",
+  "system": "fm",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Scott",
+  "age": 77,
+  "gender": "male",
+  "chief_complaint": "difficulty sleeping for 6 months, using OTC sleep aids",
+  "hpi_details": "A 77-year-old male presents to the clinic with difficulty sleeping for 6 months, using otc sleep aids. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks his sleep rhythm was ruined after he started sitting up late into the night watching television.",
+  "concerns": "He is worried that taking drugstore sleeping pills makes him stumble in the dark and puts him at risk of falling and breaking a hip.",
+  "expectations": "He hopes the doctor can prescribe a safer, non-habit-forming sleep aid or give him advice on how to fall asleep naturally.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Chronic Insomnia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Chronic Insomnia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes referral for CBT-I (stimulus control, sleep restriction) with sleep logs as first-line treatment; in an older adult, chronic use of anticholinergic OTC sleep aids (e.g., diphenhydramine) should be identified and tapered given fall and delirium risk, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: difficulty sleeping for 6 months, using OTC sleep aids",
+      "Key HPI features: A 77-year-old male presents to the clinic with difficulty sleeping for 6 months, using otc sleep aids. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Normal vital signs, no daytime hypersomnolence observed, no focal neurological findings.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Chronic Insomnia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Depression-related insomnia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Loud snoring, witnessed apneas, or excessive daytime sleepiness — suggests obstructive sleep apnea requiring a sleep study."
+    ],
+    "management_principles": [
+      "Refer for CBT-I (stimulus control, sleep restriction) with sleep logs as first-line treatment; identify and taper chronic OTC antihistamine sleep aid use given fall/delirium risk in an older adult",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of difficulty sleeping for 6 months, using OTC sleep aids. HPI: Six months of difficulty falling and staying asleep, using OTC sleep aids nightly with limited relief, no witnessed apneas or loud snoring reported.",
+    "objective": "Normal vital signs, no daytime hypersomnolence observed, no focal neurological findings.",
+    "assessment": "Chronic insomnia disorder; screen for obstructive sleep apnea, depression, and restless legs syndrome as contributing causes before attributing to primary insomnia.",
+    "plan": "Refer for CBT-I (stimulus control, sleep restriction) with sleep logs as first-line treatment. Identify and counsel on tapering chronic OTC antihistamine sleep aid use given fall and anticholinergic risk in an older adult. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Chronic Insomnia CBT",
+    "Select appropriate diagnostic workup for Chronic Insomnia CBT",
+    "Implement evidence-based management plan: CBT-I referral (stimulus control, sleep restriction), sleep logs"
+  ],
+  "teaching": {
+    "diagnosis": "Chronic Insomnia",
+    "one_liner": "Six months of sleep difficulty despite OTC sleep aids, best treated with CBT-I (cognitive behavioral therapy for insomnia) rather than long-term sedatives.",
+    "differentials": [
+      "Depression-related insomnia",
+      "Sleep apnea",
+      "Anxiety disorder"
+    ],
+    "red_flags": [
+      "Loud snoring, witnessed apneas, or excessive daytime sleepiness — suggests obstructive sleep apnea requiring a sleep study",
+      "Suicidal ideation or significant depressive symptoms — needs psychiatric evaluation",
+      "Restless, uncomfortable leg sensations relieved by movement — suggests restless legs syndrome, a different treatable cause of insomnia",
+      "Chronic nightly use of anticholinergic OTC sleep aids (e.g., diphenhydramine) in an older adult — raises fall, confusion, and delirium risk and should be tapered"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sleep pattern",
+        "say": "How long does it take you to fall asleep, and do you wake up during the night?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many months has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Current sleep aids",
+        "say": "What over-the-counter sleep aids have you tried?",
+        "domains": [
+          "medications"
+        ]
+      },
+      {
+        "objective": "Sleep hygiene",
+        "say": "What does your bedtime routine and bedroom environment look like?",
+        "domains": [
+          "pmh"
+        ]
+      },
+      {
+        "objective": "Mood and stress",
+        "say": "How has your mood or stress level been?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I've been having terrible trouble sleeping for the past six months, and even the over-the-counter sleep medicine isn't really helping anymore.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It takes me hours to fall asleep, and once I finally do, I wake up three or four times during the night and toss and turn.",
+        "topic": "Sleep pattern"
+      },
+      {
+        "answer": "It started about six months ago, and it happens almost every single night, at least five or six nights a week.",
+        "topic": "Onset and duration"
+      },
+      {
+        "answer": "There wasn't any specific event or sudden stress that started it; it just gradually became harder and harder to sleep.",
+        "topic": "Precipitating triggers"
+      },
+      {
+        "answer": "I get into bed around 10:30 PM, but I toss and turn for one to two hours before falling asleep, and I get up at 6:30 AM every day.",
+        "topic": "Sleep schedule and latency"
+      },
+      {
+        "answer": "I feel washed out and fatigued during the daytime, but I don't actually doze off while reading, watching television, or driving.",
+        "topic": "Daytime fatigue and sleepiness"
+      },
+      {
+        "answer": "I don't take naps during the day, but I do watch television in bed and constantly check the alarm clock when I can't sleep.",
+        "topic": "Bedtime habits and sleep hygiene"
+      },
+      {
+        "answer": "Yes, once evening comes around, I start dreading bedtime because I worry about tossing and turning all night.",
+        "topic": "Anxiety about sleeping"
+      },
+      {
+        "answer": "I have one cup of coffee in the morning and none after lunch, I don't smoke, and I don't drink alcohol to fall asleep.",
+        "topic": "Caffeine, alcohol, and tobacco"
+      },
+      {
+        "answer": "My wife says I don't snore loudly and have never stopped breathing in my sleep, and I don't wake up with headaches.",
+        "topic": "Snoring and witnessed apneas"
+      },
+      {
+        "answer": "No, my legs feel totally fine at night, with no crawling sensations or urge to move them.",
+        "topic": "Restless legs symptoms"
+      },
+      {
+        "answer": "No, I'm retired, so I keep a very regular daily schedule and don't do any shift work.",
+        "topic": "Shift work and schedule changes"
+      },
+      {
+        "answer": "My mood is generally fine, and I still enjoy tending to my garden and spending time with my grandchildren.",
+        "topic": "Depressed mood and interest"
+      },
+      {
+        "answer": "No, absolutely not, I have never had any thoughts of harming myself or ending my life.",
+        "topic": "Suicidal ideation"
+      },
+      {
+        "answer": "No, I have never had periods where I stayed awake for days feeling unusually energetic or hyperactive.",
+        "topic": "Manic symptoms"
+      },
+      {
+        "answer": "I don't have chronic pain, heartburn, shortness of breath, or palpitations, and I only get up once a night to urinate.",
+        "topic": "Physical and nocturnal symptoms"
+      },
+      {
+        "answer": "I've been taking an over-the-counter sleep aid with diphenhydramine every night for four months, but it just leaves me groggy the next morning.",
+        "topic": "Over the counter sleep aids"
+      },
+      {
+        "answer": "Our bedroom is dark, quiet, and cool, and my wife sleeps beside me without disturbing me.",
+        "topic": "Bedroom environment"
+      },
+      {
+        "answer": "I think ever since I started sitting up watching the TV late into the night, it just wrecked my internal clock.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm scared that waking up groggy from those drugstore pills will cause me to trip in the dark, break a hip, and lose my independence.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping you could recommend a safe prescription that won't make me dizzy, or show me how to reset my sleep without popping pills.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I've been fortunate to have good health, with no high blood pressure, diabetes, heart disease, or thyroid issues.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any major surgeries, and I've never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I don't take any prescription medications at all, just that over-the-counter nighttime sleep aid.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or materials.",
+        "topic": "Drug and food allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might have a single glass of beer socially once or twice a month, but that is all.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I am a retired school administrator, and I live comfortably at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no history of sleep disorders, depression, or psychiatric illness in my family.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Elderly gentleman who is alert, neatly groomed, appears well-rested without daytime drowsiness, and is in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 124/76 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, temperature 36.6 C, SpO2 98% on room air, BMI 23.4 kg/m2, and normal neck circumference.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, fully oriented, with a calm mood, congruent affect, and no signs of psychomotor agitation or overt anxiety.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Posterior oropharynx is clear without mucosal lesions, tonsils are not enlarged, and the airway is open with Mallampati class II.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size, non-tender, with no palpable nodules, thyromegaly, or bruits.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2 sounds, and no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields with no wheezes, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact with symmetric facial expressions and normal extraocular movements.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone with 5/5 strength throughout all four extremities.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Steady, narrow-based gait with normal arm swing, intact finger-to-nose testing, and a negative Romberg test.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

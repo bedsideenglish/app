@@ -1,0 +1,311 @@
+{
+  "id": "allergy_018",
+  "system": "allergy_immunology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Baby Oliver",
+  "age": 0.8,
+  "gender": "male",
+  "chief_complaint": "recurrent ear infections and severe pneumonias since turning 6 months old",
+  "hpi_details": "10-month-old male presenting with his fourth episode of Streptococcus pneumoniae pneumonia and chronic otitis media. The mother notes he was completely healthy until about 6 months of age, at which point he started getting sick constantly. He has two healthy older sisters, but a maternal uncle died of severe pneumonia in infancy.",
+  "ideas": "mother thinks his immune system is just immature",
+  "concerns": "worried he will end up like her brother who passed away",
+  "expectations": "wants strong antibiotics and tests for his immune system",
+  "pmh": "Recurrent otitis media, recurrent pneumonia",
+  "medications": "Amoxicillin-Clavulanate (currently taking)",
+  "social_hx": "Lives with parents and sisters",
+  "investigation_events": [{
+    "id": "immunoglobulins_and_b_cells", "title": "Quantitative immunoglobulins and B-cell count",
+    "order_terms": ["quantitative immunoglobulins", "immunoglobulin levels", "igg level", "b cell count", "cd19", "flow cytometry"],
+    "availability_message": "The immunoglobulin levels and B-cell count are now available.",
+    "results": [
+      {"id": "serum_igg", "test": "IgG", "value": "85", "unit": "mg/dL", "reference_range": "300-1,000 (age-adjusted)", "flag": "critical", "specimen": "Blood", "collected_at": "Initial sample"},
+      {"id": "serum_iga", "test": "IgA", "value": "<5", "unit": "mg/dL", "reference_range": "10-50 (age-adjusted)", "flag": "critical", "specimen": "Blood", "collected_at": "Initial sample"},
+      {"id": "serum_igm", "test": "IgM", "value": "8", "unit": "mg/dL", "reference_range": "20-100 (age-adjusted)", "flag": "critical", "specimen": "Blood", "collected_at": "Initial sample"},
+      {"id": "cd19_b_cells", "test": "CD19+ B cells", "value": "<1% (4 cells/uL)", "reference_range": "11-45% (600-3,000 cells/uL, age-adjusted)", "flag": "critical", "specimen": "Blood", "collected_at": "Initial sample"}
+    ]
+  }],
+  "clinical_knowledge": {
+    "topic": "X-linked Agammaglobulinemia (XLA)",
+    "core_concepts": [
+      "XLA is caused by a BTK gene mutation leading to failure of B-cell maturation, very low or absent circulating B cells, and markedly reduced immunoglobulins (IgG, IgA, IgM, IgE).",
+      "Infants are protected by maternal IgG for the first ~6 months, leading to a classic presentation of recurrent encapsulated bacterial infections starting between 6-9 months of age.",
+      "Mainly affects males (X-linked).",
+      "Treatment involves lifelong Intravenous/Subcutaneous Immunoglobulin (IVIG/SCIG) replacement."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: recurrent ear infections and severe pneumonias since turning 6 months old",
+      "Key HPI features: Male infant, asymptomatic first 6 months, then recurrent sinopulmonary bacterial infections. Maternal family history of early male infant death.",
+      "Objective/Exam findings: Absent or very small tonsils and lymph nodes.",
+      "Relevant background/PMH: Recurrent sinopulmonary infections",
+      "Current medications: Antibiotics"
+    ],
+    "common_misconceptions": [
+      "Confusing XLA with SCID; XLA patients have normal T-cell function and combat viral/fungal infections normally (except enteroviruses).",
+      "Assuming recurrent ear infections in a baby are always just normal daycare exposures."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize the X-linked inheritance pattern and offer genetic counseling and carrier testing to at-risk relatives.",
+      "Administering live polio vaccine (though rare now) which can cause vaccine-associated paralytic poliomyelitis in XLA."
+    ],
+    "management_principles": [
+      "Aggressive antibiotic therapy for acute infections.",
+      "Initiate lifelong IVIG or SCIG replacement therapy.",
+      "Avoid live enteroviral vaccines (especially oral polio vaccine); obtain immunology guidance for vaccination planning."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "MedlinePlus Genetics: X-Linked Agammaglobulinemia",
+        "url": "https://medlineplus.gov/genetics/condition/x-linked-agammaglobulinemia/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "10-month-old male presenting with 4th pneumonia. Healthy until 6 months of age. Maternal uncle died of pneumonia in infancy.",
+    "objective": "Fever 39.0C. Diminished breath sounds right lower lobe. Absent tonsils and cervical lymph nodes on exam.",
+    "assessment": "X-linked Agammaglobulinemia (XLA) highly suspected.",
+    "plan": "1. Treat acute pneumonia with IV Ceftriaxone. 2. Quantitative immunoglobulins (IgG, IgA, IgM, IgE) and flow cytometry for B-cell count (CD19+). 3. Refer to Pediatric Immunology for lifelong IVIG therapy initiation and genetic testing for BTK mutation."
+  },
+  "learning_objectives": [
+    "Identify the classic 6-month onset window for XLA due to waning maternal IgG",
+    "Recognize the X-linked inheritance pattern (maternal male relatives affected)",
+    "Understand that B-cells and immunoglobulins are completely absent, requiring IVIG"
+  ],
+  "teaching": {
+    "diagnosis": "X-linked Agammaglobulinemia (XLA)",
+    "one_liner": "A genetic defect in males preventing B-cell development, leading to severe bacterial infections that start at 6 months when maternal antibodies fade.",
+    "differentials": [
+      "Transient hypogammaglobulinemia of infancy",
+      "Common Variable Immunodeficiency (usually presents later in life)",
+      "Severe Combined Immunodeficiency (SCID)"
+    ],
+    "red_flags": [
+      "Recurrent pneumonias requiring IV antibiotics",
+      "Family history of infant male deaths from infection"
+    ],
+    "must_ask": [
+      {
+        "objective": "Pinpoint the onset of susceptibility",
+        "say": "Was he completely healthy for the first few months of his life?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "first",
+          "months",
+          "healthy",
+          "birth",
+          "six"
+        ]
+      },
+      {
+        "objective": "Determine family history indicating X-linked trait",
+        "say": "Are there any males on the mother's side of the family who had severe infections or died young?",
+        "domains": [
+          "pmh",
+          "family_hx"
+        ],
+        "keywords": [
+          "mother",
+          "uncle",
+          "brother",
+          "males",
+          "died"
+        ]
+      },
+      {
+        "objective": "Identify the type of infections",
+        "say": "What kind of infections does he mostly get? Are they mainly ear, sinus, and lung infections?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "ear",
+          "sinus",
+          "lung",
+          "pneumonia"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "90/55",
+      "hr": 146,
+      "rr": 46,
+      "spo2": 95,
+      "temp_c": 39
+    },
+    "history": [
+      {
+        "answer": "My 10-month-old son has been suffering from back-to-back ear infections and lung infections, and now his high fever and chest cough have returned.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "His current fever and wet cough began two days ago, but his repeated infections started right around six months of age.",
+        "topic": "Onset and timing"
+      },
+      {
+        "answer": "The chest congestion is deep in his lungs, and he constantly rubs and pulls at his right ear.",
+        "topic": "Location of symptoms"
+      },
+      {
+        "answer": "He has a heavy, rattling cough and fast breathing, and he cries frequently because his ear seems to hurt.",
+        "topic": "Severity and character"
+      },
+      {
+        "answer": "This is his fourth episode of pneumonia in four months, and his middle ear fluid never seems to clear up completely.",
+        "topic": "Course and frequency"
+      },
+      {
+        "answer": "His coughing worsens whenever he lies down flat, and fever medicines only lower his temperature for about an hour or two.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "He has a thick yellowish nasal discharge and decreased appetite, but he has had no vomiting, diarrhea, or skin rashes.",
+        "topic": "Associated symptoms"
+      },
+      {
+        "answer": "His temperature reached 39 degrees Celsius today and his breathing is rapid, but he is still drinking small sips and waking up.",
+        "topic": "Red flag symptoms"
+      },
+      {
+        "answer": "He was hospitalized three times previously for severe pneumonia and required intravenous antibiotics each time.",
+        "topic": "Prior episodes and hospitalizations"
+      },
+      {
+        "answer": "Our pediatrician started him on oral amoxicillin-clavulanate three days ago, but his fever and coughing have only gotten worse.",
+        "topic": "Treatments tried and response"
+      },
+      {
+        "answer": "He stays home with me every day, has had no contact with sick individuals, and has not traveled anywhere.",
+        "topic": "Triggers and exposures"
+      },
+      {
+        "answer": "He cannot sleep through the night because the coughing keeps waking him up, and he refuses all solid baby food.",
+        "topic": "Impact on daily life"
+      },
+      {
+        "answer": "He was completely healthy and never caught a single illness during his first six months, but since turning six months old he has been sick nonstop.",
+        "topic": "Onset of susceptibility"
+      },
+      {
+        "answer": "Every serious illness has been in his lungs or his ears; he has never had persistent oral thrush, unusual skin boils, or chronic diarrhea.",
+        "topic": "Types of infections"
+      },
+      {
+        "answer": "I was hoping his immune system was simply immature and needed a little more time to catch up.",
+        "topic": "Parent's ideas"
+      },
+      {
+        "answer": "I am terrified that he has the same condition that caused my baby brother to die of a severe lung infection in infancy.",
+        "topic": "Parent's concerns"
+      },
+      {
+        "answer": "I want his immune system thoroughly tested and hope he can receive stronger antibiotics to get him through this safely.",
+        "topic": "Parent's expectations"
+      },
+      {
+        "answer": "Aside from recurrent otitis media and recurrent pneumonias starting at six months old, he has no other chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never undergone any surgical procedures.",
+        "topic": "Past surgeries"
+      },
+      {
+        "answer": "He is currently taking amoxicillin-clavulanate oral suspension twice daily, as well as infant acetaminophen syrup for fever.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known allergies to medications, foods, or environmental triggers.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "My two older daughters are completely healthy, but my younger brother died of a severe lung infection when he was an infant.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "He lives in an apartment with my husband, our two older daughters, and me; no one smokes in our household.",
+        "topic": "Living situation"
+      },
+      {
+        "answer": "He was born at 39 weeks by an uncomplicated vaginal delivery, weighing 3.4 kilograms.",
+        "topic": "Birth history"
+      },
+      {
+        "answer": "He has been growing steadily along the 50th percentile, sits up without support, and babbles normally.",
+        "topic": "Growth and development"
+      },
+      {
+        "answer": "He has received all routine childhood vaccinations on schedule, including his pneumococcal shots, with no adverse reactions.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "He does not attend daycare and stays home with me, so he has not been exposed to sick children.",
+        "topic": "Daycare and sick contacts"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Temperature 39.0°C, heart rate 146 bpm, respiratory rate 46 breaths/min, blood pressure 90/55 mmHg, oxygen saturation 95% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Irritable, flushed male infant in mild respiratory distress with mild subcostal retractions and nasal flaring, resting in his mother's arms.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Right tympanic membrane is erythematous, cloudy, and bulging with decreased mobility; left tympanic membrane is dull without perforation.",
+        "maneuver": "ear_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Mucopurulent secretions in anterior nares; oral pharynx mildly injected; palatine tonsils are notably absent on inspection.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical or submandibular lymphadenopathy; lymphoid tissue in anterior and posterior cervical chains is noticeably absent.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Diminished breath sounds and coarse inspiratory crackles over the right lower lung base; no wheezing or stridor.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic, regular rhythm; normal S1 and S2 with no audible heart murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender to light and deep palpation without guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Liver edge is smooth and palpable 1 cm below the right costal margin; spleen is not palpable.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Warm and flushed skin without petechiae, purpura, eczema, or active cutaneous abscesses.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Length and body weight track along the 50th percentile; age-appropriate gross motor milestones and social interactions noted.",
+        "maneuver": "developmental_growth",
+        "response": "none"
+      }
+    ]
+  }
+}

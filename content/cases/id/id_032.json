@@ -1,0 +1,342 @@
+{
+  "id": "id_032",
+  "system": "id",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Wright",
+  "age": 38,
+  "gender": "female",
+  "chief_complaint": "fever, cough with yellow sputum, and focal lung crackles",
+  "hpi_details": "A 38-year-old female presents to the clinic with fever, cough with yellow sputum, and focal lung crackles. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks a nasty head cold she caught from her coworker traveled into her chest and turned into severe acute bronchitis.",
+  "concerns": "She is worried that she will be admitted to the hospital, leaving nobody to care for her two young children as a single mother.",
+  "expectations": "She hopes to receive a chest X-ray and a prescription for oral antibiotics so she can recover safely at home.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "urgent_pneumonia_workup",
+      "title": "Urgent pneumonia results",
+      "order_terms": [
+        "chest x ray",
+        "chest x-ray",
+        "chest radiograph",
+        "cxr",
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count"
+      ],
+      "availability_message": "The urgent chest radiograph and blood count are now available.",
+      "results": [
+        {
+          "id": "chest_xray",
+          "test": "Chest radiograph",
+          "value": "Focal right lower-lobe air-space consolidation with air bronchograms; no pleural effusion",
+          "flag": "abnormal",
+          "collected_at": "During urgent assessment"
+        },
+        {
+          "id": "white_blood_cell_count",
+          "test": "White blood cell count",
+          "value": "14.2",
+          "unit": "x10^3/mcL",
+          "reference_range": "4.0-11.0",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Community-Acquired Pneumonia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Community-Acquired Pneumonia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Community-Acquired Pneumonia: Oral Amoxicillin 1g TID or Doxycycline for 5 days, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: fever, cough with yellow sputum, and focal lung crackles",
+      "Key HPI features: A 38-year-old female presents to the clinic with fever, cough with yellow sputum, and focal lung crackles. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Vitals: Temp 38.5C, HR 102, RR 20, BP 122/78, SpO2 95% on room air. Focal inspiratory crackles and dullness to percussion over the right lower lung field. Chest X-ray shows right lower lobe consolidation. WBC 14,200/uL with left shift.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Community-Acquired Pneumonia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Bronchitis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe breathlessness or confusion."
+    ],
+    "management_principles": [
+      "Plan for Community-Acquired Pneumonia: Oral Amoxicillin 1g TID or Doxycycline for 5 days",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: fever, cough with yellow sputum, and focal lung crackles\n\nA 38-year-old female presents to the clinic with fever, cough with yellow sputum, and focal lung crackles. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+    "objective": "Vitals: Temp 38.5C, HR 102, RR 20, BP 122/78, SpO2 95% on room air. Focal inspiratory crackles and dullness to percussion over the right lower lung field. Chest X-ray shows right lower lobe consolidation. WBC 14,200/uL with left shift.",
+    "assessment": "Community-Acquired Pneumonia, right lower lobe; low-risk by CURB-65, appropriate for outpatient management.",
+    "plan": "Plan for Community-Acquired Pneumonia: Oral Amoxicillin 1g TID or Doxycycline for 5 days. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Community-Acquired Pneumonia",
+    "Select appropriate diagnostic workup for Community-Acquired Pneumonia",
+    "Implement evidence-based management plan: Oral Amoxicillin 1g TID or Doxycycline for 5 days"
+  ],
+  "teaching": {
+    "diagnosis": "Community-Acquired Pneumonia",
+    "one_liner": "A bacterial lung infection causing fever, productive cough with colored sputum, and focal crackles on exam.",
+    "differentials": [
+      "Bronchitis",
+      "Influenza"
+    ],
+    "red_flags": [
+      "Severe breathlessness or confusion"
+    ],
+    "must_ask": [
+      {
+        "objective": "Sputum character",
+        "say": "What color is the sputum you're coughing up?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Breathlessness",
+        "say": "Are you short of breath?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long have you had this cough?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Chest pain",
+        "say": "Any chest pain, especially with breathing?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "122/78",
+      "hr": 102,
+      "rr": 20,
+      "spo2": 95,
+      "temp_c": 38.5
+    },
+    "history": [
+      {
+        "answer": "I have had a high fever and a bad cough with thick yellow phlegm for the past three days, and I feel completely exhausted.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever started about three days ago and has been gradually getting worse each day.",
+        "topic": "Onset and duration of fever"
+      },
+      {
+        "answer": "The highest reading was 38.5 degrees Celsius on my digital thermometer yesterday. The fever is constant throughout the day and comes with severe shaking chills.",
+        "topic": "Fever pattern and chills"
+      },
+      {
+        "answer": "I took acetaminophen yesterday evening. It brought the fever down slightly for a couple of hours, but then it spiked right back up.",
+        "topic": "Antipyretic response"
+      },
+      {
+        "answer": "I've been coughing frequently and bringing up thick, yellowish-green mucus, especially in the mornings.",
+        "topic": "Cough and sputum character"
+      },
+      {
+        "answer": "I feel slightly out of breath when I walk across the room or cough repeatedly, but I am not gasping for air when resting.",
+        "topic": "Shortness of breath"
+      },
+      {
+        "answer": "I feel a sharp, catching pain on the lower right side of my chest whenever I take a deep breath or cough hard.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "No, I don't have a sore throat, runny nose, or stuffy nose.",
+        "topic": "Upper respiratory symptoms"
+      },
+      {
+        "answer": "No burning when I urinate, no frequent urination, and no flank or back pain.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No nausea, vomiting, stomach cramps, or diarrhea.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "I have a mild, generalized headache from the fever, but my neck is not stiff and my thoughts are completely clear.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No skin rashes, insect bites, black scabs, or joint swelling and pain.",
+        "topic": "Rash and joint symptoms"
+      },
+      {
+        "answer": "I sweat a lot when the fever temporarily dips, but I haven't had chronic drenching night sweats or any weight loss.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "No, I haven't noticed any lumps or swelling in my neck, armpits, or groin.",
+        "topic": "Lymph node swelling"
+      },
+      {
+        "answer": "I haven't traveled outside the country recently, haven't gone hiking or done farm work, and don't have contact with animals.",
+        "topic": "Travel and outdoor exposure"
+      },
+      {
+        "answer": "No one at my home or in my office has been sick with a cough or fever recently.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I have never had cancer, never received chemotherapy, and don't take steroids or immunosuppressants.",
+        "topic": "Immunosuppressive conditions"
+      },
+      {
+        "answer": "No heart conditions, artificial heart valves, or recent dental cleanings or procedures.",
+        "topic": "Heart disease and dental history"
+      },
+      {
+        "answer": "No, I haven't started any new prescription medications recently.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "I am married and only sexually active with my husband, and I have never used intravenous or recreational drugs.",
+        "topic": "Sexual and substance history"
+      },
+      {
+        "answer": "I have always been healthy with no history of asthma, diabetes, hypertension, or other chronic illnesses.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been hospitalized.",
+        "topic": "Surgical and hospital history"
+      },
+      {
+        "answer": "I don't take any regular prescription medications, vitamins, or herbal supplements, just the over-the-counter acetaminophen yesterday.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medications, foods, or seasonal allergens.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional glass of wine at social dinners, maybe once or twice a month.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work in an office as an accountant and live with my husband in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both my parents and my older brother are alive and healthy with no history of chronic lung disease.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last period started two weeks ago, my cycles are regular every 28 days, we use barrier contraception, and there is no chance I am pregnant.",
+        "topic": "Menstrual and pregnancy history"
+      },
+      {
+        "answer": "I thought maybe that bad cold going around my office just settled in my chest and turned into severe bronchitis. I'm really worried that I'll have to be admitted to the hospital when there's nobody else at home to look after my two young kids.",
+        "topic": "Patient ideas and concerns"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 122/78 mmHg, heart rate 102 beats per minute, respiratory rate 20 breaths per minute, temperature 38.5°C, oxygen saturation 95% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Pharyngeal mucosa is normal and pink without erythema, exudate, or tonsillar swelling.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral tympanic membranes are intact, translucent, and pearly gray without erythema or effusion.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical, submental, or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Dullness to percussion over the right lower lung field; resonant over all other lung zones.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Focal inspiratory crackles over the right lower lung base; clear breath sounds bilaterally in upper and mid lung fields.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardia with regular rhythm; normal S1 and S2 with no murmurs, rubs, or gallops heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender without guarding, rebound tenderness, or organomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Warm and dry skin with no petechiae, rashes, purpura, or eschar.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with full passive flexion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

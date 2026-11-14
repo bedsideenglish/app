@@ -1,0 +1,331 @@
+{
+  "id": "peds_019",
+  "system": "pediatrics",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Miller",
+  "age": 3,
+  "gender": "male",
+  "chief_complaint": "sudden choking and coughing fit while eating peanuts followed by persistent unilateral wheezing and unequal breath sounds",
+  "hpi_details": "3-year-old boy presenting after choking episode with decreased breath sounds over right hemithorax where inspiratory and expiratory chest radiographs reveal air trapping and hyperinflation of the right lung due to peanut obstruction requiring urgent rigid bronchoscopy.",
+  "ideas": "He thinks a piece of the peanut went down the wrong pipe and got lodged in his breathing tube.",
+  "concerns": "He is worried his son's airway will swell shut and he will suffocate in his sleep.",
+  "expectations": "He hopes the doctor can look inside his throat and safely remove the piece of peanut today.",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Pediatric age-appropriate social history",
+  "available_results": [{"id": "prior_inspiratory_expiratory_chest_radiographs", "test": "Inspiratory and expiratory chest radiographs", "value": "Persistent right-lung hyperinflation and air trapping on expiration with leftward mediastinal shift; no radiopaque foreign body", "flag": "critical", "collected_at": "Before today's encounter"}],
+  "clinical_knowledge": {
+    "topic": "Pediatric foreign body aspiration (peanut) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Pediatric foreign body aspiration (peanut) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Pediatric Foreign Body Aspiration Rigid Bronchoscopy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden choking and coughing fit while eating peanuts followed by persistent unilateral wheezing and unequal breath sounds",
+      "Key HPI features: 3-year-old boy presenting after choking episode with decreased breath sounds over right hemithorax where inspiratory and expiratory chest radiographs reveal air trapping and hyperinflation of the right lung due to peanut obstruction requiring urgent rigid bronchoscopy.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Pediatric Foreign Body Aspiration Rigid Bronchoscopy.",
+      "Relevant background/PMH: No significant chronic medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Pediatric foreign body aspiration (peanut).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Asthma exacerbation (unilateral findings argue against) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Unilateral decreased breath sounds."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Pediatric Foreign Body Aspiration Rigid Bronchoscopy",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Pediatrics (AAP) Clinical Practice Guidelines",
+        "url": "https://publications.aap.org/pediatrics/pages/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Pediatric Foreign Body Aspiration Rigid Bronchoscopy: sudden choking and coughing fit while eating peanuts followed by persistent unilateral wheezing and unequal breath sounds. 3-year-old boy presenting after choking episode with decreased breath sounds over right hemithorax where inspiratory and expiratory chest radiographs reveal air trapping and hyperinflation of the right lung due to peanut obstruction requiring urgent rigid bronchoscopy.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Pediatric Foreign Body Aspiration Rigid Bronchoscopy.",
+    "assessment": "Clinical presentation highly suggestive of Pediatric Foreign Body Aspiration Rigid Bronchoscopy.",
+    "plan": "Evidence-based diagnostic and therapeutic protocol for Pediatric Foreign Body Aspiration Rigid Bronchoscopy. Refer to specialty team and provide comprehensive patient counseling."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Pediatric Foreign Body Aspiration Rigid Bronchoscopy",
+    "Formulate prioritized differential diagnosis for sudden choking and coughing fit while eating peanuts followed by persistent unilateral wheezing and unequal breath sounds",
+    "Select appropriate laboratory and imaging studies for pediatrics",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Pediatric foreign body aspiration (peanut)",
+    "one_liner": "3-year-old boy with a choking episode while eating peanuts, followed by persistent unilateral wheezing and decreased breath sounds.",
+    "differentials": [
+      "Asthma exacerbation (unilateral findings argue against)",
+      "Pneumonia",
+      "Bronchiolitis"
+    ],
+    "red_flags": [
+      "Unilateral decreased breath sounds",
+      "Witnessed choking episode with peanuts",
+      "Persistent focal wheezing",
+      "Blue color, inability to speak or cry, marked work of breathing, or lethargy requires immediate emergency intervention"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm the witnessed choking episode",
+        "say": "Can you describe exactly what happened when he started choking on the peanuts?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "witnessed choking",
+          "peanut"
+        ]
+      },
+      {
+        "objective": "Ask about the timeline since the choking event",
+        "say": "How long ago did the choking happen, and has the wheezing continued since?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "timeline"
+        ]
+      },
+      {
+        "objective": "Characterize the wheezing as one-sided",
+        "say": "Does the wheezing sound like it's coming from one side more than the other?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "unilateral wheezing"
+        ]
+      },
+      {
+        "objective": "Screen for respiratory distress",
+        "say": "Is he working hard to breathe, or coughing persistently?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "respiratory distress"
+        ]
+      },
+      {
+        "objective": "Explain the urgent bronchoscopy plan",
+        "say": "Given the choking history and one-sided findings, we need an urgent procedure to look into his airway and remove the object.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "rigid bronchoscopy"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "96/60",
+      "hr": 110,
+      "rr": 28,
+      "spo2": 96,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "He was eating peanuts about two hours ago when he suddenly choked, coughed violently, and now he keeps making a whistling wheezing noise on his right side.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The coughing started suddenly about two hours ago right after he choked on peanuts.",
+        "topic": "Duration of cough"
+      },
+      {
+        "answer": "He was chewing a handful of peanuts, gasped, started gagging, and broke into a severe coughing fit.",
+        "topic": "Onset and trigger"
+      },
+      {
+        "answer": "No, he is not coughing up any phlegm or mucus.",
+        "topic": "Sputum characteristics"
+      },
+      {
+        "answer": "The coughing and noisy breathing have been constant since the choking happened, regardless of whether he is sitting up or lying down.",
+        "topic": "Timing and posture"
+      },
+      {
+        "answer": "He had an intense coughing and choking fit right at the beginning, but there is no whooping sound and he has not vomited.",
+        "topic": "Paroxysmal cough and whooping"
+      },
+      {
+        "answer": "Crying and running around make him breathe faster and cough more, but cold air or dust does not change it.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "Yes, I hear a persistent wheezing whistling sound coming specifically from his right chest, and his breathing looks faster than usual.",
+        "topic": "Wheezing and shortness of breath"
+      },
+      {
+        "answer": "No, he has not had any fever or chills at all.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, there has been no blood in his spit or cough.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "No, he has been growing well and does not have night sweats or weight loss.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "He points to his chest when he coughs as if it feels uncomfortable, but he is only three so he cannot explain it clearly.",
+        "topic": "Chest discomfort"
+      },
+      {
+        "answer": "No, he has no runny nose, nasal congestion, or mucus dripping down the back of his throat.",
+        "topic": "Rhinorrhea and postnasal drip"
+      },
+      {
+        "answer": "No, he does not spit up sour stomach fluid or have reflux symptoms.",
+        "topic": "Heartburn and regurgitation"
+      },
+      {
+        "answer": "No, his breathing is the same whether he is lying flat or upright, and his feet and legs are not swollen.",
+        "topic": "Orthopnea and leg swelling"
+      },
+      {
+        "answer": "No, he has never taken any blood pressure or heart medications.",
+        "topic": "Blood pressure medications"
+      },
+      {
+        "answer": "No, nobody smokes in our home or anywhere around him.",
+        "topic": "Secondhand smoke exposure"
+      },
+      {
+        "answer": "No, he has never been around anyone with tuberculosis.",
+        "topic": "Tuberculosis exposure"
+      },
+      {
+        "answer": "No one at home or in his daycare has had a cough, cold, or any illness recently.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "We do not have any pets, mold, or chemical fumes in our home.",
+        "topic": "Environmental exposures"
+      },
+      {
+        "answer": "He has never had asthma, eczema, or allergic rhinitis.",
+        "topic": "Allergic history"
+      },
+      {
+        "answer": "Yes, I was sitting right next to him and saw him choke on a whole peanut.",
+        "topic": "Witnessed choking episode"
+      },
+      {
+        "answer": "His lips and face have not turned blue, and he can still talk and cry, but he seems to be breathing harder.",
+        "topic": "Signs of respiratory distress"
+      },
+      {
+        "answer": "I think a piece of that peanut went down the wrong pipe and is still stuck in his windpipe.",
+        "topic": "Parent thoughts on cause"
+      },
+      {
+        "answer": "I'm terrified that his airway will completely close up tonight and he will stop breathing.",
+        "topic": "Parent main concerns"
+      },
+      {
+        "answer": "I'm hoping you can look inside his throat and get that piece of nut out so he can breathe easily again.",
+        "topic": "Parent expectations"
+      },
+      {
+        "answer": "He has always been completely healthy with no chronic medical issues.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had surgery and has never been admitted to a hospital.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "He is not taking any prescription drugs, cough syrups, or dietary supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known allergies to medicines, foods, or anything else.",
+        "topic": "Drug and food allergies"
+      },
+      {
+        "answer": "He was born full-term via normal delivery with no newborn complications.",
+        "topic": "Birth history"
+      },
+      {
+        "answer": "His growth milestones are completely normal and all of his vaccinations are up to date.",
+        "topic": "Growth and vaccinations"
+      },
+      {
+        "answer": "He goes to a local daycare center three mornings a week, and he lives with me and his father.",
+        "topic": "Daycare and living situation"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 96/60 mmHg, heart rate 110 beats/min, respiratory rate 28 breaths/min, temperature 36.8°C, and oxygen saturation 96% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert child with mild intercostal retractions and slight tachypnea, without cyanosis or stridor.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Nasal mucosa and oropharynx are clear without visible foreign body, erythema, or postnasal discharge.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Slight decrease in chest expansion on the right side; no chest wall tenderness or crepitus.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperresonance to percussion over the right hemithorax compared with the left.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Decreased breath sounds and persistent unilateral expiratory wheezing over the right hemithorax, with normal vesicular breath sounds on the left.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm, normal S1 and S2, without murmurs or rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "No digital clubbing or peripheral edema; capillary refill time is less than two seconds.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

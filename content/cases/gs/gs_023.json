@@ -1,0 +1,385 @@
+{
+  "id": "gs_023",
+  "system": "general surgery",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Yang",
+  "age": 65,
+  "gender": "male",
+  "chief_complaint": "crampy abdominal pain, severe bloating, inability to pass gas or stool, and vomiting",
+  "hpi_details": "65M presents with 2 days of worsening crampy abdominal pain, severe abdominal distension (bloating), inability to pass gas or stool (obstipation), and vomiting green-yellow fluid. Had abdominal surgery 5 years ago.",
+  "ideas": "thinks his bowel is completely blocked",
+  "concerns": "worried about bowel rupture or emergency surgery",
+  "expectations": "wants stomach tube and scan",
+  "pmh": "Laparoscopic cholecystectomy (5 years ago)",
+  "medications": "None",
+  "social_hx": "Retired, non-smoker",
+  "investigation_events": [
+    {
+      "id": "stat_small_bowel_obstruction_workup",
+      "title": "STAT small-bowel obstruction results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "electrolytes",
+        "metabolic panel",
+        "abdominal x ray",
+        "abdominal x-ray",
+        "abdominal radiograph",
+        "ct abdomen",
+        "ct abdomen and pelvis"
+      ],
+      "availability_message": "The STAT small-bowel obstruction results are now available; nasogastric decompression, IV fluids, and surgical consultation should not be delayed.",
+      "results": [
+        {
+          "id": "potassium",
+          "test": "Serum potassium",
+          "value": "3.2",
+          "unit": "mEq/L",
+          "reference_range": "3.5-5.0",
+          "flag": "low",
+          "specimen": "Blood",
+          "collected_at": "During urgent assessment"
+        },
+        {
+          "id": "ct_small_bowel_obstruction",
+          "test": "CT abdomen and pelvis with IV contrast",
+          "value": "Dilated small-bowel loops with a discrete adhesive transition point and collapsed distal bowel; no closed-loop configuration, reduced enhancement, or free air",
+          "flag": "critical",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Small Bowel Obstruction (post-surgical adhesions) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Small Bowel Obstruction (post-surgical adhesions) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes NG tube decompression, NPO status, IV fluid resuscitation, and urgent surgical consultation to distinguish safe nonoperative trial from the need for emergency surgery, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: crampy abdominal pain, severe bloating, inability to pass gas or stool, and vomiting",
+      "Key HPI features: 65M presents with 2 days of worsening crampy abdominal pain, severe abdominal distension (bloating), inability to pass gas or stool (obstipation), and vomiting green-yellow fluid. Had abdominal surgery 5 years ago.",
+      "Objective/Exam findings: Vitals: Temp 37.4C, HR 105, BP 118/72. Abdomen markedly distended and tympanitic with high-pitched, hyperactive bowel sounds; no rebound, guarding, or peritonitis. Abdominal X-ray series shows dilated small bowel loops with multiple air-fluid levels; CT abdomen/pelvis confirms a transition point consistent with adhesive small bowel obstruction, without evidence of ischemia or closed-loop obstruction.",
+      "Relevant background/PMH: Laparoscopic cholecystectomy (5 years ago)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Small Bowel Obstruction (post-surgical adhesions).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Ileus without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever or severe constant pain — suggests strangulation."
+    ],
+    "management_principles": [
+      "Order abdominal X-ray series (look for dilated bowel loops, air-fluid levels) and CT abdomen/pelvis to confirm the diagnosis and exclude strangulation or closed-loop obstruction",
+      "Insert NG tube for decompression, keep NPO, and start IV fluids with electrolyte correction",
+      "Obtain urgent general surgery consultation; escalate to emergency surgery if there are signs of strangulation, peritonitis, or clinical deterioration"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "SAGES & ACS Evidence-Based Surgical Practice Guidelines",
+        "url": "https://www.facs.org/quality-programs/about-quality/evidence-based-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "65M presents with 2 days of worsening crampy abdominal pain, severe abdominal distension (bloating), inability to pass gas or stool (obstipation), and vomiting green-yellow fluid. Had abdominal surgery 5 years ago.",
+    "objective": "Vitals: Temp 37.4C, HR 105, BP 118/72. Abdomen markedly distended and tympanitic with high-pitched, hyperactive bowel sounds; no rebound, guarding, or peritonitis. Abdominal X-ray series shows dilated small bowel loops with multiple air-fluid levels; CT abdomen/pelvis confirms a transition point consistent with adhesive small bowel obstruction, without evidence of ischemia or closed-loop obstruction.",
+    "assessment": "Small bowel obstruction, likely secondary to post-surgical adhesions, without current signs of strangulation.",
+    "plan": "Insert NG tube for decompression, keep NPO, and start IV fluids with electrolyte correction. Order abdominal X-ray series and CT abdomen/pelvis to confirm the diagnosis and exclude strangulation or closed-loop obstruction. Obtain urgent general surgery consultation; a trial of nonoperative management with serial abdominal exams may be appropriate if there are no signs of strangulation, but escalate to emergency surgery if fever, worsening pain, or peritonitis develop."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Small Bowel Obstruction (SBO), likely secondary to post-surgical adhesions.",
+    "Formulate prioritized differential diagnosis for crampy abdominal pain, severe bloating, inability to pass gas or stool, and vomiting",
+    "Select appropriate laboratory and imaging studies for general surgery",
+    "Implement evidence-based acute and long-term management strategies for Small Bowel Obstruction (SBO), likely secondary to post-surgical adhesions."
+  ],
+  "teaching": {
+    "diagnosis": "Small Bowel Obstruction (post-surgical adhesions)",
+    "one_liner": "Scar tissue from a prior operation narrows the small bowel, causing crampy pain, distension, obstipation, and bilious vomiting.",
+    "differentials": [
+      "Ileus",
+      "Large bowel obstruction",
+      "Incarcerated hernia"
+    ],
+    "red_flags": [
+      "Fever or severe constant pain — suggests strangulation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Prior abdominal surgery",
+        "say": "Have you had abdominal surgery before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "surgery",
+          "cholecystectomy"
+        ]
+      },
+      {
+        "objective": "Character of the pain",
+        "say": "Does the pain come and go in waves?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "cramp",
+          "waves"
+        ]
+      },
+      {
+        "objective": "Passing gas or stool",
+        "say": "Are you able to pass gas or stool?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "gas",
+          "stool"
+        ]
+      },
+      {
+        "objective": "Vomiting character",
+        "say": "What color is the vomit?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "green",
+          "yellow",
+          "vomit"
+        ]
+      },
+      {
+        "objective": "Distension",
+        "say": "Has your belly become more swollen?",
+        "domains": [
+          "progression"
+        ],
+        "keywords": [
+          "distension",
+          "bloating"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/72",
+      "hr": 105,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 37.4
+    },
+    "history": [
+      {
+        "answer": "My stomach has been cramping terribly for the past two days, it is completely swollen, and I can't pass any gas or stool.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about two days ago as mild cramps that gradually got worse and more frequent, and now it comes in intense waves every few minutes.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "The cramps are mostly around the middle of my belly around the belly button, and it hasn't shifted anywhere else.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "No, it doesn't spread to my back, shoulders, or down into my groin.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It feels like a severe gripping, colicky cramp that builds up to a peak and then eases up a little, but it never completely goes away.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "At its worst during the waves it reaches an 8 out of 10, whereas two days ago it was more like a 3 or 4.",
+        "topic": "Pain severity and progression"
+      },
+      {
+        "answer": "Nothing relieves it, and taking even a sip of water or trying to eat brings on violent retching and worse cramping.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "My belly is severely bloated and tight, like an overinflated basketball.",
+        "topic": "Abdominal distension"
+      },
+      {
+        "answer": "I have had intense nausea and have thrown up four or five times today, mostly yellowish-green bitter fluid, but no blood or coffee-ground material.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "I haven't passed any gas or had a bowel movement for nearly two full days now; nothing is coming out at all.",
+        "topic": "Flatus and bowel movements"
+      },
+      {
+        "answer": "No, I haven't had any diarrhea, black tarry stools, or blood from my bowels before it stopped completely.",
+        "topic": "Diarrhea and bloody stool"
+      },
+      {
+        "answer": "I have felt warm and sweaty, but I haven't measured a high fever at home or had shaking chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my eyes and skin haven't turned yellow, my urine is just darker because I haven't been drinking, and I haven't seen pale stools.",
+        "topic": "Jaundice and urine changes"
+      },
+      {
+        "answer": "No pain or burning when I urinate, no frequent urge, and no blood in my urine.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "A little lightheaded when I stand up quickly because I haven't kept fluids down, but I haven't passed out.",
+        "topic": "Dizziness or fainting"
+      },
+      {
+        "answer": "No, no chest tightness, chest pain, or shortness of breath, just tightness in my belly pushing up on my breathing.",
+        "topic": "Chest pain and shortness of breath"
+      },
+      {
+        "answer": "I just had a regular light home-cooked dinner two days ago, nothing unusually greasy or spoiled, and no alcohol.",
+        "topic": "Recent meals and alcohol"
+      },
+      {
+        "answer": "No, I haven't taken aspirin, ibuprofen, or painkillers for this because I was afraid I would just throw them up.",
+        "topic": "NSAIDs and painkiller use"
+      },
+      {
+        "answer": "No heart trouble, no irregular heartbeats or palpitations, and no history of blood clots or arterial disease.",
+        "topic": "Heart conditions and arrhythmias"
+      },
+      {
+        "answer": "No, I have never had crampy pain or blockage like this before in my life.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I honestly feel like my bowel is completely kinked or blocked solid, because nothing will go down or out.",
+        "topic": "Patient's ideas on cause"
+      },
+      {
+        "answer": "I'm terrified that my intestine might burst open or that I'll need emergency surgery.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I'm hoping you can put a tube down into my stomach to drain this fluid and take an X-ray or CT scan to see what is blocked.",
+        "topic": "Expectations of care"
+      },
+      {
+        "answer": "I had my gallbladder removed through keyhole surgery about five years ago, but no other operations.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I don't have high blood pressure, diabetes, or any other chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I don't take any regular prescription medications, over-the-counter drugs, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I don't smoke cigarettes and I have never been a smoker.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I don't drink alcohol anymore, maybe a glass of wine on holidays a few times a year.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I'm retired from clerical office work and live quietly at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No family history of colon cancer, inflammatory bowel disease, or early digestive problems.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert but visibly uncomfortable and distressed from abdominal cramps and distension; no acute respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Temperature 37.4 C, heart rate 105 bpm, blood pressure 118/72 mmHg, respiratory rate 18 breaths/min, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Anicteric sclerae and pink conjunctivae; oral mucous membranes are mildly dry.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic with regular rhythm, normal heart sounds, and no murmurs. Lungs clear to auscultation bilaterally without crackles or wheezes.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Markedly distended abdomen with well-healed, small laparoscopic port scars in the right upper quadrant and umbilicus; no visible peristalsis or erythema.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "High-pitched, hyperactive, tinkling bowel sounds present throughout all four quadrants.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Diffusely tympanitic throughout the entire abdomen; no shifting dullness.",
+        "maneuver": "abdominal_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse mild tenderness across the mid-abdomen without focal guarding or rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness or involuntary guarding anywhere on the abdomen.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Negative Murphy's sign; no focal right upper quadrant tenderness or inspiratory arrest.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "Negative McBurney point tenderness, negative Rovsing, psoas, and obturator signs.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No inguinal, femoral, or umbilical hernias palpable, and no localized tenderness over surgical scar sites.",
+        "maneuver": "hernia_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Empty rectal vault with collapsed walls; no masses, impaction, or gross blood on the examining glove.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

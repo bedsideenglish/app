@@ -1,0 +1,298 @@
+{
+  "id": "neuro_027",
+  "system": "neuro",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Miller",
+  "age": 23,
+  "gender": "male",
+  "chief_complaint": "severe throbbing unilateral headache with nausea",
+  "hpi_details": "A 23-year-old male presents to the clinic with severe throbbing unilateral headache with nausea. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "He thinks the pounding pain was triggered by severe dehydration and drinking multiple energy drinks during his late work shifts.",
+  "concerns": "He is worried that a blood vessel in his brain is leaking or about to burst like what happened to his uncle.",
+  "expectations": "He hopes to get a brain CT scan to make sure there is no bleeding and something to stop the intense nausea.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Migraine without Aura evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Migraine without Aura is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Migraine without Aura: Triptans, dark room rest, avoid triggers, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe throbbing unilateral headache with nausea",
+      "Key HPI features: A 23-year-old male presents to the clinic with severe throbbing unilateral headache with nausea. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Migraine without Aura.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Migraine without Aura.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Tension headache without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: sudden 'thunderclap' headache reaching peak intensity within seconds, new headache in a patient over 50, a change in a pre-existing headache pattern, headache with fever, neck stiffness, focal neurological deficits, or papilloedema."
+    ],
+    "management_principles": [
+      "Plan for Migraine without Aura: Triptans, dark room rest, avoid triggers",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of severe throbbing unilateral headache with nausea. HPI: stress, chocolate, red wine.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Migraine without Aura.",
+    "assessment": "Condition highly suspicious for Migraine without Aura.",
+    "plan": "Plan for Migraine without Aura: Triptans, dark room rest, avoid triggers. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Migraine without Aura",
+    "Select appropriate diagnostic workup for Migraine without Aura",
+    "Implement evidence-based management plan: Triptans, dark room rest, avoid triggers"
+  ],
+  "teaching": {
+    "diagnosis": "Migraine without Aura",
+    "one_liner": "A recurrent throbbing, unilateral headache with nausea, often triggered by stress, chocolate, or red wine.",
+    "differentials": [
+      "Tension headache"
+    ],
+    "red_flags": [
+      "Sudden 'thunderclap' headache reaching peak intensity within seconds — must exclude subarachnoid haemorrhage",
+      "New headache in a patient over 50, or a change in a pre-existing headache pattern — warrants imaging",
+      "Headache with fever, neck stiffness, focal neurological deficits, or papilloedema — raises concern for meningitis, mass lesion, or raised intracranial pressure"
+    ],
+    "must_ask": [
+      {
+        "objective": "Character",
+        "say": "Is the pain throbbing and one-sided?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Triggers",
+        "say": "Does stress, chocolate, or wine trigger it?",
+        "domains": [
+          "aggravating"
+        ]
+      },
+      {
+        "objective": "Nausea",
+        "say": "Do you feel nauseated?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How long does each headache last?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Prior pattern",
+        "say": "Have you had these before?",
+        "domains": [
+          "pmh"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My head on the right side has been throbbing really badly since yesterday, and I feel nauseous.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually yesterday morning and built up over a few hours; it definitely didn't hit like a sudden thunderclap or lightning bolt.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "The pain started yesterday morning, so it has been going on for about thirty hours now; I've had mild headaches a couple of times a year before, but this is the first time it has been this intense.",
+        "topic": "Duration and prior pattern"
+      },
+      {
+        "answer": "It is focused mostly on the right side of my head, around my temple and behind my right eye.",
+        "topic": "Location of headache"
+      },
+      {
+        "answer": "It is a pulsing, throbbing pain, like a heartbeat pounding in my temple, and at its worst it gets to about an 8 out of 10.",
+        "topic": "Pain character and severity"
+      },
+      {
+        "answer": "The throbbing has been pretty continuous since yesterday, and it gets especially worse when I move around or during the afternoon.",
+        "topic": "Episode duration and diurnal pattern"
+      },
+      {
+        "answer": "Walking around, climbing stairs, or bending over makes the throbbing much worse; resting quietly in a dark, quiet room helps take the edge off.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I didn't see any flashing lights, zigzag lines, or blind spots before the pain began, and I had no tingling or numbness.",
+        "topic": "Aura symptoms"
+      },
+      {
+        "answer": "Yes, I feel very nauseous and lost my appetite completely, though I haven't actually thrown up; bright lights and loud noises also bother me terribly.",
+        "topic": "Nausea and sensory sensitivity"
+      },
+      {
+        "answer": "No, my right eye isn't tearing up or red, my eyelid isn't drooping, and my nose isn't runny or stuffy.",
+        "topic": "Autonomic symptoms"
+      },
+      {
+        "answer": "No, I haven't had any fever, chills, neck stiffness, or skin rashes.",
+        "topic": "Fever and neck stiffness"
+      },
+      {
+        "answer": "No, I haven't experienced any weakness, numbness, slurred speech, confusion, or seizures.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, my vision is fine without any blurriness or double vision, and my eyes don't hurt to touch.",
+        "topic": "Visual changes and eye pain"
+      },
+      {
+        "answer": "No, I haven't bumped or injured my head recently.",
+        "topic": "Head trauma"
+      },
+      {
+        "answer": "I took two tablets of over-the-counter acetaminophen yesterday evening, but it barely helped at all, and I only take painkillers maybe once every few months.",
+        "topic": "Pain medication use"
+      },
+      {
+        "answer": "I've been under a lot of deadline stress at work this week, barely slept, and had red wine and dark chocolate with a friend two nights ago.",
+        "topic": "Potential triggers"
+      },
+      {
+        "answer": "No, I don't have high blood pressure, and I don't take any blood pressure pills or blood thinners.",
+        "topic": "Blood pressure and medications"
+      },
+      {
+        "answer": "No, no one at home has a headache, and we don't use any unvented gas or charcoal heating appliances.",
+        "topic": "Carbon monoxide and sick contacts"
+      },
+      {
+        "answer": "No, I don't have cancer, HIV, or any condition that affects my immune system.",
+        "topic": "Cancer or immunocompromised status"
+      },
+      {
+        "answer": "I thought maybe chugging energy drinks and barely drinking any water during my night shifts brought this on.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "I'm terrified that a blood vessel in my head is about to rupture, just like the aneurysm my uncle had a few years ago. I'm hoping I can get a quick head scan to prove nothing is bleeding inside, and some medicine to stop me from vomiting.",
+        "topic": "Concerns and expectations"
+      },
+      {
+        "answer": "I don't have any chronic medical conditions like diabetes, kidney disease, or asthma.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I've never been admitted to a hospital.",
+        "topic": "Surgical and hospitalization history"
+      },
+      {
+        "answer": "I don't take any regular prescribed medications, vitamins, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to foods or medications.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink socially, maybe one or two glasses of beer or wine once or twice a month.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as a software junior developer and live alone in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother occasionally gets bad throbbing headaches with nausea, but no one in my family has had aneurysms or brain tumors.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 72 beats/min, respiratory rate 14 breaths/min, temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert young male resting quietly in discomfort, shielding eyes slightly from bright light; no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils are equal, round, and reactive to light and accommodation; visual fields full to confrontation; fundoscopy shows sharp optic disc margins with no papilledema or retinal hemorrhage.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness over the frontal or maxillary sinuses.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with full active range of motion; no Kernig sign or Brudzinski sign elicited.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact; facial symmetry preserved, extraocular movements intact without ptosis.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal bulk and tone; muscle strength 5/5 across all muscle groups in upper and lower extremities symmetrically.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation throughout face and all four limbs symmetrically.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Biceps, triceps, patellar, and Achilles reflexes 2+ bilaterally; bilateral plantar responses are flexor (negative Babinski).",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Finger-to-nose and heel-to-shin testing normal bilaterally; normal steady gait and negative Romberg sign.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      }
+    ]
+  }
+}

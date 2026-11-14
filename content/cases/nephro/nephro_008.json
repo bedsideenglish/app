@@ -1,0 +1,397 @@
+{
+  "id": "nephro_008",
+  "system": "nephrology",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Garcia",
+  "age": 58,
+  "gender": "female",
+  "chief_complaint": "severe lethargy, metallic taste, nausea, and itching in advanced kidney disease",
+  "hpi_details": "58F with CKD Stage 5 presenting with intractable nausea, metallic taste, severe pruritus, and a two-component uremic pericardial friction rub requiring urgent hemodialysis.",
+  "ideas": "She thinks she ate spoiled food that gave her food poisoning or that her blood pressure medications are irritating her stomach and building up in her body.",
+  "concerns": "She is terrified that her heart is giving out and that she could have a fatal medical emergency before her daughter's wedding next month.",
+  "expectations": "She hopes to get an anti-nausea injection and have her prescriptions adjusted so that she can finally keep a meal down.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, social drinker, employed full-time",
+  "investigation_events": [
+    {
+      "id": "stat_uremia_workup",
+      "title": "STAT uremia and pericarditis results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "renal function",
+        "creatinine",
+        "bun",
+        "urea",
+        "electrolytes",
+        "metabolic panel",
+        "bicarbonate",
+        "ecg",
+        "ekg",
+        "electrocardiogram",
+        "echocardiogram",
+        "echo"
+      ],
+      "availability_message": "The STAT uremia and pericarditis results are now available; urgent hemodialysis should not be delayed.",
+      "results": [
+        {
+          "id": "blood_urea_nitrogen",
+          "test": "Blood urea nitrogen",
+          "value": "128",
+          "unit": "mg/dL",
+          "reference_range": "7-20",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "creatinine",
+          "test": "Serum creatinine",
+          "value": "9.6",
+          "unit": "mg/dL",
+          "reference_range": "0.6-1.2",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "potassium",
+          "test": "Serum potassium",
+          "value": "5.6",
+          "unit": "mEq/L",
+          "reference_range": "3.5-5.0",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "bicarbonate",
+          "test": "Serum bicarbonate",
+          "value": "16",
+          "unit": "mEq/L",
+          "reference_range": "22-29",
+          "flag": "low",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "ecg",
+          "test": "12-lead ECG",
+          "value": "Diffuse ST-segment elevation with PR-segment depression",
+          "flag": "critical",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "echocardiogram",
+          "test": "Transthoracic echocardiogram",
+          "value": "Small circumferential pericardial effusion without right-sided chamber collapse or tamponade physiology",
+          "flag": "abnormal",
+          "collected_at": "During emergency assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Uremic Syndrome (End-Stage Kidney Disease with Uremic Pericarditis) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Uremic Syndrome (End-Stage Kidney Disease with Uremic Pericarditis) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes urgent hemodialysis, since uremic pericarditis is an absolute indication for dialysis regardless of GFR, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe lethargy, metallic taste, nausea, and itching in advanced kidney disease",
+      "Key HPI features: 58F with CKD Stage 5 presenting with intractable nausea, metallic taste, severe pruritus, and a two-component uremic pericardial friction rub requiring urgent hemodialysis.",
+      "Objective/Exam findings: Vitals: BP 168/94, HR 96, RR 20, Temp 37.1C. Two-component pericardial friction rub on cardiac auscultation, diffuse skin excoriations from scratching, conjunctival pallor, mild asterixis. Bloods: BUN 128 mg/dL, Creatinine 9.6 mg/dL (eGFR <10 mL/min), K+ 5.6 mEq/L, HCO3 16 mEq/L, Hemoglobin 8.9 g/dL. ECG shows diffuse ST elevation with PR depression; echocardiogram pending to assess for effusion.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Uremic Syndrome (End-Stage Kidney Disease with Uremic Pericarditis).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Viral pericarditis (unrelated to kidney disease) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Chest pain that worsens lying down and improves sitting forward — suggests pericarditis, needing urgent dialysis to prevent tamponade."
+    ],
+    "management_principles": [
+      "Urgent/emergent hemodialysis — uremic pericarditis is an absolute indication for dialysis regardless of GFR",
+      "Echocardiogram to assess for pericardial effusion and tamponade physiology; avoid anticoagulation given bleeding risk with pericarditis",
+      "Correct hyperkalemia and metabolic acidosis; treat pruritus symptomatically (antihistamines, emollients) pending dialysis",
+      "Arrange nephrology consultation for permanent dialysis access planning"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "KDIGO 2024 Clinical Practice Guideline for Kidney Disease",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "58F with CKD Stage 5 presents with several days of intractable nausea, a metallic taste in her mouth, worsening whole-body itching, and new positional chest pain.",
+    "objective": "Vitals: BP 168/94, HR 96, RR 20, Temp 37.1C. Two-component pericardial friction rub on cardiac auscultation, diffuse skin excoriations from scratching, conjunctival pallor, mild asterixis. Bloods: BUN 128 mg/dL, Creatinine 9.6 mg/dL (eGFR <10 mL/min), K+ 5.6 mEq/L, HCO3 16 mEq/L, Hemoglobin 8.9 g/dL. ECG shows diffuse ST elevation with PR depression; echocardiogram pending to assess for effusion.",
+    "assessment": "Uremic Syndrome with Uremic Pericarditis in a patient with CKD Stage 5 (End-Stage Kidney Disease), requiring urgent dialysis.",
+    "plan": "Urgent/emergent hemodialysis — uremic pericarditis is an absolute indication for dialysis regardless of GFR. Echocardiogram to assess for pericardial effusion and tamponade physiology; avoid anticoagulation given bleeding risk with pericarditis. Correct hyperkalemia and metabolic acidosis; treat pruritus symptomatically (antihistamines, emollients) pending dialysis. Arrange nephrology consultation for permanent dialysis access planning."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Uremic Syndrome ESKD Pericarditis",
+    "Formulate prioritized differential diagnosis for severe lethargy, metallic taste, nausea, and itching in advanced kidney disease",
+    "Select appropriate laboratory and imaging studies for nephrology",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Uremic Syndrome (End-Stage Kidney Disease with Uremic Pericarditis)",
+    "one_liner": "Accumulated toxins from failing kidneys in end-stage kidney disease cause nausea, a metallic taste, and itching, and when inflammation reaches the pericardium it produces a friction rub — an indication for urgent dialysis.",
+    "differentials": [
+      "Viral pericarditis (unrelated to kidney disease)",
+      "Volume overload heart failure",
+      "Medication side effect"
+    ],
+    "red_flags": [
+      "Chest pain that worsens lying down and improves sitting forward — suggests pericarditis, needing urgent dialysis to prevent tamponade"
+    ],
+    "must_ask": [
+      {
+        "objective": "Known kidney disease stage",
+        "say": "What stage of kidney disease do you have, and are you on dialysis?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "CKD",
+          "stage 5",
+          "dialysis"
+        ]
+      },
+      {
+        "objective": "Uremic symptoms",
+        "say": "Have you had a metallic taste in your mouth or lost your appetite?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "metallic taste",
+          "appetite"
+        ]
+      },
+      {
+        "objective": "Itching",
+        "say": "How severe is the itching, and where is it?",
+        "domains": [
+          "severity"
+        ],
+        "keywords": [
+          "pruritus",
+          "itching"
+        ]
+      },
+      {
+        "objective": "Chest pain related to position",
+        "say": "Do you have any chest pain that changes when you lean forward or lie down?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "chest pain",
+          "lean forward"
+        ]
+      },
+      {
+        "objective": "Fatigue and confusion",
+        "say": "How is your energy and concentration?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "168/94",
+      "hr": 96,
+      "rr": 20,
+      "spo2": 98,
+      "temp_c": 37.1
+    },
+    "history": [
+      {
+        "answer": "I have been feeling completely exhausted for the past few days, and there is an awful metallic taste in my mouth that will not go away.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I feel completely drained of all physical energy and weak throughout my body, rather than just feeling sleepy.",
+        "topic": "Nature of fatigue"
+      },
+      {
+        "answer": "It crept up about a week ago and became much worse over the last three days without any specific event triggering it.",
+        "topic": "Onset and triggers"
+      },
+      {
+        "answer": "I cannot manage my daily work routine at all, and resting or sleeping does not make me feel any better.",
+        "topic": "Impact of rest"
+      },
+      {
+        "answer": "The exhaustion stays heavy and constant all day long, from morning to evening.",
+        "topic": "Daily variation"
+      },
+      {
+        "answer": "I sleep about six hours, but I wake up repeatedly through the night scratching myself, though my husband says I do not snore.",
+        "topic": "Sleep quality and snoring"
+      },
+      {
+        "answer": "I feel frustrated because I feel so ill, but I do not feel depressed or have thoughts of harming myself.",
+        "topic": "Mood and depression"
+      },
+      {
+        "answer": "I feel slightly dizzy when I get up too fast, but I have not had any dark black or bloody bowel movements.",
+        "topic": "Dizziness and stool color"
+      },
+      {
+        "answer": "I went through menopause seven years ago and have had no vaginal bleeding since then.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "I noticed a couple of small bruises on my arms over the last few days, but my gums are not bleeding.",
+        "topic": "Bruising and bleeding"
+      },
+      {
+        "answer": "I have mild tingling in the soles of both feet, but no severe numbness.",
+        "topic": "Numbness or tingling"
+      },
+      {
+        "answer": "My skin is noticeably dry, but I have not been sensitive to cold and my bowels have been regular without constipation.",
+        "topic": "Cold intolerance and bowels"
+      },
+      {
+        "answer": "I am not drinking extra water, but I noticed my urine output has definitely dropped off over the past three days.",
+        "topic": "Thirst and urination"
+      },
+      {
+        "answer": "My appetite is completely gone, and I have felt severe, intractable nausea for the past three days.",
+        "topic": "Loss of appetite and nausea"
+      },
+      {
+        "answer": "My whole body has been intensely itchy for several days, and no matter how much I scratch, it does not stop.",
+        "topic": "Skin itching"
+      },
+      {
+        "answer": "I have lost about two pounds this week because I cannot keep much down, but I have had no fever or night sweats.",
+        "topic": "Weight loss and fever"
+      },
+      {
+        "answer": "I get slightly winded when walking up stairs, and my ankles have looked slightly swollen in the evenings.",
+        "topic": "Shortness of breath and swelling"
+      },
+      {
+        "answer": "My accounting job has its usual deadlines, but I keep my stress manageable and drink only one cup of decaf coffee a day.",
+        "topic": "Workload and stress"
+      },
+      {
+        "answer": "My nephrologist told me last month that I have stage 5 chronic kidney disease and that my kidney function was getting very low.",
+        "topic": "Kidney disease stage"
+      },
+      {
+        "answer": "I developed a sharp chest ache two days ago that hurts much more when I lie flat on my back and eases when I lean forward.",
+        "topic": "Positional chest pain"
+      },
+      {
+        "answer": "I feel mentally slow and foggy, and it takes me longer than usual to think things through.",
+        "topic": "Fatigue and mental clarity"
+      },
+      {
+        "answer": "I have had high blood pressure and slightly elevated cholesterol for about ten years, in addition to my kidney disease.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was in my twenties, but I have had no other surgeries or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once every morning, and I do not take any over-the-counter painkillers or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink an occasional glass of wine at family gatherings once or twice a month.",
+        "topic": "Alcohol intake"
+      },
+      {
+        "answer": "I work full-time as an accountant and live in an apartment with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had hypertension and lived into her eighties, but nobody in my family has had kidney failure or dialysis.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 168/94 mmHg, heart rate 96 beats per minute, respiratory rate 20 breaths per minute, and temperature 37.1 degrees Celsius.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure remains 164/92 mmHg without significant orthostatic drop upon standing.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Marked conjunctival pallor bilaterally, with clear non-icteric sclerae.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "No cervical or supraclavicular lymphadenopathy palpable.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Thyroid gland is normal in size and smooth without palpable nodules or tenderness.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm with a distinct two-component pericardial friction rub best heard along the left sternal border.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are clear bilaterally with no crackles, wheezes, or rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse linear excoriations across the torso and limbs from vigorous scratching, without primary rash.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Trace to 1+ bilateral pitting edema noted over the pretibial regions and ankles.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Mild asterixis with brief flapping motions observed when wrists are dorsiflexed.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "id": "id_002",
+  "system": "infectious_disease",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Davis",
+  "age": 29,
+  "gender": "female",
+  "chief_complaint": "high fever, severe headache, confusion, and stiff neck developing over 24 hours",
+  "hpi_details": "29F brought to emergency room by roommate due to rapid onset of high fever (39.8C), pounding frontal headache, photophobia, nausea, projectile vomiting, and severe neck stiffness developing over the past 18 hours. Over the last 2 hours, she has become increasingly drowsy and confused.",
+  "ideas": "roommate thinks she has a lethal brain infection or meningitis",
+  "concerns": "roommate terrified by how rapidly she became drowsy and stiff-necked today",
+  "expectations": "wants immediate spinal tap and emergency IV antibiotics right now",
+  "pmh": "No prior health issues",
+  "medications": "None",
+  "social_hx": "Marketing manager, non-smoker",
+  "investigation_events": [
+    {
+      "id": "stat_bacterial_meningitis_workup",
+      "title": "STAT bacterial meningitis results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "lumbar puncture",
+        "spinal tap",
+        "csf studies",
+        "csf analysis",
+        "csf gram stain"
+      ],
+      "availability_message": "The STAT blood count and CSF results are now available; dexamethasone and empiric antibiotics must not be delayed if lumbar puncture cannot be performed immediately.",
+      "results": [
+        {
+          "id": "white_blood_cell_count",
+          "test": "White blood cell count",
+          "value": "22.0",
+          "unit": "x10^3/mcL",
+          "reference_range": "4.0-11.0",
+          "flag": "critical",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "csf_opening_pressure",
+          "test": "CSF opening pressure",
+          "value": "280",
+          "unit": "mmH2O",
+          "reference_range": "60-200",
+          "flag": "critical",
+          "specimen": "CSF",
+          "collected_at": "During emergency lumbar puncture"
+        },
+        {
+          "id": "csf_white_blood_cell_count",
+          "test": "CSF white blood cell count",
+          "value": "2800",
+          "unit": "cells/mcL",
+          "reference_range": "0-5",
+          "flag": "critical",
+          "specimen": "CSF",
+          "collected_at": "During emergency lumbar puncture",
+          "note": ">90% neutrophils"
+        },
+        {
+          "id": "csf_protein",
+          "test": "CSF protein",
+          "value": "240",
+          "unit": "mg/dL",
+          "reference_range": "15-45",
+          "flag": "critical",
+          "specimen": "CSF",
+          "collected_at": "During emergency lumbar puncture"
+        },
+        {
+          "id": "csf_glucose",
+          "test": "CSF glucose",
+          "value": "18",
+          "unit": "mg/dL",
+          "reference_range": "40-70",
+          "flag": "critical",
+          "specimen": "CSF",
+          "collected_at": "During emergency lumbar puncture"
+        },
+        {
+          "id": "csf_gram_stain",
+          "test": "CSF Gram stain",
+          "value": "Gram-negative diplococci",
+          "reference_range": "No organisms seen",
+          "flag": "critical",
+          "specimen": "CSF",
+          "collected_at": "During emergency lumbar puncture"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Bacterial Meningitis (Meningococcal) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Bacterial Meningitis (Meningococcal) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes a CRITICAL EMERGENCY PROTOCOL of adjunctive dexamethasone given with or before immediate empiric broad-spectrum IV antibiotics, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: high fever, severe headache, confusion, and stiff neck developing over 24 hours",
+      "Key HPI features: 29F brought to emergency room by roommate due to rapid onset of high fever (39.8C), pounding frontal headache, photophobia, nausea, projectile vomiting, and severe neck stiffness developing over the past 18 hours. Over the last 2 hours, she has become increasingly drowsy and confused.",
+      "Objective/Exam findings: Vitals: Temp 39.6C, HR 122, BP 100/60, RR 22. Lethargic, photophobic, rigid nuchal rigidity. Positive Kernig's sign (pain on knee extension when hip flexed) and positive Brudzinski's sign (neck flexion induces involuntary hip/knee flexion). No papilledema or focal neurological deficits. Bloods: WBC 22,000 /uL with 88% neutrophils, CRP 185 mg/L. Lumbar Puncture (performed immediately after blood cultures since no signs of increased ICP): CSF Opening pressure elevated at 280 mmH2O; CSF appearance cloudy/turbid; CSF WBC 2,800 /uL (>90% neutrophils); CSF Protein markedly elevated at 240 mg/dL; CSF Glucose markedly low at 18 mg/dL (simultaneous serum glucose 95 mg/dL, CSF/Serum ratio < 0.2). Gram stain reveals Gram-negative diplococci (Neisseria meningitidis).",
+      "Relevant background/PMH: No prior health issues"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Bacterial Meningitis (Meningococcal).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Viral meningitis (less severe, slower progression) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Declining consciousness or confusion — a sign of rapid deterioration."
+    ],
+    "management_principles": [
+      "CRITICAL EMERGENCY PROTOCOL: adjunctive dexamethasone must be given with or before the first dose of antibiotics, without delaying antibiotic administration",
+      "Administer adjunctive IV Dexamethasone (10mg IV) 15-20 minutes BEFORE or simultaneously with the first dose of antibiotics to prevent sensorineural hearing loss and neurological sequelae",
+      "Immediately infuse empiric broad-spectrum IV antibiotics: Ceftriaxone 2g IV q12h + Vancomycin 15-20 mg/kg IV q8h (add Ampicillin if age > 50 or immunocompromised for Listeria)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines",
+        "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "29F presenting with acute fulminant bacterial meningitis triad: fever, severe headache/neck stiffness (meningismus), and altered mental status over 24 hours.",
+    "objective": "Vitals: Temp 39.6C, HR 122, BP 100/60, RR 22. Lethargic, photophobic, rigid nuchal rigidity. Positive Kernig's sign (pain on knee extension when hip flexed) and positive Brudzinski's sign (neck flexion induces involuntary hip/knee flexion). No papilledema or focal neurological deficits. Bloods: WBC 22,000 /uL with 88% neutrophils, CRP 185 mg/L. Lumbar Puncture (performed immediately after blood cultures since no signs of increased ICP): CSF Opening pressure elevated at 280 mmH2O; CSF appearance cloudy/turbid; CSF WBC 2,800 /uL (>90% neutrophils); CSF Protein markedly elevated at 240 mg/dL; CSF Glucose markedly low at 18 mg/dL (simultaneous serum glucose 95 mg/dL, CSF/Serum ratio < 0.2). Gram stain reveals Gram-negative diplococci (Neisseria meningitidis).",
+    "assessment": "Acute Bacterial Meningitis secondary to Neisseria meningitidis (Meningococcal Meningitis).",
+    "plan": "CRITICAL EMERGENCY PROTOCOL: 1. Administer adjunctive IV Dexamethasone (10mg IV) 15-20 minutes BEFORE or simultaneously with the first dose of antibiotics to prevent sensorineural hearing loss and neurological sequelae. 2. Immediately infuse empiric broad-spectrum IV antibiotics: Ceftriaxone 2g IV q12h + Vancomycin 15-20 mg/kg IV q8h (add Ampicillin if age > 50 or immunocompromised for Listeria). 3. Isolate patient on droplet precautions. Provide immediate ciprofloxacin or rifampin chemoprophylaxis for close contacts/roommates."
+  },
+  "learning_objectives": [
+    "Identify classical meningeal irritation signs (nuchal rigidity, Kernig's sign, Brudzinski's sign)",
+    "Interpret cerebrospinal fluid (CSF) profiles distinguishing acute bacterial vs viral vs fungal meningitis",
+    "Enforce administration of IV Dexamethasone prior to or with the first antibiotic dose in bacterial meningitis",
+    "Coordinate immediate droplet isolation and close-contact antibiotic chemoprophylaxis for meningococcal disease"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Bacterial Meningitis (Meningococcal)",
+    "one_liner": "A rapidly progressive bacterial infection of the meninges causing fever, severe headache, neck stiffness, and declining consciousness within hours — a true emergency needing antibiotics and steroids without delay.",
+    "differentials": [
+      "Viral meningitis (less severe, slower progression)",
+      "Subarachnoid hemorrhage",
+      "Encephalitis"
+    ],
+    "red_flags": [
+      "Declining consciousness or confusion — a sign of rapid deterioration",
+      "Non-blanching rash — suggests meningococcemia"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset speed",
+        "say": "How quickly did the fever, headache, and stiff neck come on?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "hours",
+          "rapid",
+          "sudden"
+        ]
+      },
+      {
+        "objective": "Neck stiffness and photophobia",
+        "say": "Is it painful to move your neck, and does light bother your eyes?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "neck stiffness",
+          "photophobia"
+        ]
+      },
+      {
+        "objective": "Level of consciousness",
+        "say": "Have you been feeling more drowsy or confused than usual?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "drowsy",
+          "confused"
+        ]
+      },
+      {
+        "objective": "Rash",
+        "say": "Have you noticed any new rash on your skin?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "rash",
+          "petechiae"
+        ]
+      },
+      {
+        "objective": "Vomiting",
+        "say": "Have you been vomiting?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vomiting"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "100/60",
+      "hr": 122,
+      "rr": 22,
+      "spo2": 98,
+      "temp_c": 39.6
+    },
+    "history": [
+      {
+        "answer": "My head is pounding so painfully, and I am burning up with a terrible fever. My neck is completely stiff and I can barely keep my eyes open.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The burning fever started suddenly yesterday afternoon, about eighteen hours ago, and it has steadily worsened.",
+        "topic": "Fever onset and duration"
+      },
+      {
+        "answer": "My roommate checked my temperature and it was nearly forty degrees. I have had constant severe shivering and teeth-chattering chills.",
+        "topic": "Fever pattern and chills"
+      },
+      {
+        "answer": "I took some ibuprofen about ten hours ago, but it did nothing at all to reduce the fever or ease my headache.",
+        "topic": "Antipyretics and relief"
+      },
+      {
+        "answer": "It is a severe pounding pain across my forehead that feels like my head will explode, easily a ten out of ten.",
+        "topic": "Headache characteristics"
+      },
+      {
+        "answer": "Yes, my neck is intensely stiff and hurts terribly whenever I try to bend it forward. The bright room lights also hurt my eyes.",
+        "topic": "Neck stiffness and photophobia"
+      },
+      {
+        "answer": "I feel very confused and sluggish. My roommate told me I began drifting off and speaking nonsensically over the last two hours.",
+        "topic": "Level of consciousness"
+      },
+      {
+        "answer": "I felt terribly nauseous and vomited forcefully three times earlier today, like it just shot out of me.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "No, I have not noticed any red spots, purple dots, or dark scabs from bug bites on my skin.",
+        "topic": "Skin rash and bites"
+      },
+      {
+        "answer": "No, I do not have any cough, phlegm, sore throat, or shortness of breath.",
+        "topic": "Cough and respiratory symptoms"
+      },
+      {
+        "answer": "No, there is no pain or burning when I urinate, no frequent urination, and no flank pain.",
+        "topic": "Urinary and flank symptoms"
+      },
+      {
+        "answer": "I do not have any abdominal pain or loose stools, just the violent vomiting earlier.",
+        "topic": "Abdominal symptoms and diarrhea"
+      },
+      {
+        "answer": "No, my joints are not swollen or painful, just generalized body aches from the fever.",
+        "topic": "Joint pain and swelling"
+      },
+      {
+        "answer": "No night sweats or unintentional weight loss before this sudden illness started.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "No, I have not noticed any swollen lumps or glands in my neck, armpits, or groin.",
+        "topic": "Lumps and swollen glands"
+      },
+      {
+        "answer": "No, I have not traveled outside the city recently, and I have not been hiking, camping, or working outdoors.",
+        "topic": "Travel and outdoor exposure"
+      },
+      {
+        "answer": "No, I do not have pets and have had no contact with animals.",
+        "topic": "Animal contact"
+      },
+      {
+        "answer": "No one around me has been sick, but my roommate is terrified seeing how rapidly I deteriorated today.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I have never had cancer, chemotherapy, or taken steroid medications that suppress the immune system.",
+        "topic": "Immunosuppression and chemotherapy"
+      },
+      {
+        "answer": "No, I have no heart conditions or artificial heart valves, and I have not had any dental procedures recently.",
+        "topic": "Heart disease and dental procedures"
+      },
+      {
+        "answer": "No, I have not started any new prescription medications or over-the-counter drugs recently.",
+        "topic": "Recently started medications"
+      },
+      {
+        "answer": "I have never used intravenous recreational drugs, and I do not have new sexual partners.",
+        "topic": "Substance use and sexual history"
+      },
+      {
+        "answer": "My roommate is terrified that I have a lethal brain infection or meningitis because of how quickly I became stiff and drowsy.",
+        "topic": "Patient ideas and concerns"
+      },
+      {
+        "answer": "We were hoping you could do a spinal tap right away and start emergency IV antibiotics immediately.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have always been completely healthy with no chronic medical conditions.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital before.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I do not take any regular prescription medications, daily vitamins, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes, and I only drink an occasional glass of wine socially.",
+        "topic": "Smoking and alcohol"
+      },
+      {
+        "answer": "I work as a marketing manager and live in an apartment with one roommate.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Both of my parents are healthy and there is no family history of serious infections or neurological problems.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "My last menstrual period started two weeks ago on schedule, and my monthly periods are regular.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "I use barrier contraception consistently, and there is no chance that I could be pregnant.",
+        "topic": "Contraception and pregnancy possibility"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 100/60 mmHg, heart rate 122 beats/min, respiratory rate 22 breaths/min, body temperature 39.6 C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Patient is lethargic, drowsy, and disoriented to time, but responds slowly to verbal stimuli.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Marked nuchal rigidity with positive Kernig sign and positive Brudzinski sign.",
+        "maneuver": "meningeal_signs",
+        "response": "pain"
+      },
+      {
+        "finding": "Pupils equal and reactive to light with prominent photophobia; no papilledema on fundoscopic examination.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII are grossly intact with no focal neurological deficits.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Oropharynx is clear without mucosal erythema, tonsillar exudate, or posterior pharyngeal injection.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable cervical lymphadenopathy; thyroid gland is normal size and non-tender.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm without murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft and non-tender without guarding, rigidity, or palpable hepatosplenomegaly.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on either side.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Warm and flushed skin without petechiae, purpura, rash, or insect bite eschars.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

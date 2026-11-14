@@ -1,0 +1,347 @@
+{
+  "id": "urology_007",
+  "system": "urology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Green",
+  "age": 57,
+  "gender": "male",
+  "chief_complaint": "classic triad of flank pain, palpable abdominal mass, and hematuria leading to discovery of 7 cm renal cell carcinoma",
+  "hpi_details": "57M presents with 4-month history of intermittent right flank pain, 15-lb unintentional weight loss, night sweats, and episodes of dark bloody urine. Last week while showering, noticed a firm bulge below his right ribcage. Reports feeling chronically fatigued and generally unwell.",
+  "ideas": "thinks he has a severe kidney infection or cyst",
+  "concerns": "worried about cancer because of the weight loss and hard lump in his side",
+  "expectations": "wants CT scan and clear explanation of surgical options for removing the kidney growth",
+  "pmh": "Hypertension, 35 pack-year smoking history",
+  "medications": "Lisinopril 20mg daily",
+  "social_hx": "Real estate developer, active smoker",
+  "available_results": [
+    {"id": "rcc_hemoglobin", "test": "Hemoglobin", "value": "18.2", "unit": "g/dL", "reference_range": "13.5-17.5", "flag": "high", "specimen": "Blood"},
+    {"id": "rcc_calcium", "test": "Total serum calcium", "value": "11.6", "unit": "mg/dL", "reference_range": "8.6-10.2", "flag": "high", "specimen": "Blood"},
+    {"id": "rcc_ct_urogram", "test": "Multiphase CT urogram", "value": "7.5 cm heterogeneous hypervascular right lower-pole renal mass with central necrosis and renal-vein invasion; no IVC thrombus or distant metastasis", "flag": "abnormal", "collected_at": "Before urologic-oncology consultation"}
+  ],
+  "clinical_knowledge": {
+    "topic": "Renal Cell Carcinoma evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Renal Cell Carcinoma is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Admit to urologic oncology, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: classic triad of flank pain, palpable abdominal mass, and hematuria leading to discovery of 7 cm renal cell carcinoma",
+      "Key HPI features: 57M presents with 4-month history of intermittent right flank pain, 15-lb unintentional weight loss, night sweats, and episodes of dark bloody urine. Last week while showering, noticed a firm bulge below his right ribcage. Reports feeling chronically fatigued and generally unwell.",
+      "Objective/Exam findings: Vitals: HR 82, BP 152/94. Abdominal palpation confirms a firm, non-tender, 6 x 5 cm ballottable mass in the right upper quadrant/flank moving with respiration. Auscultation reveals no renal bruits. Scrotal exam reveals no varicocele on either side, consistent with the absence of IVC thrombus on imaging; with a RIGHT renal tumour it is a new non-reducing RIGHT varicocele that would signal IVC or right gonadal vein obstruction, because the right gonadal vein drains directly into the IVC, whereas a new LEFT varicocele indicates LEFT renal vein obstruction. Labs: Hemoglobin 18.2 g/dL (paraneoplastic erythrocytosis due to tumor EPO production), Serum Calcium 11.6 mg/dL (paraneoplastic PTHrP secretion). Multi-phase CT Urogram confirms a 7.5 cm heterogeneous, hypervascular, solid enhancing mass arising from the right kidney lower pole with central necrosis, involving the renal vein without IVC thrombus or distant organ metastasis.",
+      "Relevant background/PMH: Hypertension, 35 pack-year smoking history",
+      "Current medications: Lisinopril 20mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Renal Cell Carcinoma.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing hematuria exclusively to nephrolithiasis or infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: gross hematuria with a renal mass or new-onset varicocele."
+    ],
+    "management_principles": [
+      "Urgently refer to urologic oncology and complete staging, renal-function assessment, and multidisciplinary surgical planning; admit if hypercalcemia, hematuria, or other complications require acute management.",
+      "For this renal-vein-involving tumor, discuss radical nephrectomy with renal-vein tumor-thrombus management; remove the adrenal gland only when suspicious and perform lymph-node dissection for clinically involved nodes.",
+      "(Partial nephrectomy / nephron-sparing surgery is reserved for T1 lesions <4-7 cm)"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "57M smoker presenting with classic late diagnostic triad (flank pain, hematuria, palpable mass) and constitutional B-symptoms of Renal Cell Carcinoma.",
+    "objective": "Vitals: HR 82, BP 152/94. Abdominal palpation confirms a firm, non-tender, 6 x 5 cm ballottable mass in the right upper quadrant/flank moving with respiration. Auscultation reveals no renal bruits. Scrotal exam reveals no varicocele on either side, consistent with the absence of IVC thrombus on imaging; with a RIGHT renal tumour it is a new non-reducing RIGHT varicocele that would signal IVC or right gonadal vein obstruction, because the right gonadal vein drains directly into the IVC, whereas a new LEFT varicocele indicates LEFT renal vein obstruction. Labs: Hemoglobin 18.2 g/dL (paraneoplastic erythrocytosis due to tumor EPO production), Serum Calcium 11.6 mg/dL (paraneoplastic PTHrP secretion). Multi-phase CT Urogram confirms a 7.5 cm heterogeneous, hypervascular, solid enhancing mass arising from the right kidney lower pole with central necrosis, involving the renal vein without IVC thrombus or distant organ metastasis.",
+    "assessment": "Right Renal Cell Carcinoma (Clear Cell Subtype likely, Stage cT3a N0 M0 - renal vein extension) with paraneoplastic syndromes (polycythemia and hypercalcemia).",
+    "plan": "Urgently refer to urologic oncology for complete staging, renal-function assessment, and planning for radical nephrectomy with renal-vein tumor-thrombus management. Adrenalectomy is indicated only for a suspicious adrenal lesion, and lymph-node dissection is reserved for clinically involved nodes. Treat clinically significant hypercalcemia with IV hydration and appropriate antiresorptive therapy after renal-function review; admit if complications require acute management."
+  },
+  "learning_objectives": [
+    "Recognize the classic triad of Renal Cell Carcinoma (flank pain, hematuria, palpable mass) as representing late, advanced disease (present in <10% of cases)",
+    "Identify paraneoplastic syndromes associated with RCC (erythrocytosis via EPO, hypercalcemia via PTHrP, Stauffer syndrome non-metastatic hepatic dysfunction, hypertension via renin)",
+    "Correlate a new non-reducing varicocele with the side of venous obstruction: a RIGHT varicocele implies inferior vena cava or right gonadal vein obstruction, whereas a LEFT varicocele implies LEFT renal vein obstruction, because the left gonadal vein drains into the left renal vein while the right gonadal vein drains directly into the IVC",
+    "Compare surgical selection criteria between Partial Nephrectomy (nephron-sparing, T1 tumors <7 cm) and Radical Nephrectomy (larger tumors, renal vein involvement)"
+  ],
+  "teaching": {
+    "diagnosis": "Renal Cell Carcinoma",
+    "one_liner": "A malignant renal tumor that may present with hematuria, flank pain, a palpable mass, constitutional symptoms, or paraneoplastic syndromes.",
+    "differentials": [
+      "Urothelial carcinoma",
+      "Renal oncocytoma",
+      "Angiomyolipoma"
+    ],
+    "red_flags": [
+      "Gross hematuria with constitutional symptoms",
+      "New-onset non-reducing varicocele"
+    ],
+    "must_ask": [
+      {
+        "objective": "Gross or intermittent hematuria characteristics",
+        "say": "Have you noticed blood in your urine, and does it come and go or happen every time you urinate?",
+        "domains": [
+          "associated_symptoms",
+          "character"
+        ],
+        "keywords": [
+          "blood",
+          "hematuria",
+          "dark",
+          "urine",
+          "intermittent"
+        ]
+      },
+      {
+        "objective": "Palpable flank or abdominal mass",
+        "say": "Have you felt any new lump or fullness in your side or upper belly?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "mass",
+          "lump",
+          "bulge",
+          "flank",
+          "abdomen"
+        ]
+      },
+      {
+        "objective": "Constitutional / paraneoplastic symptoms",
+        "say": "Have you lost weight without trying, had night sweats, or felt unusually tired?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weight loss",
+          "night sweats",
+          "fatigue",
+          "fever",
+          "anorexia"
+        ]
+      },
+      {
+        "objective": "Smoking and occupational exposure history",
+        "say": "Do you smoke, and have you ever worked with chemicals or heavy metals?",
+        "domains": [
+          "pmh",
+          "social_hx"
+        ],
+        "keywords": [
+          "smoking",
+          "tobacco",
+          "exposure",
+          "occupation",
+          "chemicals"
+        ]
+      },
+      {
+        "objective": "Explore patient's concerns about a possible cancer diagnosis",
+        "say": "What worries you most about what might be causing these symptoms?",
+        "domains": [
+          "concerns",
+          "ideas"
+        ],
+        "keywords": [
+          "worried",
+          "cancer",
+          "concerns",
+          "afraid"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "152/94",
+      "hr": 82,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I have had a dull ache in my right side for about four months, and recently I started seeing dark blood in my urine.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The bloody urine first showed up about a month ago and has happened a few times on and off. I have never had blood in my urine before this.",
+        "topic": "Onset and course of hematuria"
+      },
+      {
+        "answer": "It looks dark red or cola-colored rather than bright pink. I have not noticed any thick clots or stringy pieces in the toilet.",
+        "topic": "Urine color and blood clots"
+      },
+      {
+        "answer": "The urine is dark and bloody all the way through the stream, from the very start to the end.",
+        "topic": "Timing of blood in stream"
+      },
+      {
+        "answer": "It is a constant, dull ache deep in my right flank that has been there for four months. It stays right in my side and does not radiate down to my groin or testicles.",
+        "topic": "Flank pain and radiation"
+      },
+      {
+        "answer": "No, it does not burn, sting, or hurt at all when I pass urine.",
+        "topic": "Pain with urination"
+      },
+      {
+        "answer": "No, I am not running to the bathroom more frequently, and I do not have sudden urgent rushes to urinate.",
+        "topic": "Urinary frequency and urgency"
+      },
+      {
+        "answer": "I have not had a measured fever or shivering chills.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "Yes, for the past couple of months I have been waking up soaked in night sweats and having to change my pajamas.",
+        "topic": "Night sweats"
+      },
+      {
+        "answer": "My stream starts promptly without hesitation, the flow is steady, and my bladder feels empty when I finish.",
+        "topic": "Hesitancy and stream strength"
+      },
+      {
+        "answer": "No swelling around my eyes or in my legs, no frothy bubbles in the toilet, and my daily urine amount seems unchanged.",
+        "topic": "Swelling and foamy urine"
+      },
+      {
+        "answer": "No, I have not had a sore throat, runny nose, or skin sores anywhere recently.",
+        "topic": "Recent sore throat or infection"
+      },
+      {
+        "answer": "No joint pain, skin rashes, chest pain, or coughing up blood.",
+        "topic": "Joint pain and rashes"
+      },
+      {
+        "answer": "I have lost about 15 pounds over the last four months without dieting, and I feel worn out and exhausted every day.",
+        "topic": "Weight loss and fatigue"
+      },
+      {
+        "answer": "No nosebleeds, bleeding gums, or unusual bruising on my arms or legs.",
+        "topic": "Bleeding and bruising tendency"
+      },
+      {
+        "answer": "No, I do not take aspirin, blood thinners, or any medications that prevent clotting.",
+        "topic": "Blood thinner medications"
+      },
+      {
+        "answer": "No heavy lifting, recent falls, or direct blows to my back, and I have not eaten beets or taken rifampin.",
+        "topic": "Trauma or dietary triggers"
+      },
+      {
+        "answer": "About a week ago while washing in the shower, I felt a hard, firm bulge just under my right ribcage that has stayed there.",
+        "topic": "Palpable abdominal lump"
+      },
+      {
+        "answer": "No, I have not noticed any swelling, heaviness, or swollen veins in my scrotum.",
+        "topic": "Scrotal swelling or heaviness"
+      },
+      {
+        "answer": "I was thinking maybe I had a bad kidney infection that would not clear up, or possibly a big kidney cyst.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "With this 15-pound weight loss and the hard lump under my ribs, I am very worried that this might be kidney cancer.",
+        "topic": "Patient main concern"
+      },
+      {
+        "answer": "I would like to get a CT scan done quickly to see what this lump is and hear what surgical choices I have to take it out.",
+        "topic": "Expectations for the visit"
+      },
+      {
+        "answer": "I have had high blood pressure for about eight years. I have never had kidney stones, kidney failure, or previous urinary problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was 22 years old, but no other operations or hospital admissions.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take lisinopril 20 milligrams once every morning for my blood pressure. I do not take any over-the-counter painkillers or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to medications, contrast dye, or foods.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have smoked about one pack of cigarettes a day for roughly 35 years and still smoke currently.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink maybe one or two glasses of wine on the weekend with dinner, but never heavily.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work as a real estate developer and spend time on construction sites, but I do not handle chemical dyes, rubber, or industrial solvents.",
+        "topic": "Occupation and chemical exposures"
+      },
+      {
+        "answer": "My father had high blood pressure and passed away from a stroke at 74. Nobody in my family has had kidney cancer or kidney disease.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 152/94 mmHg, heart rate is 82 beats per minute, respiratory rate is 16 breaths per minute, temperature is 36.8°C, and oxygen saturation is 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Conjunctivae are mildly plethoric without pallor; sclerae are non-icteric with no periorbital edema.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is symmetrical with a well-healed right lower quadrant surgical scar and no visible pulsations or distension.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normal normoactive bowel sounds in all four quadrants with no renal artery or aortic bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "A firm, non-tender, ballottable mass measuring roughly 6 by 5 centimeters is palpable in the right upper quadrant and right flank, shifting downward with inspiration, with no distended bladder.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness on gentle percussion over either kidney.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal adult male external genitalia with no scrotal masses and no visible or palpable varicocele on either side in supine and standing positions.",
+        "maneuver": "genital_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Normal sphincter tone and smooth, non-tender, symmetrical prostate without discrete nodules or firm induration.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema over the pretibial areas or ankles bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is warm and dry with no petechiae, purpura, ecchymoses, or vasculitic rashes.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

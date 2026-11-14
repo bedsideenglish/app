@@ -1,0 +1,316 @@
+{
+  "id": "ns_003",
+  "system": "neurosurgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Clark",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "new-onset generalized seizure, progressive morning headaches, and left-sided personality changes over 6 weeks",
+  "hpi_details": "58M right-handed male brought to ED after first-ever generalized tonic-clonic seizure lasting 3 minutes. Wife reports that over the past 6 weeks, patient has complained of dull, throbbing headaches that are worse in the morning upon waking and when bending over. Has also exhibited personality changes, apathy, memory deficits, and progressive weakness in right leg when walking.",
+  "ideas": "wife thinks he has Alzheimer disease or suffered a major brain tumor",
+  "concerns": "wife worried about rapid mental decline and seizure recurrence",
+  "expectations": "want definitive brain scan and neurosurgical consultation for tumor removal",
+  "pmh": "Hyperlipidemia",
+  "medications": "Atorvastatin 40mg daily",
+  "social_hx": "Civil engineer, non-smoker",
+  "investigation_events": [{
+    "id": "urgent_brain_mass_mri",
+    "title": "Urgent contrast-enhanced brain MRI",
+    "order_terms": ["MRI brain", "brain MRI", "MRI with contrast", "MRI with gadolinium"],
+    "availability_message": "The urgent brain MRI result is now available. Treatment of clinically significant edema and seizures should not be delayed.",
+    "results": [{"id": "brain_mri", "test": "Brain MRI with gadolinium", "value": "4.5 x 3.8 cm necrotic ring-enhancing left frontal mass with extensive vasogenic edema, motor-cortex involvement, and extension across the corpus callosum", "flag": "critical", "note": "Imaging is highly concerning for glioblastoma; tissue diagnosis is required."}]
+  }],
+  "clinical_knowledge": {
+    "topic": "High-Grade Glioma (Glioblastoma Multiforme) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of High-Grade Glioma (Glioblastoma Multiforme) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Start IV Dexamethasone 10 mg loading dose followed by 4 mg q6h to reduce peritumoral vasogenic edema, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: new-onset generalized seizure, progressive morning headaches, and left-sided personality changes over 6 weeks",
+      "Key HPI features: 58M right-handed male brought to ED after first-ever generalized tonic-clonic seizure lasting 3 minutes. Wife reports that over the past 6 weeks, patient has complained of dull, throbbing headaches that are worse in the morning upon waking and when bending over. Has also exhibited personality changes, apathy, memory deficits, and progressive weakness in right leg when walking.",
+      "Objective/Exam findings: Vitals: HR 78, BP 142/86. Post-ictal confusion clearing. Neurological exam reveals subtle right pronator drift, right-sided hyperreflexia (4+ patellar), positive Babinski sign on right, and flattened right nasolabial fold. Brain MRI with gadolinium demonstrates a 4.5 x 3.8 cm peripherally ring-enhancing mass with central necrosis and surrounding vasogenic edema in the left frontal lobe involving the motor cortex and crossing the corpus callosum (butterfly pattern).",
+      "Relevant background/PMH: Hyperlipidemia",
+      "Current medications: Atorvastatin 40mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out High-Grade Glioma (Glioblastoma Multiforme).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Brain metastasis without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: New seizure with a headache pattern worse in the morning — needs urgent imaging to exclude a mass."
+    ],
+    "management_principles": [
+      "Start IV Dexamethasone 10 mg loading dose followed by 4 mg q6h to reduce peritumoral vasogenic edema",
+      "Initiate Levetiracetam 1000 mg BID for seizure prophylaxis",
+      "Neurosurgery consultation for maximal safe surgical debulking / craniotomy with stereotactic navigation, followed by adjuvant radiation therapy and Temozolomide chemotherapy"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "58M presenting with new-onset seizure, morning headaches suggestive of elevated ICP, and focal frontal/motor deficits evolving over 6 weeks.",
+    "objective": "Vitals: HR 78, BP 142/86. Post-ictal confusion clearing. Neurological exam reveals subtle right pronator drift, right-sided hyperreflexia (4+ patellar), positive Babinski sign on right, and flattened right nasolabial fold. Brain MRI with gadolinium demonstrates a 4.5 x 3.8 cm peripherally ring-enhancing mass with central necrosis and surrounding vasogenic edema in the left frontal lobe involving the motor cortex and crossing the corpus callosum (butterfly pattern).",
+    "assessment": "Left Frontal High-Grade Glioma, radiologically consistent with Glioblastoma Multiforme (WHO Grade IV).",
+    "plan": "Start IV Dexamethasone 10 mg loading dose followed by 4 mg q6h to reduce peritumoral vasogenic edema. Initiate Levetiracetam 1000 mg BID for seizure prophylaxis. Neurosurgery consultation for maximal safe surgical debulking / craniotomy with stereotactic navigation, followed by adjuvant radiation therapy and Temozolomide chemotherapy."
+  },
+  "learning_objectives": [
+    "Recognize red flag symptoms of intracranial space-occupying lesions (morning headache, focal neurological signs, new seizures in adult)",
+    "Interpret brain MRI features characteristic of Glioblastoma Multiforme (ring enhancement, central necrosis, vasogenic edema, corpus callosum invasion)",
+    "Understand the role and dosing of high-dose corticosteroids (Dexamethasone) in managing peritumoral edema",
+    "Outline multidisciplinary neuro-oncology treatment paradigms (surgery, radiation, temozolomide)"
+  ],
+  "teaching": {
+    "diagnosis": "High-Grade Glioma (Glioblastoma Multiforme)",
+    "one_liner": "An aggressive primary brain tumor causing morning-worse headaches, a new seizure, and gradual personality change and weakness over weeks — the combination of raised-pressure headache pattern and focal deficits points to a mass, not simple dementia.",
+    "differentials": [
+      "Brain metastasis",
+      "Cerebral abscess",
+      "Alzheimer's disease (would lack focal deficits/seizure)"
+    ],
+    "red_flags": [
+      "New seizure with a headache pattern worse in the morning — needs urgent imaging to exclude a mass"
+    ],
+    "must_ask": [
+      {
+        "objective": "Headache pattern",
+        "say": "Is the headache worse in the morning or when you bend over?",
+        "domains": [
+          "aggravating"
+        ],
+        "keywords": [
+          "morning",
+          "bending over"
+        ]
+      },
+      {
+        "objective": "Seizure description",
+        "say": "Can you tell me what happened during the seizure?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Personality and cognitive changes",
+        "say": "Has your husband noticed changes in his personality or memory recently?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "personality change",
+          "apathy"
+        ]
+      },
+      {
+        "objective": "Weakness",
+        "say": "Have you noticed any weakness, like dragging a leg when walking?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many weeks has this been going on?",
+        "domains": [
+          "onset_duration"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/86",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 99,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I had a convulsion earlier today, and my wife rushed me straight to the emergency room.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My wife said my entire body went stiff and then I shook violently all over with my eyes wide open.",
+        "topic": "Witness description of seizure"
+      },
+      {
+        "answer": "She told me the shaking lasted about three minutes, and it only happened once without repeating.",
+        "topic": "Seizure duration and recurrence"
+      },
+      {
+        "answer": "I was just sitting at the kitchen table having breakfast, and I didn't smell anything strange or feel lightheaded before it happened.",
+        "topic": "Aura and preceding events"
+      },
+      {
+        "answer": "My wife said she didn't notice my face twitching or one arm jerking first before my whole body started shaking.",
+        "topic": "Focal onset and head turning"
+      },
+      {
+        "answer": "I bit the left side of my tongue and it's quite sore, and I lost control of my bladder and wet my pants.",
+        "topic": "Tongue biting and urinary incontinence"
+      },
+      {
+        "answer": "I was groggy and confused for about thirty minutes after waking up, and my muscles ache and my head is pounding.",
+        "topic": "Post-seizure confusion and soreness"
+      },
+      {
+        "answer": "I slid down from my chair to the rug, but my wife caught me and cushioned my head so I didn't hit anything hard.",
+        "topic": "Injury during seizure"
+      },
+      {
+        "answer": "This is the first time I've ever had a seizure; I've never had blackouts, blank staring spells, or morning muscle twitches.",
+        "topic": "Previous seizures or blank spells"
+      },
+      {
+        "answer": "I haven't had any fever or chills, and my neck feels normal and not stiff at all.",
+        "topic": "Fever and neck stiffness"
+      },
+      {
+        "answer": "For the past six weeks, I have had a dull, throbbing headache that feels worst when I wake up in the morning and when I bend over.",
+        "topic": "Morning headache characteristics"
+      },
+      {
+        "answer": "My wife noticed that over the last month and a half, I've become very quiet, detached, and forgetful with everyday things.",
+        "topic": "Personality and cognitive changes"
+      },
+      {
+        "answer": "Over the past few weeks, my right leg has felt clumsy and weak, making it harder for me to walk steadily.",
+        "topic": "Limb weakness and walking difficulty"
+      },
+      {
+        "answer": "I didn't lose sleep, drink alcohol, skip meals, or look at flashing lights before this happened.",
+        "topic": "Potential seizure triggers"
+      },
+      {
+        "answer": "I do not have diabetes, so I don't take insulin or blood sugar pills, and I haven't had any nausea, vomiting, or diarrhea.",
+        "topic": "Diabetic medications and illness"
+      },
+      {
+        "answer": "I have never had a serious head injury, a stroke, brain surgery, or an infection in my brain.",
+        "topic": "Previous head injury or brain infection"
+      },
+      {
+        "answer": "I drive to work every day, and as a civil engineer I occasionally visit active construction sites.",
+        "topic": "Driving and occupational safety"
+      },
+      {
+        "answer": "My wife is terrified that I might have developed Alzheimer's disease or that a brain tumor might be causing all this.",
+        "topic": "Patient thoughts and ideas"
+      },
+      {
+        "answer": "We are extremely worried about why my memory has slipped so fast and terrified that another seizure could strike at any moment.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "We want an urgent brain scan to find out what is causing this, and to see a neurosurgeon right away if something needs to be removed.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have had high cholesterol for a few years, but no history of high blood pressure, heart disease, or seizures.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was twenty years old, but no other operations or hospital stays.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I take atorvastatin 40 milligrams once every evening, and no other prescription drugs or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink a single glass of wine occasionally on weekends, and I haven't had any drinks in the past few days.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work as a civil engineer designing structures, and I live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father died of a heart attack in his seventies and my mother has high blood pressure, but no one has had epilepsy or brain tumors.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 142/86 mmHg, heart rate 78 beats/min, respiratory rate 16 breaths/min, temperature 36.8°C, oxygen saturation 99% on ambient air; fingerstick blood glucose 104 mg/dL.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert and oriented to person and place, but slightly hesitant about today's exact date as post-ictal confusion clears; flat affect and mild apathy noted.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Flattened right nasolabial fold indicating mild right central facial weakness; pupils equal, round, and reactive to light with intact extraocular movements.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Subtle right arm pronator drift and mild weakness in the right lower extremity graded 4+/5; left-sided muscle strength is 5/5 throughout.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperreflexia with 4+ patellar reflex on the right, 2+ on the left, with an upgoing right plantar reflex (positive Babinski sign) and normal downgoing left toe.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Intact sensation to light touch and pinprick symmetrically across the face, torso, and all four extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Mildly unsteady gait favoring the left leg with slight dragging of the right foot; finger-to-nose testing is intact bilaterally.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Supple neck with full active and passive flexion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Superficial laceration along the lateral margin of the tongue with mild local tenderness; posterior pharynx is clear without swelling.",
+        "maneuver": "nose_throat_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No scalp hematoma, laceration, contusion, or bony step-off noted over the head, neck, or shoulders.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Regular heart rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs heard.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      }
+    ]
+  }
+}

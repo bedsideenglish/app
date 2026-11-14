@@ -1,0 +1,345 @@
+{
+  "id": "peds_006",
+  "system": "pediatrics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Baby Foster",
+  "age": 0,
+  "gender": "female",
+  "chief_complaint": "cough, wheezing, tachypnea, and intercostal retractions in a 6-month-old infant with RSV Bronchiolitis",
+  "hpi_details": "6-month-old female infant brought to ED during winter peak season with 3 days of low-grade fever, clear runny nose, and congestion that progressed over the past 24 hours to rapid breathing, severe coughing spells, and poor feeding (taking <50% of normal formula volume). Parents note the baby's nostrils are flaring when breathing and her chest sinks between her ribs.",
+  "ideas": "parents exhausted and anxious watching infant breathe rapidly and struggle to finish bottles",
+  "concerns": "parents worried baby has severe pneumonia requiring strong antibiotics",
+  "expectations": "want breathing treatments, oxygen, and hospitalization to help the baby breathe easily",
+  "pmh": "Born full-term at 39 weeks, normal development",
+  "medications": "None",
+  "social_hx": "6-month-old infant in daycare",
+  "clinical_knowledge": {
+    "topic": "Severe RSV bronchiolitis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Severe RSV bronchiolitis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Admit to pediatric ward, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: cough, wheezing, tachypnea, and intercostal retractions in a 6-month-old infant with RSV Bronchiolitis",
+      "Key HPI features: 6-month-old female infant brought to ED during winter peak season with 3 days of low-grade fever, clear runny nose, and congestion that progressed over the past 24 hours to rapid breathing, severe coughing spells, and poor feeding (taking <50% of normal formula volume). Parents note the baby's nostrils are flaring when breathing and her chest sinks between her ribs.",
+      "Objective/Exam findings: Vitals: HR 158, RR 64 (severe tachypnea), Temp 38.1C, SpO2 91% on room air. Infant appears irritable and mildly distressed. Physical exam shows prominent nasal flaring, moderate subcostal and intercostal retractions, and head bobbing during inspiration. Auscultation reveals diffuse high-pitched expiratory wheezing and fine inspiratory crackles/rales heard throughout all lung fields bilaterally with prolonged expiratory phase. Rapid antigen test / PCR nasopharyngeal swab positive for Respiratory Syncytial Virus (RSV). Chest radiograph shows bilateral lung hyperinflation, flattened diaphragms, peribronchial cuffing, and patchy atelectasis without lobar consolidation.",
+      "Relevant background/PMH: Born full-term at 39 weeks, normal development"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Severe RSV bronchiolitis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Viral pneumonia without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Poor feeding (<50% normal intake)."
+    ],
+    "management_principles": [
+      "Admit to pediatric ward",
+      "Supportive respiratory care: place on heated humidified high-flow nasal cannula (HFNC) at 1-2 L/kg/min or simple nasal cannula oxygen to maintain SpO2 >= 92%",
+      "Perform gentle nasal suctioning with saline drops before feedings"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Academy of Pediatrics (AAP) Clinical Practice Guidelines",
+        "url": "https://publications.aap.org/pediatrics/pages/guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "6-month-old infant presenting during winter season with upper respiratory prodrome progressing to lower airway wheezing, tachypnea, and increased work of breathing characteristic of acute viral bronchiolitis.",
+    "objective": "Vitals: HR 158, RR 64 (severe tachypnea), Temp 38.1C, SpO2 91% on room air. Infant appears irritable and mildly distressed. Physical exam shows prominent nasal flaring, moderate subcostal and intercostal retractions, and head bobbing during inspiration. Auscultation reveals diffuse high-pitched expiratory wheezing and fine inspiratory crackles/rales heard throughout all lung fields bilaterally with prolonged expiratory phase. Rapid antigen test / PCR nasopharyngeal swab positive for Respiratory Syncytial Virus (RSV). Chest radiograph shows bilateral lung hyperinflation, flattened diaphragms, peribronchial cuffing, and patchy atelectasis without lobar consolidation.",
+    "assessment": "Severe Acute Viral Bronchiolitis secondary to Respiratory Syncytial Virus (RSV) with hypoxia and feeding impairment.",
+    "plan": "Admit to pediatric ward. 1. Supportive respiratory care: place on heated humidified high-flow nasal cannula (HFNC) at 1-2 L/kg/min or simple nasal cannula oxygen to maintain SpO2 >= 92%. Perform gentle nasal suctioning with saline drops before feedings. 2. Hydration: initiate enteral tube feedings (NG tube) or IV isotonic maintenance fluids given tachypnea (RR >60) increases aspiration risk and prevents adequate bottle feeding. 3. Avoid unnecessary interventions: evidence-based guidelines (AAP) strictly recommend against routine use of albuterol bronchodilators, systemic corticosteroids, or antibiotics for typical viral RSV bronchiolitis."
+  },
+  "learning_objectives": [
+    "Identify clinical progression and physical exam features of RSV Bronchiolitis in infants <2 years old (tachypnea, wheezing, crackles, retractions, nasal flaring)",
+    "Understand that evidence-based American Academy of Pediatrics guidelines strictly recommend AGAINST routine bronchodilators (albuterol), corticosteroids, or antibiotics in acute viral bronchiolitis",
+    "Outline essential supportive care priorities: nasal bulb/suction clearing of secretions, humidified oxygen (or high-flow nasal cannula) targeting SpO2 >=92%, and enteral/IV hydration when tachypnea impairs feeding",
+    "Recognize risk factors for severe bronchiolitis requiring PICU escalation (prematurity <37 weeks, congenital heart disease, bronchopulmonary dysplasia, age <2 months, apnea episodes)"
+  ],
+  "teaching": {
+    "diagnosis": "Severe RSV bronchiolitis",
+    "one_liner": "6-month-old girl with 3 days of URI symptoms progressing to tachypnea, retractions, and poor feeding during winter RSV season.",
+    "differentials": [
+      "Viral pneumonia",
+      "Bacterial pneumonia",
+      "Asthma/reactive airway (less likely at this age)",
+      "Congenital heart disease with respiratory distress"
+    ],
+    "red_flags": [
+      "Poor feeding (<50% normal intake)",
+      "Nasal flaring",
+      "Intercostal retractions",
+      "Age <6 months"
+    ],
+    "must_ask": [
+      {
+        "objective": "Assess feeding intake quantitatively",
+        "say": "How much formula is she taking now compared to her usual amount?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "decreased feeding"
+        ]
+      },
+      {
+        "objective": "Characterize the breathing effort",
+        "say": "Can you see her nostrils flaring or her chest sinking in when she breathes?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "nasal flaring",
+          "retractions"
+        ]
+      },
+      {
+        "objective": "Ask about the symptom progression timeline",
+        "say": "How did this start, and how quickly did the breathing get faster?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "progression"
+        ]
+      },
+      {
+        "objective": "Screen for risk factors for severe disease",
+        "say": "Was she born early, or does she have any heart or lung conditions?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "prematurity",
+          "comorbidities"
+        ]
+      },
+      {
+        "objective": "Explain why antibiotics and bronchodilators are not used",
+        "say": "Since this is a virus, antibiotics and inhalers won't help — we'll focus on suctioning, oxygen, and hydration support instead.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "supportive care",
+          "no bronchodilators"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "90/55",
+      "hr": 158,
+      "rr": 64,
+      "spo2": 91,
+      "temp_c": 38.1
+    },
+    "history": [
+      {
+        "answer": "My 6-month-old baby has been coughing and wheezing, and she seems to be breathing really fast.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "Her cough began 3 days ago along with a runny nose, but over the last 24 hours it turned into severe coughing fits.",
+        "topic": "Duration of cough"
+      },
+      {
+        "answer": "It started like a mild cold with clear nasal discharge, and she has never had wheezing or breathing trouble like this before.",
+        "topic": "Onset after cold"
+      },
+      {
+        "answer": "She coughs up clear, watery mucus that bubbles around her mouth, but there is no thick yellow or green phlegm.",
+        "topic": "Sputum or phlegm"
+      },
+      {
+        "answer": "The coughing and rapid breathing happen continuously throughout the day and night, but it seems worse when she tries to sleep or drink her bottle.",
+        "topic": "Timing and nocturnal symptoms"
+      },
+      {
+        "answer": "She has frequent coughing spells, but there is no loud whooping gasp at the end and she has not vomited after coughing.",
+        "topic": "Paroxysmal cough and whoop"
+      },
+      {
+        "answer": "Feeding and being active seem to make her breathe harder, but cold air or dust does not seem to change anything.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "Yes, she has a high-pitched whistling sound when breathing out and her breathing has become noticeably rapid and shallow.",
+        "topic": "Wheezing and shortness of breath"
+      },
+      {
+        "answer": "She has had a low-grade fever up to 38.1 degrees Celsius over the past 3 days, without severe shivering.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, there has never been any blood in her saliva or mucus.",
+        "topic": "Hemoptysis or blood in sputum"
+      },
+      {
+        "answer": "No, she has not lost weight or had excessive drenching sweats at night.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "She cannot tell us, but she does not cry out in pain specifically when taking a breath.",
+        "topic": "Chest pain on breathing"
+      },
+      {
+        "answer": "Yes, she has had a clear, runny nose and significant nasal stuffiness for the past 3 days.",
+        "topic": "Runny nose and nasal congestion"
+      },
+      {
+        "answer": "No, she has not had reflux, regurgitation, or spitting up after feedings.",
+        "topic": "Reflux or regurgitation"
+      },
+      {
+        "answer": "No, her legs and feet are not swollen, and she does not get more breathless purely from lying flat.",
+        "topic": "Orthopnea and leg swelling"
+      },
+      {
+        "answer": "No one smokes inside our home or around her, and neither my husband nor I smoke.",
+        "topic": "Secondhand smoke exposure"
+      },
+      {
+        "answer": "No, no one in our family or social circle has tuberculosis, and she has had no known exposure.",
+        "topic": "Tuberculosis contact"
+      },
+      {
+        "answer": "Yes, several other infants in her daycare room have had runny noses and colds this week.",
+        "topic": "Sick contacts in daycare"
+      },
+      {
+        "answer": "No, we do not have pets, mold, or chemical fumes at home.",
+        "topic": "Environmental exposures"
+      },
+      {
+        "answer": "No, she has never had eczema, atopic dermatitis, or allergic rhinitis.",
+        "topic": "History of allergies"
+      },
+      {
+        "answer": "She is drinking less than half of her usual formula bottles because she gets too tired and breathless to suck, and her wet diapers have dropped from six to three today.",
+        "topic": "Feeding intake and hydration"
+      },
+      {
+        "answer": "Her nostrils flare out with each breath, her chest pulls in deeply between her ribs, and her head bobs up and down when she breathes in.",
+        "topic": "Work of breathing"
+      },
+      {
+        "answer": "It began with a runny nose and slight fever 3 days ago, and then progressed yesterday into this rapid breathing and chest retractions.",
+        "topic": "Symptom progression timeline"
+      },
+      {
+        "answer": "She was born full-term with no heart or lung defects, she is not immunocompromised, but she does attend infant daycare.",
+        "topic": "Risk factors for severe disease"
+      },
+      {
+        "answer": "We are exhausted and terrified watching her struggle so hard to breathe and unable to finish her milk.",
+        "topic": "Parent perspective on illness"
+      },
+      {
+        "answer": "We are really worried that she might have severe bacterial pneumonia that requires strong antibiotics.",
+        "topic": "Parent concerns about pneumonia"
+      },
+      {
+        "answer": "We were hoping she could receive breathing treatments, supplemental oxygen, and be admitted so she can breathe comfortably.",
+        "topic": "Parent expectations"
+      },
+      {
+        "answer": "She has always been healthy with no chronic medical conditions or previous breathing problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She has never had surgery and has never been admitted to a hospital before.",
+        "topic": "Past surgery and hospitalizations"
+      },
+      {
+        "answer": "She does not take any regular medications, and we have not given her any cough syrups or over-the-counter remedies.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "She has no known allergies to medications, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "She lives at home in an apartment with both parents, and both of us work while she attends daycare.",
+        "topic": "Living situation"
+      },
+      {
+        "answer": "There is no family history of asthma, cystic fibrosis, childhood lung disease, or heart conditions.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "She was born at 39 weeks by uncomplicated vaginal delivery, weighed 3.2 kilograms, and did not need the neonatal intensive care unit.",
+        "topic": "Birth history"
+      },
+      {
+        "answer": "Her growth percentiles have been around the 50th percentile, she rolls over and sits with support, and all her vaccines are up to date through 6 months.",
+        "topic": "Growth and immunizations"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Infant is irritable and in mild respiratory distress with noticeable head bobbing on inspiration.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Heart rate 158 beats per minute, respiratory rate 64 breaths per minute, temperature 38.1°C, SpO2 91% on room air, blood pressure 90/55 mmHg.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Clear copious rhinorrhea and swollen nasal mucosa; posterior pharynx shows mild erythema without tonsillar exudate.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable lymphadenopathy in anterior cervical, posterior cervical, or supraclavicular regions.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Prominent nasal flaring and moderate subcostal and intercostal retractions during breathing; no chest wall tenderness or crepitus.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse bilateral hyperresonance throughout all lung fields; no localized dullness to percussion.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Diffuse high-pitched expiratory wheezing and fine inspiratory crackles bilaterally with a prolonged expiratory phase.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardia with regular rhythm, normal S1 and S2, and no murmurs, gallops, or rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, with no organomegaly or distension.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No digital clubbing, cyanosis, or peripheral edema; capillary refill time is approximately 2 seconds.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

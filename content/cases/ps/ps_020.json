@@ -1,0 +1,350 @@
+{
+  "id": "ps_020",
+  "system": "plastic surgery",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Miller",
+  "age": 72,
+  "gender": "male",
+  "chief_complaint": "Stage IV sacral pressure sore measuring 8 cm with exposed sacral bone in bedbound nursing home resident",
+  "hpi_details": "72M bedbound with severe stroke sequelae presenting with deep sacral decubitus ulcer with osteomyelitis undergoing wide bone debridement and bilateral Gluteus Maximus V-Y advancement myocutaneous flap closure.",
+  "ideas": "He thinks his tailbone rubbed raw and broke open because the nursing home staff did not reposition him often enough.",
+  "concerns": "He is worried that the deep wound has infected his bone and could cause a deadly bloodstream infection before his family visits.",
+  "expectations": "He hopes the doctor can thoroughly clean and dress the wound and order strong antibiotics so he can heal without a major operation.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Bedbound nursing-home resident dependent on caregivers for repositioning",
+  "clinical_knowledge": {
+    "topic": "Decubitus Ulcer Sacral Myocutaneous Flap evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Decubitus Ulcer Sacral Myocutaneous Flap is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Decubitus Ulcer Sacral Myocutaneous Flap, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: Stage IV sacral pressure sore measuring 8 cm with exposed sacral bone in bedbound nursing home resident",
+      "Key HPI features: 72M bedbound with severe stroke sequelae presenting with deep sacral decubitus ulcer with osteomyelitis undergoing wide bone debridement and bilateral Gluteus Maximus V-Y advancement myocutaneous flap closure.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Decubitus Ulcer Sacral Myocutaneous Flap.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Decubitus Ulcer Sacral Myocutaneous Flap.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Missing sepsis, spreading soft-tissue infection, or osteomyelitis and proceeding to flap closure before infection, pressure relief, and nutrition are optimized."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Decubitus Ulcer Sacral Myocutaneous Flap",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Decubitus Ulcer Sacral Myocutaneous Flap: Stage IV sacral pressure sore measuring 8 cm with exposed sacral bone in bedbound nursing home resident. 72M bedbound with severe stroke sequelae presenting with deep sacral decubitus ulcer with osteomyelitis undergoing wide bone debridement and bilateral Gluteus Maximus V-Y advancement myocutaneous flap closure.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Decubitus Ulcer Sacral Myocutaneous Flap.",
+    "assessment": "Clinical presentation highly suggestive of Decubitus Ulcer Sacral Myocutaneous Flap.",
+    "plan": "Urgently assess for sepsis or spreading infection; obtain appropriate deep tissue or bone cultures when debridement is performed and use antibiotics guided by clinical findings and culture results. Maintain strict pressure off-loading, continence care, and nutritional optimization. Flap reconstruction should be planned by the specialist team only after the wound bed, infection control, and caregiver repositioning plan are adequate."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Decubitus Ulcer Sacral Myocutaneous Flap",
+    "Formulate prioritized differential diagnosis for Stage IV sacral pressure sore measuring 8 cm with exposed sacral bone in bedbound nursing home resident",
+    "Select appropriate laboratory and imaging studies for plastic surgery",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Decubitus Ulcer Sacral Myocutaneous Flap",
+    "one_liner": "Plastic and reconstructive surgical case presenting with Stage IV sacral pressure sore measuring 8 cm with exposed sacral bone in bedbound nursing home resident.",
+    "differentials": [
+      "Stage III pressure ulcer without bone involvement",
+      "Perianal fistula or abscess",
+      "Fungating malignant wound",
+      "Moisture-associated skin damage"
+    ],
+    "red_flags": [
+      "Flap ischemia or tissue necrosis",
+      "Rapidly expanding hematoma"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mobility status and repositioning frequency",
+        "say": "How often is he turned or repositioned in bed?",
+        "domains": [
+          "living_work",
+          "social_hx"
+        ],
+        "keywords": [
+          "turning",
+          "repositioned",
+          "bed",
+          "mobility",
+          "frequency"
+        ]
+      },
+      {
+        "objective": "Wound duration and progression",
+        "say": "How long has the sore been present, and has it gotten deeper?",
+        "domains": [
+          "onset_duration",
+          "progression"
+        ],
+        "keywords": [
+          "wound",
+          "duration",
+          "deeper",
+          "progression",
+          "weeks"
+        ]
+      },
+      {
+        "objective": "Signs of systemic infection",
+        "say": "Has he had any fevers or seemed more confused or unwell recently?",
+        "domains": [
+          "associated_symptoms",
+          "severity"
+        ],
+        "keywords": [
+          "fever",
+          "infection",
+          "confused",
+          "unwell",
+          "systemic"
+        ]
+      },
+      {
+        "objective": "Nutritional status",
+        "say": "How has his appetite and weight been recently?",
+        "domains": [
+          "pmh",
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "nutrition",
+          "appetite",
+          "weight",
+          "protein",
+          "intake"
+        ]
+      },
+      {
+        "objective": "Baseline mobility and stroke severity",
+        "say": "What is his baseline mobility since the stroke — can he shift his own weight?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "stroke",
+          "mobility",
+          "baseline",
+          "paralysis",
+          "weight"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "130/80",
+      "hr": 76,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "My father has a deep wound on his tailbone that won't heal, and the nursing home said it has gotten much worse.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "He didn't suffer a cut or a fall; this sore developed simply from lying in bed constantly after his severe stroke.",
+        "topic": "Mechanism of injury"
+      },
+      {
+        "answer": "A reddish spot appeared about three months ago, and over the past several weeks it broke open and grew much wider and deeper.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is located directly over his tailbone and measures about three inches across, looking like a wide, deep crater.",
+        "topic": "Wound location and size"
+      },
+      {
+        "answer": "The nursing home nurse told us last week that the sore is so deep you can actually see the whitish tailbone at the bottom.",
+        "topic": "Visible bone or depth"
+      },
+      {
+        "answer": "There has been no exposure to dirt, rust, or animal bites, but it is very hard to keep his bowel movements from soiling the area.",
+        "topic": "Wound contamination and hygiene"
+      },
+      {
+        "answer": "We haven't seen any active spurting or heavy blood, just thick yellowish fluid with occasional streaks of blood on the gauze.",
+        "topic": "Active bleeding"
+      },
+      {
+        "answer": "His feeling around that area is very poor, and he cannot move his legs properly because of his stroke.",
+        "topic": "Sensation and limb movement"
+      },
+      {
+        "answer": "He doesn't grimace or complain of much pain when they clean it, likely because he has lost so much sensation there.",
+        "topic": "Wound pain"
+      },
+      {
+        "answer": "The wound has been open for almost three months; they applied barrier creams, foam dressings, and saline gauze, but nothing healed it.",
+        "topic": "Duration and prior treatments"
+      },
+      {
+        "answer": "The skin around the hole is red, and it drains a foul-smelling yellowish pus that soaks through the bandages.",
+        "topic": "Redness discharge and odor"
+      },
+      {
+        "answer": "He has not had any shaking chills, body sweats, high fevers, or sudden worsening of his mental state.",
+        "topic": "Signs of systemic infection"
+      },
+      {
+        "answer": "He stays in bed around the clock; the staff are supposed to turn him every two hours, but with staffing shortages he often lies flat on his back much longer.",
+        "topic": "Bedbound status and repositioning"
+      },
+      {
+        "answer": "He lost control of both his bladder and bowels after the stroke, so he has to wear adult diapers continuously.",
+        "topic": "Bowel and bladder incontinence"
+      },
+      {
+        "answer": "His appetite has been very poor for months, and he barely eats half of his meals, losing about ten pounds recently.",
+        "topic": "Nutritional intake and weight loss"
+      },
+      {
+        "answer": "He suffered a major ischemic stroke two years ago that paralyzed his right side and took away his ability to walk or care for himself.",
+        "topic": "Stroke history and baseline function"
+      },
+      {
+        "answer": "He has never had diabetes, and since he cannot walk at all, he hasn't had any calf cramping.",
+        "topic": "Diabetes and vascular symptoms"
+      },
+      {
+        "answer": "He has not received a tetanus shot in at least twenty or thirty years.",
+        "topic": "Tetanus vaccination status"
+      },
+      {
+        "answer": "He does not take any steroid medications, chemotherapy, or immune-suppressing drugs.",
+        "topic": "Steroid or immunosuppressant use"
+      },
+      {
+        "answer": "There was absolutely no abuse, neglect from violence, or self-harm involved in this.",
+        "topic": "Trauma or intentional injury"
+      },
+      {
+        "answer": "I think my backside broke open because the nursing home staff left me lying in one spot without turning me.",
+        "topic": "Patient and family ideas"
+      },
+      {
+        "answer": "I'm terrified that this sore has gotten into my bone and will give me a fatal blood infection.",
+        "topic": "Family concerns"
+      },
+      {
+        "answer": "I'm hoping you can clean and bandage the sore properly and give me strong antibiotics so it can heal up.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "He has high blood pressure and mild high cholesterol, in addition to the severe stroke two years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He was in the hospital for three weeks after his stroke two years ago, but he has never had any surgeries.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "He takes lisinopril ten milligrams once a day for his blood pressure, and nothing else.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He does not have any known allergies to medications or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "He used to smoke a pack a day for twenty-five years, but he quit completely ten years ago.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "He does not drink any alcohol and hasn't had a drink in decades.",
+        "topic": "Alcohol history"
+      },
+      {
+        "answer": "He is a retired factory machinist and has lived in a specialized nursing facility for the past two years.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "His father had hypertension and his mother passed away from a stroke in her seventies, but there are no other significant family illnesses.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Elderly bedbound male lying in lateral decubitus position, appearing frail and chronically ill with muscle wasting.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 130/80 mmHg, pulse 76 beats per minute, respiratory rate 16 breaths per minute, temperature 36.8°C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert but minimally communicative with expressive dysphasia, following simple one-step commands.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "An 8 cm by 7 cm full-thickness sacral defect with undermined edges, foul-smelling purulent exudate, and visible hard sacral bone with a positive probe-to-bone test, surrounded by 2 cm of periwound erythema without fluctuance.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Dorsalis pedis and posterior tibial pulses are 2+ and symmetric bilaterally with capillary refill under two seconds.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Markedly diminished light touch and pinprick sensation over the sacral region and bilateral lower extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Right lower extremity shows flaccid paralysis with 0/5 motor strength and flexion contractures; left lower extremity shows 3/5 motor strength.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally on auscultation with no wheezing, rhonchi, or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-tender, and non-distended with normal active bowel sounds and no palpable masses.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      }
+    ]
+  }
+}

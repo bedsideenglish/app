@@ -1,0 +1,309 @@
+{
+  "id": "cs_012",
+  "system": "cardiothoracic surgery",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Scott",
+  "age": 26,
+  "gender": "male",
+  "chief_complaint": "severe respiratory distress, absent breath sounds on left, tracheal deviation to right, and hypotension after trauma",
+  "hpi_details": "26M status post chest trauma presenting with cyanosis, severe hypotension, distended neck veins, and left tension pneumothorax requiring immediate decompression at the 4th or 5th intercostal space in the anterior or mid-axillary line followed by chest tube thoracostomy.",
+  "ideas": "too breathless and frightened to think clearly, focused only on not being able to breathe",
+  "concerns": "He is terrified that he is suffocating and going to die on the stretcher within minutes.",
+  "expectations": "He hopes the medical team will immediately do whatever it takes to release the pressure in his chest so he can breathe.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Tension Pneumothorax evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Tension Pneumothorax is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes immediate needle or finger thoracostomy decompression based on clinical diagnosis alone, without waiting for chest imaging, followed by definitive chest tube thoracostomy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe respiratory distress, absent breath sounds on left, tracheal deviation to right, and hypotension after trauma",
+      "Key HPI features: 26M status post chest trauma presenting with cyanosis, severe hypotension, distended neck veins, and left tension pneumothorax requiring immediate decompression at the 4th or 5th intercostal space in the anterior or mid-axillary line followed by chest tube thoracostomy.",
+      "Objective/Exam findings: Vitals: HR 128, BP 78/50, RR 32, SpO2 82% on room air. Cyanosis present. Trachea deviated to the right. Absent breath sounds and hyperresonance to percussion over the left hemithorax. Jugular venous distention. Emergency needle or finger thoracostomy decompression releases a rush of air with rapid improvement in blood pressure and oxygenation.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Tension Pneumothorax.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Simple pneumothorax (no hemodynamic compromise) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Hypotension with absent breath sounds on one side after trauma — treat immediately, do not wait for X-ray."
+    ],
+    "management_principles": [
+      "Treat clinically suspected tension pneumothorax immediately with decompression at the 4th or 5th intercostal space in the anterior or mid-axillary line; do not wait for imaging",
+      "Follow immediately with definitive chest tube thoracostomy and trauma-team management",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "26M status post chest trauma presenting with severe respiratory distress, cyanosis, and hypotension, with clinical findings of left tension pneumothorax.",
+    "objective": "Vitals: HR 128, BP 78/50, RR 32, SpO2 82% on room air. Cyanosis present. Trachea deviated to the right. Absent breath sounds and hyperresonance to percussion over the left hemithorax. Jugular venous distention. Emergency needle or finger thoracostomy decompression releases a rush of air with rapid improvement in blood pressure and oxygenation.",
+    "assessment": "Left tension pneumothorax following chest trauma — an immediately life-threatening clinical diagnosis requiring emergency decompression before any imaging.",
+    "plan": "Treat clinically suspected tension pneumothorax immediately with decompression at the 4th or 5th intercostal space in the anterior or mid-axillary line; do not wait for imaging. Follow immediately with definitive chest tube thoracostomy and trauma-team management."
+  },
+  "learning_objectives": [
+    "Recognize the clinical diagnosis of tension pneumothorax (absent breath sounds, tracheal deviation, hypotension, distended neck veins) without waiting for chest X-ray",
+    "Formulate a prioritized differential diagnosis for severe respiratory distress and hypotension after chest trauma, including simple pneumothorax, cardiac tamponade, and massive hemothorax",
+    "Identify the correct anatomic landmarks and technique for emergency needle or finger thoracostomy decompression",
+    "Outline the sequence from emergency decompression to definitive chest tube thoracostomy and trauma-team management"
+  ],
+  "teaching": {
+    "diagnosis": "Tension Pneumothorax",
+    "one_liner": "Air trapped in the pleural space under increasing pressure collapses the lung and shifts the mediastinum, causing severe respiratory distress, absent breath sounds, and hypotension — needs immediate needle decompression, not imaging first.",
+    "differentials": [
+      "Simple pneumothorax (no hemodynamic compromise)",
+      "Cardiac tamponade",
+      "Massive hemothorax"
+    ],
+    "red_flags": [
+      "Hypotension with absent breath sounds on one side after trauma — treat immediately, do not wait for X-ray"
+    ],
+    "must_ask": [
+      {
+        "objective": "Mechanism of injury",
+        "say": "Can you tell me what happened to your chest?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "trauma",
+          "injury"
+        ]
+      },
+      {
+        "objective": "Breathing difficulty",
+        "say": "How severe is your trouble breathing right now?",
+        "domains": [
+          "severity"
+        ]
+      },
+      {
+        "objective": "Chest pain location",
+        "say": "Where exactly is the chest pain?",
+        "domains": [
+          "location"
+        ]
+      },
+      {
+        "objective": "Lightheadedness",
+        "say": "Do you feel dizzy or like you might pass out?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Neck symptoms",
+        "say": "Does your neck feel full or tight?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "neck veins"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "78/50",
+      "hr": 128,
+      "rr": 32,
+      "spo2": 82,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I was hit hard in the chest about an hour ago, and now I can barely get any air in. It feels like my chest is being crushed and I'm suffocating.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "A heavy wooden beam swung and struck me hard on the left side of my chest at a construction site about an hour ago.",
+        "topic": "Mechanism of injury"
+      },
+      {
+        "answer": "It came on suddenly right after the blow and has been rapidly getting worse over the past hour.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It is unbearable even while sitting completely still. I can't catch my breath at all.",
+        "topic": "Severity of breathing difficulty"
+      },
+      {
+        "answer": "It has been steady and continuously worsening since the impact; I have never felt anything like this before.",
+        "topic": "Continuous nature and previous episodes"
+      },
+      {
+        "answer": "Lying flat makes me feel like I am completely suffocating, so I have to sit straight up leaning forward.",
+        "topic": "Orthopnea and nocturnal symptoms"
+      },
+      {
+        "answer": "Any movement or trying to take a deeper breath makes it much worse, and nothing I do brings relief.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "No, I haven't heard any whistling or wheezing noises, just total inability to move air.",
+        "topic": "Wheezing or whistling sounds"
+      },
+      {
+        "answer": "No cough, no mucus, and I haven't had any fever or chills.",
+        "topic": "Cough, sputum, and fever"
+      },
+      {
+        "answer": "Yes, I have severe, sharp stabbing pain on the left side of my chest that screams whenever I try to inhale.",
+        "topic": "Chest pain location and character"
+      },
+      {
+        "answer": "My heart is pounding fiercely, and I feel extremely dizzy, weak, and lightheaded, like I could pass out any second.",
+        "topic": "Palpitations, dizziness, and fainting"
+      },
+      {
+        "answer": "My neck feels tight and swollen, and it feels like my windpipe is being pushed over to the right.",
+        "topic": "Neck symptoms"
+      },
+      {
+        "answer": "No, I have not coughed up any blood.",
+        "topic": "Coughing up blood"
+      },
+      {
+        "answer": "No, my legs are not swollen and my weight has not changed.",
+        "topic": "Leg swelling and weight gain"
+      },
+      {
+        "answer": "No, neither leg is swollen or tender, and I haven't had recent surgery, bed rest, or any long travel.",
+        "topic": "Deep vein thrombosis risk factors"
+      },
+      {
+        "answer": "No dark stools, unusual bleeding, or sudden fatigue prior to the injury today.",
+        "topic": "Fatigue, pallor, and bleeding"
+      },
+      {
+        "answer": "My fingertips feel a bit tingly and cold, but I'm terrified because I literally cannot breathe.",
+        "topic": "Tingling and anxiety"
+      },
+      {
+        "answer": "No, I have never had asthma, COPD, heart attacks, or lung issues, and I do not use an inhaler.",
+        "topic": "Past cardiopulmonary disease"
+      },
+      {
+        "answer": "No, I do not take beta-blockers, pain relievers, chemotherapy, or amiodarone.",
+        "topic": "Medications causing breathlessness"
+      },
+      {
+        "answer": "I feel like I'm completely suffocating and I'm terrified I'm going to die right here.",
+        "topic": "Ideas and concerns"
+      },
+      {
+        "answer": "I have mild high blood pressure and slightly high cholesterol diagnosed two years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital admissions before today.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once a day for my blood pressure. I don't take any supplements or over-the-counter medicines.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any allergies to medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes, e-cigarettes, or anything else.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink one or two beers on the weekend, nothing heavy.",
+        "topic": "Alcohol use"
+      },
+      {
+        "answer": "I work in building construction and live in an apartment with a roommate. I usually stay very active.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father has high blood pressure, but no one in my family has had lung disease or early heart attacks.",
+        "topic": "Family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 78/50 mmHg, heart rate is 128 bpm, respiratory rate is 32 breaths per minute, oxygen saturation is 82% on room air, and temperature is 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient is in severe respiratory distress, pale and visibly cyanotic, sweating heavily, and actively using neck and intercostal accessory muscles to breathe.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Pronounced jugular venous distention is visible bilaterally with engorged neck veins.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "The trachea is palpably and visibly deviated toward the right side of the suprasternal notch, with no cervical lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Severe tenderness and contusion are noted over the left lateral ribs, with markedly asymmetric, decreased chest wall expansion on the left.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked hyperresonance to percussion is present across the entire left lung field, whereas percussion on the right is normal.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Breath sounds are completely absent throughout the left hemithorax, while vesicular breath sounds are present on the right without wheezes or crackles.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rhythm with distant, muffled heart sounds shifted slightly toward the right hemithorax, with no murmurs or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Radial pulses are rapid, thready, and markedly diminished bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema or swelling is noted in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Both calves are soft and non-tender, with no asymmetric swelling, erythema, or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

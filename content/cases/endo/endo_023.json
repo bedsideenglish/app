@@ -1,0 +1,340 @@
+{
+  "id": "endo_023",
+  "system": "endocrinology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Park",
+  "age": 28,
+  "gender": "female",
+  "chief_complaint": "palpitations, hand tremors, weight loss of 6kg, and heat intolerance for 2 months",
+  "hpi_details": "28F reports racing heart beat (palpitations) even at rest, fine shaking of hands, feeling sweaty and hot in cool rooms, and 6kg weight loss over 2 months. Menstrual cycles have become light and irregular.",
+  "ideas": "thinks she has severe anxiety or panic disorder",
+  "concerns": "worried about heart damage",
+  "expectations": "wants medication to stop the palpitations",
+  "pmh": "Allergic rhinitis",
+  "medications": "Antihistamines PRN",
+  "social_hx": "Web designer, non-smoker",
+  "clinical_knowledge": {
+    "topic": "Hyperthyroidism (Graves' disease) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Hyperthyroidism (Graves' disease) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes confirming thyrotoxicosis with TSH and free T4/T3 and controlling symptoms with a beta-blocker while working up Graves' disease before starting definitive antithyroid therapy, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: palpitations, hand tremors, weight loss of 6kg, and heat intolerance for 2 months",
+      "Key HPI features: 28F reports racing heart beat (palpitations) even at rest, fine shaking of hands, feeling sweaty and hot in cool rooms, and 6kg weight loss over 2 months. Menstrual cycles have become light and irregular.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Hyperthyroidism, highly suggestive of Graves disease.",
+      "Relevant background/PMH: Allergic rhinitis",
+      "Current medications: Antihistamines PRN"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Hyperthyroidism (Graves' disease).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Anxiety/panic disorder without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Very high fever with extreme agitation — could herald thyroid storm."
+    ],
+    "management_principles": [
+      "Assess pregnancy status before selecting antithyroid therapy, since methimazole carries teratogenic risk in the first trimester and propylthiouracil is preferred if treatment is needed during early pregnancy",
+      "Confirm thyrotoxicosis with TSH and free T4/T3, assess for Graves disease, and use a beta-blocker for symptomatic control; when antithyroid therapy is indicated, counsel on methimazole adverse effects and obtain baseline blood count and liver tests",
+      "Screen for eye involvement (Graves' orbitopathy) on exam and refer to Ophthalmology if present"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American Thyroid Association (ATA) Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis",
+        "url": "https://www.thyroid.org/professionals/ata-professional-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Hyperthyroidism, highly suggestive of Graves disease. palpitations, hand tremors, weight loss of 6kg, and heat intolerance for 2 months. 28F reports racing heart beat (palpitations) even at rest, fine shaking of hands, feeling sweaty and hot in cool rooms, and 6kg weight loss over 2 months. Menstrual cycles have become light and irregular.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Hyperthyroidism, highly suggestive of Graves disease.",
+    "assessment": "Hyperthyroidism, highly suggestive of Graves' disease, given the resting tachycardia, tremor, weight loss despite normal appetite, heat intolerance, and menstrual irregularity in a young woman.",
+    "plan": "Confirm thyrotoxicosis with TSH and free T4/T3 and assess for Graves disease with receptor antibodies and/or uptake imaging when appropriate. Use a beta-blocker for symptomatic control if no contraindication. When methimazole is indicated, obtain baseline blood count and liver tests and counsel the patient to stop it and seek urgent evaluation for fever, sore throat, jaundice, or dark urine. Assess pregnancy status and intentions before treatment selection. Refer to Endocrinology."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hyperthyroidism, highly suggestive of Graves disease.",
+    "Formulate prioritized differential diagnosis for palpitations, hand tremors, weight loss of 6kg, and heat intolerance for 2 months",
+    "Select appropriate laboratory and imaging studies for endocrinology",
+    "Implement evidence-based acute and long-term management strategies for Hyperthyroidism, highly suggestive of Graves disease."
+  ],
+  "teaching": {
+    "diagnosis": "Hyperthyroidism (Graves' disease)",
+    "one_liner": "Excess thyroid hormone causing resting palpitations, tremor, weight loss despite normal eating, and heat intolerance in a young woman — treated with methimazole and a beta-blocker for symptom control.",
+    "differentials": [
+      "Anxiety/panic disorder",
+      "Pheochromocytoma"
+    ],
+    "red_flags": [
+      "Very high fever with extreme agitation — could herald thyroid storm"
+    ],
+    "must_ask": [
+      {
+        "objective": "Palpitations at rest",
+        "say": "Does your heart race even when you're resting?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Tremor",
+        "say": "Have you noticed your hands shaking?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Weight and appetite",
+        "say": "Have you lost weight without trying to diet?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Heat intolerance",
+        "say": "Do you feel hot or sweaty in cool rooms?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Menstrual changes",
+        "say": "Have your periods changed?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "134/74",
+      "hr": 108,
+      "rr": 18,
+      "spo2": 99,
+      "temp_c": 37.2
+    },
+    "history": [
+      {
+        "answer": "My hands have been shaking and my heart has been racing like crazy for the past two months.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The shaking is most noticeable when I hold my arms out, type, or hold a cup of water, but it feels like it is there all day.",
+        "topic": "Tremor triggers and posture"
+      },
+      {
+        "answer": "It is in both of my hands equally. My head, legs, and voice haven't been shaking at all.",
+        "topic": "Tremor location and symmetry"
+      },
+      {
+        "answer": "It started gradually about two months ago, and both the shaking and the heart racing have gotten steadily worse.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "No, I haven't had any sudden numbness, weakness on one side, or trouble speaking.",
+        "topic": "Weakness or speech changes"
+      },
+      {
+        "answer": "It gets worse when I'm stressed or tired, and resting my hands doesn't completely stop the trembling.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "It is really affecting my work as a web designer because typing and using the mouse are so hard, and I spill drinks from cups.",
+        "topic": "Impact on daily activities"
+      },
+      {
+        "answer": "My handwriting has gotten very shaky and messy, but the letters aren't getting tiny or cramped.",
+        "topic": "Handwriting changes"
+      },
+      {
+        "answer": "No, I don't feel slow or stiff at all. If anything, I feel hyperactive and restless, like I can't sit still.",
+        "topic": "Slowness and stiffness"
+      },
+      {
+        "answer": "My smell is fine, and I haven't had constipation; actually, I have had two or three loose bowel movements every single day.",
+        "topic": "Non-motor symptoms and bowels"
+      },
+      {
+        "answer": "No, I have no problem with my balance and I haven't been stumbling or losing my footing.",
+        "topic": "Balance and coordination"
+      },
+      {
+        "answer": "My heart pounds and beats very fast even when I am just lying down and resting on the sofa.",
+        "topic": "Palpitations and heart rate"
+      },
+      {
+        "answer": "I feel hot all the time and sweat constantly, even when the air conditioner is running and everyone else is chilly.",
+        "topic": "Heat intolerance and sweating"
+      },
+      {
+        "answer": "I lost 6 kilograms over the last two months without trying, even though my appetite has increased and I eat more.",
+        "topic": "Weight change and appetite"
+      },
+      {
+        "answer": "I've been feeling extremely anxious and irritable, and I have a terrible time falling asleep at night.",
+        "topic": "Mood and sleep difficulties"
+      },
+      {
+        "answer": "No, the trembling doesn't happen just when I skip meals or feel hungry; it is there constantly.",
+        "topic": "Fasting or hunger symptoms"
+      },
+      {
+        "answer": "I just have one regular cup of coffee in the morning, which has always been my normal routine.",
+        "topic": "Caffeine consumption"
+      },
+      {
+        "answer": "I only drink a glass of wine or beer once or twice a month socially, so I haven't recently stopped heavy drinking.",
+        "topic": "Alcohol and withdrawal"
+      },
+      {
+        "answer": "No, I don't use asthma inhalers, thyroid medications, lithium, antidepressants, or antipsychotic drugs.",
+        "topic": "Tremor-inducing medications"
+      },
+      {
+        "answer": "No one in my family has ever had hand tremors, Parkinson's disease, or nervous system disorders.",
+        "topic": "Family history of tremor"
+      },
+      {
+        "answer": "No, I have never had yellow eyes, jaundice, or any liver problems.",
+        "topic": "Jaundice or liver disease"
+      },
+      {
+        "answer": "My periods used to be very regular, but over the past two months they have become very light and irregular.",
+        "topic": "Menstrual cycle changes"
+      },
+      {
+        "answer": "My neck feels slightly full in the front, but it does not hurt to touch or when I swallow.",
+        "topic": "Neck swelling or pain"
+      },
+      {
+        "answer": "My eyes have felt a bit dry and irritated lately, but I haven't had double vision or noticed them bulging out.",
+        "topic": "Eye changes or vision"
+      },
+      {
+        "answer": "No, I have not had any fever or chills.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "I honestly thought I was developing severe anxiety or having panic attacks because of the constant heart racing.",
+        "topic": "Patient's idea of diagnosis"
+      },
+      {
+        "answer": "I'm terrified that this rapid heartbeat is going to cause a heart attack or permanent heart damage.",
+        "topic": "Patient's main concern"
+      },
+      {
+        "answer": "I really hope you can prescribe something today to calm my heart down and stop this shaking.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I only have seasonal allergic rhinitis, which flares up occasionally in the spring.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been hospitalized.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I only take an over-the-counter antihistamine once in a while when my allergies act up.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications that I know of.",
+        "topic": "Allergies to medications"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any nicotine products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have an occasional drink once or twice a month at social gatherings.",
+        "topic": "Social alcohol use"
+      },
+      {
+        "answer": "I work as a web designer and I live alone in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother has an overactive thyroid condition, but my parents are otherwise healthy.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last menstrual period started about two weeks ago, and the bleeding was unusually light.",
+        "topic": "Last menstrual period"
+      },
+      {
+        "answer": "My partner and I use condoms for birth control, and a home pregnancy test last week was negative.",
+        "topic": "Contraception and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 134/74 mmHg, pulse 108 beats per minute and regular, respiratory rate 18 breaths per minute, temperature 37.2°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, anxious-appearing young female who appears restless and fidgety, with visible fine hand tremors.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Mild bilateral upper eyelid retraction and infrequent blinking; extraocular movements intact without proptosis or diplopia.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetrically, diffusely enlarged thyroid gland, soft and non-tender without palpable nodules; faint vascular bruit audible.",
+        "maneuver": "thyroid_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic rate with regular rhythm, crisp S1 and S2, and no murmurs, gallops, or rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Rapid, bounding radial pulses bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is noticeably warm, smooth, and moist with mild palmar erythema; no pretibial edema or plaques.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Prominent high-frequency, fine postural tremor in both hands when arms are held outstretched; minimal resting tremor on lap.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle tone throughout without cogwheel rigidity; finger tapping is rapid and brisk without decrement.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Finger-to-nose test shows intact targeting without dysmetria or intention tremor; gait is steady with normal stride and arm swing.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Brisk symmetric deep tendon reflexes (3+) at the biceps and knees with rapid relaxation phase; plantar responses flexor.",
+        "maneuver": "reflexes",
+        "response": "none"
+      }
+    ]
+  }
+}

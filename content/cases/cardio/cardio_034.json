@@ -1,0 +1,407 @@
+{
+  "id": "cardio_034",
+  "system": "cardio",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Scott",
+  "age": 44,
+  "gender": "female",
+  "chief_complaint": "high fever, night sweats, and new heart murmur in IV drug user",
+  "hpi_details": "A 44-year-old female presents to the clinic with high fever, night sweats, and new heart murmur in iv drug user. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+  "ideas": "She thinks she has a persistent bout of the flu or a chest infection that her immune system cannot shake off.",
+  "concerns": "She is worried she might have lymphoma because the drenching night sweats remind her of a close friend's cancer.",
+  "expectations": "She hopes to receive a prescription for strong antibiotics and a blood test to clear the fever before the weekend.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "endocarditis_blood_cultures",
+      "title": "Blood culture results",
+      "order_terms": ["blood cultures", "blood culture", "culture sets"],
+      "availability_message": "The blood culture results are now available.",
+      "results": [
+        {
+          "id": "cultures_mssa_endocarditis",
+          "test": "Blood cultures",
+          "value": "Methicillin-susceptible Staphylococcus aureus isolated from all 3 sets",
+          "unit": "",
+          "reference_range": "No growth",
+          "flag": "positive",
+          "specimen": "Blood",
+          "collected_at": "Three sets before antibiotics"
+        }
+      ]
+    },
+    {
+      "id": "endocarditis_echo",
+      "title": "Transthoracic echocardiogram",
+      "order_terms": ["echocardiogram", "echo", "TTE", "transesophageal echo", "TEE"],
+      "availability_message": "The echocardiogram report is now available.",
+      "results": [
+        {
+          "id": "echo_tricuspid_vegetation",
+          "test": "Transthoracic echocardiogram",
+          "value": "Mobile 16 x 8 mm vegetation on the tricuspid valve with moderate tricuspid regurgitation",
+          "unit": "",
+          "reference_range": "No vegetation",
+          "flag": "critical",
+          "collected_at": "During admission"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Infective Endocarditis evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Infective Endocarditis is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Management requires urgent hospital evaluation, three blood-culture sets before antibiotics when feasible, and echocardiography (usually transthoracic first, followed by transesophageal imaging when indicated); empiric antibiotics should follow culture collection and local infectious-disease guidance.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: high fever, night sweats, and new heart murmur in IV drug user",
+      "Key HPI features: A 44-year-old female presents to the clinic with high fever, night sweats, and new heart murmur in iv drug user. The patient states the symptoms started recently and have been gradually worsening, accompanied by generalized fatigue.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Infective Endocarditis.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Infective Endocarditis.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Occult malignancy without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: New heart failure, stroke, or embolic phenomena."
+    ],
+    "management_principles": [
+      "Urgently admit, obtain three blood-culture sets before antibiotics when feasible, obtain transthoracic echocardiography followed by transesophageal imaging when indicated, and begin empiric antibiotics using local infectious-disease guidance",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "2023 ESC Guidelines for the Management of Endocarditis",
+        "url": "https://academic.oup.com/eurheartj/article/44/39/3948/7243107"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of high fever, night sweats, and new heart murmur in IV drug user. HPI: bacterial valvular colonization.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Infective Endocarditis.",
+    "assessment": "Condition highly suspicious for Infective Endocarditis.",
+    "plan": "Urgently admit, obtain three blood-culture sets before antibiotics when feasible, obtain transthoracic echocardiography followed by transesophageal imaging when indicated, and begin empiric antibiotics using local infectious-disease guidance. Involve cardiology and infectious diseases promptly."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Infective Endocarditis",
+    "Select appropriate diagnostic workup for Infective Endocarditis",
+    "Implement evidence-based management plan: Obtain blood cultures before antibiotics when feasible, use staged echocardiography, and initiate empiric treatment with specialist guidance"
+  ],
+  "teaching": {
+    "diagnosis": "Infective Endocarditis",
+    "one_liner": "Infection of a heart valve. Fever plus a new murmur is the pairing that must not be missed, and the history hunts for a source.",
+    "differentials": [
+      "Occult malignancy",
+      "Rheumatic fever",
+      "Systemic vasculitis"
+    ],
+    "red_flags": [
+      "New heart failure, stroke, or embolic phenomena"
+    ],
+    "must_ask": [
+      {
+        "objective": "Fever duration and pattern",
+        "say": "How long have you had the fevers?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "fever",
+          "temperature"
+        ]
+      },
+      {
+        "objective": "Night sweats and weight loss",
+        "say": "Have you been sweating at night or losing weight?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "night",
+          "sweat",
+          "sweating",
+          "weight",
+          "lost"
+        ]
+      },
+      {
+        "objective": "Predisposing valve disease",
+        "say": "Do you have any known heart valve problem or a prosthetic valve?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "valve",
+          "murmur",
+          "prosthetic",
+          "rheumatic"
+        ]
+      },
+      {
+        "objective": "Source — dental work, procedures, IV drug use",
+        "say": "Have you had dental treatment, a procedure, or do you inject any drugs?",
+        "domains": [
+          "pmh",
+          "substances"
+        ],
+        "keywords": [
+          "dental",
+          "dentist",
+          "procedure",
+          "inject",
+          "drug",
+          "needle"
+        ]
+      },
+      {
+        "objective": "Embolic phenomena",
+        "say": "Any sudden weakness, vision problems, or painful lumps on your fingers?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "weakness",
+          "vision",
+          "finger",
+          "lump",
+          "painful"
+        ]
+      },
+      {
+        "objective": "Exertional breathlessness",
+        "say": "How far can you walk on the flat before you need to stop?",
+        "domains": [
+          "severity",
+          "aggravating"
+        ],
+        "keywords": [
+          "walk",
+          "breath",
+          "stairs"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "114/72",
+      "hr": 104,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 38.9
+    },
+    "history": [
+      {
+        "answer": "I have had a high fever and drenching night sweats for the past five days, and I feel completely exhausted.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The high fever started about five days ago and has been gradually getting worse every single day.",
+        "topic": "Fever onset and duration"
+      },
+      {
+        "answer": "My temperature reached 39.2 degrees at home yesterday, and the fever comes with severe shaking chills followed by heavy sweating.",
+        "topic": "Fever pattern and chills"
+      },
+      {
+        "answer": "I tried taking ibuprofen two days ago, but it only brought my fever down for a couple of hours before it spiked again.",
+        "topic": "Fever medication response"
+      },
+      {
+        "answer": "No, I haven't had any cough, phlegm, or sore throat at all.",
+        "topic": "Respiratory symptoms"
+      },
+      {
+        "answer": "I feel a bit winded when I walk up stairs or carry groceries, which is completely new for me.",
+        "topic": "Exertional breathlessness"
+      },
+      {
+        "answer": "No, I don't have any pain or burning when I urinate, no frequent urination, and no flank pain.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No stomach pain, nausea, vomiting, or diarrhea; my appetite is just lower than usual.",
+        "topic": "Gastrointestinal symptoms"
+      },
+      {
+        "answer": "I have a mild dull headache with the fever, but no severe sudden headache, stiff neck, or confusion.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, I haven't noticed any unusual skin rashes, black bug bite scabs, or swollen painful joints.",
+        "topic": "Rash and joint symptoms"
+      },
+      {
+        "answer": "I've had severe night sweats every night this week where I wake up drenched, and I think I've lost about two kilograms over the past two weeks.",
+        "topic": "Night sweats and weight loss"
+      },
+      {
+        "answer": "No, I haven't felt any lumps or swollen glands in my neck, armpits, or groin.",
+        "topic": "Swollen lymph nodes"
+      },
+      {
+        "answer": "No, I have not traveled abroad, gone hiking in tall grass, or handled farm animals recently.",
+        "topic": "Travel and outdoor exposures"
+      },
+      {
+        "answer": "No one around me is sick or running a fever.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, I have never had chemotherapy and I do not take steroids or any immune system medications.",
+        "topic": "Immunosuppressant medications"
+      },
+      {
+        "answer": "I have never had any heart murmurs, valve problems, or rheumatic fever, and I haven't had any dental work or surgical procedures recently.",
+        "topic": "Cardiac history and dental work"
+      },
+      {
+        "answer": "No, I haven't started taking any new prescription drugs or herbal products.",
+        "topic": "Recent new medications"
+      },
+      {
+        "answer": "I inject heroin intravenously into my arm veins, mostly about twice a week, and I last injected three days ago using equipment that might have been shared.",
+        "topic": "Intravenous drug use"
+      },
+      {
+        "answer": "I am in a monogamous relationship with my long-term partner and haven't had any new sexual contacts.",
+        "topic": "Sexual history"
+      },
+      {
+        "answer": "No, I haven't seen any painful red bumps on my fingertips, spots on my palms or soles, or bleeding under my nails.",
+        "topic": "Embolic phenomena"
+      },
+      {
+        "answer": "I thought I just caught a nasty strain of the flu or a chest bug that my body can't seem to shake.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm really worried this could be lymphoma, because my close friend had these exact same drenching night sweats before her diagnosis.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I'm hoping to get some strong antibiotics and have my blood checked so I can get rid of this fever before the weekend.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have always been healthy and have never been diagnosed with any chronic medical illnesses like diabetes or high blood pressure.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was nineteen, but no other surgeries or hospital stays since then.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any regular prescription medications, over-the-counter pills, or vitamins.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to antibiotics or other medications.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used vape products.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only have a glass of beer once or twice a month socially.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work part-time at a local convenience store and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "There is no history of early heart disease, rheumatic fever, or immune disorders in my family.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "My last menstrual period was two weeks ago, and my cycles are regular every twenty-eight days.",
+        "topic": "Menstrual history"
+      },
+      {
+        "answer": "We use condoms regularly, and there is no chance that I could be pregnant right now.",
+        "topic": "Contraception and pregnancy"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 114/72 mmHg, heart rate 104 beats per minute, respiratory rate 18 breaths per minute, temperature 38.9°C, and oxygen saturation 98% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Mild conjunctival pallor; no subconjunctival petechiae, hemorrhages, or scleral icterus observed.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Tympanic membranes are pearly grey and intact bilaterally without erythema or effusion.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Pharynx is pink and moist without erythema, exudates, or petechiae; dentition shows no gross caries or abscess.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "No palpable anterior or posterior cervical, submandibular, or supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic, regular rhythm with a new grade 3/6 holosystolic murmur audible at the left lower sternal border that slightly accentuates on inspiration.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally throughout all lung fields with no crackles, wheezes, or pleural friction rubs.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, flat, and non-tender throughout with no rebound tenderness or guarding.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "The spleen tip is palpable approximately 1 cm below the left costal margin; liver edge is non-palpable and smooth.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally on direct percussion.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Linear needle puncture track marks and mild healed scarring noted along both antecubital veins; no Janeway lesions, Osler nodes, splinter hemorrhages, or diffuse petechiae.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full passive range of motion; negative Kernig and Brudzinski signs.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

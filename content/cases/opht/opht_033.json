@@ -1,0 +1,312 @@
+{
+  "id": "opht_033",
+  "system": "opht",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Anderson",
+  "age": 41,
+  "gender": "male",
+  "chief_complaint": "gradual peripheral vision loss, elevated IOP 26",
+  "hpi_details": "A 41-year-old male presents with gradually progressive peripheral vision loss and an intraocular pressure of 26 mmHg.",
+  "ideas": "He thinks chronic stress, exhaustion, and long hours at work have been straining his optic nerves and narrowing his vision.",
+  "concerns": "He is worried that a growing brain tumor is pressing on his visual nerves and shrinking his field of view.",
+  "expectations": "He hopes for a head scan to make sure nothing is pressing on his brain and drops to relieve the pressure in his eyes.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "available_results": [{"id": "intraocular_pressure", "test": "Intraocular pressure", "value": "26", "unit": "mmHg", "reference_range": "10-21", "flag": "high"}],
+  "clinical_knowledge": {
+    "topic": "Primary open-angle glaucoma evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Primary open-angle glaucoma is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Primary Open-Angle Glaucoma: Prostaglandin analog drops (Latanoprost), monitor visual fields, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: gradual peripheral vision loss, elevated IOP 26",
+      "Key HPI features: A 41-year-old male presents with gradually progressive peripheral vision loss and an intraocular pressure of 26 mmHg.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Primary Open-Angle Glaucoma.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Primary open-angle glaucoma.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Normal-tension glaucoma without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring that glaucoma is often asymptomatic until advanced, making screening and regular monitoring critical."
+    ],
+    "management_principles": [
+      "Plan for Primary Open-Angle Glaucoma: Prostaglandin analog drops (Latanoprost), monitor visual fields",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of gradual peripheral vision loss, elevated IOP 26. HPI: primary open-angle glaucoma.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Primary Open-Angle Glaucoma.",
+    "assessment": "Condition highly suspicious for Primary Open-Angle Glaucoma.",
+    "plan": "Plan for Primary Open-Angle Glaucoma: Prostaglandin analog drops (Latanoprost), monitor visual fields. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Primary Open-Angle Glaucoma",
+    "Select appropriate diagnostic workup for Primary Open-Angle Glaucoma",
+    "Implement evidence-based management plan: Prostaglandin analog drops (Latanoprost), monitor visual fields"
+  ],
+  "teaching": {
+    "diagnosis": "Primary open-angle glaucoma",
+    "one_liner": "Patient with gradual peripheral vision loss and elevated intraocular pressure of 26.",
+    "differentials": [
+      "Normal-tension glaucoma",
+      "Secondary glaucoma",
+      "Optic nerve compression"
+    ],
+    "red_flags": [
+      "Glaucoma is often asymptomatic until advanced, making screening and regular monitoring critical"
+    ],
+    "must_ask": [
+      {
+        "objective": "Ask about awareness of peripheral vision loss",
+        "say": "Have you noticed any difficulty seeing things to the side, or bumping into objects?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "peripheral vision loss"
+        ]
+      },
+      {
+        "objective": "Ask about family history of glaucoma",
+        "say": "Does anyone in your family have glaucoma?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "family history"
+        ]
+      },
+      {
+        "objective": "Ask about prior eye pressure checks",
+        "say": "Have you had your eye pressure checked before, and was it ever high?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "prior IOP"
+        ]
+      },
+      {
+        "objective": "Confirm absence of pain (differentiate from acute glaucoma)",
+        "say": "Is there any pain or redness, or is it painless?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "painless"
+        ]
+      },
+      {
+        "objective": "Explain the eye drop treatment and monitoring plan",
+        "say": "We'll start a daily eye drop to lower your eye pressure and monitor your visual fields regularly.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "prostaglandin analog",
+          "visual field monitoring"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "120/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "I've noticed over the past few months that I can't see things on the sides as well as I used to.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started about five or six months ago, creeping up so slowly that I barely noticed it at first.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It seems to affect both of my eyes, especially out toward the sides when I look straight ahead.",
+        "topic": "Affected eyes"
+      },
+      {
+        "answer": "No, it does not come and go; the blind spots at the edges have stayed constant once they appeared.",
+        "topic": "Transient vision loss"
+      },
+      {
+        "answer": "My straight-ahead central vision is still pretty clear, but the outer borders feel narrow, like looking through a slight tunnel.",
+        "topic": "Pattern of visual disturbance"
+      },
+      {
+        "answer": "Both near and far look okay in the center, and I haven't needed to change my reading glasses recently.",
+        "topic": "Distance and near vision"
+      },
+      {
+        "answer": "No, I haven't noticed any glare or rainbow-colored halos around lights, though driving at dusk feels a bit more difficult.",
+        "topic": "Glare, halos, and night vision"
+      },
+      {
+        "answer": "No, I haven't seen any black spots drifting around, flashes of light, or anything like a curtain falling over my eyes.",
+        "topic": "Floaters, flashes, or curtain effect"
+      },
+      {
+        "answer": "No, I don't see double images whether I keep both eyes open or cover one eye.",
+        "topic": "Double vision"
+      },
+      {
+        "answer": "No, my eyelids are not drooping, and I don't feel muscle fatigue, weakness, or trouble chewing in the evenings.",
+        "topic": "Eyelid drooping and fatigue"
+      },
+      {
+        "answer": "No, my eyes feel completely fine with no ache, pain when moving them, or redness.",
+        "topic": "Eye pain and redness"
+      },
+      {
+        "answer": "No, I haven't had any new headaches, throbbing in my temples, jaw tiredness when chewing, or shoulder aches.",
+        "topic": "Headaches and jaw claudication"
+      },
+      {
+        "answer": "No, I have had no weakness, numbness in my arms or legs, slurred speech, or dizziness.",
+        "topic": "Neurological symptoms"
+      },
+      {
+        "answer": "No, I have never had any injury or hit to my eyes or head.",
+        "topic": "Head or eye trauma"
+      },
+      {
+        "answer": "I don't have diabetes or high blood pressure, and my routine health checkups have always been normal.",
+        "topic": "Diabetes and hypertension"
+      },
+      {
+        "answer": "No, I've never been diagnosed with heart rhythm problems, carotid disease, or vascular issues.",
+        "topic": "Cardiovascular risk factors"
+      },
+      {
+        "answer": "I've worn glasses for mild nearsightedness, but I've never had eye surgery or a previous eye disease diagnosis.",
+        "topic": "Prior eye conditions and surgery"
+      },
+      {
+        "answer": "I haven't had my eye pressure checked in several years, not since a routine eye exam a long time ago.",
+        "topic": "Prior eye pressure checks"
+      },
+      {
+        "answer": "No, I have never taken steroid pills, steroid eye drops, hydroxychloroquine, or tuberculosis medications.",
+        "topic": "Steroid and high-risk medications"
+      },
+      {
+        "answer": "My father was treated for open-angle glaucoma in his fifties, but there's no macular degeneration in my family.",
+        "topic": "Family history of glaucoma"
+      },
+      {
+        "answer": "I've bumped my shoulder into doorframes a couple of times and feel hesitant changing lanes while driving, but I haven't fallen.",
+        "topic": "Impact on daily activities"
+      },
+      {
+        "answer": "I thought working eighty-hour weeks and running on very little sleep was just straining my eyes and causing tunnel vision.",
+        "topic": "Suspected cause"
+      },
+      {
+        "answer": "I'm worried that a tumor in my brain might be pressing against my visual nerves, because that happened to a coworker of mine.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I hope I can get an MRI to rule out anything serious in my head and get whatever drops are needed to protect my sight.",
+        "topic": "Expectations for visit"
+      },
+      {
+        "answer": "I have no history of chronic medical conditions like asthma, kidney disease, or liver problems.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries or hospital admissions.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I don't take any prescription medicines, over-the-counter drugs, herbal remedies, or eye drops.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or seasonal triggers.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco products.",
+        "topic": "Smoking"
+      },
+      {
+        "answer": "I drink a glass of beer once or twice a month socially, but nothing heavy.",
+        "topic": "Alcohol"
+      },
+      {
+        "answer": "I work as an office accountant and live with my wife and teenage daughter.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "Aside from my father's glaucoma, my mother has mild high blood pressure, but no other major hereditary conditions run in the family.",
+        "topic": "General family history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 120/78 mmHg, heart rate is 72 beats per minute, respiratory rate is 14 breaths per minute, body temperature is 36.6°C, and oxygen saturation is 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "The patient appears comfortable and in no acute distress, with normal posture and behavior.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae are white and non-icteric; conjunctivae are pink without ciliary injection or discharge.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Corrected visual acuity is 20/20 in both eyes; pupils are equal, round, and reactive to light with no relative afferent pupillary defect; confrontation testing reveals bilateral peripheral visual field constriction; fundoscopy shows enlarged cup-to-disc ratio of 0.7 bilaterally with thinning of the neuroretinal rim and clear media.",
+        "maneuver": "eye_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Extraocular movements are full without restriction or nystagmus, and there is no ptosis or facial asymmetry.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral superficial temporal arteries are non-tender, smooth, and normally pulsatile without scalp tenderness.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone, with 5/5 motor strength in all four limbs and normal sensation throughout.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

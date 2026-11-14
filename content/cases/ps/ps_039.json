@@ -1,0 +1,345 @@
+{
+  "id": "ps_039",
+  "system": "ps",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Williams",
+  "age": 59,
+  "gender": "female",
+  "chief_complaint": "chronic back/shoulder pain and grooving from bra straps",
+  "hpi_details": "A 59-year-old female presents with chronic back and shoulder pain and bra-strap grooving related to large breasts. Symptoms have persisted despite supportive garments and conservative measures.",
+  "ideas": "She thinks the heavy weight of her chest has pulled her upper spine out of alignment and pinched nerves in her neck.",
+  "concerns": "She is worried that the chronic strain will permanently damage her spine and stop her from lifting and playing with her grandchildren.",
+  "expectations": "She hopes to obtain a clinical referral and documentation to get breast reduction surgery covered by insurance.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "clinical_knowledge": {
+    "topic": "Breast Reduction mammaplasty evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Breast Reduction mammaplasty is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Plan for Breast Reduction mammaplasty: Discuss surgical reduction mammaplasty, insurance check, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: chronic back/shoulder pain and grooving from bra straps",
+      "Key HPI features: A 59-year-old female presents with chronic back and shoulder pain and bra-strap grooving related to macromastia.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Breast Reduction mammaplasty.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Breast Reduction mammaplasty.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Soft tissue infection without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Proceeding with elective reduction before evaluating suspicious breast findings or optimizing surgical risk."
+    ],
+    "management_principles": [
+      "Plan for Breast Reduction mammaplasty: Discuss surgical reduction mammaplasty, insurance check",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of chronic back/shoulder pain and grooving from bra straps. HPI: macromastia (heavy breasts).",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Breast Reduction mammaplasty.",
+    "assessment": "Condition highly suspicious for Breast Reduction mammaplasty.",
+    "plan": "Plan for Breast Reduction mammaplasty: Discuss surgical reduction mammaplasty, insurance check. Consult specialist if symptoms worsen. Counsel patient."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Breast Reduction mammaplasty",
+    "Select appropriate diagnostic workup for Breast Reduction mammaplasty",
+    "Implement evidence-based management plan: Discuss surgical reduction mammaplasty, insurance check"
+  ],
+  "teaching": {
+    "diagnosis": "Breast Reduction mammaplasty",
+    "one_liner": "Plastic and reconstructive surgical case presenting with chronic back/shoulder pain and grooving from bra straps.",
+    "differentials": [
+      "Breast ptosis without hypertrophy",
+      "Postural musculoskeletal pain unrelated to breast size",
+      "Fibrocystic breast disease",
+      "Unilateral breast mass requiring workup before reduction"
+    ],
+    "red_flags": [
+      "New breast mass, nipple discharge or retraction, focal skin change, or axillary node requiring diagnostic breast evaluation before elective surgery",
+      "Skin breakdown, fever, or spreading erythema under the breasts suggesting significant infection"
+    ],
+    "must_ask": [
+      {
+        "objective": "Onset and duration of symptoms",
+        "say": "How long have you had back and shoulder pain related to your breast size?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "back pain",
+          "shoulder",
+          "duration",
+          "years",
+          "onset"
+        ]
+      },
+      {
+        "objective": "Conservative measures tried",
+        "say": "What have you tried already, like supportive bras or physical therapy?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "bra",
+          "physical therapy",
+          "conservative",
+          "tried",
+          "measures"
+        ]
+      },
+      {
+        "objective": "Skin changes under the breasts",
+        "say": "Do you get rashes or skin irritation under your breasts?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "rash",
+          "irritation",
+          "intertrigo",
+          "skin",
+          "under"
+        ]
+      },
+      {
+        "objective": "Impact on daily activities and exercise",
+        "say": "How does the pain affect your ability to exercise or do daily activities?",
+        "domains": [
+          "ideas",
+          "concerns"
+        ],
+        "keywords": [
+          "activity",
+          "exercise",
+          "limit",
+          "daily",
+          "function"
+        ]
+      },
+      {
+        "objective": "Breast cancer screening history",
+        "say": "Have you had regular mammograms, and any personal or family history of breast cancer?",
+        "domains": [
+          "pmh",
+          "family_hx"
+        ],
+        "keywords": [
+          "mammogram",
+          "screening",
+          "cancer",
+          "family",
+          "history"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/76",
+      "hr": 68,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My breasts are so heavy that my upper back and shoulders ache constantly, and my bra straps dig painful grooves right into my shoulders.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I have always had large breasts, but the aching in my neck, shoulders, and upper back has become steadily worse over the past five years.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "The pain is spread across both shoulders, the back of my neck, and between my shoulder blades down my upper back.",
+        "topic": "Location and radiation"
+      },
+      {
+        "answer": "It feels like a constant, dull, heavy ache, as if I have been carrying a weighted backpack all day. On busy days, it reaches about a six or seven out of ten.",
+        "topic": "Character and severity"
+      },
+      {
+        "answer": "The aching is there almost every day from morning until night, and it has gradually become harder to bear as the years have gone by.",
+        "topic": "Duration and progression"
+      },
+      {
+        "answer": "Standing or walking for a long time makes it much worse, as does wearing tight bras or carrying groceries.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "Lying flat on my back relieves some of the tension, and taking off my bra relieves the strap pressure, though the heavy pulling remains.",
+        "topic": "Relieving factors"
+      },
+      {
+        "answer": "Yes, my bra straps leave deep, indented grooves across the tops of both shoulders that stay red, sore, and tender even after I take the bra off.",
+        "topic": "Bra strap grooving"
+      },
+      {
+        "answer": "During warm weather or after sweating, the skin under both breasts becomes red, itchy, and irritated, though I use powder to keep it dry.",
+        "topic": "Skin changes under the breasts"
+      },
+      {
+        "answer": "No, the skin has never broken open, blistered, bled, or had any foul-smelling drainage.",
+        "topic": "Skin breakdown or infection"
+      },
+      {
+        "answer": "Sometimes my fingers feel slightly tingly when the straps press hard on my shoulders, but I have no constant numbness or weakness in my arms.",
+        "topic": "Numbness or tingling in arms"
+      },
+      {
+        "answer": "No, I check my breasts regularly and have not felt any lumps, hardness, or focal changes in either breast.",
+        "topic": "Breast lumps or masses"
+      },
+      {
+        "answer": "No, I have never had any fluid leaking from my nipples, and they have not pulled inward.",
+        "topic": "Nipple discharge or retraction"
+      },
+      {
+        "answer": "No, I have not had any fevers, chills, or night sweats.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "My weight has been completely stable around one hundred and forty pounds for the past several years.",
+        "topic": "Weight changes"
+      },
+      {
+        "answer": "I bought specialty wide-strap bras, supportive sports bras, and completed four months of physical therapy for neck and core strengthening, but none of it provided lasting relief.",
+        "topic": "Conservative measures tried"
+      },
+      {
+        "answer": "I take over-the-counter ibuprofen or acetaminophen once or twice a week when it gets intense, but it only dulls the ache for a few hours.",
+        "topic": "Medications tried"
+      },
+      {
+        "answer": "My primary care doctor examined my spine and shoulders two years ago and said the spine looked fine and the ache was chronic muscular strain from breast weight.",
+        "topic": "Previous medical evaluation"
+      },
+      {
+        "answer": "I get routine screening mammograms every one to two years. My last one was about ten months ago, and the results were completely normal.",
+        "topic": "Breast cancer screening history"
+      },
+      {
+        "answer": "It limits my life quite a bit. I cannot jog or do aerobic exercise because the bouncing causes too much pain, and doing household chores leaves my back exhausted.",
+        "topic": "Impact on daily activities and exercise"
+      },
+      {
+        "answer": "It is difficult to find a comfortable position to sleep, especially on my side or stomach, because of the pressure and pull on my chest and neck.",
+        "topic": "Sleep disturbance"
+      },
+      {
+        "answer": "I think the sheer weight pulling down on my chest has bent my spine and pinched nerves in my neck and shoulders.",
+        "topic": "Patient ideas about breast reduction"
+      },
+      {
+        "answer": "I'm so worried that my neck and spine are getting ruined to the point where I won't be able to hold my grandkids.",
+        "topic": "Patient concerns and recovery"
+      },
+      {
+        "answer": "I have no chronic medical conditions, no high blood pressure, no asthma, and no diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never been hospitalized.",
+        "topic": "Past surgical history"
+      },
+      {
+        "answer": "I do not take any daily prescription medications, vitamins, or herbal supplements.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I do not have any known allergies to medicines, foods, or latex.",
+        "topic": "Allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used tobacco. I drink one glass of wine socially once or twice a month.",
+        "topic": "Smoking and alcohol"
+      },
+      {
+        "answer": "I work part-time as an office receptionist and live with my husband in an apartment.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother and older sister also had very large breasts and struggled with upper back pain, but there is no family history of breast cancer.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "I went through menopause naturally eight years ago when I was fifty-one, and I have not had any bleeding since.",
+        "topic": "Menstrual and menopausal history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 118/76 mmHg, pulse 68 beats per minute, respiratory rate 14 breaths per minute, body temperature 36.6°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-nourished, comfortable female appearing stated age in no acute distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Deep bilateral shoulder grooving from bra straps with hyperpigmentation; mild inframammary erythema without maceration, erosion, or purulence.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Bilateral prominent breast hypertrophy with severe ptosis; no discrete masses, skin dimpling, or nipple retraction; no axillary or supraclavicular lymphadenopathy.",
+        "maneuver": "breast_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Symmetric chest wall expansion without tenderness; no palpable chest wall deformities.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally on auscultation without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild tenderness to palpation over the bilateral trapezius, rhomboid, and paracervical musculature; no midline spinal tenderness; full spinal range of motion.",
+        "maneuver": "spine_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Intact motor strength (5/5) symmetrically throughout bilateral upper extremities, including shoulder abduction, elbow flexion/extension, and hand grip.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation symmetrically across bilateral upper extremities and cervical dermatomes without focal deficit.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

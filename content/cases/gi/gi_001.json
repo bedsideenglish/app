@@ -1,0 +1,424 @@
+{
+  "id": "gi_001",
+  "system": "gastroenterology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Nguyen",
+  "age": 45,
+  "gender": "male",
+  "chief_complaint": "black tarry stools for 2 days and feeling dizzy",
+  "hpi_details": "3 episodes of melaena in 2 days, no haematemesis, dizziness on standing, mild epigastric discomfort, no frank PR bleeding",
+  "ideas": "thinks it might be from eating too much iron-rich food",
+  "concerns": "scared it could be bowel cancer",
+  "expectations": "wants a camera test done",
+  "pmh": "osteoarthritis (takes NSAIDs daily), no prior GI history",
+  "medications": "ibuprofen 400mg TDS (taking for 6 months), omeprazole 20mg OD (recently started)",
+  "social_hx": "non-smoker, occasional alcohol (3-4 units/week), works as a chef",
+  "investigation_events": [
+    {
+      "id": "stat_upper_gi_bleed_labs",
+      "title": "STAT upper gastrointestinal bleed laboratory results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "hemoglobin",
+        "urea",
+        "bun",
+        "renal function",
+        "coagulation studies",
+        "coagulation panel",
+        "type and screen",
+        "crossmatch"
+      ],
+      "availability_message": "The STAT upper gastrointestinal bleed laboratory results are now available; IV access and resuscitation should not be delayed while testing is processed.",
+      "results": [
+        {
+          "id": "hemoglobin",
+          "test": "Hemoglobin",
+          "value": "9.1",
+          "unit": "g/dL",
+          "reference_range": "13.5-17.5",
+          "flag": "low",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "blood_urea_nitrogen",
+          "test": "Blood urea nitrogen",
+          "value": "38",
+          "unit": "mg/dL",
+          "reference_range": "7-20",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "creatinine",
+          "test": "Serum creatinine",
+          "value": "1.0",
+          "unit": "mg/dL",
+          "reference_range": "0.7-1.3",
+          "flag": "normal",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        },
+        {
+          "id": "inr",
+          "test": "INR",
+          "value": "1.1",
+          "reference_range": "0.8-1.2",
+          "flag": "normal",
+          "specimen": "Blood",
+          "collected_at": "At emergency presentation"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Peptic Ulcer Disease with Upper GI Bleeding evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Peptic Ulcer Disease with Upper GI Bleeding is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Stop NSAIDs, IV access x2, IV PPI (80mg bolus then infusion), cross-match, urgent endoscopy (OGD) within 24hrs, surgical consult on standby, Blatchford score, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: black tarry stools for 2 days and feeling dizzy",
+      "Key HPI features: 3 episodes of melaena in 2 days, no haematemesis, dizziness on standing, mild epigastric discomfort, no frank PR bleeding",
+      "Objective/Exam findings: Likely upper GI bleed. Needs HR, BP (lying and standing), Hb, coagulation, urea (raised urea:creatinine ratio in upper GI bleed), group and screen.",
+      "Relevant background/PMH: osteoarthritis (takes NSAIDs daily), no prior GI history",
+      "Current medications: ibuprofen 400mg TDS (taking for 6 months), omeprazole 20mg OD (recently started)"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Peptic Ulcer Disease with Upper GI Bleeding.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Mallory-Weiss tear without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Dizziness on standing — suggests significant blood loss."
+    ],
+    "management_principles": [
+      "Stop NSAIDs, IV access x2, IV PPI (80mg bolus then infusion), cross-match, urgent endoscopy (OGD) within 24hrs, surgical consult on standby, Blatchford score",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines.",
+      "Provide clear patient education, address patient concerns, and establish explicit follow-up and safety-netting instructions."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "American College of Gastroenterology (ACG) Clinical Guidelines",
+        "url": "https://gi.org/clinical-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "45M with 2-day history of melaena x3 episodes, orthostatic dizziness, mild epigastric pain. Takes NSAIDs daily for OA. No haematemesis, no frank PR bleeding.",
+    "objective": "Likely upper GI bleed. Needs HR, BP (lying and standing), Hb, coagulation, urea (raised urea:creatinine ratio in upper GI bleed), group and screen.",
+    "assessment": "Upper GI haemorrhage, likely peptic ulcer disease secondary to NSAID use. DDx: Mallory-Weiss tear, oesophagitis, gastric malignancy.",
+    "plan": "Stop NSAIDs, IV access x2, IV PPI (80mg bolus then infusion), cross-match, urgent endoscopy (OGD) within 24hrs, surgical consult on standby, Blatchford score."
+  },
+  "learning_objectives": [
+    "Distinguish upper vs lower GI bleeding by symptom characterisation",
+    "Identify NSAID-related GI risk factors",
+    "Assess haemodynamic stability",
+    "Address ICE around cancer fear sensitively"
+  ],
+  "teaching": {
+    "diagnosis": "Peptic Ulcer Disease with Upper GI Bleeding",
+    "one_liner": "An NSAID- or acid-related ulcer erodes into a blood vessel in the stomach or duodenum, so blood passing through the gut turns the stool black and tarry.",
+    "differentials": [
+      "Mallory-Weiss tear",
+      "Erosive oesophagitis",
+      "Gastric malignancy"
+    ],
+    "red_flags": [
+      "Dizziness on standing — suggests significant blood loss"
+    ],
+    "must_ask": [
+      {
+        "objective": "Melaena description",
+        "say": "Can you describe the stool for me — is it black, tarry, and sticky?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "black",
+          "tarry",
+          "stool",
+          "sticky"
+        ]
+      },
+      {
+        "objective": "Vomiting blood",
+        "say": "Have you vomited any blood, or anything that looks like coffee grounds?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vomit",
+          "vomiting",
+          "blood",
+          "coffee"
+        ]
+      },
+      {
+        "objective": "NSAID dose and duration",
+        "say": "How much ibuprofen do you take, and for how long have you been taking it?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "ibuprofen",
+          "painkiller",
+          "tablets",
+          "dose"
+        ]
+      },
+      {
+        "objective": "Orthostatic dizziness",
+        "say": "Do you feel dizzy or lightheaded when you stand up?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "dizzy",
+          "lightheaded",
+          "faint"
+        ]
+      },
+      {
+        "objective": "Epigastric pain pattern",
+        "say": "Where exactly is the discomfort, and does eating make it better or worse?",
+        "domains": [
+          "location",
+          "aggravating",
+          "relieving"
+        ],
+        "keywords": [
+          "stomach",
+          "discomfort",
+          "eating",
+          "meals"
+        ]
+      },
+      {
+        "objective": "Prior ulcer or bleeding history",
+        "say": "Have you ever had a stomach ulcer or gastrointestinal bleeding before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "ulcer",
+          "bleeding",
+          "gastroscopy"
+        ]
+      },
+      {
+        "objective": "The patient's own worry",
+        "say": "What are you most worried this might be?",
+        "domains": [
+          "concerns",
+          "ideas"
+        ],
+        "keywords": []
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 96,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I have been passing black, tarry stools for the past two days, and I feel really dizzy whenever I stand up.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The stool is pitch black and sticky, like dark asphalt or wet tar.",
+        "topic": "Stool color and appearance"
+      },
+      {
+        "answer": "The entire stool is uniformly black and sticky. I have not seen any bright red blood or clots in the toilet bowl or on the wipe.",
+        "topic": "Bleeding pattern and stool consistency"
+      },
+      {
+        "answer": "It started two days ago, and I have had three large, loose black bowel movements since then.",
+        "topic": "Onset and frequency of bowel movements"
+      },
+      {
+        "answer": "No, I have not had any pain, burning, or tearing sensation around my anus during bowel movements.",
+        "topic": "Pain with defecation"
+      },
+      {
+        "answer": "No, there are no painful lumps, swelling, or itching around my bottom.",
+        "topic": "Anal swelling or itching"
+      },
+      {
+        "answer": "No, I am not constipated and I do not have to strain when using the bathroom.",
+        "topic": "Constipation and straining"
+      },
+      {
+        "answer": "My bowel movements have been looser and more frequent over the past two days, but I have not had narrow pencil-thin stools or a feeling of incomplete emptying.",
+        "topic": "Change in bowel habits"
+      },
+      {
+        "answer": "I have a mild, dull burning discomfort in the upper middle part of my stomach.",
+        "topic": "Abdominal pain location and nature"
+      },
+      {
+        "answer": "It is a gnawing, aching pain right below my breastbone that comes and goes, especially when my stomach is empty.",
+        "topic": "Epigastric pain pattern"
+      },
+      {
+        "answer": "No, I have not vomited any blood or anything that looked like dark coffee grounds.",
+        "topic": "Vomiting or vomiting blood"
+      },
+      {
+        "answer": "No fever or chills at all. The stool has been loose, but there is no slime or mucus in it.",
+        "topic": "Fever, diarrhea, or mucus"
+      },
+      {
+        "answer": "Every time I stand up from the bed or a chair, the room spins and I feel faint, though I have not actually passed out.",
+        "topic": "Dizziness and lightheadedness"
+      },
+      {
+        "answer": "My heart feels like it races whenever I stand up or walk around, but I have not had chest pain or breathing trouble.",
+        "topic": "Palpitations and shortness of breath"
+      },
+      {
+        "answer": "I have felt exhausted and drained over the last two days, but I have not had any unexplained weight loss.",
+        "topic": "Fatigue and weight loss"
+      },
+      {
+        "answer": "I wondered if it was from eating a big steak, but I do not eat blood sausage, blueberries, or beets, and I do not take iron pills.",
+        "topic": "Dark food and supplement intake"
+      },
+      {
+        "answer": "I take ibuprofen 400 milligrams three times every day, and I have been taking it for the last six months for my knee pain.",
+        "topic": "Pain medication and NSAID use"
+      },
+      {
+        "answer": "My doctor recently started me on omeprazole 20 milligrams once a day to protect my stomach. I do not take aspirin or blood thinners.",
+        "topic": "Other medications and blood thinners"
+      },
+      {
+        "answer": "No, I have never had a stomach ulcer, stomach bleeding, or dark stools like this before.",
+        "topic": "Prior ulcer or gastrointestinal bleeding"
+      },
+      {
+        "answer": "No, I have never had an endoscopy down my throat or a colonoscopy.",
+        "topic": "Previous endoscopy or colonoscopy"
+      },
+      {
+        "answer": "I was hoping it might just be from eating iron-rich foods like steak, but it has not gone away.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "To be honest, I am really terrified that this bleeding might be bowel cancer.",
+        "topic": "Patient worries and concerns"
+      },
+      {
+        "answer": "I would really like you to examine my stomach with a camera test so we can find out where the bleeding is coming from.",
+        "topic": "Patient expectations for visit"
+      },
+      {
+        "answer": "I have osteoarthritis in both of my knees, which is why I take painkillers. Aside from that, I have been healthy.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and I have never been admitted to a hospital before.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "No, I do not have any allergies to medications, food, or anything else.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "No, I have never smoked in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I only drink occasionally, about three or four beers a week, and I have never had any liver trouble or hepatitis.",
+        "topic": "Alcohol use and liver disease"
+      },
+      {
+        "answer": "I work as a head chef at a local restaurant, and I live with my wife and our two children.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has had stomach cancer, colon cancer, or any bleeding conditions that I know of.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Mildly pale and fatigued appearance, but alert, oriented, and in no acute respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/74 mmHg, pulse 96 beats per minute, respiratory rate 16 breaths per minute, temperature 36.7 C, oxygen saturation 98% on ambient air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Standing blood pressure drops to 98/62 mmHg and heart rate increases to 118 beats per minute, with patient reporting lightheadedness.",
+        "maneuver": "orthostatic_vitals",
+        "response": "none"
+      },
+      {
+        "finding": "Definite conjunctival pallor present bilaterally; sclerae are clear and anicteric.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm, normal S1 and S2 present, no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is flat and symmetrical with no surgical scars, caput medusae, or visible pulsations.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normoactive to slightly hyperactive bowel sounds across all four quadrants; no abdominal bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Mild focal tenderness elicited on deep palpation in the epigastrium; no involuntary guarding or palpable abdominal masses.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness in any of the four abdominal quadrants.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Liver edge and spleen are not palpable below the costal margins, with no hepatosplenomegaly or liver tenderness.",
+        "maneuver": "liver_spleen_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Normal perianal appearance without external hemorrhoids, anal fissures, or skin tags; digital exam reveals no rectal mass, and the glove shows black, tarry melenic stool.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

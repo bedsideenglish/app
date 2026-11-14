@@ -1,0 +1,328 @@
+{
+  "id": "opht_014",
+  "system": "ophthalmology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Nelson",
+  "age": 28,
+  "gender": "male",
+  "chief_complaint": "visible layering of red blood inside the front chamber of the eye with blurred vision after being struck by tennis ball",
+  "hpi_details": "28M struck in eye by tennis ball presenting with pain and photophobia where slit-lamp reveals a 3 mm layered collection of red blood cells in the anterior chamber (Hyphema) requiring strict bed rest with head elevated 30 degrees, cycloplegics, and daily IOP monitoring to prevent secondary hemorrhage.",
+  "ideas": "He thinks the impact of the tennis ball burst a blood vessel inside the colored part of his eye.",
+  "concerns": "He is worried that the pool of blood inside his eye means he will permanently lose his vision or require emergency eye surgery.",
+  "expectations": "He hopes an eye specialist can examine the eye immediately, relieve the pressure, and tell him his eyesight will be saved.",
+  "pmh": "Hypertension, mild dyslipidemia",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Non-smoker, active lifestyle",
+  "available_results": [{"id": "slit_lamp_exam", "test": "Slit-lamp examination", "value": "3 mm layered collection of red blood cells in the anterior chamber", "flag": "abnormal", "note": "Traumatic hyphema."}],
+  "clinical_knowledge": {
+    "topic": "Traumatic hyphema (blunt ocular trauma) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Traumatic hyphema (blunt ocular trauma) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Evidence-based diagnostic and therapeutic protocol for Hyphema Blunt Ocular Trauma, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: visible layering of red blood inside the front chamber of the eye with blurred vision after being struck by tennis ball",
+      "Key HPI features: 28M struck in eye by tennis ball presenting with pain and photophobia where slit-lamp reveals a 3 mm layered collection of red blood cells in the anterior chamber (Hyphema) requiring strict bed rest with head elevated 30 degrees, cycloplegics, and daily IOP monitoring to prevent secondary hemorrhage.",
+      "Objective/Exam findings: Complete vital signs and focused physical examination required. Diagnostic workup tailored for Hyphema Blunt Ocular Trauma.",
+      "Relevant background/PMH: Hypertension, mild dyslipidemia",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Traumatic hyphema (blunt ocular trauma).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Globe rupture without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Risk of secondary rebleeding (higher risk day 2-5)."
+    ],
+    "management_principles": [
+      "Evidence-based diagnostic and therapeutic protocol for Hyphema Blunt Ocular Trauma",
+      "Refer to specialty team and provide comprehensive patient counseling",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with symptoms of Hyphema Blunt Ocular Trauma: visible layering of red blood inside the front chamber of the eye with blurred vision after being struck by tennis ball. 28M struck in eye by tennis ball presenting with pain and photophobia where slit-lamp reveals a 3 mm layered collection of red blood cells in the anterior chamber (Hyphema) requiring strict bed rest with head elevated 30 degrees, cycloplegics, and daily IOP monitoring to prevent secondary hemorrhage.",
+    "objective": "Complete vital signs and focused physical examination required. Diagnostic workup tailored for Hyphema Blunt Ocular Trauma.",
+    "assessment": "Clinical presentation highly suggestive of Hyphema Blunt Ocular Trauma.",
+    "plan": "Urgent ophthalmology assessment to exclude open-globe injury and monitor visual acuity and IOP. Protect the eye with a rigid shield, elevate the head, limit activity, and avoid aspirin, NSAIDs, and anticoagulants unless a treating clinician advises otherwise. Use cycloplegia and IOP-lowering therapy only as directed by ophthalmology; arrange close follow-up because rebleeding risk is highest in the first several days."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Hyphema Blunt Ocular Trauma",
+    "Formulate prioritized differential diagnosis for visible layering of red blood inside the front chamber of the eye with blurred vision after being struck by tennis ball",
+    "Select appropriate laboratory and imaging studies for ophthalmology",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Traumatic hyphema (blunt ocular trauma)",
+    "one_liner": "28M struck by a tennis ball with pain, photophobia, and a layered blood collection in the anterior chamber.",
+    "differentials": [
+      "Globe rupture",
+      "Traumatic iritis",
+      "Orbital fracture",
+      "Lens dislocation"
+    ],
+    "red_flags": [
+      "Risk of secondary rebleeding (higher risk day 2-5)",
+      "Elevated intraocular pressure",
+      "Sickle cell trait/disease increases complication risk"
+    ],
+    "must_ask": [
+      {
+        "objective": "Confirm mechanism and force of injury",
+        "say": "Can you tell me exactly how the ball hit your eye?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "blunt trauma",
+          "mechanism"
+        ]
+      },
+      {
+        "objective": "Assess vision change",
+        "say": "Has your vision changed since the injury? Is it blurry?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "blurred vision"
+        ]
+      },
+      {
+        "objective": "Screen for sickle cell disease or trait",
+        "say": "Do you have sickle cell disease or trait?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "sickle cell"
+        ]
+      },
+      {
+        "objective": "Explain activity restrictions",
+        "say": "Protect the eye, keep your head elevated, limit activity, and avoid straining. Do not take aspirin or NSAIDs unless your treating clinician says they are safe.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "bed rest",
+          "head elevation",
+          "avoid NSAIDs"
+        ]
+      },
+      {
+        "objective": "Explain daily eye pressure monitoring",
+        "say": "We need to check your eye pressure daily to make sure it doesn't rise dangerously.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "IOP monitoring"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "128/82",
+      "hr": 78,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "I was hit directly in my right eye by a tennis ball a couple of hours ago, and now it is painful, blurry, and I can see blood pooling inside the front of my eye.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It happened suddenly about two hours ago during a tennis game; the pain and blurry vision began immediately, and the blood started settling at the bottom soon after.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It is only affecting my right eye; my left eye feels and sees completely normally.",
+        "topic": "Affected eye"
+      },
+      {
+        "answer": "The white of my eye is somewhat red, but what worries me most is a distinct line of red blood settled in the front chamber in front of my colored iris.",
+        "topic": "Redness and blood location"
+      },
+      {
+        "answer": "It is a dull, throbbing ache deep inside the eyeball, around a 6 out of 10 in severity.",
+        "topic": "Pain quality and severity"
+      },
+      {
+        "answer": "My right eye is blurry and looks hazy with a reddish tint, although I can still see general shapes and count fingers.",
+        "topic": "Vision changes"
+      },
+      {
+        "answer": "Yes, looking at bright lights really hurts and worsens the throbbing ache in my eye.",
+        "topic": "Light sensitivity"
+      },
+      {
+        "answer": "I have not seen any rainbow halos around lights, and I do not have a headache, nausea, or vomiting.",
+        "topic": "Halos and nausea"
+      },
+      {
+        "answer": "There is only watery reflex tearing from the pain, with no yellow or green pus, stickiness, or crusting.",
+        "topic": "Eye discharge and crusting"
+      },
+      {
+        "answer": "No, there is no itching at all.",
+        "topic": "Itching sensation"
+      },
+      {
+        "answer": "There is a little bit of puffiness around my upper eyelid from where the ball hit, but no bumps or cuts.",
+        "topic": "Eyelid swelling and lumps"
+      },
+      {
+        "answer": "Moving my eye makes it ache a bit more because it is sore, but I do not have double vision and my eye is not bulging out.",
+        "topic": "Eye movement and double vision"
+      },
+      {
+        "answer": "No, I haven't had a cold, runny nose, or cough recently, and no one around me has had an eye infection.",
+        "topic": "Cold symptoms and sick contacts"
+      },
+      {
+        "answer": "I do not wear contact lenses or prescription glasses.",
+        "topic": "Contact lens wear"
+      },
+      {
+        "answer": "A hard-hit tennis ball struck my right eye directly from close range at the net, and I was not wearing any eye protection.",
+        "topic": "Mechanism and force of trauma"
+      },
+      {
+        "answer": "No debris, metal, or chemicals entered my eye; it was solely the impact from the tennis ball.",
+        "topic": "Foreign body or chemical exposure"
+      },
+      {
+        "answer": "I do not have seasonal allergies, hay fever, asthma, or eczema.",
+        "topic": "Seasonal allergies and eczema"
+      },
+      {
+        "answer": "I do not suffer from dry eyes or dry mouth, and I was not staring at computer screens prior to playing.",
+        "topic": "Dryness and screen use"
+      },
+      {
+        "answer": "I have no morning back stiffness, swollen joints, mouth ulcers, or bowel troubles.",
+        "topic": "Joint and systemic symptoms"
+      },
+      {
+        "answer": "I have no blisters or tingling on my forehead or nose, and I have never had shingles or herpes in my eye.",
+        "topic": "Blisters or facial rash"
+      },
+      {
+        "answer": "I do not take blood thinners or aspirin, and I haven't had any heavy coughing, vomiting, or straining.",
+        "topic": "Blood thinners and straining"
+      },
+      {
+        "answer": "I have never had any eye surgeries, serious eye injuries, or a diagnosis of high eye pressure or glaucoma.",
+        "topic": "Past eye problems and glaucoma"
+      },
+      {
+        "answer": "I have never been diagnosed with sickle cell disease or sickle cell trait, and there is no sickle cell in my family.",
+        "topic": "Sickle cell screening"
+      },
+      {
+        "answer": "The tennis ball hit me directly in the eye, so I figured the impact burst an internal blood vessel in my iris.",
+        "topic": "Thoughts on diagnosis"
+      },
+      {
+        "answer": "Seeing actual blood pooling in front of my pupil is terrifying—I'm scared I might go blind in that eye or need surgery.",
+        "topic": "Main concerns"
+      },
+      {
+        "answer": "I was hoping an eye doctor could look at this right away, check the pressure, and give me medication to clear up the blood.",
+        "topic": "Care expectations"
+      },
+      {
+        "answer": "I have high blood pressure and mild high cholesterol, both diagnosed two years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries and have never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take lisinopril 10 milligrams once a day for my blood pressure; I haven't taken any ibuprofen or other painkillers today.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I have no known allergies to any medications, foods, or latex.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes or used any tobacco or vaping products.",
+        "topic": "Smoking and tobacco"
+      },
+      {
+        "answer": "I only drink one or two beers on weekends when socializing, nothing heavy.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I work in software sales and live in an apartment with my partner.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father has high blood pressure, but there is no family history of eye diseases, glaucoma, or bleeding disorders.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 128/82 mmHg, heart rate 78 beats per minute, respiratory rate 14 breaths per minute, temperature 36.7°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, oriented young male shielding his right eye from room light, in mild distress from ocular discomfort.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Mild ecchymosis and soft tissue swelling around the right upper eyelid and brow, with no lacerations or foreign material.",
+        "maneuver": "skin_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "No step-off deformities, crepitus, or focal bony tenderness along the right orbital rims, zygoma, or maxilla.",
+        "maneuver": "sinus_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Moderate ciliary flush and localized subconjunctival hemorrhage in the right eye, with an intact sclera and no dark uveal tissue prolapse.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Visual acuity is 20/60 in the right eye and 20/20 in the left, with a 3 mm layered meniscus of red blood cells in the inferior anterior chamber, a round sluggishly reactive pupil, a clear cornea without fluorescein uptake, and intact globe contour.",
+        "maneuver": "eye_exam",
+        "response": "pain"
+      },
+      {
+        "finding": "Intact light touch sensation over the ophthalmic and maxillary distributions bilaterally, with symmetric facial movements and normal extraocular motility.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      }
+    ]
+  }
+}

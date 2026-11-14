@@ -1,0 +1,345 @@
+{
+  "id": "peds_007",
+  "system": "pediatrics",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Master Green",
+  "age": 2,
+  "gender": "male",
+  "chief_complaint": "barking seal-like cough, hoarseness, and inspiratory stridor at night in a 2-year-old boy with Croup",
+  "hpi_details": "2-year-old boy brought to ED at 02:00 AM with sudden onset of a loud, harsh, barking 'seal-like' cough, hoarse voice, and noisy, high-pitched breathing (stridor) when crying and, later in the assessment, while calm at rest. Had a mild clear runny nose and low-grade fever for 2 days. Mother notes the barking cough and difficulty breathing became dramatically worse after lying down in his warm bedroom tonight.",
+  "ideas": "mother frightened by the loud barking sound and high-pitched squeaking noise when the child breathes in",
+  "concerns": "mother worried child has a piece of toy stuck in his throat or severe asthma",
+  "expectations": "wants immediate breathing treatment to open up his swollen windpipe",
+  "pmh": "No prior medical history",
+  "medications": "None",
+  "social_hx": "2-year-old toddler",
+  "clinical_knowledge": {
+    "topic": "Moderate viral croup (laryngotracheobronchitis) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Moderate viral croup (laryngotracheobronchitis) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes a single dose of oral dexamethasone plus nebulized racemic epinephrine for moderate stridor at rest, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: barking seal-like cough, hoarseness, and inspiratory stridor at night in a 2-year-old boy with Croup",
+      "Key HPI features: 2-year-old boy brought to ED at 02:00 AM with sudden onset of a loud, harsh, barking 'seal-like' cough, hoarse voice, and noisy, high-pitched breathing (stridor) when crying and, later in the assessment, while calm at rest. Had a mild clear runny nose and low-grade fever for 2 days. Mother notes the barking cough and difficulty breathing became dramatically worse after lying down in his warm bedroom tonight.",
+      "Objective/Exam findings: Vitals: HR 132, RR 36, Temp 37.8C, SpO2 96% on room air. Child sits comfortably on mother's lap when calm, but exhibits a loud seal-like barking cough and audible inspiratory stridor at rest that intensifies during agitation. Mild suprasternal notch and intercostal retractions noted (Westley Croup Score 4 - Moderate Croup). Oropharynx clear without drooling or tripod positioning (excluding epiglottis involvement). AP neck radiograph confirms symmetric subglottic tracheal narrowing ('Steeple Sign') caused by mucosal edema below the vocal cords.",
+      "Relevant background/PMH: No prior medical history"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Moderate viral croup (laryngotracheobronchitis).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Epiglottitis (must be excluded) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Stridor at rest."
+    ],
+    "management_principles": [
+      "Administer STAT single oral dose of Dexamethasone 0.6 mg/kg (or nebulized/IM if unable to tolerate oral) to reduce subglottic inflammatory edema (onset within 2-4 hours)",
+      "Administer immediate Nebulized Racemic Epinephrine (0.5 mL of 2.25% solution diluted in normal saline) to produce rapid vasoconstriction and immediate relief of stridor and retractions"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACEP Clinical Policies and Emergency Care Guidelines",
+        "url": "https://www.acep.org/patient-care/clinical-policies"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "2-year-old presenting with acute nocturnal onset of barking cough, hoarseness, and inspiratory stridor characteristic of viral croup.",
+    "objective": "Vitals: HR 132, RR 36, Temp 37.8C, SpO2 96% on room air. Child sits comfortably on mother's lap when calm, but exhibits a loud seal-like barking cough and audible inspiratory stridor at rest that intensifies during agitation. Mild suprasternal notch and intercostal retractions noted (Westley Croup Score 4 - Moderate Croup). Oropharynx clear without drooling or tripod positioning (excluding epiglottis involvement). AP neck radiograph confirms symmetric subglottic tracheal narrowing ('Steeple Sign') caused by mucosal edema below the vocal cords.",
+    "assessment": "Moderate Viral Croup (Laryngotracheobronchitis) secondary to Parainfluenza virus Type 1.",
+    "plan": "1. Give a single weight-based dose of dexamethasone (oral, IM, or nebulized route as clinically appropriate). 2. Give nebulized epinephrine for stridor at rest. 3. Observe after epinephrine for recurrent stridor or increased work of breathing. Discharge only if the child remains well appearing without stridor at rest, is taking fluids, and caregivers understand return precautions; otherwise admit/escalate."
+  },
+  "learning_objectives": [
+    "Differentiate Laryngotracheobronchitis (Viral Croup - barking cough, hoarseness, subglottic steeple sign, ages 6 mo to 3 yrs) from Bacterial Epiglottitis (drooling, tripod position, supraglottic thumbprint sign)",
+    "Grade croup severity using the Westley score to guide immediate therapeutic selection (mild = stridor with agitation only; moderate/severe = stridor at rest with retractions)",
+    "Administer first-line oral Dexamethasone (0.6 mg/kg) combined with emergency Nebulized Racemic Epinephrine for moderate-to-severe stridor at rest",
+    "Explain the mandatory requirement for a 3-4 hour emergency observation window following racemic epinephrine administration to monitor for rebound subglottic edema and stridor recurrence"
+  ],
+  "teaching": {
+    "diagnosis": "Moderate viral croup (laryngotracheobronchitis)",
+    "one_liner": "2-year-old boy with sudden barking cough, hoarseness, and stridor at night after 2 days of URI symptoms.",
+    "differentials": [
+      "Epiglottitis (must be excluded)",
+      "Foreign body aspiration",
+      "Bacterial tracheitis",
+      "Peritonsillar/retropharyngeal abscess"
+    ],
+    "red_flags": [
+      "Stridor at rest",
+      "Worsening when lying down",
+      "Barking cough with hoarseness"
+    ],
+    "must_ask": [
+      {
+        "objective": "Characterize the cough sound",
+        "say": "Does his cough sound like a seal or dog barking?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "barking cough"
+        ]
+      },
+      {
+        "objective": "Ask about stridor and its timing",
+        "say": "Do you hear a high-pitched sound when he breathes in, and is it there even when he's calm?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "stridor at rest"
+        ]
+      },
+      {
+        "objective": "Ask about worsening with lying down or agitation",
+        "say": "Does the breathing sound worse when he's upset or lying flat?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "worse when agitated/supine"
+        ]
+      },
+      {
+        "objective": "Confirm absence of drooling (rule out epiglottitis)",
+        "say": "Is he drooling excessively or having trouble swallowing?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "no drooling"
+        ]
+      },
+      {
+        "objective": "Explain the steroid and epinephrine treatment",
+        "say": "We'll give him a dose of steroid medicine and, if needed, a nebulizer treatment to quickly open his airway, then watch him for a few hours.",
+        "domains": [
+          "expectations"
+        ],
+        "keywords": [
+          "dexamethasone",
+          "racemic epinephrine",
+          "observation"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "95/60",
+      "hr": 132,
+      "rr": 36,
+      "spo2": 96,
+      "temp_c": 37.8
+    },
+    "history": [
+      {
+        "answer": "My two-year-old son woke up in the middle of the night with a terrible barking cough and noisy breathing.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The barking cough started suddenly around midnight tonight, though he has had a mild runny nose for the last two days.",
+        "topic": "Cough duration"
+      },
+      {
+        "answer": "It started after two days of a mild common cold, and he has never had an episode like this before.",
+        "topic": "Onset trigger and prior episodes"
+      },
+      {
+        "answer": "It is a harsh, loud cough that sounds like a barking seal or a dog.",
+        "topic": "Cough sound and character"
+      },
+      {
+        "answer": "He makes a loud, high-pitched squeaking sound when he breathes in, which started when he cried and now happens even while resting quietly.",
+        "topic": "Inspiratory stridor and breathing noises"
+      },
+      {
+        "answer": "His voice and cry have sounded very hoarse and raspy tonight.",
+        "topic": "Voice changes and hoarseness"
+      },
+      {
+        "answer": "No, he is not coughing up any phlegm; it is a dry, tight cough.",
+        "topic": "Sputum or phlegm"
+      },
+      {
+        "answer": "It woke him up suddenly around midnight and got dramatically worse after he went to sleep in his bedroom tonight.",
+        "topic": "Timing and nocturnal worsening"
+      },
+      {
+        "answer": "Lying down in his warm bedroom made the coughing and breathing much worse, and the noise gets louder whenever he gets upset or cries.",
+        "topic": "Worsening with lying down or agitation"
+      },
+      {
+        "answer": "He has spells of barking cough when agitated, but there is no whoop sound at the end and he hasn't thrown up.",
+        "topic": "Paroxysmal cough and vomiting"
+      },
+      {
+        "answer": "Being upset and lying down in a warm room make it worse, while breathing the cool night air outside on the way here seemed to calm him a bit.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "He is breathing fast and working hard to breathe in, but I don't hear chest wheezing when he breathes out.",
+        "topic": "Wheezing and shortness of breath"
+      },
+      {
+        "answer": "He had a low-grade fever around 37.8 degrees over the last two days, but no high fever or shaking chills.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, there has been no blood at all.",
+        "topic": "Hemoptysis"
+      },
+      {
+        "answer": "No, he is swallowing his saliva normally and is not drooling at all.",
+        "topic": "Drooling and swallowing difficulty"
+      },
+      {
+        "answer": "He prefers sitting upright on my lap rather than lying flat, but he is not leaning forward with his neck stretched out.",
+        "topic": "Posture and tripod positioning"
+      },
+      {
+        "answer": "No, he was asleep in his crib when this started, and he wasn't playing with small toys, coins, or choking on food.",
+        "topic": "Foreign body and choking episode"
+      },
+      {
+        "answer": "No, he hasn't had any weight loss or drenching night sweats.",
+        "topic": "Weight loss and night sweats"
+      },
+      {
+        "answer": "He doesn't hold his chest or seem to have chest pain, only difficulty catching his breath.",
+        "topic": "Chest pain"
+      },
+      {
+        "answer": "He has had a mild clear runny nose and slight stuffiness for the past two days.",
+        "topic": "Runny nose and congestion"
+      },
+      {
+        "answer": "No, he has no history of spitting up, vomiting, or stomach acid problems.",
+        "topic": "Reflux and heartburn symptoms"
+      },
+      {
+        "answer": "He struggles more when lying flat, but he has no swelling in his feet or legs.",
+        "topic": "Orthopnea and leg swelling"
+      },
+      {
+        "answer": "No, he is only two years old and has never taken blood pressure pills or ACE inhibitors.",
+        "topic": "Blood pressure medications"
+      },
+      {
+        "answer": "Neither my husband nor I smoke, and no one smokes around him.",
+        "topic": "Secondhand smoke exposure"
+      },
+      {
+        "answer": "No, no one in our family or circle has had tuberculosis or a chronic cough.",
+        "topic": "Tuberculosis contact"
+      },
+      {
+        "answer": "His older cousin had a mild cold with a runny nose when we saw him last weekend.",
+        "topic": "Sick contacts"
+      },
+      {
+        "answer": "No, our home is clean and dry, with no mold, dust, or chemical fumes.",
+        "topic": "Environmental exposures"
+      },
+      {
+        "answer": "He has never had eczema, asthma, or allergic rhinitis.",
+        "topic": "Allergy and asthma history"
+      },
+      {
+        "answer": "The loud barking sound and high-pitched squeaking noise terrified me; I was worried he might have choked on a toy piece or had sudden asthma.",
+        "topic": "Caregiver ideas and concerns"
+      },
+      {
+        "answer": "I want him to get an immediate breathing treatment to open up his swollen airway so he can breathe easily.",
+        "topic": "Caregiver expectations"
+      },
+      {
+        "answer": "He has no past medical problems and has always been a healthy child.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "He has never had surgery and has never been admitted to a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "He is not taking any prescription or regular over-the-counter medicines.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "He has no known allergies to medicines, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "He was born at full term through a normal delivery without any complications or breathing trouble.",
+        "topic": "Birth and neonatal history"
+      },
+      {
+        "answer": "His growth and development are normal, and all of his routine vaccinations are up to date.",
+        "topic": "Growth and immunizations"
+      },
+      {
+        "answer": "He stays at home with me and my husband, and he does not attend daycare.",
+        "topic": "Living situation and daycare"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 95/60 mmHg, heart rate 132 beats/min, respiratory rate 36 breaths/min, temperature 37.8°C, and oxygen saturation 96% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert toddler sitting comfortably on mother's lap, exhibiting a loud seal-like barking cough and audible inspiratory stridor at rest that intensifies with crying, with mild suprasternal notch and intercostal retractions.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Clear nasal discharge present; oropharynx is mildly erythematous without tonsillar enlargement, exudates, uvular deviation, pooling of secretions, or drooling.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Small, non-tender, mobile anterior cervical lymph nodes palpable bilaterally; no supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Mild suprasternal notch and intercostal retractions visible during inspiration; symmetric chest wall motion without focal tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant percussion notes symmetrically across both lung fields bilaterally.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Transmitted high-pitched inspiratory stridor heard loudest over the trachea and upper chest; bilateral breath sounds are otherwise clear throughout all lung fields without wheezing, rales, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardia with regular rhythm, normal S1 and S2, and no audible murmurs or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Warm extremities without cyanosis, clubbing, or peripheral edema; capillary refill time is under two seconds.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

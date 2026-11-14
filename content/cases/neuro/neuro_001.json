@@ -1,0 +1,349 @@
+{
+  "id": "neuro_001",
+  "system": "neurology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mrs. Chen",
+  "age": 67,
+  "gender": "female",
+  "chief_complaint": "sudden weakness in right arm and slurred speech this morning, lasted 20 minutes then resolved",
+  "hpi_details": "sudden onset right arm weakness and dysarthria, lasted approximately 20 minutes then completely resolved, no headache, no visual changes, no loss of consciousness, first episode ever",
+  "ideas": "thinks she was just tired and stressed",
+  "concerns": "daughter insisted she come in — she didn't think it was serious",
+  "expectations": "wants to go home quickly as she has grandchildren to look after",
+  "pmh": "hypertension, hypercholesterolaemia, type 2 diabetes",
+  "medications": "amlodipine 5mg OD, atorvastatin 40mg ON, metformin 500mg BD",
+  "social_hx": "non-smoker, non-drinker, lives with husband, independent in all ADLs, retired teacher",
+  "investigation_events": [
+    {
+      "id": "urgent_tia_workup",
+      "title": "Urgent TIA assessment",
+      "order_terms": ["CT head", "CT brain", "ECG", "EKG", "blood glucose", "glucose"],
+      "availability_message": "Urgent CT, ECG, and glucose results are now available. Stroke-unit admission and time-sensitive secondary prevention should not be delayed.",
+      "results": [
+        {"id": "ct_head", "test": "Non-contrast CT head", "value": "No acute intracranial hemorrhage or established large-territory infarction", "flag": "normal"},
+        {"id": "ecg", "test": "12-lead ECG", "value": "Sinus rhythm at 78 bpm; no atrial fibrillation on this tracing", "flag": "normal", "note": "A normal single tracing does not exclude paroxysmal atrial fibrillation."},
+        {"id": "glucose", "test": "Point-of-care blood glucose", "value": "108", "unit": "mg/dL", "reference_range": "70-140", "flag": "normal"}
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Transient Ischemic Attack (TIA) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Transient Ischemic Attack (TIA) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes Admit for stroke unit monitoring (high early stroke risk post-TIA), dual antiplatelet therapy (aspirin 300mg + clopidogrel 75mg), statin, BP control, carotid imaging, ECG monitoring x72h for paroxysmal AF, patient education on FAST warning signs, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: sudden weakness in right arm and slurred speech this morning, lasted 20 minutes then resolved",
+      "Key HPI features: sudden onset right arm weakness and dysarthria, lasted approximately 20 minutes then completely resolved, no headache, no visual changes, no loss of consciousness, first episode ever",
+      "Objective/Exam findings: Neurological exam (currently normal), BP both arms, ECG (AF?), bloods: FBC, glucose, lipids, coag, CT head (rule out haemorrhage), carotid Doppler, echo if indicated.",
+      "Relevant background/PMH: hypertension, hypercholesterolaemia, type 2 diabetes",
+      "Current medications: amlodipine 5mg OD, atorvastatin 40mg ON, metformin 500mg BD"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Transient Ischemic Attack (TIA).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Focal seizure without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Any recurrence of symptoms — signals ongoing high stroke risk."
+    ],
+    "management_principles": [
+      "Admit for stroke unit monitoring (high early stroke risk post-TIA), dual antiplatelet therapy (aspirin 300mg + clopidogrel 75mg), statin, BP control, carotid imaging, ECG monitoring x72h for paroxysmal AF, patient education on FAST warning signs",
+      "Assess clinical stability, monitor vital parameters, and perform targeted diagnostic investigations.",
+      "Implement targeted therapeutic interventions per evidence-based clinical practice guidelines.",
+      "Provide clear patient education, address patient concerns, and establish explicit follow-up and safety-netting instructions."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "67F with HTN, hypercholesterolaemia, T2DM presents with sudden-onset right arm weakness and dysarthria lasting ~20 min then completely resolving. First episode. No headache or visual loss.",
+    "objective": "Neurological exam (currently normal), BP both arms, ECG (AF?), bloods: FBC, glucose, lipids, coag, CT head (rule out haemorrhage), carotid Doppler, echo if indicated.",
+    "assessment": "TIA — high stroke risk. ABCD2 score required. DDx: focal seizure, hypoglycaemia, hemiplegic migraine, Todd's paresis.",
+    "plan": "Admit for stroke unit monitoring (high early stroke risk post-TIA), dual antiplatelet therapy (aspirin 300mg + clopidogrel 75mg), statin, BP control, carotid imaging, ECG monitoring x72h for paroxysmal AF, patient education on FAST warning signs."
+  },
+  "learning_objectives": [
+    "Characterise TIA: sudden onset, brief duration, complete resolution",
+    "Calculate ABCD2 score and explain stroke urgency",
+    "Identify modifiable vascular risk factors",
+    "Counsel patient who is reluctant to stay in hospital"
+  ],
+  "teaching": {
+    "diagnosis": "Transient Ischemic Attack (TIA)",
+    "one_liner": "A brief episode of stroke-like symptoms that fully resolves within minutes to hours — the danger isn't the episode itself but the high risk of a real stroke in the days that follow, so it's treated as a medical emergency, not a relief.",
+    "differentials": [
+      "Focal seizure",
+      "Hypoglycemia",
+      "Hemiplegic migraine",
+      "Todd's paresis (post-seizure weakness)"
+    ],
+    "red_flags": [
+      "Any recurrence of symptoms — signals ongoing high stroke risk"
+    ],
+    "must_ask": [
+      {
+        "objective": "Symptom description and duration",
+        "say": "What exactly happened, and how long did it last before it went away completely?",
+        "domains": [
+          "character",
+          "onset_duration"
+        ],
+        "keywords": [
+          "weakness",
+          "slurred speech",
+          "20 minutes"
+        ]
+      },
+      {
+        "objective": "First episode or recurrent",
+        "say": "Has this ever happened before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "first time"
+        ]
+      },
+      {
+        "objective": "Vascular risk factors",
+        "say": "Do you have high blood pressure, diabetes, or high cholesterol?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "hypertension",
+          "diabetes"
+        ]
+      },
+      {
+        "objective": "Associated symptoms",
+        "say": "Any headache or vision changes with this episode?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "The patient's own minimizing",
+        "say": "Why do you think this happened, and why did you want to go home quickly?",
+        "domains": [
+          "ideas"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/86",
+      "hr": 78,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 36.6
+    },
+    "history": [
+      {
+        "answer": "My right arm suddenly went weak and my speech became slurred this morning, but it completely cleared up after about twenty minutes.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "My right arm felt heavy and clumsy so I couldn't hold anything, but I didn't feel any numbness or pins and needles.",
+        "topic": "Nature of weakness"
+      },
+      {
+        "answer": "It was just my right arm and my speech; my legs felt completely normal and my left side was fine.",
+        "topic": "Location and distribution"
+      },
+      {
+        "answer": "It started suddenly around eight o'clock this morning while I was eating breakfast, and I was completely normal right before that.",
+        "topic": "Onset and time last normal"
+      },
+      {
+        "answer": "The arm weakness and slurred speech lasted about twenty minutes, and then everything went completely back to normal.",
+        "topic": "Duration and recovery"
+      },
+      {
+        "answer": "No, this was the very first time anything like this has ever happened to me.",
+        "topic": "Previous episodes"
+      },
+      {
+        "answer": "I dropped my spoon and couldn't lift my teacup, but I was able to walk without stumbling.",
+        "topic": "Functional impairment"
+      },
+      {
+        "answer": "Nothing brought it on, and moving my neck, arms, or changing position didn't make any difference.",
+        "topic": "Aggravating factors"
+      },
+      {
+        "answer": "No, I don't have any neck pain, back pain, or pain shooting down my arms.",
+        "topic": "Neck or back pain"
+      },
+      {
+        "answer": "My tongue felt thick and my words sounded slurred to my daughter, but my face didn't droop and I had no trouble swallowing.",
+        "topic": "Speech and facial symptoms"
+      },
+      {
+        "answer": "No, my vision was completely normal with no blurriness, double vision, or dark spots.",
+        "topic": "Visual changes"
+      },
+      {
+        "answer": "No, I didn't have any headache before, during, or after it happened.",
+        "topic": "Headache"
+      },
+      {
+        "answer": "No, I stayed completely awake and aware the entire time, without passing out or any shaking.",
+        "topic": "Loss of consciousness or seizures"
+      },
+      {
+        "answer": "No, I haven't had any chest pain, tightness, or racing heart sensations.",
+        "topic": "Chest pain or palpitations"
+      },
+      {
+        "answer": "No, my bowel and bladder habits have been completely normal, with no accidents or numbness down below.",
+        "topic": "Bowel and bladder function"
+      },
+      {
+        "answer": "No shortness of breath, no difficulty chewing or swallowing, and my eyelids never drooped.",
+        "topic": "Bulbar symptoms"
+      },
+      {
+        "answer": "No, I haven't noticed any muscle twitching, jumping, or shrinking in my arms or legs.",
+        "topic": "Muscle twitching or wasting"
+      },
+      {
+        "answer": "No, I haven't had any cold, fever, chills, or diarrhea in the past few weeks.",
+        "topic": "Recent infections"
+      },
+      {
+        "answer": "I have had high blood pressure, high cholesterol, and type two diabetes for years, but I've never had an irregular heartbeat.",
+        "topic": "Vascular risk factors"
+      },
+      {
+        "answer": "My blood sugar stays around one hundred to one hundred twenty on my pills, I eat a regular diet with meat, and I've never had stomach surgery.",
+        "topic": "Diet and diabetes control"
+      },
+      {
+        "answer": "No, I've never taken steroids, water pills, or cancer medications.",
+        "topic": "Nerve or muscle medications"
+      },
+      {
+        "answer": "No, I don't do repetitive wrist work, lean on my elbows, or sit cross-legged for long periods.",
+        "topic": "Repetitive strain or postures"
+      },
+      {
+        "answer": "I honestly thought I was just overtired and stressed from taking care of the house.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "My daughter got very scared when she heard my speech and insisted on bringing me in, even though I told her it wasn't serious.",
+        "topic": "Reason for visit and concerns"
+      },
+      {
+        "answer": "Since I feel completely back to normal now, I'm hoping I can just go home soon to look after my grandchildren.",
+        "topic": "Expectations for today"
+      },
+      {
+        "answer": "I have high blood pressure, high cholesterol, and type two diabetes, all diagnosed about ten years ago.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had an appendectomy when I was twenty-five, but no other operations or hospital stays.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take amlodipine five milligrams in the morning, atorvastatin forty milligrams at bedtime, and metformin five hundred milligrams twice daily.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or anything else.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes in my life.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I don't drink any alcohol at all.",
+        "topic": "Alcohol history"
+      },
+      {
+        "answer": "I'm a retired schoolteacher living with my husband, and I am completely independent in my daily life.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had a stroke in his seventies, and my mother had high blood pressure.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure is 142/86 mmHg in the right arm and 140/84 mmHg in the left arm, pulse is 78 beats per minute and regular, respiratory rate is 16 breaths per minute, and oxygen saturation is 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Well-appearing woman resting comfortably in no acute distress, with clear and fluent speech.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, attentive, and fully oriented to person, place, and time, with fluent speech and normal comprehension.",
+        "maneuver": "mental_status",
+        "response": "none"
+      },
+      {
+        "finding": "Pupils equal, round, and reactive to light; visual fields full to confrontation; extraocular movements intact; facial symmetry intact without droop; tongue protrudes midline.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Normal muscle bulk and tone without atrophy or fasciculations; muscle strength is 5/5 bilaterally throughout upper and lower extremities, with no pronator drift.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Light touch, pinprick, and vibration sensations are intact and symmetric across all four extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Deep tendon reflexes are 2+ and symmetric at biceps, triceps, patellar, and Achilles tendons; plantar responses are flexor bilaterally.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Finger-to-nose and rapid alternating movements are intact bilaterally; casual gait and tandem walk are steady with a negative Romberg test.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "Normal S1 and S2 with a regular rate and rhythm; no murmurs, gallops, or friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Carotid pulses are full and symmetric bilaterally without bruits; peripheral pulses are 2+ bilaterally.",
+        "maneuver": "peripheral_pulses",
+        "response": "none"
+      },
+      {
+        "finding": "No midline cervical or lumbar tenderness; Spurling test, straight-leg raise test, and bilateral Phalen and Tinel signs are negative.",
+        "maneuver": "spine_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

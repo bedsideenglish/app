@@ -1,0 +1,373 @@
+{
+  "id": "cardio_001",
+  "system": "cardiology",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Johnson",
+  "age": 58,
+  "gender": "male",
+  "chief_complaint": "chest pain for 2 hours",
+  "hpi_details": "substernal, 7/10, radiates to left arm, onset at rest, no relief with antacids",
+  "ideas": "thinks it might be heartburn",
+  "concerns": "afraid of heart attack — father died of MI at 62",
+  "expectations": "wants reassurance and something for the pain",
+  "pmh": "hypertension x5 years, type 2 diabetes x3 years",
+  "medications": "metformin 1000mg BD, lisinopril 10mg OD",
+  "social_hx": "smoker 20 pack-years, 2 beers/night, retired",
+  "investigation_events": [
+    {"id": "initial_ecg", "title": "Initial 12-lead ECG", "order_terms": ["ecg", "ekg", "12-lead", "electrocardiogram"], "availability_message": "The initial 12-lead ECG is now available.", "results": [{"id": "ecg_initial", "test": "12-lead ECG", "value": "Sinus rhythm with 1 mm horizontal ST depression in V4-V6; no ST elevation", "flag": "critical", "collected_at": "10 minutes after arrival"}]},
+    {"id": "serial_troponin", "title": "Serial high-sensitivity troponin T", "order_terms": ["troponin", "cardiac biomarkers", "cardiac enzymes"], "availability_message": "The serial high-sensitivity troponin T results are now available.", "results": [
+      {"id": "troponin_t_initial", "test": "High-sensitivity troponin T", "value": "84", "unit": "ng/L", "reference_range": "0-14", "flag": "critical", "specimen": "Blood", "collected_at": "At arrival"},
+      {"id": "troponin_t_2_hour", "test": "High-sensitivity troponin T", "value": "176", "unit": "ng/L", "reference_range": "0-14", "flag": "critical", "specimen": "Blood", "collected_at": "2 hours after the initial sample", "note": "Significant interval rise"}
+    ]}
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute coronary syndrome evaluation",
+    "core_concepts": [
+      "Ongoing substernal pain at rest with arm radiation and major cardiovascular risk factors must be treated as possible acute coronary syndrome until urgent assessment excludes it.",
+      "ACS includes unstable angina, NSTEMI, and STEMI; symptoms alone do not reliably distinguish them.",
+      "Initial evaluation requires urgent ECG-based assessment and cardiac troponin testing within an emergency pathway; treatment then depends on ACS subtype, bleeding risk, and reperfusion strategy."
+    ],
+    "diagnostic_clues": [
+      "Two hours of pain at rest",
+      "Substernal pain radiating to the left arm",
+      "Hypertension, diabetes, smoking, and family history of myocardial infarction",
+      "No relief with antacids"
+    ],
+    "common_misconceptions": [
+      "Antacid response or non-response is not enough to confirm or exclude ACS.",
+      "A patient describing pain as heartburn does not make a gastrointestinal diagnosis safe.",
+      "Absence of every classic symptom does not rule out ACS."
+    ],
+    "dangerous_errors": [
+      "Reassuring or discharging the patient as reflux before urgent ACS evaluation",
+      "Delaying emergency escalation while completing a routine outpatient history",
+      "Claiming that a single symptom, ECG, or troponin result always rules ACS in or out"
+    ],
+    "management_principles": [
+      "Escalate promptly to an acute chest-pain/ACS pathway and monitor the patient.",
+      "Use ECG, serial troponin assessment, and the full clinical context rather than one symptom in isolation.",
+      "Use antithrombotic and reperfusion strategies according to the working diagnosis, contraindications, bleeding risk, and local emergency protocol."
+    ],
+    "boundaries_and_exceptions": [
+      "Exact drug selection, dose, and invasive timing depend on ECG findings, troponin results, contraindications, bleeding risk, and local protocol.",
+      "Other immediately dangerous causes of chest pain, including aortic dissection and pulmonary embolism, remain in the differential when supported by the presentation."
+    ],
+    "source_refs": [
+      {
+        "title": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for Acute Coronary Syndromes",
+        "url": "https://professional.heart.org/en/guidelines-statements/2025-accahaacepnaemspscai-guideline-for-the-management-of-patients-with-acutecir0000000000001309"
+      }
+    ]
+  },
+  "doorknob_disclosure": "you have actually had a few of these same chest pains over the past two weeks, but they went away, so you told yourself it was nothing and didn't want to make a fuss about it",
+  "doorknob_probability": 0.7,
+  "reference_soap": {
+    "subjective": "58M presenting with 2hr substernal chest pain 7/10, radiating to left arm, onset at rest. Denies relief with antacids. PMH: HTN, T2DM. Smokes 20 pack-years.",
+    "objective": "Vitals pending. ECG, troponins required.",
+    "assessment": "ACS until proven otherwise. DDx: STEMI, NSTEMI, unstable angina, aortic dissection, PE.",
+    "plan": "Urgent acute chest-pain/ACS pathway with monitoring, ECG and serial troponin assessment; give aspirin when appropriate and not contraindicated, provide oxygen only if clinically indicated for hypoxemia, establish IV access, and obtain urgent cardiology/emergency input. Further antithrombotic and reperfusion management depends on findings, contraindications, bleeding risk, and local protocol."
+  },
+  "learning_objectives": [
+    "Elicit cardiac history systematically using SOCRATES",
+    "Explore cardiac risk factors: HTN, DM, smoking, family Hx, dyslipidaemia",
+    "Address patient's ICE — especially fear of MI",
+    "Verbalize ACS differential and dangerous diagnosis first"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Coronary Syndrome (ACS)",
+    "one_liner": "Chest pain from a blocked or critically narrowed coronary artery — the one diagnosis you must exclude first in any adult with chest pain.",
+    "differentials": [
+      "GERD / oesophageal spasm",
+      "Aortic dissection",
+      "Pulmonary embolism"
+    ],
+    "red_flags": [
+      "Pain lasting over 20 minutes at rest, sweating, low blood pressure, or fainting"
+    ],
+    "must_ask": [
+      {
+        "objective": "Site and radiation of the pain",
+        "say": "Where exactly is the pain, and does it move anywhere else?",
+        "domains": [
+          "location",
+          "radiation"
+        ],
+        "keywords": [
+          "arm",
+          "jaw",
+          "shoulder",
+          "spread",
+          "radiate",
+          "travel"
+        ]
+      },
+      {
+        "objective": "Onset and duration",
+        "say": "When did it start, and how long does it last each time?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Character of the pain",
+        "say": "How would you describe it — sharp, crushing, burning, tight?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "sharp",
+          "crushing",
+          "burning",
+          "tight",
+          "pressure",
+          "heavy"
+        ]
+      },
+      {
+        "objective": "Associated autonomic symptoms",
+        "say": "Along with the pain, did you feel sweaty, sick, or short of breath?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "sweat",
+          "nausea",
+          "sick",
+          "vomit",
+          "breath",
+          "clammy"
+        ]
+      },
+      {
+        "objective": "Cardiac risk factors",
+        "say": "Do you have high blood pressure, diabetes, or high cholesterol, and do you smoke?",
+        "domains": [
+          "pmh",
+          "smoking",
+          "family_hx"
+        ],
+        "keywords": [
+          "diabetes",
+          "cholesterol",
+          "smoking",
+          "hypertension"
+        ]
+      },
+      {
+        "objective": "Family history of early heart disease",
+        "say": "Has anyone in your family had a heart attack, especially young?",
+        "domains": [
+          "family_hx"
+        ],
+        "keywords": [
+          "family",
+          "father",
+          "mother",
+          "brother",
+          "sister"
+        ]
+      },
+      {
+        "objective": "The patient's own worry",
+        "say": "What are you most worried this might be?",
+        "domains": [
+          "concerns",
+          "ideas"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "142/88",
+      "hr": 84,
+      "rr": 18,
+      "spo2": 98,
+      "temp_c": 36.8
+    },
+    "history": [
+      {
+        "answer": "I have had this terrible pressure and aching in my chest for the past two hours, and it will not go away.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started suddenly about two hours ago while I was sitting quietly on the couch watching television.",
+        "topic": "Onset and initial activity"
+      },
+      {
+        "answer": "It is right in the middle of my chest behind the breastbone, and it feels broad rather than something I can point to with a finger.",
+        "topic": "Location of pain"
+      },
+      {
+        "answer": "It feels like a heavy, crushing tightness, as if someone placed a heavy weight on my chest.",
+        "topic": "Character of pain"
+      },
+      {
+        "answer": "Yes, the dull ache spreads down my left arm all the way to my wrist, but not into my jaw or back.",
+        "topic": "Radiation of pain"
+      },
+      {
+        "answer": "It has been completely constant for the entire two hours since it started, without any breaks.",
+        "topic": "Duration and persistence"
+      },
+      {
+        "answer": "It is around a seven out of ten in severity, and it has stayed steady at that intensity.",
+        "topic": "Pain severity and progression"
+      },
+      {
+        "answer": "I was resting when it hit me, and staying still has not helped ease the pain at all.",
+        "topic": "Effect of exertion and rest"
+      },
+      {
+        "answer": "Taking a deep breath, coughing, or moving around does not change the pain in any way.",
+        "topic": "Effect of breathing and position"
+      },
+      {
+        "answer": "Pressing on my ribs or chest does not make the pain any worse.",
+        "topic": "Tenderness to chest pressure"
+      },
+      {
+        "answer": "I had lunch hours earlier, but I tried taking some antacid tablets when the pain started, and they gave me no relief whatsoever.",
+        "topic": "Relation to food and antacids"
+      },
+      {
+        "answer": "I broke out in a sudden cold sweat and have been feeling nauseated, along with a bit of shortness of breath.",
+        "topic": "Associated autonomic symptoms"
+      },
+      {
+        "answer": "No, I have not passed out or felt dizzy or lightheaded.",
+        "topic": "Dizziness or fainting"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, cough, or phlegm.",
+        "topic": "Fever, cough, or phlegm"
+      },
+      {
+        "answer": "No, I have been completely well without any colds, sore throat, or body aches recently.",
+        "topic": "Recent viral illness"
+      },
+      {
+        "answer": "No swelling or aching in my legs, and I have not had any recent surgeries, long trips, or bed rest.",
+        "topic": "Leg swelling or immobilization"
+      },
+      {
+        "answer": "No, there are no rashes, bumps, or blisters anywhere on my skin.",
+        "topic": "Skin rash or blisters"
+      },
+      {
+        "answer": "I feel very frightened and anxious, like something terrible is happening inside my body.",
+        "topic": "Severe anxiety or panic"
+      },
+      {
+        "answer": "No, I have never had chest pain like this before, and I have never had heart procedures or stents.",
+        "topic": "Previous chest pain or procedures"
+      },
+      {
+        "answer": "No, I have not had any falls, blows to the chest, or heavy lifting recently.",
+        "topic": "Chest trauma or muscle strain"
+      },
+      {
+        "answer": "I was wondering if it could just be severe indigestion or heartburn, but the antacids did not help at all.",
+        "topic": "Patient ideas and thoughts"
+      },
+      {
+        "answer": "I am terrified that this is a heart attack because my father died of a heart attack when he was sixty-two.",
+        "topic": "Patient concerns and worries"
+      },
+      {
+        "answer": "I really need you to give me something to relieve this terrible pain and figure out what is wrong.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have had high blood pressure for five years and type 2 diabetes for three years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I have never had any surgeries, and I have never stayed overnight in a hospital.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take metformin 1000 mg twice a day for diabetes and lisinopril 10 mg once a day for blood pressure.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I do not have any allergies to medications or foods.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have smoked about a pack of cigarettes a day for twenty years.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I drink about two beers every evening.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am retired and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had a fatal heart attack at age sixty-two, and my mother had high blood pressure.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 142/88 mmHg without difference between arms, heart rate 84 beats per minute, respiratory rate 18 breaths per minute, oxygen saturation 98% on room air, and temperature 36.8°C.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Anxious-appearing man clutching his chest with noticeable diaphoresis and mild pallor, but in no respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Skin is cool and clammy with no rashes, vesicles, or erythema across the chest wall.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Jugular venous pressure is normal without distension or abnormal pulsations.",
+        "maneuver": "jugular_venous_pressure",
+        "response": "none"
+      },
+      {
+        "finding": "No chest wall deformity, and firm palpation across the sternum and costochondral junctions reproduces no tenderness.",
+        "maneuver": "chest_inspection_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "Regular rate and rhythm with normal S1 and S2, and no murmurs, gallops, or pericardial friction rubs.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Resonant to percussion symmetrically throughout all lung fields.",
+        "maneuver": "lung_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without wheezing, crackles, or rhonchi.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Abdomen is soft, non-distended, and non-tender, including the epigastrium, without guarding or rebound tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "none"
+      },
+      {
+        "finding": "No pitting edema in either lower extremity.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      },
+      {
+        "finding": "Both calves are symmetric, soft, non-tender, and without warmth or palpable cords.",
+        "maneuver": "calf_exam",
+        "response": "none"
+      }
+    ]
+  }
+}

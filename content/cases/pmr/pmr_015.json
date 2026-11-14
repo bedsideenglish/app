@@ -1,0 +1,347 @@
+{
+  "id": "pmr_015",
+  "system": "physical medicine & rehabilitation (pm&r)",
+  "difficulty": "intermediate",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Williams",
+  "age": 62,
+  "gender": "female",
+  "chief_complaint": "stiff, tight clenching of elbow/wrist and spastic catch on passive stretch with scissoring gait 6 months after MCA ischemic stroke",
+  "hpi_details": "62F presenting 6 months after a middle cerebral artery ischemic stroke with progressive stiff, tight clenching of the elbow and wrist, a spastic catch on passive stretch, and a scissoring gait pattern.",
+  "ideas": "She thinks her arm and leg muscles are permanently shrinking and freezing up because she has not been doing enough stretching at home.",
+  "concerns": "She is worried that her legs catching together will cause a severe fall and leave her completely dependent on her daughter.",
+  "expectations": "She hopes to receive a muscle-relaxing treatment or splint to pry her clenched fingers open so she can wash her palm.",
+  "pmh": "Middle cerebral artery ischemic stroke 6 months ago with residual hemiplegia",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Post-Stroke Spastic Hemiplegia evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Post-Stroke Spastic Hemiplegia is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes a stepwise spasticity program (stretching/splinting, then oral or focal botulinum toxin therapy) to prevent contracture, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: stiff, tight clenching of elbow/wrist and spastic catch on passive stretch with scissoring gait 6 months after MCA ischemic stroke",
+      "Key HPI features: 62F presenting 6 months after a middle cerebral artery ischemic stroke with progressive stiff, tight clenching of the elbow and wrist, a spastic catch on passive stretch, and a scissoring gait pattern.",
+      "Objective/Exam findings: Vitals normal. Modified Ashworth Scale 3 spasticity in the affected upper extremity with flexor synergy posturing (elbow, wrist, and finger flexion) and a velocity-dependent catch on passive stretch. Lower extremity shows an extensor pattern with plantarflexion and a scissoring gait. Skin intact in palmar creases. Mild passive range-of-motion limitation at the elbow and wrist without fixed bony contracture.",
+      "Relevant background/PMH: Middle cerebral artery ischemic stroke 6 months ago with residual hemiplegia"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Post-Stroke Spastic Hemiplegia.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Parkinsonian rigidity without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Severe flexor contractures."
+    ],
+    "management_principles": [
+      "Initiate regular stretching and range-of-motion exercises with resting hand/wrist splinting to prevent contracture",
+      "Consider oral antispasmodic agents (e.g., baclofen, tizanidine) for generalized spasticity",
+      "Use ultrasound- or EMG-guided botulinum toxin A injection for focal, functionally limiting spasticity in specific muscle groups",
+      "Monitor for skin breakdown in palmar creases and painful spasms, and refer for orthopedic evaluation if a fixed contracture develops despite treatment."
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "AAN Practice Guidelines for Neurological Disorders",
+        "url": "https://www.aan.com/Guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "62F presenting 6 months after a middle cerebral artery ischemic stroke with progressive stiff, tight clenching of the elbow and wrist, a spastic catch on passive stretch, and a scissoring gait pattern.",
+    "objective": "Vitals normal. Modified Ashworth Scale 3 spasticity in the affected upper extremity with flexor synergy posturing and a velocity-dependent catch on passive stretch. Lower extremity shows an extensor pattern with plantarflexion and a scissoring gait. Skin intact in palmar creases. Mild passive range-of-motion limitation without fixed bony contracture.",
+    "assessment": "Post-stroke spastic hemiplegia (upper motor neuron spasticity), Modified Ashworth Scale 3, with functional limitation and early risk of fixed contracture.",
+    "plan": "Initiate a structured spasticity program: stretching/range-of-motion exercises and resting hand/wrist splinting, with physical/occupational therapy. Consider oral antispasmodics for generalized spasticity and ultrasound- or EMG-guided botulinum toxin A injection for focal, functionally limiting spasticity. Monitor for skin breakdown and reassess Modified Ashworth Scale and functional goals regularly."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Stroke Hemiplegia Upper Motor Neuron Spasticity",
+    "Formulate prioritized differential diagnosis for stiff, tight clenching of elbow/wrist and spastic catch on passive stretch with scissoring gait 6 months after MCA ischemic stroke",
+    "Select appropriate spasticity assessment tools (Modified Ashworth Scale) and treatment escalation criteria for post-stroke spasticity",
+    "Implement evidence-based acute and long-term management strategies"
+  ],
+  "teaching": {
+    "diagnosis": "Post-Stroke Spastic Hemiplegia",
+    "one_liner": "Upper motor neuron lesion following stroke causing velocity-dependent hypertonia and muscle spasms.",
+    "differentials": [
+      "Parkinsonian rigidity",
+      "Joint contracture",
+      "Cerebral palsy spasticity"
+    ],
+    "red_flags": [
+      "Severe flexor contractures",
+      "Skin breakdown in palmar creases"
+    ],
+    "must_ask": [
+      {
+        "objective": "Spasticity severity and velocity dependence",
+        "say": "Does your arm or leg feel tight and snap back when you try to straighten it quickly?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "tight",
+          "straighten",
+          "snap",
+          "stiff",
+          "muscle"
+        ]
+      },
+      {
+        "objective": "Functional impact on hygiene and dressing",
+        "say": "Does the stiffness interfere with washing your palm or putting on clothes?",
+        "domains": [
+          "living_work"
+        ],
+        "keywords": [
+          "dressing",
+          "washing",
+          "palm",
+          "hygiene",
+          "clothes"
+        ]
+      },
+      {
+        "objective": "Painful spasms frequency",
+        "say": "Do you experience sudden, painful muscle spasms in your leg at night?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "spasms",
+          "spasm",
+          "cramp",
+          "painful",
+          "night"
+        ]
+      },
+      {
+        "objective": "Current antispasmodic therapy",
+        "say": "Are you taking medications like baclofen or have you received Botox injections?",
+        "domains": [
+          "medications"
+        ],
+        "keywords": [
+          "baclofen",
+          "botox",
+          "medication",
+          "injection"
+        ]
+      },
+      {
+        "objective": "Stroke history and timeline",
+        "say": "When did your stroke occur and how has the stiffness progressed since then?",
+        "domains": [
+          "pmh",
+          "progression"
+        ],
+        "keywords": [
+          "stroke",
+          "infarction",
+          "hemorrhage",
+          "onset"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "124/78",
+      "hr": 72,
+      "rr": 14,
+      "spo2": 99,
+      "temp_c": 36.7
+    },
+    "history": [
+      {
+        "answer": "Ever since my stroke six months ago, my right arm has been getting tighter and curling up against my chest. My right leg is also stiff, which makes walking and dressing very difficult.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "I had an ischemic stroke on the left side of my brain six months ago. I was in the hospital and did some rehab, but over the last three months, this stiffness has steadily gotten worse.",
+        "topic": "Stroke history and timeline"
+      },
+      {
+        "answer": "The stiffness began gradually about three months after my stroke. It started with a little tension in my elbow and wrist, then steadily tightened up week by week.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "It is all on my right side. My right elbow, wrist, and curled fingers are the tightest, but my right leg also feels stiff and straight.",
+        "topic": "Location of stiffness"
+      },
+      {
+        "answer": "My arm feels locked in a bent position like a tightly coiled spring pulled against my ribs. I have to fight my own muscles just to try and open my hand.",
+        "topic": "Character and severity of stiffness"
+      },
+      {
+        "answer": "Yes, exactly. If my husband tries to pull my arm straight quickly, it catches and locks tight, but if he pulls very slowly, it opens up a bit.",
+        "topic": "Spastic catch and velocity dependence"
+      },
+      {
+        "answer": "My right leg stays stiff like a board with my toes pointing down. When I try to walk, my right leg swings inward and crosses in front of my other leg like a pair of scissors.",
+        "topic": "Lower extremity stiffness and gait"
+      },
+      {
+        "answer": "I get sharp, cramping muscle spasms in my right arm two or three times a day. They usually last a minute or two and then settle down.",
+        "topic": "Painful spasms frequency"
+      },
+      {
+        "answer": "Cold temperatures, stress, and trying to hurry make the stiffness clamp down harder. A warm bath and slow, gentle stretching give me some temporary relief.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "It is a huge struggle because I cannot open my fingers to wash my palm or cut my fingernails. Getting my right arm through a shirt sleeve takes a lot of time and effort.",
+        "topic": "Impact on hygiene and dressing"
+      },
+      {
+        "answer": "I cannot walk outside by myself because my right toes drag on the ground and I trip easily. I also had to stop cooking and doing household chores.",
+        "topic": "Impact on daily activities"
+      },
+      {
+        "answer": "My husband helps me wash and dry my palm every day, so the skin inside my hand has stayed clean without any cracks, cuts, or sores.",
+        "topic": "Skin breakdown in palmar creases"
+      },
+      {
+        "answer": "No, I have not had any fever, chills, or sweating.",
+        "topic": "Fever or chills"
+      },
+      {
+        "answer": "No, I haven't fallen, hit my arm, or suffered any injuries.",
+        "topic": "Recent falls or trauma"
+      },
+      {
+        "answer": "No, I can feel touches, heat, and cold normally in both arms and legs.",
+        "topic": "Numbness or sensory changes"
+      },
+      {
+        "answer": "No, I haven't had any new facial drooping, slurred speech, vision changes, or sudden new weakness.",
+        "topic": "Recurrent stroke symptoms"
+      },
+      {
+        "answer": "No, my hands do not shake at rest, and I don't have any trembling.",
+        "topic": "Tremor or involuntary movements"
+      },
+      {
+        "answer": "No, I had a normal childhood with healthy movement and development.",
+        "topic": "Childhood neurological history"
+      },
+      {
+        "answer": "No, I am not currently taking any muscle relaxants or medicines for muscle tightness.",
+        "topic": "Current antispasmodic therapy"
+      },
+      {
+        "answer": "My husband helps me stretch my right fingers and elbow twice a day, and we use warm towels. It loosens things up for half an hour, but then it pulls tight again.",
+        "topic": "Stretching and home remedies"
+      },
+      {
+        "answer": "I thought my arm and leg were locking up and shrinking because I wasn't doing enough stretching on my own at home.",
+        "topic": "Patient thoughts on cause"
+      },
+      {
+        "answer": "I'm terrified that my legs crossing like this will make me fall and break a hip, making me a total burden on my daughter.",
+        "topic": "Patient worries and concerns"
+      },
+      {
+        "answer": "I was hoping you could give me some medicine or a brace to loosen this clenched fist so I can finally wash my palm and clip my nails.",
+        "topic": "Expectations for today visit"
+      },
+      {
+        "answer": "Aside from the stroke six months ago, I have had no other major medical problems like high blood pressure or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I was hospitalized six months ago for two weeks when I had my stroke, but I have never had any surgeries.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I am not taking any prescription medications, over-the-counter drugs, or supplements right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "No, I have no known allergies to any medications.",
+        "topic": "Medication allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "No, I do not drink alcohol.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am a retired accountant, and I live at home with my husband who supports me.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "No one in my family has a history of strokes, Parkinson's disease, or muscle disorders.",
+        "topic": "Family medical history"
+      },
+      {
+        "answer": "I went through menopause naturally over ten years ago when I was fifty.",
+        "topic": "Menstrual history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 124/78 mmHg, heart rate 72 beats/min, respiratory rate 14 breaths/min, body temperature 36.7°C, and oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Alert, oriented 62-year-old female sitting comfortably with the right upper extremity held in a flexed posture against the trunk.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Skin in the right palmar creases, axilla, and antecubital fossa is intact, clean, and dry without maceration, erythema, ulceration, or skin breakdown.",
+        "maneuver": "skin_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Mild passive range-of-motion limitation at the right elbow and wrist without fixed bony contractures; full extension is achievable with slow, sustained stretching.",
+        "maneuver": "joint_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Right upper extremity demonstrates flexor synergy posturing with Modified Ashworth Scale 3 spasticity and a velocity-dependent catch on rapid stretch, while the right lower extremity exhibits extensor hypertonia; contralateral tone and strength are normal.",
+        "maneuver": "motor_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Hyperactive deep tendon reflexes (3+) at the right biceps, brachioradialis, and patella with an extensor plantar response (positive Babinski sign) on the right; normal 2+ reflexes on the left.",
+        "maneuver": "reflexes",
+        "response": "none"
+      },
+      {
+        "finding": "Intact light touch and pinprick sensation symmetrically across both upper and lower extremities.",
+        "maneuver": "sensory_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Gait demonstrates a narrow base with right leg circumduction, toe dragging, and a scissoring pattern with diminished right arm swing.",
+        "maneuver": "coordination_gait",
+        "response": "none"
+      },
+      {
+        "finding": "No resting pill-rolling tremor, postural tremor, or lead-pipe cogwheel rigidity observed.",
+        "maneuver": "tremor_observation",
+        "response": "none"
+      },
+      {
+        "finding": "Cranial nerves II through XII intact aside from mild residual right lower facial weakness without dysarthria.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "id": "gi_043",
+  "system": "gi",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Smith",
+  "age": 28,
+  "gender": "female",
+  "chief_complaint": "severe right upper quadrant pain, fever, and vomiting in a pregnant patient",
+  "hpi_details": "A 28-year-old female presents to the clinic with severe right upper quadrant pain, fever, and vomiting; she is currently pregnant. The patient states the symptoms started recently and have been gradually worsening.",
+  "ideas": "She thinks the intense pain under her ribs is severe acid reflux or delayed morning sickness caused by the growing baby pressing against her stomach.",
+  "concerns": "She is terrified that the severe abdominal pain and fever might harm her unborn baby or trigger premature labor.",
+  "expectations": "She hopes to have an ultrasound to confirm that her baby's heartbeat is safe and to receive pregnancy-safe medicine to relieve the pain and nausea.",
+  "pmh": "Unremarkable",
+  "medications": "None",
+  "social_hx": "Non-smoker, social drinker",
+  "investigation_events": [
+    {
+      "id": "urgent_cholecystitis_workup",
+      "title": "Urgent pregnancy-safe cholecystitis workup",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "liver function tests",
+        "lfts",
+        "lipase",
+        "right upper quadrant ultrasound",
+        "ruq ultrasound",
+        "abdominal ultrasound"
+      ],
+      "availability_message": "The urgent laboratory and right-upper-quadrant ultrasound results are now available; pregnancy-safe fluids, analgesia, antibiotics, and specialist consultation should not be delayed.",
+      "results": [
+        {
+          "id": "white_blood_cell_count",
+          "test": "White blood cell count",
+          "value": "15.8",
+          "unit": "x10^3/mcL",
+          "reference_range": "4.0-11.0",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "At urgent presentation"
+        },
+        {
+          "id": "total_bilirubin",
+          "test": "Total bilirubin",
+          "value": "1.0",
+          "unit": "mg/dL",
+          "reference_range": "0.2-1.2",
+          "flag": "normal",
+          "specimen": "Blood",
+          "collected_at": "At urgent presentation"
+        },
+        {
+          "id": "lipase",
+          "test": "Serum lipase",
+          "value": "31",
+          "unit": "U/L",
+          "reference_range": "13-60",
+          "flag": "normal",
+          "specimen": "Blood",
+          "collected_at": "At urgent presentation"
+        },
+        {
+          "id": "right_upper_quadrant_ultrasound",
+          "test": "Right-upper-quadrant ultrasound",
+          "value": "Gallstones with gallbladder wall thickening to 5 mm, trace pericholecystic fluid, and positive sonographic Murphy sign; common bile duct 4 mm",
+          "flag": "abnormal",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Cholecystitis in Pregnancy evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Cholecystitis in Pregnancy is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes performing an RUQ ultrasound, starting IV fluids and pregnancy-safe antibiotics, and consulting OB/GYN and surgery, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe right upper quadrant pain, fever, and vomiting in a pregnant patient",
+      "Key HPI features: A 28-year-old female presents to the clinic with severe right upper quadrant pain, fever, and vomiting; she is currently pregnant. The patient states the symptoms started recently and have been gradually worsening.",
+      "Objective/Exam findings: Focused physical exam and vital signs check. Tailored diagnostics for Acute Cholecystitis in Pregnancy.",
+      "Relevant background/PMH: Unremarkable"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Cholecystitis in Pregnancy.",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Biliary colic without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Fever with right-upper-quadrant pain in pregnancy — needs urgent assessment given risk to both mother and baby."
+    ],
+    "management_principles": [
+      "Perform RUQ ultrasound, start IV fluids, safe antibiotics, consult OB/GYN and surgery",
+      "Consult specialist if symptoms worsen",
+      "Counsel patient"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "ACOG Practice Bulletins and Clinical Management Guidelines",
+        "url": "https://www.acog.org/clinical/clinical-guidance"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Patient presenting with chief complaint of severe right upper quadrant pain, fever, and vomiting in a pregnant patient.",
+    "objective": "Focused physical exam and vital signs check. Tailored diagnostics for Acute Cholecystitis in Pregnancy.",
+    "assessment": "Condition highly suspicious for Acute Cholecystitis in Pregnancy.",
+    "plan": "Perform an RUQ ultrasound (preferred imaging in pregnancy) and start IV fluids with pregnancy-safe antibiotics. Consult OB/GYN and surgery jointly given the risk to both mother and fetus; escalate promptly if symptoms worsen."
+  },
+  "learning_objectives": [
+    "Recognize clinical presentation and diagnostic markers of Acute Cholecystitis in Pregnancy",
+    "Select appropriate diagnostic workup for Acute Cholecystitis in Pregnancy",
+    "Implement evidence-based management plan: Perform RUQ ultrasound, start IV fluids, safe antibiotics, consult OB/GYN and surgery"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Cholecystitis in Pregnancy",
+    "one_liner": "Pregnancy hormones make bile thicker and gallstones more likely; when a stone blocks the gallbladder, it becomes inflamed, causing right-upper-quadrant pain, fever, and vomiting.",
+    "differentials": [
+      "Biliary colic",
+      "Acute pancreatitis",
+      "Appendicitis (displaced by pregnancy)"
+    ],
+    "red_flags": [
+      "Fever with right-upper-quadrant pain in pregnancy — needs urgent assessment given risk to both mother and baby"
+    ],
+    "must_ask": [
+      {
+        "objective": "Gestational age",
+        "say": "How many weeks pregnant are you?",
+        "domains": [],
+        "keywords": [
+          "pregnant",
+          "gestation",
+          "trimester"
+        ]
+      },
+      {
+        "objective": "Relation to fatty meals",
+        "say": "Did the pain start after a fatty meal?",
+        "domains": [
+          "onset_duration",
+          "aggravating"
+        ],
+        "keywords": [
+          "fatty",
+          "meal",
+          "eating"
+        ]
+      },
+      {
+        "objective": "Radiation to shoulder",
+        "say": "Does the pain spread to your shoulder blade or your back?",
+        "domains": [
+          "radiation"
+        ],
+        "keywords": [
+          "shoulder",
+          "blade",
+          "spread"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever or chills?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever",
+          "chills"
+        ]
+      },
+      {
+        "objective": "Fetal movement",
+        "say": "Have you noticed the baby moving normally?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "baby",
+          "moving",
+          "kicks",
+          "fetal"
+        ]
+      },
+      {
+        "objective": "Vomiting",
+        "say": "Have you been vomiting?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "vomiting",
+          "vomit",
+          "sick"
+        ]
+      },
+      {
+        "objective": "Known gallstones",
+        "say": "Have you been told before that you have gallstones?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "gallstones",
+          "gallbladder",
+          "diagnosed"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "118/74",
+      "hr": 102,
+      "rr": 18,
+      "spo2": 99,
+      "temp_c": 38.1
+    },
+    "history": [
+      {
+        "answer": "I'm pregnant, and I've been having this terrible pain in my upper right belly along with a fever and throwing up.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The pain started around yesterday evening, maybe 18 hours ago, and it has been gradually getting worse.",
+        "topic": "Onset and course"
+      },
+      {
+        "answer": "It is mainly in the upper right side of my stomach, right under my ribs, and it hasn't shifted anywhere else.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "Yes, the pain radiates around to my right shoulder blade and the right side of my back.",
+        "topic": "Radiation to shoulder"
+      },
+      {
+        "answer": "It's a constant, deep, severe ache that occasionally throbs, rather than coming and going in waves.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "Right now it is an 8 out of 10, and it has definitely become much more intense since last night.",
+        "topic": "Pain severity and progression"
+      },
+      {
+        "answer": "It felt a lot worse after I ate dinner last night, and deep breaths or moving around also aggravate it. Nothing really relieves it.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "About two hours before the pain started, I ate fried chicken for dinner. I haven't had any alcohol.",
+        "topic": "Preceding meal and alcohol"
+      },
+      {
+        "answer": "I've had a couple of milder stomach aches after greasy foods over the past few months, but nothing ever this severe or lasting this long.",
+        "topic": "Previous similar episodes"
+      },
+      {
+        "answer": "I've been feeling nauseous and threw up three times since last night. It was mostly stomach fluid and yellowish bile, no blood.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "Yes, I checked my temperature at home earlier this morning and it was 38.1 degrees Celsius, and I had shivers.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "My bowel movements have been normal, no diarrhea, and I'm still passing gas. I haven't seen any blood or black or pale stools.",
+        "topic": "Bowel habits and stool appearance"
+      },
+      {
+        "answer": "No, my skin and eyes look normal, and my urine hasn't turned dark or tea-colored.",
+        "topic": "Jaundice and urine color"
+      },
+      {
+        "answer": "No pain or burning when I pee, and I haven't noticed any blood in my urine.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I haven't felt faint or dizzy, even when standing up.",
+        "topic": "Dizziness or lightheadedness"
+      },
+      {
+        "answer": "No vaginal bleeding, spotting, or unusual discharge at all.",
+        "topic": "Vaginal bleeding or discharge"
+      },
+      {
+        "answer": "No chest pain, palpitations, or shortness of breath, other than it hurting to take a very deep breath.",
+        "topic": "Chest pain and breathing"
+      },
+      {
+        "answer": "I'm currently 20 weeks pregnant with my first baby.",
+        "topic": "Gestational age"
+      },
+      {
+        "answer": "Yes, I've felt the baby moving normally today, just like usual.",
+        "topic": "Fetal movement"
+      },
+      {
+        "answer": "No, I've never been told I had gallstones, and I haven't had an abdominal ultrasound before.",
+        "topic": "Known gallstones"
+      },
+      {
+        "answer": "I thought this terrible pain under my ribs was just really bad acid reflux or delayed morning sickness from the baby crowding my stomach.",
+        "topic": "Patient's ideas"
+      },
+      {
+        "answer": "I'm so scared that this high fever and uncontrollable vomiting will hurt my baby or cause me to go into early labor.",
+        "topic": "Patient's concerns"
+      },
+      {
+        "answer": "I really hope you can do a quick scan to make sure my baby is safe and give me something pregnancy-safe to stop this pain and vomiting.",
+        "topic": "Patient's expectations"
+      },
+      {
+        "answer": "I've always been healthy without any chronic medical illnesses like hypertension or diabetes.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I've never had any surgeries or hospital stays before.",
+        "topic": "Past surgical and hospital history"
+      },
+      {
+        "answer": "I only take my daily prenatal vitamins and folic acid. I haven't taken any NSAIDs, aspirin, or painkillers.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any allergies to medications, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "I have never smoked cigarettes.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I used to have an occasional drink socially, but I completely stopped drinking alcohol once I found out I was pregnant.",
+        "topic": "Alcohol history"
+      },
+      {
+        "answer": "I work as an office administrator and live with my husband.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My mother had her gallbladder removed in her forties because of gallstones, but no other major illnesses in the family.",
+        "topic": "Family history"
+      },
+      {
+        "answer": "Before becoming pregnant my periods were regular every 28 days, and my last menstrual period was about 20 weeks ago.",
+        "topic": "Last menstrual period and cycle"
+      },
+      {
+        "answer": "No heart rhythm issues, palpitations, or vascular diseases.",
+        "topic": "Cardiac and vascular history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Alert, visibly uncomfortable and guarding her right upper abdomen, but in no acute respiratory distress.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Blood pressure 118/74 mmHg, pulse 102 beats/min, respiratory rate 18 breaths/min, body temperature 38.1°C, oxygen saturation 99% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Sclerae are anicteric and conjunctivae are pink without pallor.",
+        "maneuver": "conjunctiva_sclera",
+        "response": "none"
+      },
+      {
+        "finding": "Clear breath sounds bilaterally without crackles or wheezes.",
+        "maneuver": "lung_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tachycardic regular rhythm without murmurs, rubs, or gallops.",
+        "maneuver": "heart_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Gravid abdomen consistent with second trimester; no surgical scars, visible distension, or caput medusae.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Normoactive bowel sounds heard in all four quadrants; no abdominal bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tympanitic throughout except dullness over the right upper quadrant; no shifting dullness.",
+        "maneuver": "abdominal_percussion",
+        "response": "none"
+      },
+      {
+        "finding": "Marked focal tenderness and involuntary guarding in the right upper quadrant; left side and lower abdomen are soft without tenderness.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "Mild localized rebound tenderness in the right upper quadrant; no generalized peritonitis.",
+        "maneuver": "rebound_tenderness",
+        "response": "pain"
+      },
+      {
+        "finding": "Inspiratory arrest upon deep palpation beneath the right costal margin.",
+        "maneuver": "murphy_sign",
+        "response": "pain"
+      },
+      {
+        "finding": "No tenderness at McBurney's point; negative psoas and obturator signs.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "No lower extremity edema or calf tenderness bilaterally.",
+        "maneuver": "extremity_edema",
+        "response": "none"
+      }
+    ]
+  }
+}

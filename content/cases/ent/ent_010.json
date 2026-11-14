@@ -1,0 +1,306 @@
+{
+  "id": "ent_010",
+  "system": "otolaryngology (ent)",
+  "difficulty": "beginner",
+  "eval_template": "history_taking",
+  "patient_name": "Ms. Hall",
+  "age": 2,
+  "gender": "female",
+  "chief_complaint": "severe throbbing ear pain, fever 39C, and tugging at ear in toddler following cold with bulging red tympanic membrane",
+  "hpi_details": "2-year-old girl brought in by her mother with a 2-day history of increasing fussiness, tugging at her right ear, and fever up to 39C, starting about a week after a runny nose and cough. Mother reports the child wakes up crying at night, is difficult to console, and has been refusing solid foods. No ear discharge noted.",
+  "ideas": "worried her daughter's ear infection is very painful and might be something serious",
+  "concerns": "worried about the high fever and how much pain her daughter seems to be in",
+  "expectations": "wants antibiotics started right away and reassurance that this isn't something more serious like mastoiditis",
+  "pmh": "No significant chronic medical history",
+  "medications": "None",
+  "social_hx": "Non-smoker, active lifestyle",
+  "clinical_knowledge": {
+    "topic": "Acute Otitis Media (with bulging tympanic membrane) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Otitis Media (with bulging tympanic membrane) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes high-dose oral amoxicillin as first-line therapy for bulging AOM, combined with analgesia and safety-net counseling for suppurative complications, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe throbbing ear pain, fever 39C, and tugging at ear in toddler following cold with bulging red tympanic membrane",
+      "Key HPI features: 2-year-old girl brought in by her mother with a 2-day history of increasing fussiness, tugging at her right ear, and fever up to 39C, starting about a week after a runny nose and cough. Mother reports the child wakes up crying at night, is difficult to console, and has been refusing solid foods. No ear discharge noted.",
+      "Objective/Exam findings: Vitals: HR 128, Temp 39.1C, RR 26, appears uncomfortable but consolable in mother's arms. Otoscopic examination reveals a markedly bulging, opaque, fiery red right tympanic membrane with complete loss of light reflex and bony landmarks. Left tympanic membrane normal. No post-auricular swelling, erythema, or tenderness; pinna not displaced.",
+      "Relevant background/PMH: No significant chronic medical history",
+      "Current medications: None"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Otitis Media (with bulging tympanic membrane).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Otitis media with effusion (no bulging, no acute infection signs) without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Swelling or redness behind the ear — suggests mastoiditis, a complication needing urgent evaluation."
+    ],
+    "management_principles": [
+      "First-line antibiotic therapy: high-dose Oral Amoxicillin 90 mg/kg/day divided BID for 10 days (Amoxicillin-Clavulanate if recent antibiotic exposure in the past 30 days, concurrent purulent conjunctivitis, or prior treatment failure)",
+      "Analgesia and fever control: weight-based Acetaminophen or Ibuprofen",
+      "Caregiver safety-net counseling: educate on red flags (post-auricular swelling/tenderness suggesting mastoiditis, persistent high fever, worsening irritability) requiring urgent re-evaluation; routine follow-up if no improvement within 48-72 hours"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "UpToDate & National Evidence-Based Clinical Practice Guidelines 2026",
+        "url": "https://www.uptodate.com/contents/table-of-contents/clinical-practice-guidelines"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "2-year-old girl brought in by her mother with a 2-day history of fever, ear-tugging, and irritability, beginning about a week after an upper respiratory infection, consistent with acute otitis media.",
+    "objective": "Vitals: HR 128, Temp 39.1C, RR 26, appears uncomfortable but consolable in mother's arms. Otoscopic examination reveals a markedly bulging, opaque, fiery red right tympanic membrane with complete loss of light reflex and bony landmarks. Left tympanic membrane normal. No post-auricular swelling, erythema, or tenderness; pinna not displaced.",
+    "assessment": "Acute Otitis Media with bulging tympanic membrane, right ear.",
+    "plan": "1. First-line antibiotic therapy: high-dose Oral Amoxicillin 90 mg/kg/day divided BID for 10 days (Amoxicillin-Clavulanate if recent antibiotic exposure in the past 30 days, concurrent purulent conjunctivitis, or prior treatment failure). 2. Analgesia and fever control with weight-based Acetaminophen or Ibuprofen. 3. Caregiver safety-net counseling on red flags (post-auricular swelling/tenderness suggesting mastoiditis, persistent high fever, worsening irritability) requiring urgent re-evaluation; routine follow-up if no improvement within 48-72 hours."
+  },
+  "learning_objectives": [
+    "Recognize the diagnostic criteria for Acute Otitis Media with bulging tympanic membrane (moderate-to-severe bulging, new-onset otorrhea not due to otitis externa, or mild bulging with recent onset of ear pain or erythema)",
+    "Select high-dose Amoxicillin 90 mg/kg/day as first-line therapy for AOM, reserving Amoxicillin-Clavulanate for recent antibiotic exposure, concurrent purulent conjunctivitis, or treatment failure",
+    "Identify red-flag signs of suppurative complications (post-auricular swelling/tenderness suggesting mastoiditis) requiring urgent escalation",
+    "Counsel caregivers on appropriate analgesia, fever control, and safety-netting/follow-up timelines for pediatric AOM"
+  ],
+  "teaching": {
+    "diagnosis": "Acute Otitis Media (with bulging tympanic membrane)",
+    "one_liner": "A bacterial middle ear infection, common in young children after a cold, causing ear pain, fever, and ear-tugging — the bulging, red eardrum on exam confirms the diagnosis and guides high-dose amoxicillin treatment.",
+    "differentials": [
+      "Otitis media with effusion (no bulging, no acute infection signs)",
+      "Otitis externa",
+      "Teething"
+    ],
+    "red_flags": [
+      "Swelling or redness behind the ear — suggests mastoiditis, a complication needing urgent evaluation"
+    ],
+    "must_ask": [
+      {
+        "objective": "Ear pain and behavior",
+        "say": "Has she been tugging at her ear or unusually fussy?",
+        "domains": [
+          "character"
+        ],
+        "keywords": [
+          "tugging",
+          "irritable"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "How high has the fever been?",
+        "domains": [
+          "character"
+        ]
+      },
+      {
+        "objective": "Preceding cold",
+        "say": "Did she have a cold recently?",
+        "domains": [
+          "onset_duration"
+        ]
+      },
+      {
+        "objective": "Sleep disturbance",
+        "say": "Has this been keeping her up at night?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      },
+      {
+        "objective": "Discharge",
+        "say": "Any fluid draining from the ear?",
+        "domains": [
+          "associated_symptoms"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "92/56",
+      "hr": 128,
+      "rr": 26,
+      "spo2": 98,
+      "temp_c": 39.1
+    },
+    "history": [
+      {
+        "answer": "My daughter has had a high fever for the last two days and keeps pulling at her right ear.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "The fever and ear pulling started two days ago, and she has only been grabbing her right ear.",
+        "topic": "Onset and affected ear"
+      },
+      {
+        "answer": "She seems to be in a lot of pain and has been unusually fussy and crying inconsolably.",
+        "topic": "Pain severity and irritability"
+      },
+      {
+        "answer": "She keeps waking up crying multiple times throughout the night and is very difficult to soothe back to sleep.",
+        "topic": "Nighttime crying and sleep"
+      },
+      {
+        "answer": "Touching or gently moving the outside of her ear doesn't seem to hurt more, but she cries and refuses to chew solid foods.",
+        "topic": "Pain with ear manipulation or chewing"
+      },
+      {
+        "answer": "No, there has not been any fluid, pus, or blood draining from either of her ears.",
+        "topic": "Ear discharge or bleeding"
+      },
+      {
+        "answer": "It is hard to tell for sure at her age, but she still turns her head when I call her name.",
+        "topic": "Hearing changes or muffled sounds"
+      },
+      {
+        "answer": "She hasn't been stumbling, falling over, or showing any signs of feeling dizzy or off-balance.",
+        "topic": "Dizziness and balance"
+      },
+      {
+        "answer": "Her temperature spiked up to 39 degrees Celsius yesterday, and she felt burning hot and was shivering.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "About a week ago, she caught a cold with a runny nose, mild cough, and congestion.",
+        "topic": "Preceding cold symptoms"
+      },
+      {
+        "answer": "No, her face looks completely normal and symmetrical, and there are no bumps or blisters anywhere around her ear.",
+        "topic": "Facial weakness or blisters"
+      },
+      {
+        "answer": "No, I checked behind her ear and there is no redness, swelling, or tenderness back there.",
+        "topic": "Swelling behind the ear"
+      },
+      {
+        "answer": "She can turn and bend her neck freely without crying, and she doesn't seem to have a stiff neck.",
+        "topic": "Headache and neck stiffness"
+      },
+      {
+        "answer": "She hasn't been swimming or got water stuck in her ear, and I never stick cotton swabs in her ear canals.",
+        "topic": "Water exposure or ear cleaning"
+      },
+      {
+        "answer": "No, she hasn't fallen, been hit, or put any small toys or objects into her ears.",
+        "topic": "Ear trauma or foreign objects"
+      },
+      {
+        "answer": "No, we haven't been on an airplane, in the mountains, or around any sudden pressure changes.",
+        "topic": "Air travel or pressure changes"
+      },
+      {
+        "answer": "She is not drooling or chewing on her hands, and this crying is much worse than when she was teething.",
+        "topic": "Teething and jaw discomfort"
+      },
+      {
+        "answer": "She drank milk without complaining of throat pain, and I haven't noticed any lumps in her neck.",
+        "topic": "Sore throat and neck lumps"
+      },
+      {
+        "answer": "No, this is the very first time she has ever had ear trouble, and she has never had ear tubes or ear surgery.",
+        "topic": "Past ear infections or surgeries"
+      },
+      {
+        "answer": "She does not have any chronic medical illnesses, immune problems, or diabetes.",
+        "topic": "Underlying medical conditions"
+      },
+      {
+        "answer": "She has been refusing solid food completely since yesterday, but she is still willing to drink small amounts of fluids.",
+        "topic": "Feeding and appetite"
+      },
+      {
+        "answer": "She goes to daycare three days a week, and several children in her classroom had runny noses last week.",
+        "topic": "Daycare and sick contacts"
+      },
+      {
+        "answer": "No one smokes anywhere around her, and we never let her drink from a bottle while lying flat on her back.",
+        "topic": "Secondhand smoke and bottle feeding"
+      },
+      {
+        "answer": "I am worried she has a really bad ear infection that is causing severe pain and might turn into something dangerous.",
+        "topic": "Parent's ideas and worries"
+      },
+      {
+        "answer": "I am really frightened by how high her fever is and seeing her in so much distress.",
+        "topic": "Parent's main concerns"
+      },
+      {
+        "answer": "I would like her to be started on antibiotics right away and want to be sure it hasn't spread behind her ear.",
+        "topic": "Parent's expectations"
+      },
+      {
+        "answer": "She has been a healthy child with no prior illnesses, hospital stays, or operations.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "She is not taking any regular medications or over-the-counter supplements right now.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "She has no known allergies to medicines, foods, or anything else.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "She was born full-term without complications and has met all her growth and speech milestones on time.",
+        "topic": "Birth and developmental history"
+      },
+      {
+        "answer": "All of her routine childhood vaccinations are completely up to date.",
+        "topic": "Vaccination history"
+      },
+      {
+        "answer": "There is no family history of hearing problems or recurrent childhood ear infections.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "The child appears irritable and flushed, uncomfortable but consolable in her mother's arms.",
+        "maneuver": "general_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Temperature 39.1°C, heart rate 128 beats/min, respiratory rate 26 breaths/min, blood pressure 92/56 mmHg, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Right tympanic membrane is markedly bulging, opaque, and fiery red with loss of landmarks; left tympanic membrane is normal, and there is no pinna tenderness, mastoid erythema, or post-auricular swelling.",
+        "maneuver": "ear_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Facial expressions are symmetric when smiling and crying, with no evidence of facial nerve weakness.",
+        "maneuver": "cranial_nerves",
+        "response": "none"
+      },
+      {
+        "finding": "Turns appropriately toward conversational voice and soft sounds bilaterally, though formal tuning fork evaluation is precluded by patient's age.",
+        "maneuver": "hearing_test",
+        "response": "none"
+      },
+      {
+        "finding": "Mild clear rhinorrhea and pharyngeal erythema without tonsillar enlargement or exudates; dentition is normal for age without oral lesions.",
+        "maneuver": "nose_throat_exam",
+        "response": "none"
+      },
+      {
+        "finding": "Small, mobile, non-tender bilateral anterior cervical lymph nodes are palpable; no supraclavicular lymphadenopathy.",
+        "maneuver": "neck_lymph_nodes",
+        "response": "none"
+      },
+      {
+        "finding": "Neck is supple with full passive flexion, and both Kernig and Brudzinski signs are absent.",
+        "maneuver": "meningeal_signs",
+        "response": "none"
+      }
+    ]
+  }
+}

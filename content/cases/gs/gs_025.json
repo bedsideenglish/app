@@ -1,0 +1,368 @@
+{
+  "id": "gs_025",
+  "system": "general surgery",
+  "difficulty": "advanced",
+  "eval_template": "history_taking",
+  "patient_name": "Mr. Ma",
+  "age": 62,
+  "gender": "male",
+  "chief_complaint": "severe left lower abdominal pain, fever, and change in bowel habits for 3 days",
+  "hpi_details": "62M presents with 3 days of constant, aching pain in the left lower quadrant of his abdomen, accompanied by a fever of 38.2C, mild nausea, and new onset of constipation.",
+  "ideas": "thinks he has a diverticulum infection or bowel cancer",
+  "concerns": "worried about bowel perforation and peritonitis",
+  "expectations": "wants CT scan and IV antibiotics",
+  "pmh": "Hypertension, Chronic constipation",
+  "medications": "Lisinopril 10mg daily",
+  "social_hx": "Retired, non-smoker",
+  "investigation_events": [
+    {
+      "id": "urgent_diverticulitis_workup",
+      "title": "Urgent diverticulitis results",
+      "order_terms": [
+        "blood tests",
+        "blood work",
+        "cbc",
+        "complete blood count",
+        "white blood cell count",
+        "ct abdomen",
+        "ct abdomen and pelvis"
+      ],
+      "availability_message": "The urgent diverticulitis results are now available.",
+      "results": [
+        {
+          "id": "white_blood_cell_count",
+          "test": "White blood cell count",
+          "value": "12.8",
+          "unit": "x10^3/mcL",
+          "reference_range": "4.0-11.0",
+          "flag": "high",
+          "specimen": "Blood",
+          "collected_at": "During urgent assessment"
+        },
+        {
+          "id": "ct_diverticulitis",
+          "test": "CT abdomen and pelvis with IV contrast",
+          "value": "Sigmoid diverticulosis with segmental wall thickening and pericolic fat stranding; no abscess, free air, or obstruction",
+          "flag": "abnormal",
+          "collected_at": "During urgent assessment"
+        }
+      ]
+    }
+  ],
+  "clinical_knowledge": {
+    "topic": "Acute Diverticulitis (uncomplicated) evaluation and management",
+    "core_concepts": [
+      "Prompt recognition and structured assessment of Acute Diverticulitis (uncomplicated) is essential for guiding targeted diagnostic workup and clinical decision-making.",
+      "A thorough clinical history, baseline risk assessment, and targeted objective testing must be synthesized rather than relying on any single symptom in isolation.",
+      "Standard management emphasizes CT confirmation of disease severity, supportive care with hydration and analgesia, and reserving antibiotics for complicated or higher-risk presentations, adapted to individual patient risk factors and clinical severity.",
+      "Diagnostic workup and therapeutic decisions should adhere to established clinical guidelines while accounting for patient-specific comorbidities."
+    ],
+    "diagnostic_clues": [
+      "Chief Complaint: severe left lower abdominal pain, fever, and change in bowel habits for 3 days",
+      "Key HPI features: 62M presents with 3 days of constant, aching pain in the left lower quadrant of his abdomen, accompanied by a fever of 38.2C, mild nausea, and new onset of constipation.",
+      "Objective/Exam findings: Vitals: Temp 38.2C, HR 92, BP 132/84. Left lower quadrant tenderness to palpation with mild voluntary guarding, no rebound or rigidity. Labs show mild leukocytosis. CT abdomen/pelvis with IV contrast demonstrates sigmoid diverticulosis with pericolic fat stranding, consistent with uncomplicated acute diverticulitis, without abscess, free air, or perforation.",
+      "Relevant background/PMH: Hypertension, Chronic constipation",
+      "Current medications: Lisinopril 10mg daily"
+    ],
+    "common_misconceptions": [
+      "Assuming that an atypical or mild presentation rules out Acute Diverticulitis (uncomplicated).",
+      "Relying solely on a single normal laboratory value or imaging result to prematurely exclude pathology.",
+      "Equating temporary symptomatic relief with full resolution of the underlying condition without completing standard evaluation.",
+      "Misattributing symptoms exclusively to Colorectal cancer without completing a comprehensive diagnostic workup."
+    ],
+    "dangerous_errors": [
+      "Failing to recognize red-flag features and delaying urgent escalation or emergency intervention.",
+      "Prematurely discharging or reassuring the patient before completing appropriate diagnostic assessment.",
+      "Initiating empirical treatment without considering major patient contraindications or drug interactions.",
+      "Ignoring critical warning signs such as: Diffuse peritonitis (suggests free perforation)."
+    ],
+    "management_principles": [
+      "Order CT scan of the abdomen/pelvis with IV contrast to confirm uncomplicated disease and exclude abscess or perforation",
+      "Provide supportive care with hydration, analgesia, and dietary advancement as tolerated",
+      "Reserve antibiotics for complicated disease, systemic illness, immunocompromise, or other higher-risk presentations"
+    ],
+    "boundaries_and_exceptions": [
+      "Specific drug dosages, monitoring protocols, and referral criteria must be tailored to organ function, comorbidities, and local hospital pathways.",
+      "Atypical presentations in elderly, pediatric, or immunocompromised patients may require lower thresholds for inpatient monitoring and specialist consultation."
+    ],
+    "source_refs": [
+      {
+        "title": "SAGES & ACS Evidence-Based Surgical Practice Guidelines",
+        "url": "https://www.facs.org/quality-programs/about-quality/evidence-based-guidelines/"
+      }
+    ]
+  },
+  "reference_soap": {
+    "subjective": "Chief Complaint: severe left lower abdominal pain, fever, and change in bowel habits for 3 days\n\n62M presents with 3 days of constant, aching pain in the left lower quadrant of his abdomen, accompanied by a fever of 38.2C, mild nausea, and new onset of constipation.",
+    "objective": "Vitals: Temp 38.2C, HR 92, BP 132/84. Left lower quadrant tenderness to palpation with mild voluntary guarding, no rebound or rigidity. Labs show mild leukocytosis. CT abdomen/pelvis with IV contrast demonstrates sigmoid diverticulosis with pericolic fat stranding, consistent with uncomplicated acute diverticulitis, without abscess, free air, or perforation.",
+    "assessment": "Acute uncomplicated diverticulitis.",
+    "plan": "Order CT scan of the abdomen/pelvis with IV contrast to confirm uncomplicated disease and exclude abscess or perforation. Use supportive care with hydration, analgesia, and dietary advancement as tolerated; reserve antibiotics for complicated disease, systemic illness, immunocompromise, or other higher-risk presentations. When antibiotics are indicated, select an appropriate regimen such as amoxicillin-clavulanate or ciprofloxacin plus metronidazole according to local guidance and contraindications."
+  },
+  "learning_objectives": [
+    "Recognize clinical features and diagnostic criteria of Acute Diverticulitis (uncomplicated).",
+    "Formulate prioritized differential diagnosis for severe left lower abdominal pain, fever, and change in bowel habits for 3 days",
+    "Select appropriate laboratory and imaging studies for general surgery",
+    "Implement evidence-based acute and long-term management strategies for Acute Diverticulitis (uncomplicated)."
+  ],
+  "teaching": {
+    "diagnosis": "Acute Diverticulitis (uncomplicated)",
+    "one_liner": "Micro-perforation or inflammation of a colonic diverticulum, classically causing left lower quadrant pain, fever, and a change in bowel habits — the 'left-sided appendicitis'.",
+    "differentials": [
+      "Colorectal cancer",
+      "Inflammatory bowel disease",
+      "Ischemic colitis"
+    ],
+    "red_flags": [
+      "Diffuse peritonitis (suggests free perforation)",
+      "Inability to tolerate oral intake with high fever"
+    ],
+    "must_ask": [
+      {
+        "objective": "Location and character of the pain",
+        "say": "Where exactly is the pain, and has it been constant or crampy?",
+        "domains": [
+          "location",
+          "character"
+        ],
+        "keywords": [
+          "left",
+          "lower",
+          "constant"
+        ]
+      },
+      {
+        "objective": "Duration",
+        "say": "How many days has this been going on?",
+        "domains": [
+          "onset_duration"
+        ],
+        "keywords": [
+          "days"
+        ]
+      },
+      {
+        "objective": "Fever",
+        "say": "Have you had a fever?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "fever"
+        ]
+      },
+      {
+        "objective": "Bowel habit change",
+        "say": "Has there been any change in your bowel habits, like constipation?",
+        "domains": [
+          "associated_symptoms"
+        ],
+        "keywords": [
+          "constipation",
+          "bowel habit"
+        ]
+      },
+      {
+        "objective": "Prior diverticulitis",
+        "say": "Have you ever been diagnosed with diverticulitis before?",
+        "domains": [
+          "pmh"
+        ],
+        "keywords": [
+          "diverticulitis",
+          "before"
+        ]
+      }
+    ]
+  },
+  "sp_script": {
+    "vitals": {
+      "bp": "132/84",
+      "hr": 92,
+      "rr": 16,
+      "spo2": 98,
+      "temp_c": 38.2
+    },
+    "history": [
+      {
+        "answer": "I've had severe pain in the lower left side of my belly and a fever for the past three days.",
+        "topic": "Opening statement"
+      },
+      {
+        "answer": "It started gradually about three days ago as a dull ache and has become steadily more severe.",
+        "topic": "Onset and progression"
+      },
+      {
+        "answer": "The pain is down in the lower left side of my abdomen, and it has stayed in that exact area without moving.",
+        "topic": "Pain location and migration"
+      },
+      {
+        "answer": "No, it doesn't spread anywhere else like my back, shoulder, or groin.",
+        "topic": "Radiation to other areas"
+      },
+      {
+        "answer": "It feels like a constant, heavy aching and throbbing pain rather than cramps that come and go.",
+        "topic": "Pain character"
+      },
+      {
+        "answer": "Right now I would rate it around a seven out of ten, and it has definitely gotten stronger over the last few days.",
+        "topic": "Pain severity"
+      },
+      {
+        "answer": "It has been hurting constantly without letting up for three days straight.",
+        "topic": "Duration of symptoms"
+      },
+      {
+        "answer": "Walking around, coughing, or bumping against things makes it throb more, while curling up still eases it slightly; eating also seems to make it worse.",
+        "topic": "Aggravating and relieving factors"
+      },
+      {
+        "answer": "I've had slight twinges on that side once or twice in recent years, but never anything this painful or lasting.",
+        "topic": "Prior similar episodes"
+      },
+      {
+        "answer": "I have felt mildly sick to my stomach since yesterday, but I haven't actually thrown up.",
+        "topic": "Nausea and vomiting"
+      },
+      {
+        "answer": "I've been quite constipated and haven't had a bowel movement in two days, although I am still able to pass gas.",
+        "topic": "Bowel habits and constipation"
+      },
+      {
+        "answer": "No, I haven't had any diarrhea, and there has been no red blood or dark tarry stool.",
+        "topic": "Stool appearance and blood"
+      },
+      {
+        "answer": "Yes, I've been feeling chilly and feverish, and when I took my temperature this morning it was 38.2 degrees.",
+        "topic": "Fever and chills"
+      },
+      {
+        "answer": "No, my eyes and skin look their normal color, and my urine hasn't turned dark brown or stools clay-colored.",
+        "topic": "Jaundice and stool color"
+      },
+      {
+        "answer": "No burning or pain when I urinate, no blood in my urine, and no need to pee more often than usual.",
+        "topic": "Urinary symptoms"
+      },
+      {
+        "answer": "No, I haven't felt dizzy, lightheaded, or faint at all.",
+        "topic": "Dizziness or fainting"
+      },
+      {
+        "answer": "No chest pain, chest tightness, or shortness of breath.",
+        "topic": "Chest pain and dyspnea"
+      },
+      {
+        "answer": "I haven't eaten anything greasy or out of the ordinary, and I haven't had any alcoholic drinks recently.",
+        "topic": "Dietary triggers and alcohol"
+      },
+      {
+        "answer": "I tried taking two acetaminophen pills yesterday, but they barely helped, and I haven't taken aspirin or ibuprofen.",
+        "topic": "Pain medication and NSAIDs"
+      },
+      {
+        "answer": "I have high blood pressure, but I don't have any irregular heart rhythm like atrial fibrillation or blood vessel blockages.",
+        "topic": "Arrhythmia and vascular disease"
+      },
+      {
+        "answer": "During a routine colonoscopy about five years ago, the doctor mentioned I had small pouches or diverticula in my colon, but I never had an infection diagnosed.",
+        "topic": "Prior diverticulosis history"
+      },
+      {
+        "answer": "I'm wondering if one of those colon pouches got infected, or if this could be something more serious like bowel cancer.",
+        "topic": "Patient ideas"
+      },
+      {
+        "answer": "I'm really worried that my intestine might tear or burst open and cause a serious abdominal infection.",
+        "topic": "Patient concerns"
+      },
+      {
+        "answer": "I was hoping to get a CT scan to see what is going on inside and receive IV antibiotics to clear up the infection.",
+        "topic": "Patient expectations"
+      },
+      {
+        "answer": "I have high blood pressure and I've dealt with chronic constipation for many years.",
+        "topic": "Past medical history"
+      },
+      {
+        "answer": "I had my appendix removed when I was a young man in my twenties, but no other surgeries or hospital admissions.",
+        "topic": "Past surgeries and hospitalizations"
+      },
+      {
+        "answer": "I take Lisinopril 10 milligrams once a day every morning for my blood pressure, and sometimes an over-the-counter fiber supplement.",
+        "topic": "Current medications"
+      },
+      {
+        "answer": "I don't have any known allergies to medications, foods, or materials.",
+        "topic": "Drug allergies"
+      },
+      {
+        "answer": "No, I have never smoked cigarettes or used tobacco.",
+        "topic": "Smoking history"
+      },
+      {
+        "answer": "I might have a single glass of wine on a special occasion, but I haven't had a drink in months.",
+        "topic": "Alcohol consumption"
+      },
+      {
+        "answer": "I am retired and live at home with my wife.",
+        "topic": "Occupation and living situation"
+      },
+      {
+        "answer": "My father had high blood pressure and died of a heart attack in his seventies, and my mother had hypertension, but nobody had colon cancer.",
+        "topic": "Family medical history"
+      }
+    ],
+    "exam": [
+      {
+        "finding": "Blood pressure 132/84 mmHg, heart rate 92 beats per minute, respiratory rate 16 breaths per minute, temperature 38.2 C, oxygen saturation 98% on room air.",
+        "maneuver": "vital_signs",
+        "response": "none"
+      },
+      {
+        "finding": "Flat abdomen with an old well-healed surgical scar in the right lower quadrant, no distension, erythema, or visible pulsation.",
+        "maneuver": "abdominal_inspection",
+        "response": "none"
+      },
+      {
+        "finding": "Hypoactive bowel sounds present in all four quadrants with no vascular bruits.",
+        "maneuver": "abdominal_auscultation",
+        "response": "none"
+      },
+      {
+        "finding": "Tympanitic note throughout with localized percussion tenderness over the left lower quadrant.",
+        "maneuver": "abdominal_percussion",
+        "response": "pain"
+      },
+      {
+        "finding": "Marked focal tenderness to palpation in the left lower quadrant with mild voluntary guarding, but no involuntary muscular rigidity.",
+        "maneuver": "abdominal_palpation",
+        "response": "pain"
+      },
+      {
+        "finding": "No rebound tenderness elicited in any abdominal quadrant.",
+        "maneuver": "rebound_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Negative Murphy sign with no tenderness or inspiratory arrest in the right upper quadrant.",
+        "maneuver": "murphy_sign",
+        "response": "none"
+      },
+      {
+        "finding": "No tenderness at McBurney point; psoas sign and obturator sign are negative.",
+        "maneuver": "appendicitis_signs",
+        "response": "none"
+      },
+      {
+        "finding": "No costovertebral angle tenderness bilaterally.",
+        "maneuver": "cva_tenderness",
+        "response": "none"
+      },
+      {
+        "finding": "Normal sphincter tone with no palpable rectal masses, no focal rectal wall tenderness, and no gross blood on the examining glove.",
+        "maneuver": "digital_rectal_exam",
+        "response": "none"
+      }
+    ]
+  }
+}
